@@ -2,11 +2,11 @@
 title: Design Justice AI Institute
 description: 'Using large language models to study anti-trans legislation'
 pubDate: 'Sept 05 2024'
-heroImage: '/plausibility.png'
+heroImage: '/codes/plausibility.png'
 ---
 This past July, I presented "[Plausibility and Passing: Using LLMs to Study Anti-Trans Discourse](https://www.youtube.com/live/uHhews1er04?si=iJ3-CWmH6gflEagy&t=195)" at the [Design Justice in AI Institute](https://criticalai.org/designjustice/). I'm going to talk about this project that I've been developing for a little over a year now, which uses machine learning to study discourses of transphobia that are currently proliferating across the United States.
 
-This project began a year before, in the summer of 2023, just after I finished drafting the last chapter of my dissertation. I had been deep in that for several years, and it's a crazy thing to be involved in the same project over many years. You grow, your ideas change and shift, and the project grows too, but it's also kind of stuck to the very first ideas that engendered it. So it always feels, inevitably, a bit stale.
+This project began a year before, in the summer of 2023, just after I finished drafting the last chapter of my dissertation. cI had been deep in that for several years, and it's a crazy thing to be involved in the same project over many years. You grow, your ideas change and shift, and the project grows too, but it's also kind of stuck to the very first ideas that engendered it. So it always feels, inevitably, a bit stale.
 
 So I was in this ambivalent headspace that June, which is pride month, and I was also going through a terrible breakup, and I was thinking, what is there to be proud of, right now? I was thinking in particular about all of the terrible news that year and the one before about the explosion of [anti-trans legislation](https://translegislation.com/), and how it didn't seem to matter to so many in the community who were out celebrating pride. Of course my perspective was colored by the breakup, I was in a dark place, but that's exactly what it took, at least in my case, to recognize and be motivated by the injustice. So I started thinking about using AI, which I was also researching and learning about, to study the bias in these bills.
 
