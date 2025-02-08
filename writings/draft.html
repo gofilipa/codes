@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-09-09 Mon 09:38 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="si" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgdce9849">1. iteration</a>
+<ul>
+<li>
+<ul>
+<li><a href="#org3833949">1.0.1. chapter 1: iteration</a></li>
+</ul>
+</li>
+<li><a href="#orgc0eef06">1.1. gender as iteration</a></li>
+<li><a href="#orgaab71b8">1.2. bank</a></li>
+</ul>
+</li>
+<li><a href="#org6a97436">2. data structure</a></li>
+<li><a href="#orgb780b3a">3. abstraction</a></li>
+<li><a href="#orgfed41e2">4. intelligence?</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgdce9849" class="outline-2">
+<h2 id="orgdce9849"><span class="section-number-2">1.</span> iteration</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>iteration in programming
+<ul class="org-ul">
+<li>core concept, allows us to compute at massive scales</li>
+<li>based on counting
+<ul class="org-ul">
+<li>text analysis fundamentally based on counting</li>
+<li>the fantansy of the falsifiable: the idea that if we can count
+it, we can know objective facts about literary history
+<ul class="org-ul">
+<li>the counting in the machine reinforces some of these
+positivist strains in humanist inquiry</li>
+</ul></li>
+</ul></li>
+<li>the problem: counting requires standardization
+<ul class="org-ul">
+<li>requires cleaning, regularization, which flattens specificity of
+text, textual nuances</li>
+<li>example: first sentence of Orlando</li>
+</ul></li>
+<li>so what can we do? we can turn to those who have re-framed
+oppressive structures, like Butler with iteration
+<ul class="org-ul">
+<li>second wave feminist theorizing on masculinist language
+structures</li>
+</ul></li>
+<li>THEN I HAVE NO IDEA!4c4
+<ul class="org-ul">
+<li>something about word similarities, word embeddings, close
+reading of orlando</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="outline-container-org3833949" class="outline-4">
+<h4 id="org3833949"><span class="section-number-4">1.0.1.</span> chapter 1: iteration</h4>
+<div class="outline-text-4" id="text-1-0-1">
+<p>
+<i>This chapter explores a core concept of programming, iteration,
+within text analysis processes. It shows first how iteration, by
+applying the same action to text at large, can reduce textual detail
+and nuance. It then demonstrates how this reductive mechanism can be
+reworked in a creative practice that surfaces unexpected connections
+in text.</i>
+</p>
+
+<p>
+A core concept in programming is <i>iteration</i>. A program takes a
+collection of data and systematically does something to each bit of
+data in the collection.
+</p>
+
+<p>
+In the Python language, the iterative construct is called the <code>for
+loop</code>.
+</p>
+
+<p>
+For example, with a <code>list</code> of words, such the first sentence from
+Virginia Woolf's novel, <i>Orlando: A Biography</i> (1928), a simple loop
+could display each word in that <code>list</code>, one by one.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python">sentence = 'He--for there could be no doubt of his sex, though the
+fashion of the time did something to disguise it--was in the act of
+slicing at the head of a Moor which swung from the rafters.'
+
+for word in sentence.split(): # for loop in python
+    print(word) # history of print function
+</pre>
+</div>
+
+<p>
+In the first line of code, the variable <code>sentence</code> here contains the
+first sentence of Woolf's novel.
+</p>
+
+<p>
+Below it, the <code>for loop</code> consists of two lines of code: the first line
+specifies the data to be iterated, such as a <code>list</code> of words, for
+example; and the second line specifies what is to be done to each item
+in that <code>list</code>, such as to display, or <code>print()</code>, the item, one by
+one. 
+</p>
+
+<pre class="example">
+He--for
+there
+could
+be
+no
+doubt
+of
+his
+sex,
+though
+the
+fashion
+of
+the
+time
+did
+something
+to
+disguise
+it--was
+in
+the
+act
+of
+slicing
+at
+the
+head
+of
+a
+Moor
+which
+swung
+from
+the
+rafters.
+</pre>
+
+<p>
+Iteration is a powerful in programming. It enables a computer to do
+things at scale by implementing the same action many times, even
+millions or billions of times, to a single peice of data.
+</p>
+
+<p>
+For that reason, iteration is the basis for all text analysis tasks.
+Text analysis, or the quantitative analysis of text data, and its
+variations like text analytics and text mining, rely on the simple,
+foundational act of counting text. Computers can "count" words in text
+by iterating through them, in the form of massive lists of words, to
+count occurances of each word, one by one. From there, a computer will
+use word counts to devise similarities between words and their usages
+in context. It can recognize patterns, even quite sophisticated ones.
+And from there, the possibilites explode&#x2013;from statistical pattern
+matching to machine learning (which is just a more sensitive kind of
+pattern matching).
+</p>
+
+<p>
+To be able to count well, however, text must somewhat standardized.
+The task of "pre-processing" (also called "cleaning" or "normalizing")
+strips the original text of capitalized words, punctuation, "stop
+words" (such as articles and prepositions), and inflections in word
+endings, all of which are deemed to be semantically minor, and to
+affect the analysis of more substantial features like nouns, verbs,
+adverbs, and adjectives.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python">number_of_words = 0
+text = ['Here', 'is', 'a', 'sample', 'text', 'with', 'eight', 'words'] 
+for word in text:
+    number_of_words += 1
+    print(f'counting {number_of_words} word(s) in the sentence')
+</pre>
+</div>
+
+<p>
+So iteration, while offering enormous power for analyzing data, also
+flattens specificities of that data in order to make it countable. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc0eef06" class="outline-3">
+<h3 id="orgc0eef06"><span class="section-number-3">1.1.</span> gender as iteration</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Gender is a kind of performance&#x2013;a series of acts that are repeated,
+or <i>re-iterated</i>, in the words of Judith Butler, to satisfy social
+expectations.
+</p>
+
+<p>
+The passive voice here is deliberate. The subject only comes to exist
+as a product of behavior.<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>
+</p>
+
+<p>
+Iteration is one way of understanding gender.<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup> Of understanding
+gender by how it operates, through the mechanism of
+iteration. Iteration is also a way of understanding the computational
+manipulation of text, also known as text analysis. The concept known
+as the "loop" in programming works by <i>iterating</i> through a series of
+items, like a list of words in a novel, and doing something to each
+item. For example, we might count the number of times the word "woman"
+appears in a text like Virginia Woolf's <i>Orlando</i>.<sup><a id="fnr.3" class="footref" href="#fn.3" role="doc-backlink">3</a></sup>
+</p>
+
+<p>
+In what follows, I take this similarity between iteration in gender
+theory and in programming logics to propose a text analysis method for
+analyzing gender in novels.
+</p>
+
+<p>
+I take Virginia Woolf's novel, <i>Orlando</i>, as my test case, showing how
+an <i>iterative</i> text analysis methodology disrupts gender as an innate
+or biologically-determined quality.
+</p>
+
+<p>
+My reading of Woolf's novel bears out what much of the scholarship on
+this has already discovered.
+</p>
+
+<p>
+But it does so through a novel method that surfaces new possibilities
+for close reading. The methodological intervention here also pertains
+to current practices in computational text analysis, a field that can
+be referred to as Cultural Analytics. Mostly, my method resists the
+more positivistic tendendies and idealistic attitudes toward
+computational tools: this work is not interested in unearthing a new
+understanding of literary history, isolating a needle in the haystack,
+or exploring the permutation of an idea over time or text. Rather, it
+is interested how the process of using computational tools can be in
+itself generative. The results, and their purported accuracy, are
+irrelevant for my purpose.<sup><a id="fnr.4" class="footref" href="#fn.4" role="doc-backlink">4</a></sup>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgaab71b8" class="outline-3">
+<h3 id="orgaab71b8"><span class="section-number-3">1.2.</span> bank</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Iteration, Butler explains, is also a way of <i>undoing</i> gender. It does
+so by upending its expectation. By acting in a way that is unexpected,
+that goes against the dictates of binary gender systems.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6a97436" class="outline-2">
+<h2 id="org6a97436"><span class="section-number-2">2.</span> data structure</h2>
+</div>
+<div id="outline-container-orgb780b3a" class="outline-2">
+<h2 id="orgb780b3a"><span class="section-number-2">3.</span> abstraction</h2>
+</div>
+<div id="outline-container-orgfed41e2" class="outline-2">
+<h2 id="orgfed41e2"><span class="section-number-2">4.</span> intelligence?</h2>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Gender performativity is “A process of reiteration by which
+both ‘subjects’ and ‘acts’ come to appear at all” (Butler, Bodies
+xviii).
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2" role="doc-backlink">2</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Judith Butler, from <i>Bodies that Matter</i>: "Performativity is
+thus not a singular 'act,' for it is always a reiteration of a norm or
+set of norms, and to the extent that it acquires an act-like status in
+the present, it conceals or dissimulates the conventions of which it
+is a repetition" (12).  
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3" role="doc-backlink">3</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+Put a description here of Orlando?
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.4" class="footnum" href="#fnr.4" role="doc-backlink">4</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+I am combining Stephen Ramsay with a feminist critique. Maybe
+something to articulate more fully in the body or here in the note. 
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: si</p>
+<p class="date">Created: 2024-09-09 Mon 09:38</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

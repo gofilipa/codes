@@ -1,0 +1,106 @@
+* queer codes
+
+** sketch
+The book experiments with Queer Studies-inflected approaches to the
+digital. 
+
+Queer practice as a way of working within constraints to open up
+possibilites for alternativity, meaning, resistance.
+
+There is a constraint, such as the reductive flattening of text in
+text analysis. The hierarchical format of data structures. The opacity
+of the interface, the display layer. The correlation/approximation
+between features in machine learning.
+
+These constraints are embraced by heteronormative culture, cultivated
+within a neoliberal logic. 
+
+Queer practice would, by contrast, seek these out and re-deploy them
+toward ends they were not built for. (This "practice" element is one
+way in which the book departs from others that treat similar
+subjects). 
+
+*** introduction
+The stakes:
+- AI: the marketing behind generative AI tools for writing and coding
+  poses false solutions. The GUI will always affect and determine our
+  engagement with the tool. 
+  - talk of agency in building/writing
+  - talk of democratizing access to coding/writing
+
+*** Performativity / text analysis
+*** Dis-identification / data formats
+Look at more dynamic forms of data? (Cristina's comment)
+- see [[https://en.wikipedia.org/wiki/Markup_language][markup language wiki]]
+
+*** Surface aesthetics / interface effects
+Areas:
+- software stacks
+- electronic literature
+- science fiction
+
+Black feminist theorizing on surface aesthetics, materiality, applied
+to a close reading of code and software stacks in electronic literary
+work. 
+
+For example, C. Riley Snorton's concepts of "fugitivity" and
+"fungibility". "Passing" by a reduction, darker skin means can pass as
+a different gender. Implies fungibility.
+
+Racialization -- how a descent into materiality/physicality is
+simultaneously an ascent into abstraction, into symbolic meaning. What
+happens to objects on the screen, as they travel up the software stack?
+
+Black Feminist Studies read other kinds of relation into this surface,
+reading relations besides exploitation. For example, a denial of
+access, of depth. An expression of hunger, of ingesting, taking in.
+
+How can we take this to analyze software?
+
+*** Seduction/correlation / machine learning
+SEDUCTION
+
+The idea that there is something seductive, that there is something
+irresistable about transition. ROGD - rapid onset gender dysphoria.
+
+The seduction of ways of thinking. The lack of critical thinking. The
+lack of individual thinking. The ways that we are tied to our desires,
+to our preconceptions, confirmation bias. It's the same detail that
+makes a chatbot so engaging, so intriguing. A chatbot will convince a
+user that it is intelligent, a user will project their desire to find
+meaning onto the chatbot.
+
+Just like that, a transphobic will project their desire onto others,
+the fear of ROGD. The desire for transition becomes transformed into a
+fear that transness is contagioius. I won't say whether it is or it's
+not.
+
+By creating a human-like interface, we project our desires and our
+fears onto it.
+
+CORRELATION, AFFINITY
+
+Wendy Chun's work tracing correlation's history to a eugenic past:
+these are the roots of practices we call "data science" or "data
+analytics" today (check official/academic defs, check Chun's book).
+Chun's work explores how they statistical methods that use correlation
+emerge from pratices studying genetics and heredity for the purpose of
+breeding superior humans. Despite that, Chun doesn't claim that all
+correlation is inherently wrong, or that there create unjust
+relations. Rather, she is more intereted in the discourse around
+correlation and its utopian possibilities (check her research
+questions that make this distinction).
+
+Donna Haraway, and others, talk about using affinity as a political
+method; that affinity can counteract some of the ways that what she
+calls the "informatics of domination" works to subscribe and
+exploit. She talks about taking the ways that informatics
+compartmentalizes and organizes people and resources as an opportunity
+for cultivating solidarity through affinity. Could this be a way of
+creating different kinds of clusters, associations?
+
+
+
+
+
+

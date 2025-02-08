@@ -1,0 +1,368 @@
+* iteration
+- iteration in programming
+  - core concept, allows us to compute at massive scales
+    - first sentence of orlando
+      - (but isn't the problem that text analysis flattens
+        specificity? How to bring this up from the outset?)
+  - based on counting
+    - text analysis fundamentally based on counting, the loop with a
+      counter.
+    - the fantasy of the falsifiable: the idea that if we can count
+      it, we can know objective facts about literary history
+      - the counting in the machine reinforces some of these
+        positivist strains in humanist inquiry
+	- we are not trying to make literary history reproducible.
+          That is not how this kind of knowledge will be made. 
+      - for example, the logistic regression algorithm vs the burrow's
+        delta algorithm
+	- the choice of algorithm has an effect 
+  - the problem: counting requires standardization
+    - requires cleaning, regularization, which flattens specificity of
+      text, textual nuances
+    - example: first sentence of Orlando
+  - so what can we do? we can turn to those who have re-framed
+    oppressive structures, like Butler with iteration
+    - second wave feminist theorizing on masculinist language
+      structures
+  - THEN I HAVE NO IDEA!4c4
+    - something about word similarities, word embeddings, close
+      reading of orlando
+
+*** chapter 1: iteration
+/This chapter explores a core concept of programming, iteration,
+within text analysis processes. It shows first how iteration, by
+applying the same action to text at large, can reduce textual detail
+and nuance. It then demonstrates how this reductive mechanism can be
+reworked in a creative practice that surfaces unexpected connections
+in text./
+
+
+**** core concept in programming
+A core concept in programming is /iteration/. A program takes a
+collection of data and systematically does something to each bit of
+data in the collection.
+
+In the Python language, the iterative construct is called the ~for
+loop~.
+
+# for loop gloss here
+
+For example, with a ~list~ of words, such the first sentence from
+Virginia Woolf's novel, /Orlando: A Biography/ (1928), a simple loop
+could display each word in that ~list~, one by one.
+
+# list gloss here
+
+#+begin_src python
+  sentence = 'He--for there could be no doubt of his sex, though the
+  fashion of the time did something to disguise it--was in the act of
+  slicing at the head of a Moor which swung from the rafters.'
+  
+  for word in sentence.split(): # for loop in python
+      print(word) # history of print function
+#+end_src
+
+In the first line of code, the variable ~sentence~ here contains the
+first sentence of Woolf's novel.
+
+Below it, the ~for loop~ consists of two lines of code: the first line
+specifies the data to be iterated, such as a ~list~ of words, for
+example; and the second line specifies what is to be done to each item
+in that ~list~, such as to display, or ~print()~, the item, one by
+one. 
+
+#+begin_src 
+He--for
+there
+could
+be
+no
+doubt
+of
+his
+sex,
+though
+the
+fashion
+of
+the
+time
+did
+something
+to
+disguise
+it--was
+in
+the
+act
+of
+slicing
+at
+the
+head
+of
+a
+Moor
+which
+swung
+from
+the
+rafters.
+#+end_src
+
+Iteration is a powerful in programming. It enables a computer to do
+things at scale by implementing the same action many times, even
+millions or billions of times, to a single peice of data. For that
+reason, iteration is the basis for all text analysis tasks.
+
+**** based on counting
+Text analysis, or the quantitative analysis of text data, and its
+variations like text analytics and text mining, rely on the simple,
+foundational act of counting words in text. Computers "count" words by
+iterating through them and tallying each one.
+
+In the below code block, the ~count~ variable keeps track of how many
+words have been iterated through the loop. It starts at 0, and with
+each iteration of the loop, increases by 1. 
+
+#+begin_src python
+  count = 0
+  for each word in sentence:
+      count += 1 # the #+ operator adds the value on the right to the
+		 # variable on the left
+
+  print(count)
+#+end_src
+
+Because computers can process hundreds of texts at a time, "reading"
+at much faster rates than humans, they attract literary critics like
+Franco Moretti, Matthew Jockers, and Ted Underwood who pose ambitious
+questions about literary history.
+
+**** TODO critique of falsifiable
+- critique of moretti and da: objectivity of the tool occludes the
+  subjectivity of the subject
+- critique of underwood: objectivity of the method to bring out
+  subjectivities, perspectives
+  - logistic regression
+- critique of mandell: gender operates like genre, imitable
+  - burrow's delta
+- butler: but gender is not imitable
+  - what is gender, then? iterable
+  - we need an approach to studying gender that will match it
+    - so and roland, using binary methods to deconstruct categories
+      (maybe this goes right after underwood?)
+
+These critics harness the purportedly objective mechanism of counting
+to study what they believe to be equally objective phenomena:
+narrative forms and trends over time. Their methodologies go by many
+names, "distant reading," "macroanalysis," or "perspectival
+modelling," but they all have in common a driving belief that I call
+"the faith of the falsifiable."[fn:5] This faith emerges from a
+conviction that numbers can be trusted more than letters, and
+therefore ought to be the basis of interpreting literary meaning.
+
+I trace this faith, which existed long before computers, to one
+possible origin--a 1983 essay by Franco Moretti, which he wrote almost
+two decades before he introduced the phrase "distant reading." In this
+essay, "The Soul and the Harpy," which lays out his reasoning for
+developing a new methodological approach for literary criticism,
+Moretti betrays a deep suspicion about literary analyses that
+"multiply, rather than reduce, the obstacles every social science
+encounters when it tries to give itself a testable foundation," and
+about the literary critic himself, whom he likens to Narcissus, "whose
+only pleasure lay in contemplating his own reflection" ("Soul" 22,
+14).
+
+Moretti proposes an alternative methodology, what he calls a
+"falsifiable criticism," that grounds the critical process in
+hypotheses to "test" literary interpretations ("Soul" 21). To Moretti,
+falsifiable means verifiable, pursuing answers that are "coherent,
+univocal, and complete" ("Soul" 21). The objective for literary
+criticism is to reach irrefutable conclusions: "The day criticism
+gives up the battle cry 'it is possible to interpret this element in
+the following way,' to replace it with the much more prosaic 'the
+following interpretation is impossible for such and such a reason', it
+will have taken a huge step forward on the road of methodological
+solidity" ("Soul" 22). Moretti’s falsifiable criticism eventually
+develops into a method that involves posing hypotheses, assembling and
+analyzing data, making inferences, and occasionally, reframing the
+original hypotheses, which we see in full bloom in the experiments
+that make up the collection, /Distant Reading/. 
+
+In these essays, the objectivity of the tools he uses to do analysis
+compensates for the subjectivity of the literary critic. In one essay,
+for example, Moretti counts the length of book titles and compares
+them with statistics on the publishing market in England bewteen the
+years 1740 and 1850, with the goal of ascertaining a relationship
+between the two. He "finds" a causal relation where market forces act
+on the titles: "As the market expands, titles contract; as they do
+that, they learn to compress meaning" (204). As in so much of his
+writing, the short declaratives here reinforce the obviousness, even
+an inevitability, of his conclusions. Further down, when explaining
+his interpretive moves, he employs language that diminishes his
+critical subjectivity: 
+#+begin_quote
+first, I describe a major metamorphosis of eighteenth-century titles,
+and try to explain its causes; next, I suggest how a new type of title
+that emerged around 1800 may have changed what readers expected of
+novels; and finally, I make a little attempt at quantitative
+stylistics… (181-2)
+#+end_quote
+As Stephen Ramsay points out in his critique of Moretti, "data is
+presented to us... not as something that is also in need of
+interpretation" (Ramsay 5). Because the evidence is quantifiable, that
+is, can be counted, Moretti presents his insights as an objective
+description of reality, reinforced by the presence of graphs and other
+visualizations.
+
+Even critics who take opposite view on the role of quantification in
+literary analysis agree on the fundamental premise that qantification
+offers a more objective kind of analysis. Ironically, the faith in
+falsifiable criticism gets its strongest expression in a famous
+detraction by Nan Z. Da, who argues that quantitative methods, trading
+"speed for accuracy, and coverage for nuance," reveal a "fundamental
+mismatch between the statistical tools that are used and the objects
+to which they are applied" (620, 601). Da emphasizes her point with an
+experiment in Topic Modeling, a machine learning method that generates
+a number of "topics," or keywords, from large collections of text. Da
+attempts to verify the results of a topic modelling experiment by
+replicating the process on her own computer, but she fails to produce
+the same results and concludes that the method is ineffective.
+However, as Ben Schmidt explains, the difference in her results is an
+effect of the different technical specifications that Da uses to run
+her experiments. Additionally, he points out that, "Far more than
+anyone I’ve seen in any humanities article, she asserts that
+scientists do something arcane, powerful, and true.[fn:6] Despite
+their vastly different views on the role of quantitative methods for
+studying literature, Da and Moretti appear to agree that these methods
+ought to provide results that are, at the very least, reproducible.
+
+**** TODO critique of underwood
+- underwood goes in a good direction: using the objectivity of the
+  method to bring out subjectivites in the data.
+  - perspectival modelling
+  - but there needs to be a correspondance between method and subject
+    matter. They ought to align in some way.
+    - logistic regression to study gender
+    - burrow's delta to study gender/genre
+      - both carry implicit assumptions :)
+      - they aren't "wrong", per se, but the method carries implicit
+        assumptions. 
+
+abstraction
+- Moretti, for example, explains that quantification reduces textual
+  complexity to open up its potential for its analysis: "fewer
+  elements, hence a sharper sense of their overall interconnection"
+  (/Graphs/ 1).
+
+This approach toward quantification represents what I call the
+"fantasy of the falsifiable."
+
+
+
+From there, a computer will use word counts to devise
+similarities between words and their usages in context. It can
+recognize patterns, even quite sophisticated ones. And from there, the
+possibilites explode--from statistical pattern matching to machine
+learning (which is just a more sensitive kind of pattern matching).
+
+# gloss for machine learning.
+
+To be able to count well, however, text must somewhat standardized.
+The task of "pre-processing" (also called "cleaning" or "normalizing")
+strips the original text of capitalized words, punctuation, "stop
+words" (such as articles and prepositions), and inflections in word
+endings, all of which are deemed to be semantically minor, and to
+affect the analysis of more substantial features like nouns, verbs,
+adverbs, and adjectives.
+
+#+begin_src python
+  number_of_words = 0
+  text = ['Here', 'is', 'a', 'sample', 'text', 'with', 'eight', 'words'] 
+  for word in text:
+      number_of_words += 1
+      print(f'counting {number_of_words} word(s) in the sentence')
+#+end_src
+
+So iteration, while offering enormous power for analyzing data, also
+flattens specificities of that data in order to make it countable. 
+
+** gender as iteration
+Gender is a kind of performance--a series of acts that are repeated,
+or /re-iterated/, in the words of Judith Butler, to satisfy social
+expectations.
+
+The passive voice here is deliberate. The subject only comes to exist
+as a product of behavior.[fn:2]
+
+Iteration is one way of understanding gender.[fn:1] Of understanding
+gender by how it operates, through the mechanism of
+iteration. Iteration is also a way of understanding the computational
+manipulation of text, also known as text analysis. The concept known
+as the "loop" in programming works by /iterating/ through a series of
+items, like a list of words in a novel, and doing something to each
+item. For example, we might count the number of times the word "woman"
+appears in a text like Virginia Woolf's /Orlando/.[fn:3]
+
+In what follows, I take this similarity between iteration in gender
+theory and in programming logics to propose a text analysis method for
+analyzing gender in novels.
+
+I take Virginia Woolf's novel, /Orlando/, as my test case, showing how
+an /iterative/ text analysis methodology disrupts gender as an innate
+or biologically-determined quality.
+
+My reading of Woolf's novel bears out what much of the scholarship on
+this has already discovered.
+
+But it does so through a novel method that surfaces new possibilities
+for close reading. The methodological intervention here also pertains
+to current practices in computational text analysis, a field that can
+be referred to as Cultural Analytics. Mostly, my method resists the
+more positivistic tendendies and idealistic attitudes toward
+computational tools: this work is not interested in unearthing a new
+understanding of literary history, isolating a needle in the haystack,
+or exploring the permutation of an idea over time or text. Rather, it
+is interested how the process of using computational tools can be in
+itself generative. The results, and their purported accuracy, are
+irrelevant for my purpose.[fn:4]
+
+** bank
+Iteration, Butler explains, is also a way of /undoing/ gender. It does
+so by upending its expectation. By acting in a way that is unexpected,
+that goes against the dictates of binary gender systems.
+
+* data structure
+* abstraction
+* prediction/approximation/affinity
+
+
+
+* Footnotes
+
+[fn:6] Schmidt rightly points out that Da uses different parameters
+and software to run her Topic Models, which explains the discrepancy
+in results. For a more thorough critique of Da’s aims and methodology
+in this article, please see Ben Schmidt’s "Computational Critique of a
+Computational Critique of Computational Critique." Ben Schmidt, Dec 5,
+2019. https://benschmidt.org/post/critical_inquiry/2019-03-18-nan-da-critical-inquiry/
+ 
+[fn:5] "Distant reading," "macroanalysis," and "perspectival
+modelling" are methods developed by Franco Moretti, Matthew Jockers,
+and Ted Underwood, respectively. 
+
+[fn:4] I am combining Stephen Ramsay with a feminist critique. Maybe
+something to articulate more fully in the body or here in the note. 
+
+[fn:3] Put a description here of Orlando?
+
+[fn:2] Gender performativity is “A process of reiteration by which
+both ‘subjects’ and ‘acts’ come to appear at all” (Butler, Bodies
+xviii).
+
+[fn:1] Judith Butler, from /Bodies that Matter/: "Performativity is
+thus not a singular 'act,' for it is always a reiteration of a norm or
+set of norms, and to the extent that it acquires an act-like status in
+the present, it conceals or dissimulates the conventions of which it
+is a repetition" (12).  

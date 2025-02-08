@@ -1,0 +1,218 @@
+* ahem
+** 3.27.2024
+I'm choosing this method and I'm going to do it slowly. I am choosing
+this method and I'm going to do it slowly. My legs are crossed and
+they will cramp. I will not write otherwise. I will not write in the
+old way, like someone is breathing down my neck. I will not write in
+the old way. I will by force if necessary lower my heartrate knowing
+that one cannot force relaxation. It is a method of letting go. The
+trick then is to note, to notice what I need to let go.
+
+** 5.9.2024
+I am not even going to write today. But I'm back inside this document
+and that is enough.
+
+** 5.31.2024
+And I'm thinking now and again perhaps I ought to write it as a
+long-form book. Matt said that one of his regrets was not making
+something of the work he did in the dissertation. That now he has that
+problem.
+
+I would like to write a book. But I don't know. I don't know. Not like
+my dissertation. That feels stuffy. It wasn't fun. The ideas were fun,
+but not the academic writing.
+
+Maybe I will try re-writing it now, and see what happens.
+
+And I could also try a draft of a coding tutorial, and see what
+happens.
+
+** 8.29.2024
+I'm still in the same kind of place where I was before. I'm thinking
+about what form the book will take. Whether it should be theoretically
+foregrounded or as a kind of coding tutorial. I really want to do the
+tutorial. I want to try the tutorial. I think, I do have a long-form
+academic book inside of me, but I'm not quite sure this one is it. So
+maybe I start with what I have in the forefront of my mind.
+
+*** How would it go?
+
+First, download python (lol). [insert foothote]
+
+Then, open your python notebook and type the following into the first
+empty cell.
+
+#+begin_src python
+  1 + 1
+#+end_src
+
+Press SHIFT + ENTER to run the cell. The result should appear just
+below, and it should be the number 2.
+
+You can use Python as a calculator. 
+
+
+*** for loops
+
+#+begin_src python
+  for letter in "hello world!":
+    print(letter)
+#+end_src
+
+#+begin_src python
+  h
+  e
+  l
+  l
+  o
+
+  w
+  o
+  r
+  l
+  d
+  !
+#+end_src
+
+The above construct is called a ~for loop~ in the Python programming
+language. 
+
+** 8.30.2024
+
+I think I need a kind of outline. Starting to just draft doesn't work. 
+
+chapter one: iteration
+- iteration in programming
+  - we begin with the for loop.
+    - iterate through the first sentence of /Orlando/
+    - counting requires loops
+      - loops are ways of programmatically iterating over data 
+    - counting requires cleaning (requires loops)
+    - cleaning flattens specificity
+  - loops are problematic
+- gender as iterative
+- the fantasy of the falsifiable
+  - english
+
+*** chapter 1: iteration
+A core concept in programming is /iteration/. It is when a program
+takes a collection of data and systematically does something to each
+bit of data in the collection.
+
+In the Python programming language, the iterative construct is known
+as the ~for loop~.
+
+# for loop gloss here
+
+For example, with a ~list~ of words, such the first sentence from
+Virginia Woolf's novel, /Orlando: A Biography/ (1928), a simple loop
+could display each word in that ~list~, one by one.
+
+# list gloss here
+
+#+begin_src python
+  sentence = 'He--for there could be no doubt of his sex, though the
+  fashion of the time did something to disguise it--was in the act of
+  slicing at the head of a Moor which swung from the rafters.'
+  for word in sentence.split(): # for loop in python
+      print(word) # history of print function
+#+end_src
+
+In the first line of code, the variable ~sentence~ here contains the
+first sentence of Woolf's novel.
+
+Below it, the ~for loop~ consists of two lines of code: the first line
+specifies the data to be iterated, such as a ~list~ of words, for
+example; and the second line specifies what is to be done to each item
+in that ~list~, such as to display, or ~print()~, the item, one by
+one. 
+
+#+begin_src 
+He--for
+there
+could
+be
+no
+doubt
+of
+his
+sex,
+though
+the
+fashion
+of
+the
+time
+did
+something
+to
+disguise
+it--was
+in
+the
+act
+of
+slicing
+at
+the
+head
+of
+a
+Moor
+which
+swung
+from
+the
+rafters.
+#+end_src
+
+Iteration is a powerful construct in programming. It enables a
+computer to do things at scale by implementing the same action many
+times, even millions or billions of times, to a single peice of data.
+
+For that reason, iteration is the basis for all text analysis tasks.
+Text analysis, or the quantitative analysis of text data, and its
+variations like text analytics and text mining, all rely on the simple,
+foundational act of counting text. By iterating through texts (in the
+form of massive lists of words), a computer can count occurances of
+each word, one by one. From there, a computer can use word counts to
+devise similarities between words and their usages in context. It can
+recognize patterns, even quite sophisticated ones. And from there, the
+possibilites explode--from statistical pattern matching to machine
+learning (which is just a more sensitive kind of pattern matching).
+
+# gloss for machine learning.
+
+To be able to count well, however, text must somewhat standardized.
+The task of "pre-processing" (also called "cleaning" or "normalizing")
+strips the original text of capitalized words, punctuation, "stop
+words" (such as articles and prepositions), and inflections in word
+endings, all of which are deemed to be semantically minor, and would
+affect the analysis of more substantial features like nouns, verbs,
+adverbs, and adjectives. 
+
+#+begin_src python
+  number_of_words = 0
+  text = ['Here', 'is', 'a', 'sample', 'text', 'with', 'eight', 'words'] 
+  for word in text:
+      number_of_words += 1
+      print(f'counting {number_of_words} word(s) in the sentence')
+#+end_src
+
+** 9.5.2024
+I don't really know. Okay.
+
+What is the main argument of the chapter?
+- Iteration is a computational constraint that can be re-worked to
+  unleash details about text.
+
+So what is the way to organize it?
+- I don't know. I think I have to write it first, and then I will see
+  the form it takes, and then I can re-write structure it.
+
+I think I am ready to move this draft so far to a separate doc. 
+
+** 2.7.2025
+Machine learning (perhaps to be called "prediction" chapter):
+Something about correlation vs affinity as a way of reworking the way
+that correlation collapses/abstracts at the expense of detail. 

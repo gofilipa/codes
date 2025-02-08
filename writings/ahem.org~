@@ -1,0 +1,162 @@
+* ahem
+** 3.27.2024
+I'm choosing this method and I'm going to do it slowly. I am choosing
+this method and I'm going to do it slowly. My legs are crossed and
+they will cramp. I will not write otherwise. I will not write in the
+old way, like someone is breathing down my neck. I will not write in
+the old way. I will by force if necessary lower my heartrate knowing
+that one cannot force relaxation. It is a method of letting go. The
+trick then is to note, to notice what I need to let go.
+
+** 5.9.2024
+I am not even going to write today. But I'm back inside this document
+and that is enough.
+
+** 5.31.2024
+And I'm thinking now and again perhaps I ought to write it as a
+long-form book. Matt said that one of his regrets was not making
+something of the work he did in the dissertation. That now he has that
+problem.
+
+I would like to write a book. But I don't know. I don't know. Not like
+my dissertation. That feels stuffy. It wasn't fun. The ideas were fun,
+but not the academic writing.
+
+Maybe I will try re-writing it now, and see what happens.
+
+And I could also try a draft of a coding tutorial, and see what
+happens.
+
+** 8.29.2024
+I'm still in the same kind of place where I was before. I'm thinking
+about what form the book will take. Whether it should be theoretically
+foregrounded or as a kind of coding tutorial. I really want to do the
+tutorial. I want to try the tutorial. I think, I do have a long-form
+academic book inside of me, but I'm not quite sure this one is it. So
+maybe I start with what I have in the forefront of my mind.
+
+*** How would it go?
+
+First, download python (lol). [insert foothote]
+
+Then, open your python notebook and type the following into the first
+empty cell.
+
+#+begin_src python
+  1 + 1
+#+end_src
+
+Press SHIFT + ENTER to run the cell. The result should appear just
+below, and it should be the number 2.
+
+You can use Python as a calculator. 
+
+
+*** for loops
+
+#+begin_src python
+  for letter in "hello world!":
+    print(letter)
+#+end_src
+
+#+begin_src python
+  h
+  e
+  l
+  l
+  o
+
+  w
+  o
+  r
+  l
+  d
+  !
+#+end_src
+
+The above construct is called a ~for loop~ in the Python programming
+language. 
+
+** 8.30.2024
+
+I think I need a kind of outline. Starting to just draft doesn't work. 
+
+chapter one: iteration
+- iteration in programming
+  - we begin with the for loop.
+    - iterate through the first sentence of /Orlando/
+    - counting requires loops
+    - counting requires cleaning (requires loops)
+    - cleaning flattens specificity
+- gender as iterative
+- the fantasy of the falsifiable
+  - english
+
+A core concept in programming is known as /iteration/. It is when a
+program takes a collection of data and systematically does something
+to each bit of data in the collection. For example, with a collection
+like phrase, such the first sentence from Virginia Woolf's novel,
+/Orlando: A Biography/ (1928), a simple loop might display each
+character in that phrase, one by one.
+
+#+begin_src python
+  sentence = 'He--for there could be no doubt of his sex, though the fashion of the time did something to disguise it--was in the act of slicing at the head of a Moor which swung from the rafters.'
+  for word in sentence.split(): # for loop in python
+      print(word) # history of print function
+#+end_src
+
+#+begin_src 
+He--for
+there
+could
+be
+no
+doubt
+of
+his
+sex,
+though
+the
+fashion
+of
+the
+time
+did
+something
+to
+disguise
+it--was
+in
+the
+act
+of
+slicing
+at
+the
+head
+of
+a
+Moor
+which
+swung
+from
+the
+rafters.
+#+end_src
+
+Iteration enables a computer to do things at scale to data. It does so
+by implementing the same action many times, even millions of times, to
+a single peice of data. For example, iteration is the basis for all
+text analysis, a kind of quantitative analysis, tasks that rely on
+counting. By iterating through texts (in the form of massive lists of
+words), a computer can count each word, one by one.
+
+#+begin_src python
+  number_of_words = 0
+  text = ['Here', 'is', 'a', 'sample', 'text', 'with', 'eight', 'words'] 
+  for word in text:
+      number_of_words += 1
+      print(f'counting {number_of_words} word(s) in the sentence')
+#+end_src
+
+
