@@ -18,10 +18,16 @@ who is asking the question never quite phrases it in this way, but I
 imagine that they are thinking it. (Or at least I am thinking it,
 which is enough of a provocation anyway.)
 
-The role of the binary as a constituting the structure of gender
-relations but not fully determining those structures in advance can be
-traced back to the godparent of Queer Studies, Judith Butler. In their
-1993 book, [*Bodies That Matter: On The Discursive Limits of
+My answer to the question is not necessarily. Just because we are
+based in one paradigm doesn't mean we have to stick to that paradigm,
+especially if we are conscious of its structures and how they
+function.
+
+This is a core idea in Queer Studies. The role of the binary as a
+constituting the structure of gender relations but not fully
+determining those structures in advance can be traced back to the
+godparent of Queer Studies, Judith Butler. In their 1993 book,
+[*Bodies That Matter: On The Discursive Limits of
 Sex*](https://www.routledge.com/Bodies-That-Matter-On-the-Discursive-Limits-of-Sex/Butler/p/book/9780415610155?srsltid=AfmBOoqqbi5XxcCaXWd2Gz5LfM8gjDVAyXlGdUaa1T0ifBClrUHs6ASI),
 a follow-up to their famous debut, [*Gender Trouble: Feminism and the
 Subversion of
@@ -61,15 +67,17 @@ machine learning systems. Just because we emerge from a binary system
 doesn't mean we need to be fully determined by it. From here, it is
 possible to imagine systems that include nonbinary components.
 
-This is exactly what I'm trying to do in my most recent paper, which
-explores what I call "myths" associated the gender binary and the way
-it's being operationalized to study bias and discrimination in NLP. In
-basic terms, I'm exploring how NLP methods take the either/or and
-categorical aspects of the binary and directly impose those into their
-bias mitigation and evaluation. In that paper, I incorporate Queer
-Studies theorizing (by figures like Butler, Eve Kosofsky Sedgwick, and
-Jack Halberstam) on the binary to try and unmoor it from such rigid
-thinking.
+Certainly, however, if we are not paying attention, our assumptions
+will flow from the starting point, and the paradigm that engenders
+binary thinking. This is exactly the point I'm trying to make in my
+most recent paper, which explores what I call "myths" associated the
+gender binary and the way it's being operationalized to study bias and
+discrimination in NLP. Here, I'm exploring how NLP methods take the
+either/or and categorical aspects of the binary and directly impose
+those into their bias mitigation and evaluation. In that paper, I
+incorporate Queer Studies theorizing (by figures like Butler, Eve
+Kosofsky Sedgwick, and Jack Halberstam) on the binary to try and
+unmoor it from such rigid thinking.
 
 *"Binary code" by Christiaan Colen is licensed under CC BY-SA 2.0;
 overlay image,
