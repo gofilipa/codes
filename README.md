@@ -1,5 +1,5 @@
 # Queer Codes
-This repository holds notes and blog posts toward my book project, *The Queer Codes Handbook*. 
+This repository holds notes and blog posts toward my book project, *The Queer Codes Handbook*.  This project in in progress.
 
 This project uses the "Astro Starter Kit: Blog", read more below.
 
