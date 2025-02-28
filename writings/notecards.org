@@ -1,5 +1,6 @@
-* Queer Subjects and Affects
-** cheatsheet
+* notecards
+** Queer+
+*** cheatsheet
 Foucault - Discourse propagates sexuality to control the human in
 modern society.
 
@@ -28,8 +29,8 @@ redeemed, but something to describe and register as beyond our means.
 
 Amin - 
 
-** Foundations
-*** Cixous, Hélène. "The Laugh of the Medusa." 1975.
+*** Foundations
+**** Cixous, Hélène. "The Laugh of the Medusa." 1975.
 - Cixous issues an ultimatum: that women can either read and choose to
   stay trapped in their own bodies by a language that does not allow
   them to express themselves, or they can use the body as a way to
@@ -46,8 +47,51 @@ Amin -
       true. She lays herself bare. In fact, she physically
       materializes what she’s thinking; she signifies it with her
       body. In a certain way she inscribes what she’s saying" (881).
+**** Rich, Adrienne. "When We Dead Awaken: Writing as Revision." 1979.
+- A coming to consciousness for women is a re-vision --- a critical
+  mode of seeing with fresh eyes what has always been circumscribed by
+  men. This act of re-vision brings materials like anger and
+  frustration and awareness. Women need to embrace negative affects as
+  part of their own birthing pains.
+    - In order to come into their own, women must engage in the
+      negative. These are necessary “birthing pains”.
+- from "Planatarium: "I have been standing all my life in the / direct
+  path of a battery of signals / the most accurately transmitted most
+  / untranslatable language in the universe / I am a galactic cloud so
+  deep so invo- / luted that a light wave could take 15 / years to
+  travel through me And has / taken I am an instrument in the shape /
+  of a woman trying to translate pulsations / into images for the
+  relief of the body / and the reconstruction of the mind." (30)
+    - She figures herself as baraged by a series of “signals” that she
+      translates into images. She speaks here using computational
+      metaphors, as if the work of revision involves something like
+      encoding, re-coding, interpreting not only what she experiences
+      but also what she has been taught about her sex.
 
-*** TODO Butler, Judith. /Bodies That Matter/. 1993.
+**** Foucault, Michel. *History of Sexuality Vol. 1*. 1984.
+- Foucault lays the groundwork for all subsequent queer theory that
+  wants to mine and engage the ways that repression and “censorship”
+  of sexuality have perpetuated the discourse of sexuality, though
+  through codifications and multiplications of sexuality. He sets the
+  course for critical analysis of discourses pertaining to
+  sexuality. Eve Sedgwick and Judith Butler both depend heavily on
+  him.
+- Confession as a means of regulating sexuality, and constructing a
+  “truth” about it. “Western man has become a confessing animal”
+  (59). This is reflected in literature which turns from recounting
+  episodes/events to confession: “We have passed form a pleasure to be
+  recounted and heard, centering on the heroic or marvelous narration
+  of ‘trials’ of bravery or sainthood, to a literature ordered
+  according to the infinite task of extracting from the depths of
+  oneself, in between the words, a truth which the very form of the
+  confession holds out like a shimmering mirage” (59).
+    - The mode of confession is part of the discourse of sexual
+      repression in the past 300 years or so. Confession is a means of
+      regulating sex, and turning it into a “truth”, making it a kind
+      of positivist strategy. Confession is scientific evidence.
+
+*** Queer Theory
+**** TODO Butler, Judith. /Bodies That Matter/. 1993.
 The book explores sex and gender "construction as a constitutive
 constraint," (x) finds that it works by producing, as a side effect,
 "a domain of unthinkable, abject, unlivable bodies" (x), and sets
@@ -278,7 +322,7 @@ citing gender norms; most famously, by the reclamation of the word
     which we begin, without ending, without mastering, to own—-and yet
     never fully to own—-the exclusions by which we proceed." (25).
 
-*** Butler, Judith. "Critically Queer." GLQ: A journal of Lesbian and Gay Studies 1.1 (1993): 17-32.
+**** Butler, Judith. "Critically Queer." GLQ: A journal of Lesbian and Gay Studies 1.1 (1993): 17-32.
 - The terms "queer" and "gender" always exist prior to subjects. The
   best we can do is use them, resignify them, to our own purposes.
 - Begins by asking where the performative gets its power. Finds that
@@ -291,7 +335,7 @@ citing gender norms; most famously, by the reclamation of the word
   heterosexual melancholia. The thing being signified is gender. Dudes
   in drag are performing the loss of heterosexual desire for women.
 
-*** TODO Halberstam, Jack. /Female Masculinity/. Duke University Press, 1998. JSTOR, https://doi.org/10.2307/j.ctv11cwb00.
+**** TODO Halberstam, Jack. /Female Masculinity/. Duke University Press, 1998. JSTOR, https://doi.org/10.2307/j.ctv11cwb00.
 
 "Gender's very flexibility and seeming fluidity is precisely what
 allows dimorphic gender to hold sway. Because so few people actually
@@ -301,6 +345,9 @@ a solidly binary system. At the same time, because the definitional
 boundaries of male and female are so elastic, there are very few
 people in any given public space who are completely unreadable in
 terms of their gender" (20).
+-> seems to be saying that gender expression standards are flexible.
+What counts for each gender is flexible, elastic. There are few who
+don't fit into it. 
 
 Gender system is enforced through bathroom system:
 - the either/or nature of the bathrooms shows how we are thinking
@@ -314,50 +361,7 @@ not work. To show "the breakdown of gender as a signifying system,"
 that gender is already "excessively strange," to "hasten the
 proliferation of alternate gender regimes" (41).
 
-*** Foucault, Michel. *History of Sexuality Vol. 1*. 1984.
-- Foucault lays the groundwork for all subsequent queer theory that
-  wants to mine and engage the ways that repression and “censorship”
-  of sexuality have perpetuated the discourse of sexuality, though
-  through codifications and multiplications of sexuality. He sets the
-  course for critical analysis of discourses pertaining to
-  sexuality. Eve Sedgwick and Judith Butler both depend heavily on
-  him.
-- Confession as a means of regulating sexuality, and constructing a
-  “truth” about it. “Western man has become a confessing animal”
-  (59). This is reflected in literature which turns from recounting
-  episodes/events to confession: “We have passed form a pleasure to be
-  recounted and heard, centering on the heroic or marvelous narration
-  of ‘trials’ of bravery or sainthood, to a literature ordered
-  according to the infinite task of extracting from the depths of
-  oneself, in between the words, a truth which the very form of the
-  confession holds out like a shimmering mirage” (59).
-    - The mode of confession is part of the discourse of sexual
-      repression in the past 300 years or so. Confession is a means of
-      regulating sex, and turning it into a “truth”, making it a kind
-      of positivist strategy. Confession is scientific evidence.
-
-*** Rich, Adrienne. "When We Dead Awaken: Writing as Revision." 1979.
-- A coming to consciousness for women is a re-vision --- a critical
-  mode of seeing with fresh eyes what has always been circumscribed by
-  men. This act of re-vision brings materials like anger and
-  frustration and awareness. Women need to embrace negative affects as
-  part of their own birthing pains.
-    - In order to come into their own, women must engage in the
-      negative. These are necessary “birthing pains”.
-- from "Planatarium: "I have been standing all my life in the / direct
-  path of a battery of signals / the most accurately transmitted most
-  / untranslatable language in the universe / I am a galactic cloud so
-  deep so invo- / luted that a light wave could take 15 / years to
-  travel through me And has / taken I am an instrument in the shape /
-  of a woman trying to translate pulsations / into images for the
-  relief of the body / and the reconstruction of the mind." (30)
-    - She figures herself as baraged by a series of “signals” that she
-      translates into images. She speaks here using computational
-      metaphors, as if the work of revision involves something like
-      encoding, re-coding, interpreting not only what she experiences
-      but also what she has been taught about her sex.
-
-*** Sedgwick, Eve Kosofsky. *The Epistemology of the Closet*. 1990.
+**** Sedgwick, Eve Kosofsky. *The Epistemology of the Closet*. 1990.
 - Sedgwick's agenda is to expose the dependence of a privileged
   heterosexual position upon the existence of a subordinated
   homosexual. She examines the “double-bind” of definitional
@@ -434,12 +438,7 @@ proliferation of alternate gender regimes" (41).
       lack of content, an unnamed secret, and first term in the binary
       becomes his absent heterosexuality.
 
-*** Showalter, Elaine. “Feminist Criticism in the Wilderness.”
-      Critical Inquiry, vol. 8, no. 2, 1981, pp. 179–205. JSTOR,
-      www.jstor.org/stable/1343159. Accessed 21 May 2020.
-
-** Affects
-*** Bersani, Leo. “Is the Rectum a Grave?” 1987.
+**** Bersani, Leo. “Is the Rectum a Grave?” 1987.
 - Is the rectum a grave? Here, the rectum is a metaphor that becomes
   literal in the AIDs crisis. It’s the idea that gay sex will kill
   you, that people who have gay sex are killers. Bersani takes this
@@ -464,7 +463,7 @@ proliferation of alternate gender regimes" (41).
   the discussion about sex. With AIDs, homosexuality becomes a lethal
   pathology.
 
-*** Cvetkovich, Ann. An Archive of Feelings: Trauma, Sexuality, and
+**** Cvetkovich, Ann. An Archive of Feelings: Trauma, Sexuality, and
   Lesbian Public Cultures. 2003.
 
 - Asks how we can reclaim some of the most negative and traumatic
@@ -494,7 +493,7 @@ proliferation of alternate gender regimes" (41).
           stigma which doesn’t minimize or sterilize it, as Love
           explores with her notion of “Feeling Backward.”
 
-*** Sedgwick, Eve Kosofsky. "Shame, Theatricality, and Queer
+**** Sedgwick, Eve Kosofsky. "Shame, Theatricality, and Queer
           Performativity: Henry James’s The Art of the Novel" &
           "Paranoid Reading and Reparative Reading, or, You’re So
           Paranoid, You Probably Think This Essay Is About You" from
@@ -569,7 +568,7 @@ hegemonic and the subversive" (12).
   contagiousness of shame is only facilitated by its anamorphic,
   protean susceptibility to new expressive grammars" (63).
 
-*** David, L., Judith Halberstam, and Esteban Muñoz. "What’s Queer
+**** David, L., Judith Halberstam, and Esteban Muñoz. "What’s Queer
   About Queer Studies Now?." Social Text 23.3–4 (2005): 1-17.
 
 - In a mainstream world, what's still queer? How do we carve out the
@@ -579,7 +578,7 @@ hegemonic and the subversive" (12).
   interventions.
 - --> could we add climate and technology/media?
 
-*** Halberstam, Jack. In a Queer Time and Place: Transgender Bodies,
+**** Halberstam, Jack. In a Queer Time and Place: Transgender Bodies,
 Subcultural Lives. , 2005. Print. 
 
 "The Brandon Archive": the archive which appears in the aftermath of
@@ -639,7 +638,7 @@ Austin Powers the first represents masculine abjection. "King comedies
 have borrowed liberally from butch, nonmales or penisless models of
 masculinity" (151).
 
-*** Muñoz, José. /Cruising Utopia: The Then and There of Queer
+**** Muñoz, José. /Cruising Utopia: The Then and There of Queer
 Futurity/. 2009.
 
 - Present gay politics is either trapped within heteronormative
@@ -680,7 +679,7 @@ key to queering evidence, and by that I mean the ways in which we
 prove queerness and read queerness, is by suturing it to the concept
 of ephemera" (65).
 
-*** Love, Heather. Feeling Backward: Loss and the Politics of Queer
+**** Love, Heather. Feeling Backward: Loss and the Politics of Queer
     History. 2009.
 
 - Foucault’s reverse discourse turns the shame and pain of the closet
@@ -713,7 +712,7 @@ of ephemera" (65).
       and Pitts-Taylor’s discussion about mirror neurons.
 
 
-**** Rescue & Recovery
+***** Rescue & Recovery
 
 The impulse of the queer theorist to "rescue" queer figures from the
 past is akin to that of the textual scholar who wants to "rescue" and
@@ -734,7 +733,7 @@ according to Blanchot, not to botch it would be a betrayal. Such a
 rescue effort can only take place under the shadow of loss and in the
 name of loss; success would constitute failure" (51).
 
-**** queerness as irredeemable
+***** queerness as irredeemable
 
 We cannot redeem, rescue, rescusitate queerness, because ultimately
 what we want is the thing in recession. Bringing queerness to the
@@ -772,11 +771,11 @@ marginalization--studying not only obscure men, but obscurity
 itself--would allow us to deflect questions of identity and to
 acknowledge the losses of both the past and present" (51).
 
-*** Love, Heather. “Truth and Consequences: Close Reading and
+**** Love, Heather. “Truth and Consequences: Close Reading and
       Reparative Reading.” Criticism, vol. 52, no. 2, 2010,
       pp. 235–241. JSTOR, www.jstor.org/stable/23131405
 
-*** Love, Heather. “Close but Not Deep: Literary Ethics and the
+**** Love, Heather. “Close but Not Deep: Literary Ethics and the
       Descriptive Turn.” New Literary History, vol. 41, no. 2, 2010,
       pp. 371–391. JSTOR, www.jstor.org/stable/40983827. Accessed 26
       Feb. 2021.
@@ -812,7 +811,7 @@ real effects: it is a fact, not a truth" (386).
 Documentarian rather than witness, describer rather than privileged
 messenger.
 
-*** Ahmed, Sara. The Cultural Politics of Emotion. Edinburgh
+**** Ahmed, Sara. The Cultural Politics of Emotion. Edinburgh
       University Press, 2014. JSTOR,
       www.jstor.org/stable/10.3366/j.ctt1g09x4q.
 
@@ -883,7 +882,7 @@ and others, which shape individual as well as collective bodies" (15).
 Chapter 7: "Queer Feelings"
 Considers the importance of emotions to queer theory. 
 
-*** Amin, Kadji. "Haunted by the 1990s: Queer theory's affective
+**** Amin, Kadji. "Haunted by the 1990s: Queer theory's affective
 histories." WSQ: Women's Studies Quarterly:44.3 (2016): 173-189.
 
 - In today's age, What counts as "queer"? The term has always been
@@ -955,7 +954,7 @@ histories." WSQ: Women's Studies Quarterly:44.3 (2016): 173-189.
 - Praciticing "attachment geneaology", where we excavate our unease
   with queer objects and elaborate feeling states.
 
-*** Caldwell, Kelly. "[The Torment of Queer
+**** Caldwell, Kelly. "The Torment of Queer
 Literature](https://therumpus.net/2018/06/the-torment-of-queer-literature/),"
 The Rumpus. 2018.
 
@@ -1003,7 +1002,7 @@ The Rumpus. 2018.
           those who love and name me. It’s a room somewhere slowly
           filling up with light.”
 
-*** Fawaz, Ramzi and Shanté Paradigm Smalls, “QUEERS READ THIS! LGBTQ
+**** Fawaz, Ramzi and Shanté Paradigm Smalls, “QUEERS READ THIS! LGBTQ
           Literature Now” GLQ: A Journal of Lesbian and Gay
           Studies, 2018.
 
@@ -1036,8 +1035,8 @@ The Rumpus. 2018.
   historical moments” (179). --> But is form really pointing to or
   representing reality? Or is it an abstraction?
 
-** QOC Critique
-*** Anzaldúa, Gloria. Borderlands/La Frontera:the New Mestiza. Fourth edition, 25th anniversary.. ed., Aunt Lute Books, 2012 Anzaldua, Gloria. 
+*** QOC Critique
+**** Anzaldúa, Gloria. Borderlands/La Frontera:the New Mestiza. Fourth edition, 25th anniversary.. ed., Aunt Lute Books, 2012 Anzaldua, Gloria. 
 
 Chapter 2: 
 
@@ -1086,7 +1085,7 @@ mestiza experiences the shock, seeing from both sides at once,
 breaking down the subject-object duality that keeps one
 prisoner. Physically unsettling.
 
-*** Amin, Kadji, Amber Jamilla Musser, and Roy Pérez “Queer Form: Aesthetics, Race, and the Violences of the Social” ASAP/Journal, Volume 2, Number 2, May 2017, pp. 227-239.
+**** Amin, Kadji, Amber Jamilla Musser, and Roy Pérez “Queer Form: Aesthetics, Race, and the Violences of the Social” ASAP/Journal, Volume 2, Number 2, May 2017, pp. 227-239.
 - Looking at the “division” between aesthetics vs social critique;
   attempting to bring the social critique to aesthetics; and to
   articulate how opacity can be a formal method.
@@ -1136,7 +1135,7 @@ prisoner. Physically unsettling.
           reflect the complexity of the real object. There is always a
           reduction to be made.
 
-*** Schutte, Ofelia. “Cultural Alterity: Cross-Cultural
+**** Schutte, Ofelia. “Cultural Alterity: Cross-Cultural
 Communication and Feminist Theory in North-South Contexts.” Hypatia,
 vol. 13, no. 2, 1998, pp. 53–72. www.jstor.org/stable/3810637.
 
@@ -1154,7 +1153,7 @@ recognize their own limitations.
 what determine not only the limits of knowledge but who may
 legitimately participate in the language of science" (55).
 
-*** Hartman, Saidiya. "Venus in Two Acts." Small Axe, vol. 12 no. 2,
+**** Hartman, Saidiya. "Venus in Two Acts." Small Axe, vol. 12 no. 2,
     2008, p. 1-14. Project MUSE muse.jhu.edu/article/241115.
 
 Hartman here looks at the problem of what to do with an absent
@@ -1217,8 +1216,8 @@ fill the void with stories?
   even as reparations, perhaps the only kind we will ever receive"
   (4).
  
-** Black Feminisms
-*** Spillers, Hortense. “Mama's Baby, Papa's Maybe: An American
+*** Black Feminisms
+**** Spillers, Hortense. “Mama's Baby, Papa's Maybe: An American
   Grammar Book,” Diacritics, Vol. 17, No. 2, Culture and
   Countermemory: The "American" Connection. (Summer, 1987), pp. 64-81.
 
@@ -1246,7 +1245,7 @@ female couldn’t actually claim her child. We need to create a place
 for this social subject.
 
 
-*** Musser, Amber Jamilla. “Surface-Becoming: Lyle Ashton Harris and
+**** Musser, Amber Jamilla. “Surface-Becoming: Lyle Ashton Harris and
   Brown Jouissance.” Women & Performance, vol. 28,. no. 1.
   https://www.womenandperformance.org/bonus-articles-1/28-1-harris. Accessed
   6 May 2020.
@@ -1352,7 +1351,7 @@ for this social subject.
     (par. 23).
 
 
-*** Brown, Jayna. Black Utopias: Speculative Life and the Music of Other Worlds. Duke University Press, 2021. JSTOR, https://doi.org/10.2307/j.ctv1dgmm37. Accessed 8 Jul. 2022.
+**** Brown, Jayna. Black Utopias: Speculative Life and the Music of Other Worlds. Duke University Press, 2021. JSTOR, https://doi.org/10.2307/j.ctv1dgmm37. Accessed 8 Jul. 2022.
 
 Brown is re-conceiving sensation and desire to transcend the bounded
 subject.
@@ -1390,7 +1389,7 @@ doing so. Either humanity will “grow” or it will “prevail.
 
 
 
-*** Snorton, C. Riley. Black on both sides: A racial history of trans identity. U of Minnesota Press, 2017.
+**** Snorton, C. Riley. Black on both sides: A racial history of trans identity. U of Minnesota Press, 2017.
 
 
 White bodies & gender has been constructed out of black flesh. This
@@ -1424,7 +1423,7 @@ slaves.
 
 
 
-*** Jackson, Zakiyyah Iman. /Becoming human: Matter and meaning in an antiblack world/. NYU Press, 2020.
+**** Jackson, Zakiyyah Iman. /Becoming human: Matter and meaning in an antiblack world/. NYU Press, 2020.
 
 Human–animal dichotomies inscribe, through their hierarchisation,
 violent orders.
@@ -1455,7 +1454,7 @@ liberal humanist needs.
 
 
 
-*** Lorde, Audre. "Uses of the erotic: the erotic as power." Sister
+**** Lorde, Audre. "Uses of the erotic: the erotic as power." Sister
     Outsider (1984), pp. 53-59. 
 
 Need to reclaim the erotic as a source of power, empowerment through
@@ -1481,10 +1480,213 @@ fence and writing a poem, but only one of quantity. And there is, for
 me, no difference between writing a good poem and moving into sunlight
 against the body of a woman l love” (58).
 
+*** Trans Studies
+**** Amin, Kadji. "We Are All Nonbinary: A Brief History of Accidents." /Representations/ 1 May 2022; 158 (1): 106–119. doi: https://doi.org/10.1525/rep.2022.158.11.106
+
+We need a way of categorizing sexuality-gender that doesn't rely on
+identity but rather on social behavior and presentation.
+
+Nonbinary identity is a result of a chain of identification via
+oppositions: homo created the hetero, trans created the cis (a false
+identity), cis created the nonbinary, which finally created the
+binary. In reality, "Gender-sexuality" (sic) cannot be separated.
+Attempts to "neatly sort people into cisgender versus transgender"
+(Amin 113) non-normatives like queens and fairies out of
+visibility/acceptance, and nonbinary.
+- "Just as homosexuality birthed an idealized heterosexuality and
+  transgender birthed an idealized cisgender, nonbinary has birthed an
+  idealized binary identification" (114).
+- "Western history of gender-sexuality has been one of the creation,
+  through the method of divergence as a means of managing categorical
+  instability, of increasingly idealized and uninhabitable normative
+  categories, from heterosexual to cisgender to binary. It has been
+  the history of the burial of gender deeper and deeper within the
+  private recesses of the self, where it increasingly disavows any
+  relation to the social." (Amin 116).
+
+There's a central contradiction in the theorizing of gender -- as
+something that is a construction, an affect of a behavior (ala Butler)
+and at the same time an identity and expression of identity. (We see
+this problematized in the right as a confusion about the desire for
+gender affirming surgery if gender is really not already determined by
+sex.)
+
+Cisgender and heterosexuality are formed in attempts to normalize
+mainstream sexuality, as a result of trans and homo
+conceptualizations. When homosexuality was mainstreamed, the gender
+non-normative was the queen. Now, homosexuality is "gender-typical by
+default."
+
+"whereas Butler’s early work is animated by the desire to empty out the
+fictive core of gender, revealing it to be a mere effect of the
+compulsory repetition of gender norms, contemporary queer and trans
+culture invests strongly in the notion of gender identity, seeking to
+solidify new genders far outside of the confines of any ‘‘heterosexual
+matrix.’" (Amin 106).
+
+"The first paradox of heterosexuality is that it defines as ‘‘healthy’’
+and ‘‘normal’’ a form of sex and coupledom based on material power
+asymmetries between men and women and, therefore, on the basic
+psychosexual interplay of sadism/masochism, desire/disgust, and
+sex/rape analyzed by feminist scholars such as Catherine MacKinnon."
+(Amin 110).
+
+Cisgender is a fantasy:
+
+"While they may have heard trans people talk about gender dysphoria,
+they will search in vain for the feeling that indicates cisness. For
+there is none. The reason is that cisgender—-the notion of an
+alignment so exact between one’s personal sense of identity and the
+gender role assigned to one that there is no rub, no ambivalence, and
+no sense of constraint—-is and has always been a fantasy. /Nobody has
+ever felt that way/. We trans people invented the fantasy of cisgender
+as the opposite to the extreme gendered and sexed discomfort we have
+experienced. We are the ones responsible for the idealization of
+cisgender, and it falls partly to us to undo it." (114).
+
+"As if cisgender were not bad enough, nonbinary discourse has
+just invented a new fictive opposite" (114).
+
+"Almost no one, trans or cis, identifies as binary or finds this term
+a useful descriptor for their experiential relation to gender. Binary,
+to an even greater extent than cisgender or heterosexual, is an
+idealized opposite, not a lived state of being." (114).
+
+"What I question, contra current progressive gender discourse, is
+whether one’s politics, personal feelings, or beliefs about gender
+should be the basis of gender categorization at all. Like language,
+gender categories—-including trans, cis, nonbinary, and binary—-are
+social and interpersonal, not individual; this is what makes them
+meaningful in the first place." (Amin 115).
+
+"What is socially relevant is transition—-a shift in social gender
+categories, whatever they may be—-not identification—-a personal,
+felt, and thereby highly phantasmic and labile relation to these
+categories. Identification is the psychic process that makes the
+interval between the individual and the social apparent; it is not the
+site of their suture." (Amin 115).
+**** Amin, Kadji. “Taxonomically Queer? Sexology and New Queer, Trans, and Asexual Identities.” GLQ: A Journal of Lesbian and Gay Studies, vol. 29, no. 1, 2023, pp. 91–107.
+
+About how we categorize gender.
+
+We've moved from a heterosexual matrix to a kaleidoscope, "in which
+each axis of definition is mobile and may be combined with any other
+axis, making way for an almost infinite array of variations" (Amin,
+"Taxonomically" 91).
+
+The "a nuanced and nimble vocabulary through which to know, define,
+and communicate their own unique gender and sexual subjectivity," a
+taxonomy, goes against queerness and Queer and Trans Theory, and
+participates in racial and sexological logics. 
+- "what could be further from the queer — which might be glossed as a
+  deconstructive method of troubling categorizations — than taxonomy,
+  a scientific method of establishing them?" (Amin, "Taxonomically"
+  92).
+- "contemporary queer systems of identity are the latest iteration of
+  the classificatory logics behind sexology in particular and racial
+  science more generally" (Amin, "Taxonomically" 92).
+- "How are the scholarly fields of queer and trans studies — which
+  have taken shape in ambivalent resistance to sexology and taxonomy
+  alike — to contend with the departure of the cultures to which they
+  owe their existence from this basic orientation?" (Amin,
+  "Taxonomically" 93).
+
+History of taxonomization
+- "the distinction between gender and sexuality was always a
+  sexological invention — a taxonomical principle masquerading as an
+  ontological distinction" (Amin, "Taxonomically" 92).
+
+Taxonomy a tactic of white supremacy:
+- "As damaging as sexological taxonomies have been for many gender and
+  sexual deviants, to be sexologically diagnosable in the first place
+  was a white distinction — a testament to the individuality,
+  complexity, and value of white bodies and psyches. As many scholars
+  have demonstrated, Indigenous and racialized peoples were not
+  considered deviant as sexological individuals who might be
+  homosexuals, sadists, sexual fetishists, etc., but rather en masse,
+  as constitutively and polymorphously perverse populations (Ross
+  2005; Driskill 2016)." (Amin, "Taxonomically" 95).
+
+Can taxonomy be queered? According to Love?
+- "In light of this noxious history, is it even conceivable to put a
+  queer spin on taxonomy? This question dovetails with methodological
+  debates in queer studies that ask if scientific and social
+  scientific methods that have been part of the objectification of the
+  world in ways organized around anti-Blackness, colonial conquest,
+  and the pathologization of deviance can be repurposed for more
+  innocent or even progressive ends or whether such methods inevitably
+  perpetuate the hierarchical, violent, and racist epistemological
+  frameworks from which they emerged (Love 2015; Ghaziani and Brim
+  2019). We might locate the contemporary queer, trans, and asexual
+  taxonomical renaissance as a crucial case study within this debate."
+  (Amin, "Taxonomically" 96).
+
+Taxonomy has epistemological assumptions, significantly, that
+identities are essential, and dovetail with current ideas of gender
+being biologically rooted. 
+- "Taxonomy’s biological inheritance brings with it the conceit that
+  taxonomical categories and divisions are objective and innate, the
+  hidden laws that govern what manifests in the natural world. This is
+  the foundational premise of Hirschfeld’s taxonomy: that everything —
+  from choice of hobbies, to aptitude for a certain profession, to
+  gait, to taste in undergarments, to preference for certain sex acts,
+  to attraction to cavalrymen — is ultimately biologically determined,
+  albeit according to sexed elements that are far more complex and
+  variable than mere binary genital anatomy. Despite the ethos of
+  self-identification and rejection of outside (or insider) experts
+  classifying individuals according to “objective” criteria, new queer
+  taxonomies end up dovetailing, sometimes intentionally (Chasin
+  2013), with popular and medical beliefs that sexual and gender
+  identities are biologically rooted, innate, unchanging, and discrete
+  from one another. This, in turn, reinforces damaging, exclusionary,
+  and grossly oversimplified criteria about who counts as, for
+  instance, a “true” transsexual or authentic asexual. Indeed, the
+  vernacular thirst to taxonomize partakes of a scientism that
+  animates faith in taxonomy as a significant and meaningful method in
+  the first place." (Amin, "Taxonomically" 100).
+- "New spins on taxonomy risk installing a new universalism that
+  downgrades competing epistemologies to the status of the local, the
+  backward, the traditional, or the false conflation." (Amin,
+  "Taxonomically" 101).
 
 
-** Trans Studies
-*** Adair, Cassius, Cameron Awkward-Rich, Amy Marvin; Before Trans Studies. /TSQ/ 1 August 2020; 7 (3): 306–320. doi: https://doi.org/10.1215/23289252-8552922
+Dis-identification as a strategy for working within these taxonomies
+- "I want to acknowledge the creative and resourceful ways in which
+  Indigenous and racialized people “dis-identify” with these
+  categories, creatively reworking them and exposing their normative
+  operations from within (Muñoz 1999). Such disidentificatory
+  performances occur every time an Indigenous or racialized person
+  lays claim to one of these categories while calling attention to the
+  fact that theirs are usually not the bodies evoked by this category,
+  and even that, racially speaking, they may not have access to
+  cisgender binaries or ideals about “healthy” levels of sexual desire
+  in the first place" (Amin, "Taxonomically" 103).
+
+
+Dis-identification as a strategy for working within these taxonomies
+
+"Whether or not scholars critique it, however, the queer taxonomical
+imaginary is likely here to stay. I, for one, find the growing
+bifurcation of queer, trans, and asexual scholarly analytics from
+queer, trans, and asexual practices of living frankly unethical. My
+proposal, then, is threefold. First, “deidealize” queerness by
+recognizing that taxonomy can be queer, in the sense of being useful
+and meaningful to queer-identified people (Amin 2017). This approach
+requires cultivating scholarly sympathy and empirical curiosity about
+the identifications, erotics, relations, and life-ways opened up by
+new, queer, trans, and asexual taxonomies. Second, continually center
+those Indigenous, non-Western, and historical ontologies of being that
+new taxonomies — with their universalist scientific trappings —
+threaten to erase, incorporate, [End Page 104] and/or supersede.
+Finally, fuck with the universalizing presumptions of the taxonomical
+method from within by generating idiosyncratic interpretations and
+translations that explode the epistemological and ontological
+foundations of taxonomy itself. That, I think, would be an ethical
+scholarly approach to new queer, trans, and asexual taxonomies."
+
+
+
+**** Adair, Cassius, Cameron Awkward-Rich, Amy Marvin; Before Trans Studies. /TSQ/ 1 August 2020; 7 (3): 306–320. doi: https://doi.org/10.1215/23289252-8552922
 
 Trans Studies founders because of the academy that cannot fund
 scholars who therefore cannot afford to write. Those in positions of
@@ -1510,7 +1712,7 @@ engages with. The desire for what is not yet here is both radical and
 conforming, because it aspires toward the utopian, the
 collectivity. There seems to be a lot of crossover here.
 
-*** Chu, Andrea Long, and Emmett Harsin Drager. "After trans studies." Transgender Studies Quarterly 6.1 (2019): 103-116.
+**** Chu, Andrea Long, and Emmett Harsin Drager. "After trans studies." Transgender Studies Quarterly 6.1 (2019): 103-116.
 
 Trans studies is not / has not been what it could be. It has been
 aborted, absorbed by queer studies before its birth, and now consigned
@@ -1577,8 +1779,7 @@ reality, through biography and gender. But woolf remains hopeful at
 the end, when the ghosts come back from the dead. The message seems to
 be that the imagination will obliterate time.
 
-
-*** Keegan, Cáel M., Against Queer Theory. TSQ 1 August 2020; 7 (3): 349–353. doi: https://doi.org/10.1215/23289252-8552978
+**** Keegan, Cáel M., Against Queer Theory. TSQ 1 August 2020; 7 (3): 349–353. doi: https://doi.org/10.1215/23289252-8552978
 
 
 Trans Studies has always been within Queer Theory's shadow. The
@@ -1598,7 +1799,7 @@ abrasive conditions, how to remain willing to engage in the service of
 “a new hope” (Snorton 2009: 88)—even when it feels like our back is
 against the door" (352).
 
-*** Halberstam, Jack. "Nice trannies." Transgender Studies Quarterly
+**** Halberstam, Jack. "Nice trannies." Transgender Studies Quarterly
 7.3 (2020): 321-331.
 
 Chu willfully misreads Trans Studies, its disagreements, its
@@ -1609,7 +1810,7 @@ should be men, not butches. The beneficiaries of hetero-patriarchy.
 Why does Chu hate butches? (probably because they disavow their
 femininity?) 
 
-*** Travers, Travers. "Trans Studies and Resistance in an Academy
+**** Travers, Travers. "Trans Studies and Resistance in an Academy
 Based on Masculinity Contest Culture." TSQ: Transgender Studies
 Quarterly 7.3 (2020): 407-420.
 
@@ -1623,13 +1824,13 @@ We need to center BIPOC femmes and children. We need to continue to
 document how masculinity and contest culture has necropolitical
 consequences.
 
-*** Susan Stryker’s “Transgender Studies: Queer Theory’s Evil Twin”
+**** Susan Stryker’s “Transgender Studies: Queer Theory’s Evil Twin”
 
 Gender vs sexuality as an organizing trope for inquiry. Queer often means LGB, not T. We need to restructure our understanding of gender, rather than sexuality.
 
 How can we frame our inquiry around desire? “Enacting a new wedding of the narrative of self and flesh? (213)
 
-*** Jasbir Puar’s “Becoming Trans, Becoming Disabled”
+**** Jasbir Puar’s “Becoming Trans, Becoming Disabled”
 
 trans(homo)nationalism --- fading into the population, being coopted for neoliberal mandates of productivity, capacitated bodies. 
 
@@ -1642,7 +1843,7 @@ Trans here does what queer cannot, it assumes not only juxtaposition but boundar
 
 “A molecular line of flight” (“becoming trans”)
 
-*** Eva Hayward and Jami Weinstein's “Transanimalities” (~15 pages)
+**** Eva Hayward and Jami Weinstein's “Transanimalities” (~15 pages)
 Trans as a prefix, preposition, that indicates movement, mattering, becoming. Trans can stick to anything, make anything radiate. 
 
 In computer code, asterisk isn’t making things bold (that’s only in markdown language), but an asterisk is a wildcard symbol. It can stand for anything, like *.pdf is all pdfs. 
@@ -1652,7 +1853,7 @@ Goes directly against ALC saying that trans assumes a desire for the normative, 
 
 See Katie King TRANimalitieS --- trans as a condition of speculation and distributed cognition in computer games. 
 
-*** Prosser, Jay. /Second Skins: The Body Narratives of
+**** TODO Prosser, Jay. /Second Skins: The Body Narratives of
 Trannsexuality/, Columbia U Press, 1998. 
 
 Prosser's main argument is that queer theory, and gender
@@ -1750,11 +1951,11 @@ From Judith Halberstam's review:
    limits of performativity in relation to the transsexual drag queens
    in Jennie Livingston's film /Paris is Burning/." (314-315)
 
-*** Stryker, White. /The Transgender Studies
+**** Stryker, White. /The Transgender Studies
    Reader/. Routeledge. 2006. 
 
-** Archives
-*** Arondekar, A., Cvetkovich, A., Hanhardt, CB, Kunzel, R., Nyong’O, T.,
+*** Archives
+**** Arondekar, A., Cvetkovich, A., Hanhardt, CB, Kunzel, R., Nyong’O, T.,
 Rodríguez, JM, & Stryker, S. (2015). Queering archives: A roundtable
 discussion. Radical History Review, 2015(122),
 211-232. http://dx.doi.org/10.1215/01636545-2849630 Retrieved from
@@ -1800,8 +2001,8 @@ The archive is the site of a tension between "intimate tracing" and
 - "the profile of the queer archive as a site for the repetitive,
 radical defamiliarization of knowledge" (introduction, 7) 
 
-** Historiography
-*** Goldberg, Menon "Queering History" Goldberg, Jonathan, and
+*** Historiography
+**** Goldberg, Menon "Queering History" Goldberg, Jonathan, and
 Madhavi Menon. “Queering History.” PMLA, vol. 120, no. 5, 2005,
 pp. 1608–1617
 
@@ -1823,8 +2024,8 @@ self-identical nonpresent" (1609).
 "the impossibility of the final difference between, say, sodomy and
 homosexuality, even as it gestures toward the impossibility of final
 definition that both concepts share" (1609).
-** Autobiography Theory
-*** Lejeune, Philippe, Annette Tomarken and Edward Tomarken. "Autobiography in the Third Person." /New Literary History/, Vol. 9, No 1, pp. 27-50. 
+*** Autobiography Theory
+**** Lejeune, Philippe, Annette Tomarken and Edward Tomarken. "Autobiography in the Third Person." /New Literary History/, Vol. 9, No 1, pp. 27-50. 
 - "Every speaker bears within him two polarities, that of sender and
   receiver and that of enunciation and statement. He rests on a
   scission. Or rather, he does not 'rest' (implying a paradoxical
@@ -1861,8 +2062,8 @@ definition that both concepts share" (1609).
   novelist, however, can create a double perspective but only by
   sacrificing reality (omniscience and 'nonfocalization' are
   impossible outside fiction)"(41)
-** Protomodernist Aestheticizations
-*** Wilde, Oscar. The Picture of Dorian Gray. 1890, 1891 & MS.
+*** Protomodernist Aestheticizations
+**** Wilde, Oscar. The Picture of Dorian Gray. 1890, 1891 & MS.
 
 MS & 1890:
 - Wilde codes or obscures references to homosexuality and
@@ -1909,7 +2110,7 @@ appears monstrous and with no remorse. The middle parts, the subplot
 with James Vane, was added to make Dorian more of a villain.  The
 preface is also added to solidify the book as an aesthetic object.
 
-*** Pater, Walter. *Studies of the History of the Renaissance*. 1873.
+**** Pater, Walter. *Studies of the History of the Renaissance*. 1873.
 - For Pater, criticism is an individual sensation, an 'impressionist'
   mode, an erotic encounter between subject and object, past and
   present. He goes against criticism as an act of intellectual
@@ -1979,7 +2180,7 @@ preface is also added to solidify the book as an aesthetic object.
           which he has conceived the goddess of pleasure, as the
           depositary of a great power over the lives of men" (31).
 
-*** Field, Michael. *Sight and Song*. 1892. 
+**** Field, Michael. *Sight and Song*. 1892. 
 - Written by collaborative poets, Edith Cooper and Katherine Bradley,
   writing together as Michael Field. Consists of 31 "picture-poems" or
   ekphrastic exercises, on famous paintings from the Italian
@@ -2025,8 +2226,8 @@ preface is also added to solidify the book as an aesthetic object.
   flambeau dies". Revises a myth of rape to a scene of loveliness,
   tenderness, admiration: "beauty franchised".
 
-** Modernist Self-Referential Modes
-*** Woolf, Virginia. *Orlando*, 1928 & *A Writer's Diary*, 1953 & "A Sketch of the Past," 1939.
+*** Modernist Self-Referential Modes
+**** Woolf, Virginia. *Orlando*, 1928 & *A Writer's Diary*, 1953 & "A Sketch of the Past," 1939.
 
 /Writer's Diary/:
 
@@ -2174,7 +2375,7 @@ preface is also added to solidify the book as an aesthetic object.
   the memory at St Ives; "ecstasy" in red and purple on a black
   background, her mother's dress, her first memory.
 
-*** Stein, Gertrude. "Lifting Belly," 1989 & *Tender Buttons*, 1914 & *The Autobiography of Alice B. Toklas*, 1933.
+**** Stein, Gertrude. "Lifting Belly," 1989 & *Tender Buttons*, 1914 & *The Autobiography of Alice B. Toklas*, 1933.
 
 Lifting Belly
 - First impression --- this doesn’t make any sense, and is completely
@@ -2282,7 +2483,7 @@ Autobiography
           these studies she began to describe the inside as seen from
           the outside” (156).
 
-*** Barnes, Djuna. *Nightwood*. 1936.
+**** Barnes, Djuna. *Nightwood*. 1936.
 - Lots of parallels to Dorian Gray in the transmission history, where
   homosexual elements are coded or cut out, and adding a preface to
   orient readership toward the aesthetic qualities of the novel rather
@@ -2379,7 +2580,7 @@ Autobiography
                   arise as feelings in the mind. Breaking down the
                   process of thinking into one of feeling.
 
-*** Mansfield, Katherine. "Bliss," 1918 & *The Katherine Mansfield Notebooks*. 2002.
+**** Mansfield, Katherine. "Bliss," 1918 & *The Katherine Mansfield Notebooks*. 2002.
 /The Katherine Mansfield Notebooks/
 - The mix of fatalism and vitality in her writing --- her writing is a
   life force but she also suggests being haunted by death ---
@@ -2454,8 +2655,8 @@ Autobiography
       really process it in the story, but ends up by just looking at
       the Pear tree blossoms.
         - *Connection to Mirror Neurons and misreading*
-** Postmodern Memoir-esque
-*** Baldwin, James. *Giovanni's Room*. 1956.
+*** Postmodern Memoir-esque
+**** Baldwin, James. *Giovanni's Room*. 1956.
 - This book is haunting. From the first few pages, there’s a fatalism
   in David’s voice. You know that the narrator is keeping off
   something terrible, hiding something terrible. You never get a full
@@ -2517,7 +2718,7 @@ Autobiography
           you’ll end up trapped in your own dirty body, forever and
           forever and forever---like me.’” (57).
 
-*** Anzaldua, Gloria. *Borderlands/La Frontera: The New Mestiza*. 1987.
+**** Anzaldua, Gloria. *Borderlands/La Frontera: The New Mestiza*. 1987.
 - Bringing the mystical back into writing and identity.
     - “Faculdad” is being awoken, the faculty of keeping intact our
       shifting and multiple identity, is a dormant areas of
@@ -2553,7 +2754,7 @@ Autobiography
           gender and class. Chicanas being forced to choose between
           being a feminist or supporting the family/community.
 
-*** Myles, Eileen. *Chelsea Girls*. 1994.
+**** Myles, Eileen. *Chelsea Girls*. 1994.
 - I didn’t know this was fiction. When reading it at first I was
   quickly interested then got bored after about fifty pages. I kept on
   and when I eventually found out it was fiction I was immediately
@@ -2593,7 +2794,7 @@ Autobiography
   even bored during sex. So much of life is boring. So much that we do
   not process or do not want to process.
 
-*** Barthes, Roland. *R.B.*. 1975.
+**** Barthes, Roland. *R.B.*. 1975.
 - Barthes’ Formalism as a way of subverting unity
     - This takes the form of an alphabetical list of topics of
       interest / problems. For Barthes, structure and schemes are
@@ -2706,7 +2907,7 @@ Bechdel, Alison. *Are You My Mother? A Comic Drama*. 2012.
   it is a memoir, it is her life, but her experience of it. It is not
   “fiction”, not like Eileen Myles understands fiction, anyway.
 
-*** Rosenberg, Jordy. *Confessions of the Fox*. 2018.
+**** Rosenberg, Jordy. *Confessions of the Fox*. 2018.
 - Relatable: Well, to say the least, a profound effect---emotions
   including sadness, fear, joy, sympathy and empathy. I found myself
   in Jack, I found my struggle in Jack’s struggle. I also found myself
@@ -2749,8 +2950,8 @@ Bechdel, Alison. *Are You My Mother? A Comic Drama*. 2012.
       archive in a beautiful way. We have the different levels of
       history, we can see them on the page.
 
-** Specters
-*** Schreiner, Olive. *The Story of an African Farm*. 1883.
+*** Specters
+**** Schreiner, Olive. *The Story of an African Farm*. 1883.
 - The POV is in 3rd person, but there is a kind of hovering in the
   narrative voice. The omniscient narrator is very close to the
   characters, which throws into question "reality". It's in 3rd person
@@ -2762,7 +2963,7 @@ Bechdel, Alison. *Are You My Mother? A Comic Drama*. 2012.
   class than him, she doesn't have the luxury to ask the bigger
   questions because her autonomy is in dispute.
 
-*** Rachilde. *Monsieur Venus*. 1884.
+**** Rachilde. *Monsieur Venus*. 1884.
 - Raoule sees Jacques as an androgynous figure with some feminine
   characteristics which she then amplifies. In one sense, through her
   merciless abuse, she helps him find a more certain gender identity
@@ -2778,7 +2979,7 @@ Bechdel, Alison. *Are You My Mother? A Comic Drama*. 2012.
   cross-dressing, humiliation, sadomasochism, and something that falls
   somewhere between Pygmalionism and necrophilia.
 
-*** James, Henry. "The Beast in the Jungle," 1886 & "The Figure in the Carpet," 1896.
+**** James, Henry. "The Beast in the Jungle," 1886 & "The Figure in the Carpet," 1896.
 - James is known for being a repressed homosexual, and for being read
   for traces same sex desire. But I did not have this experience with
   him at all. I had a terrible feeling reading Beast in the Jungle, as
@@ -2789,28 +2990,28 @@ Bechdel, Alison. *Are You My Mother? A Comic Drama*. 2012.
   close to being fully out) until I went to class and everybody seemed
   aware and agreed on that point.
 
-*** Freud, Sigmund. *Dora: Fragments of an Analysis of a Case of Hysteria*. 1905.
+**** Freud, Sigmund. *Dora: Fragments of an Analysis of a Case of Hysteria*. 1905.
 
-*** Hall, Radclyffe. "Miss Ogilvy Finds Herself," 1926 & "*The Well of Loneliness*, 1928.
+**** Hall, Radclyffe. "Miss Ogilvy Finds Herself," 1926 & "*The Well of Loneliness*, 1928.
 
-*** Isherwood, Christopher. *Goodbye to Berlin*. 1939.
+**** Isherwood, Christopher. *Goodbye to Berlin*. 1939.
 
-*** Radicalesbians. "The Woman-Identified Woman". 1970.
+**** Radicalesbians. "The Woman-Identified Woman". 1970.
 
-*** Delaney, Samuel. *The Motion of Light in Water*. 1988.
+**** Delaney, Samuel. *The Motion of Light in Water*. 1988.
 
-*** Halberstam, J. Jack. *Female Masculinity*. 1998.
+**** Halberstam, J. Jack. *Female Masculinity*. 1998.
 
-*** Nelson, Maggie. *Bluets*, 2009 & *The Argonauts*, 2015.
+**** Nelson, Maggie. *Bluets*, 2009 & *The Argonauts*, 2015.
 
-*** Li, Yiyun. *Dear Friend, from My Life I Write to You in Your Life*. 2017.
+**** Li, Yiyun. *Dear Friend, from My Life I Write to You in Your Life*. 2017.
 
-*** *The Lesbian Herstory Archives*. New York, NY. 1972-present. 
+**** *The Lesbian Herstory Archives*. New York, NY. 1972-present. 
 
-*** Ahmed, Sarah. *Feminist Killjoys*. 2010-present.
-* Digital Methods and Textualitites
-** Methods 
-*** Bode, Katherine. “Data beyond representation: From computational modelling to performative materiality.” MLA Convention, Seattle, 10 January 2020. https://katherinebode.wordpress.com/home/mla-convention-2020/
+**** Ahmed, Sarah. *Feminist Killjoys*. 2010-present.
+** Digital Methods and Textualitites
+*** Methods 
+**** Bode, Katherine. “Data beyond representation: From computational modelling to performative materiality.” MLA Convention, Seattle, 10 January 2020. https://katherinebode.wordpress.com/home/mla-convention-2020/
 
 Bode approaches quantitative analysis as performative, and takes a
 self-conscious appraisal of the tools of analysis. Her work interferes
@@ -2877,7 +3078,7 @@ conception of measurements as effects of particular material
 arrangements might help us to reframe some key debates in our field."
 (Bode "Data Beyond Representation, par. 24).
 
-*** Bode, Katherine. ‘Why You Can’t Model Away Bias,’ Modern Language
+**** Bode, Katherine. ‘Why You Can’t Model Away Bias,’ Modern Language
 Quarterly (2020) 81 (1): 95–124.
 
 Bode brings the discourse of textual scholarship, bibliography
@@ -2922,7 +3123,7 @@ prior to being modeled using computational methods; rather, modeling
 is the means by which literary concepts and artefacts are both made
 computable and computed” (100).
 
-*** Bode, Katherine. “The Equivalence of ‘Close’ and ‘Distant’
+**** Bode, Katherine. “The Equivalence of ‘Close’ and ‘Distant’
 Reading; or, Toward a New Object for Data-Rich Literary History.” MLQ
 78.1 (2017): 77-106.
 
@@ -2936,7 +3137,7 @@ Critiques “distant reading” (ala Moretti & Jockers) for the way it reduces a
   particular nationality, from a corpus defined according to those
   parameters” (88).
 
-*** Bode, Katherine. "Computational Modeling: From Data Representation
+**** Bode, Katherine. "Computational Modeling: From Data Representation
   to Performative Materiality." ATNU/IES Virtual Speaker Series
 2020/2021. Newcastle University, UK. November 26, 2020. 
 
@@ -2976,7 +3177,7 @@ models as part of the ongoing materialisation of literary texts as
 emerging events always arising from an altering how the literary
 pastas reconfigured"
 
-*** Clement, Tanya. "Distant Listening or Playing Visualisations
+**** Clement, Tanya. "Distant Listening or Playing Visualisations
 Pleasantly with the Eyes and Ears." Digital Studies/le Champ
 Numérique, 3(2). DOI: http://doi.org/10.16995/dscn.236
 
@@ -3007,7 +3208,7 @@ elements from the text as part of a larger interpretive experience.
   framework that is also always part of a history of technological and
   methodological remediations" ("Distant Listening" par.22).
 
-*** Clement, Tanya. “A Rationale of Audio Text.” Digital Humanities Quarterly, vol. 10, no. 2, 2016. Word Count: 10,470.
+**** Clement, Tanya. “A Rationale of Audio Text.” Digital Humanities Quarterly, vol. 10, no. 2, 2016. Word Count: 10,470.
 In what ways does working with audio bring us to reconsider the ways
 we approach electronic text? Takes up McGann and McKenzie’s ideas
 about material, social, and institutional contexts that resist the
@@ -3040,7 +3241,7 @@ notion of an ideal or Ur text, and applies it to audio-texts.
   development of future information systems that will continue to
   shape new and different rationales of text” (44)
 
-*** Clement, Tanya. “Knowledge Representation and Digital Scholarly Editions in Theory and Practice.” Journal of the Text Encoding Initiative 1, no. 1 (June 2011). http://jtei.revues.org/203.
+**** Clement, Tanya. “Knowledge Representation and Digital Scholarly Editions in Theory and Practice.” Journal of the Text Encoding Initiative 1, no. 1 (June 2011). http://jtei.revues.org/203.
 
 - Abstract: “In Transition: Selected Poems by the Baroness Elsa von
   Freytag-Loringhoven is a publicly available scholarly edition of
@@ -3081,7 +3282,7 @@ notion of an ideal or Ur text, and applies it to audio-texts.
   traditional modes of textuality are at play and at risk here?”
   ("Knowledge Representation" par. 25).
 
-*** Clement, Tanya, David Tcheng, Loretta Auvil, Boris Capitanu, Joao
+**** Clement, Tanya, David Tcheng, Loretta Auvil, Boris Capitanu, Joao
   Barbosa, Distant Listening to Gertrude Stein’s ‘Melanctha’: Using
   Similarity Analysis in a Discovery Paradigm to Analyze Prosody and
   Author Influence, Literary and Linguistic Computing, Volume 28,
@@ -3105,7 +3306,7 @@ notion of an ideal or Ur text, and applies it to audio-texts.
   discovery of previously unidentifiable author-similarity patterns”
   (par. 1).
 
-*** Laramée, Francois Dominic. "Introduction to stylometry with Python," Programming Historian 7 (2018), https://doi.org/10.46430/phen0078.
+**** Laramée, Francois Dominic. "Introduction to stylometry with Python," Programming Historian 7 (2018), https://doi.org/10.46430/phen0078.
 "the Delta Method is designed to compare an anonymous text (or set of
 texts) to many different authors’ signatures at the same time. More
 precisely, Delta measures how the anonymous text and sets of texts
@@ -3113,7 +3314,7 @@ written by an arbitrary number of known authors all diverge from the
 average of all of them put together."
 
 
-*** TODO Mandell, Laura. "[[https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4][Gender and Cultural Analytics: Finding or Making Stereotypes?]]" in Gold, M. K., & Klein, L. F. (Eds.), /Debates in the Digital Humanities/ 2019. 3-26. University of Minnesota Press.
+**** TODO Mandell, Laura. "[[https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4][Gender and Cultural Analytics: Finding or Making Stereotypes?]]" in Gold, M. K., & Klein, L. F. (Eds.), /Debates in the Digital Humanities/ 2019. 3-26. University of Minnesota Press.
 On the M/F binary in "cultural analytics" field, which discourages
 feminist cultural theorists.
 
@@ -3144,7 +3345,7 @@ technique, discussed later in this chapter), determines events to be
 more probable if similar events have already happened (par. 19). 
 
 
-*** Moretti, Franco. *Graphs, Maps, Trees: Abstract Models for Literary History*. 2007. Print.
+**** Moretti, Franco. *Graphs, Maps, Trees: Abstract Models for Literary History*. 2007. Print.
 - Moretti supports a positivist agenda for literary criticism. He
   ascribes an objective status to visualizations, as if they aren’t
   based on subjective research (monographs!) and his own decision
@@ -3156,7 +3357,7 @@ more probable if similar events have already happened (par. 19).
   have to minimize the critic’s reading to feel like he’s part of a
   collective.
 
-*** Drucker, Johanna. "Introduction," *SpecLab: Digital Aesthetics and Projects in Speculative Computing*. 2009. PDF.
+**** Drucker, Johanna. "Introduction," *SpecLab: Digital Aesthetics and Projects in Speculative Computing*. 2009. PDF.
 - Drucker uses the computer for creative ends. Computation geared
   toward speculation rather than testing or confirmation.
 - Doesn’t this line of argument perpetuate the idea that the computer
@@ -3167,7 +3368,7 @@ more probable if similar events have already happened (par. 19).
 - How would speculation and potentiality play into a feminist
   project/reading?
 
-*** Drucker, Johanna. "Humanities Approaches to Graphical Display." *DHQ: Digital Humanities Quarterly*. 2011. Web.
+**** Drucker, Johanna. "Humanities Approaches to Graphical Display." *DHQ: Digital Humanities Quarterly*. 2011. Web.
 - Drucker argues that data visualization tools and techniques
   naturalize and flatten things that are actually complex and
   ambiguous. She proposes that we switch “data” (given) for “capta”
@@ -3179,14 +3380,14 @@ more probable if similar events have already happened (par. 19).
 - What is the role is clarity and “realist” or “natural” constructions
   of knowledge?
 
-*** Felski, Rita. *The Limits of Critique.* 2015. PDF.
+**** Felski, Rita. *The Limits of Critique.* 2015. PDF.
 - Felski usefully talks about reading as an affective
   orientation. It’s not about the way that we read, but about the way
   that we position ourselves and our desires around texts. She warns
   that suspicious attitudes toward texts foreclose the possibility for
   new readings, new thoughts.
 
-*** Mandell, Laura. “Gender and Cultural Analytics: Finding or Making
+**** Mandell, Laura. “Gender and Cultural Analytics: Finding or Making
   Stereotypes?” Debates in Digital Humanities 2019. Edited by Matthew
   K. Gold and Lauren Klein. University of Minnesota Press, 2019.
 
@@ -3256,7 +3457,7 @@ the measurer and the measured. Once this process is accepted, we might
 then be able to use stylometry to experiment with new taxonomies of
 gender”
 
-*** Piper, Andrew. *Enumerations: Data and Literary Study*, 2018. Print.
+**** Piper, Andrew. *Enumerations: Data and Literary Study*, 2018. Print.
 - This shows how distant and close reading can be used together ---
   Distant reading provides context, or framework, for close reading;
   in which number becomes a lens, a frame of the quantitative, to
@@ -3280,7 +3481,7 @@ gender”
   contemporary novel’s investment in sensorial embodiment awaits
   fuller treatment” (117).
 
-*** Ramsay, Stephen. *Reading Machines: Toward an Algorithmic Criticism*. 2011. Print.
+**** Ramsay, Stephen. *Reading Machines: Toward an Algorithmic Criticism*. 2011. Print.
 - Ramsay positions himself as a moderate, saying that computers are
   merely tools, part of a more expansive subjective process, of
   hermeneutics. His ideas here agree nicely with Drucker’s in Speclab.
@@ -3296,7 +3497,7 @@ gender”
   idiosyncrasies? What about examining the way that these processes
   encode subjectivity?
 
-*** Rockwell, Geoffrey and Stefan Sinclair. *Hermeneutica: Computer Assisted Interpretation in the Humanities* MIT Press 2016. 
+**** Rockwell, Geoffrey and Stefan Sinclair. *Hermeneutica: Computer Assisted Interpretation in the Humanities* MIT Press 2016. 
 
 "Hermeneutica tries to correct for the Cartesian solitudes of text and
 method by showing how analytical tools /are/ instantiations of
@@ -3328,7 +3529,7 @@ what is hidden: the rhetorical presentation of analytics matters"
 
 
 
-*** So, Richard Jean. "All Models Are Wrong," /PMLA/, 132.3 (2017),
+**** So, Richard Jean. "All Models Are Wrong," /PMLA/, 132.3 (2017),
   pp. 668-773. 
 
 All models have errors, there is always a margin of error. The point
@@ -3354,7 +3555,7 @@ to be tolerated or avoided and more something to be integrated
 formally into our research (Wimsatt). Accepting that all models are
 wrong might prove liberating" (672).
 
-*** So, Richard Jean and Edwin Roland. “Race and Distant Reading, PMLA
+**** So, Richard Jean and Edwin Roland. “Race and Distant Reading, PMLA
   Special Topic: Varieties of Digital Humanities. Vol. 35 No. 1,
   January 2020, pp. 59–73.
 
@@ -3422,7 +3623,7 @@ speculative. What if we started with this premise of the "appalled"?
     hunting or speculating?  The orientation we take toward our object
     has an effect. Are we trying to recover or to speculate?
 
-*** Underwood, Ted. *Distant Horizons*
+**** Underwood, Ted. *Distant Horizons*
 Much of literary history is invisible to us due to our blindness to
 large scales. Though it is no substitute for the sensitivity of close
 reading, Distant reading allows us to see larger patterns across
@@ -3523,7 +3724,7 @@ reading, and are mostly useful for long views.
       bodies, physical actions, and immediate sensory perceptions in a
       precisely specified place and time" (26).
   
-*** Underwood, Ted. “Machine Learning and Human Perspective.”  PMLA,
+**** Underwood, Ted. “Machine Learning and Human Perspective.”  PMLA,
       Vol. 35 No. 1, January 2020, pp. 92-109.  
 
 Abstract: Numbers appear to have limited value for literary study,
@@ -3565,7 +3766,7 @@ represent a perspective” (98).
 motives. Underwood is not trying to distinguish, he’s trying to
 simplify.
 
-*** Underwood, 2017. "A Genealogy of Distant Reading" Digital Humanities Quarterly 11 (2). 
+**** Underwood, 2017. "A Genealogy of Distant Reading" Digital Humanities Quarterly 11 (2). 
 Concerned with establishing the history of distant reading as
 connected to a certain mode of inquiry which is empirical, which
 borrows from the social sciences: "the central practice that
@@ -3596,8 +3797,8 @@ defined not only by a commitment to historical breadth, but by a
 version of the scientific method appropriate for a historical
 discipline" (par. 22).
 
-** Networks
-*** Galloway, Alexander. *Protocol*, 2004. PDF.
+*** Networks
+**** Galloway, Alexander. *Protocol*, 2004. PDF.
 - Codes that append all data…controlling power lies in the technical
   protocols that make network connections possible. “The acceptance of
   universal standardization in order to facilitate the freer and more
@@ -3629,7 +3830,7 @@ discipline" (par. 22).
       is prepared in advance, then later executed by the artist”
       (165).
 
-*** Chun, Wendy, *Control and Freedom: Power and Paranoia in the Age of Fiber Optics,* 2006. Print.
+**** Chun, Wendy, *Control and Freedom: Power and Paranoia in the Age of Fiber Optics,* 2006. Print.
 - How hardware (as opposed to software) engages with the
   freedom/control paradox of internet networks.
 - To Chun, the issue isn’t the control technologies that drive the
@@ -3648,7 +3849,7 @@ discipline" (par. 22).
   visibilities that we cannot control.
 - What are the possibilities opened up by our vulnerabilities?
 
-*** Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*, 2010. PDF.
+**** Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*, 2010. PDF.
 - Vitality means that things have their own forces, trajectories,
   tendencies.
 Thinking of matter as an object or dead makes us destructive; we
@@ -3666,7 +3867,7 @@ them.
   bunch of things are vitalized, and therefore acting in tandem like a
   swarm.
 
-*** Moten, Fred and Stefano Harney. *The Undercommons: Fugitive Planning & Black Study*, 2013. Epub.
+**** Moten, Fred and Stefano Harney. *The Undercommons: Fugitive Planning & Black Study*, 2013. Epub.
 - The university is dedicated to re-producing and perpetuating the
   oppressive and hierarchical orders of society. This cannot be
   overcome, so one ought to sneak into the university and steal what
@@ -3688,7 +3889,7 @@ them.
   thrown in together, touching each other, feeling through each other,
   each other’s feels.
 
-*** Tufekci, Zeynep. *Twitter and Tear Gas: the Power and Fragility of Networked Protest*, 2017. PDF.
+**** Tufekci, Zeynep. *Twitter and Tear Gas: the Power and Fragility of Networked Protest*, 2017. PDF.
 - Analyzing modern protest and how they use networks to mobilize. She
   describes how the internet helped the Zapatista uprisings in Mexico,
   the necessity of remote Twitter users to organize medical supplies
@@ -3706,14 +3907,14 @@ In such an environment, information and misinformation glut is a real
 problem, as the important information gets diluted or obscured. Today,
 gatekeeping is done by governments, algorithms, platforms.
 
-** Language
-*** Barthes, Roland. *S/Z*, 1970. Print.
+*** Language
+**** Barthes, Roland. *S/Z*, 1970. Print.
 - Barthes creates a sort of encoding scheme (interpreting according to
   a series of codes, which create a constellation of meanings across a
   single text) for Sarrasine. This encoding scheme dramatically opens
   up meaning, exposes the writerly potential of the text.
 
-*** Landow, George. *Hypertext 3.0: Critical Theory and New Media in an Era of Globalization*, 2006. Print.
+**** Landow, George. *Hypertext 3.0: Critical Theory and New Media in an Era of Globalization*, 2006. Print.
 - The hypertext format engages the postmodern
   (structuralist/post-structuralist and deconstructive) theories about
   the multiplicity and instability of meaning in texts, as well as new
@@ -3722,7 +3923,7 @@ gatekeeping is done by governments, algorithms, platforms.
   stable, it creates new centers, new tangents, new connections in
   between textual elements.
 
-*** Tenen, Dennis. *Plain Text: the Poetics of Computation*, 2017. Epub.
+**** Tenen, Dennis. *Plain Text: the Poetics of Computation*, 2017. Epub.
 - Points out that each digital text carries with it a layer of hidden
   information that determines the display and dissemination of the
   document. Argues that we need to examine this layer to see how they
@@ -3757,7 +3958,7 @@ gatekeeping is done by governments, algorithms, platforms.
   collapsing/obscuring of mediation between us and our texts affect
   the way we read them?
 
-*** Fisher, Caitlin. *These Waves of Girls*, 2001. Web.
+**** Fisher, Caitlin. *These Waves of Girls*, 2001. Web.
 - The profusion of hyperlinks frustrates the reader by offering too
   many narrative paths. The reader’s frustration in navigating through
   the hypertext relates to the work’s theme of sexual discovery. In
@@ -3788,7 +3989,7 @@ her sexual desire for release. Narrative/sexual desire conflation.
   previously written. There is no guidance, the reader decides how to
   move at every point. It’s all about agency.
 
-*** Rockwell, Geoffrey and Stefan Sinclair. *Voyant-Tools*. 2018. Web.
+**** Rockwell, Geoffrey and Stefan Sinclair. *Voyant-Tools*. 2018. Web.
 - Voyant Tools is a web application, developed out of earlier
   iterations by Stéfan Sinclair (McGill University) and Geoffrey
   Rockwell (University of Alberta). It functions as a one-stop-shop
@@ -3809,8 +4010,8 @@ her sexual desire for release. Narrative/sexual desire conflation.
       know leads us to speculate about other possibilities, and
       experience more active and playful approaches to inquiry.
 
-** Media
-*** Kittler, Friedrich. *Gramophone, Film, Typewriter*, 1999. Print and PDF.
+*** Media
+**** Kittler, Friedrich. *Gramophone, Film, Typewriter*, 1999. Print and PDF.
 Asks what if media determined our thought?
 - Whereas, before the 20th century, media passed through symbolism
   (written signifier), now it is stored as physical traces in sound
@@ -3842,7 +4043,7 @@ Asks what if media determined our thought?
       began with the monopoly of writing” (4). What will come of the
       monopoly of bits and fiber?
 
-*** Hayles, N. Katherine. *Writing Machines*, 2002. PDF.
+**** Hayles, N. Katherine. *Writing Machines*, 2002. PDF.
 - Remediation --- the idea that media is re-conceived or re-written
   for electronic formats. The “recycling” of different media formats
   through electronic media (Bolter and Grusin).
@@ -3859,7 +4060,7 @@ Asks what if media determined our thought?
   frame but rather consciousness fused with technologies of
   inscription” (116-117).
 
-*** Kirschenbaum, Matthew. *Mechanisms: New Media and the Forensic Imagination*, 2012. Print.
+**** Kirschenbaum, Matthew. *Mechanisms: New Media and the Forensic Imagination*, 2012. Print.
 - Argues for the heterogeneity of digital data---against the idea that
   they are transient, uniform, copyable, permanent. This combats
   “screen essentialism”---the idea that what happens on the screen is
@@ -3889,7 +4090,7 @@ Asks what if media determined our thought?
   behind a command line, and now behind GUIs. Everything appears
   evanescent.
 
-*** Hansen, Mark. *Feed-Forward: On The Future of 21st Century Media*, 2014. Epub.
+**** Hansen, Mark. *Feed-Forward: On The Future of 21st Century Media*, 2014. Epub.
 - Media in the 21st century largely work outside of our perceptual
   consciousness but nonetheless inflect our sensations. Technology
   expands and marginalizes human perceptions. This creates a situation
@@ -3907,7 +4108,7 @@ Asks what if media determined our thought?
 - Because our perceptual reach is expanded through media,
   consciousness is always anticipating.
 
-*** Woolf, Virginia. "Comparing Marks: A Versioning Edition of Virginia Woolf's 'The Mark on the Wall.'" eds. Emily McGinn, Amy Leggette, Matthew Hannah, and Paul Bellew. *Scholarly Editing: The Annual of the Association for Documentary Editing*, Vol. 35, 2014. Web.
+**** Woolf, Virginia. "Comparing Marks: A Versioning Edition of Virginia Woolf's 'The Mark on the Wall.'" eds. Emily McGinn, Amy Leggette, Matthew Hannah, and Paul Bellew. *Scholarly Editing: The Annual of the Association for Documentary Editing*, Vol. 35, 2014. Web.
 - Hansen’s central intervention on Whitehead’s thought, arguing that,
   while technology expands the scope for human perception across new
   sensory environments, it also limits the human’s immediate sensory
@@ -3931,7 +4132,7 @@ Asks what if media determined our thought?
   role that time plays in mediating the story itself, and especially,
   in bringing it to a close.
 
-*** Klein, Lauren F., "The Image of Absence: Archival Silence, Data Visualization, and James Hemings," in *American Literature*, 85 (4): 661–688, 2013. Web.
+**** Klein, Lauren F., "The Image of Absence: Archival Silence, Data Visualization, and James Hemings," in *American Literature*, 85 (4): 661–688, 2013. Web.
 - The way that Klein approaches her work with the invisible or
   forgotten is useful here. It’s not about recovering what is absent,
   of making things present in some way. It’s about tracing the
@@ -3945,8 +4146,8 @@ Asks what if media determined our thought?
   about changing the way that we think about the archive, and our
   understanding of the archival record.
 
-** Editing
-*** Tanselle, Thomas. "A Rationale of Textual Criticism", 1992. PDF.
+*** Editing
+**** Tanselle, Thomas. "A Rationale of Textual Criticism", 1992. PDF.
 - Greg-Bowers-Tanselle are against the tyranny of the copy-text, and
   think we should be making eclectic editions, being careful and
   deliberate about our choice and judgment of substantive elements.
@@ -3971,7 +4172,7 @@ Asks what if media determined our thought?
   In other words, how can we open rather than constrain or delimit
   meaning?
 
-*** Derrida, Jacques. “Archive Fever: A Freudian Impression.” *Diacritics*, vol. 25, no. 2, 1995. PDF.
+**** Derrida, Jacques. “Archive Fever: A Freudian Impression.” *Diacritics*, vol. 25, no. 2, 1995. PDF.
 - The archive is associated with order and beginnings. Commencement
   and commandment. Arche, Arke.
 - In creating the archive, we open the potential to forget. The
@@ -3986,7 +4187,7 @@ Asks what if media determined our thought?
       archivization. “The prosthetic experience of the technical
       substrate” (22). The impression.
 
-*** McKenzie, D.F. *Bibliography and the Sociology of Texts*, 1999. Print.
+**** McKenzie, D.F. *Bibliography and the Sociology of Texts*, 1999. Print.
 - McKenzie expands what is admissible. Bibliography is about the
   social process of transmission. He critiques positivism of
   bibliographic methods which are analytical or descriptive, which aim
@@ -4007,7 +4208,7 @@ Asks what if media determined our thought?
   “text”) that flows into the branches, witnesses. All these witnesses
   imply an ideal form never fully realized.
 
-*** McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web*, 2001. Print.
+**** McGann, Jerome. *Radiant Textuality: Literature after the World Wide Web*, 2001. Print.
 - McGann introduces the term “quantum poetics” to indicate the
   volatile potentiality for meaning contained in every element of a
   literary text. He explains that:
@@ -4035,7 +4236,7 @@ expression.
     - SGML cannot capture poetics, “the recursive patterns that
       constitute an essential… feature of poetry” (172).
 
-*** Singer, Kate. “[Digital Close Reading: TEI for Teaching Poetic Vocabularies](https://jitp.commons.gc.cuny.edu/digital-close-reading-tei-for-teaching-poetic-vocabularies/).” *The Journal of Interactive Technology and Pedagogy* 3, May 15, 2013. 
+**** Singer, Kate. “[Digital Close Reading: TEI for Teaching Poetic Vocabularies](https://jitp.commons.gc.cuny.edu/digital-close-reading-tei-for-teaching-poetic-vocabularies/).” *The Journal of Interactive Technology and Pedagogy* 3, May 15, 2013. 
 - Uses encoding as a method of teaching close reading in the English
   classroom. “The painstaking process of selecting bits of text and
   wrapping them with tags reframed reading as slow, iterative, and
@@ -4051,7 +4252,7 @@ expression.
       literary criticism and which terms may be unhelpfully
       ideological in our efforts to analyze literary texts.”
 
-*** Caughie, Emily Datskou and Rebecca Parker, “Storm Clouds on the Horizon: Feminist Ontologies and the Problem of Gender,” *Feminist Modernist Studies*, 1:3, 230-242, 2018. Web.
+**** Caughie, Emily Datskou and Rebecca Parker, “Storm Clouds on the Horizon: Feminist Ontologies and the Problem of Gender,” *Feminist Modernist Studies*, 1:3, 230-242, 2018. Web.
 - This is an application of McGann’s comments about
   incommensurability. The TEI won’t allow them to assign multiple
   genders to one identity, in order to mark a mid-text gender shift.
@@ -4065,12 +4266,12 @@ dynamic nature of gender identities?”
   sexuality in the modernist era. They ended up with a storm cloud,
   showing clusters of different gender traits over time.
 
-*** Flanders, Julia. "Encoding Identity." Keynote, /Queer Encoding: Encoding
+**** Flanders, Julia. "Encoding Identity." Keynote, /Queer Encoding: Encoding
 Diverse Identities/, the Digital Scholarship Center, Temple
 University. April 28, 2017.
 
-** Critical Race
-*** Tara McPherson’s “U.S. Operating Systems at Mid-Century: The
+*** Critical Race
+**** Tara McPherson’s “U.S. Operating Systems at Mid-Century: The
   Intertwining of Race and UNIX," Race After The Internet, ed. Lisa
 Nakamura and Peter A. Chow-White. Routledge, 2012. 
 
@@ -4168,7 +4369,7 @@ Tara McPherson’s “U.S. Operating Systems at Mid-Century”
   understanding and theorizing its function as a "ghost in the digital
   machine"" (34).
 
-*** Nelson, Alondra. “Future Texts.” Social Text 71, Vol. 20, No. 2,
+**** Nelson, Alondra. “Future Texts.” Social Text 71, Vol. 20, No. 2,
   Summer 2002.
 
 Talks about the way that blackness is constructed in media, which is anti-technology, anti-progress, because the popular notions of the digital elide anything embodied or marked as other. 
@@ -4181,7 +4382,7 @@ Talks about the way that blackness is constructed in media, which is anti-techno
 
 Promoting the invisibility, universality, bodilessness of the digital requires the othering of embodied differences. See Nakamura. 
 
-*** Ruha Benjamin, Race After Technology: Abolitionist Tools for the New Jim Code, Polity Press, 2019. 
+**** Ruha Benjamin, Race After Technology: Abolitionist Tools for the New Jim Code, Polity Press, 2019. 
 
 Talks about how technologies carry through historical prejudices about
 blackness. Current society perpetuates racism by transforming it into
@@ -4272,7 +4473,7 @@ exercises a much needed discretion, pushing back against the
 all-knowing, extractive, monopolizing practices of coded inequity”
 (24).
 
-*** Simone Browne, Dark Matters: On the Surveillance of
+**** Simone Browne, Dark Matters: On the Surveillance of
 Blackness. Duke University Press, 2015. 
 
 “the conditions of blackness as a key site through which surveillance
@@ -4422,7 +4623,7 @@ cotton, and that body type.”116” (125).
 “blackness is pitched “as a way to cash in on street cool or urban
 icon”” (125).
 
-*** Johnson, Jessica Marie; “Markup Bodies: Black [Life] Studies and
+**** Johnson, Jessica Marie; “Markup Bodies: Black [Life] Studies and
 Slavery [Death] Studies at the Digital Crossroads”. Social Text 1
 December 2018; 36 (4 (137)): 57–79. doi:
 https://doi.org/10.1215/01642472-7145658“
@@ -4450,8 +4651,8 @@ subjects who scream in spite, because, and in defiance of their own ritual murde
 
 “As a digital humanist, I witness something happening in digital media, social media, online activism, and hashtag activism that hearkens back in time to screams in the archive, jokes in the face of death, to black cultural production and acts of resistance. “History,” Saidiya Hartman writes, “is how the secular world attends to the dead.” Histories of slavery offer digital humanists a cautionary tale, a lesson in the kind of death dealing that happens when enumerating, commodifying, and calculating bodies becomes naturalized. Doing truly embodied and data-rich histories of slavery requires similarly remixing conceptual, discursive, and archival geographies, with deliberate, pained intimacy, and, likely, some violence. But black digital practice challenges slavery scholars and digital humanists to feel this pain and infuse their work with a methodology and praxis that centers the descendants of the enslaved, grapples with the uncomfortable, messy, and unquantifiable, and in doing so, refuses disposability” (71).
 
-** Queer DH
-*** Keeling, Kara. "Queer OS." Cinema Journal, vol. 53 no. 2, 2014,
+*** Queer DH
+**** Keeling, Kara. "Queer OS." Cinema Journal, vol. 53 no. 2, 2014,
 p. 152-157. Project MUSE, doi:10.1353/cj.2014.0004.
 
 --> Queer OS is about recognizing the oppressive structures that
@@ -4507,11 +4708,11 @@ intellectual work in specific ways, it acknowledges its own
 imbrication with and reliance on those logics while still striving to
 forge new relationships and connections" (154).
 
-*** Fiona Barnett, Zach Blas, Micha Cárdenas, Jacob Gaboury, Jessica
+**** Fiona Barnett, Zach Blas, Micha Cárdenas, Jacob Gaboury, Jessica
 Marie Johnson, and Margaret Rhee, "QueerOS: A User’s Manual",
 https://dhdebates.gc.cuny.edu/read/untitled/section/e246e073-9e27-4bb2-88b2-af1676cb4a94#ch05
 
-*** Gaboury, Jacob. "Becoming NULL: Queer Relations in the Excluded
+**** Gaboury, Jacob. "Becoming NULL: Queer Relations in the Excluded
 Middle." /Women & Performance: a Journal of Feminist
 Theory/. 28:2, 2018. pp. 143-158.
 
@@ -4540,9 +4741,9 @@ Theory/. 28:2, 2018. pp. 143-158.
   that explicitly marks an indeterminate, incalculable, unknown state
   of being” (11).
 
-* Theories of Perception
-** Thinking/Feeling: Philosophy
-*** Hume, David. *An Enquiry Concerning Human Understanding*, 1748.
+** Theories of Perception
+*** Thinking/Feeling: Philosophy
+**** Hume, David. *An Enquiry Concerning Human Understanding*, 1748.
 - Allows us to approach Reason as a kind of Speculation. He
   essentially describes reason as a guess that becomes a habit or
   custom. Reason builds from the idea or memory which is never as
@@ -4561,7 +4762,7 @@ Theory/. 28:2, 2018. pp. 143-158.
   assumption a "custom" or "habit of thought", but I prefer to think
   of it as a speculation or conjecture.a
 
-*** William James. Selected essays including “The Sentiment of Rationality,” (PDF) and "Stream of Thought," (Web) circa 1890.
+**** William James. Selected essays including “The Sentiment of Rationality,” (PDF) and "Stream of Thought," (Web) circa 1890.
 - Reason is feeling, "sentiment of rationality", of things being
   either connected or distinguished.
     - The "Aesthetic Principle of Ease" --- finding a unity in chaos
@@ -4614,7 +4815,7 @@ Theory/. 28:2, 2018. pp. 143-158.
         - "Nonesense in grammatical form sounds half rational" (255)
           --> Gertrude Stein!
 
-*** Bergson, Henri. *Matter and Memory*, 1896.
+**** Bergson, Henri. *Matter and Memory*, 1896.
 - Memory has to do with storage and access---we recreate sensations
   from memory.
 Perception is a site of resistance against stimuli---the body is the
@@ -4657,7 +4858,7 @@ surface where light is cast.
       bound up with each other, and travelling in every direction like
       shivers through an immense body" (276).
 
-*** Whitehead, Alfred North. Modes of Thought, 1938.
+**** Whitehead, Alfred North. Modes of Thought, 1938.
 - Language fails to express the fullness of experience because it is
   an abstraction.
     - This is why philosophy needs poetry. "Language halts behind
@@ -4696,7 +4897,7 @@ surface where light is cast.
       from the potentialities essential in the nature of things”
       (136).
 
-*** Merleau-Ponty, Maurice. The Phenomenology of Perception, 1945.
+**** Merleau-Ponty, Maurice. The Phenomenology of Perception, 1945.
 - Our perception/body cannot extricate itself from the world in order
   to be conscious of that world. It weaves together the real and the
   imaginary.
@@ -4710,7 +4911,7 @@ surface where light is cast.
       sensations, daydreams. Our body is in the world, extending
       toward the world, like a heart in a body.
 
-*** Nagel, Thomas. "What is it like to be a bat?" 1974. 
+**** Nagel, Thomas. "What is it like to be a bat?" 1974. 
 - Against the physical and material reductions of mind to matter. We
   cannot understand consciousness just by looking at the brain,
   because it actually involves subjective experiences, qualia, that
@@ -4720,7 +4921,7 @@ surface where light is cast.
   like for a human to have wings, sonar, etc. We cannot explain
   consciousness in objective terms.
 
-*** Chalmers, David and Andy Clark. "The Extended Mind." 1998.
+**** Chalmers, David and Andy Clark. "The Extended Mind." 1998.
 - The mind extends into the world. Touching objects is thinking with
   them, incorporating them into a larger cognitive process.
 - Propose the idea of active externalism---that the mind is extended
@@ -4733,7 +4934,7 @@ surface where light is cast.
   do this more efficiently, like our use of language which allows us
   to make other intellectual developments.
 
-*** Shaviro, Steven. *The Universe of Things: On Speculative Realism*, 2014.
+**** Shaviro, Steven. *The Universe of Things: On Speculative Realism*, 2014.
 - Rather than try to know things, we feel them. We can know things
   because we are constantly *becoming* (Whitehead) with them, and
   speculating about them.
@@ -4765,7 +4966,7 @@ surface where light is cast.
       left behind... aesthetics is the primordial form of experience"
       (155-56).
 
-*** Hayles, Katherine N. Cognitive Unconscious, 2017. 
+**** Hayles, Katherine N. Cognitive Unconscious, 2017. 
 - Hayles proposes a "planetary cognitive ecology" extends the focus of
   ethical inquiry from humans to machines that operate with humans
   within larger "cognitive assemblages." Distinguishes cognition by
@@ -4790,8 +4991,8 @@ surface where light is cast.
   higher level processors that draw inferences or take actions /
   decisions. Like the traffic control in LA.
 
-** Thinking/Feeling: Neuroscience
-*** Varela, Francisco, Evan Thompson, and Eleanor Rosch. *The Embodied Mind: Cognitive Science and Human Experience*, 1991.
+*** Thinking/Feeling: Neuroscience
+**** Varela, Francisco, Evan Thompson, and Eleanor Rosch. *The Embodied Mind: Cognitive Science and Human Experience*, 1991.
 - Building off Merleau-Ponty---the world isn't pregiven or
   representational, but enacted. The mind is a cognitive process that
   links sensory-motor perception to action.
@@ -4804,7 +5005,7 @@ surface where light is cast.
   sensory motor capacities that work in a constant, recursive way---we
   cannot separate sensory, motor, perceptive and cognitive capacities.
 
-*** Damasio, Antonio. First chapter from *The Feeling of What Happens*, 2000 & *Self Comes to Mind*, 2010.
+**** Damasio, Antonio. First chapter from *The Feeling of What Happens*, 2000 & *Self Comes to Mind*, 2010.
 - Damasio wants to examine the explanatory gap (? neurons --> feelings
   ?) and how the brain generates consciousness. The idea of the self
   is crucial for any autonomous creature, and it was evolved from more
@@ -4871,7 +5072,7 @@ surface where light is cast.
           difference is reduced, and depolarization advances down the
           axon like a wave. This wave is the electrical impulse.
 
-*** Malabou, Catherine. Chapter from *What Should We Do with Our Brain?*, 2008.
+**** Malabou, Catherine. Chapter from *What Should We Do with Our Brain?*, 2008.
 - The way that contemporary neurosciences characterize brain
   plasticity as flexible, malleable, adaptable plays into late
   capitalist ideology that conceptualizes humans as self-controlled,
@@ -4897,7 +5098,7 @@ surface where light is cast.
       re-learning how to enrage ourselves against a culture of
       docility.
 
-*** Noe, Alva. *Out of Our Heads: Why You Are Not Your Brain, and Other Lessons from the Biology of Consciousness*, 2010.
+**** Noe, Alva. *Out of Our Heads: Why You Are Not Your Brain, and Other Lessons from the Biology of Consciousness*, 2010.
 - An proponent of the extended mind theory, the idea that
   consciousness is not something in our minds, neuronal, or in our
   bodies, embodied, but it's something that we do---enworlded and
@@ -4921,7 +5122,7 @@ surface where light is cast.
   as demonstrated by Hayles. It makes the human the center of ethical
   inquiry, obscuring other actors.
 
-*** Dahaene, Stanislas. *Reading in the Brain: The New Science of How We Read*, 2010.
+**** Dahaene, Stanislas. *Reading in the Brain: The New Science of How We Read*, 2010.
 - Dahaene deals specifically with the problem of reading (and more
   broadly with the problem of culture). He questions how our brains
   have adapted to reading, given that they never evolved for it. He
@@ -4949,7 +5150,7 @@ surface where light is cast.
   word recognition relies on massive parallel processing, but goes way
   beyond what OCR can do.
 
-*** LeDoux, Joseph. Chapter from *Anxious: Using the Brain to Understand and Treat Fear and Anxiety*, 2015.
+**** LeDoux, Joseph. Chapter from *Anxious: Using the Brain to Understand and Treat Fear and Anxiety*, 2015.
 - By examining what happens to the prefrontal and parietal cortices
   during vision, we find them necessary for consciousness. Whatever
   else is going on, the neocortex is necessary.
@@ -4971,7 +5172,7 @@ surface where light is cast.
   is where all this nonconscious activity occurs and how it relates to
   our conscious activity.
 
-*** Pitts-Taylor, Victoria. *The Brain's Body: Neuroscience and Corporeal Politics*, 2016.
+**** Pitts-Taylor, Victoria. *The Brain's Body: Neuroscience and Corporeal Politics*, 2016.
 - Bodily difference yields cognitive difference.
 - Scientific conceptions of the brain occlude or naturalize social
   inequalities by studying the brain in isolation from power
@@ -4999,7 +5200,7 @@ spatially specific---a particular coupling of mind/body and
 world. Mis/fittings are embodied events, assemblages of body-subjects
 an worlds whose mis/fits are context- and interaction-dependant" (61).
 
-*** Tougaw, Jason. *The Elusive Brain: Literary Experiments in the Age of Neuroscience*, 2018. 
+**** Tougaw, Jason. *The Elusive Brain: Literary Experiments in the Age of Neuroscience*, 2018. 
 - Unlike neuroscientists and philosophers who think it's either
   impossible or inevitable that we can solve the explanatory gap,
   literary theorists do not concern themselves with resolving the
@@ -5053,8 +5254,8 @@ an worlds whose mis/fits are context- and interaction-dependant" (61).
     we make of other minds, both fictional and real ones—all of them
     acts of representation” (234).
 
-** Thinking/Feeling: The Posthuman & Feminist Science
-*** Turing, Alan. "Computing Machinery and Intelligence". 1950.
+*** Thinking/Feeling: The Posthuman & Feminist Science
+**** Turing, Alan. "Computing Machinery and Intelligence". 1950.
 - Turing's text asks whether computers can perform thinking, function
   in a way that imitates thought, not whether computers can "think" in
   the human sense. He formats the question in anthropocentric terms,
@@ -5069,7 +5270,7 @@ an worlds whose mis/fits are context- and interaction-dependant" (61).
   building and programming computers are often surprised---they are
   not quite sure what is going on inside the machine.
 
-*** Haraway, Donna. "Situated Knowledges: The Science Question in Feminism and the
+**** Haraway, Donna. "Situated Knowledges: The Science Question in Feminism and the
 Privilege of Partial Perspective," Feminist Studies, Vol. 14, No. 3
 (Autumn, 1988), pp. 575-599. http://www.jstor.org/stable/3178066
 
@@ -5125,7 +5326,7 @@ visualizing practices. With whose blood were my eyes crafted?" (585).
   wonderfully detailed, active, partial way of organizing worlds"
   (583).
 
-*** Haraway, Donna. "A Cyborg Manifesto", in *Simians, Cyborgs and
+**** Haraway, Donna. "A Cyborg Manifesto", in *Simians, Cyborgs and
 Women: The Reinvention of Nature* 1990.
 
 - Haraway is a primatologist critical of empirical methods. In earlier
@@ -5156,7 +5357,7 @@ Women: The Reinvention of Nature* 1990.
               in and mine the differences instead of flatten or
               resolve them.
 
-*** Scott, Joan W. "The Evidence of Experience," Critical Inquiry, Vol. 17, No. 4
+**** Scott, Joan W. "The Evidence of Experience," Critical Inquiry, Vol. 17, No. 4
 (Summer, 1991), pp. 773-797. https://www.jstor.org/stable/1343743
 
 Responds to "historians of difference" who are using experience for
@@ -5209,7 +5410,7 @@ text as referential---there is rhetoric and form. Historiography here
 is about modes of seeing.
 
 
-*** Powers, Richard. *Galatea 2.2* 1995.
+**** Powers, Richard. *Galatea 2.2* 1995.
 - The novel follows a writer's residency at a college, where he is
   enlisted to intervene in a bet between a computer scientist and a
   neurologist---whether or not a computer could be trained to pass a
@@ -5247,7 +5448,7 @@ is about modes of seeing.
       semantic pants down. Sense lay in metaphor’s embarrassment at
       having two takes on the same thing” (154).
 
-*** Hayles, Katherine. *How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics*, 2000.
+**** Hayles, Katherine. *How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics*, 2000.
 - When did information lose its body, and how is this tied to the
   liberalization of the human subject?
 - Hayles is concerned that scientific discourses about technology
@@ -5277,7 +5478,7 @@ is about modes of seeing.
   beyond semiotics. This flickering wouldn't be possible if they were
   in hard copy.
 
-*** Wilson, Elizabeth. *Affect and Artificial Intelligence*, 2010.
+**** Wilson, Elizabeth. *Affect and Artificial Intelligence*, 2010.
 - Wilson does an archival study of the major players of early
   cybernetics and computation, such as Walter Pitts and Alan
   Turing. She finds how their work is actually embroiled and driven by
