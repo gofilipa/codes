@@ -337,7 +337,10 @@ citing gender norms; most famously, by the reclamation of the word
 
 **** TODO Halberstam, Jack. /Female Masculinity/. Duke University Press, 1998. JSTOR, https://doi.org/10.2307/j.ctv11cwb00.
 
-"Gender's very flexibility and seeming fluidity is precisely what
+"If gender has been so thoroughly defamiliarized, why do we not have
+multiple gender options, multiple gender categories, and real-life
+nonmale and nonfemale options for embodiment and identification? In a
+way, gender's very flexibility and seeming fluidity is precisely what
 allows dimorphic gender to hold sway. Because so few people actually
 match any given community standards for male or female, in other
 words, gender can be imprecise and therefore multiply relayed through
@@ -345,9 +348,37 @@ a solidly binary system. At the same time, because the definitional
 boundaries of male and female are so elastic, there are very few
 people in any given public space who are completely unreadable in
 terms of their gender" (20).
+
 -> seems to be saying that gender expression standards are flexible.
-What counts for each gender is flexible, elastic. There are few who
-don't fit into it. 
+   What counts for each gender is flexible, elastic. There are few who
+   don't fit into it.
+
+"Precisely because virtually nobody fits the definitions of male and
+female, the categories gain power and currency from their
+impossibility. In other words, the very flexibility and elasticity of
+the terms 'man' and 'woman' ensures their longevity. To test this
+proposition, look around any public space and notice how few people
+present formulaic versions of gender and yet how few are unreadable or
+totally ambiguous" (27).
+
+"It is remarkably easy in this society not to look like a woman. It is
+relatively difficult, by comparison, not to look like a man.... what
+makes femininity so approximate and masculinity so precise? Or to pose
+the question with a different spin, why is femininity easily
+impersonated or performed while masculinity seems resilient to
+imitation?" (28).
+
+"What if a biological female who presents as butch, passes as male in
+some circumstances and reads as butch in others, and considers herself
+not to be a woman but maintains distance from the category 'man'? For
+such a subject, identity might be best described as a process with
+multiple sites for becoming and being. To understand such a process,
+we would need to do more than map psychic and physical journies
+between male and female within queer and straight space; we would
+need, in fact, to think in fractal terms and about gender geometries"
+(21).
+
+-> connection to word embeddings and gender. 
 
 Gender system is enforced through bathroom system:
 - the either/or nature of the bathrooms shows how we are thinking
@@ -1565,7 +1596,7 @@ felt, and thereby highly phantasmic and labile relation to these
 categories. Identification is the psychic process that makes the
 interval between the individual and the social apparent; it is not the
 site of their suture." (Amin 115).
-**** Amin, Kadji. “Taxonomically Queer? Sexology and New Queer, Trans, and Asexual Identities.” GLQ: A Journal of Lesbian and Gay Studies, vol. 29, no. 1, 2023, pp. 91–107.
+**** TODO Amin, Kadji. “Taxonomically Queer? Sexology and New Queer, Trans, and Asexual Identities.” GLQ: A Journal of Lesbian and Gay Studies, vol. 29, no. 1, 2023, pp. 91–107.
 
 About how we categorize gender.
 
@@ -1683,7 +1714,6 @@ method from within by generating idiosyncratic interpretations and
 translations that explode the epistemological and ontological
 foundations of taxonomy itself. That, I think, would be an ethical
 scholarly approach to new queer, trans, and asexual taxonomies."
-
 
 
 **** Adair, Cassius, Cameron Awkward-Rich, Amy Marvin; Before Trans Studies. /TSQ/ 1 August 2020; 7 (3): 306–320. doi: https://doi.org/10.1215/23289252-8552922
@@ -3797,6 +3827,82 @@ defined not only by a commitment to historical breadth, but by a
 version of the scientific method appropriate for a historical
 discipline" (par. 22).
 
+*** Data science
+**** Chun, Wendy Hui Kyong. Discriminating Data : Correlation, Neighborhoods, and the New Politics of Recognition. Edited by Alex Barnett, The MIT Press, 2021.
+In engineering vs humanities, representation vs singularity.
+
+"How can we treat machine learning systems and their predictions like
+those for global climate change. These models offer us the most
+probably future given past and current actions, not so that we will
+accept their predictions are inevitable, but rather so we will use
+them to help /change/ the future." (26)
+
+"Cyberspace, as a reparative hallucination within a hallucination,
+enables dominant groups to dis-identify as opporessed, militant
+minorities through hopeful ignorance." (34).
+
+Intersectionality vs neighborhoods: the difference is intention.
+- "Cambridge Analytica perverted Crenshaw's method and sought to
+  augment differences and exclusions, both real and perceived, based
+  on values and 'personality traits,' within a racially homogenous
+  space" (49).
+- "'Communities' are being planned and constructed based on divisions
+  and animosities" (49).
+
+On "potential history" (Ariella Aisha Azoulay) and critical fabulation
+(Saidiya Hartman):
+- "Crucially, the potential for an antitotalitarian society lies not
+  in the 'new,' which is linked to the terror of colonial progress--to
+  the emptying of worlds it renders 'new'" (79)
+- 'Potential history'... 'rather than seeing people as historical
+  'sources,' it enables us to to live with them as companions in a
+  world that defies the strict separation of past, present, and
+  future" (79).
+- "although such fabulation can never find the story's voices, it
+  enables us to see beyond numbers and sources" (79).
+- "What potential might we find if we were to simply revist and
+  reimagine what has been dismissed as 'training sets'?" (80).
+
+"Machine learning and predictive models as they currently exist can
+also resist reduction, but only if we treat the gaps between their
+results and our realities as spaces for political action, not errors
+to be fixed" (254).
+
+Correlation
+- "models not only 'discover' the effects of discrimination; they also
+  automate and perpetuate them for they exploit, rather than remedy,
+  inequalities" (57).
+
+Homophily
+- "network science reduces real-world phenomena into a series of
+  'nodes' and 'edges,' which are, in turn, regenerated to reveal the
+  causes of seemingly disparate behaviors, from friendships to
+  financial crises. These 'discovered' relations are vast
+  simplifications of vast simplifications, with each stage of network
+  theory--initial abstraction or representation, followed by
+  mathematical modelling--producing its own type of abstraction" (90-91).
+- "tightrope between empiricism and modelling... capture[s] data and
+  dream[s] of making data capture unnecessary by creating models that
+  perfectly mimic their object of study" (91).
+- "What would happen if we treated these and other models as we do
+  climate change models?... not so we will fatalistically accept the
+  future they predict, but rather so that we will do whatever is
+  needed to prevent that future from occurring" (122).
+
+Algorithms
+- "People are most predictable when they are most affectively charged" (24).
+
+Recognition
+- "they dis-identify as 'victims,' in order to both establish
+  themselves as the 'real victims,' and to undermine the claims of
+  social justice warriors" (217).
+
+Math concepts:
+- correlation
+- magnetic polarization
+- principal component analysis
+- bayes' theorem and inference
+- linear discriminant analysis
 *** Networks
 **** Galloway, Alexander. *Protocol*, 2004. PDF.
 - Codes that append all data…controlling power lies in the technical

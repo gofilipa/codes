@@ -1,0 +1,50 @@
+* Revising Butler
+
+I recently submitted the paper, which I have been working on since
+January, to the Association for Computational Linguistics conference
+(ACL).
+
+I am way out of my depth.
+
+Every keystroke you spend on someone else is a keystroke that you
+don't write for yourself.
+
+Am I cringe?
+
+Revising my thinking on the binary.
+
+Every keystroke.
+
+I wrote this paper about
+
+"Just because we emerge from a binary system doesn't mean we need to
+be fully determined by it."
+
+Over the past few months, I have been revising my [paper on
+binaries](), to submit to the ACL (Association for Computational
+Linguistics).
+
+The paper is about binaries, and how a form of what I call "binary
+thinking" pervades research about gender bias in NLP. The idea is that
+the binary model goes beyond the realm of gender (beyond male/female,
+in other words) and into a form of thinking that reduces and
+simplifies the ways we conceptualize gender bias. This form of
+thinking inspires what I call two "myths" about bias: that bias is
+categorical, and that bias is zero-sum. These myths attempt to
+shepherd bias into schemas that fundamentally misunderstand the way
+that bias works. The effect is that techniques for studying and
+mitigating gender bias often miss the mark.  
+
+A more effective approach, I believe, will be to study gender as a
+physical phenomenon. To that end, I am considering compiling a dataset
+that labels gender terms by the way that they manifest in behavior and
+expression. Here I'm following an argument from Kadj Amin's essay,
+"[We are all nonbinary]()" about conceptualizing gender in ways that
+make visible those who are most marginalized by gender norms. Amin
+suggests that gender be conceptualized through physical aspects, such
+as behavior and expression, rather than through identification, which
+is internal. The idea is that marking gender as an external,
+outward-facing phenomenon will make visible those who occupy
+historically marginal gender expressions, especially those that are
+feminized (Amin offers the example of the "queen").
+
