@@ -1,0 +1,276 @@
+* draft
+** sketch
+This paper is about how the ideals of "open" rely on the notion of
+threat.
+
+What has been "fair use"
+- databases, search results "transformative"
+- without affecting marketability
+
+How OpenAI defines "open":
+- the name itself, the original mission, share code and patents with
+  the world.
+- more recently, open aligned with "freedom to learn"
+  - anthropomophizing machine learning.
+  - "freedom of intelligence" -- "freedom to access and benefit" 
+- associated with innovation
+  - monopolizing practices (Big Tech prominence)
+  - "innovation & adoption" (congressional hearing may 8)
+  - Telecommunications Act 1996: deregulated internet for
+    consolidation of telecommunications companies.
+- positioned against authoritarianism and communism.
+  - "the ai race" is manufacutred
+  - irony: DeepSeek is open source
+  - unfettered vs fair use - depends on perspective
+
+What we can do, new licenses to reflect the moment.
+
+We need new licenses to protect our data. And smaller projects.
+Building off their foundation models to make something smaller.
+Innovate. Like DeepSeek.
+
+
+** draft
+The paper is about the term "open," and what the concept means to Big
+Tech developers who are currently taking openly accessible data (which
+is still protected under copyright), as the training material for
+their latest language models. It will consider the legal cases pending
+against Microsoft in particular, and consider some of the policy
+proposals that OpenAI, their subsidiary, has made to the US
+government, for what they call "democratic AI".
+
+I started doing this research because I wanted to understand how they
+justified taking massive amounts of data, without compensating content
+creators, and privatizing the outputs of that data, without taking
+responsibility for how those outputs affect the livelihoods of content
+creators. What I found is that the justification relies on an argument
+for freedom, which, perhaps unsurprisingly, relies on a claim a threat
+to the country. Here, the emphasis comes from contrasting the US with
+China. I close with some suggestions for building "open" work within
+these constraints.
+
+So I begin.
+
+One thing is clear -- "open" in a technical sense means something
+different today that it did at the emergence of Open Source and open
+data. The use of such data was not automated, so being "open" didn't
+have the same effect. Now that we have methods for vaccuuming up that
+data at scale, and creating products that compete with the original
+data, we need to rethink "open." 
+
+Before I go into current perspectives on the meaning of "open", will
+discuss "fair use," which is a crucial concept for understanding how
+even sources that are technically closed, or protected by copyright,
+can be "open" under certain conditions.
+
+"Fair use," as I'm sure many of you know, protects certain usages of
+copyrighted data according to specific conditions, which have to do
+with how much data is taken, how much it is altered, the use of the
+data (such as educational or commercial), and how the use affects
+marketability of the original. Historically, this has protected uses
+like quoting sentences from a book, or making a copy for educational
+or research purposes purposes, or creating a parody. A parody, for
+example, is considered "highly transformative", that in no way can
+substitute for the original.
+
+With the rise of the internet in the 90s and early 2000s, new lawsuits
+started appearing about whether search engines counted as fair use.
+The rulings generally agreed that search engines are fair use because
+they make "highly transformative" use of the data, and only provide
+partial access to that data in the search results. In /Author's Guild
+vs Google/ from 2015, a judged ruled that:
+#+begin_quote
+Google’s making of a digital copy to provide a search function is a
+transformative use, which augments public knowledge by making
+available information about Plaintiffs’ books without providing the
+public with a substantial substitute (/Author's Guild vs Google,
+2015/, 4).
+#+end_quote
+A major, perhaps the most substantial, concern in determining fair
+use cases is whether the final product competes in any way with the
+original. And this makes sense, because copyright, after all, exists
+precisely to protect content creators.
+
+As you might imagine, this is a perspective wholly neglected by
+companies who violate copyright to train their machine learning models
+
+How OpenAI defines "open":
+- the name itself, the original mission, share code and patents with
+  the world.
+- more recently, open aligned with "freedom to learn"
+  - anthropomophizing machine learning.
+  - "freedom of intelligence" -- "freedom to access and benefit" 
+- associated with innovation
+  - monopolizing practices (Big Tech prominence)
+  - "innovation & adoption" (congressional hearing may 8)
+  - Telecommunications Act 1996: deregulated internet for
+    consolidation of telecommunications companies.
+- positioned against authoritarianism and communism.
+  - "the ai race" is manufacutred
+  - irony: DeepSeek is open source
+  - unfettered vs fair use - depends on perspective
+
+What we can do, new licenses to reflect the moment. 
+
+** reading notes
+
+*** The Author’s Guild v. Hathitrust, 2014
+"A district court ruled that libraries that provided a search engine
+company (Google) with books to scan were protected by fair use when
+the libraries later used the resulting digital scans for three
+purposes: preservation, a full-text search engine, and electronic
+access for disabled patrons who could not read the print versions. On
+appeal, the Second Circuit affirmed fair use as to the full-text
+database (“a quintessentially transformative use”) and as to use of
+text in formats accessible to print-disabled people (although not a
+transformative use, it is still considered a fair use based on the
+Betamax decision), but remanded the issue of fair use for long-term
+preservation of books." ("Summaries of Fair Use Cases", Standford
+Libraries)
+
+*** Authors Guild v. Google, Inc., No. 13-4829 (2d Cir. 2015)
+"Google made digital copies of millions of books submitted to it by
+libraries, scanned them and made them available to search through its
+Google Books service, so that users could—for free—identify relevant
+words, terms, or snippets from the scanned text. Google also allowed
+participating libraries to retain the copies they submitted. Important
+factors: Google’s digitization was deemed a transformative use because
+it provided limited information about the books without allowing users
+more complete access to the works." ("Summaries of Fair Use Cases",
+Standford Libraries)
+
+*** “Winning the AI Race: Strengthening US Capabilities in Computing and Innovation.Sam Altman, Testimony, May 8:
+- May 8 congressional hearing titled “Winning the AI Race:
+  Strengthening US Capabilities in Computing and Innovation.”
+- OpenAI CEO Sam Altman, Microsoft President Brad Smith, AMD CEO Dr.
+  Lisa Su, and CoreWeave CEO Michael Intrator speaking to the Senate
+  Commerce Committee.
+- Argument: that the US requires free rein (low regulation) to defeat
+  China in the "AI Race", we will know we win the race if we can
+  innovate and export" 
+- Cruz:
+  - position: regulation is "needless" and "orwellian",
+    "paternalistic". 
+  - Cruz's contradictory language frames US as free, Europe and China
+    as authoritarian.
+    - Cruz's language contrasts "entrepreneurial freedom and
+      technological innovation" against "command-and-control policies
+      of Europe".
+  - Drawing from history of the internet, which was developed with
+    relatively low regulation in the USA.
+    - Telecommunications Act of 1996 that promoted competition via
+      deregulation, (but in reality, smoothed the road for
+      consolidation, "going against its very stated intention by
+      indirectly restricting newcomer access to broadcasting"
+      (wikipedia, "Telecommunications Act of 1996")
+  - Referring to Biden and some state legislatures: "They want a
+    testing regime... seemingly something out of Orwell ... as if AI
+    engineers lack the intelligence to responsibly build AI without
+    the bureaucrats"
+  - "U.S. dominance in AI depends on two factors: innovation and
+    adoption."
+- Altman:
+  - vetting systems would be "disastrous" for industry, "sensible
+    regulation that does not slow us down"
+- Smith, microsoft president:
+  - the way to know we've won the "race" is if our tech is broadly
+    adopted.
+
+*** NYTimes complaint
+- NYT complaint argues that OpenAI "stea[s] audiences away from it",
+  that outputs "compete", "closely mimic" NYT articles, and that the
+  work is not "transformative". (page 4).
+
+
+--> argumment seems to be about outputs being copies, when should be
+about inputs?
+
+*** 2018 OpenAI press release, december 12 2018
+- OpenAI started as a nonprofit, and raised money with promises to
+  share their products freely:
+  - "Researchers will be strongly encouraged to publish their work,
+    whether as papers, blog posts, or code, and our patents⁠ (if any)
+    will be shared with the world" (OpenAI 12/11/2018 press release).
+
+*** 2025 OpenAI proposal, march 13, 2025
+- "we must ensure that people have freedom of intelligence, by which
+  we mean the freedom to access and benefit from AI as it advances"
+- "freedom-focused policy proposals" that "neutralizes potential PRC
+  benefit from American AI companies having to comply" with
+  regulations.
+  - "freedom to innovate" regulations
+  - "copyright strategy that promotes the freedom to learn"
+    - "secure Americans’ freedom to learn from AI"
+    - "avoid forfeiting our AI lead to the PRC"
+  - "export strategy"
+  - develop infrastructure
+  - adoption by government
+
+*** 2023(?) OpenAI Comments on Intellectual Property Protection for Artificial Intelligence Innovation
+- argue that, “Under current law, training AI systems constitutes fair
+  use”
+  - argument for fair use hinges on "transformative" use of copyrighted work
+    - citing a passage from a court case that defends parody (Campbell
+      v. Acuff-Rose Music) as fair use to argue that AI outputs are
+      "highly transformative"
+    - input data: copyrighted works become statistical patterns,
+      “non-expressive”"
+    - output data: nobody can use AI to read the specific webpages
+      they are trained on: they will still go to NYTimes to read the
+      news. (debatable).
+- "mission is to ensure that artificial general intelligence (“AGI”)
+  benefits all of humanity”"
+- anthropomorphize AI training into human learning:
+  - “does copyright law’s  protection of an author’s original
+    expression impede AI systems from generating insights about  that
+    expression?”
+  - ““training” refers to the process by which an AI model learns
+    patterns”
+- “Authors may object that the outputs of generative AI systems will
+  harm the value of their works. We address this objection in Section
+  II.”
+  - “Distributive Issues from AI-Generated Non-Infringing Works Should
+    Be Addressed by Other Policies”
+  - “this concern falls into a broader category of concerns about the
+    relationship  between automation, labor, and economic growth”
+  - "we believe that such distributive claims are most efficiently
+    addressed through taxation and redistribution, rather than
+    copyright policy.”
+    - “Louis Kaplow & Steven Shavell, Why the Legal System Is Less
+      Efficient than the Income Tax  in Redistributing Income, 23 J.
+      Legal Stud. 667 (1994) (“[R]edistribution through legal rules
+      offers no  advantage over redistributions through the income tax
+      system and is typically less efficient.”).”
+
+*** 2025 OSTP OSTP proposal, march 13, 2025
+- Office of Science and Technology Policy proposal
+- proposals to help OSTP develop "AI Action Plan ... that ensure[s]
+  that American-led AI built on democratic principles continues to
+  prevail over CCP-build autocratic, authoritarian AI".
+- "democratic AI"
+  - "a free market promoting free and fair competition.
+  - "freedom for developers and users to work with our tools"
+  - "preventing government use... to amass power and control their
+    citizens"
+- Deepseek is a threat because "simultaneously state-subsidized,
+  state-controlled, and fully available... cost[ing] users privacy and
+  security."
+- point #3: "Copyright: Promoting the Freedom to Learn"
+  - need to use copyrighted material to compete with China, a "matter
+    of national security."
+  - contradiction between China's "unfettered access" vs OpenAI's
+    "fair use":
+    - "Applying the fair use doctrine to AI is not only a matter of
+      American competitiveness-—it’s a matter of national security.
+      The rapid advances seen with the PRC’s DeepSeek, among other
+      recent developments, show that America’s lead on frontier AI is
+      far from guaranteed. Given concerted state support for critical
+      industries and infrastructure projects, there’s little doubt
+      that the PRC’s AI developers will enjoy unfettered access to
+      data—including copyrighted data—that will improve their models.
+      If the PRC’s developers have unfettered access to data and
+      American companies are left without fair use access, the race
+      for AI is effectively over. America loses, as does the success
+      of democratic AI. Ultimately, access to more data from the
+      widest possible range of sources will ensure more access to more
+      powerful innovations that deliver even more knowledge" (10-11). 
