@@ -1,7 +1,36 @@
 * draft
 ** sketch
-This paper is about how the ideals of "open" rely on the notion of
-threat.
+The meaning of "open" changes with big data methods. What was open for
+Lawrence Lessig in early 2000s cannot be "open" for us.
+
+The problem:
+- mischaracterizations of what kind of thing LLMs are and what they do
+  to language. 
+- in the legal discourse, adopting "non-expressive" and
+  "transformative" status on LLM data (vectors).
+- in the public discourse, operationalizing the word "freedom" for
+  commercial purposes.
+
+My argument:
+- Vectors are expressive, reflect the training data.
+- Examples from heritage project, perhaps contrasted with another data
+  source?
+- Queen = King - Man + Woman
+  - acting as if there an ideal vector for "queen", like a vector is a
+    definition.
+  - but vectors are encodings; not objective definitions; they are
+    traces of the data they are trained on. 
+
+Licensing has to change, and is changing. Indigenous groups are
+leading the way here.
+
+** move to draft
+The concept of "open" relies on commercialization, fear mongering,
+single perspective. 
+- "freedom to learn"
+- unfettered vs fair use
+
+  
 
 What has been "fair use"
 - databases, search results "transformative"
@@ -29,14 +58,27 @@ We need new licenses to protect our data. And smaller projects.
 Building off their foundation models to make something smaller.
 Innovate. Like DeepSeek.
 
+"Non-expressive use" - what happens when language is distilled into a
+statistical measure? Is this non-expressive?
+
+The arguments that statistics of language are facts, not expression,
+and therefore can be extracted and monetized -- this is what we have
+to push against.
+
+A vector is its own expression, that is subject to protection. 
 
 ** draft
-The paper is about the term "open," and what the concept means to Big
-Tech developers who are currently taking openly accessible data (which
-is still protected under copyright), as the training material for
-their latest language models. It will consider the legal cases pending
-against Microsoft in particular, and consider some of the policy
-proposals that OpenAI, their subsidiary, has made to the US
+The paper is about the term "open," what it means in the context of
+data, and how that meaning is changing in light of big data methods
+associated with machine learning.
+
+*** start here
+
+Big Tech developers who are currently taking openly accessible data
+(which is still protected under copyright), as the training material
+for their latest language models. It will consider the legal cases
+pending against Microsoft in particular, and consider some of the
+policy proposals that OpenAI, their subsidiary, has made to the US
 government, for what they call "democratic AI".
 
 I started doing this research because I wanted to understand how they
@@ -153,7 +195,18 @@ How OpenAI defines "open":
 What we can do, new licenses to reflect the moment. 
 
 ** reading notes
-
+*** Chandrasekhar 2025
+- how do copyleft licenses transfer to datasets, models, tokens?
+- EleutherAI developing the Pile V2
+- Problem isn't that data is used without compensation, but that
+  products/outcomes are not contributed back to the commons (19).
+- are parameter's "transformative"?
+- The issue becomes: who has the ability to create? To use the GPUs.
+- alternative licenses:
+  - Nwulite Odobo "dual regime" - free for users in developing
+    countries, multiple licensors for a dataset
+  - Kaitiakitanga - royalties go to community, community ownership
+- language is extractive, indigenous communities know this. 
 *** The Author’s Guild v. Hathitrust, 2014
 "A district court ruled that libraries that provided a search engine
 company (Google) with books to scan were protected by fair use when
