@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-07-07 Mon 12:18 -->
+<!-- 2025-07-10 Thu 14:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -200,399 +200,241 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orge834de4">1. introduction</a></li>
-<li><a href="#orgdc1020f">2. public &amp; legal discourse around what is open</a></li>
-<li><a href="#orgf711b10">3. patterns in language</a></li>
-<li><a href="#org0717b16">4. close reading</a></li>
+<li><a href="#org45bf1fe">1. draft</a>
+<ul>
+<li><a href="#org4603efb">1.1. introduction</a></li>
+<li><a href="#orgc1cf6c3">1.2. legal defense of "transformative"</a></li>
+<li><a href="#org0c5acf5">1.3. patterns in language</a></li>
+<li><a href="#org9d514f2">1.4. close reading</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge834de4" class="outline-2">
-<h2 id="orge834de4"><span class="section-number-2">1.</span> introduction</h2>
+<div id="outline-container-org45bf1fe" class="outline-2">
+<h2 id="org45bf1fe"><span class="section-number-2">1.</span> draft</h2>
 <div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org4603efb" class="outline-3">
+<h3 id="org4603efb"><span class="section-number-3">1.1.</span> introduction</h3>
+<div class="outline-text-3" id="text-1-1">
 <p>
-This presentation is about the concept of "open source" is changing in
-light of big data methods associated with machine learning.
+I'm going to speak on this question of the panel of "how do we
+approach openness in shadow of AI?" from the perspective of a
+programming practitioner and instructor.
 </p>
 
 <p>
-"Open" in a technical sense means something different today that it
-did at the emergence of Open Source and open data. The use of such
-data was not automated, so being "open" didn't have the same effect.
-Now that we have methods for vaccuuming up that data at scale, and
-creating products that compete with the original data, we need to
-rethink "open."
+At my home institution in New York, I teach classes on programming in
+an Information Studies department. I also do research using LLMs
+(Large Language Models) to study gender-based bias in language. A lot
+of my work (both for teaching and research) involves scraping web data
+and using that data to fine-tune lanuage models. So in my work, I
+interact directly with ML tools, either by teaching students how to
+code with them, or as a method for doing text analysis.
+</p>
+
+<p>
+I want to get as this question of "open" from a technical perspective.
+I'm going to lift the hood a little bit, to examine the processes that
+underly machine learning training, and what kind of transformation
+that makes on data.
+</p>
+
+<p>
+And the reason I think this is because currently, in the United
+States, the question of what legally counts as "open" is being debated
+in the courts. Right now, there are over 40 ongoing lawsuits brought
+by content creators against companies like OpenAI, Microsoft,
+Anthropic, Midjourney, Stability AI, and many others, which allege
+that these companies have committed copyright infringement by taking
+openly accessible data and privatizing the outputs of that data,
+without compensating content creators and affecting the market for
+their content.
+</p>
+
+<p>
+To defend themselves, these companies make certain arguments which
+hinge, in my view, on widespread ignorance about what happens to
+training data in the model development process. (This ignorance about
+AI, indeed drives much of the marketing and business adoption).
+</p>
+
+<p>
+So, for this presentation, I'm going to first look at what exactly
+companies like OpenAI are saying to defend their theft of openly
+accessible data, and then I'm going to weigh that against what
+actually occurs to data when it's used to train a ML model. To
+demonstrate how this works in practice, I'm going to show some samples
+from my research, where I train language models to study transphobia
+in popular discourse. 
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgdc1020f" class="outline-2">
-<h2 id="orgdc1020f"><span class="section-number-2">2.</span> public &amp; legal discourse around what is open</h2>
-<div class="outline-text-2" id="text-2">
+<div id="outline-container-orgc1cf6c3" class="outline-3">
+<h3 id="orgc1cf6c3"><span class="section-number-3">1.2.</span> legal defense of "transformative"</h3>
+<div class="outline-text-3" id="text-1-2">
 <p>
-OpenAI, on how it presents itself around "open".
+First, I start with OpenAI's justification of its data gathering
+practices.
 </p>
 
 <p>
-SLIDE OAI's original mission
+SLIDE OPENAI COMMENTS ON IP title
 </p>
 
 <p>
-OpenAI's original mission, from its release in 2018, declared the
-company's "goal is to advance digital intelligence in the way that is
-most likely to benefit humanity as a whole, unconstrained by a need to
-generate financial return." It claimed that AI should be "as broadly
-and evenly distributed as possible," and that its code, research and
-patents, "will be shared with the world" (12/11/2018 press release).
+In a document written to The United States Patent and Trademark
+Office, entitled, "Regarding Request for Comments on Intellectual
+Property Protection for Artificial Intelligence Innovation", OpenAI
+explains that their product does not infringe copyright because it
+is "highly transformative."
 </p>
 
 <p>
-More recently, this language has shifted from sharing to freedom.
+SLIDE authors guild cases
 </p>
 
 <p>
-SLIDE OIA freedom-focused policy proposals
+To demonstrate, they cite two legal cases, <i>Authors Guild v. Google</i>,
+in 2015, and <i>Authors Guild v. HathiTrust</i>, in 2014, which set a
+precedent for thinking about the "transformative" as an aspect
+distinctly associated with technological contexts. At the time, both
+Google and Hathitrust had digitized millions of copyrighted books into
+databases for searching. In the case of Google, parts of digitized
+book were available to view as "snippits" or "previews" (which is what
+you see when you go to Google Books), and in the case of Hathitrust,
+the full text of books had been digitized so that users could run word
+searches.
 </p>
 
 <p>
-In a proposal to the OSTP from march of this year, the company makes a
-series of "freedom-focused policy proposals" which are apparently
-based on democracic values.
+The ruling for both cases assert that the database format of search
+results is fundamentally transformative of the original, offering a
+new kind of object, which is, <i>information about books</i>, rather than
+copies of the books themselves. 
 </p>
 
 <p>
-This proposal lists a litany of freedoms, including the "freedom of
-intelligence", "freedom to access and benefit", "freedom to innovate,"
-"freedom to learn." The last one, "freedom to learn" concerns
-copyright.
-</p>
-
-<blockquote>
-<p>
-We propose a copyright strategy that would extend the system’s role
-into the Intelligence Age by protecting the rights and interests of
-content creators while also protecting America’s AI leadership and
-national security. The federal government can both secure Americans’
-freedom to learn from AI, and avoid forfeiting our AI lead to the PRC
-by preserving American AI models’ ability to learn from copyrighted
-material.
-</p>
-</blockquote>
-
-<p>
-Here, interestingly, there are two learners: humans and AI. Not only
-are the humans learning from AI, but the AI themselves are learning,
-by taking copyrighted data as resources for "training."
+SLIDE quote from Hathitrust ruling
 </p>
 
 <p>
-Of course, in a discourse that already anthropomorphizes machine
-learning tools as "intelligent", they are doing the same with
-"learning". But "learning" for a machine is much different than a
-human, leading to accelerated capacities not only in processing but
-also in generating that a human cannot replicate.
-</p>
-
-<p>
-But, the real justification for taking copyrighted data is buried in
-the text here: a reference to competition with the "PRC", the Peoples'
-Republic of China.
-</p>
-
-<p>
-SLIDE OAI proposal text 
-</p>
-
-<p>
-In the proposal text, we see this justification spelled out in more
-detail. This is in a section entitled, "Copyright: Promoting the
-Freedom to Learn",
+In the ruling, judge in the Hathitrust case points out,
 </p>
 
 <blockquote>
 <p>
-Applying the fair use doctrine to AI is not only a matter of American
-competitiveness-—it’s a matter of national security. The rapid
-advances seen with the PRC’s DeepSeek, among other recent
-developments, show that America’s lead on frontier AI is far from
-guaranteed. Given concerted state support for critical industries and
-infrastructure projects, there’s little doubt that the PRC’s AI
-developers will enjoy unfettered access to data—-including copyrighted
-data—-that will improve their models. If the PRC’s developers have
-unfettered access to data and American companies are left without fair
-use access, the race for AI is effectively over. America loses, as
-does the success of democratic AI. ("Proposal to OSTP")
+The result of a word search is different in purpose, character,
+expression, meaning, and message from the page (and the book) from
+which it is drawn" (<i>Author's Guild v. Hathitrust</i>, 97).
 </p>
 </blockquote>
 
 <p>
-The context is DeepSeek, which was released by China in early 2025,
-and accomplished impressive performance using a fraction of the
-resources used by big tech companies in the US.
-</p>
-
-<p>
-Here the bias emerges in the adjectives they use to describe data
-collection: for China, it is "unfettered access", for the USA, it is
-"fair use access". There is no difference between "unfettered" and
-"fair use," because OpenAI (and other big tech companies) are not
-limiting themselves in how they gather data.
-</p>
-
-<p>
-They state,
+And in the Google case, the ruling was:
 </p>
 
 <blockquote>
 <p>
-our AI model training aligns with the core objectives of copyright and
-the fair use doctrine, using existing works to create something wholly
-new and different without eroding the commercial value of those
-existing works. ("Proposal to OSTP")
+Google’s making of a digital copy to provide a search function is a
+transformative use, which augments public knowledge by making
+available information about Plaintiffs’ books without providing the
+public with a substantial substitute (<i>Author's Guild vs Google,
+2015</i>, 4).
 </p>
 </blockquote>
 
 <p>
-The fair use hinges on this notion of "creating something wholly new
-and different". This is a reference to one of the legal criteria for
-"fair use," which is called the "transformative".
+Here, the importance is the transformation of language from its
+original context on the written page to a represenation that is
+statistical in nature, into a database-like list of search results.
+This ruling, which has significant effect on databases and search
+engines, determines that language as <i>aggregation</i> is fundamentally
+distinct from langauge in context. As a result, activities related to
+quantitative analysis, like text mining, become a permissable use.
 </p>
 
 <p>
-How they are operationalizing the "transformative" criterion is fully
-spelled out in another document, also in response to a US government
-request for information.
-</p>
-
-<p>
-SLIDE OPENAI COMMENTS ON IP, quote campbell acuff-rose
-</p>
-
-<p>
-To the United States Patent and Trademark Office, entitled, "Regarding
-Request for Comments on Intellectual Property Protection for
-Artificial Intelligence Innovation", OpenAI mounts their defence of
-"fair use." This defense hinges on the status of AI technology as what
-they call "highly transformative."
-</p>
-
-<blockquote>
-<p>
-Although such transformative use is not absolutely necessary for a
-finding of fair use, the goal of copyright, to promote science and the
-arts, is generally furthered by the creation of transformative works.
-Such works thus lie at the heart of the fair use doctrine's guarantee
-of breathing space within the confines of copyright, and the more
-transformative the new work, the less will be the significance of
-other factors, like commercialism, that may weigh against a finding of
-fair use. (<i>Campbell v. Acuff-Rose Music</i> 1994)
-</p>
-</blockquote>
-
-<p>
-Here, they citing a passage from a court case that defends parody
-(Campbell v. Acuff-Rose Music) as fair use. In that case, which was
-argued at the Supreme Court in 1994, the ruling states that "the more
-transformative the new work, the less will be the significance of
-other factors, like commercialism, that may weigh against a finding of
-fair use."
-</p>
-
-<p>
-Building on this, OpenAI focus the majority of their argument on the
-transformative nature of AI systems.
-</p>
-
-<p>
-Before going into that argumentation, I will point out what they do
-say about commercialization, and specifically, how content creators
-ought to be compensated. This is a point that is slightly buried in
-the document, in a footnote in a later section. In this section, they
-argue that concerns about compensation, what they call "distributive
-claims", are outside the responsibility of big tech companies. They
-argue, for example, that:
-</p>
-
-<blockquote>
-<p>
-"&#x2026; this concern falls into a broader category of concerns about the
-relationship between automation, labor, and economic growth"
-</p>
-
-<p>
-"&#x2026; we believe that such distributive claims are most efficiently
-addressed through taxation and redistribution, rather than copyright
-policy."
-</p>
-</blockquote>
-
-<p>
-After this sentence, they refer to a footnote, which contains a single
-citation to a legal paper from 1994, entitled, "Why the Legal System
-Is Less Efficient than the Income Tax in Redistributing Income."
-</p>
-
-<p>
-SLIDE WHY THE LEGAL SYSTEM&#x2026; paper screenshot
-</p>
-
-<p>
-This paper, which compares legal system versus the income tax system
-as a means for distributing wealth, finds that the income tax system
-is more efficient due to ability to apply formulas universally. The
-footnote provides a single quote from the paper, that
-"[R]edistribution through legal rules offers no advantage over
-redistributions through the income tax system and is typically less
-efficient." Besides this quote, it offers no additional information
-about how such redistribution would work, if everyone would be taxed,
-or just AI companies (somehow doubtful), and if everyone would receive
-payments (As Sam Altman has discussed the potential for UBI or
-"Universal Basic Income"), or, whether payments would go only to
-content creators. My guess is that taxes would increase for everyone
-in order to support content creators.
-</p>
-
-<p>
-Moving back to copyright, and to the so-called "highly transformative"
-nature of AI systems, I will now consider OpenAI's specific arguments
-regarding this criterion.
-</p>
-
-<p>
-First, they cite two legal cases, Authors Guild v. Google, 2015, and
-Authors Guild v. HathiTrust, 2014, that set a precendence for thinking
-about the "transformative" as a factor that intersects interestingly
-with technological contexts. Both cases were brought by the Authors
-Guild, a professional organization for writers in the US, to argue
-that search results violate copyright. At the time, both Google and
-Hathitrust had digitazed thousands to millions (in the case of Google)
-of copyrighted books into a database for searching, and users could
-see excerpts and other information about the copyrighted works on the
-Google and Hathitrust search engines.
-</p>
-
-<p>
-The ruling for both cases assert that search results constitute
-something distinct from the original, which is fundamentally
-transformative, that is, <i>information about books</i>. Such information
-does not offer a replacement or substitute for the book, but rather,
-it offers a new kind of object. Here, the importance is the
-transformation of language from its original context, in a sentence or
-on a page, to a represenation that is statistical in nature,
-representing part of an aggregation. As the judge in the Hathitrust
-case points out, "the result of a word search is different in purpose,
-character, expression, meaning, and message from the page (and the
-book) from which it is drawn" (<i>Author's Guild v. Hathitrust</i>, 97).
-These court cases, significantly for databases and search engines, set
-activities related to quantitative analysis, like text mining, as a
-permissable use.
-</p>
-
-<p>
-OpenAI take this concept of the "transformative" and applies it in
-full force to their large language models.
+Also essential to this ruling was the determination that this new
+object, the search results, does not affect the marketability of the
+original works, and may in fact contribute to their marketability, by
+pointing people to them.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgf711b10" class="outline-2">
-<h2 id="orgf711b10"><span class="section-number-2">3.</span> patterns in language</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org0c5acf5" class="outline-3">
+<h3 id="org0c5acf5"><span class="section-number-3">1.3.</span> patterns in language</h3>
+<div class="outline-text-3" id="text-1-3">
 <p>
-They argue, essentially, that llms create a new kind of object based
-on "patterns" of language use in the training data. They explain that,
+It is this understanding of "transformative" that OpenAI applies to
+defend the copyright infringement of their large language models.
 </p>
+
+<p>
+They argue that, like search results, llms create a new kind of
+object. But rather than representing information <i>about</i> the original,
+this new object that is a kind of generalization, what they call
+"patterns" of language, from the original training data. They claim
+that "AI systems" learn "patterns" from the "training corpus and then
+use those patterns to generate entirely new media" ("Comment", 9).
+</p>
+
+<p>
+The claim that the content generated by these systems is "entirely
+new" is a point, I think, that people can assess for themselves as
+disingenuous.
+</p>
+
+<p>
+But their subtle qualitification of the meaning of "patterns" suggests
+that they mean something deeply structural and foundational about
+language: 
+</p>
+
+<p>
+SLIDE OpenAI quote
+</p>
+
+<p>
+They explain that,
+</p>
+
 <blockquote>
 <p>
-"AI systems go well beyond preserving the content of individual works
-by learning patterns in their whole training corpus and then using
-those patterns to generate entirely novel media"
-</p>
-</blockquote>
-<p>
-They continue, explaining that,
-</p>
-<blockquote>
-<p>
-"by learning patterns from its training corpus, an AI system can
+"By learning patterns from its training corpus, an AI system can
 eventually generate media that shares some commonalities with works in
 the corpus (in the same way that English sentences share some
 commonalities with each other by sharing a common grammar and
 vocabulary) but cannot be found in it." ("Comment", 9-10)
 </p>
 </blockquote>
+
+<p>
+"No author may copyright facts or ideas. The copyright is limited to
+those aspects of the work—-termed ‘expression’—-that display the stamp
+of the author’s originality."
+</p>
+
+<p>
+The comparison to "grammar" and "vocabulary" indicate that they view
+patterns as analogous 
+</p>
+
+<p>
+(Here, they assume patterns to be abstracted, generalized, idealized,
+ but patterns are materially situated)
+</p>
+
 <p>
 What they refer to as patterns are statistical representations of
 language, a numerical representation that encodes a words semantic
 meaning to the langauge model.
 </p>
 
-<p>
-Basically, inside every language model, exists a kind of dictionary.
-This dictionary consists of individual words (every single word that
-is present in the training corpus), and each word is appended not by a
-definition in human language, but by a definition in computer
-language, with numbers. These numbers which append each word,
-represent probabilities between that word and <i>every single other word
-in the corpus</i>. They are long, very long (and this is why language
-models are caled "large") lists of probabilities. So, inside the
-language model, each word is defined not by what it represents in
-itself, but by its relation to every other word in the corpus.
-</p>
 
-<p>
-<i>For example, the word "cat" will have a series of numbers that
-closely resembles the series of numbers that append the word,
-"kitten," and not as close to the numbers that represent "dog." Still,
-the numbers for "cat" and "dog" will be much closer to each other than
-the numbers that represent "flower," for example.</i>
-</p>
-
-<p>
-Here is an example of the famous formula that introduced the concept
-of the long list of numbers, known technically as "word vectors" to
-the world.
-</p>
-
-<blockquote>
-<p>
-King - Man + Woman = Queen
-</p>
-
-<p>
-Mikolov et al., "Distributed Representations of Words and Phrases and
-their Compositionality", 2013.
-</p>
-</blockquote>
-
-<p>
-I always like to show this formula, because it illustrates exactly the
-reason why we need more humanists (or more humanist training) involved
-in engineering and computer science research.
-</p>
-
-<p>
-The formula showcases power of word vectors: that they can be used
-determine word meaning through calculations. In other words, if every
-word is transformed into a numerical representation, we can do math
-with language. We start with the vector for the word "King," that is,
-a numerical representation of what "King" means in relation to every
-other word. If, from the vector of "King," we subtract the vector of
-"Man," and add that of "Woman," we will arrive at the vector for the
-word "Queen."
-</p>
-
-<p>
-Nevermind that the formula relies on gender role and identity as
-symmetrically opposed and universally true, the idea is that word
-meaning can be reliably computed.
-</p>
-
-<p>
-And this is why, OpenAI argue, their product is "highly
-transformative," because it turns words into numerical forms that
-represent meaning as a kind of statistic.
-</p>
 
 <p>
 But the thing that they do not mention, which they perhaps do not want to
@@ -608,9 +450,9 @@ based on two very different data sources.
 </div>
 </div>
 
-<div id="outline-container-org0717b16" class="outline-2">
-<h2 id="org0717b16"><span class="section-number-2">4.</span> close reading</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-org9d514f2" class="outline-3">
+<h3 id="org9d514f2"><span class="section-number-3">1.4.</span> close reading</h3>
+<div class="outline-text-3" id="text-1-4">
 <p>
 I'm working on a project right now that uses Machine Learning to
 study transphobia in text. I've been gathering datasets from
@@ -772,31 +614,6 @@ national and cultural achievements is far-reaching.
 </blockquote>
 
 <p>
-"individualism" / "individualized"
-</p>
-
-<blockquote>
-<p>
-Femininity is defined by the term “queer of the material,” or ‘queer
-of the material,” or ‘queer of the material,” especially in the form
-of expressive individualism. (Heritage)
-</p>
-
-<p>
-Women are the women of third-wave feminism, with the rise of
-expressive individualism, and the feminist movement. (Heritage)
-</p>
-
-<p>
-Transgender is a very individualized experience. (ACLU)
-</p>
-
-<p>
-The gender binary is a very individualized form of identity. (ACLU)
-</p>
-</blockquote>
-
-<p>
 Subjective by heritage
 </p>
 <ul class="org-ul">
@@ -950,9 +767,10 @@ layers of distinct expressions.
 </div>
 </div>
 </div>
+</div>
 <div id="postamble" class="status">
 <p class="author">Author: fcalado</p>
-<p class="date">Created: 2025-07-07 Mon 12:18</p>
+<p class="date">Created: 2025-07-10 Thu 14:01</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
