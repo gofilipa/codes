@@ -1,0 +1,508 @@
+* short paper
+
+** "When Hacking Becomes Easy: Teaching Python In 2025"
+
+I'm going to talk about my experience teaching programming in the age
+of AI tools.
+
+At Pratt Institute, in New York City, I teach courses on programming
+with Python. Most recently, this summer, I taught an intermediate
+level course titled "How To Build A Bot", which was about learning how
+to automate processes with Python. For example, bots are applications
+that will interact with webpages in somehow autonomous ways, like
+downloading data from webpages, doing searches, or even posting (if
+its a social media site). Over the semester, which ended last Monday,
+students built "bots" for various tasks.
+
+    SLIDE
+    https://github.com/aliceaviggiani/map-bot
+    https://github.com/sgutma59/OpenAlexBibliographyBot
+    https://github.com/petewise9/eBay_Scraper/
+
+For example, one bot that checks ebay for new listings of particular
+pokemon cards; another that automatically downloads data from academic
+open access repositories based on research topics; another that posts
+images and provenance information of rare maps on instagram.
+
+All of these students came to my class with little to no experience
+with programming -- and they all built things that they wouldn't have
+been able to build two or three years ago. From starting almost at
+zero, they left the course with functional applications that did
+things in the world. They were able to do this for one reason: because
+they had access to free AI chatbots and agents.
+
+Of course, they used the technology in different ways.
+
+What most of them found useful was the debugging capabilities. That
+these AI-powered coding tools could toubleshoot and fix their code. In
+that sense, errors that could take hours or days to resolve can be
+resolved in seconds. 
+
+Although that was also a double-edged sword. The suggested fixes
+didn't always work, and when they did work, they often led to more
+errors down the road, or to convoluted looking and functioning code
+that takes more steps than necessary to fix the problem.
+
+One of my students, for example, who was totally new to programming,
+described his experience interacting with an AI bot as if he was
+trying to convince or guide it toward a specific conclusion. He would
+say things like "I'm trying to get it to understand", and "It's coming
+around slowly", and "I'm almost there, it just needs some more
+direction."
+
+In my head, I got the image of trying to get the Hulk how to sew a
+button.
+
+    SLIDE hulk sewing from black-forest-labs / FLUX.1-dev
+
+You have something super powerful, and you're trying to get it to
+perform a very specific task.
+
+Sure, this is can very useful. I don't think that debugging code for
+hours, for example, will make you a better programmer. As I told my
+students, I don't think I gained anything really valuable from my
+weekends spent obsessively researching errors online. That time could
+have been used on creating and writing, rather than fixing errors.
+
+But I also want to say that maybe it's not a great thing that
+programming is more accessible, in the sense that the barriers of
+entry have been lowered. 
+
+I don't think that people who haven't learned or aren't interested in
+learning about programming should necessarily be building things. Not
+because they aren't genuinely interested in programming (though I
+think that is important) but because we should have some limits on
+what we can make. Creating should not be so easy.
+
+Even though it seems like computer code, the internet, AI, for
+example, exists on screens and operates independantly from material
+constraints, these things are very much tied to physical components
+like hardware chips, data centers, and shipping routes, as well as
+human components like data labelling and cleaning, and content
+creation.
+
+On every single one of those points that I just mentioned, AI
+companies are extracting without proper compensation.
+
+For example, the metals necessary to make computer chips are being
+mined in the Congo, in Africa, where foreign interests have no concern
+for the effect on the local environment, are ignoring legal
+obligations to moderate or clean it up. They have contaminated the
+water, creating health problems, destroying crops, and forcing the
+relocation of communities. Also in Africa, OpenAI hired a number data
+labelers for ChatGPT, laborers who were paid $2 per hour to remove
+violent content, like child abuse, murder, torture, among other
+content, from the training data, and not offered mental health support
+for this work. Finally, even those in the global north are being
+expoited, as the AI tools are trained on content written by
+professionals like writers, artists, programmers, without
+compensation, and privitizing the profits, while simultaneously
+putting them out of business.
+
+What I'm trying to illustrate here is that there's a big stack of
+exploitation operating out of view from our screens. Most of us in the
+global north, as the intended users for these tools, are privileged
+enough to be the top of the stack. We don't have to know about or
+acknowledge what's going on below. (Though this won't always be the
+case, as more and more content creators lose their jobs (or if not
+their jobs, the skill level and resulting level of compensation of
+their jobs) to AI that can create much more cheaply).
+
+And the ones who are leading these companies speak in AI in terms of
+abundance.
+
+    SLIDE
+
+Sam Altman, for example, in an interview with TIME magazine in 2023,
+made the following comment:
+
+#+begin_quote
+we see a path now where the world gets much more abundant and much
+better every year, and people have the ability to do way, way more
+than we can possibly imagine today…
+
+If you think about how different the world can be, not only when every
+person has... ChatGPT... but next they have the world's best chief of
+staff. And then after that, every person has a company of 20 or 50
+experts that can work super well together. And then after that,
+everybody has a company of 10,000 experts in every field that can work
+super well together. And if someone wants to go focus on curing
+disease, they can do that. And if someone wants to focus on making
+great art, they can do that. But if you think about the cost of
+intelligence and the quality of intelligence, the cost falling, the
+quality increasing by a lot and what people can do with that, it's
+like a very different world. It's the world that sci-fi has promised
+us for a long time and for the first time, I think we get to start to
+see what that's going to look like.
+#+end_quote
+
+This view that Sam Altman is proposing is just not possible: not
+unless we accept massive amounts of labor and data exploitation and
+ecological damage.
+
+There is clearly a disconnect between what these tools can do and how
+they are materially situated.
+
+Given that, my suggestion is that this superpower needs a new
+orienation around what it means to build and to create.
+
+We don't need to manifest every idea that comes into our heads. We
+don't need to create a world of abundance, because we have it already.
+What we actually need is to slow down and think about how to make that
+existing abundance accessible to the most amount of people possible.
+
+And I'll end with a project from one of my students that builds
+something I believe is really thoughtful from this perspective.
+
+    SLIDE
+    https://github.com/jfung53/mensmagbot
+
+The project is an image generator generates a text snippet based on
+masculinity. Basically, it scrapes websites that are centered on male
+culture and geared toward a male audience, like GQ and Mens' Health,
+and uses that dataset to train an AI model to generate text. She uses
+prompts like
+
+    SLIDE masculinity prompts
+
+Then, she uses prompts like ...
+
+#+begin_quote
+    "Men can be",
+    "Modern men are",
+    "Masculinity can be",
+    "Every man should",
+    "Any guy would",
+    "Real men",
+    "Male friendship is",
+    "Manhood is",
+    "Being a father means",
+    "Being a gentleman means"
+#+end_quote
+
+This is an example that doesn't build just to produce, but builds for
+the sake of being reflexive, of being analytical. It adds knowledge to
+the world, not just another product or tool.
+
+With the time that AI frees up from debugging, I hope that folks will
+spend that time theorizing these kinds of interventions.
+
+Thank you.
+
+
+* long paper
+
+** panel proposal: What Happens When “Hacking” Becomes Easy? Teaching Python in 2025
+
+*** questions from proposal:
+- when a tool automates a task (e.g., data cleaning), users may not
+  notice its assumptions or limitations, leading to overly simplistic
+  interpretations of complex phenomena.
+  - there is value in slowing down, there is immense richery in the
+    close and detailed.
+  - using AI tools can lead to " decline in abilities of cognitive
+    abilities, a diminished capacity for information retention, and an
+    increased reliance on these systems for information" (Zhai et
+    al 2024).
+- If traditional coding education involved mastering challenging
+  skills and overcoming high barriers to entry, what new forms of
+  rigor emerge when these barriers are lowered?
+
+
+*** Dr. Filipa Calado is an Assistant Professor at the Pratt Institute
+School of Information. Her presentation explores how AI technology can
+be re-purposed not to automate or streamline tasks, but to engage
+directly with underlying biases that drive these tools. She argues
+that close attention to the mechanisms of coding and the assumptions
+that circulate within computational processes can illuminate how bias
+operates in social and discursive contexts more broadly.
+
+Filipa deploys AI to interrogate its own biases in her research
+project, which uses Large Language Models (LLMs) to study discourses
+of transphobia in the US. For this project, she trains an LLM with
+examples of transphobic text, culled from current “anti-trans”
+legislative bills that are proliferating across the US, with the
+purpose of examining the bias and discrimination that result in its
+output. Each step of data gathering and model development opens the
+logics and assumptions behind machine learning processes to critical
+analysis which can lead to surprising realizations. For example,
+prediction algorithms, which turn semantic meaning in language into
+numerical probabilities, what Filipa calls a “regularization” or
+“approximation” of language, reveals unexpected commonalities between
+polarized political perspectives, surfacing shared investments across
+transphobic and gender-affirming positions. In this context, AI tools
+are deliberately deployed not for efficiency or productivity, but as a
+means of turning them back on themselves, offering new objects and
+rich opportunities for critical analysis.
+
+
+** outline
+- pushing against this idea of "generative AI" toward "critical ML"
+  - ML tools offer rich sites of learning and analysis, can be used to
+    resist their own uncritical adoptions.
+- prediction according to Wendy Chun
+- research on transphobia, studying relationship between
+  approximation/generalization and normalization
+  - attachment to normativity that characterizes some trans studies 
+- live demo of how to fine-tune a model
+
+** draft
+*** thank you for having me
+
+*** toward a critical ML
+This presentation explores how AI technology can be re-purposed not to
+automate or streamline tasks, but to engage directly with underlying
+biases that drive these tools.
+
+It pushes against this idea of the "generative" AI and more toward
+critical ML. Using ML tools as analytical methods themselves. They
+predict not so we can achieve a task faster, but so we can learn more
+about what has happened in the past.
+
+I am interested in deconstructing prediction algorithms, and how their
+processes can be a useful heuristic for analyzing the content they are
+trained on. In this presentation, I use these processes to study
+social bias and discrimination in text, specifically in anti-trans or
+transphobic discourse. I am interested in how machine learning
+processes, whose prediction algorithms can only generate what they
+have already seen, can bring to the surface some of the ways that
+transphobia operates in different language contexts.
+
+In what follows, I'm going to "train", or more specifically,
+"fine-tune" a language model based on articles from the Heritage
+Foundation, a conservative think tank based in Washington DC. As I am
+training the model, which should take approximately 8 minutes or so, I
+am going to explain how the process of training, and what happens to
+data during the training process, evokes some interesting parallels
+with debates in Trans Studies scholarship. 
+
+ 
+*** prediction, chun
+So here is the first intervention I'm making: re-framing ML tools as
+primarily descriptive rather than generative or productive.
+
+Predictive algorithms are currently used for productive tasks: I've
+used them personally to generate text like summaries, abstracts,
+assignment descriptions, prompts. I've also used it to write and debug
+code, as well as to better understand some code.
+
+I will say that using these tools implicates yourself in a system of
+vast labor and ecological exploitation. A system that many of us don't
+ever need to think about, because it's so displaced from our current
+context in first-world countries (and that is, displaced for now).
+
+We only engage with the final product, because we have the privileged
+position of being the users at the top of the stack, so to speak,
+while beneath us, there is a massive operation occuring out of view.
+
+    SLIDE kenya article screenshot
+    
+For example (here's an example from Kenya), OpenAI paid pennies
+(literally $2 an hour) to laborers to sift through the most violent
+pages of the internet in order to clean our datasets;
+
+   SLIDE congo drinking water
+   
+And beneath them, at the level of sourcing the hardware and computer
+chips that can run machine learning software, are people whose
+drinking water has been poisoned by mining operations (here's an
+example from Congo).
+
+And I'm not even speaking of the energy and water it takes to run
+these massive models in ever increasing data centers, and the IP being
+stolen from content creators with no compensation.
+
+Rather, what we do here are people like Sam Altman (the CEO of OpenAI)
+talk about a world of "abundance" and "infitite potential" -- talking
+as if every step of the AI development process doesn't require
+extraction or exploitation on a massive scale. But if you are the
+user, at the top of this food chain of development, you don't see the
+stack churning beneath you.
+
+So, in light of that, this presentation does not go into how to use ML
+tools for teaching, as indicated by
+
+*** START HERE
+
+
+
+ML perpetuates relationships
+
+"models not only 'discover' the effects of discrimination; they also
+automate and perpetuate them for they exploit, rather than remedy,
+inequalities" (57).
+
+Prediction not as generative or productive, but as descriptive,
+critical.
+
+#+begin_quote
+How can we treat machine learning systems and their predictions like
+those for global climate change. These models offer us the most
+probable future given past and current actions, not so that we will
+accept their predictions are inevitable, but rather so we will use
+them to help change the future. (26)
+
+What would happen if we treated these and other models as we do
+climate change models?… not so we will fatalistically accept the
+future they predict, but rather so that we will do whatever is needed
+to prevent that future from occurring. (122)
+#+end_quote
+
+Close reading training data.
+
+#+begin_quote
+Machine learning and predictive models as they currently exist can
+also resist reduction, but only if we treat the gaps between their
+results and our realities as spaces for political action, not errors
+to be fixed. (254)
+#+end_quote
+
+*** vectors, hypothesis, loss (asap)
+I'm going to go a bit into technical detail here, because the
+mechanism of the technology is important to my thinking through my
+method.
+
+So, to put it most succinctly, the thing that interests me the most
+about machine learning is the way it works on prediction and
+plausibility. As many of you may know, all machine learning models
+(like the one that runs the ChatGPT, for example), make predictions,
+or guesses, as to what word should follow another word.
+
+But how do they know what an individual word means? Here's the first
+complicated part: each word, in the model's "understanding," if we can
+call it that, is represented by a definition, a definition that
+consists of a long list of numbers. And these numbers, each of them,
+represent a very, very complex probability for that word's in relation
+to /every single other word/.
+
+So, a single word is defined by, not what it means in itself, but how
+it relates to every single other word. (By the way, this is why the
+models are called "Large Language Models", they are large because
+these lists of numbers are just massive).
+
+Once a model has a list of numbers to represent each word, it can then
+use algorithms to calculate which words should be put together, side
+by side, in a sentence. In this way, text generation is really just
+turning language meaning, semantic expressivity, into something that
+can be computed with math, in numerical form.
+
+And here's the second complicated part. To get these long lists of
+numbers, models must be trained. The training process can be roughly
+reduced to three steps.
+
+SLIDE - LIST OF FUNCTIONS
+
+1. hypothesis
+2. loss
+3. minimizing loss
+
+The first step is the "hypothesis" step. Here, a model will take
+a sample sentence from the dataset, and it will block out the second
+half of that sentence. Then, it will try to guess which words should
+go in that second half. Because the model has no idea what the words
+mean, the guess will be wrong. But that's doesn't matter, because the
+purpose of the hypothesis is to make any guess, so that it has
+something from which it build on in the future steps.
+
+Then, after making this guess, it moves to the next step, where the
+machine checks its prediction against the actual result---it will
+compare the predicted word against the actual word. And it will
+calculate the mathematical difference between the prediction and the
+actual result, which is called the "loss".
+
+Finally, in the third step, it moves to the minimizing this "loss" by
+/very slightly/ adjusting the lists of numbers (attached to each word)
+so that they are closer to the intended result. The model will do this
+many times, making incremental changes each time, so progress is very
+slow, but also very precise. (And this constant iteration of numbers,
+and the computer processing required to do it, is why language models
+take lots of time, energy, and computer hardware to train). At each
+round of training, the numbers attached to each words are slightly
+adjusted toward the most likely number, which is in effect, an average
+of that words relationship to every other word in the database.
+
+I read this iterative shifting of numbers (representing words) within
+the model as a kind of /approximation/ or even /normalization/ of
+language. The model generates language by approximating what is most
+likely, most plausible, based on its training data.
+
+And this is exactly why, while models are good at guessing or
+predicting, they are not at all good at being creative, at innovating.
+A model can only generate what it has already seen before. Even a
+phenomenon like “hallucination,” that a model spews text that has no
+bearing in reality, is based on the tendency of models to repeat what
+they've already seen. They hallucinate not because they are creative
+or random, but because they are designed from statistical processes to
+generate what is most plausible rather than most accurate.
+
+*** trans affects vs queer studies (asap)
+In my project, instead of focusing on what transphobia is afraid of,
+that is, the fear of gender nonconformity, what could I learn about
+its positive attachments? For example, what if we turned our attention
+to the desire for and attachment to normativity?
+
+And this attachment to normativity, in fact, is one way that trans
+studies has distinguished itself with regard to queer studies, at
+least according to some scholars.
+
+Trans studies scholar Eliza Steinbock explains that,
+
+SLIDE 16 - TRANS AFFECTS
+
+#+begin_quote
+“trans analytics have (historically, though not universally) a
+different set of primary affects than queer theory. Both typically
+take pain as a reference point, but then their affective interest
+zags. Queer relishes the joy of subversion. Trans trades in quotidian
+boredom. Queer has a celebratory tone. Trans speaks in sober detail.”
+#+end_quote
+
+Similarly, Andrea Long Chu has remarked that trans studies, rather
+than resisting norms, "requires that we understand–-as we never have
+before–-what it means to be attached to a norm, by desire, by habit,
+by survival" ("After Trans Studies" 108).
+
+You'll remember in the list of bill titles from before, the
+patriarchial undertones in words like "protect," "preserve" and
+"ensure." Within that language, the fear of change that they imply,
+there is also some kind of attachment to normativity, to maintaining
+tradition. It is that attachment that I'm interested in exploring.
+
+Now, in the next section, I'm going to explain why I think that
+machine learning is a particularly good method for this task of
+studying normativity.
+
+*** plausibility (asap)
+    [SLIDE OF RESULTS]
+
+Here are some of the results that I've gotten so far from my model
+training. As you can see, the results aren't so great right now. I'm
+still working on adjusting my model parameters to get more cohesive
+responses.
+
+But so far, the preliminary results do suggest a certain repetition of
+language that bears out my point that plausibility that drives text
+generation. When the model doesn’t know what to say, it just repeats
+what it already knows. Here, I see a fascinating connection between
+how language models approach language, what they do to language (the
+normalization or approximation) of language, and what Trans Studies
+scholars define as an attachment to normativity, that is, a desire to
+pass.
+
+This makes me wonder, could generated text, as a kind of
+approximation, a normalization, of its training data, be used to study
+norms and attatchments to norms in the language that characterizes
+transphobia? And if so, What might far-right investments in
+normativity illuminate about trans investments in normativity? What
+might they suggest about the allure, the “seduction,” as trans studies
+scholar Cassius Adair puts it,of gender transgression?
+
+*** thank you
+
+    SLIDE - THANKS AND CONTACT
+
+Thank you.
+
+And for those of you who want to look at the code and datasets I
+created for this project, you can find me on Github (software
+publishing platform) under the username, Gofilipa.

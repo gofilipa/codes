@@ -1,0 +1,90 @@
+* Critical Machine Learning Studies
+
+** panel proposal: What Happens When “Hacking” Becomes Easy? Teaching Python in 2025
+
+*** questions from proposal:
+- when a tool automates a task (e.g., data cleaning), users may not
+  notice its assumptions or limitations, leading to overly simplistic
+  interpretations of complex phenomena.
+  - there is value in slowing down, there is immense richery in the
+    close and detailed.
+  - using AI tools can lead to " decline in abilities of cognitive
+    abilities, a diminished capacity for information retention, and an
+    increased reliance on these systems for information" (Zhai et
+    al 2024).
+- If traditional coding education involved mastering challenging
+  skills and overcoming high barriers to entry, what new forms of
+  rigor emerge when these barriers are lowered?
+
+
+*** Dr. Filipa Calado is an Assistant Professor at the Pratt Institute
+School of Information. Her presentation explores how AI technology can
+be re-purposed not to automate or streamline tasks, but to engage
+directly with underlying biases that drive these tools. She argues
+that close attention to the mechanisms of coding and the assumptions
+that circulate within computational processes can illuminate how bias
+operates in social and discursive contexts more broadly.
+
+Filipa deploys AI to interrogate its own biases in her research
+project, which uses Large Language Models (LLMs) to study discourses
+of transphobia in the US. For this project, she trains an LLM with
+examples of transphobic text, culled from current “anti-trans”
+legislative bills that are proliferating across the US, with the
+purpose of examining the bias and discrimination that result in its
+output. Each step of data gathering and model development opens the
+logics and assumptions behind machine learning processes to critical
+analysis which can lead to surprising realizations. For example,
+prediction algorithms, which turn semantic meaning in language into
+numerical probabilities, what Filipa calls a “regularization” or
+“approximation” of language, reveals unexpected commonalities between
+polarized political perspectives, surfacing shared investments across
+transphobic and gender-affirming positions. In this context, AI tools
+are deliberately deployed not for efficiency or productivity, but as a
+means of turning them back on themselves, offering new objects and
+rich opportunities for critical analysis.
+
+
+** outline
+- pushing against this idea of "generative AI" toward "critical ML"
+  - ML tools offer rich sites of learning and analysis, can be used to
+    resist their own uncritical adoptions.
+- prediction according to Wendy Chun
+- research on transphobia, studying relationship between
+  approximation/generalization and normalization
+- live demo of how to fine-tune a model
+
+** draft
+*** thank you for having me
+
+*** toward a critical ML
+This presentation explores how AI technology can be re-purposed not to
+automate or streamline tasks, but to engage directly with underlying
+biases that drive these tools.
+
+It pushes against this idea of the "generative" AI and more toward
+critical ML. Using ML tools as analytical methods themselves. They
+predict not so we can achieve a task faster, but so we can learn more
+about what has happened in the past.
+
+I am interested in deconstructing prediction algorithms, and how their
+processes can be a useful heuristic for analyzing the content they are
+trained on. In this presentation, I use these processes to study
+social bias and discrimination in text, specifically in anti-trans or
+transphobic discourse. I am interested in how machine learning
+processes, whose prediction algorithms can only generate what they
+have already seen, can bring to the surface some of the ways that
+transphobia operates in different language contexts.
+
+In what follows, I'm going to "train", or more specifically,
+"fine-tune" a language model based on articles from the Heritage
+Foundation, a conservative think tank based in Washington DC. As I am
+training the model, which should take approximately 8 minutes or so, I
+am going to explain how the process of training, and what happens to
+data during the training process, evokes some interesting parallels
+with debates in Trans Studies scholarship. 
+
+ 
+
+*** prediction
+
+*** transphobia
