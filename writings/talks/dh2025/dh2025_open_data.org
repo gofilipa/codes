@@ -51,134 +51,101 @@ Solutions:
   leading the way here.
 - Training has to change. EleutherAI creating Pile V2. 
 
-
 ** draft
 
 *** introduction
-I'm going to speak on this question of the panel of "how do we
-approach openness in shadow of AI?" from the perspective of a
-programming practitioner and instructor.
+I'm going to speak on this topic of open data from my perspective of a
+programmer, as a person who actively uses ML tools in her research and
+her teaching.
 
-At my home institution in New York, I teach classes on programming in
-an Information Studies department. I also do research using LLMs
-(Large Language Models) to study gender-based bias in language. A lot
-of my work (both for teaching and research) involves scraping web data
-and using that data to fine-tune lanuage models. So in my work, I
-interact directly with ML tools, either by teaching students how to
-code with them, or as a method for doing text analysis.
+While these tools are deeply problematic, for many reasons, and most
+urgently, environmental reasons, I am a strong proponent of trying to
+find sustainable and ethical ways (if there can be any) of working
+with this technology.
 
-I want to get as this question of "open" from a technical perspective.
-I'm going to lift the hood a little bit, to examine the processes that
-underly machine learning training, and what kind of transformation
-that makes on data.
+And when it comes to digitized data, and ecologies of open and openly
+accessible data, that means defining "open" in a way to sustain the
+sharing of knowledge resources that empowers society as a whole.
 
-And the reason I think this is because currently, in the United
-States, the question of what legally counts as "open" is being debated
-in the courts. Right now, there are over 40 ongoing lawsuits brought
-by content creators against companies like OpenAI, Microsoft,
-Anthropic, Midjourney, Stability AI, and many others, which allege
-that these companies have committed copyright infringement by taking
-openly accessible data and privatizing the outputs of that data,
-without compensating content creators and affecting the market for
-their content.
+For AI companies, anything that is accessible on a webpage is
+considered open to extraction and copying, for the purpose of training
+their ever-larger language models toward the goal of profit.
 
-To defend themselves, these companies make certain arguments which
-hinge, in my view, on widespread ignorance about what happens to
-training data in the model development process. (This ignorance about
-AI, indeed drives much of the marketing and business adoption).
+And right now, in the United States, the question of which data can be
+legally harvested by AI companies to use for training their models is
+being debated in the courts. There are over 40 ongoing lawsuits
+brought by content creators against companies like OpenAI, Anthropic,
+Midjourney, and many others, which allege that these companies have
+committed copyright infringement by taking openly accessible data and
+privatizing the resulting products.
 
-So, for this presentation, I'm going to first look at what exactly
-companies like OpenAI are saying to defend their theft of openly
-accessible data, and then I'm going to weigh that against what
-actually occurs to data when it's used to train a ML model. To
-demonstrate that, I'm going to show some samples from my research,
-where I train language models to study transphobia in popular
-discourse. It is my intention that the practical examples from my own
-work building language models offer concrete counterarguments to the
-ways that AI companies like OpenAI justify their data gathering
-practices. 
+To defend themselves, these companies argue that their data harvesting
+constitutes "fair use," which is a copyright protection that allows
+the taking of original work depending the purpose and nature of the
+use, and the effect on the market for the original work, among
+factors.
 
-*** legal defense of "transformative"
-First, I start with OpenAI's justification of its data gathering
-practices.
+    SLIDE The New York Times Company v. Microsoft Corporation,
+    December 27th, 2023 
 
-    SLIDE OPENAI COMMENTS ON IP title
+For example, in the lawsuit brought by the NYTimes against Microsoft
+(the owner of OpenAI), OpenAI defends itself by saying that data
+harvesting is for the purpose of "learning facts" about language,
+which is a purpose that is protected under "fair use."
 
-In a document written to The United States Patent and Trademark
-Office, entitled, "Regarding Request for Comments on Intellectual
-Property Protection for Artificial Intelligence Innovation", OpenAI
-explains that their product does not infringe copyright because it
-is "highly transformative."
+They claim that,
 
-    SLIDE authors guild cases
-
-To demonstrate, they cite two legal cases, /Authors Guild v. Google/,
-in 2015, and /Authors Guild v. HathiTrust/, in 2014, which set a
-precedent for thinking about the "transformative" as an aspect
-distinctly associated with technological contexts. At the time, both
-Google and Hathitrust had digitized millions of copyrighted books into
-databases for searching. In the case of Google, parts of digitized
-book were available to view as "snippits" or "previews" (which is what
-you see when you go to Google Books), and in the case of Hathitrust,
-the full text of books had been digitized so that users could run word
-searches.
-
-The rulings for both cases assert that the database format of search
-results is fundamentally transformative, offering a new kind of object
-from the original, which is, /information about books/, rather than
-copies of the books themselves.
-
-    SLIDE quote from Hathitrust ruling
-
-In the ruling, judge in the Hathitrust case points out,
+    SLIDE quote in memorandum of law
 
 #+begin_quote
-The result of a word search is different in purpose, character,
-expression, meaning, and message from the page (and the book) from
-which it is drawn" (/Author's Guild v. Hathitrust/, 97).
+... it is fair use under copyright law to use publicly accessible
+content to train generative AI models to learn about language,
+grammar, and syntax, and to understand the facts that constitute
+humans’ collective knowledge. OpenAI and the other defendants in these
+lawsuits will ultimately prevail because no one—-not even the New York
+Times—-gets to monopolize facts or the rules of language.
+
+- MEMORANDUM OF LAW filed by OpenAI, February 2024
 #+end_quote
 
-And in the Google case, the ruling was:
+So, for this presentation, I'm going to assess this argument from a
+technical perspective, by examining excatly what happens when to
+language data when it is ingested by a language model in order to
+generate output. I'm going to offer examples from my own research,
+where I develop ML models for the purpose of studying social bias in
+language, specifically anti-trans discourse, which is a powerful
+movement right now in the United States.
 
-#+begin_quote
-Google’s making of a digital copy to provide a search function is a
-transformative use, which augments public knowledge by making
-available information about Plaintiffs’ books without providing the
-public with a substantial substitute (/Author's Guild vs Google/, 4).
-#+end_quote
+I'm going to spend some time going over the technical details of ML
+processes, because, in my view, tech companies gain too much power
+from the widespread ignorance about how ML tools actually work.
 
-Here, the importance is what happens to language in this shift from
-original context on the written page to a represenation that is
-statistical in nature, into a database-like list of search results.
-This ruling, which has significant effect on databases and search
-engines, determines that language as /aggregation/ is fundamentally
-distinct from langauge in context. As a result, activities related to
-quantitative analysis, like text mining, become a permissable use.
+So, by the end I hope I will have left you with some context of what
+happens to training data within ML systems, and what kind of language
+forms it creates. Then, I hope in the Q&A, I hope we can talk about
+potential ways for protecting digital language forms from mass
+extraction and data colonialism.
 
-(Also essential to this ruling was the determination that this new
-object, the search results, does not affect the marketability of the
-original works, and may in fact contribute to their marketability, by
-pointing people to them.)
+*** the defense of "transformative"
+First, I'm going to examine OpenAI's argumentation more closely, to
+trace what exactly they mean by the "facts or rules" of language.
 
-*** patterns in language
+Their argumentation begins by appealing to a stipulation from the Fair
+Use clause, which emphasizes the importance of "transformative-ness",
+that is, how much the derivative object /transforms/ from the original
+object. They cite a legal case from 2014, /Authors Guild v.
+HathiTrust/, whose ruling finds that the database format of search
+results is fundamentally transformative from the works contained
+within the database, because it offers a new object, that is,
+/information about works/ in the database. This ruling determines that
+search engines are permissable, by determining that language as
+/aggregation/, or an /aggregate form/, is fundamentally distinct from
+langauge in its original, syntactic context.
 
-It is this understanding of "transformative" that OpenAI applies to
-defend the copyright infringement of their large language models.
-
-They argue that, like search results, llms create a new kind of
-object. But rather than representing information /about/ the original,
-this new object that is a kind of generalization, what they call
-"patterns" of language, from the original training data. They claim
-that "AI systems" learn "patterns" from the "training corpus and then
-use those patterns to generate entirely new media" ("Comment", 9).
-
-The claim that the content generated by these systems is "entirely
-new" is a point, I think, that people can assess for themselves as
-disingenuous.
-
-But their subtle qualitification of the meaning of "patterns" suggests
-that they mean something deeply structural and foundational about
-language: 
+OpenAI applies this understanding of "transformative" to their
+language models. They argue that, like search results, language models
+constitute a new kind of object, which /generalizes language patterns/
+from the original.
 
     SLIDE OpenAI quote
 
@@ -192,52 +159,67 @@ commonalities with each other by sharing a common grammar and
 vocabulary) but cannot be found in it." ("Comment", 9-10)
 #+end_quote
 
-The comparison to "grammar" and "vocabulary" indicate that they view
-these "patterns" as expressing something universal about language,
-which cannot be copyrighted. Alluding to another copyright case, they
-also claim that "No author may copyright facts or ideas. The copyright
-is limited to those aspects of the work—-termed ‘expression’—-that
-display the stamp of the author’s originality."
+(I will leave aside for the moment, that while grammar and vocabulary
+is not copyrighted, dictionaries and grammar books are indeed
+copyrighted material.)
 
-Patterns, in this case, are assumed to represent "facts" of language,
-that is, about its structures and forms, to be distinguished against
-individual expression. 
+But moving on, what strikes me is this use of this word, "patterns,"
+and what that could mean in practice. It seems that they are referring
+to some ideal of language, of language as a formula or structure,
+which is distinct from the specifics, the content, of language.
 
-But the thing that they do not mention, which they perhaps do not want to
-admit, is that language models do not generalize language as such, at
-least from what we can tell.
-
-Rather, language models build representations of language that are
-directly reflective of the content that they were trained on.
+Now, I want to ask, how does this characterization of language weigh
+against these models' operatation in practice, and their outputs?
 
 *** close reading
-To demonstrate, I'm going to show a few examples of ML-generated text
-based on two very different data sources. These sources represent
-polarized views on the topic of gender, which is a very controversial
-topic right now, in the United States.
+To explore this question, I'm going to show a few examples from my
+current research, which uses ML tools for the purpose of studying
+discriminatory and prejudiced language, using ML as a kind of text
+analysis tool. For this, I gather and create custom datasets from
+various internet sources, which represent different perspectives.
+Then, I use these datasets to train (very rudimentary and very small)
+ML models, to see how they respond to certain prompts.
 
-    SLIDE heritage foundation gender topic
-    www.heritage.org/gender?f[0]=content_type%3Acommentary
+The goal here is not to generate text for the sake of generating text,
+but to surface certain insights about the data on which that text was
+trained.
 
-One of these sources, representing the conservative side, is the
-Heritage Foundation, which is a conservative think tank based in
-Washington DC. From their website, I scraped all the articles that
-were organized under the topic "gender", which you can see some of the
-headlines here.
+I'm going to show some examples of ML-generated text based on two very
+different data sources.
+
+    SLIDE heritage screenshot
+
+One of these sources represents an American conservative perspective,
+and comes from the Heritage Foundation, which is a think-tank in
+Washington DC whose goal is to influence governmental policy. From
+their website, I scraped all the articles that were organized under
+the topic heading of "gender", of which you can see some of the
+headlines here. You can tell the kind of perspective and tone by some
+of these headlines, like the one that says, "Sorry Democrats, but
+Trumps' 'Two Sexes' Executive Order is Constitutional".
 
     SLIDE ACLU trans screenshot
-    https://www.aclu.org/news/by-issue/transgender-rights 
 
-The second source, which represents the progressive side, is the ACLU,
+Coming from the opposing side, from the progressive pole, is the ACLU,
 the American Civil Liberties Union, which is a group of legal
 professionals and volunteers who advocate on behalf of civil rights
-for marginalized groups in the US.
+for marginalized groups in the US. Here, you'll see articles that
+speak of trans in terms of "rights" and "liberation," and connect it
+to LGB rights more broadly.
 
-With these datasets, I then trained two different large language
-models, using gpt-2 (an open source model) as the base model.
+With these datasets, I then trained two individual large language
+models, using gpt-2 (an open source model) as the base model. I'll
+mention quickly that training models happens in various stages, so
+what I did was take an already trained model, gpt2, and re-trained it
+on a smaller and more specific dataset. This is a process that's
+technically called "fine-tuning" (And if people are curious about the
+specifics about this process, I am more than happy to answer in the
+Q&A).
 
-Then, to each of the two resulting models, I fed a series of prompts,
-very simple ones, like: 
+Then, after training, I fed a series of prompts to both of the
+resulting models.
+
+These prompts included:
 
     SLIDE prompts
 
@@ -248,8 +230,6 @@ Femininity is
 
 Transgender is
 
-Transgenderism is
-
 Gender binary is
 
 Man is
@@ -257,11 +237,12 @@ Man is
 Woman is
 #+end_quote
 
-Then I comapared the results. 
+And finally, I comapared the results.
 
-First, there are some obvious contrasts. For ACLU, terms associated
-with gender "masculine" and "feminine" in particular, were
-characterized by joyous and liberatory affects.
+First, there was a strong contrast of gender and how genders are
+conceptualized between the model trained on the ACLU data and model
+trained on the Heritage data. First, I'll show some examples from the
+ACLU model:
 
 #+begin_quote
 Masculinity is a matter of love and celebration.
@@ -280,8 +261,24 @@ Femininity is about allowing people to express themselves without
 government interference.
 #+end_quote
 
-By contrast, for the Heritage Foundation, these gender terms are
-associated with stability and culture. 
+As you can see, terms associated with "masculinity" and "femininity"
+are characterized by gender-affirming, even celebratory language,
+which is very positive and empowering; using words like "liberation,"
+"beauty", and "joy". Reading this, you get the sense that these terms
+are specific to trans gender, and in the training data, may have been
+prepended by the term "trans". In other words, that "femininity" and
+"masculinity" refer specfically to "trans femininity" and "trans
+masculinity."
+
+From these examples, you may also notice the tendency of language
+models (especially very small and underdeveloped ones) to repeat
+themselves. This is a quirk due to their predictive nature, where the
+goal is to guess the next word based on what is most likely. As a
+result, they get themselves stuck into these little loops of saying
+the same thing over and over again.
+
+Now, I'll show the text generated by the model trained on the Heritage
+Foundation data.
 
 #+begin_quote
 Masculinity is the cornerstone of Western civilization.
@@ -300,18 +297,23 @@ own reproduction, the capacity to provide for their own children, the
 ability to provide for their own.
 #+end_quote
 
-You might have noticed the tendency of language models (especially
-very small ones, like mine) to repeat themselves. This is a
-fascinating quirk that comes from the fact that they are predictive
-machines, whose goal is to predict the mostly likely next word, so
-they get themselves into these little loops of saying the same thing
-over and over again (this is, incidently, also why they hallucinate:
-as they are not trained to be accurate, but only to be plausible
-according to the training data). 
+Here, these gender terms are also positive, but their associations
+with culture, tradition, and reproduction---things that suggest
+stability rather than empowerment.
 
-What's really interesting, from the results, are the ways that these
-gendered terms reveal certain investments in other terms. For example,
-the text based on the Heritage Foundation is highly invested in the
+So you can see, even from just glancing at the results, that there are
+direct connections between the training data and the model outputs. By
+processing the training data, the model leearned not just how language
+works, the "facts or rules" of language, but absorbed the perspectives
+contained within that language. So that, depending on the dataset that
+the model is trained on, the terms "masculinity" and "femininity" will
+have totally different meanings.
+
+Perhaps this is not surprising. But what I also found, which deepens
+this a little bit, is that gendered terms reveal investments in other,
+seemingly unrelated or benign terms.
+
+For example, the Heritage Foundation model is highly invested in the
 concept of subjectivity, which appears in a lot of its results:
 
 #+begin_quote
@@ -330,41 +332,109 @@ The gender binary is a subjective, grammatically incorrect and
 illogical concept that conflates sex and gender identity.
 #+end_quote
 
-Reading these, you can see that they do not represent what one would
-expect from a typically conservative view--which is that gender is
-based on biology and universally true. Rather, they represent the
-opposite, a progressive view of gender that is based on personal and
-internal aspects of identity.
+If you're familiar with American conservative viewpoints, then teading
+these, you may notice that it doesn't reflect the conservative
+view---which is that gender binary is based firmly on biology. Rather,
+they represent the opposite---a progressive view of the gender binary
+which asserts that gender is based on more than biology, on other
+aspects of identity.
 
-The reason for this, I believe is that this particular term,
-"subjective" does not describe the conservative position. Rather, it's
-a term that is used by conservatives to describe the progressive,
-trans-affirming view of gender. From their framing, within a
-conservative worldview, people who do not subscribe to a biological
-and binary concept of gender must believe that gender depends on whim
-and feeling. Which explains why there is a hint of derision in some of
-the examples, which use terms like "illogical" and "incorrect"
-alongside "subjective."
+The reason for this, I believe, is that this particular term,
+"subjective" /does not/ describe the conservative position. Rather, it
+describes a conservative frame for the progressive position. In other
+words, it represents what a transphobic person thinks a progressive
+person thinks gender is---as some insubstantial, as a feeling. From
+this framing, within a conservative worldview, people who do not
+subscribe to a biologically binary concept of gender must believe that
+gender is "an internal and often transitory" sense of self.
 
-I want to come back now to this concept of patterns. Here we see a
-distinct pattern concerning the construction of gender, which
-discusses gender identity as a subjective, internal thing toward a
-goal of discounting it.
+This explains why there is a curious hint of derision in some of the
+examples, which use terms like "illogical" and "incorrect" alongside
+"subjective." These are traces of contempt and invalidation which are
+sustained from the training data.
 
-And interestingly it reveals something that fundamentally contradicts
-how companies like OpenAI try to characterize llms as "idealizations"
-or "facts" of language use. 
+Just to show you, here are some sentences from that training data,
+which use the term "subjective":
 
-Yes, the language here reflects patterns of language use, but these
-are patterns that are distinctly situated in the context of their
-training data. This is especially evident when you consider that the
-Heritage Foundation doesn't just show its own "patterns," but patterns
-of other perspectives refracted through them. Patterns, in other
-words, filteredthrough other patterns.
+#+begin_quote
+It’s important to recognize that the notion of ‘gender identity’ is
+unscientific, subjective, and political.
 
-So, rather than language as a "fact" or "idea", what we have are
-patterns of distinct expressions. 
+Subjective states of mind don’t trump biology.
+#+end_quote
 
+In the model outputs then, we see not just a single perspective of
+gender, but a /flattening/ of perspectives into a single statement.
+From the training data, there are distinct expressions, distinct
+viewpoints, which in the model, have been aggregated into an
+apparently univocal utterance.
+
+Clearly, this language presents a different kind of object from that
+which OpenAI claims falls under the protection of "fair use." In
+addition to absorbing the "rules and facts" of language, the model
+also takes up the perspective of the training data. The "rules and
+facts" come embedded within the content and perspectives, and are, at
+least initially, inextricable from them. And, crucially, depending on
+whose viewpoints have been absorbed into the language model, this line
+can be dangerous for vulnerable groups, like trans people.
+
+So, when language takes on an /aggregate form/, what sustains from the
+training data into the final form are the perspectives, perspectives
+that inhere in things like diction and tone, and come hand in hand
+with what some might call the "facts and rules" of language.
+
+This flattening or amalgamation of perspectives has major effect on
+how we might approach data in the "shadow of AI," taking a quote from
+this panel's title.
+
+While existing copyright law seeks to protect expression, what is
+sometimes called "original expression" and sometimes called
+"intellectual property," maybe, in the shadow of AI, we ought to think
+more about protecting certain viewpoints contained within and
+communities referenced by the data.
+
+There is some compelling work exploring this area, especially coming
+from data sovereignty movements in the global south. These groups offer
+new data licensing schemes that consider data rights in terms of the
+community where the data comes from. 
+
+   SLIDE nwulite license
+
+For example, the Nwulite Obodo license, which was developed by a team
+of researchers in Pretoria, South Africa, offers different tiers of
+permissions based on who is using the data. Users who are from
+developing countries can use the model freely, while other users must
+either pay or commit to releasing their derivatives under the same
+license.
+
+
+    SLIDE questions
+    
+They share some questions which helps to identify the level of access
+that potential users ought to have:
+
+#+begin_quote
+How do I ensure that others like me who want to use outputs and other
+datasets from my project/work are able to do so?
+
+Should those who own or have effective and working access to compute
+and other infrastructure have the same kind of access to my outputs as
+those who do not have? 
+#+end_quote
+
+Here, the idea is prioritizing consideration of the resources and
+purposes of those who want to use the data. So that the permissions
+for big tech company, would differ from those to a community educator.
+
+These examples offer some inspiration for thinking about how we might
+move toward more need-based and community-centered form of data
+ownership. Licenses like the Nwulite Odobo license are specific to the
+local and vulnerable groups they pertain to, and I don't think they
+should be applied universally. But the way they think about data,
+prioritizing community and access to resources, over originality or
+"expression," makes a lot of sense for aggregate language forms.
+
+Thank you.
 
 ** writing notes
 *** ACLU close reading
