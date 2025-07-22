@@ -5,164 +5,115 @@
 I'm going to talk about my experience teaching programming to students
 who all use AI tools.
 
-Most recently, this summer, I taught an intermediate level programming
-course titled "How To Build A Bot", which was about learning how to
-automate processes with the Python programming language. For those who
-don't know, bots are applications that interact with webpages in
-autonomous ways, like automatically downloading data from webpages or
-posting to social media sites. Over the semester, which ended last
-Monday, students built various "bots" that did different things.
+Most recently, this summer, I taught a programming course titled "How
+To Build A Bot", which was about learning how to automate processes
+with the Python programming language.
+
+All of my students came to this class with little to no experience
+with programming, starting almost at zero---and by the end of the
+course, they all built applications that they wouldn't have been able
+to buid one or two years ago. They were able to do this for one
+reason: because they had access to free AI tools.
 
     SLIDE
     https://github.com/aliceaviggiani/map-bot
     https://github.com/petewise9/eBay_Scraper/
 
-For example, one bot checked ebay every day for new listings of
-particular pokemon cards, and saved those listings to a spreadsheet;
-another bot posted images and provenance information of rare maps on
-instagram.
-
-What's impressive is that all of my students came to this class with
-little to no experience with programming---and they all built things
-that they wouldn't have been able to build two or three years ago.
-From starting almost at zero, they left the course with functional
-applications that did things in the world. They were able to do this
-for one reason: because they had access to free AI tools.
-
-What most of them found useful about AI tools were the debugging
-capabilities, to toubleshoot and fix their code. In that sense, errors
-that would have previously taken hours or days to resolve could be
-resolved in seconds.
-
-Although that was also a double-edged sword. The suggested fixes
-didn't always work, and when they did work, they often led to more
-errors down the road, or to convoluted looking code that takes more
-steps than necessary to fix the problem.
+For example, one student built a bot that checks ebay every day for
+new pokemon cards; another student built a bot that posts images and
+provenance information of rare maps to instagram.
 
 One of my students, who was totally new to programming, described his
-experience interacting with an AI bot as if he was trying to convince
-or guide it toward a specific conclusion. He would say things like,
-"It's coming around", and "Its almost there".
-
-In my head, I got the image of the Hulk trying to sew a button.
+experience interacting with an AI as if he was trying to convince or
+guide it toward a specific conclusion. He would say things like, "It's
+getting there", "it's coming around."
 
     SLIDE hulk sewing from black-forest-labs / FLUX.1-dev
 
-You have something super powerful, and it's attempting to perform a
-very delicate task.
+In my head, I get the image of the Hulk trying to sew a
+button---something powerful that is attempting to perform a delicate
+task.
 
-The good news seems to be that this lowers the barrier of entry
-significantly. But I want to make the point, perhaps controversially,
-that maybe it's not a great thing that programming is more accessible.
+Which brings me to my main point: while AI tools are amazing in that
+they lower the barriers of entry significantly, so almost anyone can
+become a programmer; perhaps, it's not a great thing that programming
+is becoming so easy or accessible.
 
-Perhaps, people should not be able to build just anything with no
-prior experience of programming. Not because they aren't genuinely
-interested in programming (though I think that is important) but
-because we should have some limits on what we can make. Creating
-should not be so easy.
+And the reason doesn't just have to do with the resources it takes to
+create at this scale, which is not sustainable, which I'm sure many of
+you know about by now.
 
-And the reason is that, even though programming applications exist on
-computer screens, operating seemingly independantly from material
-constraints, these things are very much tied to physical components
-like hardware chips and data centers, as well as live, human
-components like data cleaners and labellers, and of course, content
-creators in the first place.
-
-And for every single one of those points that I just mentioned, AI
-companies are extracting value and labor without proper compensation.
-Not only that, where it concerns the physical materials, they are
-doing so to the effect of massive ecological harm. I'm not going to go
-into details, but in the global south, there are instances in Congo,
-Kenya, Thailand, and other places where water and earth is now toxic,
-creating health problems, destroying crops, and forcing the relocation
-of communities. And if people think this is limited to the global
-south, pay attention to what is going on in Tennessee right now, over
-the past several weeks, where Elon Musk has built a new (and
-unpermitted) data center.
-
-While there's a big stack of exploitation operating out of view from
-our screens, those who are in charge of the technology, who are
-leading these companies, seem to always speak about AI in terms of
-abundance. There are so many clips of Sam Altman going glassy eyed as
-he revels over the possibility that every human will have access to
-their own personalized "intelligence."
+Rather, it's that using these tools also slips one into a scarcity
+mindset. This mindset is something you often encounter lurking under
+the language of tech CEOs when they talk about the future
+possibilities of AI. For example, CEO of OpenAI, Sam Altman, says:
 
 #+begin_src
-    Here's one example of the kind of language he uses: 
-
-    If you think about how different the world can be, not only when every
-    person has... ChatGPT... but next they have the world's best chief of
-    staff. And then after that, every person has a company of 20 or 50
-    experts that can work super well together. And then after that,
-    everybody has a company of 10,000 experts in every field that can work
-    super well together. And if someone wants to go focus on curing
-    disease, they can do that. And if someone wants to focus on making
-    great art, they can do that.   
+If you think about how different the world can be, not only when every
+person has... ChatGPT... but next they have the world's best chief of
+staff. And then after that, every person has a company of 20 or 50
+experts that can work super well together. And then after that,
+everybody has a company of 10,000 experts in every field that can work
+super well together. And if someone wants to go focus on curing
+disease, they can do that. And if someone wants to focus on making
+great art, they can do that.   
 #+end_src
 
-To this prospect, I say no. We don't need "intelligence" to create
-things in order to have a world of abundance. We don't need it,
-because we have it already. The world is here, and it's abundant.
+When you talk like this about abundance in the future, you're actually
+making a claim about scarcity in the present, a claim that is implied
+and goes relatively unnoticed.
 
-What we actually need is to slow down and think about how to make that
-existing abundance accessible to the most amount of people possible.
+The truth is, we don't need "intelligence" to create things in order
+to have a world of abundance. The world is already abundant.
 
-#+begin_src
+What we actually need, and what I try to teach my students, is to slow
+down and think about how to make the already existing abundance
+accessible to the most amount of people possible.
 
-    And toward thatcd  idea, I'll end with a project from one of my
-    students. This project uses AI tools to build something
-    reflextive and analytical, rather than productive or profitable. 
+So, my take is, if you're going to program with AI, use the time and
+energy it frees up to think critically and carefully about what you're
+creating and why.
 
-	SLIDE
-	https://github.com/jfung53/mensmagbot
+And toward that idea, I'll end with a project from one of my
+students. This project uses AI tools to build something reflexive and
+analytical, which tries to intervene in social issues.
 
-    The project is an image generator generates a text snippet based on
-    content about masculinity. Basically, it scrapes websites that are
-    intended toward a male audience, like GQ and Mens' Health, and uses
-    that dataset to train an AI model to generate text. She uses prompts
-    like
+The project is an image generator based on content about masculinity
+in popular discourse.
 
-	SLIDE masculinity prompts
+To make it, she trained an image generator from content of popular
+mens' magazines, like GQ and Mens' Health. Then, to generate the
+output, she used prompts like
 
-    Then, she uses prompts like ...
+    SLIDE masculinity prompts
 
-    #+begin_quote
-	"Men can be",
-	"Modern men are",
-	"Masculinity can be",
-	"Every man should",
-	"Any guy would",
-	"Real men",
-	"Male friendship is",
-	"Manhood is",
-	"Being a father means",
-	"Being a gentleman means"
-    #+end_quote
+#+begin_quote
+    "Men can be",
+    "Modern men are",
+    "Masculinity can be",
+    "Every man should",
+    "Any guy would",
+    "Real men",
+    "Male friendship is",
+    "Manhood is",
+    "Being a father means",
+    "Being a gentleman means"
+#+end_quote
 
-    And she gets results like:
+And she got these images as results:
 
-    SENTENCES
+SENTENCES
 
-    I think work like this is super useful, especially considering the
-    lack of attention masculinity by itself gets in cultural studies
-    contexts.
-  
-    (For example, while there is "womens' studies", "queer studies",
-    "asian studies", "black studies", there is no "mens studies". And
-    although some people might scoff and say most fields implicitly
-    center mens' perspectives, and while that may be true, that is all
-    the more reason why mens' studies should can examine this in
-    isolation). 
+I think work like this is super useful, especially considering the
+lack of attention masculinity by itself gets in cultural studies
+contexts, which I think deserves to be studied in isolation just like
+womens' studies or queer studies.
 
-    Coming back to this project --- this is an example that doesn't
-    build just to produce, but builds for the sake of being analytical.
-    It adds a new kind of knowledge to the world, not just another
-    product or tool.
+Just to conclude --- this is an example that doesn't build to produce,
+but builds for the sake of being analytical. It adds a new kind of
+knowledge to the world, not just another product or tool.
 
-#+end_src
-Thank you.
-
-
+Obrigada.
 * long paper
 
 ** panel proposal: What Happens When “Hacking” Becomes Easy? Teaching Python in 2025
