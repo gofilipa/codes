@@ -29,6 +29,9 @@ The stakes:
   - talk of democratizing access to coding/writing
 
 *** Performativity / text analysis
+**** critique at end of chapter:
+- Amin on multiplying gender categories being a tool of patriarchy,
+  and disrupting gender categories via dis-identification.
 *** Dis-identification / data formats
 Look at more dynamic forms of data? (Cristina's comment)
 - see [[https://en.wikipedia.org/wiki/Markup_language][markup language wiki]]
