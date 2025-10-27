@@ -1962,21 +1962,32 @@ Goes directly against ALC saying that trans assumes a desire for the normative, 
 
 See Katie King TRANimalitieS --- trans as a condition of speculation and distributed cognition in computer games. 
 
+**** Malatino, Hil. /On Being Trans And Feeling Bad/. University of Minnesota Press. 2022.
+
+Malatino's work inserts itself into the conversation about
+negativity--what do we do with bad feelings, feelings that don't offer
+any obvious potential for politics? His answer is that we should look
+into the ways that bad feelings, what he calls /side effects/ are in
+tension or exceed normative desires that would otherwise keep us stuck
+desiring the thing that the medical-juridico and social world are
+working so hard to keep out reach to all but the most privileged trans
+subjects. How do these tensions or excessive moments against
+normativity show us other possibilities for trans being and
+solidarity?
+
+
 **** TODO Prosser, Jay. /Second Skins: The Body Narratives of Trannsexuality/, Columbia U Press, 1998. 
 Prosser's main argument is that queer theory, and gender
 performativity in particular, has relied on transgender
-identification in ways that elide the specificity of the trans body. 
+identification in ways that elide the specificity of the trans body.
+His goal is to read materiality back into the transsexual body:  
+- "The question of how to represent the narratives of
+  transsexuality... to put into narrative its remarkable bodily
+  trajectories" (4).
+- "To bring into view the mateirality of the body" (12).
 
-"The question of how to represent the narratives of
-transsexuality... to put into narrative its remarkable bodily
-trajectories" (4). 
-
-Goal is to read the materiality of transsexual body into narratives:
-"To bring into view the mateirality of the body" (12).
-
-Being trans isn't about making constant disruptions (a la queer
-theory), but about finding your way back to the materiality of the
-body: 
+Unlike "queer" in queer theory, trans isn't about transgression, but
+about finding your way back to the materiality of the body:
 - "If, for queer theory, transition is to be explored in terms of its
   deconstructive effects on the body and identity (transition as a
   symptom of the constructedness of the sex/gender system and a figure
@@ -1988,33 +1999,53 @@ body:
 - "transsexual and transgendered narratives alike produce not the
   revelation of the fictionality of gender categories but the sobering
   realization of their ongoing foundational power" (Prosser 11).
+- Queer studies has depended on the transgender, has relied on
+  transgender desires (21).
+- Transsexuality is critiqued as a "literalization/deliteralization"
+  of discourse: it either reinscribes or it transgresses the
+  materiality of sex (13). It either reinscribes genitals as natural
+  and primary, or it shows the unimportance of genitals, "we are all
+  transsexuals and there are no transsexuals" (14).
+  - Queer Studies building on poststructural critiques, where
+    "materiality figures in reference to discourse and signification"
+    (13). Critics like Foucault and Lacan who analyze institutions,
+    ideologies, semiotics. "Materiality is our subject, but the body
+    is not our object. The body is rather our route to analyzing
+    power, technology, discourse, language" (13).
+  
+Butler's performativity is at odds with transsexuality. 
+- gender crossing as metaphor is essential to theorizing
+  performativity, but not in the actual material body of the crossing.
+  - "/Gender Trouble/ cannot account for a transsexual desire for
+    sexed embodiment as /telos/" (33). 
+- "deliteralization of sex" - displaced from materiality to
+  fantascized surface.
+  - Butler misreads Freud to assume that the body is a projection from
+    the ego, where in reality it is the opposite.
+- on "Gender is Burning": according to Butler, "If Venus got her sex
+  change, she would cease to be subversive" (49). This is a "critical
+  perversity" (49).
+  - What makes Venus transgressive for Butler is also what gets her
+    killed; she is not killed for being a homosexual man, but for
+    being an incomplete woman.
+  - "According to Butler, transgressive crossings can simultaneously
+    reinscribe symbolic norms" (45). There is a "metaphorization of
+    the transsexual body" (55).
 
-Critique of Butler and queer theory generally: Butler considers
-"transitions as discursive but not explored in the bodiliness of
-gendered crossings" (6). 
-
-Butler's work considers gender, not sex, crossings, sex is "what was
-beneath the favored terrain of performativity" (6). Transsexuality is
-about embodiment. 
-- "deliteralization of sex" - displaced from materiality to fantacized
-  surface.
-- on "Gender is Burning" in BTM: "According to Butler, transgressive
-crossings can simultaneously reinscribe symbolic norms" (45). There is
-a "metaphorization of the transsexual body" (55). If Venus got her sex
-change, she would cease to be subversive" (49). This is a "critical
-perversity" (49). 
-
-Queer studies has depended on the transgender, has relied on
-transgender desires (21).
-
-Critique of Sedgwick: Theorizing about homosexuality relies on
-cross-gendered identifications. In /Between Men/, normative sexuality
-depends on male identification, and the avowal of such, with women as
-objects of desire (22). 
+Desire for normativity in the transsexual trajectory
+- Figure vs ground:
+  - if you make queer the figure, and heterosexuality/normativity the
+    ground, "the apparent naturalness of sex"; however, trans subjects
+    aspire to be the ground, simply "to be" (32).
+    - "there are transgendered trajectories, in particular
+      /transsexual trajectories/, that aspire to that which this
+      scheme devalues. Namely, there are transsexuals who seek very
+      pointedly to be nonperformative, to be constative, quite simply,
+      /to be/" (32).
 
 
 
-Criticism:
+Criticis:
 
 "transsexuality's somatic transitions are spurred and enabled by the
 formal transitions of narrative... Sex change is a plot... [Prosser's
@@ -2043,35 +2074,35 @@ From Judith Halberstam's review:
    "In a dense and complex chapter on the work of Judith Butler,
    Prosser argues that her texts, central as they are to queer theory,
    simultaneously invoke and repudiate the transsexual body as a
-   figure for gender crossing.  In Gender Trouble, Prosser argues, the
+   figure for gender crossing. In Gender Trouble, Prosser argues, the
    transgender figures of the drag queen and the butch lesbian "come
    to appear the empirical subjects of gender performativity, their
    crossing illustrating both the inessentiality of sex and the
-   nonoriginality of heterosexuality that was the book's thesis"
-   (26). And yet, when Butler shifts her gaze from the transgender
-   figure to the transsexual in /Bodies That Matter/, the transsexual
-   represents a limit to performativity. Prosser claims that, while
-   transgender and queer may be allied in Butler's work, transsexual
-   and queer are most certainly in opposition.  Prosser's reading of
-   Butler is crucial to the political stakes of his book.  In true
-   deconstructive fashion, he aims his critical attention at Butler's
-   mis- reading of a footnote in Freud about the relationship between
-   body and ego. When she misreads /ego/ as /body/, Prosser claims,
-   Butler dematerializes the body as a fantasy/fiction of the ego
-   while Freud wanted to make the body the materialization of the
-   psyche. This misreading sets up a series of priorities for queer
-   performativity that are all at odds with transsexuality.
-   Accordingly, Prosser understands queer theory to validate surface
-   over depth, gender over sex, fiction over the real, the visual over
-   the felt, the queer over the heterosexual. "In its representation
-   of sex as a figurative effect of straight gender's constative
-   performance," he claims, "/Gender Trouble/ cannot account for the
-   transsexual desire for sexed embodiment S I G N S Autumn 2000 1 315
-   /telos/" (33). I think Prosser's reading of Butler is compelling,
-   and it is partic- ularly persuasive when Prosser tackles the most
-   problematic chapter in /Bodies That Matter/, a close reading of the
-   limits of performativity in relation to the transsexual drag queens
-   in Jennie Livingston's film /Paris is Burning/." (314-315)
+   nonoriginality of heterosexuality that was the book's thesis" (26).
+   And yet, when Butler shifts her gaze from the transgender figure to
+   the transsexual in /Bodies That Matter/, the transsexual represents
+   a limit to performativity. Prosser claims that, while transgender
+   and queer may be allied in Butler's work, transsexual and queer are
+   most certainly in opposition. Prosser's reading of Butler is
+   crucial to the political stakes of his book. In true deconstructive
+   fashion, he aims his critical attention at Butler's mis- reading of
+   a footnote in Freud about the relationship between body and ego.
+   When she misreads /ego/ as /body/, Prosser claims, Butler
+   dematerializes the body as a fantasy/fiction of the ego while Freud
+   wanted to make the body the materialization of the psyche. This
+   misreading sets up a series of priorities for queer performativity
+   that are all at odds with transsexuality. Accordingly, Prosser
+   understands queer theory to validate surface over depth, gender
+   over sex, fiction over the real, the visual over the felt, the
+   queer over the heterosexual. "In its representation of sex as a
+   figurative effect of straight gender's constative performance," he
+   claims, "/Gender Trouble/ cannot account for the transsexual desire
+   for sexed embodiment /telos/" (33). I think Prosser's reading of
+   Butler is compelling, and it is particularly persuasive when
+   Prosser tackles the most problematic chapter in /Bodies That
+   Matter/, a close reading of the limits of performativity in
+   relation to the transsexual drag queens in Jennie Livingston's film
+   /Paris is Burning/." (314-315)
 
 **** TODO Stryker, Susan. /The Transgender Studies Reader/. Routeledge. 2006. 
 **** TODO Keegan, Cael M. "Transgender Studies, or How to Do Things with Trans*" in 

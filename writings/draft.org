@@ -334,6 +334,8 @@ so by upending its expectation. By acting in a way that is unexpected,
 that goes against the dictates of binary gender systems.
 
 * data structure
+
+
 * abstraction
 * prediction/approximation/affinity
 

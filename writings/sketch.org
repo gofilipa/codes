@@ -33,8 +33,57 @@ The stakes:
 - Amin on multiplying gender categories being a tool of patriarchy,
   and disrupting gender categories via dis-identification.
 *** Dis-identification / data formats
-Look at more dynamic forms of data? (Cristina's comment)
+revision:
+- Look at more dynamic forms of data? (Cristina's comment)
 - see [[https://en.wikipedia.org/wiki/Markup_language][markup language wiki]]
+
+overview
+- goal: markup homosexual themes that have been edited out of DG; with
+  disidentification, can use TEI to mark up the "aesthetic project" of
+  Wilde's revisions. 
+- the revision history, the double moral
+- coming up against TEI's dominance structure, which requires
+  disambiguation and fixes elements.
+  - dominance vs containment
+  - marking up the fields
+  - <gender> tag
+- editorial approaches: restorative vs productive
+  - feeling backward - does not try to fix, that allows things to stay
+    as they are in the past, that attends to backwards, nonproductive
+    feelings, and keeps them that way.
+- dis-identification
+  - a way of reading onesself into a system that doesn't include you.
+  - We are using markup to find what has been removed, but we also
+    might use it to find how Wilde adapted his work in ways to pass
+    the censor, and to fit in social standards/decorum.
+  - re-coding, overwriting are disidentificatory methods.
+    - w can use the TEI to mark up his aesthetic project, using a
+      dominance structure to mark up a system of dominance. 
+- close reading of MSDG
+  - the themes, the blending of themes across revision
+  - afterward, some questions: 
+    - can we say that OW was "disidentifying" when he coded the
+      homosexual elements, or can we say that he was operating just as
+      the system would have expected, that the system was created for
+      this kind of aesthetic coding?
+    - Wilde's power dominates this text, that is not the case for many
+      others. He has gender, race, class privilege.
+      - There is a power of the censor, but there is also Wilde's
+        power to edit himself.
+      - He makes coding into an aesthetic project. Art shouldn't be
+        didactic, should never have a moral.
+- conclusion:
+  - Wilde's aesthetic project vs the writing beyond the tags,
+    provoking the limits of containment.
+  - but this doesn't work for all editorial projects. TEI can also be
+    used in minimal ways. 
+  - there are other ways of working within and against dominance
+    structures.
+    - critical fabulation is a method that imagines what is not
+      recorded, what cannot have been known, writing with and against
+      the archive.
+
+
 
 *** Surface aesthetics / interface effects
 Areas:

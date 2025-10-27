@@ -488,6 +488,7 @@ normalization or approximation) of language, and what Trans Studies
 scholars define as an attachment to normativity, that is, a desire to
 pass.
 
+
 This makes me wonder, could generated text, as a kind of
 approximation, a normalization, of its training data, be used to study
 norms and attatchments to norms in the language that characterizes
