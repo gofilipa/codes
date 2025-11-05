@@ -1963,7 +1963,6 @@ Goes directly against ALC saying that trans assumes a desire for the normative, 
 See Katie King TRANimalitieS --- trans as a condition of speculation and distributed cognition in computer games. 
 
 **** Malatino, Hil. /On Being Trans And Feeling Bad/. University of Minnesota Press. 2022.
-
 Malatino's work inserts itself into the conversation about
 negativity--what do we do with bad feelings, feelings that don't offer
 any obvious potential for politics? His answer is that we should look
@@ -1975,8 +1974,43 @@ subjects. How do these tensions or excessive moments against
 normativity show us other possibilities for trans being and
 solidarity?
 
+- "a commitment to staying with a troubling (in the sense of both
+  troublemaking and troublesome) coterie of bad feelings, animated by
+  the hope that such sustained tarrying with trans negativity tells us
+  more about the existential impacts of transantagonism---how it's
+  managed, how it's resisted, the forms that resiliance and resistance
+  take in the face of it---than any simple celebratory or
+  victimological narrative can" (7).
 
-**** TODO Prosser, Jay. /Second Skins: The Body Narratives of Trannsexuality/, Columbia U Press, 1998. 
+Brings to the surface affects which would place trans folks within
+normative teleologies, like "fatigue", and then points out how trans
+experiences exceed these structures, "future fatigue", which creates
+anticipatory anxiety in the present moment for the future which will
+never come. 
+- "side effects... experiences of transition that exceed what I,
+  building on the work of Raymond Williams, call 'transnormative
+  structures of feeling'.... transition narratives that rely on and
+  thus reproduce hegemonic, intensively stereotypical accounts of what
+  it is to 'feel like' a man or a woman, importing these accounts
+  (rooted, most often, in white bourgeois gendered norms and mores)
+  into trans lifeworlds where they seem to fit strangely, if at all.
+  Nevertheless, each repetition of such a narrative seems to further
+  entrench and intensify a set of racialized, gender-normed
+  limitations that work to determine how transition becomes legible
+  and coherent---indeed, come to shape and delimit what it means to
+  transition at all" (8).
+- The notion of future fatigue is tied to an experience of waiting to
+  "inhabit the body in order to be the gender that you are" (13).
+
+However, these side effects do have a lot in common with normativizing
+narratives, don't they? I don't know that what trans people experience
+exceeds cis experience, but that it offers a blueprint or makes
+explicit these experiences. Future fatigue is like cruel optimism.
+- "Future fatigue" is like "cruel optimism"... "what happens when
+  you're worn out by your attachment to a future vision that is
+  structurally foreclosed" (14). 
+
+**** Prosser, Jay. /Second Skins: The Body Narratives of Trannsexuality/, Columbia U Press, 1998. 
 Prosser's main argument is that queer theory, and gender
 performativity in particular, has relied on transgender
 identification in ways that elide the specificity of the trans body.
@@ -1986,51 +2020,91 @@ His goal is to read materiality back into the transsexual body:
   trajectories" (4).
 - "To bring into view the mateirality of the body" (12).
 
-Unlike "queer" in queer theory, trans isn't about transgression, but
-about finding your way back to the materiality of the body:
-- "If, for queer theory, transition is to be explored in terms of its
-  deconstructive effects on the body and identity (transition as a
-  symptom of the constructedness of the sex/gender system and a figure
-  for the impossibility of this system's achievement of identity), I
-  read transsexual narratives to consider how transition may be the
-  very route to identity and bodily integrity. In transsexual accounts
-  transition does not shift the subject away from the embodiment of
-  sexual difference but more fully into it" (Prosser 6).
-- "transsexual and transgendered narratives alike produce not the
-  revelation of the fictionality of gender categories but the sobering
-  realization of their ongoing foundational power" (Prosser 11).
-- Queer studies has depended on the transgender, has relied on
-  transgender desires (21).
+Critique of Queer studies:
+- Unlike "queer" in queer theory, trans isn't about transgression, but
+  about finding your way back to the materiality of the body:
+  - "If, for queer theory, transition is to be explored in terms of
+    its deconstructive effects on the body and identity (transition as
+    a symptom of the constructedness of the sex/gender system and a
+    figure for the impossibility of this system's achievement of
+    identity), I read transsexual narratives to consider how
+    transition may be the very route to identity and bodily integrity.
+    In transsexual accounts transition does not shift the subject away
+    from the embodiment of sexual difference but more fully into it"
+    (Prosser 6).
+  - "transsexual and transgendered narratives alike produce not the
+    revelation of the fictionality of gender categories but the
+    sobering realization of their ongoing foundational power" (Prosser
+    11).
 - Transsexuality is critiqued as a "literalization/deliteralization"
-  of discourse: it either reinscribes or it transgresses the
-  materiality of sex (13). It either reinscribes genitals as natural
-  and primary, or it shows the unimportance of genitals, "we are all
-  transsexuals and there are no transsexuals" (14).
-  - Queer Studies building on poststructural critiques, where
-    "materiality figures in reference to discourse and signification"
-    (13). Critics like Foucault and Lacan who analyze institutions,
-    ideologies, semiotics. "Materiality is our subject, but the body
-    is not our object. The body is rather our route to analyzing
-    power, technology, discourse, language" (13).
-  
-Butler's performativity is at odds with transsexuality. 
-- gender crossing as metaphor is essential to theorizing
-  performativity, but not in the actual material body of the crossing.
-  - "/Gender Trouble/ cannot account for a transsexual desire for
-    sexed embodiment as /telos/" (33). 
-- "deliteralization of sex" - displaced from materiality to
-  fantascized surface.
-  - Butler misreads Freud to assume that the body is a projection from
-    the ego, where in reality it is the opposite.
-- on "Gender is Burning": according to Butler, "If Venus got her sex
-  change, she would cease to be subversive" (49). This is a "critical
-  perversity" (49).
-  - What makes Venus transgressive for Butler is also what gets her
-    killed; she is not killed for being a homosexual man, but for
-    being an incomplete woman.
-  - "According to Butler, transgressive crossings can simultaneously
-    reinscribe symbolic norms" (45). There is a "metaphorization of
-    the transsexual body" (55).
+  of discourse:
+  - it either reinscribes or it transgresses the materiality of sex
+    (13). It either reinscribes genitals as natural and primary
+    (essentialism), or it shows the unimportance of genitals
+    (poststructuralism), "we are all transsexuals and there are no
+    transsexuals" (14).
+  - de-literalization:
+    - Queer Studies building on poststructural critiques, where
+      "materiality figures in reference to discourse and
+      signification" (13). Critics like Foucault and Lacan who analyze
+      institutions, ideologies, semiotics. "Materiality is our
+      subject, but the body is not our object. The body is rather our
+      route to analyzing power, technology, discourse, language" (13).
+- Butler's performativity at odds with transsexuality: 
+  - Queer studies has depended on the transgender, has relied on
+    transgender desires (21).
+    - gender crossing as metaphor is essential to theorizing
+      performativity, but not in the actual material body of the
+      crossing.
+      - "/Gender Trouble/ cannot account for a transsexual desire for
+        sexed embodiment as /telos/" (33).
+  - "deliteralization of sex" - displaced from materiality to
+    fantascized surface.
+    - Butler misreads Freud to assume that the body is a projection
+      from the ego, where in reality it is the opposite.
+      - "The ego... may thus be regarded as a mental projection of the
+        surface of the body" (Freud, /The Ego and the Id/, rpt Prosser
+        41).
+      - "Butler's reading therefore inverts the [Freud's] note's
+        representation of the body as productive of the psyche...
+        [and] conversely images the body as psychic effect" (41). 
+  - on "Gender is Burning": according to Butler, "If Venus got her sex
+    change, she would cease to be subversive" (49).
+    - According to Butler, what makes Venus transgressive for Butler
+      is also what gets her killed;
+      - This is a "critical perversity" (49).
+	- According to Prosser, she is not killed for being a
+          homosexual man, but for being an incomplete woman. This is
+          how we should read her.
+    - Venus is treated as a metaphor, not an actual lived person.
+      - "According to Butler, transgressive crossings can
+        simultaneously reinscribe symbolic norms" (45). There is a
+        "metaphorization of the transsexual body" (55).
+
+Queer v Trans subjects:
+- "There is much about transsexuality that must remain irreconcilable
+  to queer: the specificity of transsexual experience; the importance
+  of flesh to self; the difference between sex and gender identity;
+  the desire to pass as "real-ly-gendered" in a world without trouble;
+  perhaps above all, as I explore in my next chapter, a particular
+  experience of teh body that can't simply transcend (or
+  transubstantiate) the literal" (59).
+
+The body:
+- "body image---which we might be tempted to align with the
+  imaginary---clearly already has a material force for transsexuals.
+  The image of being trapped in the wrong body conveys this force. It
+  suggests how body image is radically split off from the material
+  body in the first place" (69).
+- "The significance of sex on the pretransition body is then complex
+  for it is both too real and not real enough.... we might say that
+  what is /not/ 'gender all along' about the body's sex (the fact that
+  material sex is not commensurable with gender identity) that drives
+  the trannsexual trajectory" (77).
+- "the strange materiality of transsexual wrong embodiment... suggest
+  why the trannsexual's gender identity can weild such a material
+  force: why 'feeling like' in the face of such opposition from the
+  visible body can be experienced as a core self" (79).
 
 Desire for normativity in the transsexual trajectory
 - Figure vs ground:
@@ -2043,7 +2117,36 @@ Desire for normativity in the transsexual trajectory
       pointedly to be nonperformative, to be constative, quite simply,
       /to be/" (32).
 
+Should queer expand?
+- "For Butler the concern is queer's /capacity/ to include, a question
+  about queer's elasticity, about how far the term 'queer' will
+  stretch. What is not a concern is whether queer /should/ even
+  attempt to expand; expansion, inclusions, incorporation are
+  automatically invested with value. One wonders to what extent this
+  queer inclusiveness of transgender and transsexuality is an
+  inclusiveness /for/ queer rather than for the trans subject: the
+  mechanism by which queer can sustain its very queerness---prolong
+  the queerness of the moment---by periodically adding subjects who
+  appear ever queerer precisely by virtue of their marginality in
+  relation to queer.... Yet if we conceived of "finish" and "end" here
+  not as limitation in time but in institutional space, this limimted
+  reach is inevitable and arguably necessary for the beginnings of
+  other methodologies, for reading other narratives from other
+  perspectives" (58).
 
+On /Orlando/:
+- "/Orlando/ is not about the sexed body at all... Orlando is free to
+  move beyond h/er body---quite queerly, to break through the limits
+  of the flesh" (168).
+
+A transgender movement:
+- "Specifying our locations even while we question the grounds for our
+  distinctions may provide the very mobilizing force for a
+  transgendered movement" (177).
+
+"In Stone's posttranssexuality there is no space for transsexuality as
+a progressive narrative---for continuing to value belonging, for an
+ongoing desire for sexed realness and coherent embodiment" (203). 
 
 Criticis:
 

@@ -1,0 +1,209 @@
+* Queer Logics: How To Rework Computation Toward [Resistance]
+** topic:
+- Computational processes and concepts for working with queerness
+  (queer gender, sexuality, sex) in text.
+
+** book questions:
+1. What do concepts from Queer Studies and adjacent fields offer to
+   computational tools for working with text?
+2. How do computational methods constrain the expressive potential of
+   language into data?
+3. How do concepts from Queer Studies and adjacent fields work against
+   constraints in language data?
+
+Template answers to questions:
+
+1. What do concepts from Queer Studies and adjacent fields offer to
+   computational tools for working with text?
+   - [queer theory concept], offers an approach to [computational
+     tool] that [does this to text].
+     1. The Queer Studies concept of Gender Performativity offers an
+        approach to text analysis that surfaces multiplicity in
+        language meaning.
+     2. QOCC's concept of dis-identification offers an approach to
+        textual markup that delineates irreconcilable interpretations
+        of language choices.
+     3. Black Feminist Studies' concept of the flesh offers an
+        approach for analyzing text display that is grounded in the
+        physicality and materiality of the screen.
+     4. Trans Studies' concept of normativity offers an approach to
+        text generation that reveals shared investments across
+        identity and subject groups.
+
+2. How do these computational tools constrain the expressive
+   potential of language into data?
+   - [Constraint] [does something] to language [to make it this].
+     1. In text analysis, "loops" strip language of idiosyncracies in
+        order to count its common features.
+     2. In textual markup, "tags" disambiguate and fix language to
+        sort it into discrete elements within an ordered hierarchy.
+     3. In text display, layers of computer software displace language
+        processing away from human awareness in order to streamline
+        interface effects.
+     4. In text generation, algorithmic prediction aggregates language
+        expressions to generalize and approximate patterns of language
+        use.
+	
+3. How do concepts from Queer Studies and adjacent fields work against
+   constraints in language data?
+   - Queer studies [concept] [does a thing to work within and against
+     constraint]
+     1. From the concept of iteration, the emphasis on repetition
+        influences a text analysis practice that multiplies and
+        re-signifies word meaning.
+     2. From the concept of dis-identification, the appropriation of
+        dominant codes influences a markup strategy that delineates
+        the boundaries of tagging structures.
+     3. From the concept of the flesh, the foreclosure of depth
+        suggests a close reading strategy that unleashes potential
+        screen effects.
+     4. From the concept of normativity, the generalization of
+        language suggests a focus on shared investments between
+        polarized perspectives.
+** book questions revised
+
+*** questions
+1. What approaches do Queer Studies or adjacent fields offer to
+   computational methods for working with language?
+2. How do computational methods constrain the expressive potential of
+   language into data?
+3. How might methods for working against constraints in Queer Studies
+   and adjacent fields work on language data?
+
+
+*** answers
+1. What approaches do Queer Studies or adjacent fields offer to
+   computational methods for working with language?
+   1. QS's concept of Gender Performativity offers an approach to text
+      analysis that surfaces significatory multiplicity in language.
+   2. QOCC's method of dis-identification offers an approach to
+      textual markup that surfaces coded and irreconcilable readings
+      of language.
+   3. Black Feminism's concept of the flesh offers an approach to text
+      display that surfaces the sensuality of language on the screen.
+   4. Trans Studies' theorization of normativity offers an approach to
+      text generation that surfaces shared investments in language.
+           
+2. How do computational methods constrain the expressive potential of
+   language into data?
+   1. In python programming, text analysis uses "loops" to automate
+      the removal of idiosyncrasies, regularizing/standardizing
+      language, in order to count common features in language.
+   2. In markup technology, "tags" disambiguate and fix language to
+      sort it into discrete and nested elements within an ordered
+      hierarchy.
+   3. In text display, layers of computer software and storage
+      displace language processing away from the user, to abstract and
+      streamline computation.
+   4. In text generation, machine learning algorithmic prediction
+      aggregates idiosyncratic expressions in language to generate
+      average representations of word meaning.
+            
+3. How might methods for working against constraints in Queer Studies
+   and adjacent fields work on language data?
+   1. Iteration from Gender Performativity, which repeats/mimes data
+      to introduce what has been excluded from the system/ dataset,
+      suggests an iterative (rather than reproducible) practice that
+      re-signifies terms.
+   2. The concept of dis-identification from QOCC, where subjects can
+      "read onesself" into exclusionary/oppressive systems, suggests a
+      markup strategy that provokes/blurs interpretive readings of
+      language.
+   3. Black feminism's theorization of the flesh, which analyzes the
+      flesh as a "surface effect" (toward opacity and fugitivity),
+      grounds language in the materiality and form of program code.
+   4. Trans Studies's theorizations of normativity, which situate
+      bodily experience within teleological narratives, suggests a
+      common rubric for reading cisgendered expressions of embodiment.
+      
+** main examples or case studies:
+- Computational tools and underlying processes.
+- Theoretical concepts from minoritarian fields, queer theory mostly.
+- Literary sources.
+- Critical work in DH and Media Studies.
+
+** organizing principle
+Each chapter takes a different process for working with text,
+identifies a computational constraint that reduces textual detail in
+some way, and finds a way of working around the constraint. 
+
+- process for working with text -> constraint
+1. text analysis, cleaning -> iteration (loops)
+2. text preservation, encoding -> containment (tags)
+3. text display, transformation -> abstraction (display)
+4. text generation, normalization -> approximation (prediction algoirthms)
+   
+- constraint -> what it does to data -> how to resist 
+1. iteration -> regularizes/homogenizes data -> repeat with difference
+2. containment -> leaves out data -> narrate between gaps
+3. abstraction -> displaces data -> close reading source code
+4. approximation -> approximates data -> description?
+
+** topic, claim, and metacommentary
+Chapter 1:
+- topic: Text analysis and gender
+- claim: Text analysis methods that reduce complexity and variability
+  of gender expression into binary forms can be "iterated" through
+  different vantage points (close and distant) to surface
+  multiplicity.
+- metacommentary: Words have inherent multiplicity, meaning is always
+  expanding beyond the binary. (But also, meaning is discursive,
+  disembodied--lacking material realities, whitewashed).
+
+Chapter 2:
+- topic: Text encoding and sexuality
+- claim: Hierarchical formats that categorize data can also suggest
+  implicit power structures that delimit what is sayable and
+  permissable.
+- metacommentary: Meaning is inherent in organization and structure,
+  controlling what can and cannot be signified. (Markup, inclusion
+  into systems, isn't enough).
+
+Chapter 3:
+- topic: Text display and embodiment
+- claim: Materiality exists even in abstracted forms, and points to
+  significatory possibilities that resist circumscription.
+- metacommentary: HOWEVER, the materiality of the sign offers a way of
+  working within reductive signification processes.
+
+Chapter 4:
+- topic: Text generation and sex
+- claim: Approximation of meaning finds commonalities between
+  polarized perspectives.
+- metacommentary: HOWEVER, univocality is a way of finding shared
+  investments.
+
+** model books:
+
+**** [[https://mitpress.mit.edu/9780262037006/the-fabric-of-interface/][The Fabric of Interface Mobile Media, Design, and Gender]], Stephen Monteiro, 2017
+
+
+Topic: Contemporary digital media's connection to textile
+arts/production. 
+
+Claim: our everyday digital practice has taken on traits common to
+textile and needlecraft culture, and textile metaphors used to
+describe computing (weaving code, threaded discussions, zipped files,
+software patches, switch fabrics) represent deeper connections between
+digital communication and “homecraft” or “women's work.”
+
+Evidence base:
+- the production of hardware and software from their conception in the
+  nineteenth century through twentieth-first-century globalized
+  electronics industries
+- textual and visual discourses around the digital, interactive,
+  integrative practices of contemporary digital devices and
+  their networked users
+- needlecraft and textile techniques, handloom or quilting frame,
+  mechanics of sewing and needlework
+- augmented reality (AR) and VR systems such as Google Glass, Google
+  Cardboard, and Oculus Rift
+
+It's a good fit. Considering both everyday digital practices and
+textile practices. Drawing analogies between these. 
+
+**** [[https://mitpress.mit.edu/9780262517409/mechanisms/][Mechanisms New Media and the Forensic Imagination]], Matthew G. Kirschenbaum, 2012
+**** [[https://direct.mit.edu/books/monograph/5133/Image-ObjectsAn-Archaeology-of-Computer-Graphics][Image Objects: An Archaeology of Computer Graphics]], Jacob Gaboury. 2023
+The MIT Press DOI: https://doi.org/10.7551/mitpress/11077.001.0001
+**** [[https://www.upress.umn.edu/9781517918774/a-users-guide-to-the-age-of-tech/][A User's Guide to the Age of Tech]], Grant Wythoff, 2025
+U of Minnesota Press
