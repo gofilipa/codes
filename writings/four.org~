@@ -1,0 +1,768 @@
+* "My Body Feels Like It’S Coming Off": Cisgender Erotics In /Love Is Blind/
+
+*** you're not their mommy
+In a reality TV show called Love is Blind, an American couple, Paul
+and Micah, visit a cenote in Mexico. Micah notices a school of fish,
+which scares her,
+#+begin_quote
+Micah: Is that a shark?
+
+Paul: What do you mean shark? Oh, they're catfish. They look like
+baby, like, tiny nurse sharks.
+
+Micah: Okay, this is kind of scaring me. It's my worst nightmare if
+one touches me.
+
+Paul: These little catfish?
+
+Micah: Yeah.
+
+Paul: You're not their mommy.
+
+/Love is Blind/, Season 4, Episode 5, "Paradise Lost"
+#+end_quote
+Paul rejects Micah directly on the altar. The reason, he later
+explains, is because he "struggled with... envisioning Micah as, like,
+you know, a mother" (Season 4, Episode 12, "Eternal Bliss?").
+
+*** /LiB/'s transgressive premise
+
+The point of going on the show, as one participant puts it, “to be
+loved for who I am on the inside,” (Season 2, Episode 3, “Love in
+Paradise”). However, the show’s main gambit, that “love is blind,”
+suggests a transgressive premise that undergirds an ultimately
+heteronormative teleology. Despite the promise of marriage and
+happily-ever-after, something non-normative is happening here. And
+that something has to do with the body, and what happens to the body
+when it falls in love from behind a wall.
+
+This paper explores, in the words of Micah above, how “touch” can be,
+for cis people, their “worst nightmare.” I take readings of
+normativity from Trans Studies and apply them to an analysis of
+cisgendered subjects from the show. I examine what this situation,
+where visual access to the beloved is denied, does to the
+self-perception of the body of the participants. I find that this
+“blind” dating experiment places participants in a state where their
+own bodily coherence fractures, which has consequences on their
+romantic trajectory and aspirations. While firmly anchored to their
+cisgendered identities, the participants undergo a split in the
+physical body, which begins to accrue investments to integrity and
+wholeness that inevitably go unfulfilled once they are united with
+their beloveds. Through this process, I argue, they enter a temporary
+version of what Jay Prosser calls the “transsexual trajectory” (6).
+For Prosser, this trajectory “bring[s] into view the materiality of
+the body,” and the external manifestation of its parts, such as the
+internal “body image” (12). I argue that this dating experiment has a
+similar effect on these cisgendered subjects who, sequestered from the
+sight of the other, are placed on a “route to identity and bodily
+integrity,” which they are unlikely to achieve (6).
+
+To surface this trajectory in LiB, I apply a reading method that
+synthesizes details of the dating experience into common patterns.
+Using the transcripts from the show, I created a text generator that
+mimics the speech of the participants.[fn:1] I chose this method
+because it abstracts from specific examples—the transcripts of the
+show—to synthesize common and shared investments in language. It
+allows me to study language in a “normalized” form, which I explain in
+more detail below.
+
+I also chose this method in attempt to push against dominant uses of
+machine learning technology. Amid what Emily Bender and Alex Hanna
+call “AI hype,” it is important to explore applications of machine
+learning that are not environmentally devastating or extractive as the
+commercial-level models developed by tech monopolies. By contrast, the
+model for this project is a fraction of the size of the models that
+run applications like ChatGPT, meaning the hardware, electricity, and
+data used for developing and running the model are miniscule in
+comparison, and can be carried out on a single laptop.[fn:2]
+
+The specifics of the prediction process, as I explain below, are
+central to my theorizing about normativity and how to study it. The
+current emphasis on using machine learning for to produce new content,
+while serving extractive and monetizing purposes, misses the fact that
+these tools are primarily self-reflexive. As Wendy Chun points out,
+predictive tools might be used to discover and study existing patterns
+in data, rather than simply generate more content for the sake of
+productivity. She compares common machine learning applications, like
+those that drive ChatGPT, with climate change models, asking, “How can
+we treat machine learning systems and their predictions like those for
+global climate change? These models offer us the most probable future
+given past and current actions, not so that we will accept their
+predictions are inevitable, but rather so we will use them to help
+change the future” (26). Rather than using machine learning as a means
+to an end (generating text for the sake of creating content), machine
+learning can be used to better understand the data that we already
+have.
+
+In working with the LiB transcripts, this project takes Chun's point
+to an application that is specific to studying normativity.
+Prediction, in addition to being a descriptive mechanism, is also a
+normalizing one. Within the prediction process itself, there are
+protocols that regularize language expression, that find and amplify
+frequent patterns of word usage. From repeated phrasings and frequent
+words in the show transcripts, this method distils or “normalizes” the
+dominant tendencies and perspectives embedded in the language.
+Prediction is, in this sense, an apt tool for studying shared and
+normative investments in language—a crucial area of interest for Trans
+Studies, as Andrea Long Chu puts it: “Trans Studies requires that we
+understand—as we never have before—what it means to be attached to a
+norm, by desire, by habit, by survival” (“After Trans Studies” 108).
+
+*** the method
+I will demonstrate this normalizing process with an example. I
+prompted the model, which I trained on the transcripts on the show,
+with the phrase “Love is.” It then generated the following outputs:
+#+begin_quote
+Love is really important to me.
+
+Love is what I need in my life.
+
+Love is everything that I've been looking for. (Appendix 1)
+#+end_quote
+None of these examples actually appear in the transcripts of the show.
+In fact, the only examples of sentences that begin with “Love is” are,
+perhaps predictably, followed by the word “blind.” The second half of
+the sentences in these outputs, then, are not filled by verbatim
+extracts of text of the show: rather, they are filled in by phrases
+that appear in similar contexts or are closely associated with the
+word “Love” in the transcripts. Instead of reproducing verbatim
+expressions, the model generates approximations of expressions within
+the transcripts.
+
+But how does the model know which words are approximations? In the
+model's internal representation, each word is represented a long list
+of numbers, or probabilities. These long list of probabilities
+function effectively like the word’s definition. Within the long list
+of probabilities, each individual probability score represents that
+word's relationship to another word in the dataset. For the model,
+that word is represented and defined by a chain of these probability
+scores, which correlate that word's relationship to a chain of other
+words in the dataset. So, in a kind of literalization of the
+poststructuralist floating signifier, a single word is defined as, not
+what it means in itself, but how it relates to (and differs from)
+every single other word. Using these lists of probabilities, a model
+will then know which words are most likely to appear together.
+
+In order to compile these probability scores, however, the model must
+first be trained on a dataset, such as the transcripts of the show.
+First, the model takes a sample sentence from the transcript, like
+“Love is blind,” and it blocks out the second half of the sentence, so
+that only “Love is” remains. It tries to guess which word or phrase
+should go in that second half. Because the model has no idea what the
+words mean, the guess will be wrong. Afterward, it checks its
+prediction against the actual sentence. Because the guess is
+inevitably wrong, there will always be a difference between the
+prediction and the actual result. And this is when the model starts to
+compile its list of probabilities, keeping track of which words tend
+to appear with each other in context. The more that certain words
+appear together or in similar contexts, the higher the probability
+score between those two words. Each time that the model makes a
+subsequent guess, it updates its internal representation of the word
+to reflect its probable association (or lack of association) to
+certain words.
+
+The model will make guess after guess, trying out many words, perhaps
+every word in the dataset, until it is sure of those that are most
+likely to appear together. With each guess, the model makes very
+slight adjustments to its own representation of word meaning (this
+constant iteration, and the computer processing required to do it, is
+why language models take lots of time, energy, and computer hardware
+to train). By the end, the list of probabilities will reflect a kind
+of average of that word's association to other words.
+
+Coming back to the prompt, “Love is,” the model will ascertain
+possible completions for this phrase, given other words that are
+associated with “Love” in the dataset. One actual completion it gives,
+“really important to me,” reflects an implicit association between
+“Love” and “really important.” In the actual transcript of the show,
+this phrase “really important” appears in the following excerpt: “I
+have a great career, I have a condo, and the one thing I've been
+missing is finding someone to share all that with. And that's a really
+important reason why I'm here” (Season 2, Episode 1, “The Pods Are
+Open!”). This means that in the model's internal representation, the
+phrases “great career,” “condo,” and “someone to share it with” have
+already been associated—either directly or through a relation to
+another word—with that of “love.” Unsurprisingly, given the
+heteronormative nature of the dataset, these are all words that have
+to do with long-term commitment. So the model will input a phrase that
+also appears in this context, such as “really important,” and use that
+phrase to complete the prompt, “love is.”
+
+This completion explains why the model does not generate “Love is
+blind,” despite the frequent repetition of that phrase in the
+transcript. The model does not spew verbatim extracts of the show;
+rather, it approximates word meaning by examining word contexts and
+averaging probabilities of association. The model determines then,
+that “Love” is associated with words having to do with heteronormative
+milestones and desires. I read this associative mechanism, this
+approximation of word meaning, as a kind of normalization of language.
+The model generates language by approximating what is most likely,
+most plausible, based on its training data. As such, it is ideal for
+studying shared perceptions and attachments by the characters on the
+show.
+
+*** the outputs
+
+The show contains two stages, the pre-engagement stage, where
+participants date each other from separate “pods” where they can hear
+but not see the other, and the engagement stage, where participants
+finally meet and proceed to live together in preparation for the
+wedding. In partitioning the romantic experiment into pre-engagement
+and engagement segments, the show poses the presence and role of the
+body as the variable that ultimately determines the viability of
+long-term commitment. In other words, it sets up an examination of how
+the body may affect normative trajectories and desires.
+
+To explore the differences between these periods of the show, I
+trained two separate models on each of these periods: the first model
+is trained on the transcripts from the pods episodes, and I call it
+the “pods model”; the second model is trained on the episodes
+following the pods, and I call it the “postpods model.”
+
+Then, I prompted both models with input phrases about the body and
+touch to see how each of them would respond individually to the
+prompts. When prompted with phrases like “When I touch you,” and
+“Physical touch is,” and “Physically,” the pods model generates the
+following outputs:
+
+#+begin_quote
+When I touch you, I feel it.
+
+When I touch you, I feel your energy, and it is, like, I'm just so
+happy.
+
+When I touch you, I can feel your soul, your heart, and your soul
+aligning so well.
+
+When I touch you, I feel you, and I feel you, I feel you, and I feel
+you.
+
+Physical touch is important to me.
+
+Physical touch is the most important thing.
+
+Physical touch is so sexy.
+
+Physical touch is like a glove.
+
+Physically, we are so happy.
+#+end_quote
+Repetitions in outputs like, “When I touch you, I feel you, and I feel
+you, I feel you, and I feel you,” are expected behavior in text
+generation models, especially those that are small and relatively
+underdeveloped, like this one. Because the model generates what is
+most likely, sometimes, it will get stuck in loops, repeating the same
+phrase over and over again. This quirk reinforces the predictive
+nature of the model, which will generate what is most plausible.[fn:4]
+
+The rest of the results reflect what is most plausible given the
+information from the training data, the transcripts. Considering that
+they are based on a period of the show when no actual touching occurs
+between the couples, it makes sense that the model would associate
+touch to non-tangible aspects like “soul” and “energy.” It also makes
+sense that touch, being foreclosed from the participants during this
+stage of the experiment, is elevated as something highly desired, to
+an “important,” “most important,” and even “sexy” quality. Finally,
+the last two examples, “like a glove” and “we are so happy,” suggest
+an association between touch and compatibility, in the sense that the
+couples “fit” together, so to speak.
+
+The outputs with those from the postpods model, however, put touch in
+very different contexts:
+
+#+begin_quote
+When I touch you, I feel like I'm in my head.
+
+When I touch you, you just feel like it's so weird.
+
+When I touch you, it feels like a jab.
+
+When I touch you, like, I feel like I'm literally in my head.
+
+When I touch you, it feels like something I'm about to get up and
+walk away.
+
+When I touch you, I feel like it's like I've just, like, left the
+room.
+
+When I touch you, the thing that's scary is, like, it's a physical
+thing.
+
+When I touch you, you're like "I'm blinking."
+#+end_quote
+Unlike the pods model, these outputs present touch as a not pleasant
+experience. Touch is “so weird,” “like a jab,” suggesting a strange
+and even disruptive aspect to touch. Furthermore, touch is associated
+with physicality, which is “scary,” echoing Micah’s fear of the
+catfish from the opening scene, “It’s my worst nightmare if one
+touches me” (Season 4, Episode 5, “Paradise Lost”). At the same time,
+touch signals location and movement: “in my head,” “walk away,” and
+“left the room.” While in the pods, touch drew the characters
+together, evoking non-tangible phenomena like the soul and energy,
+here it seems that touch repels the characters from each other.
+
+A mistake by the text generator reveals something about touch's
+relationship to the other senses. The phrase that says, “I'm
+blinking,” is actually taken directly from the show, and is an example
+of an undesired but not uncommon blip in the prediction process. In
+machine learning, this blip is referred to as “overfitting,” when a
+verbatim section of text from the training data, in this case, the
+show transcripts, is generated in the output. “Overfitting” means that
+the model is too accurate: that it has slipped from making predictions
+that are plausible to repeating exactly the data it has been trained
+on. A model overfitting in its outputs is generally a sign that there
+isn't enough training data or enough variation in the training data,
+meaning that the model has less examples from which to approximate and
+generalize. So, it resorts to simply reproducing direct examples from
+its training.
+
+For my purposes, however, overfitting is not only a blip, it also points to a specific scene in the show, which highlights a tension between the sensory modes of touch and sight. The original reference to “blinking” appears in the first meeting between a newly engaged couple, Zach and Irina:
+
+#+begin_quote
+Zach: Do I look like what you thought I'd look like?
+
+Irina: I had no guesses of what you looked like.
+
+Zach: Oh!
+
+Irina: You have, like, the blankest stare in your eyes.
+
+Zach: Really?
+
+Irina: I'm just kind of taking it all in.
+
+Zach: Me too.
+
+Irina: You look like a fictional character. You look like something
+out of a cartoon.
+
+Zach: I know.
+
+Irina: You have to blink!
+
+Zach: I am blinking.
+
+Irina: You don't blink. You look like this.
+
+Zach: I am blinking. I will try not to be too intense. (Season 4,
+Episode 4, "Playing with Fire")
+#+end_quote
+
+When Zach and Irina meet, it is clear that both are reacting to the
+reality of each other's physical form in their own ways, with Irina,
+in particular, asking Zach to adjust his behavior, “to blink!”
+Blinking is, of course, a way of stopping the entry of visual data, of
+occluding it from perception. For Irina, the request for Zach to blink
+might indicate her own sense of overwhelm at his physical form, at his
+sudden incorporation before her eyes. Perhaps, the visual reality of
+him proves too much. Projecting her own feelings of overstimulation,
+she asks him to blink.
+
+In the story of Zach and Irina, it is clear that the catalyst for
+their breakup is a lack of physical attraction on the part of Irina.
+Later in the same episode, Irina explains her feelings to Micah, who
+is coupled with Paul.
+
+#+begin_quote
+Irina: And so, Zack. I feel like is my type on paper. Has, like, brown
+hair, brown eyes, like, chiseled face. Like, I really like dark
+features. And the moment I saw Zack, it was like, "I don't know who
+this man is." And I was like, "Maybe it's just scary, and it was a
+lot." Like, hopefully it's gonna grow, but I've noticed every time he
+does, like, touch me, I get, like, major ick. When he puts his arm
+around me at night, I literally was like-- like, my heart stopped. And
+I literally go... But not, like, in an excited way.
+
+Micah: I wanna, like, relate to you in a way, but it's always, like,
+so different.
+
+Irina: How was it with you and Paul?
+
+Micah: The thing with me and Paul is, like, we both, like, had such an
+immediate understanding as best friends.
+
+Irina: Yeah, Paul's gorgeous. (Season 4, Episode 4, "Playing With
+Fire")
+#+end_quote
+
+Zach supposedly has physical aspects which Irina finds attractive,
+“brown eyes, chiseled face,” but something about him nonetheless
+repulses her. At his touch, she recoils, “get[ting]… major ick.” While
+she claims her lack of attraction to Zach is not determined by his
+appearance, Irina simultaneously elevates the importance of visual
+appearance with the phrase, “Yeah, Paul's gorgeous.” Which begs the
+question: if Irina finds both Zach and Paul visually attractive, then,
+what repulses her about Zach?
+
+The answer could be a number of things, which Irina may or may not
+have revealed in the course of the show. But the point is not the
+specific reason. Rather, it's that the model made a connection between
+touch and “blinking.” This connection leads to a scene where the
+visual sense overwhelms and may even occlude the other senses, such as
+touch, which is a result of the experience of the characters in the
+pods. It suggests that there is something about the foreclosure of the
+visual sense in the pods which Irina, and perhaps other characters,
+want to carry with them when they leave the pods, “blinking.”
+
+Sequestered from the sight of the other within the pods, the
+participants experience a kind of bodily split in which their own
+physical senses materialize in new and surprising ways. They
+experience not only the physical body, the material reality of their
+physical body which they've always known, but also what Jay Prosser
+refers to as the “body image,” an internal but no less material
+perception of the body. According to Prosser, “body image—which we
+might be tempted to align with the imaginary—clearly has a material
+force for transsexuals” (69). For trans subjects, this “material
+force” often manifests in the trope of being “trapped in the wrong
+body” and feelings of dysphoria.
+
+For these cisgendered subjects, I argue, this force manifests in a
+heightened sensation of the body, which paradoxically creates a
+feeling of the body's dissolution. When prompted with the phrase “My
+body,” the pods model generates the following completions:
+
+#+begin_quote
+My body feels like it's coming off.
+
+My body feels heavier.
+
+My body feels so different now.
+
+My body feels weird.
+
+My body makes me feel like it's real.
+
+My body feels torn between two different people.
+#+end_quote
+At the moment where visual access to the other's body is denied, there
+is an increased sensing of one's own physicality. The body comes into
+apprehension in a novel and visceral way, which makes it seem all the
+more strange. The body feels “weird” and “so different now” because it
+is not the same body as that which also had access to the visual
+sense. This new body is “heavier,” more “real,” weighted with its new
+awareness that is almost super-real. Perhaps, the reference to being
+“torn between two different people” is not referring to actual people,
+but to a single person with two bodies in tension. As Prosser
+explains, the body image creates “conflict between the true body
+within and the false body without, between sentient body image and
+insentient visible body” (70). For these straight, cisgendered
+participants within the pods, the body may be coming into sentience in
+a way that is not possible when they are fully integrated, outside the
+pods. And this may be the first (and only) time that they experience
+this level of bodily sensation and awareness.
+
+It is not a feeling that lasts long; for in the postpods model, the
+body appears to be re-integrated. Here, the language about the body
+shifts into notably more visual and positive descriptions:
+
+#+begin_quote
+My body is gorgeous.
+
+My body is so cute.
+
+My body is so pretty.
+
+My body makes me feel lighter, more confident.
+
+My body makes me feel warm.
+
+My body makes me feel like I've missed my train.
+#+end_quote
+
+The outputs address the body in concise and visually flattering terms:
+the body is “gorgeous,” “so cute,” “pretty.” Perhaps, now that the
+couples can see each other, the body feels “lighter” and “warm,”
+suggesting coherence where before there was weight and weirdness.
+Despite this coherence, however, there is a lingering feeling of loss:
+“My body makes me feel like I've missed my train.” This statement,
+with its slightly nostalgic undertone, suggests that even when
+coherence is gained, something is lost.
+
+What is lost comes into view when the model is prompted with
+statements about physical touch:
+
+#+begin_quote
+Physical touch is everything that I've ever wanted in a partner.
+
+Physical touch is everything that I've wanted in a wife.
+
+Physical touch is a big part of what I want.
+
+Physically, there's so much potential here.
+
+Physically, it was the perfect opportunity.
+#+end_quote
+
+Physical touch is described in aspirational terms: it is “everything
+I've wanted,” not “everything I got.” The traces of present perfect
+and past tense to discuss “want” is indicative: even after meeting in
+person, their desire remains unfulfilled. The restoration of the
+visual sense, the re-integration the fractured body image, then, does
+not offer completion or culmination.
+
+In the outputs, touch is evoked as aspirational perhaps because, when
+the couples finally meet in physical forms, they remain plagued by the
+possibilities for physical connection that they felt in the pods. And
+these expectations are what, for some of them, prevents their ability
+to accept their partners as they are. Being restored their visual
+sense heals the LiB participants from the bodily split, but it does
+not save them from the aftermath of their investments. Due to their
+experience in the pods, the significance of touch is inflated to
+include other, perhaps practically unattainable, desires. Although
+they exited from one trajectory, they remain stuck with the desire for
+a kind of touch that is “everything that I've ever wanted in a
+partner” (Appendix 1). Considering that the characters are now
+reunited with their physical bodies, there is something almost cruel
+in this denouement, a “cruel optimism,” in Lauren Berlant's
+formulation, which describes the attachment that drives desire even
+while it wears out the desirer.
+
+Or, more specific to their bodily predicaments, the characters
+experience a version of what Hil Malatino describes as “future
+fatigue” (20). Like cruel optimism, future fatigue generates “intense
+anticipatory anxiety” that “impede[s] flourishing” (Malatino 20).
+Unlike cruel optimism, however, future fatigue concerns trans subjects
+who are invested in “the promised moment of harmony between the felt
+and the perceived body” (Malatino 27). Despite being cisgendered,
+these subjects in LiB experience a bodily split, during which they
+develop romantic feelings and attachments. And most of them, when they
+leave the pods, cannot fulfil these aspirations within their embodied
+lives.
+
+*** cis and trans futures
+
+The disruption of bodily integrity has ramifications that last well
+beyond the pods. Recalling the case of Paul and Micah, Paul eventually
+rejects Micah because he didn’t see her as a mother. At the end of the
+season, when the host of the “Reunion” episode prods him on the topic,
+he struggles to articulate his reasoning:
+
+#+begin_quote
+Paul: You know, she didn't feel comfortable with showing that side of
+her.
+
+Host: I thought she said she did. She just talked about it from since
+the pods up until your wedding day.
+
+Paul: It wasn't evident to me… That wasn't there.
+
+Host: You wanted actions. Like, you wanted her...
+
+Paul: I just wanted to be able to see it, I guess. Like...
+
+Host: What would make you see that? I'm sorry. Just so I understand.
+
+Paul: I think... It's a little bit ineffable, right? So, it's kind of
+an exuding, a nurturing presence. It's something that you feel.
+There's not really, like... tangible, kind of like, things, I don't
+think. (Season 4, Episode 13  ‘The Reunion”)
+#+end_quote
+Micah claims that he failed to “see” evidence of Micah’s motherly
+nature, but when asked to explain what this evidence would look like,
+answers that it is “ineffable.” He supposedly wants someone who can be
+a mother, but cannot describe what a mother looks or acts like.
+
+There are two final points to make here: the first is that, clearly,
+cis people are not okay in their bodies.  That being said, however, I
+am not interested in a critical analysis of the body that redeems
+them. I am not interested in applying, as Malatino does for trans
+subjects, readings of “of looseness and possibility, not yet overcoded
+and fixed in meaning, signification, or representative economy,” to
+cisgender subjects (32). After all, cis-hetero significations and
+dynamics are already well represented and coded. What I am interested
+in, rather, is the study of normativity, and how alignments between
+cis and trans experience might further this study.
+
+Which brings me to my final point: that I hope my method, which
+approximates language as a means of surfacing shared investments,
+pushes back against the polarization that characterizes the current
+discourse in the US, and specifically that about trans rights. In this
+paper, I deliberately isolated the body as a potential vector of
+connection that flows through and between gender and sexual
+identities. I believe that machine learning, with its tendency to
+amplify what is most frequent, might reveal something shared about the
+body, even across very different embodied experiences.
+
+This is an attempt to expand Trans Studies by applying its interest in
+the body beyond the proper or conventional areas and objects. And
+Trans Studies offers no dearth of theorizing on the body and its
+desires.  I close with one quote from a study by Cassius Adair that
+explores “t4t erotics.” Here, Adair asks, “Why can't the erotic be a
+site of producing trans identity or practices?” (46). He points out
+that, after all, “cis people do it all the time: all erotic desires
+might be sites of identity formation, for anyone” (47).
+
+Yes, cis people do it all the time. But what they tend not to do, and
+which Trans Studies does so well, is to question the perimeters of
+their own bodies, to explore how desire and attachments manifest in
+material ways on the body. And perhaps, as I hope this paper has
+shown, that Trans Studies theorizing might open up such thinking about
+the body, “for anyone.”
+
+** Works Cited
+Adair, Cassius, and Aren Aizura. “‘The Transgender Craze Seducing Our
+[Sons]’; or, All the Trans Guys Are Just Dating Each Other.” TSQ:
+Transgender Studies Quarterly 9.1 (2022): 44–64.
+
+Bender, Emily M, and Alex Hanna. The AI Con: How to Fight Big Tech’s
+Hype and Create the Future We Want. New York, NY: Harper, an imprint
+of HarperCollinsPublishers, 2025.
+
+Berlant, Lauren Gail. Cruel Optimism. Durham: Duke University
+Press, 2011.
+
+Chu, Andrea Long, and Emmett Harsin Drager. “After Trans Studies.”
+TSQ : Transgender studies quarterly 6.1 (2019): 103–116. Web.
+
+Chun, Wendy Hui Kyong. Discriminating Data: Correlation,
+Neighborhoods, and the New Politics of Recognition. Cambridge,
+Massachusetts: The MIT Press, 2021.
+
+Love Is Blind, seasons 1-4, and 6. Netflix. 2020 - 2025.
+
+love_blind Github repository. https://github.com/ANONYMIZED/love_blind. 2025.
+
+Malatino, Hil. /Side Affects: On Being Trans and Feeling Bad/.
+Minneapolis, MN: University of Minnesota Press, 2022.
+
+Prosser, Jay. /Second Skins: The Body Narratives of Transsexuality/.
+Columbia University Press. 1998.
+
+
+** Appendix 1: Pods Model Outputs
+
+Prompt: "Love is"
+
+Outputs: 
+
+"Love is really important to me."
+
+"Love is what I need in my life."
+
+"Love is everything that I've been looking for."
+
+Prompt: "When I touch you"
+
+Outputs:
+
+"When I touch you, I feel it."
+
+"When I touch you, I feel your energy, and it is, like, I'm just so
+happy."
+
+"When I touch you, I can feel your soul, your heart, and your soul
+aligning so well."
+
+"When I touch you, I feel you, and I feel you, I feel you, and I feel
+you."
+
+Prompt: "Physical touch is"
+
+Outputs:
+
+"Physical touch is important to me."
+
+"Physical touch is the most important thing."
+
+"Physical touch is so sexy."
+
+"Physical touch is like a glove."
+
+Prompt: "Physically,"
+
+Outputs:
+
+"Physically, we are so happy."
+
+Prompt: "My body"
+
+Outputs:
+
+"My body feels like it's coming off."
+
+"My body feels heavier."
+
+"My body feels so different now."
+
+"My body feels weird."
+
+"My body makes me feel like it's real."
+
+"My body feels torn between two different people."
+
+** Appendix 2: Postpods Model Outputs
+
+Prompt: "When I touch you"
+
+Outputs:
+
+"When I touch you, I feel like I'm in my head."
+
+"When I touch you, you just feel like it's so weird."
+
+"When I touch you, it feels like a jab."
+
+"When I touch you, like, I feel like I'm literally in my head."
+
+"When I touch you, it feels like something I'm about to get up and
+walk away."
+
+"When I touch you, I feel like it's like I've just, like, left the
+room."
+
+"When I touch you, the thing that's scary is, like, it's a physical
+thing."
+
+"When I touch you, you're like 'I'm blinking.'"
+
+Prompt: "My body"
+
+Outputs:
+
+"My body is gorgeous."
+
+"My body is so cute."
+
+"My body is so pretty."
+
+"My body makes me feel lighter, more confident."
+
+"My body makes me feel warm."
+
+"My body makes me feel like I've missed my train."
+
+Prompt: "Physical touch"
+
+Outputs:
+
+"Physical touch is everything that I've ever wanted in a partner."
+
+"Physical touch is everything that I've wanted in a wife."
+
+"Physical touch is a big part of what I want."
+
+"Physically, there's so much potential here."
+
+"Physically, it was the perfect opportunity."
+
+* Footnotes
+
+[fn:1] For example, this project uses GPT-2, which is intially trained
+off only 8 million webpages and released under an open license.
+Compare that with the most recent version of GPT, GPT-5, which is
+trained on something like the entire internet and is over 600 billion
+parameters in size, a number that cannot be confirmed due to its
+closed and proprietary status. While the training process for my model
+took less than an hour, and was all done on my single Mac laptop,
+commercial-level models require multiple rounds and massive computer
+"clusters," containing hundreds to thousands of GPUs, and months of
+training.
+
+[fn:2] While models are good at predition, they are not at all good at
+being creative, at innovating. A model can only generate what it has
+already seen before. Even a phenomenon like “hallucination,” that a
+model spews text that has no bearing in reality, is based on the
+tendency of models to repeat what they’ve already seen. They
+hallucinate not because they are creative or random, but because they
+are designed from statistical processes to produce what is most
+plausible rather than most accurate.

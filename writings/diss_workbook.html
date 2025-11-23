@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-11-22 Sat 15:00 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="fcalado" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org10e8f04">1. <span class="todo TODO">TODO</span> book narrative</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org10e8f04" class="outline-2">
+<h2 id="org10e8f04"><span class="section-number-2">1.</span> <span class="todo TODO">TODO</span> book narrative</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Queer Computing / Queerware / Counter-Code
+</p>
+
+<p>
+Methods for Resisting Computational Constraints of Text-based Data; Re-thinking language tools; Queer Deviance and the Reimagining of
+Language Technologies; Queer and Feminist Revisions of Language
+Technologies; Close reading language technologies to destabilize
+power. 
+</p>
+
+<p>
+This book explores computational processes that work with text. It
+applies concepts from humanities fields to push against the ways that
+computational processes reduce and flatten the complexity of language
+data. It shows how certain computational tasks, like text generation,
+preservation, and display, tend to constrain the expressive potential
+of language, stripping its idiosyncrasies and ambiguities, to turn it
+into computable units of data. Humanities fields like Queer Studies,
+Black Feminist Studies, and Trans Studies inspire methodologies for
+working against these constraints&#x2014;methodologies that destabilize
+authoritative and delimiting structures, and open novel readings of
+language data. In its experiment with these new methodologies, this
+book uses examples of Queer literature as a test case, applying
+methods to <i>read</i> elements of literary form in computational
+structures and processes. By engaging closely and attentively with
+these computational processes, the reader discovers tools for
+resisting the ways that technology works upon language, moving
+simultaneously with and against the system which constrains meaning.
+</p>
+
+<p>
+Each chapter of this book takes up a different computational process
+for working with text, investigates how that processes handles
+language data, and identifies a constraint&#x2014;a mechanism that
+transforms and reduces an expressive quality of language into data.
+Then, with the help of Queer Studies and related fields, it re-works
+the constraint into a new practice that resists this reduction of
+language, and applies this practice to reading a sample of Queer
+literature. The earlier chapters focus on basic computational
+mechanisms, like counting and tagging language data, while the later
+chapters move toward more complex processes of abstraction and
+prediction. Chapter One considers text analysis methods, and focuses
+on the foundational computational mechanism of counting data. Chapter
+Two turns to text preservation methods, and focuses on "tagging" or
+categorizing text data. Then, moving from basic concepts to more
+complex processes, Chapters Three and Four consider abstraction and
+prediction, respectively, which are responsible for text display and
+generation. Computational components from the first half of the book,
+like word vectors and markup languages, are expanded in the second
+half to describe more advanced concepts, like neural nets and
+animation processes.
+</p>
+
+<p>
+Chapter One, "Counting Text," examines a foundational act of
+computation&#x2014;counting. It explores counting in the context of
+quantitative text analysis to study gender in Virginia Woolf's novel,
+<i>Orlando: A Biography</i> (1928). It delves into the mechanics behind
+quantitative text analysis, identifying the core concept of the
+"loop," which repeats the same code execution to bits of data, one by
+one. This mechanism, which removes textual idiosyncrasies and details,
+flattens and reduces text data into a standardized, computable form.
+Then, the chapter connects the loop mechanism in code to the theory of
+Gender Performativity, first propounded by Judith Butler in 1990's
+<i>Gender Trouble: Feminism and the Subversion of Identity</i>, which is
+widely cited as an inaugural text of Queer Studies. From Butler's
+formulation, it applies the iterativeness of gender performativity and
+its potential for re-signifying terms to a text analysis pratice that
+<i>iterates</i> through close and distant reading. It performs this method
+on a reading of gender in Woolf's novel, <i>Orlando</i> (1928), to surface
+the multiplicity inherent in language forms. Finally, it offers some
+more recent critiques of this reading and of Gender Performativity for
+the way it elides questions of embodiment and materiality.
+</p>
+
+<p>
+Moving from counting text, Chapter Two, introduces "Tagging Text," a
+procedure for organizing and sorting data into machine-readable
+structures. This chapter applies the Text Encoding Initative (TEI), a
+widely-used standard for tagging or "encoding" text-based data, to
+mark the revisions of Oscar Wilde's manuscript of <i>The Picture of
+Dorian Gray</i> (1990), which was edited by the author to remove
+references to homosexuality. This chapter explores the TEI's rigid
+tagging structure, an organizational schematic made of the individual
+tags that contains text elements within units that are nested within
+one another. The hierarchical structure of the TEI imposes a top-down
+control in which lesser or "child" elements are fixed and
+disambiguated according to their "parent" element, a structure that
+delimits what can and cannot be said within its boundaries. The
+chapter then searches for methods for resisting this structure by
+turning to Queer of Color Critique, and its concept of
+dis-identification. This concept offers a method of re-appropriation,
+"reading onesself into" structures of dominance. Applying this
+analytic to the TEI allows one to delineate irreconcilable
+interpretations of language choices in Wilde's revision process, an
+experiment that surfaces not the content, but the contours, of what
+cannot be recovered. The chapter ends with a meditation on Wilde's own
+position of privilege as an editor of his own text, the executor of
+his own censorship, and how TEI can be used as a way of surfacing
+power operations in text.
+</p>
+
+<p>
+The second half of the book moves from foundational processes in
+computing like counting and tagging, to more complex processes of
+layers of software abtraction and algorithmic prediction. Chapter
+Three, "Text Display," examines how screen effects&#x2014;displays and
+animations&#x2014;engage with data in its material form stored within the
+computing "stack," consisting of layers of software. It takes an
+example of early internet art, called "NET art", <i>skinonskinonskin</i>
+(1999), a series of "digital love letters" written by Aureia Harvey
+and Michael Samyn (Rhizome, <i>Net Art Anthology</i>). The chapter pursues
+a close reading of the electronic work, examining how the form of
+computer code and coding logics within its software layer bear on the
+reading of the work's surface, the screen layer. To read the forms of
+code, it draws from two seemingly unrelated fields, Media Archaeology
+and Black Feminist Studies, both of which have much to say about how
+physicality and materiality interact with abstract and symbolic
+processes. Bringing these theorizations to a deep reading of
+programming code reveals how screen effects, which seem disconnected
+from inaccessible and obscure hardware processes, offer significatory
+possbilities for reading materiality and physicality. As the net
+artwork's layers of JavaScript and HTML code demonsrate, the paring
+down to surface forms enables readings of connectivity and intimacy.
+</p>
+
+<p>
+Building on the analysis of "Counting Text," or word frequencies, in
+chapter one, the fourth and final chapter explores an advanced
+counting processes, which is machine learning, which it uses to study
+normativity. This chapter, "Text Generation," traces the steps behind
+algorithmic prediction to examine what it does to language data and
+how it represents word meaning in computational form. It posits the
+the training process for Large Language Models (LLMs) as a tools that
+<i>normalizes</i> language, transforming word meaning into an approximate
+or average forms. This process, which I examine in technical detail,
+transforms word meaning into numerical scores, which it compiles from
+averaging that word's various contexts from the training data. To
+demonstrate this process, I train miniature LLMs from the transcripts
+of a reality TV dating show, called <i>Love Is Blind</i> (2020 - present).
+In this show, the participants, who are all heterosexual and
+cisgendered, are required to date each other from behind a wall,
+without having access visual access to their partners until they have
+agreed to get married. I then prompt the language model, which has
+been trained to generate text in the same language and style of the
+show participants, to answer questions about the role of the body and
+embodied sensations in their dating experience. I use the language
+model as a predictive instrument that can <i>approximate</i> the linguistic
+and affective patterns around the body and touch. Drawing on Trans
+Studies theorizations of the body and of normativity, I argue that
+participants in <i>Love Is Blind</i>&#x2013;—while firmly anchored in
+cisnormative frameworks—&#x2013;temporarily experience a form of bodily
+dissonance. This dissonance, I argue, offers grounds for theorizing
+connection and solidarity beyond identity politics and polarized
+points of view.
+</p>
+
+<p>
+The chapters in the second half of the book offers responses to the
+problems spun from those in first half: from Chapter One, the problem
+of discursive forms, and how they elide embodied experiences of
+gender, and in Chapter Two, the problem of power structures, which are
+totalizing. Chapters Four and Three, respectively, answer these
+problems by grounding in what is shared and what is material. It shows
+how Queer Studies, as a field, is good at offering certain
+possibilities for resistance that <i>disrupts</i> existing structures, for
+performativity and dis-identification, but other fields, like Black
+Feminist and Trans Studies, offer ways of resisting that are <i>outside</i>
+of the current structure. Both have advantages and disadvantages: both
+are necessary for resistance work. 
+</p>
+
+
+<p>
+ADD:
+</p>
+<ul class="org-ul">
+<li>queer concept to each chapter: gender, desire, sex, body</li>
+<li>and this&#x2014;not queer studies&#x2014;is actually what gives me an
+organizing principle around "queerness". Queer can mean Queer
+Studies, but it also means things associated with gender, sexuality,
+and intercourse. I am expanding the umbrella of queer, mostly
+because we don't have another term that refers to all of these
+simultaneously.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: fcalado</p>
+<p class="date">Created: 2025-11-22 Sat 15:00</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
