@@ -19,7 +19,8 @@
 - [ ] add Heritage & ACLU
 - [ ] add Sedgwick
 - [ ] expand close reading?
-*** reverse outline (outdated)
+*** outlines
+**** reverse outline (outdated)
 - This paper is about normativity
   - Sedgwick on reading practices
 - Looking at the body in cisgender narrative, the body dissociations
@@ -42,28 +43,7 @@
     state of something like future fatigue
 - Reading pratices as a way of working against transphobia. 
 
-*** questions
-Are there, could there be, any way of surfacing body narratives in
-heterosexual, cisgendered stories?
-
-How might these investments connect the anti-trans and trans
-perspectives?
-
-Machine learning ideal tool for studying normativity: a tool for
-finding the shared, the average, the obvious.
-
-Close reading analysis:
-- Question -- how does the presence of the visual body affect dating?
-- Answer -- body perception splits, bodily sensation flows and ebbs. 
-
-*** Naomi's notes:
-- Reader must be invested in the reading method.
-- The technical process is a heuristic.
-- Add a few sentences summarizing the technical process before going
-  into details.
-- Scene setting in the beginning. The tendencies of language. 
-
-*** outline (outdated)
+**** outline (outdated)
 - toward a new method of reading
   - AIDs crisis: what kind of knowledge can help deveop politics. 
   - reading normativity, looking for shared investments.
@@ -84,7 +64,22 @@ Close reading analysis:
   - Prosser: on narratives of embodiment, coming back to the body
   - Malatino: attachments to the future
 
+*** questions
+Are there, could there be, any way of surfacing body narratives in
+heterosexual, cisgendered stories?
+
+How might these investments connect the anti-trans and trans
+perspectives?
+
+Machine learning ideal tool for studying normativity: a tool for
+finding the shared, the average, the obvious.
+
+Close reading analysis:
+- Question -- how does the presence of the visual body affect dating?
+- Answer -- body perception splits, bodily sensation flows and ebbs. 
+
 *** bank
+**** sedgwick
 Over 25 years ago, in response to lack of government response to the
 AIDS crisis, Eve Kosofsky Sedgwick questions the point of knowledge
 pratices like critique. She asks, "What does knowledge do---the
@@ -108,6 +103,7 @@ and impotence, and it explores one possibility for what we might do
 with it. It seeks out, like Sedgwick did decades ago, a way of reading
 that surfaces connections in places where they are unexpected.
 
+**** body image
 Despite being cisgendered, then, body image can have a material force
 in an environment where the integrity bodily perception is disrupted.
 The sensation of the body feeling "real" and like it's "coming off"
@@ -115,6 +111,7 @@ speak to this process of fragmentation, a process that is so visceral
 so that, as Prosser explains, "feeling like... can be experienced as a
 core self" (79).
 
+**** machine learning
 This is how it builds a sense of the meaning associated with each
 word,
 
@@ -124,46 +121,13 @@ topics like love, desire, and the body.
 This paper is about normativity, and how the desire for normativity
 can connect even the most polarized subjects and experiences.
 
+**** love is blind
 Participants enter /Love Is Blind/ with one goal: to find their ideal
 partner and get married. However, the show's main gambit is that the
 participants cannot see each other; they must date from behind a wall,
 with only access to the other's voice. Once they have agreed to get
 married, then they are allowed to meet their intended in person. And
 usually, that is when things start to go south.
-
-**** what does LiB have to do with trans studies? 
-Strictly speaking, I do not align with the identity qualities that
-determine belonging in either of the groups that I am concerning
-myself with in this essay. As a cis lesbian, who is not trans, and who
-is not straight, where do I come off making a case about using Trans
-Studies theory to read the dynamics of heterosexual relationships? I
-could say that queerness puts me into a kind of solidarity/intimacy
-with trans subjects, or even that my sexuality is intimately linked to
-my more masc presentation. But that is as true as it would be to say
-that I experience a foundational connection to cis subjects through
-the shared identification with my assignment at birth---which is
-false.
-
-**** trans studies on normativity, body splits, future fatigue
-To explore the desire for normativity, I borrow from ideas in Trans
-Studies. Andrea Long Chu points out that Trans Studies "requires that
-we understand–-as we never have before–-what it means to be attached
-to a norm, by desire, by habit, by survival" ("After Trans Studies"
-108).
-
-Specifically, I borrow from ideas about the body. I am interested in
-how the body figures into trajectories of normativity, which, in the
-case of the cis-hetero subjects in /LiB/, is about the trajectory
-toward getting married.
-
-
-
-And that this experience tells us a lot about what normativity, how
-the desire for normative markers, works in perhaps unexpected
-intra-social ways (that it creates envy and animosity among cis
-groups?). The experience for cis subjects in the pods creates
-expectations and disappointments that are actually shared across
-identity groups.
 
 **** word vectors
 First, I feed examples of text culled from the show's transcripts into
@@ -184,7 +148,7 @@ concepts of embodiment and desire and how they influence normativity.
 I choose this computational method because it is an ideal one for
 studying what words and phrases mean base on the context that they are
 being used. This method, which is machine learning, aggregates word
-meaning from various examples of usage. For my project, these examples
+, meaning from various examples of usage. For my project, these examples
 come from the transcripts of the show itself, which I feed into a
 machine learning algorithm. This algorithm "learns" what words mean in
 context. It's goal is build a strong enough model of word meaning so
@@ -232,9 +196,7 @@ relation between one word and another.
 Word meaning, significantly, can be calcuated via a formula. That's
 what the authors argue, anyway, in the paper that introduced word
 vectors to the world, titled "Efficient Estimation of Word
-Representations in Vector Space" (Mikolov et al. 2013). To illustrate
-the power of word vectors, the authors offer calculate the vector
-"queen" by subtracting "man" from "king" and adding "woman."[fn:1]
+Representations in Vector Space"  [fn:1]
 
 #+begin_src
   vector(”King”) - vector(”Man”) + vector(”Woman”) = vector("Queen")
@@ -250,7 +212,7 @@ are, just as they know what a "king" and "queen" is, speaks to how
 assumptions of gender are implicated within those of patriarchy and
 imperialism.[fn:2]
 
-**** training process
+**** training process: hypothesis, loss, gradient descent
 
 In the first step, the "hypothesis" step, a model will randomly guess
 what words are associated with each other---it will make a hypothesis.
@@ -915,7 +877,7 @@ for normativity can be a through line between trans subjects and
 anti-trans groups. If we can find some kind of connection, solidarity,
 then could we bridge the gaps of hate and fear of the unknown?
 
-*** some theory:
+*** polarization being a means for solidarity
 Malatino - negative feelings are a means of intra-trans relation.
 Arguing for the political efficacy of negative feelings. (Need to get
 the specific argument/possibilities here).
@@ -929,7 +891,6 @@ of aligning people around a cause, but in a way that also keeps them
 separate. For example, incels. Explained via magnetic polarization:
 "polarized filings both repel one another and stick together through
 their overwhelming attraction to their opposite pole" (Chun 85).
-
 
 *** reading notes
 **** Gould, Wren Ariel. “Coconstructing (Trans-)Capitalist Realism: Trans Activisms Collude in the Political Economy Structuring Anti-Trans Laws.” TSQ: Transgender Studies Quarterly, vol. 11, no. 2, May 2024, pp. 214–38. Silverchair, https://doi.org/10.1215/23289252-11215470.

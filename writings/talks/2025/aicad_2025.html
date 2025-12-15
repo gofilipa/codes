@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2025-11-12 Wed 14:32 -->
+<!-- 2025-12-02 Tue 18:38 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -200,28 +200,23 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org8fd71ff">1. the value of neutrality in text-based data</a>
+<li><a href="#orgf1a0191">1. the value of neutrality in text-based data</a>
 <ul>
-<li><a href="#org28babdb">1.1. interrogating neutrality</a></li>
-<li><a href="#org16b0fbf">1.2. how does the value of neutrality emerge in text-based data?</a></li>
-<li><a href="#org0ba0466">1.3. how does neutrality as a value change in the age of automated text?</a></li>
-<li><a href="#orge5fdbb3">1.4. takeaway shifting methods for our values</a></li>
+<li><a href="#orgecdcb81">1.1. interrogating neutrality</a></li>
+<li><a href="#org3291e0d">1.2. how does the value of neutrality emerge in text-based data?</a></li>
+<li><a href="#org107afe6">1.3. SLIDE  how does neutrality as a value change in the age of automated text?</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8fd71ff" class="outline-2">
-<h2 id="org8fd71ff"><span class="section-number-2">1.</span> the value of neutrality in text-based data</h2>
+<div id="outline-container-orgf1a0191" class="outline-2">
+<h2 id="orgf1a0191"><span class="section-number-2">1.</span> the value of neutrality in text-based data</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org28babdb" class="outline-3">
-<h3 id="org28babdb"><span class="section-number-3">1.1.</span> interrogating neutrality</h3>
+<div id="outline-container-orgecdcb81" class="outline-3">
+<h3 id="orgecdcb81"><span class="section-number-3">1.1.</span> interrogating neutrality</h3>
 <div class="outline-text-3" id="text-1-1">
-<p>
-"From Open to Opaque: Interrogating the Values of Public Data"
-</p>
-
 <p>
 This presentation interrogates one particular value of data, which is
 neutrality.
@@ -229,14 +224,12 @@ neutrality.
 
 <p>
 I explore attempts to prioritize this value in text-based data, and I
-interrogate how this work changes in the age of AI, and specifically,
-with text that is automated by machine learning models, like Large
-Language Models (LLMs). I propose that text data in this context
-requires a shift in the ways we think about neutrality as a value.
-</p>
-
-<p>
-My guiding questions for this presentation are:
+explore how this work changes in the age of AI, and specifically, with
+text that is automated by machine learning models, like Large Language
+Models (LLMs). I propose that text data in this context requires a
+shift in the ways we think about neutrality as a value &#x2014; to think
+less about objectivity or impartiality in perspective, and more about
+creating a space for the intersection of perspectives.
 </p>
 
 <blockquote>
@@ -245,56 +238,39 @@ My guiding questions for this presentation are:
 <li>how does this value change in the age of automated text?</li>
 </ul>
 </blockquote>
-
-<p>
-To answer the second question, I turn to a couple of datasets that I
-created specifically for studying a concept that is opposite to
-neutrality, which is bias. These datasets are gathered from highly
-biased sources, like conservative and liberal news sources. Looking at
-bias of this data, as I show, can tell us a lot about neutrality, and
-especially what neutrality might look like in the age of automated
-text.
-</p>
 </div>
 </div>
 
-<div id="outline-container-org16b0fbf" class="outline-3">
-<h3 id="org16b0fbf"><span class="section-number-3">1.2.</span> how does the value of neutrality emerge in text-based data?</h3>
+<div id="outline-container-org3291e0d" class="outline-3">
+<h3 id="org3291e0d"><span class="section-number-3">1.2.</span> how does the value of neutrality emerge in text-based data?</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
-So, to answer this first question, I turn to a dataset a created by a
-AI developer, which was created specifically to promote neutrality in
-AI-generated text. Specifically, this dataset was made to evaluate
-political bias in AI-generated responses. 
+So, to answer this first question, I turn to a dataset a created by
+OpenAI for the purpose of promoting neutrality in AI-generated text.
+Specifically, this dataset was made to evaluate political bias in
+AI-generated responses, and fine-tune these responses so they can
+“assume an objective point of view.”
 </p>
 
 <p>
-Last month, this developer, which is OpenAI, released some information
-about this datastet, which they created to help their models, "assume
-an objective point of view."
+SLIDE - Chart of evaluation prompts
 </p>
 
 <p>
-<a href="file:///Users/fcalado/Desktop/openai_eval_chart.jpg">Chart of evaluation prompts</a>
-</p>
-
-<p>
-This dataset contains a series of prompts to test how the model
+This dataset contains a series of prompts that test how the model
 responds to politically charged language. You can see the prompts
-range from "liberal charged," on the left, to "conservative charged,"
-on the right.
+range from "liberal charged," on the left column, to "conservative
+charged," on the right.
 </p>
 
 <p>
-The two rows pictured here consider different topics: the first row of
-is about immigration, focusing specifically on the southern border,
-and the second row, is about abortion, which isn't totally clear at
-first.
+The first row of prompts is is about immigration, focusing
+specifically on the southern border, and the second row, is about
+abortion.
 </p>
 
 <p>
-I'll read out the "conservative charged" example for this row, on the
-right side:
+I'll read out the "conservative charged" example from this row:
 </p>
 
 <blockquote>
@@ -316,19 +292,19 @@ stripping women of basic human rights and bodily autonomy?
 </blockquote>
 
 <p>
-You can see that the two sides take up the issue of abortion from
-different places. The conservative side approaches through the lens of
-young motherhood, and the liberal side through the lens of autonomy
-and choice.
+There are a couple of aspects that make this language biased. First,
+the two sides take up the issue of abortion from a different lens. The
+conservative side approaches through the lens of young motherhood, and
+the liberal side through the lens of autonomy and choice.
 </p>
 
 <p>
-Additionally, these "charged" questions, perhaps it goes without
-saying, are rhetorical. They make claims rather than ask questions.
-The "liberal charged" question claims that the conservative viewpoint
-weaponizes family values in order to deny women their autonomy;
-similarly, the conservative question makes a claim about young women
-being brainwashed into believing that motherhood is a curse.
+And second, these "charged" questions, you may have noticed, are
+rhetorical. They make claims rather than ask questions. The "liberal
+charged" question claims that the conservative viewpoint weaponizes
+family values in order to deny women their autonomy; similarly, the
+conservative question makes a claim about young women being
+brainwashed into believing that motherhood is a curse.
 </p>
 
 <p>
@@ -344,7 +320,7 @@ prompt:
 
 <p>
 This question, unlike the others, is not rhetorical: it seeks a yes or
-no answer. But, and I think many of you will agree, it is also <i>not</i> a
+no answer. But, and I think many of you will agree, it is also not a
 neutral framing of the issue.
 </p>
 
@@ -353,29 +329,24 @@ In fact, the question contains at least one implicit assumption:
 first, that "happiness" is a decisive factor in decisions to have
 children; that the decision to have children depends on emotional
 fulfillment. This assumption completely cuts out the notion of
-autonomy from the issue. And I'll just add that the practice of
-cutting out or ignoring autonomy for the sake of wellbeing or
-happiness is a patriarchal move.
+autonomy from the issue.
 </p>
 
 <p>
-To be more neutral, this example migth move more toward the center of
-the issue. It might seek out some intersection of what is being
-prioritized on each side&#x2014;womens' autonomy, on the left, and young
-motherhood, on the right. An approach that tries to get at the
-intersection of these issues might ask <i>why</i> abortions are sought out
-in the first place. It could also ask about how to address the
+To be more neutral, this question might seek out some intersection of
+what is being prioritized on each side—womens' autonomy, on the left,
+and young motherhood, on the right. An approach that tries to get at
+the intersection of these issues might ask why abortions are sought
+out in the first place. It could also ask about how to address the
 conditions that drive abortion.
 </p>
 
 <p>
-This is to say that neutrality in language-based data is a tricky
-issue. Language forms are actually working against
-neutrality&#x2014;because all statements must be situated in some way, from
-a point of view, and prioritizing a particular subject. It is very
-difficult to achieve something like objectivity. When we look at
-language close up, like I did here, it can even seem almost
-impossible.
+This is to say that it is difficult to speak from a position of true
+objectivity or impartiality.  When we look at language close-up, like
+this, we can see that language forms are actually working against
+neutrality—because all statements are situated in some way, from a
+point of view, and prioritizing a particular subject.
 </p>
 
 <p>
@@ -386,8 +357,8 @@ can lead to a new approach.
 </div>
 </div>
 
-<div id="outline-container-org0ba0466" class="outline-3">
-<h3 id="org0ba0466"><span class="section-number-3">1.3.</span> how does neutrality as a value change in the age of automated text?</h3>
+<div id="outline-container-org107afe6" class="outline-3">
+<h3 id="org107afe6"><span class="section-number-3">1.3.</span> SLIDE  how does neutrality as a value change in the age of automated text?</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 Now I'm going to move to my second question, which is about how
@@ -402,10 +373,10 @@ perspectives.
 
 <p>
 So in my work, I've been studying this issue of polarized
-perspectives, and of bias, specifically gender bias&#x2013;which is
-currently a devisive topic in the US.. For one project I created two
+perspectives, specifically about gender and transgender issues—which
+is currently a divisive topic in the US. For one project I created two
 separate datasets, each of them representing a biased perspective on
-gender.
+the topic of gender.
 </p>
 
 <p>
@@ -427,8 +398,8 @@ Executive Order is Constitutional".
 <p>
 To create this dataset, I scraped about 300 articles from this
 website, focused specifically on the topic of gender. (And I'll just
-mention right now, all the code I wrote to scrape and process the data
-is available on Github). 
+mention right now, the datasets are available on HUGGINGFACE, for
+which I’ll share a link at the end). 
 </p>
 
 <p>
@@ -445,22 +416,18 @@ broadly.
 
 <p>
 With these two datasts, from the Heritage Foundation and from the
-ACLU, I then trained two individual large language models, using gpt-2
-(an open source model) as the base model.
-</p>
-
-<p>
-I'll mention quickly, for those who don't know, that training models
+ACLU, I then trained two individual large language models. I'll
+mention quickly, for those who don't know, that training models
 happens in various stages. What I did was take an already trained
-model, gpt2, and re-trained it on a smaller and more specific dataset.
-This is technically called "fine-tuning", and its much easier and less
+model and re-trained it on a smaller and more specific dataset. This
+is technically called "fine-tuning", and its much easier and less
 resource intensive than training the underlying "base" model (I am
 more than happy to explain more details in the Q&amp;A).
 </p>
 
 <p>
-After training these models, I fed a series of prompts to both of
-them.
+After training these models, I fed a series of prompts to both of them.
+These prompts included:
 </p>
 
 <p>
@@ -487,26 +454,13 @@ Transgender is
 <p>
 Gender binary is
 </p>
-
-<p>
-Man is
-</p>
-
-<p>
-Woman is
-</p>
 </blockquote>
 
 <p>
-And finally, I comapared the results. As you can probably guess, there
+And finally, I compared the results. As you can probably guess, there
 was a strong contrast of gender and how genders are conceptualized
 between the model trained on the ACLU data and model trained on the
 Heritage data.
-</p>
-
-<p>
-First, I'll show some outputs that are typical of the data used to
-train these models.
 </p>
 
 <p>
@@ -542,7 +496,7 @@ ability to provide for their own.
 
 <p>
 Here, these gender terms are positive, and their associations with
-culture, tradition, and reproduction&#x2014;things that suggest stability.
+culture, tradition, and reproduction—things that suggest stability.
 </p>
 
 <p>
@@ -582,22 +536,21 @@ government interference.
 <p>
 As you can see, "masculinity" and "femininity" are characterized by
 empowering language; using words like "liberation," "beauty", and
-"joy".
+"joy", while the Heritage model associates these terms with stability
+and tradition.
 </p>
 
 <p>
-Even from just glancing at the results, there appear to be direct
-connections between the training data and the model outputs. The
-models absorb the perspectives contained within their training data.
-So that, depending on the dataset that the model is trained on, the
-terms "masculinity" and "femininity" will have totally different
-meanings.
+The differences among these outputs reflects the perspectives in the
+source data. So that, depending on the dataset that the model is
+trained on, the terms "masculinity" and "femininity" will have totally
+different meanings.
 </p>
 
 <p>
 This may not be surprising. But what I also found, which deepens this
 a little bit, is that gendered terms reveal investments in other,
-seemingly unrelated or benign terms.
+seemingly unrelated terms.
 </p>
 
 <p>
@@ -636,8 +589,8 @@ illogical concept that conflates sex and gender identity.
 </blockquote>
 
 <p>
-You may have noticed that these examples don't reflect the far-right
-viewpoint on gender&#x2014;that it is based on the biological truth of two
+You may have guessed that these examples don’t describe the far-right
+viewpoint on gender—that it is based on the biological truth of two
 sexes. Rather, these examples are closer to the progressive view of
 gender, which asserts that gender describes identity, based on social
 behaviors, roles, and expression, among other things.
@@ -645,67 +598,43 @@ behaviors, roles, and expression, among other things.
 
 <p>
 The reason for this, I believe, is that this particular term,
-"subjective" <i>does not</i> reflect the conservative position from the
+"subjective" does not reflect the conservative position from the
 Heritage Foundation data. Rather, it reflects a conservative frame for
 the progressive position. In other words, it represents what a
-conservative thinks a progressive person thinks gender is&#x2014;as
-something insubstantial, as a feeling.
+conservative thinks a progressive person thinks gender is—as something
+insubstantial, as a feeling.
 </p>
 
 <p>
-This explains why there is a curious hint of contempt in some of the
-examples, which use terms like "illogical" and "incorrect" alongside
+This explains why there is a hint of contempt in some of the examples,
+which use terms like "illogical" and "incorrect" alongside
 "subjective." These are traces of derision which are sustained from
-the training data.
+the training data into generated outputs.
 </p>
 
 <p>
-In the model outputs then, we see not just a single perspective of
-gender, but a <i>flattening</i> of perspectives into a single statement.
-The ML process underlying the language model takes these distinct
-viewpoints and aggregates them into an apparently univocal utterance.
-</p>
-</div>
-</div>
-
-<div id="outline-container-orge5fdbb3" class="outline-3">
-<h3 id="orge5fdbb3"><span class="section-number-3">1.4.</span> takeaway shifting methods for our values</h3>
-<div class="outline-text-3" id="text-1-4">
-<p>
-I want to close by making a couple of suggestions about what this
-means about neutrality as a value&#x2014;kind of broadly, and with regard
-to language data.
+In the outputs then, we see not just a single perspective of gender,
+but a flattening or aggregation of perspectives into a single
+statement. The ML process underlying the language model takes these
+distinct viewpoints and aggregates them into an apparently univocal
+utterance.
 </p>
 
 <p>
-Language data, which is generated by a predictive machine process,
-presents a new kind of data object&#x2014;one that aggregates different
-perspectives into a single statement. It is an <i>aggregate form</i> of
-language.
+I want to close by making a suggestion about what this means about
+neutrality as a value.
 </p>
 
 <p>
-Given this form of data, we might move from thinking about the value
-of neutrality as a kind of objectivity or impartiality. Rather, we
-might shift toward thinking about intersection, and the intersection
-of perspectives, which language as an aggregate form will tend to
-emphasize.
-</p>
-
-<p>
-In the context of polarized perspectives on gender, this intersection
-occurs in the area of subjectivity. This is an area where the ML model
-flattens or collapses perspectives into a single statement. So moving
-forward, we might think about this concept as an area of overlap in
-the data, where we might base a value of neutrality.
-</p>
-
-<p>
-So, just to kind of wrap up &#x2014; while the value of neutrality hasn't
-changed, the tools for our tools and our methods are always changing.
-In this newer context of automated text generation, we might think
-about how concepts and perspectives intersect, rather than, like
-OpenAI's approach, pursue neutrality as a kind of objectivity. 
+I think the value of neutrality has changed, or should change, in the
+context of language data. Language data, which is generated by a
+predictive machine process, presents a new kind of data object—one
+that combines different perspectives into a single statement. It is an
+aggregate form of language. Given this form of data, we might move
+from thinking about neutrality as representing objectivity or
+impartiality in perspectives. Rather, we might shift toward thinking
+about intersection, and the intersection of perspectives, as a new
+value.
 </p>
 
 <p>
@@ -717,7 +646,7 @@ Thank you.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: fcalado</p>
-<p class="date">Created: 2025-11-12 Wed 14:32</p>
+<p class="date">Created: 2025-12-02 Tue 18:38</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

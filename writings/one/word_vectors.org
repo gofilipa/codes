@@ -1,0 +1,47 @@
+* excerpts
+** Queen = King - Man + Woman analysis
+When word vectors were invented, its inventors introduced their power
+to the world via a formula. The famous formula uses a
+mathematical equation to calculate the meaning of the word "Queen":
+#+begin_quote
+Queen = King - Man + Woman (Mikolov et al. 2013)
+#+end_quote
+The meaning of the word "queen" is calculated by subtracting that of
+"man" from "king," and adding "woman." This example, presumably chosen
+for its intelligibility, speaks to how assumptions of gender are
+implicated within those of patriarchy and imperialism. The meaning of
+each term appears to be self-evident and universally true, stabilized
+by the equals sign that balances the formula. (there are gendered
+assumptions underpinning language, which go uncriticized, which are
+even exemplified. This is why we need humanists in scientific spaces).
+((Word vectors use gender norms as an operand, for the purpose of
+doing math)).
+
+The meaning of the word "Queen" is represented not by what the word
+contains, but how it relates to other words in the database, like
+"King" or "woman." Drawing from the concept of "vector" in math, which
+describes coordinates for a line in graphical space, word vector
+consists of numbers, a long list of numbers. For example, below is the
+word vector for the word "queen":
+#+begin_quote
+'queen': -0.3583, -0.6767, 0.1689, -0.6164, -0.0135, -0.2284, 0.3359,
+        0.1149, -0.1512, -0.8014
+#+end_quote
+Within the long list of probabilities, each individual probability
+score represents that word's relationship to another word in the
+dataset. One of these numbers may represent Queen's relationship to
+the word "woman," and this number will have a higher probability score
+than that which represents the relation to the word "man." These long
+chains of numbers, which encode these probability scores between
+"Queen" every other individual word in the database, function
+effectively like the word’s definition. In kind of literalization of
+the poststructuralist floating signifier, a single word is defined as,
+not what it means in itself, but how it relates to (and differs from)
+every single other word. In word vectors, then, meaning emerges from
+association, from proximity and distance, between words.
+
+The matrix format of the word vector enables a host of mathematical
+operations and algorithms: from example, cosine similarity calculates
+the distance between two vectors, that is, two words; and regression
+analysis guesses the relationship between an independant and dependant
+variable, or relation between one word and another.
