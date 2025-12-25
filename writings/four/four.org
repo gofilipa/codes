@@ -1,46 +1,39 @@
-* "My Body Feels Like It's Coming Off": Cisgender Erotics In /Love Is Blind/
+* Text Generation
 
-*** introduction: reading practices, the body
-**** Sedgwick's shift from knowledge to method
-
-Over 25 years ago, in the midst of the first wave of the AIDS epidemic
-and the government's neglect for those whom it affected (mostly Black
-people and gay men), Eve Kosofsky Sedgwick wonders about the point of
-doing critique in the first place. Even if critique could expose
-governmental neglect of marginalized populations, that "the lives of
-African Americans are worthless in the eyes of the United States; that
-gay men and drug users are held cheap where they aren't actively
-hated," Sedgwick wonders, "what would we know then that we don't
-already know?" (/Novel Gazing/ 3-4).
-
-In Sedgwick's work, this question indexes a shift her thinking about
-reading practices, from a focus on knowledge, "Is a particular piece
-of knowledge true?", toward method: "What does knowledge do---the
-pursuit of it, the having and expressing of it?" (/Novel Gazing/ 4).
-Sedgwick calls this new method /reparative reading/.[fn:9] This method
-is about reading for the productive, generative effect of language,
-for how language can coordinate seemingly unrelated associations or
-effects.
+*** polarization
+Over 25 years ago, in the midst of the AIDS epidemic and the
+government's neglect for those whom it affected, Eve Kosofsky Sedgwick
+wondered about the point of doing critique in the first place. Even if
+critique could expose governmental neglect of marginalized
+populations, that "the lives of African Americans are worthless in the
+eyes of the United States; that gay men and drug users are held cheap
+where they aren't actively hated," Sedgwick writes, "what would we
+know then that we don't already know?" (/Novel Gazing/ 3-4). In
+Sedgwick's work, this question indexes a shift thinking around reading
+practices, from a focus on knowledge, "Is a particular piece of
+knowledge true?," toward method, "What does knowledge do--the pursuit
+of it, the having and expressing of it?" (/Novel Gazing/ 4). This new
+method, which she calls /reparative reading/, embraces the productive
+power of language, how it can coordinate seemingly unrelated
+associations to generate new meaning.[fn:9]
 
 Over two decades later, in the dawn of the age of automated text, this
-project takes this prospect of /generation/ as a reading practice
-quite literally, and applies it a very contemporary issue of gender.
-While Sedgwick poses reparative reading as a hermeneutic that responds
-to knowledge work and its impotence in the wake of the AIDS crisis, I
-pose text generation, specifically by automated systems, as an apt
-response to political polarization on the topic of gender and on trans
-rights. This project uses generation as a tool for finding where
-polarized perspectives surrounding gender might intersect. Machine
-learning processes turn language into a form, which I call an
-/aggregate form/ (explained below), which offers potential for
-political solidarity and intersection, even among polarized points of
-view.
+project takes the prospect of /generation/ as a reading method quite
+literally. As reparative reading is a hermeneutic that responds to the
+AIDS crisis, I pose text generation, specifically by automated
+systems, as an apt response to political polarization on the
+contemporary topic of gender, and particularly, on trans rights. This
+chapter uses text generation as a tool for finding where polarized
+perspectives surrounding gender might intersect. It does this because
+machine learning, as I explain below, transforms language into what I
+call /aggregate forms/ which surfaces sites of potential intersection,
+and even solidarity, among polarized points of view.
 
-**** Heritage/ACLU
-
-First, I will demonstrate an example. I asked one text generator,
-trained on "progressive" data, to describe gender terms, specifically
-"masculinity" and "femininity". It generated the following outputs:
+I will demonstrate with an example, using a machine learning model
+that I deliberately trained[fn:8] to represent a progressive point of
+view. When I ask this model to define gender terms, specifically
+"Masculinity" and "Femininity," it responds with the following
+outputs:
 #+begin_quote
 Masculinity is a matter of love and celebration.
 
@@ -57,17 +50,16 @@ Femininity is our joy, our struggle, and our fight is our struggle.
 Femininity is about allowing people to express themselves without
 government interference.
 #+end_quote
-These outputs align with what one might expect from a perspective that
-affirms gender diversity and expression. This model, which I trained
-myself on a custom dataset[fn:6] [fn:8]) based on articles about
-gender from the ACLU,[fn:7] characterizes gender as a celebratory
-phenomenon, using empowering language like "liberation," "beauty", and
-"joy".
+The outputs from this model, which I trained on a custom dataset based
+on articles about gender from the ACLU[fn:7], align with what one
+might expect from a perspective that affirms gender diversity and
+expression. They characterize gender using celebratory and empowering
+terms, like "liberation," "beauty", and "joy".
 
-Meanwhile, in a similarly predictable way, another model associates
+Similarly, another model[fn:6], which I trained on conservative media,
+specifically on articles from the Heritage Foundation, associates
 "Masculinity" and "Femininity" with what are typically conservative
-ideals. This model, which I trained on articles from the Heritage
-Foundation, generated the following outputs about gender:
+ideals:
 #+begin_quote
 Masculinity is the cornerstone of Western civilization.
 
@@ -84,14 +76,13 @@ the ability to raise their children, the capacity to provide for their
 own reproduction, the capacity to provide for their own children, the
 ability to provide for their own.
 #+end_quote
-Like the progressive model, these gender terms are positive. However,
-unlike the progressive model, the terms here affix to notions of
-culture, tradition, and reproduction, which priotitize stability over
-empowerment.
+Like the progressive model, gender is portrayed in a positive light.
+However, unlike the progressive model, the terms here affix to notions
+of culture, tradition, and reproduction, which priotitize social
+stability over personal affirmation and expression.
 
-That being said, there is an outlier in these results, which centers
-on a particular, term, "subjectivity." This term appears in ways that
-one wouldn't typically associate with the conservative viewpoint:
+However, the outputs from this model contain a peculiarity, which
+centers on a particular term, "subjectivity":
 #+begin_quote
 Masculinity is a subjective self-perception, not a universal
 concept.
@@ -107,16 +98,15 @@ concept.
 The gender binary is a subjective, grammatically incorrect and
 illogical concept that conflates sex and gender identity.
 #+end_quote
-These examples do not describe the far-right viewpoint on
-gender—--that it is based on the "biological truth" of two sexes, for
-example, from executive orders like "Defending Women From Gender
-Ideology Extremism And Restoring Biological Truth To The Federal
-Government" and "Keeping Men Out of Women's Sports" (The White House).
-Unlike these initiatives, which double down on the primacy of sex,
-defining it as "binary and biological," these outputs more closely
-resemble the progressive view of gender, which asserts that gender
-describes identity, based on social behaviors, roles, and expression,
-among other things (The White House 2025a, The White House 2025b). The
+This term, "subjectivity," appears in ways that one wouldn't typically
+associate with the conservative viewpoint, which tends to emphasize a
+binary conception of gender. For example, recent Executive Orders,
+like "Defending Women From Gender Ideology Extremism And Restoring
+Biological Truth To The Federal Government" and "Keeping Men Out of
+Women's Sports," define gender as "binary and biological" (The White
+House 2025a, The White House 2025b). In fact, these outputs more
+closely resemble the progressive view of gender, which associates
+gender with /identity/, which is internal rather than biological. The
 American Psychiatric Association, for example, defines gender identity
 as "a person’s inner sense of being a girl/woman, boy/man, some
 combination of both, or something else" ("What is Gender Dysphoria?").
@@ -126,207 +116,140 @@ gender," and constrasts it to biolgoical sex, adding that gender
 identity "may or may not correspond to the person’s physiology or
 designated sex at birth" ("Gender and health" 2025).
 
-**** the ML process aggregates perspectives
-In fact, the particular phrase, "gender is subjective", does not
-reflect the conservative position from the Heritage Foundation data.
-Rather, it reflects a conservative frame for the progressive position.
-It represents what a conservative thinks a progressive person thinks
-gender is---as something insubstantial, as a feeling. The outputs,
-then, express not a single perspective of gender, but an /aggregation/
-of perspectives into a single statement. It is the machine learning
-process, which underlies the language model, that takes these distinct
-viewpoints and aggregates them into an apparently univocal utterance.
+The particular phrase, "gender is subjective," does not reflect the
+conservative position; rather, it reflects a conservative /frame/ for
+the progressive position. It represents what a conservative believes a
+progressive person believes gender is--something insubstantial, like a
+feeling. The outputs, then, express not a single perspective of
+gender, but an aggregation of perspectives into a single statement. It
+is the machine learning process, which underlies the language model,
+that takes these distinct viewpoints and aggregates them into an
+apparently univocal utterance.
 
-  The term "subjectivity" above offers a nexus around which gender
-  suppressive perspective congregates. To them, it represents a serious
-  contradiction in the argument for gender rights. If gender is in fact
-  not rooted in biology, but a subjective, internal phenomenon, then why
-  would does /the body/ need to be changed to reflect it? Why is gender
-  transition necessary? CITE JUDITH BUTLER WHO IS AFRAID OF GENDER. The
-  far-right push to solidify sex as "binary and biological" is a
-  /reaction/ to this fluidity, nebulousness, and slipperyness of how
-  gender is conceptualized in trans affirming discourse.
-
-  Within a pro-trans rights frame, Trans Studies scholars have offered
-  an alternative theorization of gender identity. Rather than a
-  subjective, internal sense of self, gender is an external expression,
-  verifiable in presentation and behavior. According to Kadji Amin,
-  gender functions more as social role than an internal identity: "Like
-  language, gender categories—-including trans, cis, nonbinary, and
-  binary—-are social and interpersonal, not individual; this is what
-  makes them meaningful in the first place" (Amin 115). Amin argues that
-  the effect of defining gender as an internal identity, that is
-  invisible or not immediately apparent, is to marginalize gender as
-  expression, which re-stigmatizes those visibly non-normative gender
-  groups that already experience social stigma.
-
-This paper uses this aggregative method to surface commonality and
+This chapter uses this aggregative method to surface commonality and
 shared investments in perspectives based on gender and gendered
 embodiment. It takes a deep look into the prediction mechanism, which
-drives machine learning (ML) text generation processes, to trace how
-this mechanism aggregates and "normalizes" language expressions, to
-offer a politcally potent tool for combatting polarization 
-
-I use the aggregative method on a dataset representing cisgendered
-experiences of embodiment---specifically, from the popular
-heterosexual dating show, /Love is Blind/. The show takes heterosexual
-men and women, puts them into a "blind" dating experiment with the
-ultimate goal of marriage. First, the daters are placed into dating
-"pods" where they can hear but not see the other. Then, once they
-agree to get married, they meet and live together for one month until
-their wedding day, making their final decision, whether or not to
-remain together, at the altar.
-
-*** /LiB/'s transgressive premise
-Similarly to the two models that I trained on conservative and
-progressive perspectives, I trained two models based on the
-transcripts of the show: the first model is trained on the transcripts
-from the episodes in the pods, when the participants fall in love and
-agree to get married without ever seeing the other; and the second
-model, I trained off the period following the pods, when the daters
-finally meet and live together, which is when the relationships tend
-to fall apart.[fn:10]
+drives machine learning text generation processes, to trace how this
+mechanism aggregates and "normalizes" language expressions. I use the
+aggregative method on a dataset representing cisgendered experiences
+of embodiment from the popular heterosexual dating show, /Love is
+Blind/. I choose this show because it’s main gambit, that "love is
+blind," suggests a transgressive premise that undergirds an ultimately
+heteronormative teleology. The show, which sequesters participants
+from seeing each other in person until they have agreed to get
+married, effectively poses the presence of the body as the determinant
+for a successful union--a kind of heterosexual apotheosis. Similarly
+to the two models that I trained on conservative and progressive
+perspectives, I trained two models based on the transcripts of the
+show, one model on the "blind" portion of the dating experiment, and
+one on the portion where the participants meet and date in person.
+Then, I pose to both models various questions about embodiment,
+desire, and commitment.
 
 I partitioned the models in this way deliberately so that I could
-study how the body, and how the introduction of the body, affects the
-dating experiment. While the point of going on the show, as one
-participant puts it, is "to be loved for who I am on the inside,"
-something very differnt is happening here (Season 2, Episode 3, "Love
-in Paradise”). The show’s main gambit, that "love is blind,” suggests
-a transgressive premise that undergirds an ultimately heteronormative
-teleology. Despite the promise of marriage and happily-ever-after, the
-experiment poses embodiment in a non-normative function. It explores
-the body, and what happens to the body when it falls in love from
-behind a wall.
+study how the presence of the body affects the heterosexual dating
+experiment. Despite the heterosexual and apparantly cisgender
+conformity of the show's participants, it poses what I think is a
+fascinating and non-normative experiment about embodiment and desire:
+an experiment which explores what happens to the body when it falls in
+love from behind a wall. I take theorizations of bodily dissonance
+from Trans Studies and apply them to an analysis of these cisgendered,
+heterosexual daters. I examine what their dating situation, where
+visual access to the beloved is denied, does to the self-perception of
+the body. I find that this "blind” dating experiment places
+participants in a state where their own bodily coherence fractures,
+which has consequences on their romantic trajectory and aspirations.
+While firmly anchored to their cisgendered identities, the
+participants undergo a split in the physical body, which begins to
+accrue investments to integrity and wholeness that inevitably go
+unfulfilled once they are united with their beloveds.
 
-The main readings of this paper explore bodily dissonance in the
-experiences of these cisgender, heterosexual daters. I take
-theorizations of embodiment from Trans Studies and apply them to an
-analysis of these cisgendered subjects. I examine what this situation,
-where visual access to the beloved is denied, does to the
-self-perception of the body of the participants. I find that this
-"blind” dating experiment places participants in a state where their
-own bodily coherence fractures, which has consequences on their
-romantic trajectory and aspirations. While firmly anchored to their
-cisgendered identities, the participants undergo a split in the
-physical body, which begins to accrue investments to integrity and
-wholeness that inevitably go unfulfilled once they are united with
-their beloveds.
-
-Throughout this process, I argue, they enter a version of what Jay
-Prosser calls the "transsexual trajectory” (6). For Prosser, this
-trajectory "bring[s] into view the materiality of the body," in
-particular the internal "body image" that is distinct from and
+Throughout this process, I argue, the participants enter a version of
+what Jay Prosser calls the "transsexual trajectory” (6). For Prosser,
+this trajectory "bring[s] into view the materiality of the body," in
+particular, the internal "body image" that is distinct from and
 contained within the external, physical body (12). For trans subjects,
 the body image is related to feelings of bodily dissociation and
-dysphoria, which is not the case for these cis subjects, who are
-(apparently) anchored to their sex-gender identities thoughout the
-show. Nonetheless, these subjects, sequestered from the sight of their
-beloved, undergo a bifurcation within the body. The wall which
-separates their embodied feelings from the vision of the other places
-them, temporarility, on the "route to identity and bodily integrity"
-(6).
+dysphoria, which is not the case for these cisgendered subjects, who
+are anchored to their sex-gender identities thoughout the show.
+Nonetheless, I aruge, these subjects undergo a bifurcation within the
+body the moment that the sense of sight is foreclosed from the other
+senses like touch and hearing. Separated from the vision of the other,
+this sensory split places them temporarility on the "route to identity
+and bodily integrity" (6).
 
-To analyze this trajectory in LiB, I created a tool that surfaces the
-participants speech about their bodies and their experiences of
-embodiment. Using the transcripts from the show, which I scraped from
-the internet,[fn:1] I built a text generator that mimics the speech of
-the participants. I use this text generator, which synthesizes common
-patterns and shared investments in language (a process I explain
-below), to analyze characters' perspectives of embodiment throughout
-the show, from their experience in the pods up until the wedding day.
+*** aggregation
+To examine this trajectory in LiB, I created some text generation
+models that mimic the speech of the participants from the show. Using
+the transcripts from the show, which I scraped from the internet, I
+trained these models from an open source "base model" called gpt2 (I
+release all of the code, datasets, and resulting models online under
+open licencses[fn:1]). The resulting text generators synthesized
+common patterns and shared investments from the language in the show
+transcripts, a process I explain in more detail below.
 
-*** TODO ADD citations to recent reporting on AI
 Although this method makes use of machine learning (ML) technology, it
 does so deliberately to resist dominant uses of that technology today,
 particularly what Gael Varoquaux et al. describe as the
-"bigger-is-better mentality" that drives ML development.[fn:2] This
+"bigger-is-better mentality" that drives ML development. This
 mentality has to do with the belief that more data (scraped from the
 internet) and more "compute" (Graphical Processing Units, or GPUs,
 sourced from deep Earth minerals) will lead to better performing
-models.
-
-The drive for larger models has spurred more and more investment,
-which has inflated the economy to what many project are
-bubble-bursting levels (CITATION), as many tech companies like OpenAI
-are running on pure investment and do not project to be actually
-profiting from their product for several years (CITATION).
-Additionally, as recent research points out, this bigger is better
-drive is counter-intuitive: Large Language Models actually have a
-ceiling in terms of size and how it affects performance; that
-ever-increasing compute does not yield comparable returns in terms of
-the quality of model outputs (CITE Varoquaux and another?). Which
-makes the tech companies all the more desperate to protect their
-investments at all costs. Perhaps why OpenAI is lowering safeguards
-for ChatGPT, allowing it to create porn (CITATION).
+models. The drive for larger models has spurred more and more
+investment, which has inflated the economy to what some project are
+bubble-bursting levels, as many tech companies like OpenAI are running
+on pure investment and do not project to be actually profiting from
+their product for several years (Casselman). Additionally, as recent
+research points out, this bigger is better drive is counter-intuitive:
+Large Language Models actually have a ceiling in terms of how size
+affects performance, that ever-increasing compute does not yield
+comparable returns in terms of the quality of model outputs (Varoquaux
+et al.). Which makes the tech companies all the more desperate to
+protect their investments at all costs.
 
 Together, general ignorance about so-called "AI" and market incentives
 combine to fuel what Emily Bender and Alex Hanna have usefully termed
 "AI hype" (/The AI Con/). Hype is a self-reinforcing and perpetuating
-mechanism driven by ignorance about how models actually operate (the
-race after "intelligence") and capital's desperation for profit above
-all else. This creates a self-perpetuating pressure to adopt the tool
-that infects every level of the workplace: CEOs feel it, managers feel
-it, mid-level and entry-level workers feel it.
+mechanism driven by ignorance about how models actually operate and
+capital's desperation for profit above all else. This project rejects
+this high consumption mentality, opting instead for small models and
+datasets, and for deliberate attention to how ML's central mechanisms
+operate under the hood. The LLMs that I use for this project, which I
+jokingly call "small language models," were trained on a single
+laptop, over a single afternoon.[fn:3] Moreover, the dataset which I
+used for training was also small in size, containing the transcripts
+from just one season of the show.
 
-What I offer, by contrast, is a methodology that rejects this high
-consumption mentality, opting instead for small models and datasets,
-and for deliberate attention to the mechanism's operation under the
-hood. The LLMs that I use for this project, which I jokingly call
-"small language models," were trained on a single laptop, over a
-single afternoon.[fn:3] The dataset which I used for training (more on this
-process below) was similarly small in size, containing the transcripts
-from one season, 13 total episodes, of the show.[fn:4]
+The current emphasis on using machine learning as a tool for
+productivity, to generate new content, while serving extractive and
+monetizing purposes, misses the fact that these tools are primarily
+/self-reflexive/. As Wendy Chun points out, predictive tools are good
+for studying existing patterns in data, and might be used to study
+patterns so that their projected outcomes might be avoided. Her work,
+which carefully traces the eugenicist origins of statistical
+processes,[fn:5] the foundation for all machine learning technology
+today, proposes that these tools be used for revealing patterns that
+are harmful so that one might act differently. She offers the example
+of one knowledge area which already does this work: climate change
+modelling. Here, she asks: "How can we treat machine learning systems
+and their predictions like those for global climate change? These
+models offer us the most probable future given past and current
+actions, not so that we will accept their predictions are inevitable,
+but rather so we will use them to help change the future" (26).
 
-My analytical approach turns on the specifics of the prediction
-process, as I explain below. The current emphasis on using machine
-learning as a tool for productivity, to generate /new/ content, while
-serving extractive and monetizing purposes, misses the fact that these
-tools are primarily /self-reflexive/. As Wendy Chun points out,
-predictive tools are good for studying existing patterns in data, and
-might be used to study patterns so that they can be resisted or
-avoided. Her work, which carefully traces the racist, specifically
-eugenicist, origins of statistical processes,[fn:5] which forms the
-foundation of machine learning technology today, proposes that these
-tools be used for revealing patterns that are harmful or otherwise
-undesirable, so that one might act differently. She offers the example
-of one area which already does this work, climate change modelling.
-Here, she asks: "How can we treat machine learning systems and their
-predictions like those for global climate change? These models offer
-us the most probable future given past and current actions, not so
-that we will accept their predictions are inevitable, but rather so we
-will use them to help change the future" (26). My approach takes a
-similar shift around machine learning, using it as a tool for creating
-new objects toward "productivity", but to better understand the data
-that we already have.
+My approach takes Chun's perspective on machine learning and pushes it
+one step further toward the study of normativity. For prediction, in
+addition to being a descriptive mechanism, is also a normalizing one.
+Within the prediction process itself, protocols find and amplify
+frequent patterns of word usage. This mechanism of amplifying what is
+frequent or common in language data distils the dominant tendencies
+and perspectives into the generated outputs. The predictions, then,
+will represent an approximation of what is most typical or natural in
+training data. As a kind of normalizing mechansism, prediction is thus
+an apt tool for studying shared desires---in my case, with the /LiB/
+subjects, for studying a shared desire for marriage.
 
-Prediction, in addition to being a descriptive mechanism, is also a
-normalizing one. Within the prediction process itself, protocols find
-and amplify /frequent patterns/ of word usage. This mechanism of
-amplifying what is frequent or common in language data distils the
-dominant tendencies and perspectives within show transcripts into the
-generated outputs. The predictions, then, will represent an
-approximation of what is most typical or natural in training data. As
-a kind of normalizing mechansism, then, Prediction, is an apt tool for
-studying shared desires---in my case, with the /LiB/ subjects, for
-studying a shared desire for marriage.
-
-Normativity, and desire for what Andrea Long Chu describes as "a
-normal fucking life" is one place where trans subjects intersect with
-with cisgendered subjects (Chu and Drager 107). The element of
-normativity is where many Trans Studies scholars differentiate Trans
-Studies from Queer Studies. Jay Prosser, for for example, in his
-seminal work /Second Skins: The Body Narratives of Transsexuality/
-(1998), explains that trans stories seek embodied normativity as a
-/telos/. Prosser's argument, which I examine in more depth below,
-reads how the experience of embodiment factors in a material way into
-the stories of trans subjects, which he calls "transsexual
-trajectories". While queer subjects move against "the apparent
-naturalness of sex," trans subjects, by contrast, "seek very pointedly
-to be nonperformative, to be constative, quite simply, /to be/" (32).
-
-*** the method
-I will now demonstrate how this normalizing mechanism works in depth,
+I will demonstrate how this normalizing mechanism works in depth,
 using examples from the model that I trained from the transcripts of
 the show. I prompted this model with the phrase "Marriage is." It then
 generated the following outputs:
@@ -339,7 +262,7 @@ Marriage is a lifelong commitment. (Appendix 2: Postpod prompts)
 #+end_quote
 None of these sentences appear in the transcripts of the show. Rather,
 the second half of the sentences in these outputs are filled in by
-phrases that appear in /similar contexts/ with the word "Marriage" in
+phrases that appear in similar contexts with the word "Marriage" in
 the transcripts. Instead of reproducing verbatim expressions, the
 model generates approximations of expressions within the transcripts.
 These approximations are a result of calculations, a series of
@@ -347,18 +270,16 @@ statistical calculations, which determine the word that is most likely
 to appear next.
 
 In order to understand how this statistical calculation works, one
-must first understand what happens to words themselves, and how word
-meaning is represented within the model. The model represents words in
-a numerical form, which is technically called a "word vector." Word
-vectors are how a machine learning knows what words mean individually,
-they comprise the model's internal dictionary, so to speak. The
-vectors themselves consist of a large and complex list of numbers,
-representing probablitity scores. Each of the numbers in the vector
-represent's a given word's association to another word in the dataset.
-For example, "marriage" may have a high probability score with the
-word "committment," and a lower probability score with the word
-"apple." Once a word is quantified into a word vector, its meaning can
-be then be calculated by the machine. One can do math with words.
+must first understand how a word's meaning is represented within the
+model. The model represents words in a numerical form, which is
+technically called a "word vector." Word vectors are how a machine
+learning knows what words mean individually, they comprise the model's
+internal dictionary, so to speak. The vectors themselves consist of a
+large and complex list of numbers, representing probablitity scores.
+Each of the numbers in the vector represent's a given word's
+association to another word in the dataset. For example, "marriage"
+may have a high probability score with the word "committment," and a
+lower probability score with the word "apple."
 
 In order to compile word vectors, however, the model must first be
 trained on a dataset, such as the transcripts of the show. There are
@@ -368,17 +289,18 @@ hypothesis, (2) loss, and (3) optimization.
 First, in the hypothesis step, the model takes a sample sentence from
 the transcript, like "marriage is not easy" and it blocks out the
 second half of the sentence, so that only "marriage is" remains (/Love
-Is Blind/, Season 2, Episode 14). It tries to guess which word or
-phrase should go in that second half, "Marriage is an apple." Moving
-to the second step, loss, it checks its prediction against the actual
-sentence, "Marriage is not easy." In this case, loss represents the
-mathematical difference between the vector for "not easy" and the
-vector for "apple." Then, it moves to the final step, optimization.
-Here, the model uses an algorithm to calculate the smallest adjustment
-possible that it can make to the vectors so that they are just
-slightly closer to the actual result. The adjustment must be
-miniscule, but it is precise. At each training step, the model slowly
-closes the gap between the prediction and the actual result. 
+Is Blind/, Season 2, Episode 14). It tries to guess what should go in
+the second half, perhaps guessing with the phrase, "Marriage is an
+apple." Moving to the next step, loss, it checks its prediction
+against the actual sentence, "Marriage is not easy." In this case, the
+concept of "loss" represents the mathematical difference between the
+vector for "not easy" and the vector for "apple." Then, it moves to
+the final step, optimization. Here, the model uses an algorithm to
+calculate the smallest adjustment possible that it can make to the
+vectors so that they are just slightly closer to the actual result.
+The adjustment must be miniscule, but it is precise. At each training
+step, the model slowly closes the gap between the prediction and the
+actual result.
 
 The model will repeat these three steps over and over, making guess
 after guess after guess. It will try out many words, perhaps every
@@ -387,23 +309,24 @@ appear together. With each guess, the model makes very slight
 adjustments to its own representation of word meaning (this constant
 iteration, and the computer processing required to do it, is why
 language models take lots of time, energy, and computer hardware to
-train). By the end, the list of probabilities will reflect a kind of
-average of that word's association to other words.
+train). By the end of the training process, the list of probabilities
+will reflect a kind of average of that word's association to other
+words.
 
-For example, in the prompt, "marriage is," the model will ascertain
-possible completions for this phrase, given other words that are
-associated with "marriage" in the dataset. One actual completion it
-gives, "not easy," reflects an implicit association between "marriage"
-and committment. In the show transcript, the phrase appears during the
+For the prompt, "marriage is," the model will ascertain possible
+completions for this phrase, given other words that are associated
+with "marriage" in the dataset. One actual completion it gives, "not
+easy," reflects an implicit association between "marriage" and
+committment. In the show transcript, the phrase appears during the
 period of the show when the couples are living together, prior to the
 wedding. Here, one participant, Jarrette, describes his difficulty
-adjusting his lifestyle to the new committment: 
+adjusting his lifestyle to the new committment:
 #+begin_quote
 Marriage is not easy. Over the past couple of months, like, I've
 definitely been struggling with coming in late, um, and just
 overindulging when I'm out. I haven't been the best at prioritizing
-us. And, uh, it got to a point where Iyanna moved out. Season 2,
-Episode 14
+us. And, uh, it got to a point where Iyanna moved out. (Season 2,
+Episode 14)
 #+end_quote
 This context influences the model's interpretation of the word
 "marriage." This means that in the model's internal representation,
@@ -424,29 +347,28 @@ transcripts: "Marriage is not easy" is slighly different from
 resemble the training data is undesirable model behavior (technically
 called "overfitting," which I discuss in detail below). The goal,
 rather is to generate /plausible/ outputs, given the context of the
-training data. I read this guessing mechanism, which approximates word
-meaning from a variety of samples, as a kind of normalization of
-language. The model generates language by approximating what is most
-likely, most plausible, based on its training data. As such, it is
-ideal for studying shared or common among the participant experiences
-on the show.
+training data.
 
-*** the outputs
-The show contains two stages, the pre-engagement stage, where
-participants date each other from separate "pods" where they can hear
-but not see the other, and the engagement stage, where participants
-finally meet and proceed to live together in preparation for the
-wedding. In partitioning the romantic experiment into pre-engagement
-and engagement segments, the show poses the presence and role of the
-body as the variable that ultimately determines the viability of
-long-term commitment. In other words, it sets up an examination of how
-the body may affect normative trajectories and desires.
+I read this guessing mechanism, which approximates word meaning from a
+variety of samples, as a kind of normalization of language. The model
+generates language by approximating what is most likely, most
+plausible, based on its training data. As such, it is ideal for
+studying shared or common among the participant experiences on the
+show.
 
-To explore the differences between these periods of the show, I
-trained two separate models on each of these periods: the first model
-is trained on the transcripts from the pods episodes, and I call it
-the "pods model"; the second model is trained on the episodes
-following the pods, and I call it the "postpods model."
+*** "I'm blinking"
+The show, which now has 8 seasons on Netflix, in addition to numerous
+international versions, contains two stages, the pre-engagement stage,
+where participants date each other from separate "pods" where they can
+hear but not see the other, and the engagement stage, where
+participants finally meet and proceed to live together in preparation
+for the wedding. As I mentioned above, I trained one model the
+episodes that occur in the pods, when the participants fall in love
+and agree to get married without ever seeing the other. This model I
+call the "pods model." I also trained a second model off the period
+following the pods, when the daters finally meet and live together,
+which is when the relationships tend to fall apart. I call this model
+the "postpods model."[fn:10]
 
 Then, I prompted both models with input phrases about the body and
 touch to see how each of them would respond individually to the
@@ -529,45 +451,11 @@ thing.
 
 When I touch you, you're like "I'm blinking."
 #+end_quote
-Unlike the pods model, these outputs present touch as a not pleasant
-experience. Touch is "so weird," "like a jab," suggesting a strange
-and even disruptive aspect to touch. Furthermore, touch is associated
-with physicality, which is "scary." At the same time, touch signals
-location and movement: "in my head," "walk away," and "left the room."
 While in the pods, touch drew the characters together, evoking
 non-tangible phenomena like the soul and energy, here it seems that
-touch repels the characters from each other.
-
-Turning to the transcripts can help to inform some of these outputs.
-For example, the concept of touch being scary emerges in one scene
-between Paul and Micah, a newly engaged couple who are one day into
-their pre-wedding romantic getaway, in Mexico. They are swimming in a
-freshwater pool, when Micah notices a fish, which she mistakes for a
-small shark,
-#+begin_quote
-Micah: Is that a shark?
-
-Paul: What do you mean shark? Oh, they're catfish. They look like
-baby, like, tiny nurse sharks.
-
-Micah: Okay, this is kind of scaring me. It's my worst nightmare if
-one touches me.
-
-Paul: These little catfish?
-
-Micah: Yeah.
-
-Paul: You're not their mommy.
-
-/Love is Blind/, Season 4, Episode 5, "Paradise Lost"
-#+end_quote
-Here, the word "touch," which appears in the same sentence as "my
-worst nightmare," accrues association with fear and revulsion. It is
-also, interestingly, associated with the concept of motherhood, in the
-statement from Paul, "You're not their mommy." At the end of the show,
-Paul rejects Micah directly on the altar. The reason, he later
-explains, is because he "struggled with... envisioning Micah as, like,
-you know, a mother" (Season 4, Episode 12, "Eternal Bliss?").
+touch repels the characters from each other. Touch is strange and
+jarring, "so weird," "like a jab"; associated with "scary"
+physicality, and signals movement, "walk away," "left the room."
 
 Most of these outputs represent approximations, but also direct quotes
 taken from the transcripts. The phrase that says, "I'm blinking," is
@@ -580,9 +468,8 @@ model is too accurate: that it has slipped from making predictions
 that are plausible to repeating exactly the data it has been trained
 on. A model overfitting in its outputs is generally a sign that there
 isn't enough training data or enough variation in the training data,
-meaning that the model has less examples from which to approximate and
-generalize. So, it resorts to simply reproducing direct examples from
-its training.
+meaning that the model has less examples from which to generalize. So,
+it resorts to simply reproducing direct examples from its training.
 
 For my purposes, however, overfitting is not only a blip, it also
 points to a specific scene in the show, which highlights a tension
@@ -625,17 +512,17 @@ Zach seems a bit insecure of his appearence, asking if he looks how
 Irina imagined. And Irina, in turn, seems put out, describing him as a
 "fictional character" and demanding that he blink. Blinking is, of
 course, a way of stopping the entry of visual data, of occluding it
-from perception. For Irina, the request for Zach to blink might
-indicate her own sense of overwhelm at his physical form, at his
-sudden incorporation before her eyes. Perhaps, the reality of his
-physical form is too much, so that, projecting her own feelings of
-overstimulation, she asks him to blink.
+from the eyes' perception. For Irina, the request for Zach to blink
+might indicate her own sense of overwhelm at his physical form, at his
+sudden incorporation. Perhaps, the reality of his physical form is so
+overwhelming that, projecting her own feelings of overstimulation, she
+asks him to blink.
 
-In the story of Zach and Irina relationship, it is clear that the
+From the story of Zach and Irina relationship, it is clear that the
 catalyst for their breakup is a lack of physical attraction on the
 part of Irina. Later in the same episode, Irina explains her feelings
-to Micah, the same Micah from the "shark" scene, who is coupled with
-Paul. 
+to Micah, a woman who is coupled with Paul, another participant on the
+show.
 #+begin_quote
 Irina: And so, Zack. I feel like is my type on paper. Has, like, brown
 hair, brown eyes, like, chiseled face. Like, I really like dark
@@ -661,23 +548,14 @@ Fire")
 Zach supposedly has physical aspects which Irina finds attractive,
 "brown eyes, chiseled face," but something about him nonetheless
 repulses her. When he puts his arm around her, she recoils,
-"get[ting]… major ick." While she claims her feeling of disgust have
-nothing to do with his physical appearance, Irina simultaneously
-conjures appearance with the phrase, "Yeah, Paul's gorgeous." To
-Irina, Paul's "gorgeous[ness]" explains why Micah and Pual had an
-"immediate understanding."
+"get[ting]… major ick." Though she claims her feeling of disgust have
+nothing to do with his physical appearance, she simultaneously
+conjures appearance with the phrase, "Yeah, Paul's gorgeous."
 
-I want to propose that Irina's physical repulsion to Zach results from
-the experience in the pods, from the forclosure of the visual sense
-within the pods. Irina asks Zach to "blink" in attempt to relieve her
-own feeling of being overwhelmed by the sight of him. This sensual
-overload related to sight also relates to touch: she is repulsed by
-his physical touch, his closeness; there is something about touch
-which similarly overwhelms her. 
-
-That is because, sequestered from the sight of the other within the
-pods, the participants experience a kind of bodily split in which
-their own physical senses materialize in new and surprising ways. They
+Perhaps Irina's physical repulsion to Zach results from the experience
+in the pods, from the forclosure of the visual sense within the pods.
+That may be because, sequestered from the sight of the other within
+the pods, the participants experience a kind of sensory split. They
 experience not only the physical body, the material reality of their
 physical body which they've always known, but something like what Jay
 Prosser refers to as the "body image," an internal perception of the
@@ -686,14 +564,14 @@ phenomenon, which "clearly has a material force for transsexuals,"
 according to Prosser (69). For trans subjects, this "material force"
 often manifests in the trope of being "trapped in the wrong body" and
 feelings of dysphoria. The sensory deprivation of being in the pods, I
-argue, subjects these cisgendered participants to something akin to
-Prosser's bodily split, from which the body image emerges---for a
-time.
+am suggesting, subjects these cisgendered participants to something
+akin to Prosser's bodily split, from which the body image emerges--but
+only for a time.
 
-For these subjects, I argue, the body image manifests in a heightened
-sensation of the body, which paradoxically creates a feeling of the
-body's dissolution. When prompted with the phrase "My body," the pods
-model generates the following completions:
+For these subjects, the body image manifests in a heightened sensation
+of the body, which paradoxically creates a feeling of the body's
+dissolution. When prompted with the phrase "My body," the pods model
+generates the following completions:
 #+begin_quote
 My body feels like it's coming off.
 
@@ -707,24 +585,21 @@ My body makes me feel like it's real.
 
 My body feels torn between two different people.
 #+end_quote
-Across all the samples, there is an increased awareness of the
-physical body. Due to the denial of visual access, the body's
-physicality comes into apprehension in a novel and visceral way, which
-makes it seem all the more strange. Perhaps due to the absence of the
-visual sense, the body feels "weird" and "so different now." Weighted
-by this new somatic "heavi[ness]," the body even "feels like it's
-coming off," an image that evokes Prosser's concept of the bodily
-split between the physical body and the body image. Perhaps, the
-reference to being "torn between two different people" not only refers
-to actual people, to dating multiple characters on the show, but to a
-single person with two bodies in tension. As Prosser explains, the
-body split creates "conflict... between sentient body image and
-insentient visible body" (70). For these straight, cisgendered
-participants within the pods, the body image may be coming into
-sentience in a way that is not possible when they are fully
-integrated, outside the pods. And this may be the first (and only)
-time that they experience this level of bodily sensation and
-awareness.
+Across all of these samples, there is an increased awareness of the
+physical body, which comes into apprehension in a novel and visceral
+way. Due to the absence of the visual sense, the body feels "weird"
+and "so different now," even "like it's coming off," an image that
+evokes Prosser's concept of the bodily split between the physical body
+and the body image. Perhaps, the reference to being "torn between two
+different people" not only refers to actual people, to dating multiple
+characters on the show, but to a single person with two bodies in
+tension. For these straight, cisgendered participants within the pods,
+the body image may be coming into sentience in a way that is not
+possible when they are fully integrated, outside the pods. And this
+may be the first (and only) time that they experience this level of
+bodily sensation and awareness.
+
+*** TODO here
 
 But it is not a feeling that lasts long. In the postpods model, the
 body appears to be re-integrated. The "insentient visible body," the
@@ -803,7 +678,26 @@ these subjects in LiB experience a bodily split, during which they
 develop romantic feelings and attachments. And most of them, when they
 leave the pods, cannot fulfil these aspirations within their embodied
 lives.
+
 *** TODO ADD close reading: approximating average sensations
+In partitioning the romantic experiment into pre-engagement and
+engagement segments, the show poses the presence and role of the body
+as the variable that ultimately determines the viability of long-term
+commitment. In other words, it sets up an examination of how the body
+may affect normative trajectories and desires.
+
+Normativity, the desire for what Trans Studies scholar Andrea Long Chu
+describes as "a normal fucking life," is one place where trans
+subjects intersect with with cisgendered subjects (Chu and Drager
+107). Prosser, for for example, explains that trans stories seek
+embodied normativity as a /telos/. While queer subjects move against
+"the apparent naturalness of sex," trans subjects, by contrast, "seek
+very pointedly to be nonperformative, to be constative, quite simply,
+/to be/" (32).
+
+As Prosser explains, the body split creates "conflict... between
+sentient body image and insentient visible body" (70). 
+
 *** cis and trans futures
 The disruption of bodily integrity has ramifications that last well
 beyond the pods. Recalling the case of Paul and Micah, Paul eventually
@@ -883,9 +777,70 @@ material ways on the body. And perhaps, as I hope this paper has
 shown, that Trans Studies theorizing might open up such thinking about
 the body, "for anyone."
 
+**** the subjectivity debate
+The term "subjectivity" above offers a nexus around which gender
+suppressive perspective congregates. To them, it represents a serious
+contradiction in the argument for gender rights. If gender is in fact
+not rooted in biology, but a subjective, internal phenomenon, then why
+would does /the body/ need to be changed to reflect it? Why is gender
+transition necessary? CITE JUDITH BUTLER WHO IS AFRAID OF GENDER. The
+far-right push to solidify sex as "binary and biological" is a
+/reaction/ to this fluidity, nebulousness, and slipperyness of how
+gender is conceptualized in trans affirming discourse.
+
+Within a pro-trans rights frame, Trans Studies scholars have offered
+an alternative theorization of gender identity. Rather than a
+subjective, internal sense of self, gender is an external expression,
+verifiable in presentation and behavior. According to Kadji Amin,
+gender functions more as social role than an internal identity: "Like
+language, gender categories—-including trans, cis, nonbinary, and
+binary—-are social and interpersonal, not individual; this is what
+makes them meaningful in the first place" (Amin 115). Amin argues that
+the effect of defining gender as an internal identity, that is
+invisible or not immediately apparent, is to marginalize gender as
+expression, which re-stigmatizes those visibly non-normative gender
+groups that already experience social stigma.
+
 
 
 *** bank
+**** my nightmare
+The actual transcripts of the show reveals some potential sources for
+some of these outputs. For example, the concept of touch being scary
+emerges in one scene between Paul and Micah, a newly engaged couple
+who are one day into their pre-wedding romantic getaway, in Mexico.
+They are swimming in a freshwater pool, when Micah notices a fish,
+which she mistakes for a small shark,
+#+begin_quote
+Micah: Is that a shark?
+
+Paul: What do you mean shark? Oh, they're catfish. They look like
+baby, like, tiny nurse sharks.
+
+Micah: Okay, this is kind of scaring me. It's my worst nightmare if
+one touches me.
+
+Paul: These little catfish?
+
+Micah: Yeah.
+
+Paul: You're not their mommy.
+
+/Love is Blind/, Season 4, Episode 5, "Paradise Lost"
+#+end_quote
+Here, the word "touch," which appears in the same sentence as "my
+worst nightmare," accrues an association with fear and revulsion. It
+is also, interestingly, associated with the concept of motherhood, in
+the statement from Paul, "You're not their mommy". This association
+between Micah and motherhood (or the lack thereof) haunts the couple
+until the renunion episode, which I discuss in this chapter's
+conclusion.
+
+At the end of the show, Paul rejects Micah directly on the altar. The
+reason, he later explains, is because he "struggled with...
+envisioning Micah as, like, you know, a mother" (Season 4, Episode 12,
+"Eternal Bliss?").
+
 **** sedgwick quotes
 For not only is all of the evidence (of neglect or wrongdoing by those
 in power) at our fingertips; it is also proliferated by the
@@ -1013,8 +968,11 @@ https://github.com/gofilipa/love_blind. 2025.
 https://huggingface.co/gofilipa/LoveIsBlind_Pods. 2025.
 
 ---. /LoveIsBlind_Postpods/ model repository. /Gofilipa/, Huggingface.
-https://huggingface.co/gofilipa/LoveIsBlind_Postpods.
-2025.
+https://huggingface.co/gofilipa/LoveIsBlind_Postpods. 2025.
+
+Casselman, Ben, and Sydney Ember. "The A.I. Boom Is Driving the
+Economy. What Happens if It Falters?". /The New York Times/. November
+24, 2025.
 
 Chu, Andrea Long, and Emmett Harsin Drager. "After Trans Studies."
 TSQ : /Transgender Studies Quarterly/ 6.1 (2019): 103–116. Web.
@@ -1168,22 +1126,20 @@ Outputs:
 * Footnotes
 
 [fn:10] Link to the models! 
-[fn:9] Sedgwick here critiques what she calls "paranoid reading," also
-known as "suspicious reading" or the "hermeneutics of suspicion," an
-idea that she fully develops in her famous essay, "Paranoid Reading
-and Reparative Reading, or, You’re So Paranoid, You Probably Think
-This Essay Is About You." See Sedgwick, /Touching Feeling: Affect,
-Pedagogy, Performativity/.
+[fn:9] Sedgwick fully develops what she "paranoid reading," also known
+as "suspicious reading" or the "hermeneutics of suspicion," in her
+famous essay, "Paranoid Reading and Reparative Reading, or, You’re So
+Paranoid, You Probably Think This Essay Is About You." See Sedgwick,
+/Touching Feeling: Affect, Pedagogy, Performativity/.
 
-[fn:8] For those who don't know, training models happens in various
-stages. To train this model, I used a base model, which is already
-trained, called gpt-2 (an open source model). I re-trained the base
-model on the gender datasets. This is technically called
-"fine-tuning", and its much easier and less resource intensive than
-training the underlying base model.
+[fn:8] To train this model, I used a "base" model, called gpt-2, which
+has already been trained once. I then re-trained the base model on the
+dataset which I scraped from the ACLU and Heritage Foundation
+websites. This process of re-training is technically called
+"fine-tuning."
 
 [fn:7] The training data and source code used to scrape the articles
-can be found on github.com/gofilipa/anti-trans.
+can be found on github.com/gofilipa/anti-trans under an open license.
 
 [fn:6] Both of the models are openly licensed on Huggingface.co. See
 Calado, /gpt2-hertiage_foundation-gender/, and Calado,
@@ -1193,12 +1149,13 @@ Calado, /gpt2-hertiage_foundation-gender/, and Calado,
 /scrapy/ library in the Python programming language. This program
 allowed me to "crawl," or paginate through, the transcript episodes
 stored on this website:
-https://subslikescript.com/series/Love_Is_Blind-11704040. The code
-used to create the crawler and the transcripts themselves are saved on
-my github account, under the "gofilipa/love_blind repository," (see
-Calado, "love_blind".
-
-[fn:2] I do not use the term "AI," but machine learning.
+https://subslikescript.com/series/Love_Is_Blind-11704040. The code,
+training data, and models developed for this project are openly
+licensed on the Github and Huggingface platforms. I use the GPL 3.0
+license, which allows users to freely run, modify, and distribute the
+project while ensuring that all modified versions remain free as well.
+(See Calado, /love_blind/ code repository and Calado,
+/LoveIsBlind_Pods/ and /LoveIsBlind_Postpods/ model repositories.)
 
 [fn:3] For example, this project uses GPT-2, which is intially trained off
 only 8 million webpages and released under an open license. Compare
@@ -1206,17 +1163,6 @@ that with the most recent version of GPT, GPT-5, which is trained on
 something like the entire internet and is over 600 billion parameters
 in size, a number that cannot be confirmed due to its closed and
 proprietary status.
-
-[fn:4] The code, training data, and models developed for this project
-are openly licensed on the Github and Huggingface platforms. I use the
-GPL 3.0 license, which allows users to freely run, modify, and
-distribute the project while ensuring that all modified versions
-remain free as well. (See Calado, /love_blind/ code repository and
-Calado, /LoveIsBlind_Pods/ and /LoveIsBlind_Postpods/ model
-repositories.)
-
-. published under https://github.com/gofilipa/love_blind and
-the models are published under https://huggingface.co/gofilipa
 
 [fn:5] Include some of this eugenicist history of stats tools. Can be
 brief.

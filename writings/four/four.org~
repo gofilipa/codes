@@ -1,40 +1,46 @@
 * "My Body Feels Like It's Coming Off": Cisgender Erotics In /Love Is Blind/
 
-*** TODO ADD introduction: subjectivity & reading practices
-**** DRAFT sedgwick, knowledge --> method
+*** introduction: reading practices, the body
+**** Sedgwick's shift from knowledge to method
+
 Over 25 years ago, in the midst of the first wave of the AIDS epidemic
-and the government's neglect for those (mostly Black people and gay
-men), whom it affected, Eve Kosofsky Sedgwick wonders about the point
-of doing critique in the first place. Even if one could prove the the
-government's indifference or disdain for people of color and for gays,
-that "the lives of African Americans are worthless in the eyes of the
-United States; that gay men and drug users are held cheap where they
-aren't actively hated... Supposing we were ever sure of all of those
-things," Sedgwick writes, "what would we know then that we don't
+and the government's neglect for those whom it affected (mostly Black
+people and gay men), Eve Kosofsky Sedgwick wonders about the point of
+doing critique in the first place. Even if critique could expose
+governmental neglect of marginalized populations, that "the lives of
+African Americans are worthless in the eyes of the United States; that
+gay men and drug users are held cheap where they aren't actively
+hated," Sedgwick wonders, "what would we know then that we don't
 already know?" (/Novel Gazing/ 3-4).
 
-For me, this question catalyzes a shift in methodology around reading
-practices, which shift from an orientation around knowledge ("Is a
-particular piece of knowledge true?") toward method: "What does
-knowledge do---the pursuit of it, the having and expressing of it?"
-(/Novel Gazing/ 4). And this shift to method, first posed at the cusp
-of the information age, is more urgent today. Not only is all of the
-evidence (of neglect, of wrongdoing, of injustice by those in power)
-at our fingertips; it is also self-generating and self-perpetuating in
-the algorithmic processes that fill our feeds. We are distended with
-it, all the proof, the polarization.
+In Sedgwick's work, this question indexes a shift her thinking about
+reading practices, from a focus on knowledge, "Is a particular piece
+of knowledge true?", toward method: "What does knowledge do---the
+pursuit of it, the having and expressing of it?" (/Novel Gazing/ 4).
+Sedgwick calls this new method /reparative reading/.[fn:9] This method
+is about reading for the productive, generative effect of language,
+for how language can coordinate seemingly unrelated associations or
+effects.
 
-**** masculinity/femininity is
-So I have sought a new reading method that responds to this moment, to
-information overload and to automation. I trained some Large Language
-Models (LLMs) deliberately to study it, trained them on text datasets
-representing totally polarized perspectives.[fn:6] [fn:8] I scraped
-the data for training these models (a process explained in detail
-below) from articles in the American Civil Liberties Union (ACLU) and
-the Heritage Foundation.[fn:7] Then, I asked these biased models
-questions about gender. At first, they responded in predictable ways.
-For example, the ACLU model generated the following outputs about
-"Masculinity" and "Femininity":
+Over two decades later, in the dawn of the age of automated text, this
+project takes this prospect of /generation/ as a reading practice
+quite literally, and applies it a very contemporary issue of gender.
+While Sedgwick poses reparative reading as a hermeneutic that responds
+to knowledge work and its impotence in the wake of the AIDS crisis, I
+pose text generation, specifically by automated systems, as an apt
+response to political polarization on the topic of gender and on trans
+rights. This project uses generation as a tool for finding where
+polarized perspectives surrounding gender might intersect. Machine
+learning processes turn language into a form, which I call an
+/aggregate form/ (explained below), which offers potential for
+political solidarity and intersection, even among polarized points of
+view.
+
+**** Heritage/ACLU
+
+First, I will demonstrate an example. I asked one text generator,
+trained on "progressive" data, to describe gender terms, specifically
+"masculinity" and "femininity". It generated the following outputs:
 #+begin_quote
 Masculinity is a matter of love and celebration.
 
@@ -51,14 +57,17 @@ Femininity is our joy, our struggle, and our fight is our struggle.
 Femininity is about allowing people to express themselves without
 government interference.
 #+end_quote
-The outputs align with what one might expect from a perspective that
-affirms gender diversity and expression. They frame gender as a
-celebratory phenomenon, characterized by empowering language like
-"liberation," "beauty", and "joy".
+These outputs align with what one might expect from a perspective that
+affirms gender diversity and expression. This model, which I trained
+myself on a custom dataset[fn:6] [fn:8]) based on articles about
+gender from the ACLU,[fn:7] characterizes gender as a celebratory
+phenomenon, using empowering language like "liberation," "beauty", and
+"joy".
 
-Meanwhile, in a similarly predictable way, the Heritage model,
-associates "Masculinity" and "Femininity" with what are typically
-conservative ideals based on tradition.
+Meanwhile, in a similarly predictable way, another model associates
+"Masculinity" and "Femininity" with what are typically conservative
+ideals. This model, which I trained on articles from the Heritage
+Foundation, generated the following outputs about gender:
 #+begin_quote
 Masculinity is the cornerstone of Western civilization.
 
@@ -75,13 +84,14 @@ the ability to raise their children, the capacity to provide for their
 own reproduction, the capacity to provide for their own children, the
 ability to provide for their own.
 #+end_quote
-Like the ACLU model, these gender terms are positive. However, unlike
-the ACLU, the terms here affix to notions of culture, tradition, and
-reproduction—--things that suggest stability.
+Like the progressive model, these gender terms are positive. However,
+unlike the progressive model, the terms here affix to notions of
+culture, tradition, and reproduction, which priotitize stability over
+empowerment.
 
-**** TODO ADD defintions of "gender" from exec order & progressive side
-However, there is something peculiar about these results from the
-Heritage model, which centers on a particular, term, "subjectivity."
+That being said, there is an outlier in these results, which centers
+on a particular, term, "subjectivity." This term appears in ways that
+one wouldn't typically associate with the conservative viewpoint:
 #+begin_quote
 Masculinity is a subjective self-perception, not a universal
 concept.
@@ -97,88 +107,102 @@ concept.
 The gender binary is a subjective, grammatically incorrect and
 illogical concept that conflates sex and gender identity.
 #+end_quote
-Unlike the other outputs, these examples do not describe the far-right
-viewpoint on gender—--that it is based on the biological truth of two
-sexes INSERT QUOTE FROM THE TRUMP EXECUTIVE ORDER. Rather, these
-examples are closer to the progressive view of gender, which asserts
-that gender describes identity, based on social behaviors, roles, and
-expression, among other things. INSERT GENDER DEF FROM WHO(?) OR OTHER
-PROG ORG.
+These examples do not describe the far-right viewpoint on
+gender—--that it is based on the "biological truth" of two sexes, for
+example, from executive orders like "Defending Women From Gender
+Ideology Extremism And Restoring Biological Truth To The Federal
+Government" and "Keeping Men Out of Women's Sports" (The White House).
+Unlike these initiatives, which double down on the primacy of sex,
+defining it as "binary and biological," these outputs more closely
+resemble the progressive view of gender, which asserts that gender
+describes identity, based on social behaviors, roles, and expression,
+among other things (The White House 2025a, The White House 2025b). The
+American Psychiatric Association, for example, defines gender identity
+as "a person’s inner sense of being a girl/woman, boy/man, some
+combination of both, or something else" ("What is Gender Dysphoria?").
+Similarly, the World Health Organization defines gender identity as "a
+person’s innate, deeply felt internal and individual experience of
+gender," and constrasts it to biolgoical sex, adding that gender
+identity "may or may not correspond to the person’s physiology or
+designated sex at birth" ("Gender and health" 2025).
 
-**** TODO ADD amin & butler on subjectivity
-The concept of "subjectivity" offers a nexus around which gender
-suppressive perspective congregates. To them, it represents a serious
-contradiction in the argument for gender rights. If gender is in fact
-not rooted in biology, but a subjective, internal phenomenon, then why
-would does /the body/ need to be changed to reflect it? Why is gender
-transition necessary? CITE JUDITH BUTLER WHO IS AFRAID OF GENDER
-
-Kadji Amin has offered an alternative to this thinking about gender.
-Rather than a subjective, internal sense of self, gender is an
-external expression, verifiable in presentation and behavior. CITE
-AMIN ON GENDER BEING A PHYSICAL THING. So that, physical aspects of
-the body matters the most in gender. Not only physical aspects of the
-body, but the difference from the norm that these physical aspects
-make. 
-
-**** text generation as a reading method 
-To counter "paranoid reading" practices, Sedgwick offers the method of
-reparative reading. Reading reparatively is about reading
-productively, for what associations a bit of text can generate.
-Sedgwick takes "shame," an affect that is traditionally seen as
-repressive, and examines how it creates productive and effects in
-text. She describes shame as:
-#+begin_quote
-“a kind of free radical that (in different people and different
-cultures) attaches to and permanently intensifies or alters the
-meaning of—-of almost anything: a zone of the body, a sensory system,
-a prohibited or indeed a permitted behavior, another affect such as
-anger or arousal, a named identity, a script for interpreting other
-people’s behavior toward oneself” (62)
-#+end_quote
-I'm interested in this move that she makes, of taking reading as a
-process that is ultimately /generative/ and /productive/.
-
-This project takes this prospect quite literally: it uses text
-generation as a reading practice. It takes what is typically seen as a
-contentious, the concept of gendered embodiment between the
-conservative and progressive poles, and sees how one might do
-something productive within it.
-
-**** the ML process aggregates perspectives on subjectivity
-The reason we get these outputs for subjective, is that this
-particular term, "subjective" does not reflect the conservative
-position from the Heritage Foundation data. Rather, it reflects a
-conservative frame for the progressive position. In other words, it
-represents what a conservative thinks a progressive person thinks
-gender is---as something insubstantial, as a feeling. In the outputs
-then, we see not just a single perspective of gender, but a
-/flattening/ or /aggregation/ of perspectives into a single statement.
-The ML process underlying the language model takes these distinct
+**** the ML process aggregates perspectives
+In fact, the particular phrase, "gender is subjective", does not
+reflect the conservative position from the Heritage Foundation data.
+Rather, it reflects a conservative frame for the progressive position.
+It represents what a conservative thinks a progressive person thinks
+gender is---as something insubstantial, as a feeling. The outputs,
+then, express not a single perspective of gender, but an /aggregation/
+of perspectives into a single statement. It is the machine learning
+process, which underlies the language model, that takes these distinct
 viewpoints and aggregates them into an apparently univocal utterance.
 
-My project reads polarized perspectives to explore how they might
-intersect. To explore what is held in common between polarized points
-of view.
+  The term "subjectivity" above offers a nexus around which gender
+  suppressive perspective congregates. To them, it represents a serious
+  contradiction in the argument for gender rights. If gender is in fact
+  not rooted in biology, but a subjective, internal phenomenon, then why
+  would does /the body/ need to be changed to reflect it? Why is gender
+  transition necessary? CITE JUDITH BUTLER WHO IS AFRAID OF GENDER. The
+  far-right push to solidify sex as "binary and biological" is a
+  /reaction/ to this fluidity, nebulousness, and slipperyness of how
+  gender is conceptualized in trans affirming discourse.
 
-We will use this aggregative method to study cisgender experiences of
-embodiment. What we will get at is a kind of cross section of what the
-cis and the trans might have in common.
+  Within a pro-trans rights frame, Trans Studies scholars have offered
+  an alternative theorization of gender identity. Rather than a
+  subjective, internal sense of self, gender is an external expression,
+  verifiable in presentation and behavior. According to Kadji Amin,
+  gender functions more as social role than an internal identity: "Like
+  language, gender categories—-including trans, cis, nonbinary, and
+  binary—-are social and interpersonal, not individual; this is what
+  makes them meaningful in the first place" (Amin 115). Amin argues that
+  the effect of defining gender as an internal identity, that is
+  invisible or not immediately apparent, is to marginalize gender as
+  expression, which re-stigmatizes those visibly non-normative gender
+  groups that already experience social stigma.
 
-*** TODO TRANSITION /LiB/'s transgressive premise
-The point of going on the show, as one participant puts it, "to be
-loved for who I am on the inside,” (Season 2, Episode 3, "Love in
-Paradise”). However, the show’s main gambit, that "love is blind,”
-suggests a transgressive premise that undergirds an ultimately
-heteronormative teleology. Despite the promise of marriage and
-happily-ever-after, something non-normative is happening here. And
-that something has to do with the body, and what happens to the body
-when it falls in love from behind a wall.
+This paper uses this aggregative method to surface commonality and
+shared investments in perspectives based on gender and gendered
+embodiment. It takes a deep look into the prediction mechanism, which
+drives machine learning (ML) text generation processes, to trace how
+this mechanism aggregates and "normalizes" language expressions, to
+offer a politcally potent tool for combatting polarization 
 
-This paper explores, in the words of Micah above, how "touch” can be,
-for cis people, their "worst nightmare." I take readings of
-normativity from Trans Studies and apply them to an analysis of
-cisgendered subjects from the show. I examine what this situation,
+I use the aggregative method on a dataset representing cisgendered
+experiences of embodiment---specifically, from the popular
+heterosexual dating show, /Love is Blind/. The show takes heterosexual
+men and women, puts them into a "blind" dating experiment with the
+ultimate goal of marriage. First, the daters are placed into dating
+"pods" where they can hear but not see the other. Then, once they
+agree to get married, they meet and live together for one month until
+their wedding day, making their final decision, whether or not to
+remain together, at the altar.
+
+*** /LiB/'s transgressive premise
+Similarly to the two models that I trained on conservative and
+progressive perspectives, I trained two models based on the
+transcripts of the show: the first model is trained on the transcripts
+from the episodes in the pods, when the participants fall in love and
+agree to get married without ever seeing the other; and the second
+model, I trained off the period following the pods, when the daters
+finally meet and live together, which is when the relationships tend
+to fall apart.[fn:10]
+
+I partitioned the models in this way deliberately so that I could
+study how the body, and how the introduction of the body, affects the
+dating experiment. While the point of going on the show, as one
+participant puts it, is "to be loved for who I am on the inside,"
+something very differnt is happening here (Season 2, Episode 3, "Love
+in Paradise”). The show’s main gambit, that "love is blind,” suggests
+a transgressive premise that undergirds an ultimately heteronormative
+teleology. Despite the promise of marriage and happily-ever-after, the
+experiment poses embodiment in a non-normative function. It explores
+the body, and what happens to the body when it falls in love from
+behind a wall.
+
+The main readings of this paper explore bodily dissonance in the
+experiences of these cisgender, heterosexual daters. I take
+theorizations of embodiment from Trans Studies and apply them to an
+analysis of these cisgendered subjects. I examine what this situation,
 where visual access to the beloved is denied, does to the
 self-perception of the body of the participants. I find that this
 "blind” dating experiment places participants in a state where their
@@ -863,6 +887,13 @@ the body, "for anyone."
 
 *** bank
 **** sedgwick quotes
+For not only is all of the evidence (of neglect or wrongdoing by those
+in power) at our fingertips; it is also proliferated by the
+algorithmic processes that fill our feeds, distendeing them with all
+the proof which will not, in Sedgwick's words, "/intrinsically/ or
+/necessarily/ enjoin on that person any specific train of
+epistemological or narrative consequences" (/Novel Gazing/ 4).
+
 "for someone to have an unmystified, angry view of large and genuinely
 systemic oppressions does not /intrinsically/ or /necessarily/ enjoin
 on that person any specific train of epistemological or narrative
@@ -872,6 +903,23 @@ it turns out, separable from the question of whether the energies of a
 given AIDS activist might best be used in the tracing and exposure of
 such a possible plot. They might, but then again, they might not"
 (/Novel Gazing/ 4).
+
+ She demonstrates this method by reading shame, an affect that
+is traditionally seen as repressive, and a key structuring force in
+queer identity. Rather, she poses shame as:
+#+begin_quote
+"a kind of free radical that (in different people and different
+cultures) attaches to and permanently intensifies or alters the
+meaning of—-of almost anything: a zone of the body, a sensory system,
+a prohibited or indeed a permitted behavior, another affect such as
+anger or arousal, a named identity, a script for interpreting other
+people’s behavior toward oneself" (62)
+#+end_quote
+She uses this reparative framework to read how shame unlocks
+unexpected analogies in the writing of Henry James. Mobilizing shame
+as a creative resource, she looks at how references to "blushing" and
+"flushing" makes possible: the expression of fantasy, in James's case,
+of the skin being entered or penetrated.
 
 **** homophily: negative feelings are a tool for polarization
 Chun - Homophily: Negative feelings are a tool of polarization, a way
@@ -932,12 +980,21 @@ Adair, Cassius, and Aren Aizura. "‘The Transgender Craze Seducing Our
 [Sons]’; or, All the Trans Guys Are Just Dating Each Other." /TSQ:
 Transgender Studies Quarterly/ 9.1 (2022): 44–64.
 
+American Psychiatric Association. "What Is Gender Dysphoria?"
+https://www.psychiatry.org:443/patients-families/gender-dysphoria/what-is-gender-dysphoria.
+Accessed 6 Dec. 2025.
+
+Amin, Kadji. "We Are All Nonbinary: A Brief History of Accidents."
+/Representations/ 1 May 2022; 158 (1): 106–119.
+
 Bender, Emily M, and Alex Hanna. /The AI Con: How to Fight Big Tech’s
 Hype and Create the Future We Want/. New York, NY: Harper, an imprint
 of HarperCollinsPublishers, 2025.
 
 Berlant, Lauren Gail. /Cruel Optimism/. Durham: Duke University
 Press, 2011.
+
+Butler, 2023.
 
 Calado, Filipa. /anti-trans/ code repository, /Gofilipa/, Github.
 https://github.com/gofilipa/anti-trans. 2025.
@@ -976,6 +1033,20 @@ Minneapolis, MN: University of Minnesota Press, 2022.
 
 Prosser, Jay. /Second Skins: The Body Narratives of Transsexuality/.
 Columbia University Press. 1998.
+
+Sedgwick, Eve Kosofsky, ed. /Novel Gazing: Queer Readings in Fiction/.
+Duke University Press. 1997.
+
+Sedgwick, Eve Kosofsky. /Touching Feeling: Affect, Pedagogy,
+Performativity/. Duke University Presss. 2003.
+
+The White House 2025a, "Defending Women From Gender Ideology Extremism
+And Restoring Biological Truth To The Federal Government"
+
+The White House 2025b. "Keeping Men Out of Women's Sports."
+
+World Health Organization (WHO). "Gender and Health."
+https://www.who.int/health-topics/gender. Accessed 20 Feb. 2025.
 
 
 ** Appendix 1: Pods Model Outputs
@@ -1095,6 +1166,15 @@ Outputs:
 "Physically, it was the perfect opportunity."
 
 * Footnotes
+
+[fn:10] Link to the models! 
+[fn:9] Sedgwick here critiques what she calls "paranoid reading," also
+known as "suspicious reading" or the "hermeneutics of suspicion," an
+idea that she fully develops in her famous essay, "Paranoid Reading
+and Reparative Reading, or, You’re So Paranoid, You Probably Think
+This Essay Is About You." See Sedgwick, /Touching Feeling: Affect,
+Pedagogy, Performativity/.
+
 [fn:8] For those who don't know, training models happens in various
 stages. To train this model, I used a base model, which is already
 trained, called gpt-2 (an open source model). I re-trained the base
@@ -1102,8 +1182,8 @@ model on the gender datasets. This is technically called
 "fine-tuning", and its much easier and less resource intensive than
 training the underlying base model.
 
-[fn:7] The training data and code used to scrape the articles can be
-found on github.com/gofilipa/anti-trans.
+[fn:7] The training data and source code used to scrape the articles
+can be found on github.com/gofilipa/anti-trans.
 
 [fn:6] Both of the models are openly licensed on Huggingface.co. See
 Calado, /gpt2-hertiage_foundation-gender/, and Calado,

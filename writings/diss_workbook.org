@@ -1,6 +1,4 @@
-* Counter-Code: Computational Methods for Working with Language
-** topic:
-- Computational methods for working with text about queerness.
+* Counter-Code: Queer Revisions of Language Technologies
   
 ** book questions:
 1. What do concepts from Queer Studies and adjacent fields offer to
@@ -142,7 +140,7 @@ expression.
       what can and cannot be signified. (Markup, inclusion into
       systems, isn't enough).
 - Chapter 3:
-  - topic: text display and sex (intercourse)
+  - topic: text display and sex
   - scope and evidence type:
     - Media archaeology theorizing on materiality.
     - Black feminist theorizing on the flesh.
@@ -243,9 +241,25 @@ If there is no direct competition, explain why. Has the topic only
 been covered in a chapter elsewhere? Is this the first book-length
 treatment of it?
 
-**** jacob gaboury
 **** heavy processing
+Cowan, T. L., and Jas Rault. Heavy Processing. punctum books, 2024.
 
+This book demonstrates a methodology, called "heavy processing," for
+doing dritical work at the intersection of DH, Info Studies, Data
+Studies, which is focused on trans-feminist and queer ("TFQ") lives.
+It arose out of an ambitious digtal archival project centered on TFQ
+cabarets, what they ended up with is the "prequel" (23). Realized that
+before getting to the tools, they need to dwell with the prior steps
+of being critical about method and theory.
+
+Proposes "heavy processing" as a methodology that involves dwelling
+with thorny or difficult questions, "a proclivity for and commitment
+to dialectical discussion sparked by difference and creativity" (74).
+Employs digital components or concepts as metaphors for critical work:
+CPU, IT, Networks.
+
+This book constellates many of the fields that I consider in my own,
+but it does not... 
 
 **** queer data studies
 Patrick Keilty, Ed. /Queer Data Studies/. University of Washington
@@ -271,10 +285,17 @@ Additionally, my book's expansion beyond the field of Queer Studies
 puts concepts like embodiment and the flesh, from Trans and Black
 Feminist Studies, into orbit with Queer Studies. 
 
+**** video games have always been queer
 
-**** Bonnie Ruberg, Video Games Have Always Been Queer, NYU Press 2019.
+Bonnie Ruberg, Video Games Have Always Been Queer, NYU Press 2019.
+
 Catalogued: Postmillennial Pop / media & technology / sociology
-**** Cait McKinney, Information Activitsm: A Queer History of Lesbian Media Technologies, Duke U Press 2020. 
+
+**** information activism
+
+Cait McKinney, Information Activitsm: A Queer History of Lesbian Media
+Technologies, Duke U Press 2020.
+
 Catalogued: Media Studies > Media Technologies, Gender and Sexuality >
 LGBTQ Studies, Activism
 
@@ -368,184 +389,183 @@ Paragraphs for body chapters:
 - [ ] book answers for each chapter (see above)
  
 ** TODO book narrative
-Queer Computing / Queerware / Counter-Code
+Counter-Code: Queer Revisions of Language Technologies
 
-Methods for Resisting Computational Constraints of Text-based Data; Re-thinking language tools; Queer Deviance and the Reimagining of
-Language Technologies; Queer and Feminist Revisions of Language
-Technologies; Close reading language technologies to destabilize
-power. 
+Queer Computing: Re-Imaginging Language Technologies
+
+Counter-Code: Computational Methods for Working with Language
 
 This book explores computational processes that work with text. It
-applies concepts from humanities fields to push against the ways that
-computational processes reduce and flatten the complexity of language
-data. It shows how certain computational tasks, like text generation,
-preservation, and display, tend to constrain the expressive potential
-of language, stripping its idiosyncrasies and ambiguities, to turn it
+applies concepts from Queer Studies and related fields to push against
+the ways that computational processes reduce and flatten the
+complexity of language data. It shows how certain computational tasks,
+like text analysis, tend to constrain the expressive potential of
+language, stripping its idiosyncrasies and ambiguities, to turn it
 into computable units of data. Humanities fields like Queer Studies,
 Black Feminist Studies, and Trans Studies inspire methodologies for
-working against these constraints---methodologies that destabilize
-authoritative and delimiting structures, and open novel readings of
+working against these constraints--methodologies that destabilize
+authoritative and delimiting structures and open novel readings of
 language data. In its experiment with these new methodologies, this
-book uses examples of Queer literature as a test case, applying
-methods to elements of gender, sexuality, sex, and the body in
-computational structures and processes. By engaging closely and
-attentively with these computational processes, the reader discovers
-tools for resisting the ways that technology works upon language,
-moving simultaneously with and against the system which constrains
-meaning.
+book uses examples of Queer literature as test cases, applying methods
+to elements of gender, sexuality, and sex in computational structures
+and processes. By engaging closely with these computational processes,
+and learning how they work under the hood, the reader discovers tools
+for resisting the ways that technology constrains and determines
+language meaning.
 
 Each chapter of this book takes up a computational process for working
-with text, and uses it to study a component of queer identity,
-expressed in a work of Queer Literature. For every computational
-process, the chapter identifies a constraint---a mechanism that
-transforms and reduces the component of queer identity into computable
+with text and uses that process to study a component of queer identity
+expressed in a sample of Queer Literature. Within each computational
+process, the chapter identifies a constraint--a mechanism that
+transforms and reduces a component of queer identity into computable
 data. The earlier chapters focus on basic processes, like counting and
 tagging language data, to study gender and sexuality, while the later
 chapters move toward more complex processes of visual display and
 algorithmic prediction to explore sexed materiality and embodiment.
-Chapter one, "Counting Text," uses text analysis to study gender in
-Virginia Woolf's /Orlando: A Biography/. Chapter two, "Tagging Text,"
-turns to text preservation methods to trace the suppression of
-homosexuality in Oscar Wilde's novel, /The Picture of Dorian Gray/.
-Then, the third chapter "Text Display," reads examples of sensuality
-and physicality acrosss print and electronic formats, in Octavia
-Butler's novel, /Dawn/, and a work of electronic literature, entitled
-/skinonskinonskin/, by the net artist, /Entropy8Zuper/. Finally, the
-fourth chapter, "Text Generation," experiments with algorithmic
-prediction to analyze gendered embodiment in an reality TV dating
-show, /Love is Blind/. Moving from canonical works of Queer Literature
-and Queer Theory in its early chapters to more eclectic source
-material, like science fiction and reality TV in the latter chapters,
-this book expands the repertoire of "Queer" beyond its now
-instiutional use. Developing queer for the future, the book argues,
-involves cooperation across adjacent fields like Trans Studies, Black
-Feminist Studies, and Latinx Studies. 
+Chapter one, "Text Analysis," uses text analysis to study gender in
+Virginia Woolf's /Orlando: A Biography/. Chapter two, "Text
+Preservation," turns to text preservation methods to trace the
+suppression of homosexuality in Oscar Wilde's novel, /The Picture of
+Dorian Gray/. Then, the third chapter "Text Display," reads examples
+of sensuality and physicality acrosss print and electronic formats, in
+Octavia Butler's novel, /Dawn/, and a work of electronic literature,
+entitled /skinonskinonskin/, by the net artist, /Entropy8Zuper!/.
+Finally, the fourth chapter, "Text Generation," experiments with
+algorithmic prediction to analyze gendered embodiment in a reality TV
+dating show, /Love is Blind/. Moving from canonical works of Queer
+Literature and Queer Studies in its early chapters to more eclectic
+source material, like science fiction and reality TV in the latter
+chapters, this book expands the repertoire of "Queer" beyond its
+institutional use.
 
-Chapter One, "Counting Text," explores text analysis to study gender.
-It examines a core operation of text analysis, which is counting, or
-compiling word freqencies and patterns through context and assocation.
-This chapter delves into the process behind counting text, identifying
-the core concept of the "loop," which repeats the same action to a
-collection of text, one word at a time. This mechanism, which enables
-text analysis processes to remove idiosyncracies and details from
-text, flattens text data into a standardized, computable form. The
-chapter then explores possibilities for handling this constraint,
-turning to the theory of Gender Performativity, from Judith Butler's
-book, /Gender Trouble: Feminism and the Subversion of Identity/
-(1990), widely cited as an inaugural text of Queer Studies. Similarly
-to text analysis, gender performativity is based on a cyclical
-operation that repeats an exact action over and over again. The
-chapter takes the iterativeness of gender performativity and its
-potential for re-signifying terms, into a text analysis pratice. It
-applies this practice to Woolf's novel, /Orlando/ (1928), to study the
-multiplicity of gender forms in that novel. Finally, it offers some
-more recent critiques of this reading and of Gender Performativity for
-the way it elides questions of embodiment and materiality.
+The book also asks how Queer Studies as a field might inspire the
+critique and re-vision of technological systems. Queer Studies offers
+powerful methodologies for disrupting existing structures of
+meaning-making, such as gender performativity and disidentification,
+the theories that drive the arguments in the book's first two
+chapters. Drawing from these theories, these chapterrs propose
+strategies for resistance that work against totalizing structures from
+the inside, so to speak. However, other fields, like Black Feminist
+Studies and Trans Studies, offer methods that are outside of or beside
+such structures. These methods ground meaning in material realities
+and lived embodiment, prioritizing intersectionality and solidarity
+within new imaginaries. Drawing from these adjacent fields, the
+chapters in the second half of the book thus respond to the threads
+spun in the first half, bringing both critique and imaginative work to
+the goal of re-visioning technological systems. Developing queer for
+the future, the book argues, involves collaborating across adjacent
+fields to compile a strategic and flexible set of methodological
+tools.
 
-Moving from text analysis to text encoding, Chapter Two, "Tagging
-Text" examines a text preservation format to study sexuality. This
-protocol, the Text Encoding Initative (TEI), consists of a set of
-electronic standards widely-used for encoding text-based data. The
-structure of the TEI, which requires that text be sorted into rigid
-categories, oragnizes textual elements into a modular components
-within a hierarchical structure. Within this structure, inner or
-"child" elements become disambiguated and fixed according to the
-"rules" of the outer, parent element. To resist this dominating,
-top-down control of the data format, the chapter turns to the strategy
-of disidentification, theorized by Queer of Color Critique scholar
-Jose Esteban Munoz. This concept offers a method of re-appropriation,
-of "reading onesself into" a dominance structure which is intended for
-exclusion (PAGE NUMBER). The chapter then applies this strategy to
-encode the revisions that Oscar Wilde made to his novel, /The Picture
-of Dorian Gray/ (1990), prior to its publication in 1890.
-Disidentification, which works within and against majority culture,
-offers a useful heuristic for grappling with the rigid boundaries of
-the TEI. This approach delineate irreconcilable interpretations of
-language choices in Wilde's revision process, without resolving the
-coded elements of homosexuality in Wilde's text. It is an experiment
-that surfaces the contours, but not the content, what cannot be
-recovered. The chapter ends with a meditation on Wilde's own position
-of privilege as an editor of his own text, the executor of his own
-censorship, and how TEI can be used as a way of surfacing power
-operations in text.
+Chapter One, "Text Analysis," explores text analysis methods to study
+gender. I begin with the most basic operation in text analysis, which
+is compiling word freqencies through counting words and their
+contexts. In order to obtain accurate word counts, however, a text
+must first be "cleaned" or standardized, removing idiosynracies like
+capital letters, inflections, and punctuation. These textual elements,
+which can convey subtle identity markers like gender designations, are
+removed due to their relative frequency, which can skew the word
+counts. I delve into this technical mechanism behind the cleaning
+process, called "iteration," where each word is procssed one by one
+into a standardized, computable format. Then, I turn to the theory of
+gender performativity, from Judith Butler's book, /Bodies that Matter:
+On the Discursive Limits of 'Sex'/ (1993). Similarly to text analysis,
+gender performativity is based on what Butler calls "iterativity," a
+cyclical operation that repeats the same action again and again. I
+then take the iterativity of gender performativity, and its potential
+for re-signifying terms, into a new text analysis pratice to study
+gender forms in Virginia Woolf's novel, /Orlando: A Biography/ (1928).
+Despite text analysis processes that diminish peculiarities from
+language, I show how one can deploy Butler's understanding of
+iteration to open up, rather than collapse, possible associations
+between gender terms. I then close the chapter with some recent
+critiques of Gender Performativity and its limitations as a discursive
+method--a problem which I address more fully in Chapter four.
 
-Moving from foundational processes like counting and tagging text, the
-second half of the book turns to more complex processes of text
+Moving from text analysis to text encoding, Chapter Two, "Text
+Preservation" examines the Text Encoding Initative (TEI), a text
+preservation format, to study sexuality. The TEI consists of a set of
+electronic standards widely used for tagging, or "encoding,"
+text-based data. The structure of the TEI requires that text be sorted
+into a rigid, hierarchical format, where inner or "child" elements are
+bound and disambiguated within their outer or "parent" element. To
+resist this top-down control of the data format, I turn to the
+strategy of disidentification, theorized by Queer of Color Critique
+scholar José Esteban Muñoz. Disidentification, which is a method for
+re-appropriating dominant codes, offers a useful heuristic for
+grappling with the rigid boundaries of the TEI. I apply this strategy
+to encode the revisions that Oscar Wilde made to his novel, /The
+Picture of Dorian Gray/, prior to its publication in 1890. This
+strategy enables me delineate irreconcilable interpretations of
+language choices in Wilde's revision, without knowing or resolving
+this ultimate intentions. It is, in other words, a method that
+surfaces the contours, but not the content, of what cannot be
+recovered. I end the chapter with a meditation on Wilde's own position
+of privilege as an editor of his own text, who executed his own
+censorship. The privileges of his particular identity position exert a
+subtle layer of control in his text, to show that even the most
+strategic forms of inclusion are not enough to meaningfully challenge
+systems of power.
+
+Moving from foundational processes like analyzing and preserving text,
+the second half of the book turns to more complex processes of text
 display and generation. Chapter Three, "Text Display," examines the
-computing "stack," the layers of software that transport data from
-storage to the screen. In order for the stack to operate efficiently,
-code instruction (program code) must be separated from its execution
-(computation). This environment creates an ontological state of
-displacement, where every electronic action occurs at a remove, giving
-the illusion that electronic processes are boundless or immaterial. To
-read materiality back into the stack, this chapter borrows from two
-seemingly unrelated fields, Media Archaeology and Black Feminist
+computing "stack," the layers of software that transport data from its
+storage in the hard drive to the screen display. In order for the
+stack to operate efficiently, coding instructions (the program code),
+must be separated from its execution, from the moment that the program
+"runs." This environment creates an ontological state of displacement
+where electronic activity occurs at a level of remove. This state of
+displacement accumulates with each layer of the stack to give the
+final illusion that electronic processes are boundless or immaterial
+on the screen. To read materiality back into the stack, I draw from
+two seemingly unrelated fields, Media Archaeology and Black Feminist
 Studies, both of which offer robust methodologies for reading physical
-and "fleshy" dimensions of symbolic processes. Using these theories,
-the chapter embarks on a deep reading of program code from an early
-work of electronic fiction, /skinonskinonskin/, by Aureia Harvey and
-Michaël Samyn, (1999). This work, an early example of internet or
-"NET" art, consists of several "digital love letters," written in HTML
-and animated with JavaScript and Flash software (/Net Art Anthology/).
-The chapter's reading of this work surfaces how its screen effects,
-while apparently disconnected from underlying hardware and
-computational processing, offer significatory possbilities for reading
-intimacy and connection over the network.
+and "fleshy" dimensions of symbolic processes. Thinking across these
+theories in parallel, I then embark on a deep reading of two other
+seemingly unconnected works, Octavia Butler's science fiction novel,
+/Dawn/ (1987), part of the /Xenogenesis Triology/, and an early
+example of electronic fiction, /skinonskinonskin/, by Aureia Harvey
+and Michaël Samyn, (1999). These two pieces, one print and another
+electronic, both explore the collision of material and immaterial
+forms in scenes of sexual desire and intercourse. Reading these works
+through one another, I show how program code of the electronic piece,
+/skinonskinonskin/, displays screen effects that, while apparently
+disconnected from the underlying computational processing, surfaces a
+sense of physical intimacy within the stack.
 
-Building on the analysis of "Counting Text," or word frequencies, in
-chapter one, the fourth and final chapter explores an advanced
-counting processes, which is machine learning, which it uses to study
-normativity. This chapter, "Text Generation," traces the steps behind
-algorithmic prediction to examine what it does to language data and
-how it represents word meaning in computational form. It posits the
-the training process for Large Language Models (LLMs) as a tools that
-/normalizes/ language, transforming word meaning into an approximate
-or average forms. This process, which I examine in technical detail,
-transforms word meaning into numerical scores, which it compiles from
-averaging that word's various contexts from the training data. To
-demonstrate this process, I train miniature LLMs from the transcripts
-of a reality TV dating show, called /Love Is Blind/ (2020 - present).
-In this show, the participants, who are all heterosexual and
-cisgendered, are required to date each other from behind a wall,
-without having access visual access to their partners until they have
-agreed to get married. I then prompt the language model, which has
-been trained to generate text in the same language and style of the
-show participants, to answer questions about the role of the body and
-embodied sensations in their dating experience. I use the language
-model as a predictive instrument that can /approximate/ the linguistic
-and affective patterns around the body and touch. Drawing on Trans
-Studies theorizations of the body and of normativity, I argue that
-participants in /Love Is Blind/--—while firmly anchored in
-cisnormative frameworks—--temporarily experience a form of bodily
-dissonance. This dissonance, I argue, offers grounds for theorizing
-connection and solidarity beyond identity politics and polarized
-points of view.
-
-The chapters in the second half of the book offers responses to the
-problems spun from those in first half: from Chapter One, the problem
-of discursive forms, and how they elide embodied experiences of
-gender, and in Chapter Two, the problem of power structures, which are
-totalizing. Chapters Four and Three, respectively, answer these
-problems by grounding in what is shared and what is material.
-
-It shows how Queer Studies, as a field, is good at offering certain
-possibilities for resistance that /disrupts/ existing structures, for
-performativity and dis-identification, but other fields, like Black
-Feminist and Trans Studies, offer ways of resisting that are /outside/
-of the current structure. Both have advantages and disadvantages: both
-are necessary for resistance work.
-
-Core computational components from the first half of the book, like
-"word vectors" and markup languages, which are essential to text
-analysis and text encoding, are developed in the second half to
-describe more advanced concepts, like neural nets and software stacks,
-which drive processes for generating and displaying text.
+Building on the concept of "Text Analysis" in chapter one, the fourth
+and final chapter explores machine learning to study embodiment. This
+chapter, "Text Generation," traces the steps behind algorithmic
+prediction to explore how it transforms word meaning into
+computational form, which it argues is a way of /normalizing/ language
+use. It explores the training process for Large Language Models
+(LLMs), which expresses the meaning of individual words within a
+normalized or aggregate form. Within the training process, an LLM
+takes various contexts of a word's usage to compile a kind of average
+or aggregate use, which it represents through a numerical score called
+a "word vector." I argue that the word vector, which represents
+language meaning that has been normalized across various examples, is
+an ideal form for studying attachments to norms in language. I then
+explore possibilities for studying these attachments in heterosexual,
+cisgendered contexts, specifically from the reality TV dating show,
+/Love is Blind/. I choose this show because it’s main gambit, that
+"love is blind," suggests a transgressive premise that undergirds an
+ultimately heteronormative teleology: the show, which sequesters
+participants from seeing each other in person until they have agreed
+to get married, effectively poses the presence of the body as the
+determinant of heterosexual apotheosis. Training a model on the
+trainscripts from the show, so that it generates text in the same
+language and style of the show participants, I then pose questions
+about the role of the body in their dating experience. The model's
+responses reveals linguistic and affective patterns around the body
+and touch which characterize normative investments from the show.
+Drawing on Trans Studies theorizations of the body and of normativity,
+I argue that participants in /Love Is Blind/--while firmly anchored in
+cisnormative frameworks--temporarily experience a temporary form of
+bodily dissonanc. This experience, though anchored within their narrow
+cisgenderd experience, offers grounds for building solidarity across
+identity formations and points of view.
 
 
-Surfaces the idiosyncratic, ambiguous, and slippery qualities of
-language. 
 
-Then, with the help of Queer Studies and related fields, it re-works
-the constraint into a new practice that resists this reduction of
-language, and applies this practice to reading a sample of Queer
-literature.
