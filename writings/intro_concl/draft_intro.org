@@ -1,0 +1,39 @@
+* introduction
+
+** summary
+
+Beginning with a close reading of Caitlin Fisher’s hypertext fiction
+/These Waves of Girls/, the introductory chapter argues that the
+hypertext's disorienting network structure---its frustrating
+navigation due to the profusion of links--—formally enacts queer
+desire as never fully graspable and slippery. Drawing from this work
+as a paradigmatic example, this chapter frames /Counter-Code/'s
+central claim that digital contexts constrain elements of queerness,
+such as identity, desire, and experience, into computable forms,
+illustrating how digital protocols limit meaning-meaning.
+
+The chapter then situates /Counter-Code/ at the intersection of
+Digital Humanities and Queer Studies (Queer DH), a field that
+emphasizes how software, data structures, and standards encode social
+ideologies rather than operating neutrally. Combining critical
+analysis and experimental digital practice, work in this field
+repurposes reductive computational processes as tools for engaging the
+opacity, ambiguity, and transformative potential of queer forms.
+
+The chapter then introduces the computational constraints central to
+each of the body chapters: iteration, containment, abstraction, and
+aggregation, explaining how each of these constraints reduces textual
+details in some way. Iteration, for example, which drives text
+analysis tasks, regularizes words one by one, removing idiosyncracies,
+capital letters, and punctuation, in order to prepare text for tasks
+that involve counting common features. Similarly, containment, which
+enables text data to be preserved within digital formats, imposes
+strict rules for "tagging" or labelling textual elements into ordered
+hierarchies. The other two constraints, abstraction and aggregation,
+also work to displace or diminish textual expressivity for the purpose
+of making language subscribable to digital processes and protocols,
+which each of the body chapters explore in detail.
+
+The introduction then concludes by mapping out the chapter
+trajectories, each of which consdiers the tools of text analysis,
+encoding, display, and generation in turn.

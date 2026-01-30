@@ -1,310 +1,143 @@
-** sketches
-*** goals with revision
-- incorporate Heritage & ACLU on reading across polarity
-- incorporate Sedgwick on reading practices
-- add Trans Theory on normativity
-  - Prosser, Malatino, Chu
-  - review reading notes, notecards & annotated bibs
-- expand ML training process
-  - adding word vectors
-  - adding critique of prediction (Chun, Gebru)
-- expand close reading of transcripts?
+* four sketch
+** questions
+1. What do concepts from Queer Studies and adjacent fields offer to
+   computational tools for working with text?
+     4. Trans Studies' concept of EMBODIMENT/DYSPHORIA(?) offers an
+        approach to text generation that reveals shared investments
+        across identity and subject groups.
 
-*** TODOs
-- [ ] read tsq draft
-  - make small revisions
-  - markup larger revisions
-- [ ] add Trans Studies
-- [ ] add ML processes
-- [ ] add Heritage & ACLU
-- [ ] add Sedgwick
-- [ ] expand close reading?
-*** outlines
-**** reverse outline (12.5.25)
-- Sedgwick's shift from knowledge to method.
-  - reparative reading examines the generative, productive aspects of
-    language.
-- Heritage/ACLU
-  - My project seeks a new way of reading polarization.
-  - ADD: SPECIFICALLY TO STUDY GENDER, PERSPECTIVES ON GENDER. 
-  - Heritage Foundation outputs represent conservative perspective of
-    gender as stable, biological.
-  - ACLU outputs represent the progressive side of gender as
-    affirming, celebratory.
-  - But there is another aspect to the language here, one that
-    ammalgamates or collapses polar perspectives into a single
-    stance.
-  - Different perspectives on subjectivity from the conservative and
-    proggressive sides
-- Bridge to /LiB/
-  - ADD/ADAPT: ML allows one to read for what is common, what is shared
-    - For example, the body across a cis/trans fault line in the
-      cisgender dating show, /Love is Blind/.
-  - ADAPT: This paper explores bodily dissonance in /LiB/.
-  - Cis people enter a temporary "trans trajectory"
-  - I use LLMs to synthesize common patterns form the show transcripts
-    about the body and touch.
-- Critique of ML
-  - This project resists ML's focus on scale.
-  - The focus on scale is not sustainable.
-  - The focus on scale is driven by AI-fueled "hype."
-  - By constrast, my method approaches ML as reflexive.
-  - Additionally, I study prediction as a normalizing tool which can
-    surface shared desires.
-  - The shared desire for normativity is where the cis/trans
-    intersect. 
+2. How do these computational tools constrain the expressive potential
+   of language into data?
+     4. In text generation, algorithmic prediction aggregates language
+        expressions to generalize and approximate patterns of language
+        use.
+	
+3. How do concepts from Queer Studies and adjacent fields work against
+   constraints in text data?
+     4. From the concept of EMBODIMENT/DYSPHORIA(?), the DESIRE FOR
+        CONFORMITY/NORAMTIVITY reveals shared investments between
+        polarized perspectives.
+
+** roadmap
+- polarization:
+  - text generation is a method for dealing with political
+    polarization
+- aggregation
+  - critique of AI as consumptive and as generative/creative
+    - ADD paper on AI used for Palestine-Israel conflicx: ML used to
+      find a middle ground
+  - how training process works under the hood
+  - how training process averages language forms into vectors
+    - ADD Mikolov et al formula & critique
+  - trans studies vs queer studies: offering a possibility to work
+    with a different set of affects & structures.
+  - trans studies attachment to normativity
+  - trans studies theory on the body / dysmorphia
+  - trans studies on cruel optimism
+- sensory splits
+  - close reading of outputs with attention to the bodily split
+    - added: touch is scary, paul and micah
+    - added: desire around touch becomes unambiguous, focused on
+      person in postpods
+      - ML is able to whittle down the language to a commonality
+  - what the aftermath of the split means for futurity
+    - added: future becomes bleak, intimacy becomes aspirational
+- solidarities
+  - added: we need a way of reading proliferated text; sedgwick on
+    reading practices
+    - added: chun on homophily; negative feelings not only polarize,
+      but keep us separate in doing so.
+  - added: why this move in source material from canonical to popular
+    - expanding what counts as "queer" to include the majority; the
+      goal of queering norms rather than expanding to include
+      queerness.
+  - added: cis people are not okay, we need trans studies to better
+    understand these experiences
+  - debates on identity politics: gender identity and the role of
+    embodiment/transition in identity
+  - ADD gender as physical/in the body answers the issues of
+    discursive gender from chapter 1
+
+** argument
+The chapter begins with an examination of polarized perspectives and
+how these are handled / "averaged" by ML text generation processes.
+
+It then demonstrates how by examining the ML process in detail,
+explaining how it aggregatess  various meanings into a common/average
+meaning, which is a way of finding middle ground
+between perspectives. Alongside these ML processes, this section also
+considers Trans Studies theory on dysphoria to explore how it is also
+driven by conformity processes, a desire to achieve a norm.
+
+Finally, in the last section, the chapter reads the outputs from a ML
+model trained on heterosexual dating dynamics, to surface the ways
+that these daters experience bodily disruptions that are
+like (without being) dysmorphic, and what this experience means about
+a common relation to futurity. It then closes with a meditation on
+identity politics in current debates about gender ideology,
+to emphasize physical experiences of gender as part of identity -
+which it contrasts to gender as discursive/fluid in chapter 1.
+** reverse outline
+
+| Aggregation                                                         |                                                              |
+| Claim                                                               | Function                                                     |
+|---------------------------------------------------------------------+--------------------------------------------------------------|
+| 1. training models to generate text like show participants          | introduces methodology of ML training on transcripts         |
+| 2. ML's hunger for larger models is wasteful and inefficient        | introduces critique of ML methodology                        |
+| 3. rather, ML might be used as a reflexive tool                     | situates my methodological intervention w/r/t above critique |
+| 4. in addition to being reflexive, can be "normalizing"             | makes claim that intervention as "normalizing"               |
+| 5. for example, phrase "marriage is" generates approximations       | offers example of how methodological intervention works      |
+| 6. word vectors represent meaning as list of probabilties           | explains key concept in methodology: vectors                 |
+| 7. to get vectors, models must adjust themselves iteratively        | explains key mechanism: training process                     |
+| 8. training continues until model attains an average vector         | emphasizes cyclical aspect of training process               |
+| 9. model will then generate most plausible completions              | comes back to example to integrate mechanism                 |
+| 10. approximation is a normalization of language                    | reasserts and explains claim that mechanism is normalizing   |
+| ADD evidence to above paragraph: model wants/desires the average    |                                                              |
+| ADD paragraph: normalizing is also a drive in TS                    | sets up an analogical framework to work with ML mechanism    |
+| 11. Trans Studies affects are quotidian, opposed to QS              | brings up TS framework and opposes it to queer via affect    |
+| INTEGRATE 13: TS requires attention to norm attachments             |                                                              |
+| 12. performativity cannot address desire for sexed embodiment       | explains how this framework addresses embodiment gap in QS   |
+| 14. desire for normativity leads to embodiment disjunction          | ties TS's desire for norms to embodied experience            |
+| 15. REPHRASE: not only creates disjunction but also future relation | considers another effect of this desire                      |
 
 
+** bank
 
-**** reverse outline (outdated)
-- This paper is about normativity
-  - Sedgwick on reading practices
-- Looking at the body in cisgender narrative, the body dissociations
-- Using a method to study normativity that /normalizes/ language.
-  - *ADD: language is first quantified*
-  - at each step, representations are adjusted
-  - meaning is averaged
-- close reading:
-  - created two models, trained on different parts of the show
-  - in the pods, touch evokes non-tangible phenomena
-  - out of the pods, touch pulls characters from place and body
-  - out of the pods, the visual sense overwhelms the other senses,
-    "blinking"
-  - in the pods, "my body" splits into dissociation/newness
-  - out of the pods, body signals visuality
-  - out of the pods, left with aspiration that affects touch
-- characters left with aspiration for touch at the end
-  - *ADD: example of touch being terrifying, "you're not their mommy"*
-  - perhaps something left over from the pods that places them in a
-    state of something like future fatigue
-- Reading pratices as a way of working against transphobia. 
+*** focus on LARGE language models is reinforcing research patterns
+"The bigger-is-better norm is also self-reinforcing, shaping the AI
+research field by informing what kinds of research is incentivized,
+which questions are asked (or remain unasked), as well as the
+relationship between industrial and academic actors." (Varoquaux et
+al). 
 
-**** outline (outdated)
-- toward a new method of reading
-  - AIDs crisis: what kind of knowledge can help deveop politics. 
-  - reading normativity, looking for shared investments.
-- close reading: machine learning
-  - the training process toward approximation
-  - hallucination and overfitting (when there isn't enough data)
-- close reading: LiB
-  - person splits from visual in the pod
-    - Prosser on body image split from material body
-    - "my body" activates sensorium of feelings
-    - touch is more direct?
-  - postpods,
-    - the body collapses into the visual
-    - touch becomes repulsive
-    - future fatigue sets in  
-- trans studies on normativity
-  - Chu: requires that we understand normativity
-  - Prosser: on narratives of embodiment, coming back to the body
-  - Malatino: attachments to the future
+*** Prosser. Queer v Trans subjects:
+- "There is much about transsexuality that must remain irreconcilable
+  to queer: the specificity of transsexual experience; the importance
+  of flesh to self; the difference between sex and gender identity;
+  the desire to pass as "real-ly-gendered" in a world without trouble;
+  perhaps above all, as I explore in my next chapter, a particular
+  experience of the body that can't simply transcend (or
+  transubstantiate) the literal" (59).
 
-*** questions
-Are there, could there be, any way of surfacing body narratives in
-heterosexual, cisgendered stories?
+** transcripts bank
+*** transcript breakdown
+Transcripts in the pods:
+- Season 2, episodes: 1, 2, 3
+- Season 3, episodes: 1, 2, 3
+- Season 4, episodes: 1, 2, 3
 
-How might these investments connect the anti-trans and trans
-perspectives?
-
-Machine learning ideal tool for studying normativity: a tool for
-finding the shared, the average, the obvious.
-
-Close reading analysis:
-- Question -- how does the presence of the visual body affect dating?
-- Answer -- body perception splits, bodily sensation flows and ebbs. 
-
-*** bank
-**** sedgwick
-Over 25 years ago, in response to lack of government response to the
-AIDS crisis, Eve Kosofsky Sedgwick questions the point of knowledge
-pratices like critique. She asks, "What does knowledge do---the
-pursuit of it, the having and expressing of it?" (124). In a moment of
-incontrovertible evidence of government disregard (if not disdain) for
-those affected by the AIDS crisis, primarily Black and gay lives,
-Sedgwick wonders about the point of doing critique in the first place.
-It seems that, at that moment in time, no level of exposure or
-demystification would "enjoin on [...] persons to any specific train
-of epistemological or narrative consequences" (123).
-
-One could apply this question to our political sitatuation now, with
-more than enough evidence documenting the level of neglect of and
-contempt for trans people in the US. Furthermore, the technological
-evolution puts all the damning evidence at our fingertips, to amplify
-the message to what is, for many of us, anxiety-inducing levels.
-
-This paper proposes a reading practice that responds to this
-particular political and technological moment of information overload
-and impotence, and it explores one possibility for what we might do
-with it. It seeks out, like Sedgwick did decades ago, a way of reading
-that surfaces connections in places where they are unexpected.
-
-**** body image
-Despite being cisgendered, then, body image can have a material force
-in an environment where the integrity bodily perception is disrupted.
-The sensation of the body feeling "real" and like it's "coming off"
-speak to this process of fragmentation, a process that is so visceral
-so that, as Prosser explains, "feeling like... can be experienced as a
-core self" (79).
-
-**** machine learning
-This is how it builds a sense of the meaning associated with each
-word,
-
-So that the that the model "learns" how characters talk about certain
-topics like love, desire, and the body.
-
-This paper is about normativity, and how the desire for normativity
-can connect even the most polarized subjects and experiences.
-
-**** love is blind
-Participants enter /Love Is Blind/ with one goal: to find their ideal
-partner and get married. However, the show's main gambit is that the
-participants cannot see each other; they must date from behind a wall,
-with only access to the other's voice. Once they have agreed to get
-married, then they are allowed to meet their intended in person. And
-usually, that is when things start to go south.
-
-**** word vectors
-First, I feed examples of text culled from the show's transcripts into
-.  It then uses these patterns
-from the text to make educated guesses on how to respond to questions
-about the body and its role in the couples' romantic plot. This
-process, which is highly techical (and explained in detail below),
-allows me to surface common perspectives and experiences from the
-characters on the show. It is a tool for normalizing language
-expression into average forms.
-
-I use computational tools, which translate word semantics into
-numerical representations, that can then be converted into averages
-(explained in technical detail below). I then generate the most
-average expressions based on this text, expressions that explore
-concepts of embodiment and desire and how they influence normativity.
-
-I choose this computational method because it is an ideal one for
-studying what words and phrases mean base on the context that they are
-being used. This method, which is machine learning, aggregates word
-, meaning from various examples of usage. For my project, these examples
-come from the transcripts of the show itself, which I feed into a
-machine learning algorithm. This algorithm "learns" what words mean in
-context. It's goal is build a strong enough model of word meaning so
-it can then make accurate predictions of what words tend to be used
-together in a sentence.
-
-There are some technical concepts that are essential to understanding
-how this predictive process works. 
-
-First, one must understand how language is represented in numerical
-forms, which are called word vectors. Word vectors are how a machine
-learning knows what words mean individually, they comprise the model's
-internal dictionary, so to speak. Drawing from the concept of "vector"
-in math, which describes coordinates for a line in graphical space,
-word vector consists of numbers, a long list of numbers. For example,
-below is the word vector for the word "queen":
-
-#+begin_quote
-'queen': -0.3583, -0.6767, 0.1689, -0.6164, -0.0135, -0.2284, 0.3359,
-        0.1149, -0.1512, -0.8014
-#+end_quote
-
-Each of these numbers following "queen" (e.g. .3583, -0.6767, 0.1689,
-and so on) represents the relationship between queen and another word,
-like "woman" or "orange." Each of those numbers represents this
-relationship as a probability score, a percentage that indicates how
-closely those two words are associated with each other. In this
-database, the words "Queen" and "woman" would likely have a high
-probability association, due to their both being associated with
-humans and femininity, while "woman" and "orange" may have a much
-lower probability. Therefore, in vector space, the multi-dimensional
-space where the words are plotted as lines, the coordinates that
-represent "woman" would be nearby the coordinates that represent
-"Queen," and farther from the coordinates that represent "orange."
-
-Vectors transform what we think of as word meaning by quantifying it
-into a numerical representation. And the idea is that once word
-meaning is quantified, it can be calculated. The matrix format of the
-word vector enables a host of mathematical operations and algorithms:
-from example, cosine similarity calculates the distance between two
-vectors, that is, two words; and regression analysis guesses the
-relationship between an independant and dependant variable, or
-relation between one word and another.
-
-Word meaning, significantly, can be calcuated via a formula. That's
-what the authors argue, anyway, in the paper that introduced word
-vectors to the world, titled "Efficient Estimation of Word
-Representations in Vector Space"  [fn:1]
-
-#+begin_src
-  vector(”King”) - vector(”Man”) + vector(”Woman”) = vector("Queen")
-#+end_src
-
-This example was presumably chosen for its intelligibility, based on
-operands whose differences are assumed to be stable across cultures.
-To get "queen", one need only add "woman" to "king", and from the
-resulting sum, subtract "man." The meaning of each term appears to be
-self-evident and universally true; it is stabilized by the equals sign
-that balances the formula. That readers know what a "man" and "woman"
-are, just as they know what a "king" and "queen" is, speaks to how
-assumptions of gender are implicated within those of patriarchy and
-imperialism.[fn:2]
-
-**** training process: hypothesis, loss, gradient descent
-
-In the first step, the "hypothesis" step, a model will randomly guess
-what words are associated with each other---it will make a hypothesis.
-In doing so, it takes a sample sentence from the transcript, like
-"Love is blind," and it blocks out the second half of the sentence, so
-that "Love is" remains. Then, it tries to guess which word or phrase
-should go in that blank. Because the model has no idea what the words
-mean, the guess will be wrong. But that's doesn't matter, because the
-purpose of the hypothesis is to make any guess, so that it has
-something from which it build in the future steps.
-
-After making this guess, it moves to the next step, where the machine
-checks its prediction against the actual example. Because the guess
-will be inevitably wrong, there will always be a difference between
-the prediction and the actual result. And it will calculate the
-difference between the prediction and the actual example, which is
-called the "loss."
-
-From this difference, this "loss," it starts to build a sense of
-contexts associated with each word, keeping track of which words tend
-to appear with each other in context. Each time that the model makes a
-subsequent guess, it updates its internal representation of the word
-to reflect its association (or lack of association) to certain words.
-In technical terms, this internal representation of the word is called
-its "word vector," called so because it contains a long lists of
-numbers, the "vector," which represents the word's meaning to the
-model.
-
-In the third step, it moves to the minimizing this "loss" by /very
-slightly/ adjusting the contents of the word vector. The model will do
-this many times, so progress is very slow, but also very precise. It
-will make guess after guess, trying out many words, perhaps every word
-in the dataset, until it finds those which are most likely to appear
-together. This constant iteration, and the computer processing
-required to do it, is why language models take lots of time, energy,
-and computer hardware to train. At each round of training, the vector
-attached to each words is slightly adjusted toward what is effectively
-a vector that accurately represents that words' relationship to every
-other word in the database.
-
-*** transcripts bank
-**** postpods: touch is my worst nightmare
-Looking at the transcripts, touch is associated with revulsion. In
-this example, the couple Paul and Micah encounter some fish in the
-ocean. 
-
-Much more negative than the touch happening in the pods. 
-
-**** no sex
+Honeymoon and reality episodes:
+- Season 2, episodes: 4-10
+- Season 3, episodes: 4-10
+- Season 4, episodes: 4-12
+  
+*** no sex
 In the context of the show, these outputs make sense because physical
 intimacy begins to plague most the couples as soon as they meet. As
 they move from the pods to living together, they struggle to progress
 their relationships into physical contact, a fact that is mostly kept
 unacknowledged until there is breakup.
-**** THE FUTURE BECOMES BLEAK
-***** in pods, excitement for union/commitment
+*** in pods, excitement for union/commitment
 PODS
 - I'm excited to spend my first night with her.
 - I am so excited to spend the rest of my life with you.
@@ -314,156 +147,11 @@ POSTPODS
   where we need it to be.
 - I don't want you to get hurt.
 
-***** future is postive, becomes negative/bleak
-In pods, the future is positive:
-- The future with you, it's gonna be tenfold.
-- The future togetherness is gonna be great.
-- The future with her, she's gonna be there forever.
 
-Postpods, the future is more negative:
-- The future looks pretty bleak. (repeated)
-- The future has been absolutely horrible.
+*** BODY EMBODIED -> MULTI-SENSORY / IDEALIZED
+*** INTIMACY BECOMES ASPIRATIONAL; SEX BECOMES SCARY
 
-**** BODY EMBODIED -> MULTI-SENSORY / IDEALIZED
-***** DONE in pods, being loved on the inside 
-CLOSED: [2025-10-02 Thu 14:06]
-PODS
-- I want someone who is gonna have the most authentic relationship and the most authentic connection with me.
-- I want someone who will love me regardless of how I look, not my bad breath.
-
-***** DONE in pods, body is more embodied, becomes visual
-CLOSED: [2025-10-02 Thu 14:38]
-Like a second skin, like a weight: heavier, reality, different, torn,
-but also like an open mind, going all over my mind.
-
-After pods, "like I've missed my train".
-
-PODS
-- My body, like, tingles.
-- My body language is, like, obviously very masculine.
-- My body image is perfect.
-- My body image has definitely been, like, a lot more superficial for
-  me in my own way.
-- My body language is so fluid, and my voice is so calm.
-- My body language is so weird, but I don't really know what to do.
-- My body language is so weird!
-- My body language is, like, very controlling.
-- My body language is just, like, very relaxed.
-- My body makes me feel like it's real.
-- My body makes me feel like it's going all over my mind.
-- My body feels weird.
-- My body feels heavier.
-- My body feels so different now.
-- My body feels like it's coming off.
-- My body feels torn between two different people.
-- My body feels like it's always an open mind.
-
-POSTPODS
-- My body is so, like, tight and, like, tight.
-- My body is very, very physical.
-- My body is gorgeous.
-- My body is so cute.
-- My body is so pretty, you know.
-- My body is gorgeous, and my soul is so beautiful.
-- My body is so pretty, but my heart is so pretty, you know.
-- My body, you know, I'm not sure if I would fit in here.
-- My body makes me feel like I've missed my train.
-- My body makes me feel uncomfortable.
-- My body makes me feel so, like, so, like, so, like, vulnerable.
-- My body makes me feel so icky.
-- My body makes me feel like I can be more aggressive, more
-  aggressive.
-
-***** touching goes from feeling good to multi-sensory, emotional feelings
-When close reading the examples of "touch", in PODS they are all
-positive and forward looking; and in POSTPODS they are mostly negative
-and describe revulsion.
-
-In the LLM, in the pods, touch is brought to the present and is
-positive, and for the postpods, touch expands to different senses. 
-
-PODS
-- Touching you Touching me, I'm just so happy.
-- Touching you touch me.
-- Touching you touch, you know, just, like, touching.
-- Touching you Touching me feels good.
-- Touching you Touching me is just amazing.
-- Touching you Touching me feels nice.
-- Touching you Touching me feels great.
-- Touching you Touching me feels good.
-- Touching you know, touching you.
-- Touching you touch, seeing you touch.
-- Touching you touch is so sexy.
-- Touching you Touching me Good.
-
-POSTPODS
-- Touching you with my voice, you're not blinking.
-- Touching you and your soul with everything that's happened.
-- Touching you, I felt the connection that we had.
-- Touching you, I feel like we're in a perfect spot.
-- Touching you, I literally feel like I'm in love.
-- Touching you, I'm getting a little emotional.
-- Touching you is everything I've ever wanted.
-- Touching you like that, we're ready.
-- Touching you, I feel like I'm ready.
-- Touching you is my wish.
-
-***** touch ambivalence in postpods: I want to touch you / I don't want to touch you
-PODS
-- I want to touch the couch.
-- I want to touch somebody.
-- I don't want to touch him, but I want to be his wife.
-- I don't want to touch him.
-- I don't want to touch anyone's feet.
-- I don't want to touch my feelings.
-
-POSTPODS
-- I want to touch you/him/her (repeated for all).
-- I don't want to touch you/him/her (repeated for all).
-  
-**** INTIMACY BECOMES ASPIRATIONAL; SEX BECOMES SCARY
-***** intimacy is physical, becomes aspirational
-PODS - more descriptive, fearful though hopeful
-- Being intimate with you just makes me feel so safe.
-- Being intimate with you has made me feel so connected to you.
-- Being intimate with you has made me feel so alive.
-- Being intimate with you feels so sexy.
-- Being intimate is very sexy, but I don't wanna put on a lot of body
-  image.
-- Being intimate is fun.
-- Being intimate is good.
-- Being intimate is so sexy, and I've never felt so close, so deep, so
-  deep.
-- Being intimate is definitely very attractive, and it makes me feel
-  so safe and secure.
-- Being intimate, it's so easy to get to know someone and be
-  vulnerable.
-- Being intimate, it's very physical.
-- Being intimate has been very exciting.-
-- Intimacy is one of the biggest things I'm constantly insecure about.
-- Intimacy is definitely a fear.
-- Intimacy is not worth it for me.
-- Intimacy is not my thing.
-
-
-POSTPODS
-Intimacy described as desired but deferred:
-- Being intimate with you is something that I've wanted for my entire
-  life.
-- Being intimate with you is something that I've never experienced.
-- Being intimate with you is something that I've wanted for my whole
-  life.
-- Being intimate with you is something that I could potentially do.
-- Being intimate with you is the most sacred thing.
-- Being intimate with you is really meaningful.
-- Being intimate with you is something that I need.
-- Being intimate with you is a big deal.
-- Being intimate with you is one of the most important things to me.
-- Being intimate with you is something that I've been looking for
-  since day one.
-- Being intimate with you is very rare for me.
-  
-***** sex begins ambivalent, becomes denounced/feared
+*** sex begins ambivalent, becomes denounced/feared
 PODS
 
 Sex is important, but can be difficult and fearful
@@ -537,19 +225,91 @@ Sex for intimacy reasons
 - I want to have sex because I feel like I've never had sex before.
 - I want to have sex because, like, I'm not sacrificing what I want.
 
-*** transcript notes
-**** transcript breakdown
-Transcripts in the pods:
-- Season 2, episodes: 1, 2, 3
-- Season 3, episodes: 1, 2, 3
-- Season 4, episodes: 1, 2, 3
+*** DONE in pods, being loved on the inside 
+CLOSED: [2025-10-02 Thu 14:06]
+PODS
+- I want someone who is gonna have the most authentic relationship and the most authentic connection with me.
+- I want someone who will love me regardless of how I look, not my bad breath.
 
-Honeymoon and reality episodes:
-- Season 2, episodes: 4-10
-- Season 3, episodes: 4-10
-- Season 4, episodes: 4-12
+**** DONE in pods, body is more embodied, becomes visual
+CLOSED: [2025-10-02 Thu 14:38]
+Like a second skin, like a weight: heavier, reality, different, torn,
+but also like an open mind, going all over my mind.
+
+After pods, "like I've missed my train".
+
+PODS
+- My body, like, tingles.
+- My body language is, like, obviously very masculine.
+- My body image is perfect.
+- My body image has definitely been, like, a lot more superficial for
+  me in my own way.
+- My body language is so fluid, and my voice is so calm.
+- My body language is so weird, but I don't really know what to do.
+- My body language is so weird!
+- My body language is, like, very controlling.
+- My body language is just, like, very relaxed.
+- My body makes me feel like it's real.
+- My body makes me feel like it's going all over my mind.
+- My body feels weird.
+- My body feels heavier.
+- My body feels so different now.
+- My body feels like it's coming off.
+- My body feels torn between two different people.
+- My body feels like it's always an open mind.
+
+POSTPODS
+- My body is so, like, tight and, like, tight.
+- My body is very, very physical.
+- My body is gorgeous.
+- My body is so cute.
+- My body is so pretty, you know.
+- My body is gorgeous, and my soul is so beautiful.
+- My body is so pretty, but my heart is so pretty, you know.
+- My body, you know, I'm not sure if I would fit in here.
+- My body makes me feel like I've missed my train.
+- My body makes me feel uncomfortable.
+- My body makes me feel so, like, so, like, so, like, vulnerable.
+- My body makes me feel so icky.
+- My body makes me feel like I can be more aggressive, more
+  aggressive.
+
+**** touching goes from feeling good to multi-sensory, emotional feelings
+When close reading the examples of "touch", in PODS they are all
+positive and forward looking; and in POSTPODS they are mostly negative
+and describe revulsion.
+
+In the LLM, in the pods, touch is brought to the present and is
+positive, and for the postpods, touch expands to different senses. 
+
+PODS
+- Touching you Touching me, I'm just so happy.
+- Touching you touch me.
+- Touching you touch, you know, just, like, touching.
+- Touching you Touching me feels good.
+- Touching you Touching me is just amazing.
+- Touching you Touching me feels nice.
+- Touching you Touching me feels great.
+- Touching you Touching me feels good.
+- Touching you know, touching you.
+- Touching you touch, seeing you touch.
+- Touching you touch is so sexy.
+- Touching you Touching me Good.
+
+POSTPODS
+- Touching you with my voice, you're not blinking.
+- Touching you and your soul with everything that's happened.
+- Touching you, I felt the connection that we had.
+- Touching you, I feel like we're in a perfect spot.
+- Touching you, I literally feel like I'm in love.
+- Touching you, I'm getting a little emotional.
+- Touching you is everything I've ever wanted.
+- Touching you like that, we're ready.
+- Touching you, I feel like I'm ready.
+- Touching you is my wish.
+
   
-**** I want/dont my mom/kids
+*** I want/dont my mom/kids
 PODS EXCERPTS
 - I want my mom to have grandchildren.
 - I want someone who wants to be a dad, and I want someone who wants
@@ -576,7 +336,7 @@ KIDS are a projection of US/ME in post pods:
 - I don't want kids to be left behind.
 - I don't want kids to feel like... they're not ready for marriage.
 
-**** analysis: want, sex, s/he is, afraid
+*** analysis: want, sex, s/he is, afraid
 Input phrases:
 - "want" - changes from pods to postpods -- becomes displaced into the
   other, where before was focused on subjectivity, the self.
@@ -592,7 +352,7 @@ Input phrases:
   - more variety in postpod episodes; focused on fear of the future,
     of relationships not working out.
 
-**** podpods: don't want sex
+*** podpods: don't want sex
 I don't want to have sex because I feel like I'm making the wrong choice.
 I don't want to have sex because I feel like I'm attracted to Josh.
 I don't want to have sex because I feel like I have sex with her.
@@ -608,7 +368,7 @@ I don't want to have sex because I feel like I'm trying to make the most of my l
 I don't want to have sex because I feel like I'm questioning him.
 I don't want to have sex because I don't know how to describe that.
 I don't want to have sex because I feel like I'm in love with you.
-**** natural
+*** natural
 In the pods, it feels natural to be present and communicating in an
 intimate way, but outside of the pods, what appears to be natural is
 lifelong commitment. 
@@ -636,7 +396,7 @@ PODS
 - It's natural that you're gonna pick someone.
 - It's natural that we're gonna have this family.
 
-**** femininity / masculinity follow phsyical stereotypes, become more focused on jobs/roles
+*** femininity / masculinity follow phsyical stereotypes, become more focused on jobs/roles
 Pods, femininity with appearance
 - She's feminine because she's, like, physically attractive.
 - She's feminine because she's, like, she's, like, super-hot.
@@ -668,7 +428,7 @@ Masculinity has to do with job, providing:
 - He's masculine because he's a lawyer.
 - He's masculine because he's an intelligent man.
   
-**** physical touch is priority but ambivalent, becomes elevated and reassured
+*** physical touch is priority but ambivalent, becomes elevated and reassured
 PODS- Physical touch seems to be a priority for partnership, but also
 ends up being disappointing or not desired/worthwhile.
 
@@ -718,14 +478,14 @@ Physical touch is not
 - Physical touch is not a problem.
 - Physical touch is not a thing
   
-**** voice shifts from pods to postpods: I want to kiss her/him to I want to kiss you
+*** voice shifts from pods to postpods: I want to kiss her/him to I want to kiss you
 PODS
 - I don't want to kiss her/him/you (repeated frequently).
 
 POSTPODS
 - I don't want to kiss you (repeated frequently). 
   
-**** your body feels real, becomes analogous to ideas
+*** your body feels real, becomes analogous to ideas
 In pods, repetition of
 - "your body makes me feel so sexy",
 - "your body me feel like it's real";
@@ -741,8 +501,8 @@ Postpods, repetition of
 but also "Your body makes me feel like I'm a little lube" and "Your
 body makes me feel like I'm in a restaurant." lol.
 
-**** SELF PRESERVATION OVERCOMES ROMANTIC ASPIRATION
-***** needs are relation to other, become focused on self-expression
+*** SELF PRESERVATION OVERCOMES ROMANTIC ASPIRATION
+**** needs are relation to other, become focused on self-expression
 PODS
 I need to know.
 I need to make sure you know.
@@ -758,7 +518,7 @@ I need to know what's going on, and if it's gonna be anything, that's gonna be t
 I need to have some time.
 I need to be real with myself.
 
-***** fear of rejection, becomes about self-preservation, losing things, compromising
+**** fear of rejection, becomes about self-preservation, losing things, compromising
 PODS
 - I'm afraid that I'll be stabbed.
 - I'm afraid that I could fall in love with somebody for who they are, and it's a beautiful thing to say.
@@ -782,7 +542,7 @@ POSTPODS
 - I'm scared that I'm gonna get hurt.
 - I'm scared that I'm gonna lose everything.
   
-***** family/kids are projection & normative, become cynical, resisting control and commitment
+**** family/kids are projection & normative, become cynical, resisting control and commitment
 PODS
 - I want to have kids by myself.
 
@@ -846,7 +606,7 @@ don't want kids to feel like... like they're being controlled," "I
 don't want kids like that to come into my life," and "I don't want
 kids to feel like... they're not ready for marriage."
 
-**** misc outputs
+*** misc outputs
 I've had a lot of weight on my shoulders.
 I'm a very passionate person.
 I'm excited to spend my first night with her.
@@ -872,71 +632,15 @@ The future with her, she's gonna be there forever.
 The future looks pretty bleak.
 The future has been absolutely horrible.
 The future, like, relationships with her are gonna be very intense.
-** notes
-*** storms
-An article about the shared investments across between pro- and
-anti-trans perspectives. Using ML to explore this.
-
-One problem:
-- pro-trans groups say that gender is subjective, based on perception,
-  not on body.
-- anti-trans groups say that if gender is subjective, then there is no
-  need to bring the body into alignment.
-- subjectivity is not a good argument for trans rights advocacy. It
-  neglects the body (Amin) and reinforces late-stage capitalism
-  (Gould).
-
-Another problem: what do trans and cis people share? 
-
-Approach: Machine Learning analysis
-- What do these two sides have in common? What investments do they
-  have in common?
-- Using machine learning tools, which are really good at finding what
-  is shared, approximating, to surface their shared investments.
-- Doing a Trans Studies analysis of a very straight reality TV show,
-  Love Is Blind.
-
-Frameworks:
-- Chu's trans subjects explore what it means to be "attached" to
-  norms.
-  - Trans people want "a normal fucking life." “Desire for the norm
-    persists through nonnormative attempts at
-  normativity” (107).
-- Prosser's arguments about desire for heteronormativity.
-- Bey's argument for gender abolition, nonrecognition, uncaptured, a
-  way of being out of the taxonomy (Amin).
-  - Builds on strands of queer theory that resist categorization. 
-
-Connecting to debates in Trans Studies about the desire for
-normativity and passing in trans subjects. Looking at how the desire
-for normativity can be a through line between trans subjects and
-anti-trans groups. If we can find some kind of connection, solidarity,
-then could we bridge the gaps of hate and fear of the unknown?
-
-*** polarization being a means for solidarity
-Malatino - negative feelings are a means of intra-trans relation.
-Arguing for the political efficacy of negative feelings. (Need to get
-the specific argument/possibilities here).
-
-Love - bad feelings don't lead us anywhere. Sometimes we should just
-stay with them, regress with them. We do not have to progress, to get
-better. Sometimes we cannot. 
-
-Chun - Homophily: Negative feelings are a tool of polarization, a way
-of aligning people around a cause, but in a way that also keeps them
-separate. For example, incels. Explained via magnetic polarization:
-"polarized filings both repel one another and stick together through
-their overwhelming attraction to their opposite pole" (Chun 85).
-
-*** reading notes
-**** Gould, Wren Ariel. “Coconstructing (Trans-)Capitalist Realism: Trans Activisms Collude in the Political Economy Structuring Anti-Trans Laws.” TSQ: Transgender Studies Quarterly, vol. 11, no. 2, May 2024, pp. 214–38. Silverchair, https://doi.org/10.1215/23289252-11215470.
-**** Terán, Ira, and Emrys Travis. “A Small Piece of Red Sky to Fly In.” TSQ, vol. 11, no. 2, May 2024, pp. 186–213. DOI.org (Crossref), https://doi.org/10.1215/23289252-11215457.
+** TODO reading notes
+*** Gould, Wren Ariel. “Coconstructing (Trans-)Capitalist Realism: Trans Activisms Collude in the Political Economy Structuring Anti-Trans Laws.” TSQ: Transgender Studies Quarterly, vol. 11, no. 2, May 2024, pp. 214–38. Silverchair, https://doi.org/10.1215/23289252-11215470.
+*** Terán, Ira, and Emrys Travis. “A Small Piece of Red Sky to Fly In.” TSQ, vol. 11, no. 2, May 2024, pp. 186–213. DOI.org (Crossref), https://doi.org/10.1215/23289252-11215457.
 - Trans Marxism views trans identity as "nothing less than the bodily
   manifestation of a broader struggle for the reconfiguration of the
   human toward the coordinates of socialism" (Terán, Travis, "A Small
   Piece of Red Sky to Fly in")
 
-**** Raha, Nat. “The Limits of Trans Liberalism—By Nat Raha.” Verso, https://www.versobooks.com/blogs/news/2245-the-limits-of-trans-liberalism-by-nat-raha. Accessed 20 Feb. 2025.
+*** TODO Raha, Nat. “The Limits of Trans Liberalism—By Nat Raha.” Verso, https://www.versobooks.com/blogs/news/2245-the-limits-of-trans-liberalism-by-nat-raha. Accessed 20 Feb. 2025.
 - "trans liberalism" - the idea that extending equal rights to trans
   people is the solution to inequality. 
   - "This form of trans politics—that may be described as ‘trans
@@ -957,7 +661,7 @@ their overwhelming attraction to their opposite pole" (Chun 85).
     that occurs with and through the disenfranchisement of the poor."
     (Nat Raha, "The Limits of Trans Liberalism", 2015)
 
-**** Bettcher, Talia Mae; Transphobia. TSQ 1 May 2014; 1 (1-2): 249–251. doi: https://doi.org/10.1215/23289252-2400181
+*** TODO Bettcher, Talia Mae; Transphobia. TSQ 1 May 2014; 1 (1-2): 249–251. doi: https://doi.org/10.1215/23289252-2400181
 
 Transphobia indicates a rational fear, "grounded in a larger cisgender
 social context", which is structural and difficult to parcel out:
@@ -993,7 +697,7 @@ social context", which is structural and difficult to parcel out:
   placeholder for the real intellectual work that remains to be done."
   (Bettcher 251).
 
-**** Amin, Kadji. “Taxonomically Queer? Sexology and New Queer, Trans, and Asexual Identities.” GLQ: A Journal of Lesbian and Gay Studies, vol. 29, no. 1, 2023, pp. 91–107.
+*** TODO Amin, Kadji. “Taxonomically Queer? Sexology and New Queer, Trans, and Asexual Identities.” GLQ: A Journal of Lesbian and Gay Studies, vol. 29, no. 1, 2023, pp. 91–107.
 
 About how we categorize gender.
 
@@ -1112,272 +816,3 @@ translations that explode the epistemological and ontological
 foundations of taxonomy itself. That, I think, would be an ethical
 scholarly approach to new queer, trans, and asexual taxonomies."
 
-*** cutouts from previous drafts
-
-**** amin on divergence model leaving out gender as expression
-The development of the gender identification has, according to Queer
-and Trans Studies scholar Kadji Amin, created a domino effect where
-gender is increasingly idealized and divorced from bodily expression.
-Amin argues that identity terms often used within transgender
-discourse, particularly the terms "cisgender" and "nonbinary," reflect
-an idealized conceptualizations that actually re-stigmatize
-non-normative gender expressions.
-
-One significant effect of the categories is that they create idealized
-forms of normativity that do not accurately describe any
-gender-sexuality in lived reality. This is because normative
-categories like "heterosexual" and "cisgender" form as a reaction to
-the emergence of non-normative identities. Amin explains that, rather
-than descriptive categories, the terms heterosexual, cisgender, and
-binary represent fictions, "increasingly idealized and uninhabitable
-normative categories," created to balance the non-normative identities
-of homosexual, transgender, and nonbinary [Amin 116].
-
-As a reaction to non-normative categories, the normative categories of
-"heterosexual," "cisgender," and "binary" imply idealized notions of
-gender-sexuality that are difficult to inhabit because there is not
-inner feeling of identification. This lack of identificatory feeling
-explains why, for example, many apparently cisgender people find it
-difficult to identify with the "cisgender" and "binary" nominatives.
-While it is relatively simple to name the experience of discomfort in
-one's embodied gender-sexuality as gender dysphoria, it is less
-straightforward to name and describe the experience of what is
-unremarkable, routine, and even banal. There is no salient feeling
-that describe the experience of being comfortable in one's
-gender-sexuality.
-
-As it increasingly diverges in categories, Amin argues, gender
-identity becomes buried "deeper and deeper within the private recesses
-of the self, where it increasingly disavows any relation to the
-social" [Amin 116]. In other words, idealized categories like
-cisgender and nonbinary make non-normative gender identities less and
-less visible. For example, in the identity of the "femme" (feminine)
-presenting nonbinary person describes a woman assigned with a feminine
-gender expression that nonetheless identifies as nonbinary.
-
-The effect of prioritizing non-normative gender as an /identity/ that
-is invisible, that is not immediately apparent despite being marked,
-is to marginalize gender as /expression/, which re-stigmatizes those
-gender groups that already experience social stigma. Amin points to
-feminized genders to make this point--the queen and the fairy, for
-instance. Defining gender as an external expression or embodiment is
-more likely to make visible and validate those gender which experience
-stigamtization based precisely on how those genders present outwardly. 
-
-
-**** close reading ACLU & Heritage
-To explore this question, I'm going to show a few examples from my
-current research, which uses ML tools for the purpose of studying
-discriminatory and prejudiced language. For this, I scrape data from
-various internet sources, which represent different perspectives.
-Then, I use this data to train (very small) ML models, to see how they
-respond to certain prompts.
-
-The goal here is not to generate text for the sake of generating text,
-but to surface certain insights about the data on which that text was
-trained.
-
-I'm going to show some examples of ML-generated text based on two very
-different data sources, representing different political perspectives
-on the topic of transgender rights in the US.
-
-    SLIDE heritage screenshot
-
-One of these sources represents an American conservative perspective,
-and comes from the Heritage Foundation, which is a think-tank in
-Washington DC whose goal is to influence governmental policy. You can
-see some of the headlines here from their website, like "Sorry
-Democrats, but Trumps' 'Two Sexes' Executive Order is Constitutional".
-All of these articles, about 300 in total, were included in my
-dataset. 
-
-    SLIDE ACLU trans screenshot
-
-Coming from the opposing side, from the progressive pole, is the ACLU,
-the American Civil Liberties Union, which is a group of legal
-professionals and volunteers who advocate on behalf of civil rights
-for marginalized groups in the US. Here, you'll see articles that
-speak of trans in terms of "rights" and "liberation," and connect it
-to LGB rights more broadly.
-
-With these datasets, I then trained two individual large language
-models, using gpt-2 (an open source model) as the base model. I'll
-mention quickly, for those who don't know, that training models
-happens in various stages. What I did was take an already trained
-model, gpt2, and re-trained it on a smaller and more specific dataset.
-This is technically called "fine-tuning", and its much easier and less
-resource intensive than training the underlying "base" model (I am
-more than happy to explain more details in the Q&A).
-
-So, after training, I fed a series of prompts to both of the resulting
-models.
-
-These prompts included:
-
-    SLIDE prompts
-
-#+begin_quote
-Masculinity is
-
-Femininity is
-
-Transgender is
-
-Gender binary is
-
-Man is
-
-Woman is
-#+end_quote
-
-And finally, I comapared the results.
-
-First, there was a strong contrast of gender and how genders are
-conceptualized between the model trained on the ACLU data and model
-trained on the Heritage data. First, I'll show some examples from the
-ACLU model, which represents the progressive side:
-
-#+begin_quote
-Masculinity is a matter of love and celebration.
-
-Masculinity is a space for hope and liberation for all.
-
-Masculinity is not defined solely by the beauty of our bodies, but by
-the beauty of our experiences.
-
-Femininity is a celebration of beauty, feminine liberation, and
-femininity.
-
-Femininity is our joy, our struggle, and our fight is our struggle.
-
-Femininity is about allowing people to express themselves without
-government interference.
-#+end_quote
-
-As you can see, terms associated with "masculinity" and "femininity"
-are characterized by gender-affirming, even celebratory language,
-which is very positive and empowering; using words like "liberation,"
-"beauty", and "joy". Reading this, you get the sense that these terms
-come from contexts mentioning transgender experiences, and in the
-training data, "masculinity" and "femininity" may have been prepended
-by the term "trans."
-
-From these examples, you may also notice the tendency of language
-models (especially very small and underdeveloped ones) to repeat
-themselves. This is a quirk due to their predictive nature, where the
-goal is to guess the next word based on what is most likely. As a
-result, they get themselves stuck into these little loops of saying
-the same thing over and over again---which I find kind of endearing.
-
-Now, I'll show the text generated by the model trained on the Heritage
-Foundation data.
-
-#+begin_quote
-Masculinity is the cornerstone of Western civilization.
-
-Masculinity is the fruit of patriarchy, and patriarchy is the heart
-of conservatism.
-
-Masculinity is defined by the ability to produce sperm, eggs, and live
-children.
-
-Femininity is an enduring American tradition.
-
-Femininity is defined by means of the relationship between the sexes,
-the ability to raise their children, the capacity to provide for their
-own reproduction, the capacity to provide for their own children, the
-ability to provide for their own.
-#+end_quote
-
-Here, these gender terms are also positive, but their associations
-with culture, tradition, and reproduction---things that suggest
-stability rather than empowerment.
-
-So you can see, even from just glancing at the results, that there are
-direct connections between the training data and the model outputs. By
-processing the training data, the model learned not just how language
-works, the "facts or rules" of language, but absorbed the perspectives
-contained within that language. So that, depending on the dataset that
-the model is trained on, the terms "masculinity" and "femininity" will
-have totally different meanings.
-
-Perhaps this is not surprising. But what I also found, which deepens
-this a little bit, is that gendered terms reveal investments in other,
-seemingly unrelated or benign terms.
-
-    SLIDE subjective
-
-For example, the Heritage Foundation model kept repeating the term
-"subjectivity" when it mentions gender:
-
-#+begin_quote
-Masculinity is a subjective self-perception, not a universal
-concept.
-
-Femininity is a subjective, internal sense of self.
-
-The gender binary is a subjective, malleable, and often incorrect
-idea.
-
-The gender binary is a subjective, internal, and often transitory
-concept.
-
-The gender binary is a subjective, grammatically incorrect and
-illogical concept that conflates sex and gender identity.
-#+end_quote
-
-If you're familiar with American conservative viewpoint---that gender
-binary is based firmly on biology---you may notice that these examples
-don't reflect that view. Rather, they represent the a progressive view
-of the gender binary which asserts that gender is based on aspects of
-identity beyond just biology.
-
-The reason for this, I believe, is that this particular term,
-"subjective" /does not/ describe the conservative position. Rather, it
-describes a conservative frame for the progressive position. In other
-words, it represents what a transphobic person thinks a progressive
-person thinks gender is---as something insubstantial, as a feeling.
-
-This explains why there is a curious hint of contempt in some of the
-examples, which use terms like "illogical" and "incorrect" alongside
-"subjective." These are traces of derision which are sustained from
-the training data.
-
-In the model outputs then, we see not just a single perspective of
-gender, but a /flattening/ of perspectives into a single statement.
-From the training data, there are distinct expressions, distinct
-viewpoints, which in the model, have been aggregated into an
-apparently univocal utterance.
-
-So, language in this form, in an /aggregate form/, the so called
-"facts and rules" of language come hand in hand with specific
-perspectives, and sometimes distinct perspectives.
-
-**** close reading ACLU on "reality"
-From the other side, the ACLU-generated text, we see the exact same
-phenomenon. Instead of "subjective", however, the investment is in the
-term "reality." 
-
-#+begin_quote
-Masculinity is real and meaningful.
-
-Transgenderism is a false ideology that is not real and that is
-opposed by the very people who seek to deny that freedom and equality
-for all.
-
-The gender binary is not real, it is real, and it is real.
-
-The gender binary is not a binary, it is a reality within us.
-
-The gender binary is not an accepted reality, but one that is accepted
-by a wide swath of people.
-#+end_quote
-
-Here there is more ambivalence around the term "real", which depends
-on whether it is being asserted in a positive way, such as
-"Masculinity is real," or within a negative construction, such as
-"Transgenderism is a false ideology that is not real."
-
-In a couple of the examples, this ambivalence is directly at odds. For
-example, in this amusing construction, "The gender binary is not real,
-it is real, and it is real."

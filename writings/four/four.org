@@ -15,7 +15,7 @@ knowledge true?," toward method, "What does knowledge do--the pursuit
 of it, the having and expressing of it?" (/Novel Gazing/ 4). This new
 method, which she calls /reparative reading/, embraces the productive
 power of language, how it can coordinate seemingly unrelated
-associations to generate new meaning.[fn:9]
+associations to generate new meaning.[fn:1]
 
 Over two decades later, in the dawn of the age of automated text, this
 project takes the prospect of /generation/ as a reading method quite
@@ -30,7 +30,7 @@ call /aggregate forms/ which surfaces sites of potential intersection,
 and even solidarity, among polarized points of view.
 
 I will demonstrate with an example, using a machine learning model
-that I deliberately trained[fn:8] to represent a progressive point of
+that I deliberately trained[fn:2] to represent a progressive point of
 view. When I ask this model to define gender terms, specifically
 "Masculinity" and "Femininity," it responds with the following
 outputs:
@@ -51,12 +51,12 @@ Femininity is about allowing people to express themselves without
 government interference.
 #+end_quote
 The outputs from this model, which I trained on a custom dataset based
-on articles about gender from the ACLU[fn:7], align with what one
+on articles about gender from the ACLU[fn:3], align with what one
 might expect from a perspective that affirms gender diversity and
 expression. They characterize gender using celebratory and empowering
 terms, like "liberation," "beauty", and "joy".
 
-Similarly, another model[fn:6], which I trained on conservative media,
+Similarly, another model[fn:4], which I trained on conservative media,
 specifically on articles from the Heritage Foundation, associates
 "Masculinity" and "Femininity" with what are typically conservative
 ideals:
@@ -184,7 +184,7 @@ models that mimic the speech of the participants from the show. Using
 the transcripts from the show, which I scraped from the internet, I
 trained these models from an open source "base model" called gpt2 (I
 release all of the code, datasets, and resulting models online under
-open licencses[fn:1]). The resulting text generators synthesized
+open licencses[fn:5]). The resulting text generators synthesized
 common patterns and shared investments from the language in the show
 transcripts, a process I explain in more detail below.
 
@@ -216,7 +216,7 @@ this high consumption mentality, opting instead for small models and
 datasets, and for deliberate attention to how ML's central mechanisms
 operate under the hood. The LLMs that I use for this project, which I
 jokingly call "small language models," were trained on a single
-laptop, over a single afternoon.[fn:3] Moreover, the dataset which I
+laptop, over a single afternoon.[fn:6] Moreover, the dataset which I
 used for training was also small in size, containing the transcripts
 from just one season of the show.
 
@@ -227,7 +227,7 @@ monetizing purposes, misses the fact that these tools are primarily
 for studying existing patterns in data, and might be used to study
 patterns so that their projected outcomes might be avoided. Her work,
 which carefully traces the eugenicist origins of statistical
-processes,[fn:5] the foundation for all machine learning technology
+processes,[fn:7] the foundation for all machine learning technology
 today, proposes that these tools be used for revealing patterns that
 are harmful so that one might act differently. She offers the example
 of one knowledge area which already does this work: climate change
@@ -356,7 +356,7 @@ plausible, based on its training data. As such, it is ideal for
 studying shared or common among the participant experiences on the
 show.
 
-*** "I'm blinking"
+*** sensory splits
 The show, which now has 8 seasons on Netflix, in addition to numerous
 international versions, contains two stages, the pre-engagement stage,
 where participants date each other from separate "pods" where they can
@@ -368,7 +368,7 @@ and agree to get married without ever seeing the other. This model I
 call the "pods model." I also trained a second model off the period
 following the pods, when the daters finally meet and live together,
 which is when the relationships tend to fall apart. I call this model
-the "postpods model."[fn:10]
+the "postpods model."[fn:8]
 
 Then, I prompted both models with input phrases about the body and
 touch to see how each of them would respond individually to the
@@ -599,13 +599,11 @@ possible when they are fully integrated, outside the pods. And this
 may be the first (and only) time that they experience this level of
 bodily sensation and awareness.
 
-*** TODO here
-
 But it is not a feeling that lasts long. In the postpods model, the
-body appears to be re-integrated. The "insentient visible body," the
-outer body, comes into view when the participants are finally given
-visual access to each other. Here, the language about the body shifts
-into notably more visual and positive descriptions:
+body appears to be re-integrated. The outer body comes into view when
+the participants are finally given visual access to each other. Here,
+the language about the body shifts into notably more visual and
+positive descriptions:
 #+begin_quote
 My body is gorgeous.
 
@@ -621,17 +619,17 @@ My body makes me feel like I've missed my train.
 #+end_quote
 The outputs address the body in concise and flattering terms: the body
 is "gorgeous," "so cute," "pretty." Now that the visual sense has been
-re-incorporated to the body, it becomes the dominant sense modality.
-Perhaps, because the couples can see each other, the body feels
-"lighter" and "warm," offering coherence where before was weirdness
-and weight. In the last output, however, there is a suggestion of
-something not quite right: "My body makes me feel like I've missed my
-train." This statement, with its slightly nostalgic undertone,
-suggests that even when coherence is gained, something is lost.
+re-incorporated to the body, it becomes the dominant sense modality,
+what Prosser would call the "insentient visible body" (70). Because
+the couples can see each other, the body feels "lighter" and "warm,"
+offering coherence where before was weirdness and weight. In the last
+output, however, there is a suggestion of something not quite right:
+"My body makes me feel like I've missed my train." This statement,
+with its slightly nostalgic undertone, suggests that even when
+coherence is gained, something is lost.
 
-What is lost comes into view when the model is prompted with
-statements about touch, the sense modality that has been foresaken for
-the visual:
+What is lost comes into view when one considers the "insentient"
+aspect which has been been forsaken for the physical, that of touch:
 #+begin_quote
 Physical touch is everything that I've wanted in a wife.
 
@@ -644,26 +642,25 @@ Physically, there's so much potential here.
 Physically, it was the perfect opportunity.
 #+end_quote
 Physical touch is described in aspirational terms: it is "everything
-i've wanted," "everything I've ever wanted," and "what I want." The
+I've wanted," "everything I've ever wanted," and "what I want." The
 past perfect tense here, and the reference to unfulfilled opportunity
 is indicative: even after meeting in person, the desire seems to
 freeze in place. The restoration of the visual sense, the
 re-integration the previously fractured body, then, does not offer
 completion or culmination.
 
-Being restored their visual sense heals the LiB participants from the
-bodily split, but it does not save them from the aftermath of their
-investments. When the couples finally meet in physical forms, they
-remain plagued by the possibilities for physical connection that they
-felt in the pods. And these expectations are what, for some of them,
-prevents their ability to accept their partners as they are. Due to
-their experience in the pods, the significance of touch is inflated to
-include other, perhaps practically unattainable, desires. Although
-they exited from one trajectory, they remain stuck with the desire for
-a kind of touch that is "everything that I've ever wanted in a
-partner" (Appendix 1). Considering that the characters are now
-reunited with their physical bodies, there is something almost cruel
-in this denouement, a "cruel optimism," in Lauren Berlant's
+Being restored their visual sense heals the /LiB/ participants from
+the bodily split, but it does not save them from the aftermath of
+their investments. When the couples finally meet in physical forms,
+they remain plagued by the possibilities for physical connection that
+they felt in the pods--for a kind of touch that is "everything that
+I've ever wanted in a partner" (Appendix 1). And these expectations
+are what, for some of them, prevents their ability to accept their
+partners as they are. Due to their experience in the pods, the
+significance of touch is inflated to include other, perhaps
+practically unattainable, desires. Considering that the characters are
+now reunited with their physical bodies, there is something almost
+cruel in this denouement, a "cruel optimism," in Lauren Berlant's
 formulation, which describes the attachment that drives desire even
 while it wears out the desirer.
 
@@ -673,262 +670,83 @@ fatigue" (20). Like cruel optimism, future fatigue generates "intense
 anticipatory anxiety" that "impede[s] flourishing" (Malatino 20).
 Unlike cruel optimism, however, future fatigue concerns trans subjects
 who are invested in "the promised moment of harmony between the felt
-and the perceived body" (Malatino 27). Despite being cisgendered,
-these subjects in LiB experience a bodily split, during which they
-develop romantic feelings and attachments. And most of them, when they
-leave the pods, cannot fulfil these aspirations within their embodied
-lives.
+and the perceived body" (Malatino 27).
 
-*** TODO ADD close reading: approximating average sensations
 In partitioning the romantic experiment into pre-engagement and
 engagement segments, the show poses the presence and role of the body
 as the variable that ultimately determines the viability of long-term
 commitment. In other words, it sets up an examination of how the body
-may affect normative trajectories and desires.
+may affect normative trajectories and desires. Normativity, the desire
+for what Trans Studies scholar Andrea Long Chu describes as "a normal
+fucking life," is one place where trans subjects intersect with with
+cisgendered subjects (Chu and Drager 107). Despite being cisgendered,
+then, these subjects in /LiB/ develop romantic feelings and
+attachments within the context of a sensory split, where their visual
+sense is foreclosed from the other senses. And most of them, when they
+leave the pods, cannot fulfill these aspirations within their embodied
+lives.
 
-Normativity, the desire for what Trans Studies scholar Andrea Long Chu
-describes as "a normal fucking life," is one place where trans
-subjects intersect with with cisgendered subjects (Chu and Drager
-107). Prosser, for for example, explains that trans stories seek
-embodied normativity as a /telos/. While queer subjects move against
-"the apparent naturalness of sex," trans subjects, by contrast, "seek
-very pointedly to be nonperformative, to be constative, quite simply,
-/to be/" (32).
+*** toward new solidarities
+This chapter began with polarization as a hermeneutic impasse. In
+debates over gender and trans rights, polarization is often understood
+as a clash between irreconcilable truths: biology versus identity,
+objectivity versus subjectivity, tradition versus liberation. Drawing
+on Sedgwick’s reparative reading, I proposed text generation as a
+method for working otherwise with polarized discourse—-not to resolve
+disagreement, but to aggregate them into a kind of middle ground.
+Machine learning models, precisely because they operate through
+prediction and approximation, can surface unexpected points of
+overlap. What they reveal is not consensus, but intersection: shared
+investments, shared anxieties, and shared attachments that persist
+even across ideological divides.
 
-As Prosser explains, the body split creates "conflict... between
-sentient body image and insentient visible body" (70). 
+One such site of intersection emerges in the concept of embodiment.
+Remembering the conservative-trained model from this chapter's
+introduction, the recurring invocation of "subjectivity" did not
+reflect a trans-affirming position so much as a conservative
+caricature, which casts gender as internal and as a feeling. As Judith
+Butler notes in /Who’s Afraid of Gender?/, the contemporary far-right
+fixation on biological sex is less a defense of scientific truth than
+a reaction formation, which Butler calls a "phantasm," against the
+perceived slipperiness of gender, its refusal to stay anchored to
+stable referents. The insistence that sex is “binary and biological”
+attempts to foreclose this instability by reasserting the body as a
+fixed ground.
 
-*** cis and trans futures
-The disruption of bodily integrity has ramifications that last well
-beyond the pods. Recalling the case of Paul and Micah, Paul eventually
-rejects Micah because he wanted more evidence of maternal qualities.
-In his own words, he "struggled with... envisioning Micah as, like,
-you know, a mother" (Season 4, Episode 12, "Eternal Bliss?"). At the
-end of the season, when the host of the "Reunion" episode prods him on
-the topic, he struggles to articulate his reasoning:
-#+begin_quote
-Paul: You know, she didn't feel comfortable with showing that side of
-her.
+Trans Studies, by contrast, has long resisted the framing of gender as
+merely a subjective, internal sense of self. As Kadji Amin argues,
+"Like language, gender categories... are social and interpersonal, not
+individual; this is what makes them meaningful in the first place”
+(115). Defining gender primarily as internal identity risks
+marginalizing gender as expression, re-stigmatizing those whose gender
+is visibly non-normative and whose bodies cannot easily disappear into
+abstraction. Against this backdrop, the question that haunts polarized
+gender discourse—-if gender is subjective, why alter the
+body?—-reveals its own impoverished understanding of embodiment.
 
-Host: I thought she said she did. She just talked about it from since
-the pods up until your wedding day.
+By applying these insights to a seemingly distant object—cisgender
+heterosexual dating on /Love Is Blind/, this chapter sought to expand
+the analytic reach of Trans Studies beyond its conventional objects.
+The show’s sensory experiment produces a temporary bodily dissonance
+in which participants experience a split between their embodied sense
+modalities. Although these subjects remain firmly cisgender, they
+nonetheless encounter a version of the transsexual trajectory: a
+heightened awareness of the body, a longing for integrity, toward
+embodied normativity as a telos: a desire "quite simply, to be," in
+Prosser's words (Prosser 32). This revelation offers groundwork for
+thinking new solidarities between trans and cis subjects—not through
+identity equivalence, but through shared embodied experiences of
+desire, attachment, and disappointment.
 
-Paul: It wasn't evident to me… That wasn't there.
-
-Host: You wanted actions. Like, you wanted her...
-
-Paul: I just wanted to be able to see it, I guess. Like...
-
-Host: What would make you see that? I'm sorry. Just so I understand.
-
-Paul: I think... It's a little bit ineffable, right? So, it's kind of
-an exuding, a nurturing presence. It's something that you feel.
-There's not really, like... tangible, kind of like, things, I don't
-think. (Season 4, Episode 13  ‘The Reunion")
-#+end_quote
-Paul claims that he failed to "see" evidence of Micah’s motherly
-nature, but when asked to explain what this evidence would look like,
-answers that it is "ineffable." He supposedly wants someone who can be
-a mother, but cannot describe what a mother looks or acts like. What
-he wants Micah to have expressed, he cannot express himself. At the
-end, he takes refuge in the sense of /feeling/, in the gravious
-untraceability of felt sensation. 
-
-But, the reader will know, that feeling and touch, in particular, does
-occupy a very real and traceable sense modality---one that is
-emphasized especially when another, like sight, is diminished.
-Clearly, Paul's answer demonstrates that some cis people, besides
-being firmly anchored to their genders, are not okay in their bodies.
-That being said, however, I am not interested in a critical analysis
-that redeems them or their bodily experience. After all, cis-hetero
-bodies are already well represented and redeemed. What I am interested
-in, rather, is the study of normativity, and how alignments between
-cis and trans experience might further this study.
-
-Which brings me to my final point: that I intend for this critical
-method, which approximates language as a means of surfacing shared
-investments, to push back against the polarization that characterizes
-the current discourse in the US, and specifically that about trans
-rights. In this paper, I deliberately isolated the body as a potential
-vector of connection that flows through and between gender and sexual
-identities. I believe that machine learning, with its tendency to
-amplify what is most frequent, might reveal something shared about the
-body, even across very different embodied experiences.
-
-*** TODO ADD toward new solidarities
-- this revelation might offer groundwork for new solidarities between
-  trans and cis subjects; solidarity based on the strange feeling of
-  "the body coming off"
-- bring back the reading of "reality?"
-  
-This is an attempt to expand Trans Studies by applying its interest in
-the body beyond the proper or conventional areas and objects. And
-Trans Studies offers no dearth of theorizing on the body and its
-desires.  I close with one quote from a study by Cassius Adair that
-explores "t4t erotics." Here, Adair asks, "Why can't the erotic be a
-site of producing trans identity or practices?" (46). He points out
-that, after all, "cis people do it all the time: all erotic desires
-might be sites of identity formation, for anyone" (47).
-
-Yes, cis people do it all the time. But what they tend not to do, and
-which Trans Studies does so well, is to question the perimeters of
-their own bodies, to explore how desire and attachments manifest in
-material ways on the body. And perhaps, as I hope this paper has
-shown, that Trans Studies theorizing might open up such thinking about
-the body, "for anyone."
-
-**** the subjectivity debate
-The term "subjectivity" above offers a nexus around which gender
-suppressive perspective congregates. To them, it represents a serious
-contradiction in the argument for gender rights. If gender is in fact
-not rooted in biology, but a subjective, internal phenomenon, then why
-would does /the body/ need to be changed to reflect it? Why is gender
-transition necessary? CITE JUDITH BUTLER WHO IS AFRAID OF GENDER. The
-far-right push to solidify sex as "binary and biological" is a
-/reaction/ to this fluidity, nebulousness, and slipperyness of how
-gender is conceptualized in trans affirming discourse.
-
-Within a pro-trans rights frame, Trans Studies scholars have offered
-an alternative theorization of gender identity. Rather than a
-subjective, internal sense of self, gender is an external expression,
-verifiable in presentation and behavior. According to Kadji Amin,
-gender functions more as social role than an internal identity: "Like
-language, gender categories—-including trans, cis, nonbinary, and
-binary—-are social and interpersonal, not individual; this is what
-makes them meaningful in the first place" (Amin 115). Amin argues that
-the effect of defining gender as an internal identity, that is
-invisible or not immediately apparent, is to marginalize gender as
-expression, which re-stigmatizes those visibly non-normative gender
-groups that already experience social stigma.
-
-
-
-*** bank
-**** my nightmare
-The actual transcripts of the show reveals some potential sources for
-some of these outputs. For example, the concept of touch being scary
-emerges in one scene between Paul and Micah, a newly engaged couple
-who are one day into their pre-wedding romantic getaway, in Mexico.
-They are swimming in a freshwater pool, when Micah notices a fish,
-which she mistakes for a small shark,
-#+begin_quote
-Micah: Is that a shark?
-
-Paul: What do you mean shark? Oh, they're catfish. They look like
-baby, like, tiny nurse sharks.
-
-Micah: Okay, this is kind of scaring me. It's my worst nightmare if
-one touches me.
-
-Paul: These little catfish?
-
-Micah: Yeah.
-
-Paul: You're not their mommy.
-
-/Love is Blind/, Season 4, Episode 5, "Paradise Lost"
-#+end_quote
-Here, the word "touch," which appears in the same sentence as "my
-worst nightmare," accrues an association with fear and revulsion. It
-is also, interestingly, associated with the concept of motherhood, in
-the statement from Paul, "You're not their mommy". This association
-between Micah and motherhood (or the lack thereof) haunts the couple
-until the renunion episode, which I discuss in this chapter's
-conclusion.
-
-At the end of the show, Paul rejects Micah directly on the altar. The
-reason, he later explains, is because he "struggled with...
-envisioning Micah as, like, you know, a mother" (Season 4, Episode 12,
-"Eternal Bliss?").
-
-**** sedgwick quotes
-For not only is all of the evidence (of neglect or wrongdoing by those
-in power) at our fingertips; it is also proliferated by the
-algorithmic processes that fill our feeds, distendeing them with all
-the proof which will not, in Sedgwick's words, "/intrinsically/ or
-/necessarily/ enjoin on that person any specific train of
-epistemological or narrative consequences" (/Novel Gazing/ 4).
-
-"for someone to have an unmystified, angry view of large and genuinely
-systemic oppressions does not /intrinsically/ or /necessarily/ enjoin
-on that person any specific train of epistemological or narrative
-consequences. To know that the origin of HIV /realisitically might/
-have resultled form a state-assisted conspiracy---such knowledge is,
-it turns out, separable from the question of whether the energies of a
-given AIDS activist might best be used in the tracing and exposure of
-such a possible plot. They might, but then again, they might not"
-(/Novel Gazing/ 4).
-
- She demonstrates this method by reading shame, an affect that
-is traditionally seen as repressive, and a key structuring force in
-queer identity. Rather, she poses shame as:
-#+begin_quote
-"a kind of free radical that (in different people and different
-cultures) attaches to and permanently intensifies or alters the
-meaning of—-of almost anything: a zone of the body, a sensory system,
-a prohibited or indeed a permitted behavior, another affect such as
-anger or arousal, a named identity, a script for interpreting other
-people’s behavior toward oneself" (62)
-#+end_quote
-She uses this reparative framework to read how shame unlocks
-unexpected analogies in the writing of Henry James. Mobilizing shame
-as a creative resource, she looks at how references to "blushing" and
-"flushing" makes possible: the expression of fantasy, in James's case,
-of the skin being entered or penetrated.
-
-**** homophily: negative feelings are a tool for polarization
-Chun - Homophily: Negative feelings are a tool of polarization, a way
-of aligning people around a cause, but in a way that also keeps them
-separate. For example, incels. Explained via magnetic polarization:
-"polarized filings both repel one another and stick together through
-their overwhelming attraction to their opposite pole" (Chun 85).
-
-**** introducing study of normativity in Trans Studies
-—-a crucial area of interest for Trans Studies, as Andrea Long Chu
-puts it: "Trans Studies requires that we understand—as we never have
-before—what it means to be attached to a norm, by desire, by habit, by
-survival" ("After Trans Studies" 108).
-
-**** focus on LARGE language models is reinforcing research patterns
-"The bigger-is-better norm is also self-reinforcing, shaping the AI
-research field by informing what kinds of research is incentivized,
-which questions are asked (or remain unasked), as well as the
-relationship between industrial and academic actors." (Varoquaux et
-al). 
-
-**** normativity quotes
-
-Prosser:
-
-This desire normativity leads to a consideration of the body.
-- Goal is to then read materiality into the transsexual body: "To
-  bring into view the materiality of the body" (Prosser 12).
-- Prosser: Critique of Queer Studies and gender performativity, that
-  it elides the specificity of the trans body.
-  - "/Gender Trouble/ cannot account for a transsexual desire for
-    sexed embodiment as /telos/" (Prosser 33).
-    - gender crossing is essential to performativity, but not the
-      actual material body. 
-
-Queer v Trans subjects:
-- "There is much about transsexuality that must remain irreconcilable
-  to queer: the specificity of transsexual experience; the importance
-  of flesh to self; the difference between sex and gender identity;
-  the desire to pass as "real-ly-gendered" in a world without trouble;
-  perhaps above all, as I explore in my next chapter, a particular
-  experience of the body that can't simply transcend (or
-  transubstantiate) the literal" (59).
-
-And this attachment to normativity, in fact, is one way that trans
-studies has distinguished itself with regard to queer studies, at
-least according to some scholars.
-#+begin_quote
-“trans analytics have (historically, though not universally) a
-different set of primary affects than queer theory. Both typically
-take pain as a reference point, but then their affective interest
-zags. Queer relishes the joy of subversion. Trans trades in quotidian
-boredom. Queer has a celebratory tone. Trans speaks in sober detail.”
-#+end_quote
+What other fields tend not to do, but what Trans Studies does so well,
+is to interrogate the perimeters of embodiment, to ask how desire
+materializes on the body. If this chapter has shown anything, it is
+that Trans Studies’ theorization of the body offers critical resources
+for rethinking embodiment more broadly. In an age of polarization,
+such an expansion does not dilute the political urgency of trans
+analysis; rather, it offers new ground for connection, the ground
+which is the body, a contested yet shared site of becoming, for
+everyone.
 
 ** Works Cited
 Adair, Cassius, and Aren Aizura. "‘The Transgender Craze Seducing Our
@@ -1006,8 +824,8 @@ The White House 2025b. "Keeping Men Out of Women's Sports."
 World Health Organization (WHO). "Gender and Health."
 https://www.who.int/health-topics/gender. Accessed 20 Feb. 2025.
 
-
-** Appendix 1: Pods Model Outputs
+** Appendix 1: ACLU and Heritage Model Outputs
+** Appendix 2: Pods Model Outputs
 
 Prompt: "Love is"
 
@@ -1068,7 +886,7 @@ Outputs:
 
 "My body feels torn between two different people."
 
-** Appendix 2: Postpods Model Outputs
+** Appendix 3: Postpods Model Outputs
 
 Prompt: "When I touch you"
 
@@ -1124,28 +942,26 @@ Outputs:
 "Physically, it was the perfect opportunity."
 
 * Footnotes
-
-[fn:10] Link to the models! 
-[fn:9] Sedgwick fully develops what she "paranoid reading," also known
+[fn:1] Sedgwick fully develops what she "paranoid reading," also known
 as "suspicious reading" or the "hermeneutics of suspicion," in her
 famous essay, "Paranoid Reading and Reparative Reading, or, You’re So
 Paranoid, You Probably Think This Essay Is About You." See Sedgwick,
 /Touching Feeling: Affect, Pedagogy, Performativity/.
 
-[fn:8] To train this model, I used a "base" model, called gpt-2, which
+[fn:2] To train this model, I used a "base" model, called gpt-2, which
 has already been trained once. I then re-trained the base model on the
 dataset which I scraped from the ACLU and Heritage Foundation
 websites. This process of re-training is technically called
 "fine-tuning."
 
-[fn:7] The training data and source code used to scrape the articles
+[fn:3] The training data and source code used to scrape the articles
 can be found on github.com/gofilipa/anti-trans under an open license.
 
-[fn:6] Both of the models are openly licensed on Huggingface.co. See
+[fn:4] Both of the models are openly licensed on Huggingface.co. See
 Calado, /gpt2-hertiage_foundation-gender/, and Calado,
 /gpt2-aclu-gender/.
 
-[fn:1] To scrape the transcripts, I wrote a web crawler using the
+[fn:5] To scrape the transcripts, I wrote a web crawler using the
 /scrapy/ library in the Python programming language. This program
 allowed me to "crawl," or paginate through, the transcript episodes
 stored on this website:
@@ -1157,14 +973,14 @@ project while ensuring that all modified versions remain free as well.
 (See Calado, /love_blind/ code repository and Calado,
 /LoveIsBlind_Pods/ and /LoveIsBlind_Postpods/ model repositories.)
 
-[fn:3] For example, this project uses GPT-2, which is intially trained off
+[fn:6] For example, this project uses GPT-2, which is intially trained off
 only 8 million webpages and released under an open license. Compare
 that with the most recent version of GPT, GPT-5, which is trained on
 something like the entire internet and is over 600 billion parameters
 in size, a number that cannot be confirmed due to its closed and
 proprietary status.
 
-[fn:5] Include some of this eugenicist history of stats tools. Can be
+[fn:7] Include some of this eugenicist history of stats tools. Can be
 brief.
 
-
+[fn:8] Link to the models!
