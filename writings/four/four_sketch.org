@@ -2,9 +2,9 @@
 ** questions
 1. What do concepts from Queer Studies and adjacent fields offer to
    computational tools for working with text?
-     4. Trans Studies' concept of EMBODIMENT/DYSPHORIA(?) offers an
-        approach to text generation that reveals shared investments
-        across identity and subject groups.
+     4. Trans Studies' concept of the body image offers an approach to
+        text generation that reveals shared investments across
+        identity and subject groups.
 
 2. How do these computational tools constrain the expressive potential
    of language into data?
@@ -14,9 +14,9 @@
 	
 3. How do concepts from Queer Studies and adjacent fields work against
    constraints in text data?
-     4. From the concept of EMBODIMENT/DYSPHORIA(?), the DESIRE FOR
-        CONFORMITY/NORAMTIVITY reveals shared investments between
-        polarized perspectives.
+     4. From the concept of the body image, the desire for gendered
+        normativity reveals shared investments between polarized
+        perspectives.
 
 ** roadmap
 - polarization:
@@ -77,28 +77,80 @@ a common relation to futurity. It then closes with a meditation on
 identity politics in current debates about gender ideology,
 to emphasize physical experiences of gender as part of identity -
 which it contrasts to gender as discursive/fluid in chapter 1.
-** reverse outline
+** aspirational outlines
+| Claim                                                                     | Function                                                                 |
+|---------------------------------------------------------------------------+--------------------------------------------------------------------------|
+| *Polarization*                                                            |                                                                          |
+| Shift in reading from truth to how knowledge moves                        | Proposes a new reading practice                                          |
+| Text generation can be a method for working within polarization           | Proposes text generation as this new practice                            |
+| Progressive model frames gender as liberatory, joyous                     | Example of one polarized view                                            |
+| Conservative model frames gender as stable, traditional                   | Example of another polarized view                                        |
+| Except subjectivity takes progressive context                             | Unexpected example of a middle ground view: caricature                   |
+| Caricature of "subjective" which indicates slipperyness of gender         | Connects HF caricature to defining gender as internal                    |
+| Peculiarity arises due to aggregation of prog/cons view                   | Posits that ML mechanism brings middle ground to the surface             |
+| LiB contains transgressive premis wrt the body                            | Explains choice of evidence base in chapter                              |
+| Defining gender as internal overlooks role of emobodiment in gender       | Explains why consider embodiment in identity                             |
+| Models are partitioned to study the body                                  | Further explains choice of evidence base                                 |
+| Cis subjects in LiB experience something like "trans trajectory"          | Opens thread on solidarity argument                                      |
+|                                                                           |                                                                          |
+| *Floating*                                                                |                                                                          |
+|                                                                           |                                                                          |
+| *Solidarities*                                                            |                                                                          |
+| Sedgwick: evidence of wrongdoing abounds; yet no narrative consequences   | Justifies need for new reading practice: truth does not suffice          |
+| Sedgwick on knowing truth does not lead to action                         | Further justifies need for new reading practice                          |
+| Chun on negative feelings polarizing groups and separating individuals    | Explains one effect of polarization: love in hatred                      |
+| ML outputs reveal middle ground where polar views might overlap           | Returns to overlap                                                       |
+| ML mechanism surfaces how trans bodily exp might surface cis exp          | Re-iterates how aggregation surfaces common ground between trans and cis |
+| Partitioning show transcripts to explore embodiment in dating             | Recaps why evidence was partitioned                                      |
+| LiB subjects experience bodily split that opens up solidarities           | Brings argument back to solidarity                                       |
+| Gender as physical develops gender as discursive from ch 1                | Closing thread on defining gender from ch. 1                             |
+| Trans Studies good at thinking specifics of embodiment                    | Associates TS with solidarity argument                                   |
+| Add para: expansion in source material troubles "queer" category so far   | Situates expansion in source material wrt "queer" ID                     |
+| As ML has shown, the body is a vector of connection between cis and trans | Reasserts the body as a means of connection                              |
 
-| Aggregation                                                         |                                                              |
-| Claim                                                               | Function                                                     |
-|---------------------------------------------------------------------+--------------------------------------------------------------|
-| 1. training models to generate text like show participants          | introduces methodology of ML training on transcripts         |
-| 2. ML's hunger for larger models is wasteful and inefficient        | introduces critique of ML methodology                        |
-| 3. rather, ML might be used as a reflexive tool                     | situates my methodological intervention w/r/t above critique |
-| 4. in addition to being reflexive, can be "normalizing"             | makes claim that intervention as "normalizing"               |
-| 5. for example, phrase "marriage is" generates approximations       | offers example of how methodological intervention works      |
-| 6. word vectors represent meaning as list of probabilties           | explains key concept in methodology: vectors                 |
-| 7. to get vectors, models must adjust themselves iteratively        | explains key mechanism: training process                     |
-| 8. training continues until model attains an average vector         | emphasizes cyclical aspect of training process               |
-| 9. model will then generate most plausible completions              | comes back to example to integrate mechanism                 |
-| 10. approximation is a normalization of language                    | reasserts and explains claim that mechanism is normalizing   |
-| ADD evidence to above paragraph: model wants/desires the average    |                                                              |
-| ADD paragraph: normalizing is also a drive in TS                    | sets up an analogical framework to work with ML mechanism    |
-| 11. Trans Studies affects are quotidian, opposed to QS              | brings up TS framework and opposes it to queer via affect    |
-| INTEGRATE 13: TS requires attention to norm attachments             |                                                              |
-| 12. performativity cannot address desire for sexed embodiment       | explains how this framework addresses embodiment gap in QS   |
-| 14. desire for normativity leads to embodiment disjunction          | ties TS's desire for norms to embodied experience            |
-| 15. REPHRASE: not only creates disjunction but also future relation | considers another effect of this desire                      |
+
+| Aggregation                                                   |                                                            |
+| Claim                                                         | Function                                                   |
+|---------------------------------------------------------------+------------------------------------------------------------|
+| 1. training models to generate text like show participants    | introduces methodology of ML training on transcripts       |
+| 2. ML's hunger for larger models is wasteful and inefficient  | introduces critique of ML methodology                      |
+| 3. my project uses ML in resistance to these trends           | asserts my methodological approach w/r/t size              |
+| 4. ML might be used as a reflexive tool                       | situates my methodological intervention w/r/t prediction   |
+| 5. in addition to being reflexive, can be "normalizing"       | makes claim that intervention as "normalizing"             |
+| 6. for example, phrase "marriage is" generates approximations | offers example of how methodological intervention works    |
+| 7. word vectors represent meaning as list of probabilties     | explains key concept in methodology: vectors               |
+| 8. to get vectors, models must adjust themselves iteratively  | explains key mechanism: training process                   |
+| 9. training continues until model attains an average vector   | emphasizes cyclical aspect of training process             |
+| 10. model will then generate most plausible completions       | comes back to example to integrate mechanism               |
+| 11. approximation is a normalization of language              | reasserts and explains claim that mechanism is normalizing |
+| 12. normalizing is also a drive in TS                         | sets up an analogical framework to work with ML mechanism  |
+| 13. Trans Studies affects are quotidian, opposed to QS        | brings up TS framework and opposes it to queer via affect  |
+| 14. performativity cannot address desire for sexed embodiment | explains how this framework addresses embodiment gap in QS |
+| 15. desire for normativity leads to embodiment disjunction    | ties TS's desire for norms to embodied experience          |
+| 16. Trans difference with queer is what aligns it with cis    | sets up the focus on next section on the show              |
+
+
+| Sensory splits                                                                          |                                                             |
+| Claim                                                                                   | Function                                                    |
+|-----------------------------------------------------------------------------------------+-------------------------------------------------------------|
+| 1. For this project, I trained two models to distinguish the phase of "blind" dating... | Sets up the methodology of training 2 models                |
+| 2. There is something peculiar about touch (intangible) in the pods model               | Analyzes output w/r/t "touch" in first evidence base        |
+| 3. The mechanism of approximation leads to quirks like repetition in outputs            | Explains quirks of the methodology: repeats, hallucinations |
+| 4. Meanwhile, the postpods model shows that touch is strange and repelling              | Compares analysis w/r/t "touch" in other evidence base      |
+| 5. "Overfitting" is a failure of the prediction process                                 | Explains another quirk of methodology: overfitting          |
+| 6. This quirk points to a scene of visual overwhelm from the show                       | Corroborates point on overfitting with transcripts          |
+| 7. For Irina, there is a paradox between visual and physical attraction                 | Develops argument on paradoxical relationship               |
+| 8. Perhaps, participants in pods experience bodies in heightened ways                   | Returns to outputs to make claim about bodily sensation     |
+| 9. They experience something like the body image from TS                                | Offers framework of TS to explain evidence                  |
+| 11. The body is subsequently reintegrated in the postpods phase, becoming more visual   | Develops argument to the postpods                           |
+| 12. Physical touch is lost in reintegration                                             | Develops "touch" argument                                   |
+| 13. After the pods, couples are haunted by this specter of what touch could have been   | Opens a thread of argument on the future                    |
+| 14. Intimacy is described as present then aspirational from pods to postpods            | Offers evidence of fulfillment via of shifts of intimacy    |
+| 15. Characters experience a something like trans future fatigue                         | Offering TS theorizing on relation to future                |
+
+
+
+
 
 
 ** bank
