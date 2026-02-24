@@ -5,77 +5,115 @@
 - sex
   - sex is so pleasurable, it overcomes desire to survive as humans
     - sex is made pleasurable due to union it offers
-  - where does the union take place? the mind or the body?
+  - the mind/body collapse: feelings of the body via the mind
     - a physiological phenomenon
   - examine response to fear, placing unknown into schemas of the
     known: medusa
     - in contrast to hierarchical methods, the Oankali genetically
       incorporate difference
     - ramifications on consent & control, toward collectivity
-  - the flesh offers both creates fear (difference) and potential for
+  - the flesh both creates fear (difference) and potential for
     connection (pleasure)
 
-| claim                                                            | function                                   |
-|------------------------------------------------------------------+--------------------------------------------|
-| *sex*                                                            |                                            |
-| 1. lilith is seduced by pleasurable sex                          | opening example for chapter: seduction     |
-| 2. lilith succumbs to pleasure despite resisting colonization    | contextualizes example wrt colonization    |
-| 3. critics debate role of bodily drives                          | adds critical context for seduction        |
-| 33. in sex scene, pleasure through union                         | shows example of union                     |
-| 34. the union proffers the body to the mind                      | makes key point about body/mind conflation |
-| 5. non-union experienced in fear of the other                    | shows example of non-union/xenophobia      |
-| + add transition: moving from pleasure to fear                   |                                            |
-| 6. "medusa" indicates fear of the unknown                        | adds critical context for xenophobia       |
-| 7. Medusa indicates human hierarchies to incorporate difference  | develops thread of xenophobia              |
-| 8. Oankali use gene trade to incorportate difference             | opens thread on consent/control            |
-| + on consent w/in collective forms                               |                                            |
-| 9. the paradox of the flesh, both pleasure and fear              | asserts main hypothesis on flesh           |
-| 4. overview of chapter                                           | offers overview of argument                |
-| 10. source material expands with nonqueer examples               | opens argument on expanding "queer"        |
-|                                                                  |                                            |
-| *flesh*                                                          |                                            |
-| 11. introducing two fields that study materiality                | introducing theoretical frameworks         |
-| + add: lanugauge on surface -> screen effects                    |                                            |
-| 12. Blk Fem theorizes flesh as contradiction                     | introduces key concept of flesh            |
-| 13. opacity create multiple, opposing registers                  | analyzes one effect of surface             |
-| + add more analysis of block quote                               |                                            |
-| 14. reduction to surface stimulates signification                | analyzes another effect of surface         |
-| 15. surface contains unmappability: daguerrotype                 | analyzes another effect of surface         |
-| 16. media theory field, that media is immaterial                 | introduces media theory                    |
-| + add more on materiality, plant, hayles?                        |                                            |
-| 17. another field reads materiality in media                     | introduces media archaeology               |
-| 18. concept of "forensic materiality"                            | introduces key concept of forensic mat     |
-| + flesh out forensic materiality, plant, hayles?                 |                                            |
-| 21. concept of 'formal materiality'                              | introduces key concept of form mat         |
-| 19. signifiers flicker up the stack                              | one effect of materiality                  |
-| 20. as it moves, accumulates torque                              | another effect of materiality              |
-| 22. the more formalized, the more manipulable                    | another effect of materiality              |
-| 23. reading surface and screen effects                           | summarizing section                        |
-| + add: flesh theory allows us to read screen                     |                                            |
-| + add: reading themes of pleasure, control in elit               |                                            |
-|                                                                  |                                            |
-| *skin*                                                           |                                            |
-| INSERT 32: on reading surface effects into work?                 | setting up concepts for close reading      |
-| 24. introduces /skin/, digital love letter                       | introduces main source material            |
-| 25. work is built on deprecated software, NET art                | contextualizes software of work            |
-| + add: more on software stack, javascript                        |                                            |
-| + add: images of emulator                                        |                                            |
-| 26. describes animation, air.html surface layer                  | analyzes surface layer of one page         |
-| 27. close reading of source code, conditional                    | analyzes code layer                        |
-| 28. close reading shows freedom within constraints               | analyses both layers                       |
-| + add more analysis on theme of control                          |                                            |
-| 29. close reading of control.htm surface layer                   | analyzes surface layer of another page     |
-| 30. full message is contained in code layer                      | analyzes code layer                        |
-| 31. message is thus unmappable to the surface                    | analyzes both layers                       |
-| + add more analysis on theme of control                          |                                            |
-| 35. there are messages contained totally in code                 | analyzes code layer of another page        |
-| -> move 36-38 to the start of the section?                       |                                            |
-| 36. reduced to one channel, communication means more             | analysis of reduction/signification        |
-| 37. even in intimacy, there is doubt of reality                  | raises question about intimacy             |
-| 38. physical/cultural differences create obstacle                | key point about obstacle to intimacy       |
-| 39. the unknown acts as a bridge, creating intimacy              | closes thread on intimacy                  |
-| 40. displacement offers another level of materiality             | concludes displacement/materiality         |
-| + add: the unknown becomes a new layer for connection            |                                            |
+- flesh
+  - looking at two fields that study materiality
+  - first field: Blk Fem studies:
+    - flesh both reduces and amplifies meaning in "stunning
+      contradiction".
+    - effects of creating mulitple registers for meaning, explosion of
+      meaning, unmappability of meaning.
+  - second field: Media archaeology:
+    - frameworks of forensic & formal materiality for reading digital
+      effects.
+    - effects of flickering signifiers, torque, volatility.
+  - these two fields together allow us to read how screen effects
+    might encode power differentials in social relations. 
+    - meaning changes, accumulates something as it moves from one
+      regime of signification (language) to another.
+      -> (revising what counts as "control")
+    - contradictory meanings (registers) can coexist across different
+      planes, simultaneously.
+      -> (there are multiple levels of reading, different messages
+         across them)
+    - meaning cannot be physically located or mapped to a material.
+      -> (unmappability of pleasure, initimacy, fear, the unknown is
+         what gives these concepts their significatory power)
+
+- how this all applies to skin:
+  - (in air.html) freedom within constraints -> revising notions of
+    control
+    - from total autonomy to autonomy within parameters
+  - (in control.html, whispers) different registers of meaning within
+    the same work -> multiple ways of reading what it means to be
+    controlled, manipulated. On one level, we get the whole message,
+    but on the surface we only get part of it.
+  - (chats) intimacy relies on unknowabilty -> revising
+    pleasure/xenophobia
+    - we cannot locate where intimacy is produced, there's a sense of
+      cannot be located to specific spot in the material; just like
+      xenophobic fear cannot be located, therefore rationalized.
+    - there is no place we can point to and say, that is what we are
+      afraid of.
+      
+
+| claim                                                          | function                                   |
+|----------------------------------------------------------------+--------------------------------------------|
+| *sex*                                                          |                                            |
+| lilith is seduced by pleasurable sex                           | opening example for chapter: seduction     |
+| lilith succumbs to pleasure despite resisting colonization     | contextualizes example wrt colonization    |
+| critics debate role of bodily drives                           | adds critical context for seduction        |
+| in sex scene, pleasure through union                           | shows example of union                     |
+| the union proffers the body to the mind                        | makes key point about body/mind conflation |
+| non-union experienced in fear of the other                     | shows example of non-union                 |
+| "medusa" indicates fear of the unknown                         | opens thread on xenophobia                 |
+| "medusa" indicates human hierarchies to incorporate difference | develops thread of xenophobia              |
+| Oankali use gene trade to incorportate difference              | develops thread to consent/control         |
+| the paradox of the flesh, both pleasure and fear               | asserts main hypothesis on flesh           |
+| overview of chapter                                            | offers overview of argument                |
+| source material expands with nonqueer examples                 | opens argument on expanding "queer"        |
+| + integrate paragraphs                                         |                                            |
+|                                                                |                                            |
+| *flesh*                                                        |                                            |
+| 1. introducing two fields that study materiality               | introducing theoretical frameworks         |
+| 2. Blk Fem theorizes flesh as contradiction                    | introduces key concept of flesh            |
+| 3. brilliance creates multiple, opposing registers             | analyzes one effect of surface             |
+| 4. reduction to surface stimulates signification               | analyzes another effect of surface         |
+| 5. surface contains unmappability: daguerrotype                | analyzes another effect of surface         |
+| 6. media theory field, that media is immaterial                | introduces media theory                    |
+| + add more on materiality, plant, hayles?                      |                                            |
+| 8. concept of "forensic materiality"                           | introduces key concept of forensic mat     |
+| + flesh out forensic materiality, plant, hayles?               |                                            |
+| 9. concept of 'formal materiality'                             | introduces key concept of form mat         |
+| 10. signifiers flicker up the stack                            | one effect of materiality                  |
+| 11. as it moves, accumulates torque                            | another effect of materiality              |
+| 12. the more formalized, the more manipulable                  | another effect of materiality              |
+| 13. reading surface and screen effects                         | summarizing section                        |
+| + add: flesh theory allows us to read screen                   |                                            |
+| + add: reading themes of pleasure, control in elit             |                                            |
+|                                                                |                                            |
+| *skin*                                                         |                                            |
+| INSERT 32: on reading surface effects into work?               | setting up concepts for close reading      |
+| 24. introduces /skin/, digital love letter                     | introduces main source material            |
+| 25. work is built on deprecated software, NET art              | contextualizes software of work            |
+| + add: more on software stack, javascript                      |                                            |
+| + add: images of emulator                                      |                                            |
+| 26. describes animation, air.html surface layer                | analyzes surface layer of one page         |
+| 27. close reading of source code, conditional                  | analyzes code layer                        |
+| 28. close reading shows freedom within constraints             | analyses both layers                       |
+| + add more analysis on theme of control                        |                                            |
+| 29. close reading of control.htm surface layer                 | analyzes surface layer of another page     |
+| 30. full message is contained in code layer                    | analyzes code layer                        |
+| 31. message is thus unmappable to the surface                  | analyzes both layers                       |
+| + add more analysis on theme of control                        |                                            |
+| 35. there are messages contained totally in code               | analyzes code layer of another page        |
+| + add analysis on what these two registers mean                |                                            |
+| -> move 36-38 to the start of the section?                     |                                            |
+| 36. reduced to one channel, communication means more           | analysis of reduction/signification        |
+| 37. even in intimacy, there is doubt of reality                | raises question about intimacy             |
+| 38. physical/cultural differences create obstacle              | key point about obstacle to intimacy       |
+| 39. the unknown acts as a bridge, creating intimacy            | closes thread on intimacy                  |
+| 40. displacement offers another level of materiality           | concludes displacement/materiality         |
+| + add: the unknown becomes a new layer for connection          |                                            |
 
 
 
