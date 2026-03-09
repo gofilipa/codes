@@ -1,5 +1,5 @@
 * Counter-Code: Queer Revisions of Language Technologies
-  
+
 ** book questions:
 1. What do concepts from Queer Studies and adjacent fields offer to
    computational tools for working with text?
@@ -97,6 +97,54 @@ expression.
   embodiment, popular discourse on transphobia and Reality TV.
 
 ** chapter snapshots
+- Introduction:
+    - /Detransition Baby/.
+      - mode of satire is a way of flipping certain logics.
+      - an "ironic" myth.
+- Chapter 0 (digital/analog):
+  - topic: text capture
+  - scope and evidence type:
+    - critique of DH theorizing on digitization as hermeneutic (from
+      Jerome McGann to Stephen Ramsay)
+    - WOC feminism (bell hooks, Cherrie Moraga) and technofeminism
+      (Plant, Haraway) as proto-Queer Studies to situate critique of
+      DH
+    - Close readings of Djuna Barnes' /Nightwood/ & Yiyun Li's /Dear
+      Friend/ bringing out elements of narrativity that threaten the
+      bounds of language forms.
+  - main claims:
+    - Language is always breaking the boundaries of its form. 
+    - Digitization is not immune from politics and power structures,
+      it is constituted by it.
+- Chapter 0 (web scraping):
+  - topic: text capture
+    - This chapter looks at the topic of Text Capture 
+  - scope and evidence type:
+    - /Confessions of the Fox/, how to elude capture, keep queerness
+      out of reach of capital.
+    - Policy documents on anti-trans legislation
+      -> the various forms that power takes within a system.
+      Bureaucratic, they capitalize on the information maze. They
+      elude capture. 
+    - Logic of accumulation which drives web scraping for LLM
+      training.
+      - > theres something about the desire for data, for capture, for
+        more -- this desire is extractive, exploitative.
+      - capital tracks us as individuals, to do things to us en masse.
+      - But hackers have found exploits, circumventing the system by
+        turning its logic against them.
+      - Is it possible to gather, accumulate, for something besides
+        extraction? Not oriented toward the exploitative and
+        individuating?
+        - What would a counter-scraping movement look like? 
+	  - Gathering the right data. Gathering proof. What is scraped
+            counts.
+	  - Gathering for the purpose of sharing, to open up
+            connections (without capturing them).
+    - Sarah Ahmed's disorientation, subjects come into being through
+      disorientation.
+      - approaching web scraping (data gathering) through
+        disorientation, what that does to the logic of accumulation
 - Chapter 1:
   - topic: text analysis and gender
   - scope and evidence type:

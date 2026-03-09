@@ -1,61 +1,28 @@
 * introduction
 
-** sketches
-This chapter needs to start with a tool, to explain mechanism.
+** intro sketch
+Digitality has been coopted. 
 
-The network mechanism of /These Waves of Girls/ can be read according
-to hypertext theory, or it can be read according to queer theory, to
-surveillance. In what ways can acts of exposure also be power? We see
-this in the beam routine. 
+We start with a meme from the DHS account, and read how that meme
+consolidates a variety of fears into a single image.
 
-There are different ways of reaching technical mechanisms.
+Reading memes as literary objects.
 
-The conclusion:
-- slow building. 
+There is an interpretive mechanism underlying the meme, but there is
+also a technical mechanism, which is based on networks and recommender
+algorithms.
 
+The rest of the introduction lays out the conceptual framework for the
+book, introducing the five digital "constraints" that guide the work
+in each of the chapters: digitization, iteration, containment,
+abstraction, and approximation. As the introduction explains, each of
+these concepts work in a reductive way upon language data, which
+methdologies form queer studies and related fields will push back
+against.
 
-** these waves of girls summary
+** conclusion sketch
+Reading fear as a contagion, something which aligns migrant activism
+and rights with those of transgender, as many arguments against
+transgender are couched in terms of contagion, ROGD.
 
-** summary description
-Beginning with a close reading of Caitlin Fisher’s hypertext fiction
-/These Waves of Girls/, the introductory chapter critiques
-conventional readings of networks and network theory which are often
-the basis for analyzing HTTP and HTML structures. These theories draw
-from poststructural models of thought which are disconnected from
-feminist and intersectional analysis. Rather, the chapter suggests
-other models for analyzing networks.
-
-the
-hypertext's disorienting network structure---its frustrating
-navigation due to the profusion of links--—formally enacts queer
-desire as never fully graspable and slippery. Drawing from this work
-as a paradigmatic example, this chapter frames /Counter-Code/'s
-central claim that digital contexts constrain elements of queerness,
-such as identity, desire, and experience, into computable forms,
-illustrating how digital protocols limit meaning-meaning.
-
-
-The chapter then situates /Counter-Code/ at the intersection of
-Digital Humanities and Queer Studies in an emerging subfield called
-Queer DH. This subfield emphasizes how software, data structures, and
-standards encode social ideologies rather than operating neutrally.
-Combining critical analysis and experimental digital practice, work in
-this field repurposes reductive computational processes as tools for
-engaging the opacity, ambiguity, and transformative potential of queer
-forms.
-
-The chapter then introduces the computational constraints central to
-each of the body chapters: iteration, containment, abstraction, and
-aggregation, explaining how each of these constraints reduces textual
-details in some way. 
-
-The introduction then maps out the chapter trajectories, each of which
-consdiers the tools of text analysis, encoding, display, and
-generation in turn.
-
-
-** what do I want my introduction to be?
-Something from today's world, a bit of evidence which shows that --
-what -- digital forms matter.
-
-What is the threat today
+ 
