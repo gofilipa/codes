@@ -3,33 +3,136 @@
 ** to read
 
 *** necessary
-- [ ] on gender:
-  - [ ] Nussenbaum critique of Butler
-  - [ ] Butler, /Bodies that Matter/
-  - [ ] Tinsley, /Elizi's Mirrors/
-  - [ ] Rosenberg's "Butler's Lesbian Phallus"
-  - [ ] to skim/re-read
-    - Butler, "Critically Queer"
-    - Tinsley's "Black Atlantic"
-    - Halberstam, /Female Masculinity/
-- [ ] on distant reading
-  - recent scholarship on text analysis from Bode, Underwood, and
-    /Cultural Analytics/
-  - weatherby's new book?
-  - to skim/re-read:
-    - Ramsay's book
-    - Da's article
-    - Underwood's book and his articles
-    - Bode's articles
-- [ ] on Python/text analysis
-  - source on how iteration works in Python
-  - logistic regression
-  - sources on reproducible criticism
+- on text analysis
+  - [ ] park and cordell article on word embeddings
+  - [ ] newer klein article "abolitionist" on word embeddings
+  - [ ] underwood on language models
+  - [ ] chang article on queer cultural analytics
+  - [ ] bode articles?
+  - [X] underwood book
+  - [X] underwood article
+- on gender
+  - [ ] chang on performativity
+  - [ ] bode on performativity
+  - [ ] rosenberg
+- on Python/text analysis
+  - [ ] source on how iteration works in Python
+  - [X] logistic regression
+  - [X] sources on reproducible criticism
 - [ ] on /Orlando/
   - Hovey's article on /Orlando/
   - Caughie's criticism of /Orlando/
   - reading notes on /Orlando/
 
+** chapter chart
+
+| claim                                                            | function                                          |
+|------------------------------------------------------------------+---------------------------------------------------|
+| doubt                                                            |                                                   |
+| 1. /Orlando/'s opening qualifies gender in language              | Introduces sample text on gender                  |
+| 2. Cleaning process removes minor language qualities             | Explains cleaning in text analysis                |
+| 3. Cleaning strips text of gender specificity & attributes       | Explains how cleaning affects sample              |
+| 4. Gender specificity/attributes not "minor" for /Orl/           | Contextualizes gender in source text              |
+| + add criticism of gender in /Orl/                               |                                                   |
+| 5. Iteration reworks text analysis as /procedure/ to read gender | Previews chapter's main argument                  |
+|                                                                  |                                                   |
+| falsifiable                                                      |                                                   |
+| 1 Text analysis begins with ambition, Moretti's ambition         | Introduces main player(s) in critique             |
+| 2 Assault accusations againts Moretti were ignored               |                                                   |
+| 3 His writing's suspiciously confident tone                      | Explores evidence for a point                     |
+| 4 Moretti's early aims to falsify interpretation                 | Introduces falsifiable criticism                  |
+| 5 Then with quant methods becomes distant reading                | Develops falsifiable crit to distant reading      |
+| 6 DR understates interpretive moves                              | Critiques falsifiable crit on interpretive stance |
+| 7 DR also overlooks details like race                            | Introduces critiques                              |
+| 8 DR uses ambition as proxy for avoiding minority critique       | Develops critique                                 |
+| 9 Da contrasts reproducibility with literary criticism           | Surfaces one unexpected perspective               |
+| 10 Da implicitly agrees with Moretti                             | Critiques the perspective                         |
+| + add Bode's critique stating the same                           |                                                   |
+| + add context of CLS field                                       |                                                   |
+| 11 Perspectival modeling emphasizes perspective over objective   | Explores reasonable response to this assumption   |
+| + reference Underwood's perspective on LLMs                      |                                                   |
+| 12 But he uses binary form to model gender data                  | Critiques new response                            |
+| 13 While other work interrogates social categories               | Introduces new orientation around text analysis   |
+| + add Chang & critique: newer work on gender in text analysis    |                                                   |
+| 14 Mandell's study of genre for gender                           | Focuses on one example                            |
+| 15 So & Roland analyze a mistake in text analysis                | Examines another example                          |
+| 16 For them, the binary fractures rather than reproduces         | Wraps up section with critique of binary          |
+|                                                                  |                                                   |
+| iteration in gender                                              |                                                   |
+| 1 Critics take "performative" as descriptive                     | Introducing theorizations of performativity       |
+| 2 However, performativity is constitutive for Butler             | Explains common misreading of Buter               |
+| 3 Butler draws from Irigaray                                     | Setting up Butler's argument about binaries       |
+| 4 Irigaray theorizes an excluded feminine                        |                                                   |
+| 5 The external feminine is generative matter for the binary      |                                                   |
+| 6 If unrepresentable, how to bring feminine back in?             | States a problem with representing femininity     |
+| 7 Language is productive -> performative                         | Introduces a central point in GP                  |
+| 8 Performativity is a repetition that cites norms                | Defines GP by repetition                          |
+| 9 Gender requires repetition                                     |                                                   |
+| 10 Repetition is the exploit for resignification                 | Exposes exploit in system                         |
+| 11 The term queer is resignified through repetition              | Offers example of exploit                         |
+| 12 Critique of subversion ala Chang                              | Specifies aspect of asubversion                   |
+| 13 Citing/Miming language repeatedly enables subversion          | Emphasizes aspect of repetition                   |
+| 14 Iteration displaces phallogocentrism                          | Wraps up GP argument                              |
+|                                                                  |                                                   |
+| iteration in python                                              |                                                   |
+| 1. Iteration is central to text analysis in Python               | Turns to programming mechanism of the loop        |
+| 4. Text analysis has these cleaning steps                        | Overview of cleaning process                      |
+| 2. For loop iterates and filters text                            | Introduces looping                                |
+| 3. Explanation of for loop filtering mechanism                   | Offers example of mechanism in code               |
+| 5. Next step: removing stopwords                                 | Proceeds to next step                             |
+| 6. Explanation: checking words against list of stops             | Explains step                                     |
+| 7. Next step: lemmatizing                                        | Proceeds to next step                             |
+| 8. Explanation: lemmatize() function                             | Explains step                                     |
+| 8.1 In counting, looping to keep track of words                  | Shifts from cleaning to counting                  |
+| 9. Counting words with concordance()                             | Proceeds to next step                             |
+| 10. Context window shows word's immediate surroundings           | Explains step                                     |
+| 11. To count the context words, similar()                        | Proceeds to next step                             |
+| 12. Words have no meaning but by context                         | Infers key point wrt signification                |
+| 13. Text analysis vs deep learning                               | Introduces mechanism for signifcation             |
+| 14. Vectors are based on contextual similarity                   | Introduces key concept for signification          |
+| 15. Vectors in tabular format, long probabilities                | Further explains key concept                      |
+| 16. In next section, gender vectors in /Orl/                     | Wraps up section                                  |
+|                                                                  |                                                   |
+| fluidity                                                         |                                                   |
+| 1. /Orl/'s experiments w lang good for text analysis             | Contextualizing source text wrt text analysis     |
+| 2. Iterative reading method cycles close & distant               | Explains reading method for section               |
+| 3. Terms similar to woman & man destabilize binary               | Further explains method                           |
+| + reading what is repudiated into terms                          |                                                   |
+| 4. Terms relate queer gender to language in novel                | Asserts argument from findings                    |
+| + woman -> power returns from repudiation                        |                                                   |
+| + man -> lack of integrity                                       |                                                   |
+| + gender -> is ultimately fluid                                  |                                                   |
+| woman                                                            |                                                   |
+| 5. In 'woman' terms, 'delicious' from boat scene                 | Begins reading of woman terms                     |
+| 6. Delicious describes feminine pleasure of refusal              | Develops argument on woman gender                 |
+| 7. Delicious has associated term, culpable                       | Develops further wrt culpable                     |
+| 8. Culpable brings guilt about refusing conformity               | Develops nuance in argument                       |
+| + 8.1 'culpable' is the repudiation being brought to delicious   |                                                   |
+| 9. Terms convey femininity as pleasurable guilt in refusal       | Culminates reading of woman gender                |
+| + revise/sharpen language                                        |                                                   |
+| man                                                              |                                                   |
+| 10. 'Chequered' marks boy Orl's &  narrator's entrance           | Moves to the other gender                         |
+| 11. Crisis of signifcation emerges in this scene                 | Introduces a key thematic                         |
+| + 'chequered' carries connotations of division                   |                                                   |
+| 12. Term 'despaired' furthers the crisis                         | Develops reading of thematic                      |
+| 13. Orlando struggles with figurative language                   | Further develops reading of thematic              |
+| + 13.1 male gender is divided until female settles it            | Asserts thematic of man                           |
+| + close reading of toy boat = ecstasy                            |                                                   |
+| genders together                                                 |                                                   |
+| 14. Words from both lists w/in one scene of crisis               | Multiple thematics in single scene                |
+| 15. Scene relates lang crisis with gender ambiguity              | Analyzes scene                                    |
+| 16. Gender associated with imagination and fluidity in the novel | Wraps up close reading argument                   |
+| + fluidity is repudiated and returned                            |                                                   |
+|                                                                  |                                                   |
+| Conclusion                                                       |                                                   |
+| 0 Orlando's first sentence and race                              | Sets up the problematic of race                   |
+| 2. Yet the iterative methodology reinforces fluidity             | Asserts critique of fluidity                      |
+| 1 + Butler on proliferation: we do not want it                   | Sets up critique of Butler                        |
+| 3. Critiques of discursive gender from Prosser                   | Critique from one perspective                     |
+| 4. Tinseley frames fluidity as corrosion/liquidation             | Critique from another perspective                 |
+| + add from /Ezili's Mirrors/?                                    |                                                   |
+| 5. Here the focus is on language                                 | Emphasizes language forms                         |
+| 6. Ch4 looks at materiality via media and blkfem theorizing      | Points to future chapters to address              |
 ** revision notes
 Doubt:
 - add reference to how text analysis not only affects gender but also
@@ -75,7 +178,7 @@ Fluid:
 - bring back analysis of the moor, via Hovey's critique of imperialism
   in the novel (from footnote). 
   
-** reverse outline v1
+*** reverse outline v1
 Introduction:
 - text analysis evacuates subtle markers of gender from VW's Orlando
   - (add: gender construct here draws from imperialist violence)
@@ -112,87 +215,21 @@ Fluid:
   - critique from Tinseley's notion of fluidity. 
  
 
-** chapter chart
-
-| claim                                                  | function                                           |
-|--------------------------------------------------------+----------------------------------------------------|
-| doubt                                                  |                                                    |
-| 1. /Orlando/'s opening qualifies gender in language    | Introduces sample text on gender                   |
-| 2. Text analysis removes minor qualities               | Explains cleaning in text analysis                 |
-| 3. Cleaning would strip text of gender                 | Explains how cleaning affects sample               |
-| 4. Gender designation is not "minor" for /Orl/         | Contextualizes gender in source text               |
-| + add reasoning: plot, critique on gender in  /Orl/    |                                                    |
-| 5. Iteration re-works text analysis to read gender     | Previews chapter's main argument                   |
-|                                                        |                                                    |
-| falsifiable                                            |                                                    |
-| 1. Text analysis to test/verify interpretation         | Introduces falsifiable crit perspective            |
-| 2. Falsifiable criticism into distant reading          | Develops falsifiable crit to distant reading       |
-| 3. Distant reading understates interpretive moves      | Critiques falsifiable crit on interpretive stance  |
-| + incorporate more critique on Ramsay                  |                                                    |
-| 4. The fantasy of the falsifiable                      | Outlines fuller critique of falsifiable crit       |
-| + flesh out critique: size, ambition, power of tech    |                                                    |
-| 5. Da's defense of science as reproducible             | Surfaces shared assumption across diff views       |
-| 6. Underwood's method pushes against objectivity       | Explores reasonable response to this assumption    |
-| 7. But his algorithm reinscribes gender as binary      | But critiques new response for reinscribing binary |
-| + develop critique on logistic regression              |                                                    |
-| + develop critique on gender binary: active/passive    |                                                    |
-| 8. While other work interrogates social categories     | Introduces new orientation around text analysis    |
-| 9. Mandell's study of genre for gender                 | One perspective here problematizes identity        |
-| 10. Work on race analyzes a mistake in text analysis   | Another perspective analyzes reductive mechanism   |
-| 11. Rigidity of method can surface unexpected readings | Culminates argument in support of last perspective |
-|                                                        |                                                    |
-| iterative                                              |                                                    |
-| 1. Mandell misreads performativity as imitability      | Introducing performativity, critique of Mandell    |
-| + butler is misunderstood, needs re-reading            |                                                    |
-| 2. Trans critique of Performativity's discursivity     | References a critique of its discursivity          |
-| 3. Irigaray's excluded, unspeakable feminine           | Introduces a theory of unspeakable femininity      |
-| 3.1 Butler questions how to bring feminine back in     | Describes Butler taking up this theory             |
-| + on Butler's rhetorical method, questioning           |                                                    |
-| 4. Butler reasons that language produces reality       | Introduces a central point for Butler              |
-| 5. Subjects are interpellated into power structures    | Explores a consequence of this point wrt power     |
-| + add consequence for interpellation                   |                                                    |
-| + gender determines power structures                   |                                                    |
-| 6. Subversion becomes possible through citing          |                                                    |
-| +  add example of citing from "Critically Queer"       |                                                    |
-| 7. Citing/Miming language enables subversion           |                                                    |
-| 8. Iteration displaces phallogocentrism                |                                                    |
-| 9. Iteration is central to text analysis in Python     |                                                    |
-| 10. For loop iterates and filters text                 |                                                    |
-| 11. Explanation of for loop filtering mechanism        |                                                    |
-| 12. Text analysis cleaning steps                       |                                                    |
-| 13. Next step: removing stopwords                      |                                                    |
-| 14. Explanation: checking words against list of stops  |                                                    |
-| 15. Next step: lemmatizing                             |                                                    |
-| 16. Explanation: lemmatize() function                  |                                                    |
-| 17. Counting words with concordance()                  |                                                    |
-| 18. Context window shows word immediate surroundings   |                                                    |
-| 19. To count the context words, similar()              |                                                    |
-| 20. Words have no meaning but by context               |                                                    |
-| 21. Text analysis vs deep learning                     |                                                    |
-| 22. Vectors are based on contextual similarity         |                                                    |
-| 23. Vectors in tabular format, long probabilities      |                                                    |
-| 24. In next section, gender vectors in /Orl/           |                                                    |
-|                                                        |                                                    |
-| fluid                                                  |                                                    |
-| 1. /Orl/'s experiments w lang good for text analysis   |                                                    |
-| 2. Iterative reading method cycles close & distant     |                                                    |
-| 3. Terms similar to woman & man destabilize binary     |                                                    |
-| 4. Terms relate queer gender to language in novel      |                                                    |
-| 5. In 'woman' terms, 'delicious' from boat scene       |                                                    |
-| 6. Delicious describes feminine pleasure of refusal    |                                                    |
-| 7. Delicious has associated term, culpable             |                                                    |
-| 8. Culpable brings guilt about refusing conformity     |                                                    |
-| 9. Terms convey femininity as passive power            |                                                    |
-| 10. 'Chequered' marks boy Orl's &  narrator's entrance |                                                    |
-| 11. Crisis of signifcation emerges in this scene       |                                                    |
-| 12. Term 'despaired' furthers the crisis               |                                                    |
-| 13. Orlando struggles with figurative language         |                                                    |
-| 14. Words from both lists w/in one scene of crisis     |                                                    |
-| 15. Scene relates lang crisis with gender ambiguity    |                                                    |
-| 16. Gender is associated with imagination in the novel |                                                    |
-| + could add reading of final scene "all is still now"  |                                                    |
-| 17. The iterative methodology reinforces fluidity      |                                                    |
-| 18. Critiques of discursive gender from Prosser        |                                                    |
-| 19. Tinseley frames fluidity as corrosion/liquidation  |                                                    |
-| 20. Here the focus is on materiality in language       |                                                    |
-| 21. More theorization needed on iterativity wrt power  |                                                    |
+** bank
+*** 5 AGENCY
+- If language produces the reality that it seems to merely reference,
+  it means that subjects are always interpellated, and in fact brought
+  into subjectivity, by a discourse prior to their participation in
+  it
+- "there is no power, construed as a subject, that acts, but only, to
+  repeat an earlier phrase, a reiterated acting that is power in its
+  persistence and instability" (171)
+- "if there is agency , it is to be found, paradoxically, in the
+  possibilities opened up in and by that constrained appropriation of
+  the regulatory law, by the materialization of that law, the
+  compulsory appropriation and identifi cation with those normative
+  demands" (xxi)
+- The process of that sedimentation or what we might call
+  materialization willbe a kind of citationality, the acquisition of
+  being through the citing of power,a citing that establishes an
+  originary complicity with power in the formationof the “I.”

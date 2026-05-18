@@ -1,10 +1,11 @@
 * excerpts
 ** Queen = King - Man + Woman analysis
 When word vectors were invented, its inventors introduced their power
-to the world via a formula. The famous formula uses a
-mathematical equation to calculate the meaning of the word "Queen":
+to the world via a formula (Mikolov et al. 2013). The famous formula
+uses a mathematical equation to calculate the meaning of the word
+"Queen":
 #+begin_quote
-Queen = King - Man + Woman (Mikolov et al. 2013)
+Queen = King - Man + Woman
 #+end_quote
 The meaning of the word "queen" is calculated by subtracting that of
 "man" from "king," and adding "woman." This example, presumably chosen
