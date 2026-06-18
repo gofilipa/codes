@@ -1,0 +1,253 @@
+* reader reports
+** feedback
+- overall issues, how the project is currently constituted
+  - how does *argument accumulate* in each chapter?
+    - connection between object and theory ought to feel necessary
+    - stronger grounding in book's overall argument
+    - "what the bringing together of queer studies/theory with digital
+      humanities tools and technologies does to transform or critique
+      the field"
+      - "what takeaway does this give us that is broadly applicable
+        within that field? What does it reveal about either the
+        technology discussed or queer theory broadly?
+  - where is the *urgency*?
+    - feels like series of term papers
+    - needs strong contribution to the discipline
+  - what is the *methodological* intervention?
+    - case needs to be made for the innovativeness of methodology, as
+      it appears to be mostly close reading for now
+      - how does cllose reading work wrt digital tools?
+	- "its reliance on close reading seems to work against its
+          goal of working as an introduction to digital tools"
+    - consider /Data Feminism/ as a model
+- length can be expanded
+
+I agree that the length can be expanded. Since I've been further
+revising my chapters over this spring, I have a more precise sense of
+how the argument in the larger argument coheres. I plan to expand all
+the chapters to include sections that explicitly integrate the book's
+larger argument and methodological intervention.
+
+- citing prior Dh work
+
+My introduction draws heavily from the scholars mentioned by the
+reviewer, especially Jason Boyd and Bo Ruberg. As the reviewer points
+out, these scholars helped to form the Queer DH field back in 2016-18.
+The introduction also draws from Kara Keeling, Jacob Gaboury, TL
+Cowan, and Jas Rault who all work in the intersection of queerness and
+computation, and from queer digital historiographical work by Cait
+McKinney and Avery Dame-Griff.
+
+Below is a list of works most influential for this project, including
+some more recent sources, as the reviewer suggests.
+
+  Barnett, Fiona, Zach Blas, micha cárdenas, Jacob Gaboury, Jessica
+  Marie Johnson, and Margaret Rhee. "QueerOS: A User’s Manual."
+  /Debates in the Digital Humanities 2016/. 2016.
+
+  Boyd, Jason and Bo Ruberg. "Queer Digital Humanities." /The
+  Bloomsbury Handbook to the Digital Humanities/. 2022.
+
+  Cowan, T. L., and Jas Rault. /Heavy Processing/. Punctum
+  books, 2024.
+
+  Dame-Griff, Avery. /The Two Revolutions: A History Of The
+  Transgender Internet/. Vol. 1. NYU Press, 2023.
+
+  McKinney, Cait. /Information Activism: A Queer History Of Lesbian
+  Media Technologies/. University of Texas Press. 2022.
+
+  Keeling, Kara. "Queer Os." /Cinema Journal/ 53.2 (2014):
+  152-157. 2014.
+
+  Ruberg, Bo, Jason Boyd, and James Howe. "Toward A Queer Digital
+  Humanities." /Bodies of information: Intersectional Feminism And The
+  Digital Humanities/ (2018): 108-128.
+
+  Ruberg, Bo. /Video Games Have Always Been Queer/. New York
+  University Press, 2019.
+
+I am not familiar with the essay, “Encoding/ Decoding” by Stuart Hall,
+but I am grateful for the reviewer's recommendation for a firmer
+grounding in Cultural Studies.
+
+- title change
+
+I agree that the title, in particular the phrasing "Counter Code,"
+could be stronger. Here are a couple of alternatives for the main
+title, based on "Queer Code" and "Queer Computation," as opposed to
+"Counter Code."
+
+/Queer Code: Re-Working Language Technologies/
+
+/Queer Code: Re-Visioning Language Technologies/
+
+/Queer Computation: Re-Coding Language Technologies/
+
+- writing style
+
+I agree that the writing should be as lucid and accessible as
+possible. One of the project's main goals is to speak across
+disciplinary audiences, and especially to introduce digital tools and
+knowledge to scholars from humanities backgrounds who consider
+themselves non-technical.
+
+** key issues
+
+Below are my responses to the three key issues outlined in your email. 
+
+*** How does the argument accumulate over the chapters?
+Language technologies reduce language complexity to make it
+computable. Words are removed from their original context, cleaned and
+standardized, so that they can be stored and analyzed at scale. These
+increasingly automated processes encode dominant logics and extractive
+incentives onto language data, creating well-documented issues with
+data sovereignty, privacy, and most recently, bias, as current AI
+tools demonstrate.
+
+This book breaks open and re-works technologies for analyzing language
+about sex, gender and sexuality. It takes a close look into
+technologies like web scraping, text analysis, machine learning, among
+others. Then, drawing from concepts in Queer Studies and related
+fields, it re-works these technologies into new analytical
+methodologies that open up, rather than reduce, novel readings of
+language data.
+
+Each of the five chapters considers a different technology for working
+with language. For that technology, the chapter identifies a technical
+constraint that reduces or flattens language meaning. For example,
+chapter 2, "Text Analysis," explores the technology of quantitative
+text analysis, and within that technology, the constraint of
+iteration: a logic of repetition in which text analysis programs
+execute the same action across large collections of text, one word at
+a time. This constraint, which allows quantitative text analysis to
+clean and regularize texts en masse, supresses minor details in
+language forms in favor of the most frequent textual patterns. The
+chapter then takes Judith Butler's concept of Gender Performativity,
+which describes gender as a social and behavioral phenomenon that
+becomes intelligible through habit or repetition, to re-work
+computational iteration into a new text analysis practice for studying
+subtle gender markers and descriptions in language. Unlike typical
+text analysis projects, which prioritize dominant semantic patterns
+and relationships, this new methodology uses quantification to surface
+the idiosyncracies and nuances in language meaning.
+
+The rest of the chapters similarly re-work computational processes and
+their constraints by applying a conceptual tool from Queer Studies.
+The table below sketches these dynamics.
+
+| Chapter              | Technology                 | Technical Constraint | Conceptual Tool                |
+|----------------------+----------------------------+----------------------+--------------------------------|
+| 1. Text Capture      | Web Scraping               | Protocol             | Borderlands Theory (Anzaldúa)  |
+| 2. Text Analysis     | Quantitative Text Analysis | Iteration            | Gender Performativity (Butler) |
+| 3. Text Preservation | Markup Language            | Containment          | Dis-Identification (Muñoz)     |
+| 4. Text Display      | Screen Display             | Abstraction          | Fleshiness (Musser)            |
+| 5. Text Generation   | Machine Learning           | Aggregation          | Body Dysphoria (Prosser)       |
+
+
+Each chapter tests its methodology on a different literary object. The
+earlier chapters explore traditional works of queer literature (Gloria
+Anzaldúa's /Borderlands/La Frontera: The New Mestiza/, 1987; Virginia
+Woolf’s /Orlando: A Biography/, 1928; Oscar Wilde’s /The Picture of
+Dorian Gray/, 1890), and the latter chapters take on more eclectic
+source material, some of which features heterosexual characters, from
+science fiction, electronic literature and reality TV (Octavia
+Butler's /Dawn/, 1987; Entropy8Zuper!'s /skinonskinonskin/, 1999;
+/Love is Blind/, 2020+). While the early chapters showcase novel
+readings of canonical works, the expansion of source material in the
+latter chapters poseS new orientations around queerness based on
+embodiment and shared experience. Echoing Butler's famous call for
+queerness which is "never fully owned, but always and only redeployed,
+twisted, queered from a prior usage and in the direction of urgent and
+expanding political purposes" this book illustrates how digital tools
+and methods, rather than offering solutions for understanding
+queerness or making it legible, creates opportunities for exploring
+its ever shifting permutations. (173).
+
+Re-defining "queer" for the future involves not just expanding subject
+matter, but also developing a robust conceptual toolset for doing
+resistance work. As the earlier chapters show, Queer Studies' initial
+(and necessary) emphasis on identity politics offers resistance
+methods that operate from /within/ systems of power. The first three
+chapters thus explore ways for re-working protocols and structures in
+order to deconstruct and reassemble totalizing logics. However, the
+latter chapters, which draw from more recent Trans- and Black
+Feminist-inflected work in Queer Studies, foreground methodologies
+that work /alongside/ and /beyond/ these systems. These methodologies
+center material realities and embodied experiences in ways that are
+not (and that cannot be) contained within existing systems. The book
+ultimately argues that both approaches, working inside and working
+beyond---shifting between opposition and collaboration, from co-opting
+to co-creating---are necessary for resistance.
+
+This book's focus on transforming theory into conceptual tools for
+doing DH analysis (explained in more detail in the Methodology
+question) sets it apart from other works in the Queer DH field, which
+explicitly emphasize queer subjects and/or objects of analysis.
+
+*** What is the urgency?
+Language technologies are increasingly black-boxed and automated. This
+book offers a blueprint for how language technologies work from the
+inside. It examines a "stack" of language technologies that progress
+from preliminary to advanced, from gathering language data, to
+cleaning and processing it, to visualizing and displaying it. The book
+begins with three chapters on the preliminary processes of gathering
+and structuring text, as well as exploratory analysis ("Text Capture,"
+"Text Analysis," "Text Preservation"). These chapters introduce
+founational concepts of text quantification and textual markup (i.e.,
+of counting word frequencies and structuring text data), which the
+later chapters develop into more advanced and layered processes of
+screen display and generative AI ("Text Display," "Text Generation").
+
+This scaffolded approach progressively builds a knowledge base over
+the course of the book. Through exposure to the logics of
+computational procedures, readers from various disciplinary background
+learn technical strategies to re-work the all but inevitable language
+technologies that proliferate around them.
+
+*** What is the methodological intervention?
+In response to the reviewer's comment about the close reading
+methodology working against the book's larger goal of introducing to
+digital tools: I actually see the two of them working in tandem.
+
+Close reading is the means for introducing digital tools, making them
+legible in a Literary Studies register. The book applies close reading
+to examine the inner workings of digital processes, to excavate how
+these processes work on the level of technological mechanism. It then
+seeks analogues for their mechanisms from the field of Queer Studies,
+which is rich with strategies for destabilizing, resisting and
+co-opting authoritative and delimiting structures. It applies these
+strategies from Queer Studies as conceptual /tools/ for technical
+experimentation---using them to re-work constraining mechanisms into
+new methodologies that open up novel readings of language data.
+
+I am inspired by Matthew Kirschenbaum's approach in his book,
+/Mechanisms: New Media And The Forensic Imagination/. In that book,
+Kirschenbaum offers deep readings of computer hardware, like the hard
+drive and the floppy disk, to the level of nanoscale. I studied with
+Kirschenbaum during my MA at U of Maryland, and he advised me on the
+first digital project that I ever created. I see my own methodology as
+expanding his literary approach for close reading digital phenomena
+into the realm of Queer Studies.
+
+* Bibliography
+
+Anzaldúa, Gloria. /Borderlands/La Frontera: The New Mestiza/. Aunt
+Lute Books. 1987.
+
+Butler, Judith. /Bodies That Matter: On the Discursive Limits of
+“Sex”/. Routledge, 2011.
+
+Kirschenbaum, Matthew G. /Mechanisms: New Media And The Forensic
+Imagination/. MIT Press. 2012.
+
+Muñoz, José Esteban. /Disidentifications: Queers of Color and the
+Performance of Politics/. José Esteban Muñoz. University of Minnesota
+Press, 1999.
+
+Musser, Amber Jamilla. /Sensual Excess: Queer Femininity and Brown
+Jouissance/. NYU Press, 2018.
+ 
+Prosser, Jay. /Second Skins: The Body Narratives of Transsexuality/.
+Columbia University Press. 1998.
+

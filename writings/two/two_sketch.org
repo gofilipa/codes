@@ -12,17 +12,17 @@
   - [X] underwood book
   - [X] underwood article
 - on gender
-  - [ ] chang on performativity
+  - [X] chang on performativity
   - [ ] bode on performativity
   - [ ] rosenberg
 - on Python/text analysis
-  - [ ] source on how iteration works in Python
+  - [X] source on how iteration works in Python
   - [X] logistic regression
   - [X] sources on reproducible criticism
-- [ ] on /Orlando/
-  - Hovey's article on /Orlando/
-  - Caughie's criticism of /Orlando/
-  - reading notes on /Orlando/
+- on /Orlando/
+  - [ ] Hovey's article on /Orlando/
+  - [ ] Caughie's criticism of /Orlando/
+  - [ ] reading notes on /Orlando/
 
 ** chapter chart
 
@@ -97,7 +97,6 @@
 | 1. /Orl/'s experiments w lang good for text analysis             | Contextualizing source text wrt text analysis     |
 | 2. Iterative reading method cycles close & distant               | Explains reading method for section               |
 | 3. Terms similar to woman & man destabilize binary               | Further explains method                           |
-| + reading what is repudiated into terms                          |                                                   |
 | 4. Terms relate queer gender to language in novel                | Asserts argument from findings                    |
 | + woman -> power returns from repudiation                        |                                                   |
 | + man -> lack of integrity                                       |                                                   |
@@ -106,10 +105,7 @@
 | 5. In 'woman' terms, 'delicious' from boat scene                 | Begins reading of woman terms                     |
 | 6. Delicious describes feminine pleasure of refusal              | Develops argument on woman gender                 |
 | 7. Delicious has associated term, culpable                       | Develops further wrt culpable                     |
-| 8. Culpable brings guilt about refusing conformity               | Develops nuance in argument                       |
-| + 8.1 'culpable' is the repudiation being brought to delicious   |                                                   |
-| 9. Terms convey femininity as pleasurable guilt in refusal       | Culminates reading of woman gender                |
-| + revise/sharpen language                                        |                                                   |
+| 8. Culpable modifies refusal/power, refusing conformity          | Develops nuance in argument                       |
 | man                                                              |                                                   |
 | 10. 'Chequered' marks boy Orl's &  narrator's entrance           | Moves to the other gender                         |
 | 11. Crisis of signifcation emerges in this scene                 | Introduces a key thematic                         |
@@ -118,7 +114,7 @@
 | 13. Orlando struggles with figurative language                   | Further develops reading of thematic              |
 | + 13.1 male gender is divided until female settles it            | Asserts thematic of man                           |
 | + close reading of toy boat = ecstasy                            |                                                   |
-| genders together                                                 |                                                   |
+| + genders together                                               |                                                   |
 | 14. Words from both lists w/in one scene of crisis               | Multiple thematics in single scene                |
 | 15. Scene relates lang crisis with gender ambiguity              | Analyzes scene                                    |
 | 16. Gender associated with imagination and fluidity in the novel | Wraps up close reading argument                   |
@@ -216,6 +212,18 @@ Fluid:
  
 
 ** bank
+*** VL Smith quote on Orlando narrative form, gender.
+In an influential reading of the novel, Victoria L. Smith explains
+that,
+
+#+begin_quote
+[w]hat happens in the novel—-the impossible story of the protagonist
+rather unremarkably changing from a man to woman and living 400
+years—-and what it thematizes—-language’s inability to adequately
+represent the 'thing itself'—-mirrors the undecidability of the
+text—-is it a biography, an autobiography, fantasy, etc.—-and the
+impossibility of the form of 'woman.' (Smith 58)
+#+end_quote
 *** 5 AGENCY
 - If language produces the reality that it seems to merely reference,
   it means that subjects are always interpellated, and in fact brought
@@ -233,3 +241,4 @@ Fluid:
   materialization willbe a kind of citationality, the acquisition of
   being through the citing of power,a citing that establishes an
   originary complicity with power in the formationof the “I.”
+  

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-06-09 Tue 13:29 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="fcalado" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org68d4333">1. reader reports</a>
+<ul>
+<li><a href="#orgc60934b">1.1. feedback</a></li>
+<li><a href="#org127d58b">1.2. key issues</a>
+<ul>
+<li><a href="#org70f1577">1.2.1. How does the argument accumulate over the chapters?</a></li>
+<li><a href="#org0470e00">1.2.2. What is the urgency?</a></li>
+<li><a href="#org889f24b">1.2.3. What is the methodological intervention?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgf2bf68c">2. Bibliography</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org68d4333" class="outline-2">
+<h2 id="org68d4333"><span class="section-number-2">1.</span> reader reports</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgc60934b" class="outline-3">
+<h3 id="orgc60934b"><span class="section-number-3">1.1.</span> feedback</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>overall issues, how the project is currently constituted
+<ul class="org-ul">
+<li>how does <b>argument accumulate</b> in each chapter?
+<ul class="org-ul">
+<li>connection between object and theory ought to feel necessary</li>
+<li>stronger grounding in book's overall argument</li>
+<li>"what the bringing together of queer studies/theory with digital
+humanities tools and technologies does to transform or critique
+the field"
+<ul class="org-ul">
+<li>"what takeaway does this give us that is broadly applicable
+within that field? What does it reveal about either the
+technology discussed or queer theory broadly?</li>
+</ul></li>
+</ul></li>
+<li>where is the <b>urgency</b>?
+<ul class="org-ul">
+<li>feels like series of term papers</li>
+<li>needs strong contribution to the discipline</li>
+</ul></li>
+<li>what is the <b>methodological</b> intervention?
+<ul class="org-ul">
+<li>case needs to be made for the innovativeness of methodology, as
+it appears to be mostly close reading for now
+<ul class="org-ul">
+<li>how does cllose reading work wrt digital tools?
+<ul class="org-ul">
+<li>"its reliance on close reading seems to work against its
+goal of working as an introduction to digital tools"</li>
+</ul></li>
+</ul></li>
+<li>consider <i>Data Feminism</i> as a model</li>
+</ul></li>
+</ul></li>
+<li>length can be expanded</li>
+</ul>
+
+<p>
+I agree that the length can be expanded. Since I've been further
+revising my chapters over this spring, I have a more precise sense of
+how the argument in the larger argument coheres. I plan to expand all
+the chapters to include sections that explicitly integrate the book's
+larger argument and methodological intervention.
+</p>
+
+<ul class="org-ul">
+<li>citing prior Dh work</li>
+</ul>
+
+<p>
+My introduction draws heavily from the scholars mentioned by the
+reviewer, especially Jason Boyd and Bo Ruberg. As the reviewer points
+out, these scholars helped to form the Queer DH field back in 2016-18.
+The introduction also draws from Kara Keeling, Jacob Gaboury, TL
+Cowan, and Jas Rault who all work in the intersection of queerness and
+computation, and from queer digital historiographical work by Cait
+McKinney and Avery Dame-Griff.
+</p>
+
+<p>
+Below is a list of works most influential for this project, including
+some more recent sources, as the reviewer suggests.
+</p>
+
+<p>
+Barnett, Fiona, Zach Blas, micha cárdenas, Jacob Gaboury, Jessica
+Marie Johnson, and Margaret Rhee. "QueerOS: A User’s Manual."
+<i>Debates in the Digital Humanities 2016</i>. 2016.
+</p>
+
+<p>
+Boyd, Jason and Bo Ruberg. "Queer Digital Humanities." <i>The
+Bloomsbury Handbook to the Digital Humanities</i>. 2022.
+</p>
+
+<p>
+Cowan, T. L., and Jas Rault. <i>Heavy Processing</i>. Punctum
+books, 2024.
+</p>
+
+<p>
+Dame-Griff, Avery. <i>The Two Revolutions: A History Of The
+Transgender Internet</i>. Vol. 1. NYU Press, 2023.
+</p>
+
+<p>
+McKinney, Cait. <i>Information Activism: A Queer History Of Lesbian
+Media Technologies</i>. University of Texas Press. 2022.
+</p>
+
+<p>
+Keeling, Kara. "Queer Os." <i>Cinema Journal</i> 53.2 (2014):
+152-157. 2014.
+</p>
+
+<p>
+Ruberg, Bo, Jason Boyd, and James Howe. "Toward A Queer Digital
+Humanities." <i>Bodies of information: Intersectional Feminism And The
+Digital Humanities</i> (2018): 108-128.
+</p>
+
+<p>
+Ruberg, Bo. <i>Video Games Have Always Been Queer</i>. New York
+University Press, 2019.
+</p>
+
+<p>
+I am not familiar with the essay, “Encoding/ Decoding” by Stuart Hall,
+but I am grateful for the reviewer's recommendation for a firmer
+grounding in Cultural Studies.
+</p>
+
+<ul class="org-ul">
+<li>title change</li>
+</ul>
+
+<p>
+I agree that the title, in particular the phrasing "Counter Code,"
+could be stronger. Here are a couple of alternatives for the main
+title, based on "Queer Code" and "Queer Computation," as opposed to
+"Counter Code."
+</p>
+
+<p>
+<i>Queer Code: Re-Working Language Technologies</i>
+</p>
+
+<p>
+<i>Queer Code: Re-Visioning Language Technologies</i>
+</p>
+
+<p>
+<i>Queer Computation: Re-Coding Language Technologies</i>
+</p>
+
+<ul class="org-ul">
+<li>writing style</li>
+</ul>
+
+<p>
+I agree that the writing should be as lucid and accessible as
+possible. One of the project's main goals is to speak across
+disciplinary audiences, and especially to introduce digital tools and
+knowledge to scholars from humanities backgrounds who consider
+themselves non-technical.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org127d58b" class="outline-3">
+<h3 id="org127d58b"><span class="section-number-3">1.2.</span> key issues</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Below are my responses to the three key issues outlined in your email. 
+</p>
+</div>
+
+<div id="outline-container-org70f1577" class="outline-4">
+<h4 id="org70f1577"><span class="section-number-4">1.2.1.</span> How does the argument accumulate over the chapters?</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+Language technologies reduce language complexity to make it
+computable. Words are removed from their original context, cleaned and
+standardized, so that they can be stored and analyzed at scale. These
+increasingly automated processes encode dominant logics and extractive
+incentives onto language data, creating well-documented issues with
+data sovereignty, privacy, and most recently, bias, as current AI
+tools demonstrate.
+</p>
+
+<p>
+This book breaks open and re-works technologies for analyzing language
+about sex, gender and sexuality. It takes a close look into
+technologies like web scraping, text analysis, machine learning, among
+others. Then, drawing from concepts in Queer Studies and related
+fields, it re-works these technologies into new analytical
+methodologies that open up, rather than reduce, novel readings of
+language data.
+</p>
+
+<p>
+Each of the five chapters considers a different technology for working
+with language. For that technology, the chapter identifies a technical
+constraint that reduces or flattens language meaning. For example,
+chapter 2, "Text Analysis," explores the technology of quantitative
+text analysis, and within that technology, the constraint of
+iteration: a logic of repetition in which text analysis programs
+execute the same action across large collections of text, one word at
+a time. This constraint, which allows quantitative text analysis to
+clean and regularize texts en masse, supresses minor details in
+language forms in favor of the most frequent textual patterns. The
+chapter then takes Judith Butler's concept of Gender Performativity,
+which describes gender as a social and behavioral phenomenon that
+becomes intelligible through habit or repetition, to re-work
+computational iteration into a new text analysis practice for studying
+subtle gender markers and descriptions in language. Unlike typical
+text analysis projects, which prioritize dominant semantic patterns
+and relationships, this new methodology uses quantification to surface
+the idiosyncracies and nuances in language meaning.
+</p>
+
+<p>
+The rest of the chapters similarly re-work computational processes and
+their constraints by applying a conceptual tool from Queer Studies.
+The table below sketches these dynamics.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Chapter</th>
+<th scope="col" class="org-left">Technology</th>
+<th scope="col" class="org-left">Technical Constraint</th>
+<th scope="col" class="org-left">Conceptual Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">1. Text Capture</td>
+<td class="org-left">Web Scraping</td>
+<td class="org-left">Protocol</td>
+<td class="org-left">Borderlands Theory (Anzaldúa)</td>
+</tr>
+
+<tr>
+<td class="org-left">2. Text Analysis</td>
+<td class="org-left">Quantitative Text Analysis</td>
+<td class="org-left">Iteration</td>
+<td class="org-left">Gender Performativity (Butler)</td>
+</tr>
+
+<tr>
+<td class="org-left">3. Text Preservation</td>
+<td class="org-left">Markup Language</td>
+<td class="org-left">Containment</td>
+<td class="org-left">Dis-Identification (Muñoz)</td>
+</tr>
+
+<tr>
+<td class="org-left">4. Text Display</td>
+<td class="org-left">Screen Display</td>
+<td class="org-left">Abstraction</td>
+<td class="org-left">Fleshiness (Musser)</td>
+</tr>
+
+<tr>
+<td class="org-left">5. Text Generation</td>
+<td class="org-left">Machine Learning</td>
+<td class="org-left">Aggregation</td>
+<td class="org-left">Body Dysphoria (Prosser)</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>
+Each chapter tests its methodology on a different literary object. The
+earlier chapters explore traditional works of queer literature (Gloria
+Anzaldúa's <i>Borderlands/La Frontera: The New Mestiza</i>, 1987; Virginia
+Woolf’s <i>Orlando: A Biography</i>, 1928; Oscar Wilde’s <i>The Picture of
+Dorian Gray</i>, 1890), and the latter chapters take on more eclectic
+source material, some of which features heterosexual characters, from
+science fiction, electronic literature and reality TV (Octavia
+Butler's <i>Dawn</i>, 1987; Entropy8Zuper!'s <i>skinonskinonskin</i>, 1999;
+<i>Love is Blind</i>, 2020+). While the early chapters showcase novel
+readings of canonical works, the expansion of source material in the
+latter chapters poseS new orientations around queerness based on
+embodiment and shared experience. Echoing Butler's famous call for
+queerness which is "never fully owned, but always and only redeployed,
+twisted, queered from a prior usage and in the direction of urgent and
+expanding political purposes" this book illustrates how digital tools
+and methods, rather than offering solutions for understanding
+queerness or making it legible, creates opportunities for exploring
+its ever shifting permutations. (173).
+</p>
+
+<p>
+Re-defining "queer" for the future involves not just expanding subject
+matter, but also developing a robust conceptual toolset for doing
+resistance work. As the earlier chapters show, Queer Studies' initial
+(and necessary) emphasis on identity politics offers resistance
+methods that operate from <i>within</i> systems of power. The first three
+chapters thus explore ways for re-working protocols and structures in
+order to deconstruct and reassemble totalizing logics. However, the
+latter chapters, which draw from more recent Trans- and Black
+Feminist-inflected work in Queer Studies, foreground methodologies
+that work <i>alongside</i> and <i>beyond</i> these systems. These methodologies
+center material realities and embodied experiences in ways that are
+not (and that cannot be) contained within existing systems. The book
+ultimately argues that both approaches, working inside and working
+beyond&#x2014;shifting between opposition and collaboration, from co-opting
+to co-creating&#x2014;are necessary for resistance.
+</p>
+
+<p>
+This book's focus on transforming theory into conceptual tools for
+doing DH analysis (explained in more detail in the Methodology
+question) sets it apart from other works in the Queer DH field, which
+explicitly emphasize queer subjects and/or objects of analysis.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0470e00" class="outline-4">
+<h4 id="org0470e00"><span class="section-number-4">1.2.2.</span> What is the urgency?</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+Language technologies are increasingly black-boxed and automated. This
+book offers a blueprint for how language technologies work from the
+inside. It examines a "stack" of language technologies that progress
+from preliminary to advanced, from gathering language data, to
+cleaning and processing it, to visualizing and displaying it. The book
+begins with three chapters on the preliminary processes of gathering
+and structuring text, as well as exploratory analysis ("Text Capture,"
+"Text Analysis," "Text Preservation"). These chapters introduce
+founational concepts of text quantification and textual markup (i.e.,
+of counting word frequencies and structuring text data), which the
+later chapters develop into more advanced and layered processes of
+screen display and generative AI ("Text Display," "Text Generation").
+</p>
+
+<p>
+This scaffolded approach progressively builds a knowledge base over
+the course of the book. Through exposure to the logics of
+computational procedures, readers from various disciplinary background
+learn technical strategies to re-work the all but inevitable language
+technologies that proliferate around them.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org889f24b" class="outline-4">
+<h4 id="org889f24b"><span class="section-number-4">1.2.3.</span> What is the methodological intervention?</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<p>
+In response to the reviewer's comment about the close reading
+methodology working against the book's larger goal of introducing to
+digital tools: I actually see the two of them working in tandem.
+</p>
+
+<p>
+Close reading is the means for introducing digital tools, making them
+legible in a Literary Studies register. The book applies close reading
+to examine the inner workings of digital processes, to excavate how
+these processes work on the level of technological mechanism. It then
+seeks analogues for their mechanisms from the field of Queer Studies,
+which is rich with strategies for destabilizing, resisting and
+co-opting authoritative and delimiting structures. It applies these
+strategies from Queer Studies as conceptual <i>tools</i> for technical
+experimentation&#x2014;using them to re-work constraining mechanisms into
+new methodologies that open up novel readings of language data.
+</p>
+
+<p>
+I am inspired by Matthew Kirschenbaum's approach in his book,
+<i>Mechanisms: New Media And The Forensic Imagination</i>. In that book,
+Kirschenbaum offers deep readings of computer hardware, like the hard
+drive and the floppy disk, to the level of nanoscale. I studied with
+Kirschenbaum during my MA at U of Maryland, and he advised me on the
+first digital project that I ever created. I see my own methodology as
+expanding his literary approach for close reading digital phenomena
+into the realm of Queer Studies.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf2bf68c" class="outline-2">
+<h2 id="orgf2bf68c"><span class="section-number-2">2.</span> Bibliography</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Anzaldúa, Gloria. <i>Borderlands/La Frontera: The New Mestiza</i>. Aunt
+Lute Books. 1987.
+</p>
+
+<p>
+Butler, Judith. <i>Bodies That Matter: On the Discursive Limits of
+“Sex”</i>. Routledge, 2011.
+</p>
+
+<p>
+Kirschenbaum, Matthew G. <i>Mechanisms: New Media And The Forensic
+Imagination</i>. MIT Press. 2012.
+</p>
+
+<p>
+Muñoz, José Esteban. <i>Disidentifications: Queers of Color and the
+Performance of Politics</i>. José Esteban Muñoz. University of Minnesota
+Press, 1999.
+</p>
+
+<p>
+Musser, Amber Jamilla. <i>Sensual Excess: Queer Femininity and Brown
+Jouissance</i>. NYU Press, 2018.
+</p>
+
+<p>
+Prosser, Jay. <i>Second Skins: The Body Narratives of Transsexuality</i>.
+Columbia University Press. 1998.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: fcalado</p>
+<p class="date">Created: 2026-06-09 Tue 13:29</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

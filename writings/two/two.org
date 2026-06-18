@@ -41,6 +41,11 @@ moment, stops it. If Orlando has a thesis about gender, it is
 this--gender is what one makes of it. It relies fantasy, imagination,
 and most importantly, language, in order to come into being.
 
+As Pamela Caughie asserts, "immediately our doubt is aroused. The
+emphasis on what should be obvious makes it seem unnatural. The em-
+phasis on an innocent pronoun makes it suspect" ("Double Discourse"
+42).
+
 5 This chapter examines how quantitative text analysis works to
 analyze gender by using Woolf’s /Orlando/ as a test case. It explores
 an experimental approach to text analysis that deconstructs gender
@@ -763,8 +768,8 @@ subversive queerness.
 
 13
 
-Subversion always aims toward destabilization. In doing so, repetition
-is key, enabling the introduction of the repudiation back into the
+Subversion aims toward destabilization. In doing so, repetition is
+key, enabling the introduction of the repudiation back into the
 system. Returning to Irigaray’s writing, Butler explains that Irigaray
 achieves subversion by "mim[ing] philosophy... and, in the mime,
 tak[ing] on a language that effectively cannot belong to her" (12).
@@ -1204,59 +1209,107 @@ vectors enable me to quickly proliferate beyond it. Rather than
 resolving gender into an oppositional structure or a neat formula, it
 cracks open.
 
-** TODO Fluidity
+** Fluidity
 
-1 Woolf’s novel, /Orlando: A Biography/, is ideal for a computational
-study of gender for two reasons. First, published in 1928, it is an
-early example of transgender narrative. Second, as many critics have
-noted, its characteristic modernist experimentation with the limits of
-language destabilizes normative concepts of identity and gender. Jane
-de Gay, Jill Channing, and Christy L. Burns, for example, assert that
-Woolf deploys imaginative elements, magical realism, and parody,
-respectively, to resist realist narrative expectations. De Gay
-describes Woolf’s writing as “feminist historiography” that “reject[s]
-Victorian patriarchal metanarratives” and instead “use[s] the
-strategies of fiction to bring history alive and make it live in the
-present” (de Gay 71). In a similar vein, Burns and Channing both point
-out that Woolf uses fantastical elements to disrupt expectations of
-plot and narrative to challenge the stability of gender and identity.
-Doubling down on the role of language, some critics emphasize that
-Woolf’s narration purposefully obfuscates any coherence between
-gender, identity, and even race and nationality. For example, Victoria
-L. Smith asserts that “the fantastic content in the novel is directly
-linked to the undecidability/impossibility of the form of the novel
-and of the protagonist” (58). Pamela Caughie agrees, arguing that
-Orlando’s transgressiveness comes from its discursive moves: “Far from
-defeating sexual difference, as many feminist critics claim, Orlando
-enacts it, enshrines it, exploits it, makes a spectacle of it, but as
-a playful oscillation not a stable opposition” (Caughie 48).
+Criticism:
+- novel defies generic categories, as it does to gender.
+- specifically, the experimental use of language destabilizes gender.
+- also destabilizes the binary: keeps the opposition, but challenges
+  their stability.
 
-2 In what follows, I pursue a text analysis method that I call
-“iterative” for the way it moves between close and distant reading, a
-process similar to what Andrew Piper calls “bifocal” reading. This
-process, in Piper’s words, “no longer us[es] our own judgments as
-benchmarks… but explicitly construct[s] the context through which
-something is seen as significant (and the means through which
-significance is assessed)” (17). My method takes the output of
-computations as material for close reading analysis, using the
-computer to identify words that I then examine in context and with
-critical subjectivity.
+*** 1 - [novel defies generic and gender categories]
 
-3 I begin with a list of terms that are computed as similar to “woman”
-and “man” in the text. To get distinctive results for each gender, I
-modified the code to remove any words with strong associations to the
-opposite gender. For example, I compute words that are most positively
-associated with “woman” and most negatively associated with “man.”
-Though this analysis, like Underwood’s, begins with a binary
-formulation of gender, this binary quickly destabilizes as I move
-deeper into the close reading analysis. By iterating through distant
-and close reading, the terms swell with significations that pluralize
-the binary and work toward resignifying the initial results for
-“woman” and “man.” Below are the words most closely associated with
-“woman” and “man,” respectively, each with its own score, or
-probability. The following are the words most associated with “woman”:
+/Orlando: A Biography/ is a fantastical novel that defies gender and
+genre expectations. Most famously, the main character himself,
+Orlando, begins the story as a man and inexplicably changes gender to
+female about halfway through the novel. Although time passes (over 300
+years), Orlando doesn't age, but she remains 30 old all the way until
+the end. Like her sex change, this peculiarity goes largely unremarked
+by the narrator. Critics, which have framed the novel in the context
+of modernist experimentation, posit that the fantastical narrative
+elements are a response to the social constraints of the time period.
+Jill Channing posits that, "After seeing works of authors such as
+James Joyce and D. H. Lawrence being tried for obscenity and
+consequently being censored, Woolf probably anticipated that she
+should disguise her representations of the fluidity of sexuality"
+(11).[fn:12]
+
+Besides the main character, the story's narrative elements and form
+are the other major defiers of expectations. As prominent Woolfian
+Scholar Pamela Caughie puts it, "The text of Orlando is as unstable as
+the sex of Orlando" (42). /Orlando/, subtitled /A Biography/, takes
+elements from real life and parodies and satirzes them, according
+critics like Christy Burns and Jane de Gay.[fn:20] It draws from
+English literary history as source material, with each chapter of the
+novel taking different literary periods like the Elizabethan,
+Restoration, and Victorian periods, where characters like Queen
+Elizabeth and Alexander Pope are featured and mocked. Additionally,
+the novel is a well-known fictionalization of the real life of Vita
+Sackville-West, Woolf's friend and lover.[fn:19] Episodes from
+Sackville-West's real life, like her heartbreak with the author Violet
+Trefusis, her disinheritance of the family estate at Knole, and her
+interest with Romani, are represented in the ups and downs of
+Orlando's trajectory, such as his heartbreak with Sasha, the Russian
+Princesss, and after her transition, her legal battle over her
+property and titles. 
+
+*** 2: close reading argument
+
+Critics have framed the novel's experimentation with language forms
+within the context of modernist experimentation.
+
+The most unstable element, however, is Woolf's language. According to
+Caughie:
+
+#+begin_quote
+In its rhetorical transports, Woolf's novel challenges the reference
+theory of meaning. In particular, it questions the notion that words
+get their meanings from things they refer to; the definition of words
+and categories by their essential traits; and the isolation of words
+and statements from their contexts of use in order to interpret them.
+(Caughie, "Double Discourse, 44-45).[fn:18]
+#+end_quote
+
+Similarly to Caughie, I argue that language's referential power is a
+central, if not the central, problematic in /Orlando/. However, unlike
+Caughie, who positions gender as the instigator of narrative
+experimentation, (i.e. "androgyny and transsexualism call into
+question...conventional assumptions about language itself" 44), I
+argue that language forms themselves destabilize, and then
+restabilize, gender.[fn:21] Like Butler, I argue that language is the
+creative material.
+
+For Butler, the repetition required by gender norms creates the
+opportunity for undoing them: "there is no gender without this
+reproduction of norms that risks undoing or redoing the norm in
+unexpected ways, thus opening up the possibility of a remaking of
+gendered reality along new lines." (Butler, PERFORMATIVITY, PRECARITY
+AND SEXUAL POLITICS, page i).
+
+In what follows, I pursue an /iterative/ text analysis method that
+toggles between close and distant views of language in the novel. The
+toggling between views recalls a procedure that Andrew Piper calls
+"bifocal" reading, which uses distant reading to identify elements for
+closer inspection, "explicitly construct[ing] the context through
+which something is seen as significant" (17).[fn:13] Unlike Piper,
+however, who "cede[s]" "some measure of subjectivity" to machinic
+processes of quantification, this method explicitly embraces personal
+choice for driving the focus of analysis. This personal choice,
+proclivity, as demonstrated below, will be essential to /subvert/
+expectation according to Butler's conception of iteration.
+
+3
+
+This analysis begins with the norm that it seeks to undo: the gender
+binary. Using ~Word2Vec~,[fn:14] a Python module for working with word
+vectors, I computed a list of vectors that are most similar to the
+terms "woman" and "man" from the novel. I saved these similar words in
+separate lists called ~woman_similar~ and ~man_similar~, as seen
+below.
 
 #+begin_src
+woman_similar 
+
 [(‘soft’, 0.3692586421966553), 
 (‘named’, 0.34212377667427063), 
 (‘sciatica’, 0.3223450779914856), 
@@ -1269,9 +1322,9 @@ probability. The following are the words most associated with “woman”:
 (‘seductiveness’, 0.30290719866752625)]
 #+end_src
 
-And the following with “man”:
-
 #+begin_src
+man_similar
+
 [(‘chequered’, 0.4025157392024994), 
 (‘fact’, 0.3394489586353302), 
 (‘denounced’, 0.3346075117588043), 
@@ -1284,99 +1337,122 @@ And the following with “man”:
 (‘rather’, 0.3024100363254547)]   
 #+end_src
 
-4 At first glance, the terms for each list appear to align with
-existing conceptions of femininity and masculinity, such as “soft” and
-“frilled” for “woman,” and “fact” and “defend” for “man.” But as I
-examine these words in context, the gender binary becomes less clear
-cut. From the “woman” list, the term “delicious” only appears after
-Orlando has transitioned into a woman in the story. As I explain
-below, this term reveals a relationship to queerness characterized by
-a distinctly passive mode of gender subversion. Then, from the “man”
-list, I examine a term that only appears once in the novel, at a
-significant moment which initiates what I call the novel’s “crisis of
-signification” with language. Following this thread, I examine further
-passages that develop this theme as it spreads into Orlando’s interior
-narration. I conclude with a close reading of a rather dramatic
-passage that contains words from both the “woman” and “man” lists, and
-that coordinates this crisis with themes of gender ambiguity and
-homosexual desire.
+Like ~NLTK~, ~Word2Vec~ module has a function for finding similar
+words, called ~most_similar()~. This function uses cosine similarity,
+a concept from trigonometry, in order to caculate the similarity of
+two words. The function searches for terms that appear with similar
+coordinates (i.e., close in distance) to "woman" and "man" in vector
+space.[fn:15]
 
-5 I begin with the word “delicious,” which occurs only after Orlando
-transitions into a woman. Three of this term’s five occurrences appear
-in a single passage, when Orlando is sailing from Turkey back to her
-native England. The ship captain offers Orlando a slice of beef, which
-sends her into a rapturous speculation about the joys of womanhood:
+I wanted to make sure that the terms represent the most characteristic
+qualities of each gender. I therefore put gender into an oppositional
+relationship, posing female terms through opposition to male ones. To
+get distinctive results for each gender, I added parameters specifying
+both the most "positive" and "negative" associations between the
+genders. The results, then, show words that most strongly correlate to
+"woman" while also being distant from "man" in vector space.[fn:16]
+
+#+begin_src python
+  woman_similar = model.wv.most_similar(positive = "woman", negative = "man")
+
+  man_similar = model.wv.most_similar(positive = "man", negative = "woman")
+#+end_src
+
+Though this analysis, like Underwood’s, begins with an oppositional
+formulation of gender, the goal is not to reproduce or reify the
+binary: rather, following Butler, it is to bring forth what has been
+repudiated by each term.
+
+To achieve this, the iterative practice is necessay. 
+
+While the terms from each list appear to align with existing
+conceptions of femininity and masculinity (“soft” and “frilled” for
+“woman,” and “fact” and “defend” for “man”), when examined in context,
+the binary is less clear cut.
+
+Underwood places male and female into a positive/negative axis, which
+the above formulation appears to replicate. However, the analysis here
+does two specific things that resist easy reproduction: first, it
+toggles between different vantages of the text, between close and
+distant, treating both as textual samples for close analysis; second,
+in its analysis of gender and gender-related terms, it seeks what has
+been or must be /repudiated/ in order for the terms to signify as they
+do in the text. It finds that the female and male genders are
+constituted by certain exclusions which can only be found by examining
+the terms that constitute the other gender.
+
+
+5
+
+I begin with a word from the ~woman_similar~ list, "delicious." This
+term only occurs five times in the novel, and only after Orlando
+transitions into a woman. Three of these occurances appear in a single
+passage, when Orlando is sailing from Turkey back to her native
+England. In this passage, the ship captain offers Orlando a slice of
+beef. Politely refusing, Orlando then launches into a rapturous
+speculation about the joys of womanhood.
 
 #+begin_quote
 ‘A little of the fat, Ma’m?’ he asked. ‘Let me cut you just the
 tiniest little slice the size of your fingernail.’ At those words a
-delicious tremor ran through her frame. Birds sang; the torrents
+/delicious/ tremor ran through her frame. Birds sang; the torrents
 rushed. It recalled the feeling of indescribable pleasure with which
 she had first seen Sasha, hundreds of years ago. Then she had pursued,
 now she fled. Which is the greater ecstasy? The man’s or the woman’s?
 And are they not perhaps the same? No, she thought, this is the most
-delicious (thanking the Captain but refusing), to refuse, and see him
-frown. Well, she would, if he wished it, have the very thinnest,
-smallest shiver in the world. This was the most delicious of all, to
+/delicious/ (thanking the Captain but refusing), to refuse, and see
+him frown. Well, she would, if he wished it, have the very thinnest,
+smallest shiver in the world. This was the most /delicious/ of all, to
 yield and see him smile. ‘For nothing,’ she thought, regaining her
 couch on deck, and continuing the argument, ‘is more heavenly than to
-resist and to yield; to yield and to resist. (114)
+resist and to yield; to yield and to resist. (emphasis mine, 114)
 #+end_quote
 
-6 Here, “delicious” describes a refusal, then a yielding—-the
-vacillations of what appears to be a passive form of pleasure,
-ostensibly opposed to the active pleasure of pursuit which Orlando
-enjoyed as a man. Although the word “delicious” describes an arguably
-feminine experience of pleasure, about withholding and, eventually,
-submitting to the active force, it is a pleasure rooted in what is not
-quite passivity and not quite power.
+6
 
-7 To get a deeper understanding of this term, I run another similarity
-search with “delicious” as the target word. The top result, the word
-most related to “delicious” in the text, is “culpable.” I then turn
-back to the text to examine where this word appears, which happens
-twice, both times in the same scene on the ship, during Orlando’s
-ruminations about the pleasures between the sexes. The first of those
-appearances occurs within one of the few sentences in the novel in
-which Orlando considers her homosexuality explicitly:
+Delicious---which is repeated insistently, conspicuously, in this
+passage---describes a distincly feminine experience of pleasure. Part
+of its novelty comes from its opposition to the active form pleasure
+of pursuit that Orlando enjoyed as a man, when he fell in love with
+Sasha, the Russian princess. In contrast to the pleasure of chasing
+Sasha, this feminine pleaure is about withholding and, eventually,
+submitting. A submission that is rooted in what is not quite passivity
+and not quite power, but a vacillation between the two.
+
+7
+
+Iterating on this term, I run another similarity search, this time
+with "delicious" as the target word. The top result, the word most
+related to “delicious” in the text, is "culpable." In the novel, this
+term occurs twice, also on the ship, in Orlando’s ruminations about
+the pleasures between the sexes. As it happens, the first of those
+appearances occurs in one of the few sentences in the novel in which
+Orlando considers her homosexuality explicitly:
 
 #+begin_quote
-And as all Orlando’s loves had been women, now, through the culpable
+And as all Orlando’s loves had been women, now, through the /culpable/
 laggardry of the human frame to adapt itself to convention, though she
 herself was a woman, it was still a woman she loved; and if the
 consciousness of being of the same sex had any effect at all, it was
-to quicken and deepen those feelings which she had had as a man. (119)
+to quicken and deepen those feelings which she had had as a man.
+(emphasis mine, 119)
 #+end_quote
 
-8 “Culpable,” from the Latin “culpa,” meaning fault, denotes a body
-deserving of blame for its refusal to conform. Here, the word modifies
-“laggardry,” which describes the obstinacy or persistency of Orlando’s
-love for women, despite that she is now a woman herself. It seems
-that, for Orlando, desire is defined by a sense of guilt about
-refusing to conform. The next usage of this term occurs soon after,
-when Orlando reprises her earlier thoughts about the deliciousness of
-refusal:
+8
 
-#+begin_quote
-‘To refuse and to yield,’ she murmured, ‘how delightful; to pursue and
-conquer, how august; to perceive and to reason, how sublime.’ Not one
-of these words so coupled together seemed to her wrong; nevertheless,
-as the chalky cliffs loomed nearer, she felt culpable; dishonoured;
-unchaste, which, for one who had never given the matter a thought, was
-strange. (120)
-#+end_quote
-
-9 Rehearsing the conventional roles of the sexes, roles which Orlando
-fails to fit into, she feels (in addition to “culpable)
-“dishonour[ed]” and “unchaste”–-words associated with an ideal of
-virtuous femininity. This feminizing language deepens the relationship
-between desire, guilt, and deliciousness, the last of which was
-previously characterized as pleasure in a passivity that is not quite
-powerless. Here, Orlando’s refusal to conform to social expectations,
-for which she feels culpable, constitutes another kind of passivity, a
-form of refusal. The connection between “delicious” and “culpable”
-seems to define queer desire as a distinctly passive mode of
-resistance.
+“Culpable,” from the Latin “culpa,” meaning fault, denotes a person
+deserving of blame. In text's original context, the term modifies
+“laggardry of the human frame,” referring to the physical body which
+refuses "to adapt itself to convention"---in this case, the convention
+a female body loving a male one, of heterosexuality. "Culpable" thus
+describes a guilt associated with an /embodied/ obstinancy, that of
+sexual desire. Here, Orlando’s refusal to conform to social
+expectations, for which she feels culpable, constitutes another form
+of refusal---this time, a refusal to conform to social expectations.
+Like "delicious," this refusall is also a passive one, based on /not/
+taking a prescribed action. The connection between “delicious” and
+“culpable” thus seem to define feminine pleasure and desire as a
+distinctly passive mode of resistance.
 
 10 Now, I move to Orlando’s experience as a man, returning to the
 original list of similar terms. I return to the list of vectors
@@ -1536,6 +1612,79 @@ happens with gender. The above passage, with its “switching” and
 “shifting” discourse, which asserts that word choices are arbitrary
 and flowing, implies that gender is also a fluid phenomenon.
 
+4
+
+For example, from the “woman” list, the term “delicious”
+
+only appears after Orlando has transitioned into a woman in the story.
+As I explain below, this term reveals a relationship to queerness
+characterized by a distinctly passive mode of gender subversion. Then,
+from the “man” list, I examine a term that only appears once in the
+novel, at a significant moment which initiates what I call the novel’s
+“crisis of signification” with language. Following this thread, I
+examine further passages that develop this theme as it spreads into
+Orlando’s interior narration. I conclude with a close reading of a
+rather dramatic passage that contains words from both the “woman” and
+“man” lists, and that coordinates this crisis with themes of gender
+ambiguity and homosexual desire.
+
+Iterating through distant and close reading, the terms swell with
+unexpected significations.
+
+*** [Woolf uses otherness in order to express gender transgression]
+
+  As a trans figure, Orlando challenges "embodied normative
+  nationality"... "national belonging being both what Orlando longs for
+  from the hills of Turkey and what her transformative experience in
+  Turkey forever undoes."[fn:17] (Berman 139)
+
+  Embodiment is always mediated: "“By ruminating on the potential
+  disconnection between clothing and embodiment, Woolf not only
+  mobilizes a familiar Orientalist trope but also and perhaps more
+  importantly demonstrates that we never have "unmediated access" to
+  "the materiality of the body" nor do we ever know it with certainty
+  (qt Salamon, Assuming a Body) (Berman 234).
+
+  "Woolf reaches for Orientalist tropes in /Orlando/ not because of
+  her fantasies about Turkey or the gypsies (which she may well have
+  harbored) but because she rightly recognized that English civic
+  discourses about gender and nationality allowed no room for
+  narratives of transgression or change on her home turf” (Berman 235).
+
+  According to Jamie Hovey, gender and nationality are constructed via
+  race and sexuality. "Sexuality and other dimensions of identity,
+  such as nation and race, are seen as performed through gender"
+  (Hovey 397).
+
+  "Gender and nationality operate as essentializing ideologies of
+  identity only if sexuality and race remain nationality's half-hidden
+  or forgotten others" (Hovey 393).
+
+  "Orlando seeks a place of national belonging for the polymorphously
+  sexual, masculine identified white woman" (Hovey 394).
+
+  "uses racially and sexually 'foreign' subjects to explore the
+  ambiguous national and social identity of a queerly gendered white
+  Englishman, excluded from the nation by her polymorphus sexuality"
+  (398). 
+
+*** 1.2 - [novel challenges traditional binary]
+
+While some critics argue that the novel supports a
+
+The novel refies sexual difference
+
+Sexual difference and doubling is a necessary mechanism for expressing
+the self in the novel.
+
+- Pamela Caughie agrees, arguing that Orlando’s transgressiveness
+  comes from its discursive moves: “Far from defeating sexual
+  difference, as many feminist critics claim, Orlando enacts it,
+  enshrines it, exploits it, makes a spectacle of it, but as a playful
+  oscillation not a stable opposition” (Caughie 48).
+- suggests that a doubleness is needed to produce the self as woman,
+  to represent (her) self” (Smith 58).
+
 ** Conclusion
 
 0 The rest of the first sentence, "—was in the act of slicing at the
@@ -1614,6 +1763,54 @@ processes within quantitative analysis.
 6 Wraps up, points to future chapters. 
 
 * Footnotes
+
+[fn:21] I discuss the contrary view in the chapters conclusion.
+
+[fn:20]  Burns, Christy L. “Re-Dressing Feminist Identities: Tensions
+between Essential and Constructed Selves in Virginia Woolf's Orlando.”
+*Twentieth Century Literature*, vol. 40, no. 3, 1994, pp. 342–364.
+*JSTOR*, www.jstor.org/stable/441560; De Gay, Jane. "Virginia Woolf's
+feminist historiography in Orlando." Critical Survey, vol. 19, no. 1,
+2007, p. 62+.
+
+[fn:19] “‘If I Saw You Would You Kiss Me?": Sapphism and the
+Subversiveness of Virginia Woolf's Orlando.” /PMLA/, vol. 103, no. 1,
+1988, pp. 24–34. www.jstor.org/stable/462459
+
+[fn:18] Pamela Caughie. “Virginia Woolf’s Double Discourse.”
+Discontented Discourses : Feminism/textual
+Intervention/psychoanalysis. Ed. Marleen S. Barr & Richard Feldstein.
+Urbana, IL: University of Illinois Press, 1989. 41–53.
+
+[fn:17] Jessica Berman, "Is the Trans in Transnational the Trans in
+Transgender?" /Modernsim/Modernity/, vol 24, no 2, 2017. 217-244.
+
+[fn:16] Link to file from this project's source code:
+https://github.com/gofilipa/qdr/blob/master/lib/actions.py
+
+[fn:15]  The documentation describes ~similar_words()~ "computes
+cosine similarity between a simple mean of the projection weight
+vectors of the given keys and the vectors for each key in the model...
+correspond[ing] to the word-analogy and distance scripts in the
+original word2vec implementation.". Link to most_similar() source
+code:
+https://radimrehurek.com/gensim/models/keyedvectors.html#gensim.models.keyedvectors.KeyedVectors.most_similar
+
+[fn:14] Link to Word2Vec source code:
+https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec
+
+[fn:13] Andrew Piper, /Enumerations/, University of Chicago
+Press, 2019. page 18.
+
+[fn:12] Channing, Jill. "Magical realism and gender variability in
+Orlando." Virginia Woolf Miscellany, no. 67, 2005, p. 11+.
+
+[fn:11] "'Ransacking the Language': Finding the Missing Goods in
+Virginia Woolf's Orlando." Journal of Modern Literature, vol. 29 no.
+4, 2006, pp. 57-75. Project MUSE, doi:10.1353/jml.2006.0050
+
+[fn:10] De Gay, Jane. “Virginia Woolf’s Feminist Historiography In
+Orlando.” /Critical Survey/, vol. 19, no. 1, 2007, p. 62+.
 
 [fn:9] link to source Counter (python) code:
 https://github.com/python/cpython/blob/main/Lib/collections/__init__.py;

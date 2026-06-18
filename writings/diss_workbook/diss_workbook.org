@@ -63,17 +63,21 @@
         perspectives.
 ** book argument
 Concepts from Queer Studies and adjacent fields offer methodological
-approaches to computational tools that work with text-based data. Such
-tools, which are used for tasks like text generation, preservation,
-and display, tend to constrain language about gender, sex, and
-sexuality, stripping its idiosyncrasies and ambiguities, to turn it
-into computable units of data. Queer Studies and adjacent fields
-inspire methodologies for working against these
-constraints---methodologies that destabilize authoritative and
-delimiting structures, and open novel readings of language data. By
-engaging closely and attentively with these computational processes,
-users can resist the reductive ways that technology works upon
-expression.
+approaches to computational tools that work with text-based data.
+
+Such tools, which are used for tasks like text generation,
+preservation, and display, tend to constrain language about gender,
+sex, and sexuality, stripping its idiosyncrasies and ambiguities, to
+turn it into computable units of data.
+
+Queer Studies and adjacent fields inspire methodologies for working
+against these constraints---methodologies that destabilize
+authoritative and delimiting structures, and open novel readings of
+language data.
+
+By engaging closely and attentively with these computational
+processes, users can resist the reductive ways that technology works
+upon expression.
 
 ** evidence
 *** main examples or case studies:
@@ -97,22 +101,6 @@ expression.
   embodiment, popular discourse on transphobia and Reality TV.
 
 ** chapter snapshots
-- Chapter 0 (digital/analog):
-  - topic: text capture
-  - scope and evidence type:
-    - critique of DH theorizing on digitization as hermeneutic (from
-      Jerome McGann to Stephen Ramsay)
-    - WOC feminism (bell hooks, Cherrie Moraga) and technofeminism
-      (Plant, Haraway) as proto-Queer Studies to situate critique of
-      DH
-    - Close readings of Djuna Barnes' /Nightwood/ & Yiyun Li's /Dear
-      Friend/ bringing out elements of narrativity that threaten the
-      bounds of language forms.
-  - main claims:
-    - Language is always breaking the boundaries of its form. 
-    - Digitization is not immune from politics and power structures,
-      it is constituted by it.
-
 - Chapter 1 (web scraping):
   - topic: text capture
     - This chapter looks at the topic of Text Capture 
@@ -140,7 +128,9 @@ expression.
       disorientation.
       - approaching web scraping (data gathering) through
         disorientation, what that does to the logic of accumulation
-
+  - metacommentary:
+    - slowing down creates abundance of signification
+      
 - Chapter 2:
   - topic: text analysis and gender
   - scope and evidence type:
@@ -166,7 +156,7 @@ expression.
     - Words have inherent multiplicity, meaning is always expanding
       beyond the binary. (But also, meaning is discursive,
       disembodied--lacking material realities, whitewashed).
-
+      
 - Chapter 3:
   - topic: text encoding and sexuality
   - scope and evidence type:
@@ -209,7 +199,7 @@ expression.
       - Materiality exists even in abstracted forms, and points to
         significatory possibilities that resist circumscription.
   - metacommentary:
-    - The materiality of the sign offers a way of working within
+    - Grounding immaterial behavior in material layers re-works
       reductive signification processes.
 
 - Chapter 5:
