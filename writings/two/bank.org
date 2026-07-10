@@ -1,0 +1,161 @@
+*** In python, text analysis tasks are based on a module called ~Counter~,
+which contains the functions for starting and keeping track of word
+counts. The logic, which is simplified below from the source code,
+(written originally in the C programming language[fn:9]) keeps track
+of how many times each word has appeared while going through a text
+one word at a time.
+
+#+begin_src python
+counts = {}
+
+for word in text:
+
+    if word not in counts:
+        counts[word] = 0
+
+    counts[word] = counts[word] + 1
+#+end_src
+
+For every word, the program checks whether it has already been seen
+before, starting with the statement ~if word not in counts~. If it has
+not been seen, the program runs the indented line below to set the
+count to zero. Then, moving to the following line, the count is
+increased by one to represent the current appearance. However, if the
+word /has/ already been seen, the program will skip the 0 line and
+instead retrieve the existing count, to increase it by one again. By
+repeating this process for every word, the program builds a complete
+record of how many times each unique word occurs.
+
+The counts for the first sentence of the text are the following:
+
+#+begin_src python
+  Counter({'could': 232,
+	 'doubt': 27,
+	 'sex': 53,
+	 'though': 94,
+	 'fashion': 11,
+	 'time': 154,
+	 'something': 73,
+	 'disguise': 4,
+	 ...})
+#+end_src
+
+The logic of this counting loop is fully articulated in another
+programming language, the C language. The C language is a lower-level
+language that underlies Python code. In that language, the
+instructions for the same loop appear with the following syntax.
+
+#+begin_src c
+
+  while ((key = PyIter_Next(it)) != NULL) {
+
+    oldval = PyDict_GetItem(mapping, key);
+
+    if (oldval == NULL) {
+        newval = 1;
+    }
+    else {
+        newval = oldval + 1;
+    }
+
+    PyDict_SetItem(mapping, key, newval);
+  }
+#+end_src
+
+The C loop, which begins with ~while~, updates a value by one: ~newval
+= oldval + 1~. While the code in the C language is more convoluted
+than Python, it runs more efficiently. This is because C code can run
+at lower levels of the software stack, which is where computation and
+counting actually occurs. Python, by contrast, needs to be translated
+("compiled") in order to be understood by lower-level machine
+processes.
+
+*** It drive one of the most important programming structures, called the "loop,"
+which /iterates/ through collections of data like text, performing the
+same operation to each word. Iterating or "looping through" words in a
+text will count their features. And counting, as I explain below, is
+the foundation of all text analysis tasks, from word clouds to text
+generation.
+*** chapter overview
+
+4
+
+For example, from the “woman” list, the term “delicious”
+
+only appears after Orlando has transitioned into a woman in the story.
+As I explain below, this term reveals a relationship to queerness
+characterized by a distinctly passive mode of gender subversion. Then,
+from the “man” list, I examine a term that only appears once in the
+novel, at a significant moment which initiates what I call the novel’s
+“crisis of signification” with language. Following this thread, I
+examine further passages that develop this theme as it spreads into
+Orlando’s interior narration. I conclude with a close reading of a
+rather dramatic passage that contains words from both the “woman” and
+“man” lists, and that coordinates this crisis with themes of gender
+ambiguity and homosexual desire.
+
+Iterating through distant and close reading, the terms swell with
+unexpected significations.
+
+*** For Butler, the repetition required by gender norms creates the
+opportunity for undoing them: "there is no gender without this
+reproduction of norms that risks undoing or redoing the norm in
+unexpected ways, thus opening up the possibility of a remaking of
+gendered reality along new lines." (Butler, PERFORMATIVITY, PRECARITY
+AND SEXUAL POLITICS, page i).
+*** Woolf uses otherness in order to express gender transgression
+
+  As a trans figure, Orlando challenges "embodied normative
+  nationality"... "national belonging being both what Orlando longs for
+  from the hills of Turkey and what her transformative experience in
+  Turkey forever undoes."[fn:17] (Berman 139)
+
+  Embodiment is always mediated: "“By ruminating on the potential
+  disconnection between clothing and embodiment, Woolf not only
+  mobilizes a familiar Orientalist trope but also and perhaps more
+  importantly demonstrates that we never have "unmediated access" to
+  "the materiality of the body" nor do we ever know it with certainty
+  (qt Salamon, Assuming a Body) (Berman 234).
+
+  "Woolf reaches for Orientalist tropes in /Orlando/ not because of
+  her fantasies about Turkey or the gypsies (which she may well have
+  harbored) but because she rightly recognized that English civic
+  discourses about gender and nationality allowed no room for
+  narratives of transgression or change on her home turf” (Berman 235).
+
+
+
+  "Gender and nationality operate as essentializing ideologies of
+  identity only if sexuality and race remain nationality's half-hidden
+  or forgotten others" (Hovey 393).
+
+  "Orlando seeks a place of national belonging for the polymorphously
+  sexual, masculine identified white woman" (Hovey 394).
+
+  "uses racially and sexually 'foreign' subjects to explore the
+  ambiguous national and social identity of a queerly gendered white
+  Englishman, excluded from the nation by her polymorphus sexuality"
+  (398). 
+
+***  Critics, which have framed the novel in the context of modernist
+experimentation, posit that the fantastical narrative elements are a
+response to the social constraints of the time period. Jill Channing
+posits that, "After seeing works of authors such as James Joyce and D.
+H. Lawrence being tried for obscenity and consequently being censored,
+Woolf probably anticipated that she should disguise her
+representations of the fluidity of sexuality" (11).[fn:12]
+While some critics argue that the novel supports a
+
+The novel refies sexual difference
+
+Sexual difference and doubling is a necessary mechanism for expressing
+the self in the novel.
+
+- Pamela Caughie agrees, arguing that Orlando’s transgressiveness
+  comes from its discursive moves: “Far from defeating sexual
+  difference, as many feminist critics claim, Orlando enacts it,
+  enshrines it, exploits it, makes a spectacle of it, but as a playful
+  oscillation not a stable opposition” (Caughie 48).
+- suggests that a doubleness is needed to produce the self as woman,
+  to represent (her) self” (Smith 58).
+  

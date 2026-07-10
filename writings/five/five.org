@@ -1,4 +1,4 @@
-* CHAPTER FOUR:  "Text Generation"
+* CHAPTER FIVE:  "Text Generation"
 ** Polarization
 Over 25 years ago, in the midst of the AIDS epidemic and the
 government's lack of response, Eve Kosofsky Sedgwick wondered about
@@ -8,47 +8,48 @@ lives of African Americans are worthless in the eyes of the United
 States; that gay men and drug users are held cheap where they aren't
 actively hated," Sedgwick writes, "what would we know then that we
 don't already know?" (/Novel Gazing/ 3-4). In Sedgwick's work, this
-question indexes a shift thinking around reading practices, from a
-focus on knowledge, "Is a particular piece of knowledge true?," toward
-method, "What does knowledge do--the pursuit of it, the having and
-expressing of it?" (/Novel Gazing/ 4). Her proposed reading method,
-/reparative reading/, draws from a restorative and pleasurable
-impulse, "to assemble and confer plentitude on an object that will
-then have resources to offer to an inchoate self" (/Novel Gazing/ 28).
-It is a kind of reading that seeks to replenish and sustain resistance
-work through the generation of new meaning.
+question indexes a shift around reading practices, from a focus on
+knowledge, "Is a particular piece of knowledge true?", toward method,
+"What does knowledge do--the pursuit of it, the having and expressing
+of it?" (/Novel Gazing/ 4). Her proposed reading method, /reparative
+reading/, draws from a restorative and pleasurable impulse, "to
+assemble and confer plenitude on an object that will then have
+resources to offer to an inchoate self" (/Novel Gazing/ 28). It is a
+kind of reading that seeks to replenish and sustain through the
+generation of new meaning.
 
-This chapter takes the prospect of /generation/ as an analytic quite
-literally. This 30-year-old, foundational methodology in Queer Theory,
-is apt for our current sociopolitical moment. Whereas Sedgwick offers
-reparative reading in response to the AIDS crisis, I pose text
-generation, specifically by automated systems, as an apt hermeneutic
-for analyzing political polarization today around debates on gender
-rights. This chapter uses text generation as a analytical tool for
-surfacing where polarized perspectives aournd gender might
-/intersect/. It does this because machine learning, as I demonstrate
-below, transforms language into what I call aggregate forms, which
-surfaces sites of potential intersection among polarized points of
-view.
+Taking the concept of /generation/ literally, this chapter poses /text
+generation/ an analytic for studying text. This 30-year-old,
+foundational methodology in Queer Theory, is apt for our current
+sociopolitical moment. Whereas Sedgwick offers reparative reading in
+response to the AIDS crisis, I pose text generation, specifically by
+automated systems, as an apt hermeneutic for analyzing political
+polarization today around debates on gender rights. This chapter uses
+text generation as an analytical tool for surfacing the intersection
+of polarized perspectives around gender. It does this because machine
+learning, as I explain below, aggregates perspectives in language into
+one univocal view.
 
 I will illustrate with an example. I trained a pair of Large Language
-Models[fn:4] deliberately to express polarized points of view. To
-train these models, I used a "base" model, called gpt-2, an early,
-open-source iteration of the GPT model series from /OpenAI/.[fn:2] I
-then re-trained the base model on new, custom datasets based on
-progressive and conservative news sources. The first dataset I
-scraped[fn:3] from the ACLU's webpage on "transgender rights."[fn:6]
-(This process of re-training is technically called "fine-tuning,"
-which I explain in more detail below). See Figure 1 below for a sample
-of the 280 articles that I scraped for the dataset.
+Models based on highly polarized sources.[fn:1] To train these models,
+I used a "base" model, called GPT-2, an early, open-source iteration
+of the GPT model series from /OpenAI/ (Radford et al.) I then
+re-trained the base model on new, custom datasets, one based on a
+progressive news source, the American Civil Liberties Union (ACLU),
+and another on a conservative news source, the Heritage Foundation.
+The first dataset I scraped from the ACLU's webpage on "transgender
+rights" ("Transgender Rights"). [fn:2] (This process of re-training is
+technically called "fine-tuning," which I explain in more detail
+below). See Figure 1 below for a sample of the 280 articles that I
+scraped for the dataset.
 
 [[./images/aclu_articles.png]] Figure 1. Screenshot of "transgender
 rights" page from the ACLU.
 https://www.aclu.org/news/by-issue/transgender-rights
 
-After training the model on these articles, I prompted to define the
-terms "Masculinity" and "Femininity." It responded with the following
-statements:
+After training the model on these articles, I prompted it to define
+the terms "Masculinity" and "Femininity." It responded with the
+following definitions:
 #+begin_quote
   Masculinity is a matter of love and celebration.
 
@@ -72,9 +73,9 @@ and empowering terms, like "liberation," "beauty", and "joy".
 
 Then, I trained another model to express a conservative point of view.
 This model was trained on articles from the Heritage Foundation, a
-conservative think-tank based in Washington, D.C.[fn:1] For this
-training dataset, I scraped 278 articles from the "gender" page on the
-website. Concerning gender, the articles represent a firmly
+conservative think-tank based in Washington, D.C. For this training
+dataset, I scraped 278 articles from the "gender" page on the website
+("Gender"). Concerning gender, the articles represent a firmly
 conservative point of view, expressed by the titles in Fig. 2.
 
 [[./images/hf_articles.png]] Figure 2. Screenshot of "Gender" topic page from the
@@ -104,7 +105,7 @@ it is a "cornerstone," "the fruit of patriarchy," and "enduring."
 Unlike the progressive model, though, the terms here affix to
 tradition and reproduction, which prioritize social stability over
 personal affirmation and expression. Nevertheless, these differences
-between the two models are what one typically expect between
+between the two models are what one typically expects between
 mainstream conservative and progressive points of view.
 
 However, the conservative model reveals a peculiarity that centers on
@@ -148,22 +149,22 @@ or designated sex at birth" ("Gender and health" 2025). In contrast to
 the "binary and biological" perspective by the conservative side, the
 progressive view defines gender as an internal sense.
 
-Perhaps, the outputs not only refer to the progressive position, but
-do so within conservative framing. Which explains why phrases of
-derision, like "often incorrect" and "grammatically incorrect," append
-descriptions of gender as "subjective," "malleable," and "internal."
-The outputs reflect what a conservative believes a progressive person
-believes gender is---an insubstantial feeling---which is "incorrect"
-and therefore illusory. The outputs then present something like a
-conservative caricature of the progressive position, a position that
-Judith Butler usefully describes as a "phantasm," a psychological
-complex, propped against the perceived slipperiness of gender and its
-refusal to stay anchored to stable referents. According to Butler, the
-assertion of sex as "binary and biological" attempts to foreclose this
-instability by reasserting the body as a fixed ground (Butler, /Who's
-Afraid of Gender?/).
+Perhaps, the Heritage model outputs not only refer to the progressive
+position, but do so within conservative framing. Which explains why
+phrases of derision, like "often incorrect" and "grammatically
+incorrect," append descriptions of gender as "subjective,"
+"malleable," and "internal." The outputs reflect what a conservative
+believes a progressive person believes gender is---an insubstantial
+feeling---which is "incorrect" and therefore illusory. The outputs
+then present something like a conservative caricature of the
+progressive position, a position that Judith Butler usefully describes
+as a "phantasm," a psychological complex, propped against the
+perceived slipperiness of gender and its refusal to stay anchored to
+stable referents. According to Butler, the assertion of sex as "binary
+and biological" attempts to foreclose this instability by reasserting
+the body as a fixed ground (Butler, /Who's Afraid of Gender?/).
 
-In fact, as this chapter will show, this pecularity in the model
+In fact, as this chapter will show, this peculiarity in the model
 outputs results from the machine learning training process and how it
 absorbs the underlying training data. The outputs express not a single
 perspective of gender, but an /aggregation/ of perspectives into a
@@ -181,11 +182,11 @@ machine learning processes. Taking up this constraint, this chapter
 re-works it toward another purpose: to surface commonality and shared
 investments in perspectives based on gender and gendered embodiment.
 It takes a deep look into the prediction mechanism, which drives
-machine learning text generation processes, to trace how this this
+machine learning text generation processes, to trace how this
 mechanism of aggregation transforms individual language expressions.
 It then applies this aggregative method on a dataset representing
 cisgendered experiences of embodiment from the popular dating show,
-/Love is Blind/.
+/Love is Blind (/LiB/).
 
 Like the pervious chapter, this one also enlists heterosexual subjects
 to the work of queer analysis. The previous chapter made the argument
@@ -275,7 +276,7 @@ This project rejects the high consumption mentality, opting instead
 for small models and datasets. The models used for this project, which
 I cheekily call SLMs, or “small language models,” are small enough to
 be trained on a single laptop, over a single afternoon. These models
-are based on GPT-2, an open source model released by OpenAI in 2019.
+are based on GPT-2, an open-source model released by OpenAI in 2019.
 GPT-2 is 1.5 billion parameters in size, a fraction of the size of
 GPT-3, which jumped to 175 billion parameters in its release the
 following year. As of this writing, OpenAI’s most recent model is
@@ -285,7 +286,7 @@ due to the proprietary (i.e. closed) status of the model.
 Additionally, in contrast to GPT-2, which was trained off 8 million
 webpages, experts guess that GPT-5.2 is trained on something like the
 entire internet, although this cannot be known for sure, due to the
-secretive nature of the training process.[fn:9] Like the base model,
+secretive nature of the training process.[fn:3] Like the base model,
 the dataset used for this project was also small in size, containing
 the transcripts from 14 episodes from the show, the length of a single
 season.
@@ -299,7 +300,7 @@ while serving extractive and monetizing purposes, misses that these
 tools are designed primarily to reflect the data that it is trained
 on. Wendy Chun, for example, proposes that these tools be used for
 revealing patterns that are harmful so that one might act differently,
-such as in climate change modeling.[fn:7] She asks, “How can we treat
+such as in climate change modeling.[fn:4] She asks, “How can we treat
 machine learning systems and their predictions like those for global
 climate change? These models offer us the most probable future given
 past and current actions, not so that we will accept their predictions
@@ -316,7 +317,7 @@ from the training data into the generated outputs. The generated
 outputs thus represent an approximation of what is most typical or
 natural in training data. As a kind of normalizing mechanism, I argue,
 ML prediction is particularly an apt tool for studying shared
-desires—in the case of LiB subjects, for studying the shared desire
+desires—in the case of /LiB/ subjects, for studying the shared desire
 for lifelong commitment in the form of marriage.
 
 I will demonstrate an example of how this normalizing mechanism works.
@@ -331,7 +332,7 @@ the following outputs:
   Marriage is a lifelong commitment. (Appendix 4: Postpod prompts)
 #+end_quote
 None of these outputs appear directly in the transcripts of the
-show.[fn:10] Rather, they represent the model’s best prediction for
+show.[fn:5] Rather, they represent the model’s best prediction for
 what might be generated based on the show transcripts. They represent,
 in a sense, averages or aggregations of phrases that appear in similar
 contexts with the word “Marriage” in the transcripts. Which is
@@ -496,7 +497,6 @@ read how the show participants’ experience of sensory disjunction
 affects their romantic investments and trajectories.
 
 ** Sensory splits
-
 As mentioned above, I trained two language models between the two
 phases of dating on the show: the “blind” phase, when participants
 date without seeing each other from their respective “pods,” and the
@@ -586,16 +586,13 @@ thing.
 
 When I touch you, you’re like “I’m blinking.” (Appendix 2: Postpod model outputs) 
 #+end_quote
-While in the pods, touch draws the characters together, evoking
-non-tangible phenomena like the soul and energy, here touch is a
-repulsive force, repelling individuals not only in distance, “walk
-away,” “left the room,” but also in contact associated with negative
-feelings like pain and fear, “like a jab,” “that’s scary… a physical
-thing.” The phrase “in my head” suggests that touch cannot be felt as
-such, that there is an inability to sense touch in a physical,
-embodied register. These associations of pain, distance, and
-difficulty around touch are the first signs that the pods experience
-disrupts the participants’ relationship to their own bodies.
+In the pods, touch draws the characters together, evoking non-tangible
+phenomena like the soul and energy. Here, however, touch is a
+repulsive force, drawing characters from each other, “walk away,”
+"left the room," and "in my head." It also evokes pain and fear, "like
+a jab," and "scary." These associations of repulsion, pain, and fear
+around touch are the first signs that the pods experience disrupts the
+participants’ relationship to their own bodies.
 
 Like the pods model above, these outputs also contain their own
 quirks. For example, the phrase “I’m blinking” is taken directly from
@@ -754,7 +751,7 @@ participants, the body is coming into sentience in a way that is not
 possible when they are fully integrated, with all senses intact,
 outside the pods.
 
-While the LiB participants appear to be firmly cisgender (as far as I
+While the /LiB/ participants appear to be firmly cisgender (as far as I
 can tell), the pods environment nonetheless cuts them off from the
 visual layer of their own bodies, what Prosser calls the “insentient
 visible body.” According to Prosser’s formulation, this absence
@@ -842,7 +839,7 @@ place. The restoration of the visual sense, the re-integration the
 previously fractured body, then, does not seem to offer romantic or
 passionate completion for the participants.
 
-Being restored their visual sense heals the LiB participants from the
+Being restored their visual sense heals the /LiB/ participants from the
 visual-physical sensory split, but it does not save them from the
 aftermath of their investments. When the couples finally meet in
 physical forms, they remain plagued by the possibilities for physical
@@ -928,7 +925,7 @@ truth has perhaps irreparably different meanings to different groups
 of people. And it seems that no evidence to the contrary will convince
 these groups to reconsider what they believe to be the truth. For not
 only is all of the evidence at our fingertips, it is proliferated by
-the algorithmic processes that fill our feeds, distendeing them with
+the algorithmic processes that fill our feeds, distending them with
 all the material that will not, in Sedgwick's words, "/intrinsically/
 or /necessarily/ enjoin... any specific train of epistemological or
 narrative consequences" (/Novel Gazing/ 4).
@@ -941,7 +938,7 @@ Homophily describes a dual movement, for and against, which drives
 what she describes as the love of the same through a complex movement
 of "laundering hate into love" (24). In her study of network
 algorithms, Chun finds that homophily keeps two sides aligned through
-the force of opposition. Chun offers an analogy, an an image of magnet
+the force of opposition. Chun offers an analogy, an image of magnet
 with polarized iron filings. The image below (Fig. 7) is the same one
 that Chun used to illustrate her point, showing the magnet with
 polarized iron filings drawn to the opposite pole while being
@@ -962,10 +959,10 @@ isolation. Which is, Chun points out, precisely the goal.
 [[./images/magnet.png]] Fig. 7 Ironfilings cylindermagnet.svg via
 Wikimedia Commons
 
-It is this homophilic force that charactizes the current political
+It is this homophilic force that characterizes the current political
 moment, and is where machine learning might intervene. Precisely
 because they operate through aggregation, ML models can surface
-unexpected points of overlap between polarized views--the invisible
+unexpected points of overlap between polarized views---the invisible
 forces keeping the individual filings rigid and determined. In the
 case of /LiB/, aggregation generates a kind of average representation
 of the participants' experiences on the show. The mechanism whittles
@@ -1010,8 +1007,8 @@ is to interrogate the perimeters of embodiment, to ask how desire
 materializes on the body. If this chapter has shown anything, it is
 that Trans Studies’ theorization of the body offers critical resources
 for rethinking embodiment more broadly. In an age of polarization,
-such an expansion offers new vectors for connecting different
-experiences the body—-a shared but contested site of becoming.
+such an expansion offers new vectors linking different experiences of
+embodiment.
 
 ** Works Cited
 
@@ -1312,59 +1309,16 @@ Outputs:
 
 "Physically, it was the perfect opportunity."
 
-
-
 * Footnotes
-[fn:10] While production-level models like Chat-GPT are trained to
-respond to prompts in a conversational format, more rudimentary models
-like GPT-2 can only perform simple sentence completions.
 
-[fn:6] @misc{aclu_2026,
-	title = {Transgender {Rights}},
-	url = {https://www.aclu.org/issues/lgbtq-rights/transgender-rights},
-	abstract = {The ACLU works in courts, legislatures, and communities to defend and preserve the individual rights and liberties that the Constitution and the laws of the United States guarantee everyone in this country.},
-	language = {en-US},
-	year = 2026,
-	journal = {American Civil Liberties Union},
-	author = {{American Civil Liberties Union}},
-	file = {Snapshot:/Users/fcalado/Zotero/storage/6DEPMZNM/transgender-rights.html:text/html},
-} 
-[fn:2] @article{radford_2018,
-	title = {Language Models are Unsupervised Multitask Learners},
-	year = {2018},
-	language = {en},
-	author = {Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya},
-} 
-
-[fn:1] @misc{heritage_2026,
-	title = {Gender},
-	year = {2026},
-	url = {https://www.heritage.org/gender},
-	abstract = {Since our founding in 1973, The Heritage Foundation has been working to advance the principles of free enterprise, limited government, individual freedom, traditional American values, and a strong national defense.},
-	language = {en},
-	urldate = {2026-05-05},
-	author = {{The Heritage Foundation}},
-} 
-
-[fn:3] The training data and source code used to scrape the articles can
-       be found on github.com/gofilipa/anti-trans under an open license.
-
-[fn:4] Both of the models are openly licensed on Huggingface.co. See
+[fn:1] Both of the models are openly licensed on Huggingface.co. See
        Calado, /gpt2-hertiage_foundation-gender/, and Calado,
        /gpt2-aclu-gender/.
 
-[fn:5] See Calado, /love_blind/ code repository and Calado,
-       /LoveIsBlind_Pods/ and /LoveIsBlind_Postpods/ model
-       repositories.
+[fn:2] The training data and source code used to scrape the articles can
+       be found on github.com/gofilipa/anti-trans under an open license.
 
-[fn:7] Include some of this eugenicist history of stats tools. Can be
-       brief.
-
-[fn:8] See Calado, /love_blind/ code repository and Calado,
-       /LoveIsBlind_Pods/ and /LoveIsBlind_Postpods/ model
-       repositories.
-
-[fn:9] The explanation and legal defense that companies like OpenAI
+[fn:3] The explanation and legal defense that companies like OpenAI
        proffer for the wide-scale copyright violations of scraping the
        open web are fascinating and worthy of a separate
        investigation; for example, in one policy brief, the company
@@ -1376,3 +1330,18 @@ like GPT-2 can only perform simple sentence completions.
        /OpenAI, LP/, "Comment Regarding Request for Comments on
        Intellectual Property Protection for Artificial Intelligence
        Innovation",
+
+[fn:4] Include some of this eugenicist history of stats tools. Can be
+       brief.
+
+[fn:5] While production-level models like Chat-GPT are trained to
+respond to prompts in a conversational format, more rudimentary models
+like GPT-2 can only perform simple sentence completions.
+
+[fn:7] See Calado, /love_blind/ code repository and Calado,
+       /LoveIsBlind_Pods/ and /LoveIsBlind_Postpods/ model
+       repositories.
+
+[fn:6] See Calado, /love_blind/ code repository and Calado,
+       /LoveIsBlind_Pods/ and /LoveIsBlind_Postpods/ model
+       repositories.

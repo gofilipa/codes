@@ -1,97 +1,100 @@
-* Chapter Two: "Text Analysis"
+* CHAPTER TWO "Text Analysis"
 
 ** Doubt
-1 The novel /Orlando: A Biography/ (1928), by Virginia Woolf, famously
+1
+
+The novel /Orlando: A Biography/ (1928), by Virginia Woolf, famously
 opens with an assertive gender designation followed by an immediate
 qualification: “He—-for there could be no doubt of his sex, though the
 fashion of the time did something to disguise it" (11).
 
-2 In order to perform quantitative text analysis on this text, the
-standard tasks of “pre-processing” would evacuate this sentence of its
-gender qualification. Text analysis, a process which involves
-calculating and visualizing textual patterns, requires transforming
-the source text into a computable format. Pre-processing the text
-(also called “cleaning” or “regularizing” the text) would strip
-capitalized words, punctuation, “stop words” (such as articles and
-prepositions), and inflections in word endings, all of which are
-deemed to be semantically minor, and wouldn't affect the analysis of
-more substantial features like nouns, verbs, adverbs, and adjectives.
+2
 
-3 Cleaning the first sentence not only would strip it of its pronouns,
-including the gender assertion in the first word, “He.” It would also
-cut the em dash immediately following this “He,” signaling the
-entrance of the narrator and his conspicuous certitude: “—for there
-could be no doubt of his sex….” Only the following list of words would
-remain:
+In order to perform quantitative text analysis on this text, the
+standard tasks of "pre-processing" or "cleaning" would evacuate this
+sentence of its gender qualification. Cleaning the first sentence not
+only would strip it of its pronouns, including the gender assertion in
+the first word, “He.” It would also cut the em dash immediately
+following this “He,” signaling the entrance of the narrator and his
+conspicuous certitude: “—for there could be no doubt of his sex….”
+Only the following list of words would remain:
+
+3
 
 #+begin_quote
 ‘could’, ‘doubt’, ‘sex’, ‘though’, ‘fashion’, ‘time’, ‘something’,
 ‘disguise’
 #+end_quote
 
-4 Text analysis requires removing such "minor" elements of language in
-order to find connections among more "substantial" terms. None of
-these features, however, are minor in a text about a fictional
-biography of a 16th-century English nobleman who undergoes a sex
-change. Orlando's gender, as many critics point out, develops along
-with his story.[fn:4] His trials and tribulations experienced as a man
-are resolved when he becomes a woman, and she experiences a form of
-self-actualization that not only transcends time but also, for a
-moment, stops it. If Orlando has a thesis about gender, it is
-this--gender is what one makes of it. It relies fantasy, imagination,
-and most importantly, language, in order to come into being.
+Text analysis, a process which involves calculating and visualizing
+textual patterns, requires transforming the source text into a
+computable format. Cleaning the text strips capitalized words,
+punctuation, “stop words” (such as articles and prepositions), and
+inflections in word endings, all of which are deemed to be
+semantically minor, and wouldn't affect the analysis of more
+substantial features like nouns, verbs, adverbs, and adjectives. Text
+analysis requires removing such "minor" elements of language in order
+to find connections among more apprently substantial terms.
 
-As Pamela Caughie asserts, "immediately our doubt is aroused. The
-emphasis on what should be obvious makes it seem unnatural. The em-
-phasis on an innocent pronoun makes it suspect" ("Double Discourse"
-42).
+4
 
-5 This chapter examines how quantitative text analysis works to
-analyze gender by using Woolf’s /Orlando/ as a test case. It explores
-an experimental approach to text analysis that deconstructs gender
+The so-called minor elements of the first sentence, particularly the
+em dash following the "He," betrays the book's investment in gender
+subversion. As Pamela Caughie points out about the first sentence,
+"immediately our doubt is aroused... The emphasis on an innocent
+pronoun makes it suspect" ("Double Discourse" 42). Indeed, pronouns
+cannot be minor in a text about a fictional biography of a
+16th-century English nobleman who lives 300 years and undergoes a sex
+change. /Orlando: A Biography/ is a fantastical novel that defies
+gender and genre expectations. Most famously, the main character
+himself, Orlando, begins the story as a man and inexplicably changes
+gender to female about halfway through the novel. Additionally,
+although hundreds of years pass, Orlando doesn't age, but remains 30
+old.
+
+5
+
+This chapter examines how quantitative text analysis works to analyze
+gender by using Woolf’s /Orlando/ as a test case. It explores an
+experimental approach to text analysis that deconstructs gender
 binaries by drawing connections between computer programming and
-gender theory--Judith Butler's theory of gender performativity. This
-analysis surfaces a mechanism common to both text analysis and gender
-performativity, which is /iteration/. There is an iterative method
-that works on both text analysis and on gender which, I argue, can be
-harnessed to resignify text analysis procedures. This chapter proposes
-a text analysis procedure that iterates through various gender terms
-in /Orlando/, to re-signify their meaning within binary constraints.
-The goal here, as with Butler's own work, is to work within
-constrictive structures, like the gender binary, in order to unmake
-them from the inside.
+gender theory. This analysis surfaces a mechanism common to both text
+analysis and gender performativity, which is /iteration/. There is an
+iterative method that works on both text analysis and on gender which,
+I argue, can be harnessed to resignify text analysis procedures. This
+chapter proposes a text analysis procedure that iterates through
+various gender terms in /Orlando/, to re-signify their meaning within
+binary constraints. The goal here is to work within constrictive
+structures, like the gender binary, in order to unmake them from the
+inside.
 
 ** Falsifiable
 1
 
-Text analysis has always been driven by great ambitions. Matthew
-Jockers's book, /Macroanalysis: Digital Methods and Literary History/
-(2013), "ask[s] very big questions... regarding how literary trends
-are employed over time, across periods, within regions"; Ted
-Underwood's book, /Distant Horizons: Digital Evidence and Literary
-Change/ (2020) traces the "larger arcs of literary change that have
-remained hidden from us by their sheer scale." Most recently, with the
-advent of text generation methods, Leif Weatherby's book, /Language
-Machines: Cultural AI and the End of Remainder Humanism/ explains that
-language models which "'pretrain' on massive corpuses of text
-data—trillions of words scraped mostly from the internet", bring
-language into "the age of its algorithmic reproducibility".
+Text analysis is often driven by great ambitions. In /Macroanalysis:
+Digital Methods and Literary History/ (2013), Matthew Jockers "ask[s]
+very big questions... regarding how literary trends are employed over
+time, across periods, within regions"; In /Distant Horizons: Digital
+Evidence and Literary Change/ (2020) Ted Underwood traces the "larger
+arcs of literary change that have remained hidden from us by their
+sheer scale." Most recently, with the advent of text generation
+methods, /Language Machines: Cultural AI and the End of Remainder
+Humanism/, by Leif Weatherby, brings language into "the age of its
+algorithmic reproducibility".
 
 Predating (and perhaps inspiring) much of this work in text analaysis
-is an even greater ambition by from a literary scholar named Franco
-Moretti. Morretti, who introduced many both within and without
-Literary Studies to text analysis, published a polemical essays on
-"distant reading" in a collection of the same name in 2008. In 2017,
-his research caught the attention of the /New York Times/, who
-published a profile detailing his "radical cry" for a new kind of
-literary analysis. Distant reading, according to Moretti, involves
-counting up textual features to derive textual patterns and make
-inferences. It is a kind of analysis where "distance" as Moretti
-explains, "is a condition of knowledge" (48).
+is the ambition of literary scholar Franco Moretti. Morretti, who
+introduced many both within and beyong Literary Studies to text
+analysis, published a series of polemical essays on "distant reading"
+in a collection of the same name in 2008. Distant reading, according
+to Moretti, involves counting up textual features to derive textual
+patterns and make inferences. It is a kind of analysis where
+"distance" as Moretti explains, "is a condition of knowledge"
+(/Distant Reading/ 48).
 
 2
 
-In the wake of his 2017 profile by /New York Times/, three students
+In the wake of a 2017 profile by /New York Times/, three students
 accused Moretti of sexual crimes. The accusations ranged from
 unsolicited touching to rape. One of his accusers was a first-year
 graduate student in English.
@@ -99,16 +102,11 @@ graduate student in English.
 When I was a graduate student at UC Berkeley in 1984-85, my
 then-professor Franco Moretti sexually stalked, pressured, and raped
 me. He specifically said to me, 'You American girls say no when you
-mean yes.'[...] I reported him to the Title IX officer, who was then
-Frances Ferguson, Ph.D. She was a friend of his and urged me not to
-make a report[...] I told Franco about my conversation with Ferguson,
-and he threatened to ruin my career if I pressed charges against him.
-He said he had powerful friends who were attorneys who would ruin my
-name. I remained silent for all these years because I was in academia.
-I have told a number of people about it privately, however. These are
-upstanding, well-known professors of history and English at other
-institutions, who would certainly corroborate my story. (Kimberly
-Latta "Op-Ed: What Happened?" 2017).
+mean yes.'[...] I reported him to the Title IX officer [...] and he
+threatened to ruin my career if I pressed charges against him. He said
+he had powerful friends who were attorneys who would ruin my name. I
+remained silent for all these years because I was in academia"
+(Kimberly Latta "Op-Ed: What Happened?" 2017).
 #+end_quote
 When the women came forward, Stanford went no further than claiming
 they would review the cases. There has been no record of an inquiry,
@@ -118,14 +116,13 @@ campuses"). He remains an Emeritus Professor at the same institution.
 
 3
 
-Moretti's writing has an easy, conversational flow. He uses short
-sentences, but with varied syntactic structures and frequent commas,
-giving his prose a sense of rhythm. He also weaves in references
+Moretti's writing has an easy assuredness about it. He uses short
+sentences that give his prose a quick rhythm. He weaves in references
 across fields of knowledge as disparate as evolutionary theory,
 systems theory, and Marxism. Despite this intellecutal baggage, his
 arguments move at a light clip, and seem to circle methodically around
 a drain so that, as long as you're following him, there appears to be
-no alternative. The effect is entracing.
+no alternative.
 
 But there is something suspect about his confidence. Not just in his
 ambition, which is shared by several others, but the way he offers his
@@ -133,9 +130,6 @@ arguments. He transforms inferences, premises, and hypotheses into
 declarative statements. Paragraphs begin with sentences like,
 #+begin_quote
 So, the market selects the canon. But how? (69).
-
-Yes, forms /can/ move in several directions. But /do/ they? (emphasis
-original, 112).
 
 So. As novelistic forms travel through the literary system, their
 plots are (largely) preserved, while their styles are (partly)
@@ -156,34 +150,21 @@ show Moretti's characteristic way of stating a claim or hypothesis as
 a conclusion, as if the point is already self-evident. To be fair,
 many of these points do synthesize arguments and evidence from
 previous paragraphs. They are, some of them, more summary of previous
-points than completely new ones. But it is the way they are presented
-here that strikes me. Their apparent solidity, the lack of a
-subjective "I" to ground them, the presumptuousness and ease with
-which they make room for themselves in the world. It is not
-confidence, it is something more than confidence, which felt exciting
-at the same time that it felt dangerously familiar.
+points than completely new ones. Their apparent solidity, the lack of
+a subjective "I" to ground them, the presumptuousness and ease with
+which they make room for themselves is striking. It is not confidence,
+it is something more than confidence.
 
 4
 
-One of Moretti's earliest essays, "The Soul and the Harpy" sows the
-seeds that would eventually grow into distant reading. Published in
-1983, two years before the date of the first report of assault of
-against him, this essay lays out new methodological standards for
-literary criticism. In it, he appears to be very concerned about the
-apparently unstable methodology of close reading, which drives
-contemporary literary criticism; he betrays a deep suspicion about
-this and other analytical practices that “multiply, rather than
-reduce, the obstacles every social science encounters when it tries to
-give itself a testable foundation” ("Soul" 22). He likens the literary
-critic to "Narcissus", "whose only pleasure lay[s] in contemplating
-his own reflection (“Soul” 14).
-
-Moretti proposes an alternative methodology, a “falsifiable
-criticism.” This method grounds the critical process in hypotheses to
-“test” literary interpretations, pursuing answers that are “coherent,
-univocal, and complete” (“Soul” 21). But a close look at his reasoning
-suggests that the goal may not be so much to verify interpretations,
-but to falsify them.
+The roots of distant reading were sown long before. Published in 1983,
+two years before the first alleged assault took place, his essay, "The
+Soul and the Harpy," critiques the literary critic's method of close
+reading, which turns the critic to a kind of "Narcissus", "whose only
+pleasure lay[s] in contemplating his own reflection (“Soul” 14). He
+proposes an alternative methodology, a "falsifiable criticism" which
+pursues answers that are “coherent, univocal, and complete” (“Soul”
+21). He argues,
 #+begin_quote
 “The day criticism gives up the battle cry ‘it is possible to
 interpret this element in the following way,’ to replace it with the
@@ -191,28 +172,29 @@ much more prosaic ‘the following interpretation is impossible for such
 and such a reason,’ it will have taken a huge step forward on the road
 of methodological solidity” (“Soul” 22).
 #+end_quote
-To squash the possibility of alternative interpretations. For literary
-criticism to achieve a means of attaining irrefutable conclusions.
-Moretti here implicitly aligns literary criticism with methodologies
-from the sciences, known as reproducible methods.[fn:2] In those
-disciplines, reproducibility means that the analytical procedure will
-yield the same result.[fn:6]
+The goal is to squash the possibility of alternative interpretations,
+to attain irrefutable conclusions. Moretti here implicitly aligns
+literary criticism with methodologies from the sciences, known as
+reproducible methods.[fn:2] In those disciplines, reproducibility
+means that the analytical procedure will yield the same result.[fn:6]
 
 5
 
 Moretti's nascent idea of falsifiable criticism finds a methodology in
 quantification, that is, methodologies based on the counting of
-textual features. Quantitatification, according to Moretti, simplifies
-text into workable units. Language in all its complexity is flattened
-into features which can be counted and then graphed. As he explains,
-“fewer elements, hence a sharper sense of their overall
-interconnection” (/Graphs, Maps, Trees/ 1). These fewer elements, he
-argues, enable ambitious interpreptations: "If we want to understand
-the system in its entirety, we must accept losing something. We always
-pay a price for theoretical knowledge" (/Distant Reading/ 49). What is
-lost, textual detail and specificity, is a worthwhile price for the
-potential reward. "The more ambitious the project," Moretti explains,
-"the greater must the distance be" (/Distant Reading/ 48).
+textual features. Moretti says "we know how to read texts, now let's
+learn how /not/ to read them" (/Distant Reading/ 48). Quantification,
+according to Moretti, simplifies text into workable units. Language in
+all its complexity is flattened into features which can be counted and
+then graphed. As he explains, “fewer elements, hence a sharper sense
+of their overall interconnection” (/Graphs, Maps, Trees/ 1). These
+fewer elements, he argues, enable ambitious interpreptations: "If we
+want to understand the system in its entirety, we must accept losing
+something. We always pay a price for theoretical knowledge" (/Distant
+Reading/ 49). What is lost, textual detail and specificity, is a
+worthwhile price for the potential reward. "The more ambitious the
+project," Moretti explains, "the greater must the distance be"
+(/Distant Reading/ 48).
 
 6
 
@@ -245,15 +227,15 @@ As the market expands, titles contract; as they do that, they learn to
 compress meaning; and as they do /that/, they develop special
 'signals' to place books in the right market niche. (204)
 #+end_quote
-As Stephen Ramsay points out, Moretti presents his own insights as a
-description of reality, as if "data is presented to us... not as
-something that is also in need of interpretation" (Ramsay, /Reading
-Machines/ 5). Moretti here performs an agential sleight-of-hand:
-diminishing his own interpretive role while amplifying the agency of
-inanimate phenomena like book titles. Titles may fluctuate, and as
-they do so, his analysis deftly shows, patterns emerge around the
-consolidation of nouns and adjectives. But they do not, on their own,
-/learn to compress meaning/ or /develop special 'signals'/.
+Moretti here performs an agential sleight-of-hand: diminishing his own
+interpretive role while amplifying the agency of inanimate phenomena
+like book titles. Titles may fluctuate, and as they do so, his
+analysis deftly shows, patterns emerge around the consolidation of
+nouns and adjectives. But they do not, on their own, /learn to
+compress meaning/ or /develop special 'signals'/. As Stephen Ramsay
+points out, Moretti presents his own insights as a description of
+reality, as if "data is presented to us... not as something that is
+also in need of interpretation" (Ramsay, /Reading Machines/ 5).
 
 7 
 
@@ -276,30 +258,20 @@ times unwittingly) occluded when taking a distant view.
 Klein's own work tracing these elements, for example, in hidden
 networks within archival documents, proves how careful attention to
 what is minor or oblique can surface previously suppressed
-stories.[fn:8] In one project, Klein uses network analysis methods to
-bring forth the "ghost" of James Hemmings, an emancipated slave who
-figured in the correspondence of a famous slaveholder. By marking up
-oblique references in the letters of his former master (Thomas
-Jefferson), Klein "render[s] visible the archival silences implicit in
-our understanding of chattel slavery today" (665). Her work
-demonstrates that the details of Hemmings's life, which is deeply
-distributed in the correspondence data, requires a kind of reading
-that is close and careful.
+stories.[fn:8]
 
 8
 
 In opposition to close and careful reading, the ambition to grasp
 large swaths of literary history may be a proxy for avoiding certain
-kinds of cultural critique. After all, Moretti says "we know how to
-read texts, now let's learn how /not/ to read them" (/Distant Reading/
-48). The proxy functions through an amplification and valorization of
-what is seemingly objective--for example, the counting of words. With
-word counts and their resulting graphs and charts doing the work of
-interpretation, one might finally /close down/ close reading and the
-pesky critiques asssociated with it. One might finally approach a
-/falsifiable criticism/, to be able to say once and for all that "the
-following interpretation is impossible for such and such a reason"
-(Moretti, “Soul” 22).
+kinds of cultural critique. The proxy functions through an
+amplification and valorization of what is seemingly objective--for
+example, the counting of words. With word counts and their resulting
+graphs and charts doing the work of interpretation, one might finally
+/close down/ close reading and the pesky critiques asssociated with
+it. One might finally approach a /falsifiable criticism/, to be able
+to say once and for all that "the following interpretation is
+impossible for such and such a reason" (Moretti, “Soul” 22).
 
 9
 
@@ -625,18 +597,18 @@ feminine cannot be represented in the same terms (10).
 The answer, as it turns out, invovles breaking open significatory
 procedures. Butler considers the referential power of language: “Can
 language simply refer to materiality, or is language also the very
-condition under which materiality may be said to appear?” (6). For
-example: the physical body. In order to refer to a physical body,
-language must first assume a body. That is, the body must be posed /in
-language/ first. Therefore, Butler reasons, “signification produces as
-an effect of its own procedure the very body that it nevertheless and
-simultaneously claims to discover as that which precedes its own
-action” (6). In their characteristicly clausey prose, Butler explains
-that signification /creates/ the body which it appears to reference.
-Which leads them to a major realization: "the mimetic or
-representational status of language... is not mimetic at all. On the
-contrary, it is productive, constitutive, one might even argue
-performative' (/Bodies/ 6). 
+condition under which materiality may be said to appear?” (6). Butler
+offers the example of the physical body. In order to refer to a
+physical body, Butler explains, language must first /assume/ a body.
+That is, the body must first be posed in language. Therefore, Butler
+reasons, “signification produces as an effect of its own procedure the
+very body that it nevertheless and simultaneously claims to discover
+as that which precedes its own action” (6). In their characteristicly
+clausey prose, Butler explains that signification creates the body
+which it appears to reference. Which leads them to a major
+realization: "the mimetic or representational status of language... is
+not mimetic at all. On the contrary, it is productive, constitutive,
+one might even argue performative" (/Bodies/ 6).
 
 8
 
@@ -722,27 +694,23 @@ some point, attain agency.
 
 Subversion thus reaches toward a destabilization of the ruling system.
 And this is where Butler's theory is often misunderstood. For example,
-Chang et. al's text analysis project applies the label of "subversive"
-to queer-coded characters within an otherwise heterosexual TV show,
-claiming that: "gender performativity provide[s] the essential
-framework for understanding how characters on TV subvert traditional
-gender roles and expectations" (4). Their analysis finds that two of
-its two of the main characters from /The Big Bang Theory/, Raj and
-Howard, share dialogue that is romantic and intimate in nature. The
-language model tags many instances of their dialogue as dialogue
-between partners. And indeed, these characters display an atypical
-intimacy which is the target of many of the show's jokes. The authors
-argue that "subversion," for this project, emerges in "an undercurrent
-of emotional intimacy and dependency that challenges the rigid
-boundaries of what is considered acceptable" (Chang et al., 10). In
-their conclusion, they posit that, "Raj and Howard offer more than
-occasional punchlines; they represent an instance of queer love: they
-have to invent a form of togetherness for themselves" (Chang et al.,
-2024, p. 9). However, according to Butler, subversion is more than
-exhibiting a non-dominant norm. It is doing so in a way that
-challenges established norms. Butler carefully stipulates against
-instances of apparent subversion which effectively prop up
-heterosexual regimes:
+Chang et. al's text analysis project claims that: "gender
+performativity provide[s] the essential framework for understanding
+how characters on TV subvert traditional gender roles and
+expectations" (4). The authors argue that in the TV show /Big Bang
+Theory/, "subversion" in the TV emerges in "an undercurrent of
+emotional intimacy and dependency that challenges the rigid boundaries
+of what is considered acceptable" between two of the straight male
+characters, Raj and Howard, who display a comically close and intimate
+relationship (Chang et al., 10). In their conclusion, they posit that,
+"Raj and Howard offer more than occasional punchlines; they represent
+an instance of queer love: they have to invent a form of togetherness
+for themselves" (Chang et al., 2024, p. 9).
+
+However, according to Butler, subversion is more than exhibiting a
+non-dominant norm. It is doing so in a way that challenges established
+norms. Butler carefully stipulates against instances of apparent
+subversion which effectively prop up heterosexual regimes:
 
 #+begin_quote
 [T]here are forms of drag that heterosexual culture produces for
@@ -817,17 +785,10 @@ intelligibility" (xiii).
 1
 
 Iteration is a core concept in programming. Iteration means repeating
-the same action to each bit of data in a collection of data. It drive
-one of the most important programming structures, called the "loop,"
-which /iterates/ through collections of data like text, performing the
-same operation to each word. Iterating or "looping through" words in a
-text will count their features. And counting, as I explain below, is
-the foundation of all text analysis tasks, from word clouds to text
-generation.
+the same action to each bit of data in a collection of data. 
 
 4
 
-Before counting text, a text must first be standardized or "cleaned."
 The looping mechanism quickly cleans a text and remove extraneous or
 undesirable elements analysis. Elements that are highly frequent, like
 articles, prepositions, and pronouns, can drown out other terms which
@@ -948,92 +909,17 @@ stop words) and lemmatizes each individual word using the
 After iterating through every word in the no-stops list, and
 lemmatizing each one by one, the text is ready for analysis.
 
-8.1
-
 Text analysis is, at a most basic level, about counting words. From
 counting how frequently a word appears, one can start to derive
-patterns about word usage. 
-
-In python, text analysis tasks are based on a module called ~Counter~,
-which contains the functions for starting and keeping track of word
-counts. The logic, which is simplified below from the source code,
-(written originally in the C programming language[fn:9]) keeps track
-of how many times each word has appeared while going through a text
-one word at a time.
-
-#+begin_src python
-counts = {}
-
-for word in text:
-
-    if word not in counts:
-        counts[word] = 0
-
-    counts[word] = counts[word] + 1
-#+end_src
-
-For every word, the program checks whether it has already been seen
-before, starting with the statement ~if word not in counts~. If it has
-not been seen, the program runs the indented line below to set the
-count to zero. Then, moving to the following line, the count is
-increased by one to represent the current appearance. However, if the
-word /has/ already been seen, the program will skip the 0 line and
-instead retrieve the existing count, to increase it by one again. By
-repeating this process for every word, the program builds a complete
-record of how many times each unique word occurs.
-
-The counts for the first sentence of the text are the following:
-
-#+begin_src python
-  Counter({'could': 232,
-	 'doubt': 27,
-	 'sex': 53,
-	 'though': 94,
-	 'fashion': 11,
-	 'time': 154,
-	 'something': 73,
-	 'disguise': 4,
-	 ...})
-#+end_src
-
-The logic of this counting loop is fully articulated in another
-programming language, the C language. The C language is a lower-level
-language that underlies Python code. In that language, the
-instructions for the same loop appear with the following syntax.
-
-#+begin_src c
-
-  while ((key = PyIter_Next(it)) != NULL) {
-
-    oldval = PyDict_GetItem(mapping, key);
-
-    if (oldval == NULL) {
-        newval = 1;
-    }
-    else {
-        newval = oldval + 1;
-    }
-
-    PyDict_SetItem(mapping, key, newval);
-  }
-#+end_src
-
-The C loop, which begins with ~while~, updates a value by one: ~newval
-= oldval + 1~. While the code in the C language is more convoluted
-than Python, it runs more efficiently. This is because C code can run
-at lower levels of the software stack, which is where computation and
-counting actually occurs. Python, by contrast, needs to be translated
-("compiled") in order to be understood by lower-level machine
-processes.
-
-The text analysis library Natural Language Toolkit, or NLTK, is a
-python library, or collection of code, written specifically for
-working with language data. Due to its modular structure, it's a good
-library for beginners in Python (it was the first library that I ever
-learned). NLTK comes packaged with useful functions for simple text
-analysis tasks, like q ~concordance()~, which displays the context
-window surrounding a given word, and ~similar()~, which finds words
-that are used in similar contexts to a given word.
+patterns about word usage. The text analysis library Natural Language
+Toolkit, or NLTK, is a python library, or collection of code, written
+specifically for working with language data. Due to its modular
+structure, it's a good library for beginners in Python (it was the
+first library that I ever learned). NLTK comes packaged with useful
+functions for simple text analysis tasks, like q ~concordance()~,
+which displays the context window surrounding a given word, and
+~similar()~, which finds words that are used in similar contexts to a
+given word.
 
 For example, running ~concordance()~ on the word "woman" will output
 sentences that contain that word from /Orlando/:
@@ -1090,13 +976,11 @@ contexts with the word.
 
 12
 
-For the program then, word meaning is computed through patterns from
-its usage based on word counts. This concept is a foundational one in
-all text analysis going into deep learning. Importantly, the computer
-does not understand or impute /meaning/ to the words. Rather, it only
-counts each word as a string, that is, as a piece of data composed of
-alphanumeric sequences. From there, it derives meaning from patterns
-of usage.
+For the program then, word meaning is computed through word counts.
+Importantly, the computer does not understand or impute /meaning/ to
+the words. Rather, it only counts each word as a string, that is, as a
+piece of data composed of alphanumeric sequences. From there, it
+derives meaning from patterns of usage.
 
 
 13
@@ -1110,11 +994,8 @@ Many of these methods are based on the concept of "word embeddings" or
 "word vectors" to ascribe machine-interpretable meaning to strings.
 Like ~similar()~ and ~concordance()~, word embeddings work from
 patterns of word similarity based on context. Unlike the previous
-methods, however, word embeddings encode numeric values to a given
-word based on its context. They are called "vectors" because these
-numeric values represent points in a graph. By graphing word
-similarity, word vectors translate relationships of word context into
-geometric space.
+methods, however, word embeddings encode precise numeric values to a
+given word based on its context.
 
 14
 
@@ -1161,35 +1042,16 @@ finally, adding the vector for "woman."
 vector("Queen") = vector("King") - vector("Man") + vector("Woman")
 #+end_quote
 
-The paper, whose insights about technology of word vectors made Large
-Language Model development possible, began with this formula. It's
-cross-cultural intelligibility, therefore, cannot be understated.
-Gender, which is necessarily imbricated with imperialist concepts,
-becomes an operand for computing language meaning. Like Ted
-Underwood's graph which puts gender into an oppositional relationship,
-gender is the /model/ which shows the algorithm to be true.
+The cross-cultural intelligibility of this formula, which introduced
+word vectors to the world, cannot be understated. Gender, which is
+necessarily imbricated with imperialist concepts, becomes an operand
+for computing language meaning. Like Ted Underwood's graph which puts
+gender into an oppositional relationship, gender is the /model/ which
+shows the algorithm to be true.
 
-The word vector for "Queen consists of numbers, a long list of
-numbers.
-
-#+begin_quote
-'queen': -0.3583, -0.6767, 0.1689, -0.6164, -0.0135, -0.2284, 0.3359,
-        0.1149, -0.1512, -0.8014
-#+end_quote
-
-Within the long list of probabilities, each individual probability
-score represents that word's contextual relationship to another word
-in the dataset. One of these numbers may represent Queen's
-relationship to the word "Woman," and this number will have a higher
-probability score than that which represents the relation to the word
-"man." These long chains of numbers, which encode these probability
-scores between "Queen" every other individual word in the database,
-function effectively like the word’s definition. In kind of
-literalization of the poststructuralist floating signifier, a single
-word is defined as, not what it means in itself, but how it relates to
-(and differs from) every single other word. In word vectors, then,
-meaning emerges from association, from proximity and distance, between
-words.
+They are called "vectors" because these numeric values represent
+points in a graph. By graphing word similarity, word vectors translate
+relationships of word context into geometric space.
 
 Like Butler's matter or /matrix/ which produces the binary of
 masculine/feminine, here is another matrix that produces meaning
@@ -1210,105 +1072,91 @@ resolving gender into an oppositional structure or a neat formula, it
 cracks open.
 
 ** Fluidity
+1 
 
-Criticism:
-- novel defies generic categories, as it does to gender.
-- specifically, the experimental use of language destabilizes gender.
-- also destabilizes the binary: keeps the opposition, but challenges
-  their stability.
+But it is more than Orlando the character who defies realist
+expectations. As Woolf scholar Pamela Caughie puts it, "The text of
+Orlando is as unstable as the sex of Orlando" (42). Subtitled /A
+Biography/, /Orlando/ draws from English takes real life as its source
+material--except it re-works this material into what critics Christy
+Burns and Jane de Gay describe as parody and satire.[fn:20] First,
+English literary history is reproduced and satirized, with each
+chapter of the novel taking different periods like the Elizabethan,
+Restoration, and Victorian periods, and featuring (and mocking)
+characters like Queen Elizabeth and Alexander Pope. Moreover, the
+model for Orlando's character comes from Virginia's friend and lover,
+Vita Sackville-West.[fn:19] Episodes from Sackville-West's real life,
+like her heartbreak with the author Violet Trefusis and her
+disinheritance of the family estate at Knole are represented in
+Orlando's heartbreak with Sasha and (after her transition) her legal
+battles over her property and titles. According to critics
 
-*** 1 - [novel defies generic and gender categories]
-
-/Orlando: A Biography/ is a fantastical novel that defies gender and
-genre expectations. Most famously, the main character himself,
-Orlando, begins the story as a man and inexplicably changes gender to
-female about halfway through the novel. Although time passes (over 300
-years), Orlando doesn't age, but she remains 30 old all the way until
-the end. Like her sex change, this peculiarity goes largely unremarked
-by the narrator. Critics, which have framed the novel in the context
-of modernist experimentation, posit that the fantastical narrative
-elements are a response to the social constraints of the time period.
-Jill Channing posits that, "After seeing works of authors such as
-James Joyce and D. H. Lawrence being tried for obscenity and
-consequently being censored, Woolf probably anticipated that she
-should disguise her representations of the fluidity of sexuality"
-(11).[fn:12]
-
-Besides the main character, the story's narrative elements and form
-are the other major defiers of expectations. As prominent Woolfian
-Scholar Pamela Caughie puts it, "The text of Orlando is as unstable as
-the sex of Orlando" (42). /Orlando/, subtitled /A Biography/, takes
-elements from real life and parodies and satirzes them, according
-critics like Christy Burns and Jane de Gay.[fn:20] It draws from
-English literary history as source material, with each chapter of the
-novel taking different literary periods like the Elizabethan,
-Restoration, and Victorian periods, where characters like Queen
-Elizabeth and Alexander Pope are featured and mocked. Additionally,
-the novel is a well-known fictionalization of the real life of Vita
-Sackville-West, Woolf's friend and lover.[fn:19] Episodes from
-Sackville-West's real life, like her heartbreak with the author Violet
-Trefusis, her disinheritance of the family estate at Knole, and her
-interest with Romani, are represented in the ups and downs of
-Orlando's trajectory, such as his heartbreak with Sasha, the Russian
-Princesss, and after her transition, her legal battle over her
-property and titles. 
-
-*** 2: close reading argument
-
-Critics have framed the novel's experimentation with language forms
-within the context of modernist experimentation.
-
-The most unstable element, however, is Woolf's language. According to
-Caughie:
+The most unstable element of the text, however, is the language, whose
+experimental quality evokes its peers in the early modernist canon.
+According to Caughie,
 
 #+begin_quote
 In its rhetorical transports, Woolf's novel challenges the reference
-theory of meaning. In particular, it questions the notion that words
-get their meanings from things they refer to; the definition of words
+theory of meaning. In particular, it questions the notion *that words
+get their meanings from things they refer to*; the definition of words
 and categories by their essential traits; and the isolation of words
 and statements from their contexts of use in order to interpret them.
 (Caughie, "Double Discourse, 44-45).[fn:18]
 #+end_quote
 
-Similarly to Caughie, I argue that language's referential power is a
-central, if not the central, problematic in /Orlando/. However, unlike
-Caughie, who positions gender as the instigator of narrative
-experimentation, (i.e. "androgyny and transsexualism call into
-question...conventional assumptions about language itself" 44), I
-argue that language forms themselves destabilize, and then
-restabilize, gender.[fn:21] Like Butler, I argue that language is the
-creative material.
+I agree with Caughie that language's referential power is a major, if
+not the central, problematic in /Orlando/. However, unlike Caughie,
+who positions the main character's gender fluidity as the cause of
+language's instability, I explore the opposite movement: following
+Butler, this reading poses language forms as determining and producing
+gender norms and their re-signification.
 
-For Butler, the repetition required by gender norms creates the
-opportunity for undoing them: "there is no gender without this
-reproduction of norms that risks undoing or redoing the norm in
-unexpected ways, thus opening up the possibility of a remaking of
-gendered reality along new lines." (Butler, PERFORMATIVITY, PRECARITY
-AND SEXUAL POLITICS, page i).
+2
 
-In what follows, I pursue an /iterative/ text analysis method that
-toggles between close and distant views of language in the novel. The
-toggling between views recalls a procedure that Andrew Piper calls
-"bifocal" reading, which uses distant reading to identify elements for
-closer inspection, "explicitly construct[ing] the context through
-which something is seen as significant" (17).[fn:13] Unlike Piper,
-however, who "cede[s]" "some measure of subjectivity" to machinic
-processes of quantification, this method explicitly embraces personal
-choice for driving the focus of analysis. This personal choice,
-proclivity, as demonstrated below, will be essential to /subvert/
-expectation according to Butler's conception of iteration.
+Crucially, for Butler, re-signification works through iteration, which
+is repetition with a difference. For the following close reading, I
+pursue an /iterative/ text analysis method that runs the same
+quantitative computation over and over again, with slight difference:
+it intersperces quantitative analysis with close reading, dipping in
+and out of the text to examine words in their original context. This
+toggling between close and distant views of language in the novel
+recalls a procedure that Andrew Piper calls "bifocal" reading, which
+"explicitly constructs the context through which something is seen as
+significant" (17).[fn:13] Unlike Piper, however, who uses the
+quantitative component to "cede" "some measure of subjectivity" to the
+critical process, this method explicitly embraces the critic's
+inclinations as the driving force of analysis. Inclination, including
+those motivated by pleasure and surprise, will be essential to divert
+the expected path of gender's supposed reproducibility.
 
 3
 
-This analysis begins with the norm that it seeks to undo: the gender
-binary. Using ~Word2Vec~,[fn:14] a Python module for working with word
-vectors, I computed a list of vectors that are most similar to the
-terms "woman" and "man" from the novel. I saved these similar words in
-separate lists called ~woman_similar~ and ~man_similar~, as seen
-below.
+I begin with two gender terms from the novel, "woman" and "man." Using
+word vectors, and the ~Word2Vec~,[fn:14] library in python, I compute
+words used in similar contexts. The function to compute similar words,
+written below, uses cosine similarity to caculate the graphical
+distance between two words, represented as vectors. In other words,
+the function searches for words that appear with similar coordinates
+to "woman" and "man" in vector space.[fn:15]
+
+#+begin_src python
+  woman_similar = model.wv.most_similar(positive = "woman", negative = "man")
+
+  man_similar = model.wv.most_similar(positive = "man", negative = "woman")
+#+end_src
+
+To make sure that the outputs of this calculation consist of that are
+most characteristic of each gender, I defined the female term in
+direct opposition to the male terms. In the code expression, I added
+parameters specifying the most "positive" and "negative" associations
+between the genders. The results, then, show words that are most
+distinctive for each gender, most strongly correlating to "woman"
+while also being distant from "man" in vector space.[fn:16] I saved
+these similar words in separate lists called ~woman_similar~ and
+~man_similar~, as seen below.
 
 #+begin_src
-woman_similar 
+woman_similar:
 
 [(‘soft’, 0.3692586421966553), 
 (‘named’, 0.34212377667427063), 
@@ -1323,7 +1171,7 @@ woman_similar
 #+end_src
 
 #+begin_src
-man_similar
+man_similar:
 
 [(‘chequered’, 0.4025157392024994), 
 (‘fact’, 0.3394489586353302), 
@@ -1337,60 +1185,25 @@ man_similar
 (‘rather’, 0.3024100363254547)]   
 #+end_src
 
-Like ~NLTK~, ~Word2Vec~ module has a function for finding similar
-words, called ~most_similar()~. This function uses cosine similarity,
-a concept from trigonometry, in order to caculate the similarity of
-two words. The function searches for terms that appear with similar
-coordinates (i.e., close in distance) to "woman" and "man" in vector
-space.[fn:15]
-
-I wanted to make sure that the terms represent the most characteristic
-qualities of each gender. I therefore put gender into an oppositional
-relationship, posing female terms through opposition to male ones. To
-get distinctive results for each gender, I added parameters specifying
-both the most "positive" and "negative" associations between the
-genders. The results, then, show words that most strongly correlate to
-"woman" while also being distant from "man" in vector space.[fn:16]
-
-#+begin_src python
-  woman_similar = model.wv.most_similar(positive = "woman", negative = "man")
-
-  man_similar = model.wv.most_similar(positive = "man", negative = "woman")
-#+end_src
-
-Though this analysis, like Underwood’s, begins with an oppositional
-formulation of gender, the goal is not to reproduce or reify the
-binary: rather, following Butler, it is to bring forth what has been
-repudiated by each term.
-
-To achieve this, the iterative practice is necessay. 
-
-While the terms from each list appear to align with existing
-conceptions of femininity and masculinity (“soft” and “frilled” for
-“woman,” and “fact” and “defend” for “man”), when examined in context,
-the binary is less clear cut.
-
-Underwood places male and female into a positive/negative axis, which
-the above formulation appears to replicate. However, the analysis here
-does two specific things that resist easy reproduction: first, it
-toggles between different vantages of the text, between close and
-distant, treating both as textual samples for close analysis; second,
-in its analysis of gender and gender-related terms, it seeks what has
-been or must be /repudiated/ in order for the terms to signify as they
-do in the text. It finds that the female and male genders are
-constituted by certain exclusions which can only be found by examining
-the terms that constitute the other gender.
-
+Readers may note that like Underwood's project, this analysis begins
+with an oppositional formulation of gender, one that places male and
+female into a positive/negative axis. However, the goal of this
+analysis is not to reproduce or reify the binary: rather, it is to
+bring forth what has been repudiated by each term. Like Butler's
+reading of "queer," this analysis finds that the female and male
+genders are constituted by certain /exclusions/ which define the
+other. In what follows, I read into a selection of these terms,
+examining them in context, to seek out what constitutes their meaning
+and, eventually, what must be repudiated in order for them to signify.
 
 5
 
-I begin with a word from the ~woman_similar~ list, "delicious." This
-term only occurs five times in the novel, and only after Orlando
-transitions into a woman. Three of these occurances appear in a single
-passage, when Orlando is sailing from Turkey back to her native
-England. In this passage, the ship captain offers Orlando a slice of
-beef. Politely refusing, Orlando then launches into a rapturous
-speculation about the joys of womanhood.
+For example, term "delicious." This term only occurs five times in the
+novel, and only after Orlando transitions into a woman. Three of these
+occurances appear in a single passage, when Orlando is sailing from
+Turkey back to her native England. In this passage, the ship captain
+offers Orlando a slice of beef. After politely refusing, Orlando
+launches into a rapturous speculation on the joys of womanhood.
 
 #+begin_quote
 ‘A little of the fat, Ma’m?’ he asked. ‘Let me cut you just the
@@ -1410,24 +1223,27 @@ resist and to yield; to yield and to resist. (emphasis mine, 114)
 
 6
 
-Delicious---which is repeated insistently, conspicuously, in this
-passage---describes a distincly feminine experience of pleasure. Part
-of its novelty comes from its opposition to the active form pleasure
-of pursuit that Orlando enjoyed as a man, when he fell in love with
-Sasha, the Russian princess. In contrast to the pleasure of chasing
-Sasha, this feminine pleaure is about withholding and, eventually,
-submitting. A submission that is rooted in what is not quite passivity
-and not quite power, but a vacillation between the two.
+Delicious, which is repeated insistently, conspicuously, in this
+passage, describes a distincly feminine kind of pleasure. In this
+context, its novelty comes from the opposition to pursuit, here posed
+as the active form of pleasure proper to the man, that which Orlando
+enjoyed as a man when he seduced the Russian princess, Sasha. In
+contrast to the active pleasure of the pursuer, this passive, feminine
+pleasure is about withholding and, eventually, submitting. Yet, it is
+not totally passive: it betrays a kind of power, the power in
+vascillating between refusal and acquiescence, "to resist and to
+yield" (114).
+
 
 7
 
-Iterating on this term, I run another similarity search, this time
-with "delicious" as the target word. The top result, the word most
-related to “delicious” in the text, is "culpable." In the novel, this
-term occurs twice, also on the ship, in Orlando’s ruminations about
-the pleasures between the sexes. As it happens, the first of those
-appearances occurs in one of the few sentences in the novel in which
-Orlando considers her homosexuality explicitly:
+I run another similarity search, iterating on the term "woman," but
+this time, with "delicious" as the target word. The top result, the
+word most related to “delicious” in the text, is "culpable." As it
+happens, this term occurs in the same scene as above, when Orlando is
+ruminating on the differences between the sexes on the ship. In this
+section, Orlando considers what her change in sex means for her
+sexuality:
 
 #+begin_quote
 And as all Orlando’s loves had been women, now, through the /culpable/
@@ -1440,31 +1256,50 @@ to quicken and deepen those feelings which she had had as a man.
 
 8
 
-“Culpable,” from the Latin “culpa,” meaning fault, denotes a person
-deserving of blame. In text's original context, the term modifies
-“laggardry of the human frame,” referring to the physical body which
-refuses "to adapt itself to convention"---in this case, the convention
-a female body loving a male one, of heterosexuality. "Culpable" thus
-describes a guilt associated with an /embodied/ obstinancy, that of
-sexual desire. Here, Orlando’s refusal to conform to social
-expectations, for which she feels culpable, constitutes another form
-of refusal---this time, a refusal to conform to social expectations.
-Like "delicious," this refusall is also a passive one, based on /not/
-taking a prescribed action. The connection between “delicious” and
-“culpable” thus seem to define feminine pleasure and desire as a
-distinctly passive mode of resistance.
+“Culpable,” from the Latin “culpa,” means fault or blame. In this
+context, the term modifies the phrase, "the laggardry of the human
+frame," that is, the human body, "to adapt itself to convention," to
+the convention heterosexuality, of the female's desire for the male.
+Like "delicious" above, "culpable" also describes kind of refusal, a
+refusal to conform to social expectations. But instead of associating
+refusal with power, it associates it with sexuality. Indeed, this
+sentence is one of the few in the novel (in all of Woolf's fiction)
+where homosexuality is considered in explicit terms--"it was still a
+woman she loved."
 
-10 Now, I move to Orlando’s experience as a man, returning to the
-original list of similar terms. I return to the list of vectors
-associated with the word “man,” and begin with “chequered,” which
-appears only once, at the start of the story, when Orlando makes his
-entrance, stepping into “the yellow pools chequered by the floor”
-(12). This moment is the first of many in which the narrator calls
-into question his credibility as a biographer, a self-described
-“scribe,” who distinguishes his role from the poet who embellishes and
-exaggerates reality through figurative language. However, the
-narrator’s commitment to straightforward description soon gallops into
-full-fledged figuration when he tries to describe Orlando’s beauty:
+The iteration from "delicious" to "culpable" thus models femininity
+through descriptions of power and passion. If femininity is
+constituted by these terms, what then constitutes masculinity? 
+
+10
+
+Masculinity, as it turns out, is constituted by division. Moving to
+the terms associated with "man," I begin with the term "chequered,"
+which appears only once, in the first few pages of the story. Here,
+after describing Orlando's aristocratic lineage ("His fathers had been
+noble since they had been at all. They came out of the northern mists
+wearing coronets on their heads"), the narrator paints Orlando
+stepping into "the yellow pools which /chequered/ the floor, made by
+the sun falling through the vast coat of arms in the window" (12). His
+depiction then veers into lush and exagerrated language.
+
+#+begin_quote
+Orlando stood now in the midst of the yellow body of an heraldic
+leopard. When he put his hand on the window-sill to push the window
+open, it was instantly coloured red, blue, and yellow like a
+butterfly's wing. Thus, those who like symbols [...] might observe
+that though the shapely legs, the handsome body, and the well-set
+shoulders were all of them decorated with various tints of heraldic
+light, Orlando's face, as he threw the window open, was lit solely by
+the sun itself. 12
+#+end_quote
+
+11
+
+The image of Orlando's body cut or /chequered/ into different colored
+pieces is indeed a symbol, but one of division rather than nobility.
+This is a condition exacerbated by the narration, which soon gallops
+into full-fledged figuration:
 
 #+begin_quote
 Directly we glance at Orlando standing by the window, we must admit
@@ -1474,82 +1309,99 @@ of a marble dome pressed between the two blank medallions which were
 his temples. Directly we glance at eyes and forehead, thus do we
 rhapsodize. Directly we glance at eyes and forehead, we have to admit
 a thousand disagreeables which it is the aim of every good biographer
-to ignore. (12-13)
+to ignore. 12-13
 #+end_quote
 
-11 Here, the narrator’s evocative language undermines his pretense to
-objectivity. This slip into figurative language eventually grows into
-a crisis of signification that recurs persistently through the novel.
-This crisis will eventually affect not only language’s ability to
-signify, but also that of gender. As Victoria L. Smith affirms, “what
-happens in the novel… and what it thematizes—language’s inability to
-adequately represent the ‘thing itself’—mirrors the undecidability of
-the text—is it a biography, an autobiography, fantasy, etc.—and the
-impossibility of the form of ‘woman’” (58).
+It bears noting that this scene is the first in many scenes in the
+novel where the narrator, a self-described "scribe," committed to
+straightforward description, calls into question his credibility as a
+biographer. When trying to describe Orlando's beauty, he endows it
+with mystical qualities--his eyes like flowers, his forehead like
+marble. The narrator’s evocative language undermines his own pretense
+to objectivity.
 
-12 The crisis of signification even spreads to Orlando’s internal
-thoughts, where it first emerges during a period of depression
-following his love affair with Sasha, a Russian princess. Here, I take
-the another term, “despaired,” from the list of vectors associated
-with “man.” Like “chequered,” this term occurs only once in the novel:
+12
+
+These momentary slips into figurative language grow into a crisis of
+signification that recurs persistently through the novel, and entwine
+with Orlando's own thoughts. Take another term from the list of
+"woman" vectors, "despaired." Like "chequered," this term occurs in a
+scene where the line between fiction and reality become blurred. In
+this scene, Orlando is in the midst of a period of depression
+following his abandonment by the Russian princess, Sasha. He is lying
+beneath his favorite Oak tree, ruminating about the meaning of truth,
+love, and above all, language itself.
 
 #+begin_quote
-So then he tried saying the grass is green and the sky is blue and so
-to propitiate the austere spirit of poetry whom still, though at a
-great distance, he could not help reverencing. ‘The sky is blue,’ he
-said, ‘the grass is green.’ Looking up, he saw that, on the contrary,
-the sky is like the veils which a thousand Madonnas have let fall from
-their hair; and the grass fleets and darkens like a flight of girls
-fleeing the embraces of hairy satyrs from enchanted woods. ‘Upon my
-word,’ he said (for he had fallen into the bad habit of speaking
-aloud), ‘I don’t see that one’s more true than another. Both are
-utterly false.’ And he despaired of being able to solve the problem of
-what poetry is and what truth is and fell into a deep dejection. (75)
+‘The sky is blue,’ he said, ‘the grass is green.’ Looking up, he saw
+that, on the contrary, the sky is like the veils which a thousand
+Madonnas have let fall from their hair; and the grass fleets and
+darkens like a flight of girls fleeing the embraces of hairy satyrs
+from enchanted woods. ‘Upon my word,’ he said (for he had fallen into
+the bad habit of speaking aloud), ‘I don’t see that one’s more true
+than another. Both are utterly false.’ And he despaired of being able
+to solve the problem of what poetry is and what truth is and fell into
+a deep dejection. 75
 #+end_quote
 
-13 Orlando, deep in depression, struggles to understand the role of
-figuration in language. Much like the narrator who is suspicious of
-figurative language, Orlando also questions the truthfulness of
-figuration. First, he attempts plain language, “the sky is blue,” “the
-grass is green,” but these prove insufficient for describing a sky
-that moves “like the veils which a thousand Madonnas have let fall
-from their hair” and grass that “fleets and darkens like a flight of
-girls fleeing the embraces of hairy satyrs from enchanted woods.”
-Orlando, who has just been abandoned by a woman, sees flight and
-modesty, qualities which he finds “false,” in nature. The word
-“despaired” here, like “chequered” above, appears in a moment that
-elevates the role of figuration in language. It also marks a crossing
-of the crisis of signification over the diegetic threshold, into
-Orlando’s internal world. These terms, which occur in scenes where the
-lines between fiction and reality, and internal and external narration
-are blurred, elevate the importance of language’s imaginative
-capacities in the novel.
+13
 
-13.1 Man is divided until the female gender settles the division of
-the male.
+Like the narrator, Orlando struggles with the referential qualities of
+language. First, he attempts plain language, "the sky is blue,” “the
+grass is green.” But these prove insufficient to describe a sky of
+"veils [from] a thousand Madonnas" and grass that “fleets and darkens"
+like "girls fleeing." Orlando, like the narrator, cannot make language
+do the work of expression. So he must turn to figurative elements,
+comparisons of feminine subtlety and evasion which betray his pain
+from being recently abandoned by a woman. If in the previous scene,
+Orlando was divided by different colors of light, here he appears
+divided by doubt about language and its pretention to describe
+reality.
 
-  Then, in chapter six, Orlando watches a toy boat negotiate a wavelet
-  on the Serpentine river in London. The boat is momentarily submerged
-  and then emerges on the other side of the wavelet. She associates
-  this with the word “ecstasy”, and hurries to telegram the phrase, ‘a
-  toy boat on the serpentine’ and ‘ecstasy’, to her lover, who she
-  knows will immediately understand what it means. As she hurries to
-  the post office, she meditates on the nature of language and
-  literature, which she now realizes is violently ecstatic. The toy
-  boat now has the power to signify.
+13.1
 
-  The symmetry of this episode with the last in the grass shows how
-  Orlando’s new perspective on language, her faith in language, endows
-  it with the power to mean.
+He is divided, that is, until he becomes a woman. In chapter six, a
+scene which mirrors this one under the Oak tree appears to resolve the
+the crisis of signification. Orlando, now a woman, watches a toy boat
+on the Serpentine river in Hyde Park, London. The toy boat incites a
+waking vision of Shel, her gender-bending husband, who is a sailor:
+"as she watched the toy boat climb the ripple, she thought she saw
+[his] ship climb up and up a glassy wall" (PAGE NUMBER). Her thinking
+climaxes when she sees the little boat make it to the other side of
+the wavelet.
 
-14 In a final example, language’s ability to signify becomes closely
-coordinated to gender. I examine the co-occurrence of words from both
-the “woman” and “man” lists within a single passage, the scene where
-Orlando first meets his beloved Sasha. The words “curiosity,” which is
-associated with “man,” and “seductiveness,” which is associated with
-“woman,” appear in a tumultuous meditation on Sasha’s gender
-incomprehensibility. The drama begins when Orlando, upon seeing Sasha
-for the first time, cannot tell whether she is a man or a woman:
+#+begin_quote
+'Ecstasy!' she cried. 'Ecstasy! Where's the post office?' she
+wondered. 'For I must wire at once to Shel and tell him...' And
+repeating 'A toy boat on the Serpentine', and 'Ecstasy', alternately,
+for the thoughts were interchangeable and meant exactly the same
+thing, she hurried towards Park Lane.
+
+'A toy boat, a toy boat, a toy boat,' she repeated, thus enforcing
+upon herself the fact that it is not articles by Nick Greene on John
+Donne nor eight-hour bills nor covenants nor factory acts that matter;
+it's something useless, sudden, violent; something that costs a
+life... that's what it is--a toy boat on the Serpentine, ecstasy--it's
+ecstasy that matters. PAGE NUMBER
+#+end_quote
+
+She hurries to telegram the phrases, "a toy boat on the serpentine"
+and "ecstasy," to Shel, whom she knows will immediately understand
+what it means. She realizes that language, its power, is violently
+ecstatic. If before, under the Oak tree, Orlando struggled to describe
+reality in plain language, now she has the significatory power to
+equate two apparently unrelated terms.
+
+14
+
+An interesting, final example shows how close language and gender are
+in the novel. Words from both the “woman” and “man” lists of vectors
+occur within a single passage, the scene where Orlando first meets his
+beloved Sasha. The words “curiosity,” from the “man” list, and
+“seductiveness," from the "woman" list, appear together in Orlando's
+tumultuous and agonizing attempt to determine Sasha’s gender. Upon
+seeing Sasha for the first time, cannot tell whether she is a man or a
+woman:
 
 #+begin_quote
 He beheld, coming from the pavilion of the Muscovite Embassy, a
@@ -1569,151 +1421,97 @@ note that all his images at this time were simple in the extreme to
 match his senses and were mostly taken from things he had liked the
 taste of as a boy. But if his senses were simple they were at the same
 time extremely strong. To pause therefore and seek the reasons of
-things is out of the question)… A melon, an emerald, a fox in the
-snow—so he raved, so he stared. When the boy, for alas, a boy it must
-be–no woman could skate with such speed and vigour—swept almost on
-tiptoe past him, Orlando was ready to tear his hair with vexation that
-the person was of his own sex, and thus all embraces were out of the
-question. (27-28)
+things is out of the question)... A melon, an emerald, a fox in the
+snow—--so he raved, so he stared. When the boy, for alas, a boy it
+must be–--no woman could skate with such speed and vigour—--swept
+almost on tiptoe past him, Orlando was ready to tear his hair with
+vexation that the person was of his own sex, and thus all embraces
+were out of the question. 27-28
 #+end_quote
 
-15 The passage constellates the crisis of signification within the
-larger issue gender ambiguity. Orlando uses seemingly arbitrary
-metaphors, “A melon, an emerald, a fox in the snow,” indicating that
-at the same time which he cannot place Sasha’s gender, he also cannot
-find the right words to describe her. As Sasha’s gender oscillates
-between male and female throughout the passage, so the narrative voice
-alternates between Orlando’s interiority and the narrator’s
-commentary. Taking this crisis of signification beyond the diegetic
-narrative, the narrator’s “pause” signals the constructed nature of
-the scene. This constructed quality is emphasized by the narrator’s
-explanation for Orlando’s choice of words, which have no “reason,” and
-“were mostly taken from things he had liked the taste of as a boy.”
-Language, like gender, thus becomes a tool for representation and
-performance.
+Orlando uses seemingly arbitrary metaphors, "A melon, an emerald, a
+fox in the snow," indicating that at the same time which he cannot
+place Sasha’s gender, he also cannot find the right words to describe
+her. This dynamic between gender and language is further developed in
+the narrative form of the passage: as Sasha's gender oscillates
+between male and female, so the perspective alternates between
+Orlando’s interiority and the narrator’s commentary. In particular,
+the insertion of the narrator’s "pause," a pause which purports to
+explain Orlando's arbitrary metaphors, signals a breach in the
+diegetic narrative, which reinforces the constructed quality of the
+scene. By the end, it is fair to say that both gender and language are
+illustrated as pliant material, one that can be put toward various
+uses and expressions.
 
-16 The iterative reading practice, which bases close attention to
-language from the results of distant reading analysis, brings to the
-surface the relationship between gender and imagination, particularly
-imaginative forms of language, in the novel. As Pamela Caughie
-asserts, Orlando’s gender transgression is intimately connected to the
-narrator’s experiments in figuration and form: “Woolf brings out the
-arbitrariness of [sexual] identity, the arbitrariness of language
-itself, through Orlando’s switching from one sex to the other, and
-from one poetic language to another, as well as through the shifting
-of her own rhetoric in this novel (42).
+15
 
-17 The list of words offer a starting point for isolating passages
-throughout the text, which then offer opportunities for finding new
-words to read in context. As the reader moves from distant to close,
-from a word vector to its context, the meanings of certain words gain
-new significations. And what happens with language in the novel also
-happens with gender. The above passage, with its “switching” and
-“shifting” discourse, which asserts that word choices are arbitrary
-and flowing, implies that gender is also a fluid phenomenon.
+Taking words from both the female and male lists of vectors, this
+passage suggests that the two genders intersect via language's
+unstable, expressive qualities. Gender, like language, is /fluid/. As
+a thematic, this fluidity has been well documented by critics: Caughie
+claims that "Woolf brings out the arbitrariness of [sexual] identity,
+the arbitrariness of language itself, through Orlando’s switching from
+one sex to the other... as well as through the shifting of her own
+rhetoric in this novel" (42); Victoria L. Smith asserts that "what
+happens in the novel... and what it thematizes—-language’s inability
+to adequately represent the ‘thing itself’—-mirrors the undecidability
+of the text--is it a biography, an autobiography, fantasy, etc." (58).
+The above passage, with its “switching” and “shifting” discourse,
+which asserts that word choices are arbitrary and flowing, implies
+that gender is also a fluid phenomenon.
 
-4
+In this analysis, fluidity is brought forth through close readings of
+specific terms, "delicious," "culpable," "chequered," "despaired," and
+in the longer passage, "seductiveness" and "curiosity." For the terms
+similar to "woman," gender is constituted by a reclamation of feminine
+refusal into sign of power more than passivity. The masculine gender
+is constituted through an association with division, which spreads
+from Orlando's interior experience to the extradeigetic layer of the
+narration. Orlando's division points to the novel's larger crisis of
+signification, which appear to resolve when Orlando becomes a woman.
+What is divided in the male appears to be resolved in the female. In
+the end, the repudiated meaning of gender, the meaning which is being
+brought back through is fluidity.
 
-For example, from the “woman” list, the term “delicious”
+16
 
-only appears after Orlando has transitioned into a woman in the story.
-As I explain below, this term reveals a relationship to queerness
-characterized by a distinctly passive mode of gender subversion. Then,
-from the “man” list, I examine a term that only appears once in the
-novel, at a significant moment which initiates what I call the novel’s
-“crisis of signification” with language. Following this thread, I
-examine further passages that develop this theme as it spreads into
-Orlando’s interior narration. I conclude with a close reading of a
-rather dramatic passage that contains words from both the “woman” and
-“man” lists, and that coordinates this crisis with themes of gender
-ambiguity and homosexual desire.
-
-Iterating through distant and close reading, the terms swell with
-unexpected significations.
-
-*** [Woolf uses otherness in order to express gender transgression]
-
-  As a trans figure, Orlando challenges "embodied normative
-  nationality"... "national belonging being both what Orlando longs for
-  from the hills of Turkey and what her transformative experience in
-  Turkey forever undoes."[fn:17] (Berman 139)
-
-  Embodiment is always mediated: "“By ruminating on the potential
-  disconnection between clothing and embodiment, Woolf not only
-  mobilizes a familiar Orientalist trope but also and perhaps more
-  importantly demonstrates that we never have "unmediated access" to
-  "the materiality of the body" nor do we ever know it with certainty
-  (qt Salamon, Assuming a Body) (Berman 234).
-
-  "Woolf reaches for Orientalist tropes in /Orlando/ not because of
-  her fantasies about Turkey or the gypsies (which she may well have
-  harbored) but because she rightly recognized that English civic
-  discourses about gender and nationality allowed no room for
-  narratives of transgression or change on her home turf” (Berman 235).
-
-  According to Jamie Hovey, gender and nationality are constructed via
-  race and sexuality. "Sexuality and other dimensions of identity,
-  such as nation and race, are seen as performed through gender"
-  (Hovey 397).
-
-  "Gender and nationality operate as essentializing ideologies of
-  identity only if sexuality and race remain nationality's half-hidden
-  or forgotten others" (Hovey 393).
-
-  "Orlando seeks a place of national belonging for the polymorphously
-  sexual, masculine identified white woman" (Hovey 394).
-
-  "uses racially and sexually 'foreign' subjects to explore the
-  ambiguous national and social identity of a queerly gendered white
-  Englishman, excluded from the nation by her polymorphus sexuality"
-  (398). 
-
-*** 1.2 - [novel challenges traditional binary]
-
-While some critics argue that the novel supports a
-
-The novel refies sexual difference
-
-Sexual difference and doubling is a necessary mechanism for expressing
-the self in the novel.
-
-- Pamela Caughie agrees, arguing that Orlando’s transgressiveness
-  comes from its discursive moves: “Far from defeating sexual
-  difference, as many feminist critics claim, Orlando enacts it,
-  enshrines it, exploits it, makes a spectacle of it, but as a playful
-  oscillation not a stable opposition” (Caughie 48).
-- suggests that a doubleness is needed to produce the self as woman,
-  to represent (her) self” (Smith 58).
+The iterative reading practice brings these meanings of gender to the
+surface. The lists of word vectors offer starting points for isolating
+passages throughout the text. As the reader moves from distant to
+close, from a word vector to its context, the meanings of certain
+words gain new significations.
 
 ** Conclusion
 
-0 The rest of the first sentence, "—was in the act of slicing at the
-head of a Moor which swung from the rafters” (11)."
+Like /Orlando/'s narration, there is something conspicuous about my
+own presentation of facts. Attentive readers of /Orlando/ will know
+that I left out the second half of the first sentence. The rest of the
+first sentence, "—was in the act of slicing at the head of a Moor
+which swung from the rafters” (11)."
 
-  "Beginning with an image of a decapitated Moor, Orlando appropriates
-  the exoticized subjects of colonial discourse to create for its
-  protagonist a sexuality that is not bourgeois or heterosexual.
-  However, Orlando's playful but insistent production of white
-  femininity allows the protagonist to pass as respectable and
-  heterosexual by displacing her transgressive sexuality onto racial
-  others, thereby masking Orlando's masculine-identified literary and
-  sexual desires." (Hovey 398).
+Race, and the body, is elided in this analysis.
 
-2 As a discursive phenomenon, performativity is situated within
-second-wave feminism and its deconstruction of the gender binary.
+According to Jamie Hovey, gender and nationality are constructed via
+race and sexuality. "Sexuality and other dimensions of identity, such
+as nation and race, are seen as performed through gender" (Hovey 397).
+
+"Beginning with an image of a decapitated Moor, Orlando appropriates
+the exoticized subjects of colonial discourse to create for its
+protagonist a sexuality that is not bourgeois or heterosexual.
+However, Orlando's playful but insistent production of white
+femininity allows the protagonist to pass as respectable and
+heterosexual by displacing her transgressive sexuality onto racial
+others, thereby masking Orlando's masculine-identified literary and
+sexual desires." (Hovey 398).
+
+2
+
+This elision is because there is a limitation to Butler's theory.
 Common critiques of Butler point out the limits of this theory for
-posing gender and sexuality as discursive. From the field of Trans
-Studies, Jay Prosser problematizes Butler’s “deliteralization of sex,”
-which he applies to Queer Studies more generally, for the way it
-elides the real-world concerns of the body’s materiality and its
-precarious existence in cross-gendered identifications. This thread of
-discursivity, and its implications within a larger trajectory of Queer
-Studies, is picked up again in this chapter’s conclusion.
+posing gender and sexuality as discursive. 
 
-1 Butler on proliferation. We do not want it.
+3
 
-3 The argument that Orlando’s subversiveness is a discursive one,
-opens the text to numerous critiques, particularly from Trans Studies.
 According Jay Prosser, Woolf’s experimentation with language and
 narrative form belies the embodied reality of transsexuality. He
 argues that “Orlando is not about the sexed body at all but the
@@ -1723,48 +1521,31 @@ body–quite queerly, to break through the limits of the flesh” (Prosser
 168). By “the sexed body,” Prosser means the physical body that exists
 in a physical world. Orlando’s transgressiveness, Prosser argues,
 results from a play of language and literary form that elides the
-specificity and the lived reality of the “sexed body.” Due to its
-“ambivalence, a wavering around transition,” “a transformation of
-transition into new identity,” its “easy androgyny,” this text is
-transgender rather than transsexual (Prosser 169).
+specificity and the lived reality of the “sexed body.” 
 
-4 A decade later, Omise’eke Natasha Tinsley writes about the problem
-of gender fluidity as a metaphor. In her essay, “Black Atlantic, Queer
+4
+
+A decade later, Omise’eke Natasha Tinsley writes about the problem of
+gender fluidity as a metaphor. In her essay, “Black Atlantic, Queer
 Atlantic: Queer Imaginings of the Middle Passage,” Tinsley argues for
 the imbrication of sexuality and race through the lens of the Black
-Atlantic. By sexuality, Tinsley does not necessarily mean “same-sex”
-desire, but relationships from the Middle Passage, that “mak[e]
-disruption to the violence of the normative order… connecting in ways
-that commodified flesh was never supposed to” (199). Reading for
-relation rather than desire, her critique re-works the trope of
-fluidity which, drawing from the ocean, “is not an easy metaphor or
-queer and racially hybrid identities but for concrete, painful, and
-liberatory experience” (192-193). For Tinsley, fluidity is an
-opportunity for “a return to the materiality of water to make its
-metaphors mean more complexly, shaking off settling into frozen
-figures” (212). Reading from Dionne Brand’s book, Map to the Door of
-No Return (2001), on the Middle Passage, Tinsley theorizes fluidity as
-a “social liquidation,” being stripped by the water, particulars of
-identity washed away in the current. She explains that “brown bodies
-are gender fluid not because they choose parodic proliferations but
-because they have been ‘washed of all this lading, bag and baggage’”
-(209).
+Atlantic.
 
-5 Tinsley’s critique surfaces the ways that gender fluidity, as a
-trope for queerness, obscures the connotations of water, especially
-the physical one of corrosion. While the topic of physical embodiment
-and racialization is one that I take up in my fourth chapter, in the
-concept of flesh, here I have tried to show how attention to
-iterativity in computer code, and the fluidity it inspires for close
-and distant reading analysis, surfaces the material components that
-undergird what is often presented as an immaterial or abstract
-processes within quantitative analysis.
+Her critique re-works the trope of fluidity which, drawing from the
+ocean, “is not an easy metaphor or queer and racially hybrid
+identities but for concrete, painful, and liberatory experience”
+(192-193). For Tinsley, fluidity is an opportunity for “a return to
+the materiality of water to make its metaphors mean more complexly,
+shaking off settling into frozen figures” (212). Tinsley theorizes
+fluidity as a “social liquidation,” being stripped by the water,
+particulars of identity washed away in the current. She explains that
+“brown bodies are gender fluid not because they choose parodic
+proliferations but because they have been ‘washed of all this lading,
+bag and baggage’” (209).
 
-6 Wraps up, points to future chapters. 
+This is taken up in chapter four on the flesh.
 
 * Footnotes
-
-[fn:21] I discuss the contrary view in the chapters conclusion.
 
 [fn:20]  Burns, Christy L. “Re-Dressing Feminist Identities: Tensions
 between Essential and Constructed Selves in Virginia Woolf's Orlando.”
@@ -1825,7 +1606,17 @@ modelling to performative materiality.” MLA Convention, Seattle, 10
 January 2020.
 https://katherinebode.wordpress.com/home/mla-convention-2020/  
 
-[fn:8] Klein, Lauren F., "The Image of Absence: Archival Silence, Data
+[fn:8] In one project, Klein uses network analysis methods to bring
+forth the "ghost" of James Hemmings, an emancipated slave who figured
+in the correspondence of a famous slaveholder. By marking up oblique
+references in the letters of his former master (Thomas Jefferson),
+Klein "render[s] visible the archival silences implicit in our
+understanding of chattel slavery today" (665). Her work demonstrates
+that the details of Hemmings's life, which is deeply distributed in
+the correspondence data, requires a kind of reading that is close and
+careful.
+
+Klein, Lauren F., "The Image of Absence: Archival Silence, Data
 Visualization, and James Hemings," in /American Literature/, 85 (4):
 661–688, 2013.
 

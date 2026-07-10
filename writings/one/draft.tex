@@ -1,0 +1,188 @@
+% Created 2026-07-09 Thu 15:05
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{fcalado}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={fcalado},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.3 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{draft: text capture}
+\label{sec:org7887b9f}
+
+\subsection{outliine}
+\label{sec:orgbd9f818}
+\begin{itemize}
+\item web scraping
+\begin{itemize}
+\item what is web scraping?
+\begin{itemize}
+\item html data
+\item network, TCP/IP
+\item standards
+\end{itemize}
+\item scraping congress.gov
+\begin{itemize}
+\item 
+\end{itemize}
+\end{itemize}
+\item conclusion
+\begin{itemize}
+\item eve sedgwick on reading practices?
+\item Bowers vs Hardwick, Bostock v. Clayton County.
+\end{itemize}
+\end{itemize}
+\subsection{draft}
+\label{sec:orgb6f6f1b}
+
+\subsubsection{{\bfseries\sffamily TODO} what is web scraping?}
+\label{sec:org88b2764}
+
+\begin{enumerate}
+\item HTML
+\label{sec:org40a50b4}
+
+Web scraping is the extraction of information from websites. It most
+often involves working with data in HTML, though there are other forms
+that data takes which can be intercepted, such as from requests that
+are necessary to populate web pages.\footnote{Scraping XHR}
+
+\item Protocol
+\label{sec:orgedfcb65}
+
+Web scraping is possible by manipulating HTTP protocols, which is the
+language or standard of the network.
+
+Web scraping is, at its core, about mimicking a typical browser
+request. Using HTTP protocols, it makes a request to a web server much
+like a user makes a request by typing in a URL into the browser. The
+data it gets back from the HTTP request is also the same as the data
+that comes to a browser after searching a URL---only the data is
+intercepted before in the form of bytes, rather than assembled into a
+web page visible through a browser.
+
+\begin{verbatim}
+r = requests.get("https://www.nytimes.com/")
+\end{verbatim}
+
+You can scrape a website with only five lines of code. Below is an
+example that scraps the home page of \emph{The New York Times} website
+using the \texttt{bs4} and \texttt{requests} libraries in python.
+
+\begin{verbatim}
+from bs4 import BeautifulSoup
+import requests
+
+r = requests.get("https://www.nytimes.com/")
+source = r.content
+soup = BeautifulSoup(source, 'html.parser')
+\end{verbatim}
+
+The \texttt{requests} library is one of the most popular libraries in the
+python programing language. Enabling programs to send and receive data
+through HTTP networks (i.e., the internet), it is the bedrock for
+virtually all web scraping and API tasks. The \texttt{get()} function from
+\texttt{requests} can access the \emph{NYTimes} homepage, which is saved in the
+form of bytes via the \texttt{content} property. Then, using \texttt{bs4}, a python
+library for working with HTML data, the data is parsed into an object
+called \texttt{soup} (following \texttt{bs4}'s naming conventions), which is a
+pythonic object of HTML data. 
+
+The beauty of \texttt{bs4} is that it makes HTML---a notoriously fussy
+language that is the reason why so many web frameworks exist in the
+first place, attempting to abstract the user from working directly in
+HTML---accessible through simple python syntax.
+
+For example, the expression \texttt{soup.title} returns the following output: 
+
+\begin{verbatim}
+>>> soup.title
+<title data-rh="true">The New York Times - Breaking News, US News, World News and Videos</title>
+\end{verbatim}
+
+Similarly, other HTML elements can now be accessed using python
+dot syntax.
+
+\begin{verbatim}
+>>> soup.p
+<p>Make sense of the day’s news and ideas.</p>
+
+>>> soup.a
+<a class="css-kgn7zc" href="#site-content">Skip to content</a>
+
+>>> soup.h1
+<h1 class="css-1dv1kvn">New York Times - Top Stories</h1>
+\end{verbatim}
+
+Further properties like \texttt{text} (for just text) and functions like
+\texttt{find()} are also possible. Functions can be further specified when
+combined with the \texttt{class\_} parameter, to search the HTML with more
+precision. Due to python syntax, they can also be chained together to
+create complex expressions. These building blocks enable programmers
+to navifate the HTML tree with granularity.
+
+\begin{verbatim}
+>>> soup.h1.text
+'New York Times - Top Stories'
+
+>>> soup.find('div', class_ = 'css-cfnhvx')
+<div class="css-cfnhvx" data-tpl="h"><a class="tpl-lbl css-5mgoji" data-tpl="l" href="https://www.nytimes.com/live/2026/07/09/world/iran-war-us-trump"><div class="css-xdandi" data-tpl="b"><p class="indicate-hover css-1ixq7yl">U.S. and Iran Sink Into Violent Cycle After Trading Strikes</p></div></a></div>
+
+>>> soup.find('div', class_ = 'css-cfnhvx').text
+'U.S. and Iran Sink Into Violent Cycle After Trading Strikes'
+\end{verbatim}
+
+HTML classes for an element can be found by using built-in browser
+tools like the web inspector. On the webpage, right click on the
+relevant text and select \texttt{inspect} from the dropdown menu. The element
+will already be highlighted, with information for the \texttt{class}
+attribute visible in the highlighted portion.\footnote{Note that across programming languages like HTML and python,
+terms like "attributes" mean different things and in practice function
+very differently. In HTML, an attribute is data contained within an
+HTML element, like a value specifying a CSS class, such as \texttt{<h1
+class=title>New York Times</h1>}. By contrast, in python an attribute
+is information associated with an object model, like \texttt{r.content} or
+\texttt{r.status\_code}, which is data associated with an HTTP request object,
+\texttt{r}.}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/inspector.png}
+\end{center}
+
+Not all websites 
+Blockers
+
+Web servers, unfortunately for the web scraper, often try to block
+automated requests to their data. They use various forms of blockers,
+most recently, Cloudflare blockers that ask the user to check a box
+for "security verification" (See Fig. 1)
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/verify.png}
+\end{center}
+
+
+
+The bytes object is encoded HTML. The task is then to extract the
+desired data, in this case, the text, from the HTML.
+\end{enumerate}
+\end{document}
