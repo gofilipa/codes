@@ -1,3 +1,74 @@
+** bank
+
+*** "The task," according to Bulter, "will be to consider this threat and
+disruption... as a critical resource in the struggle to rearticulate
+the very terms of symbolic legitimacy and intelligibility" (xiii).
+*** how can one read a text for what does not appear (Butler)
+In Butler's formulation, “how can one read a text for what does not
+appear within its own terms?” (/Bodies/ 11).
+
+Butler considers the referential power of language: “Can language
+simply refer to materiality, or is language also the very condition
+under which materiality may be said to appear?” (6). Butler offers the
+example of the physical body. In order to refer to a physical body,
+Butler explains, language must first /assume/ a body. That is, the
+body must first be posed in language. Therefore, Butler reasons,
+“signification produces as an effect of its own procedure the very
+body that it nevertheless and simultaneously claims to discover as
+that which precedes its own action” (6). Butler explains that
+signification creates the body which it appears to reference. Which
+leads them to a major realization: "the mimetic or representational
+status of language... is not mimetic at all. On the contrary, it is
+productive, constitutive, one might even argue performative" (/Bodies/
+6).
+*** bode quotes
+
+Agrees with Klein that there are details to be considered which
+distant reading overlooks:
+
+"quantitative literary studies should begin by trying, as much as
+possible, to consider the nature of ontological gaps and
+epistemological biases in its evidence” (Bode, Katherine. ‘Why You
+Can’t Model Away Bias,’ Modern Language Quarterly (2020) 81 (1):
+95–124; page 97).
+
+But emphasizes that "we can understand our databases or models as part
+of the ongoing materialisation of literary texts as emerging events
+always arising from an altering how the literary pastas reconfigured"
+(Bode, Katherine. "Computational Modeling: From Data Representation to
+Performative Materiality." ATNU/IES Virtual Speaker Series 2020/2021.
+Newcastle University, UK. November 26, 2020.)
+
+On tools as apparatus:
+
+"I’m exploring what it might mean to conceive of literary databases as
+apparatuses, in the sense the term is used in various scientific
+disciplines, particularly physics. There, an apparatus is a specific
+material configuration, including of physicists, wherein certain
+properties become determinate, while others are excluded. One can’t
+measure light as a particle and a wave using the same apparatus"
+(Bode, Katherine. “Data beyond representation: From computational
+modelling to performative materiality.” MLA Convention, Seattle, 10
+January 2020.
+https://katherinebode.wordpress.com/home/mla-convention-2020/,
+paragraph 24).
+
+On reproducibility:
+
+"at present, discussion of “representativeness” and “reproducibility”
+are bound up together, with the implication that if we can represent
+something accurately enough the results of analysis will be
+reproducible. Foregrounding the apparatus, by contrast, recognises
+that our knowledge making practices, as Karen Barad puts it,
+“contribute to, and are part of, the phenomena we describe”" (Bode,
+Katherine. “Data beyond representation: From computational modelling
+to performative materiality.” MLA Convention, Seattle, 10
+January 2020.
+https://katherinebode.wordpress.com/home/mla-convention-2020/,
+paragraph 26).
+*** "The more ambitious the project," Moretti explains, "the greater must
+the distance be" (/Distant Reading/ 48).
+
 *** In python, text analysis tasks are based on a module called ~Counter~,
 which contains the functions for starting and keeping track of word
 counts. The logic, which is simplified below from the source code,

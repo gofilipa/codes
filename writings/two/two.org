@@ -71,33 +71,24 @@ inside.
 ** Falsifiable
 1
 
-Text analysis is often driven by great ambitions. In /Macroanalysis:
-Digital Methods and Literary History/ (2013), Matthew Jockers "ask[s]
-very big questions... regarding how literary trends are employed over
-time, across periods, within regions"; In /Distant Horizons: Digital
-Evidence and Literary Change/ (2020) Ted Underwood traces the "larger
-arcs of literary change that have remained hidden from us by their
-sheer scale." Most recently, with the advent of text generation
-methods, /Language Machines: Cultural AI and the End of Remainder
-Humanism/, by Leif Weatherby, brings language into "the age of its
-algorithmic reproducibility".
-
-Predating (and perhaps inspiring) much of this work in text analaysis
-is the ambition of literary scholar Franco Moretti. Morretti, who
-introduced many both within and beyong Literary Studies to text
-analysis, published a series of polemical essays on "distant reading"
-in a collection of the same name in 2008. Distant reading, according
-to Moretti, involves counting up textual features to derive textual
-patterns and make inferences. It is a kind of analysis where
-"distance" as Moretti explains, "is a condition of knowledge"
-(/Distant Reading/ 48).
+When I started graduate school in 2016, quantitative text analysis had
+broken through academic circles into popular discourse. The Literary
+Studies scholar responsible was Franco Moretti, who introduced many
+both within and beyond the academy to "distant reading," and published
+a series of polemical essays in a collection of the same name in 2008.
+Distant reading, by Moretti's account, involves counting up textual
+features to derive textual patterns and make inferences. It is an
+analytical perspective where "distance," he explains, "is a condition
+of knowledge" (/Distant Reading/ 48).
 
 2
 
-In the wake of a 2017 profile by /New York Times/, three students
-accused Moretti of sexual crimes. The accusations ranged from
-unsolicited touching to rape. One of his accusers was a first-year
-graduate student in English.
+A /New York Times/ feature of the scholar, released in 2017, helped to
+propel Moretti and distant reading to audiences beyond the academy.
+However, shortly after, three former students of Moretti came forward
+to accuse him of sexual crimes. The accusations ranged from
+unsolicited touching to rape. At the time of the alleged incident, one
+of his accusers was a first-year graduate student.
 #+begin_quote
 When I was a graduate student at UC Berkeley in 1984-85, my
 then-professor Franco Moretti sexually stalked, pressured, and raped
@@ -116,55 +107,18 @@ campuses"). He remains an Emeritus Professor at the same institution.
 
 3
 
-Moretti's writing has an easy assuredness about it. He uses short
-sentences that give his prose a quick rhythm. He weaves in references
-across fields of knowledge as disparate as evolutionary theory,
-systems theory, and Marxism. Despite this intellecutal baggage, his
-arguments move at a light clip, and seem to circle methodically around
-a drain so that, as long as you're following him, there appears to be
-no alternative.
-
-But there is something suspect about his confidence. Not just in his
-ambition, which is shared by several others, but the way he offers his
-arguments. He transforms inferences, premises, and hypotheses into
-declarative statements. Paragraphs begin with sentences like,
-#+begin_quote
-So, the market selects the canon. But how? (69).
-
-So. As novelistic forms travel through the literary system, their
-plots are (largely) preserved, while their styles are (partly)
-lost---and replaced by 'local' ones (134).
-
-What did the birth of a consumer society mean for the European novel?
-More novels, less attention (175).
-
-The major metamorphosis of eighteenth-century titles is simple: in the
-space of two generations, they become much, much shorter (182).
-
-As the market expands, titles contract; as they do that, they learn to
-compress meaning; and as they do /that/, they develop special
-'signals' to place books in the right market niche (204).
-#+end_quote
-These quotes, taken from mostly different essays in /Distant Reading/,
-show Moretti's characteristic way of stating a claim or hypothesis as
-a conclusion, as if the point is already self-evident. To be fair,
-many of these points do synthesize arguments and evidence from
-previous paragraphs. They are, some of them, more summary of previous
-points than completely new ones. Their apparent solidity, the lack of
-a subjective "I" to ground them, the presumptuousness and ease with
-which they make room for themselves is striking. It is not confidence,
-it is something more than confidence.
-
-4
-
-The roots of distant reading were sown long before. Published in 1983,
-two years before the first alleged assault took place, his essay, "The
-Soul and the Harpy," critiques the literary critic's method of close
-reading, which turns the critic to a kind of "Narcissus", "whose only
-pleasure lay[s] in contemplating his own reflection (“Soul” 14). He
-proposes an alternative methodology, a "falsifiable criticism" which
-pursues answers that are “coherent, univocal, and complete” (“Soul”
-21). He argues,
+Moretti, at the time, was riding his first wave of academic celebrity.
+Invited to teach at Berkeley, he had just published a collection of
+essays, /Signs Taken For Wonders: On the Sociology of Literary Forms/
+(1983), a book which expressed his already polemical style and sowed
+the roots of his quantitative approach to studying literature. The
+first essay, "The Soul and the Harpy/," takes traditional literary
+criticism as its target, critiquing the methodology of close reading.
+According to Moretti, close reading is overly subjective, turning the
+critic to a kind of "Narcissus", "whose only pleasure lay in
+contemplating his own reflection (“Soul” 14). He proposes an
+alternative, "falsifiable criticism," a methodology that pursues
+answers which are irrefuatable. He asserts that,
 #+begin_quote
 “The day criticism gives up the battle cry ‘it is possible to
 interpret this element in the following way,’ to replace it with the
@@ -172,37 +126,69 @@ much more prosaic ‘the following interpretation is impossible for such
 and such a reason,’ it will have taken a huge step forward on the road
 of methodological solidity” (“Soul” 22).
 #+end_quote
-The goal is to squash the possibility of alternative interpretations,
-to attain irrefutable conclusions. Moretti here implicitly aligns
-literary criticism with methodologies from the sciences, known as
-reproducible methods.[fn:2] In those disciplines, reproducibility
-means that the analytical procedure will yield the same result.[fn:6]
+Moretti here implicitly aligns literary criticism with methodologies
+from the sciences, methods which are "reproducible."[fn:1] This kind
+of methodology squashes the possibility of pesky, alternative
+interpretations, in afor of conclusions which are “coherent, univocal,
+and complete” (“Soul” 21).
+
+4
+
+20 years later, falsifiable criticism will find an ideal methodology
+in quantification. Rather close attention to individual samples,
+quantification is based on counting patterns across wide swaths of
+text. Moretti says "we know how to read texts, now let's learn how
+/not/ to read them" (/Distant Reading/ 48). Quantification, as we will
+see below, simplifies text into workable units which is the basis for
+higher levels of computation. These simple, workable units enable
+ambitious interpreptations. Moretti explains, "If we want to
+understand the system in its entirety, we must accept losing
+something. We always pay a price for theoretical knowledge" (/Distant
+Reading/ 49).
 
 5
 
-Moretti's nascent idea of falsifiable criticism finds a methodology in
-quantification, that is, methodologies based on the counting of
-textual features. Moretti says "we know how to read texts, now let's
-learn how /not/ to read them" (/Distant Reading/ 48). Quantification,
-according to Moretti, simplifies text into workable units. Language in
-all its complexity is flattened into features which can be counted and
-then graphed. As he explains, “fewer elements, hence a sharper sense
-of their overall interconnection” (/Graphs, Maps, Trees/ 1). These
-fewer elements, he argues, enable ambitious interpreptations: "If we
-want to understand the system in its entirety, we must accept losing
-something. We always pay a price for theoretical knowledge" (/Distant
-Reading/ 49). What is lost, textual detail and specificity, is a
-worthwhile price for the potential reward. "The more ambitious the
-project," Moretti explains, "the greater must the distance be"
-(/Distant Reading/ 48).
+As a young graduate student, I found Moretti's writing both striking
+and alluring. He is an assertive writer, using mostly short sentences
+that give his prose a quick rhythm. Despite drawing from disparate
+fields of knowledge, such as evolutionary theory, systems theory, and
+Marxism, his arguments move at a light clip, circling methodically
+around a drain so that, as long as you're following him, there appears
+to be no alternative. Paragraphs begin with sentences like,
+#+begin_quote
+So, the market selects the canon. (69)
+
+So. As novelistic forms travel through the literary system, their
+plots are (largely) preserved, while their styles are (partly)
+lost---and replaced by 'local' ones. (134)
+
+What did the birth of a consumer society mean for the European novel?
+More novels, less attention. (175)
+
+The major metamorphosis of eighteenth-century titles is simple: in the
+space of two generations, they become much, much shorter. (182)
+
+As the market expands, titles contract; as they do that, they learn to
+compress meaning; and as they do /that/, they develop special
+'signals' to place books in the right market niche. (204)
+#+end_quote
+These sentences, taken from mostly different essays in /Distant
+Reading/, synthesize arguments and evidence from previous paragraphs.
+They are more summary of previous points than new argumentation. Yet,
+their apparent solidity, the lack of a subjective "I" to ground them,
+strikes me as suspect. It showcases Moretti's characteristic way of
+transforming inferences, premises, and hypotheses into declarative
+statements, stating a claim or hypothesis as an objective or
+self-evident fact.
 
 6
 
-In one famous essay from /Distant Reading/, "Style, Inc.," Moretti
-reduces entire novels to just their titles. Here, he explores what
-titles, which get shorter and shorter over the 18th century, might
-reveal about trends in the book market. Moretti describes his
-analytical process:
+In one of the more famous essays from /Distant Reading/, "Style, Inc.:
+Reflections on 7000 Titles (British Novels, 1740-1850)" Moretti uses
+text analysis to study the market for British novels from 1740 - 1850.
+Here, he explores what titles, which shorten in length over the
+decades, reveal about the rise and fall of certain genres in the
+market. He outlines his analytical process:
 #+begin_quote
 [F]irst, I describe a major metamorphosis of eighteenth-century
 titles, and try to explain its causes; next, I suggest how a new type
@@ -216,34 +202,42 @@ Moretti's critical method involves posing hypotheses, assembling and
 analyzing data, making inferences, and occasionally, reframing the
 original hypotheses. Yet, he repeatedly understates his interpretive
 moves at each stage of his analysis: “try to explain,” “suggest,”
-“make a little attempt.” The diminutive language here not only belies
-the presumptions his arguments make, for example, that titles function
-as a proxy for market forces, "a code, in the market: half sign, half
-ad... where the novel as language meets the novel as community" (181).
-It also misrepresents the role that inferential thinking plays in the
-conclusions he draws:
-#+begin_quote
-As the market expands, titles contract; as they do that, they learn to
-compress meaning; and as they do /that/, they develop special
-'signals' to place books in the right market niche. (204)
-#+end_quote
-Moretti here performs an agential sleight-of-hand: diminishing his own
-interpretive role while amplifying the agency of inanimate phenomena
-like book titles. Titles may fluctuate, and as they do so, his
-analysis deftly shows, patterns emerge around the consolidation of
-nouns and adjectives. But they do not, on their own, /learn to
-compress meaning/ or /develop special 'signals'/. As Stephen Ramsay
-points out, Moretti presents his own insights as a description of
-reality, as if "data is presented to us... not as something that is
-also in need of interpretation" (Ramsay, /Reading Machines/ 5).
+"make a little attempt." As Stephen Ramsay points out, Moretti
+presents his own insights as a description of reality, as if "data is
+presented to us... not as something that is also in need of
+interpretation" (Ramsay, /Reading Machines/ 5). His language not only
+belies his own role in assembling and interpreting his data, but also
+his conclusions, for example, that titles function as a proxy for
+market forces, "a code, in the market: half sign, half ad... where the
+novel as language meets the novel as commodity" (181). This method
+misrepresents the role that inferential thinking plays in the
+admittedly fascinating conclusions he draws, that titles fluctuate in
+length as a response to market pressures.
 
-7 
+7
 
-Distant reading deliberately overlooks details which, as some have
-aptly pointed out, are actually necessary to cultural critique.
-Details of text would express what has been traditionally minimized or
-marginalized. In an MLA panel titled "Distant Reading After Moretti,"
-Lauren Klein explains,
+This faith in the falsifiable--in the power of counting words--infects
+even those who disavow quantitative methods. A controversial
+detraction written by Nan Z. Da claims there is a "fundamental
+mismatch between the statistical tools that are used and the objects
+to which they are applied"--that is, to literary objects (620, 601).
+Yet, despite her oppositional stance toward quantitative tools, Da has
+something in common with those who champion them: she /agrees/ about
+the objectivity of their procedures. As Ben Schmidt points out, “Far
+more than anyone I’ve seen in any humanities article, she asserts that
+scientists do something arcane, powerful, and true" (Schmidt, "A
+computational critique of a computational critique of computational
+critique."). Despite their vastly different views on the role of
+quantitative methods for studying literature, Da and Moretti appear to
+agree that these methods ought to provide results that are, at the
+very least, reproducible.
+
+8
+
+A more precise critique of distant reading comes from Lauren Klein,
+who defly argues that it overlooks details which are necessary to
+cultural critique. In a talk titled "Distant Reading After Moretti,"
+Klein explains,
 #+begin_quote
 [I]t’s not a coincidence that distant reading does not deal well with
 gender, or with sexuality, or with race. Gender and sexuality and race
@@ -255,164 +249,136 @@ scale, but they require an increased attention to, rather than a
 passing over, of the subject positions that are too easily (if at
 times unwittingly) occluded when taking a distant view.
 #+end_quote
-Klein's own work tracing these elements, for example, in hidden
-networks within archival documents, proves how careful attention to
-what is minor or oblique can surface previously suppressed
-stories.[fn:8]
-
-8
-
-In opposition to close and careful reading, the ambition to grasp
-large swaths of literary history may be a proxy for avoiding certain
-kinds of cultural critique. The proxy functions through an
-amplification and valorization of what is seemingly objective--for
-example, the counting of words. With word counts and their resulting
-graphs and charts doing the work of interpretation, one might finally
-/close down/ close reading and the pesky critiques asssociated with
-it. One might finally approach a /falsifiable criticism/, to be able
-to say once and for all that "the following interpretation is
-impossible for such and such a reason" (Moretti, “Soul” 22).
+Klein's own work tracing these elements proves how careful attention
+to what is minor or oblique can surface previously suppressed stories.
+In one project, Klein uses network analysis methods to bring forth the
+"ghost" of a previously obscured subject, James Hemmings. Hemmings, a
+slave who worked for Thomas Jefferson until he could negotiate his
+freedom, appears in brief references in Jefferson's correspondence. By
+marking up and visualizing these oblique references, Klein "render[s]
+visible the archival silences implicit in our understanding of chattel
+slavery today" (665). Her work demonstrates that the details of
+Hemmings's life, which are deeply distributed in the correspondence
+data, requires a kind of reading that is close and careful.
 
 9
 
-This faith in the falsifiable--in the power of counting words--infects
-even those who disavow quantitative methods. In a detraction written
-by Nan Z. Da, which rallied the Computational Literary Studies debate
-when it was released in 2020,[fn:1] Da vehemently opposes the use of
-quantification in critical interpretation. Da argues that quantitative
-methods, in fact, reveal a "fundamental mismatch between the
-statistical tools that are used and the objects to which they are
-applied"--that is, to literary objects (620, 601). She emphasizes her
-point by attempting to reproduce an experiment in "topic modeling," a
-machine learning method that generates a number of "topics," or
-keywords, from large collections of text. When she attempts to
-replicate a topic modeling experiment on her own computer, she
-produces different results.
+By contrast to this close and careful attention, distant reading is
+permeated by great ambition. In /Macroanalysis: Digital Methods and
+Literary History/ (2013), Matthew Jockers "ask[s] very big
+questions... regarding how literary trends are employed over time,
+across periods, within regions"; In /Distant Horizons: Digital
+Evidence and Literary Change/ (2020) Ted Underwood traces the "larger
+arcs of literary change that have remained hidden from us by their
+sheer scale." Most recently, [ADD RECENT EXAMPLES, PREFERABLY
+MONOGRAPHS?].
 
 10
 
-Despite her oppositional stance toward quantitative tools, Da has
-something in common with those who champion them. She fundamentally
-/agrees/ about the objectivity of their procedures. As Ben Schmidt
-writes about Da's stance, “Far more than anyone I’ve seen in any
-humanities article, she asserts that scientists do something arcane,
-powerful, and true" (Schmidt, "A computational critique of a
-computational critique of computational critique."). Despite their
-vastly different views on the role of quantitative methods for
-studying literature, Da and Moretti appear to agree that these methods
-ought to provide results that are, at the very least, reproducible.
-
-+ Katherine Bode's critique: “what seems a complete divergence of
-  opinion obscures a fundamental agreement: that computation is
-  separate from literary phenomena” ("What's wrong with Computational
-  Literary Studies")
+The ambition to grasp large swaths of literary history may be a proxy
+for avoiding certain kinds of cultural critique. The proxy functions
+through an amplification and valorization of what is seemingly
+objective--for example, the counting of words. With word counts and
+their resulting graphs and charts doing the work of analysis, one
+finally closes down the pesky, subjective interpretations asssociated
+with close reading. One is finally able to say, once and for all, that
+"the following interpretation is impossible for such and such a
+reason" (Moretti, “Soul” 22).
 
 11
 
-There are those who disagree about the apparent objectivity of
-reproducible methods. Ted Underwood, for example, explains that
+There are those, however, who disagree about the apparent objectivity
+of reproducible methods. Ted Underwood, for example, explains that
 "algorithms are actually bad at being objective and rather good at
 absorbing human perspectives implicit in the evidence used to train
 them" (“Machine Learning and Human Perspective” 92). Underwood creates
 what he calls "perspectival models" of literary data, where models
-represent different "perspectives." In one project, on studying gender
-in novels, Underwood uses a binary classification algorithm to cluster
-terms that male and female writers tend to associate with either
-gender. From the results, he creates a chart which visualizes the
-differences between male and female writers and their treatment of
-gender. In this chart (see Fig. 1), there are two diagonals. The
-diagonal moving from the bottom-left to top-right corner represents
-where the genders agree on gendered terms. The bottom-left shows
-agreement on terms used to describe the male gender ("pocket",
-"grinned"), and the top-right shows agreement on the female gender
-("eyes," "mother"). The opposite diagonal, running from the top-left
-to bottom-right corners, shows disagreement. The top-left shows terms
-that each gender tends to use to describe their own gender
-("wondered", "mind") and the bottom-right shows terms that each gender
-uses to describe the opposite gender ("meant", "kissed"). The chart,
-according to Underwood, shows two /perspectives/ on gender--the male
-and the female. Rather than making claims to gender in an objective
-sense, it dramatizes a perspectival shift between the two genders.
+represent different databases associated with different
+"perspectives." In one project, on studying gender in novels,
+Underwood uses a binary classification algorithm to cluster terms that
+male and female writers, two "perspectives," tend to associate with
+either gender. From the results, he creates a chart which visualizes
+the differences between male and female writers and their treatment of
+gender.
+
+[[./images/underwood.png]]
+
+In this chart (see Fig. 1), there are two diagonals. The diagonal
+moving from the bottom-left to top-right corner represents where the
+genders agree on gendered terms. The bottom-left shows agreement on
+terms used to describe the male gender ("pocket", "grinned"), and the
+top-right shows agreement on the female gender ("eyes," "mother"). The
+opposite diagonal, running from the top-left to bottom-right corners,
+shows disagreement. The top-left shows terms that each gender tends to
+use to describe their own gender ("wondered", "mind") and the
+bottom-right shows terms that each gender uses to describe the
+opposite gender ("meant", "kissed"). The chart, according to
+Underwood, shows two /perspectives/ on gender--the male and the
+female. Rather than making claims to gender in an objective sense, it
+dramatizes a perspectival shift between the two genders.
 
 12
 
-Unfortunately, Underwood's methodology, as he himself admits,
-reinscribes the gender binary. This happens not only in the choice of
-model, a binary classification model which makes predictions on a
-yes/no or, in this case, a male/femal scale (predicting whether a term
-will be more associated with a male or a female gender). It also
-happens with the choice in visualizing the results in a way that
-places male and female genders in opposition. The diagonal going from
-the bottom-left to the top-right, which finds similarity between the
-genders, reinforces a stereotypical active/passive binary (among other
-binaries) between men and women. Similarly, the diagonal going from
-the top-left to the bottom-right, although based on agreement between
-the genders and their relationships to themselves, nonetheless imposes
-an /opposition/ between how male and female authors describe each
-other. The graph effectively instantiates its implicit assumption that
-male and female writers will oppose the other by visualizing this as a
-feature.
+Underwood's methodology, as he himself admits, reinscribes the gender
+binary. When explaining the diagram, he predicts that "gender
+theorists will be frustrated by the binary structure of the diagram...
+I needed a simple picture, frankly, in order to explain how a
+quantitative model can be said to represent a perspective" (“Machine
+Learning and Human Perspective” 98). This reinscription of the "binary
+structure" happens not only in the choice of model, a classification
+(i.e. binary) model which makes predictions on a yes/no or, in this
+case, a male/femal scale. It also happens with the choice in
+visualizing the results in a way that places male and female genders
+in opposition. The diagonal going from the bottom-left to the
+top-right, which finds similarity between the genders, reinforces a
+stereotypical active/passive binary (among other binaries) between men
+and women. Similarly, the diagonal going from the top-left to the
+bottom-right, although based on agreement between the genders and
+their relationships to themselves, nonetheless imposes an /opposition/
+between how male and female authors describe each other. The graph
+effectively instantiates its implicit assumption that male and female
+writers will oppose the other by visualizing this as a feature.
 
-Not only does the diagram reify the gender binary, it effectively uses
-the gender binary /as a model/ for proving the value of quantitative
-methods. This is an effective reversal of how data and models are
-supposed to work in support of each other. When explaining the
-diagram, Underwood says that "gender theorists will be frustrated by
-the binary structure of the diagram... I needed a simple picture,
-frankly, in order to explain how a quantitative model can be said to
-represent a perspective" (“Machine Learning and Human Perspective”
-98). However, the "perspective" which he represents is one where the
-two genders are already diametrically opposed. The gender binary is a
-necessary presumption in order for the experiment to take place--a
-prior binary that then makes the choice of a binary-structured model
-appear appropriate. For his diagram to work, gender roles must have
-been already manufactured into opposition. In other words, binary
-gender is the model through which his argument about perspectival
-modeling can make sense.
+Beyond this reification of the gender binary, however, Underwood's
+visualization effectively deploys the gender binary /as a model/ for
+proving the value of quantitative methods. In order for his experiment
+to take place, the gender binary is a necessary presumption, a "ground
+truth," that makes the choice of a classification model appear
+appropriate. In other words, before he even constructs the diagram,
+gender roles have been already manufactured into opposition.
 
-Add Bode's critique.
+13 (this paragraph needs to be better integrated, or perhaps moved to
+another section of the paper)
 
-Bode’s position is that QLS
-ought to begin by considering the types of gaps and biases in
-evidence. She wants critics to incorporate analyses from textual
-studies prior to running statistical tests. We should build QLS out of
-these areas of humanistic inquiry that center interpretation. There
-are certain processes in statistical analysis that maintain bias and
-unknown assumptions: sampling and comparison do not get an accurate
-picture if what we are searching for is unfindable or harder to find. 
-
-Responding to Ted Underwood’s Distant Horizons. Critique on
-“perspectival modeling” as ignoring ethical issues that persist with
-scale.
-- “Underwood’s proposal to replace data modeling with sampling and
-  comparison, alone or in concert with perspectival modeling, is
-  ultimately inseparable from his view of the literary past as a
-  single system of interlocking parts. But the literary past, and
-  (quantitative) literary studies, are spaces of highly differentiated
-  knowledges, opportunities, constraints, resources, and
-  possibilities, and these must be considered in any arguments about,
-  or propositions for the future of, the discipline” (116).
-
-13
-
-There are valid and even provocative reasons to study gender as a
-binary system. But the questions that drive such experiments must be
-differently derived. Questions like "how to distinguish one gender
-from another gender" effectively reify existing structures of the
-binary. Alternatively, other work uses text analysis to /deconstruct/
-social categories. In their introduction to The Journal for /Cultural
-Analytics/'s “Identity Issue,” Susan Brown and Laura Mandell explain
-that, “The goal is to acknowledge the subjective effects of belonging
-to an identity constituted historically through oppression without
-believing that the identity itself exists independently from
-historical conditions” (6). 
+The gender binary is naturally and necessarily part of the large
+ambitions of text analysis. As Katherine Bode argues, "Underwood’s
+proposal to replace data modeling with sampling and comparison, alone
+or in concert with perspectival modeling, is ultimately inseparable
+from his view of the literary past as a single system of interlocking
+parts" (“What’s the Matter with Computational Literary Studies?" 116).
+Bode's own approach for using computation, which they use to study
+Australian literature, draws from feminist physicist Karen Barad. Bode
+adapts Barad's concept of "intra-action," where objects and observers
+come into being through acts of observation, into computational
+environments.[fn:2] Bode suggests that "we can understand our
+databases or models as part of the ongoing materialisation of literary
+texts as /emerging events/ always arising from an altering how the
+literary pastas reconfigured" (emphasis mine; Bode, Katherine.
+"Computational Modeling: From Data Representation to Performative
+Materiality." ATNU/IES Virtual Speaker Series 2020/2021. Newcastle
+University, UK. November 26, 2020.)
 
 14
 
-For example, Laura Mandell studies gender through genre. Mandell
-deploys the popular stylometry measurement, “Burrow’s Delta,” which
-visualizes the “distance” between writing styles by creating branches
-("deltas") between different texts. She finds that Mary
+There are valid and provocative reasons to study gender as a binary
+system. But when driven by the interest of posing one gender against
+another, ("how to distinguish between male and female writers?") such
+experiments end up effectively reifying the binary. Alternatively,
+other work uses the binary to /deconstruct/ categorization in the
+first place. For example, Laura Mandell studies gender through genre.
+Mandell deploys the popular stylometry measurement, “Burrow’s Delta,”
+which visualizes the “distance” between writing styles by creating
+branches ("deltas") between different texts. She finds that Mary
 Wollstonecraft's style is shared across comparable male writers like
 William Godwin and Samuel Johnson: “Wollstonecraft’s sentimental
 anti-Jacobin novels most resemble Godwin’s sentimental anti-Jacobin
@@ -425,22 +391,20 @@ writing as men," "women writing as women," "women writing as men,"
 
 15
 
-When using reproducible tools, it bears asking what is being
-reproduced. Applying text analysis to racial categories, Edwin Roland
-and Richard Jean So explore whether a machine can correctly identify
-the race of a novel's author. The point, they are careful to say, is
-not to test whether the machine is correct, but to examine how the
-categories themselves are constructed. As they explain, "the machine
-simply measures the robustness of the social constructedness of these
-given categories and points out what gives them such vigor" ("Race and
+Applying text analysis to racial categories, Edwin Roland and Richard
+Jean So explore whether a machine can correctly identify the race of a
+novel's author. The point, they are careful to say, is not to test
+whether the machine is correct, but to examine how the categories
+themselves are constructed. As they explain, "the machine simply
+measures the robustness of the social constructedness of these given
+categories and points out what gives them such vigor" ("Race and
 Distant Reading" 69). Analyzing a large corpus of novels by white and
 black authors, So and Roland find that black authors generally display
 more varied vocabulary than white authors. From this result, they
-infer that White authorship, as a category, only coheres /as a
-category/ against the variance of Black authorship. In other words,
-White authorship is only visible as a category when it is compared to
-Black authorship, which displays overall more varied uses of language
-forms.
+infer that White authorship only coheres /as a category/ against the
+variance of Black authorship. In other words, White authorship is only
+visible as a category when it is compared to Black authorship, which
+displays overall more varied uses of language forms.
 
 Interestingly, this quantitative exercise points Roland and So toward
 a peculiarity in the results: that the algorithm wrongly categorizes
@@ -459,7 +423,7 @@ their analysis to coordinate gender to race: “the moment David
 develops a troubled relationship to normative masculinity [as] also
 the moment he becomes ‘White’” (71). Rather than reify racial
 categories, this computational experiment points out that they are
-constructed on flimsy terms.
+constructed on certain assumptions.
 
 16
 
@@ -470,167 +434,134 @@ evident in the computer's misclassification of authorship in
 gender and sexuality. This "queering the machine’s color line," the
 authors explain, opens up new readings of intersectionality in the
 novel which "in their current form, our data and model are not robust
-enough to handle" (72).
-
-Rather than reproducible, this method is refractive, relfecting (and
-corrupting) the constructed nature of binary structures back at the
-critic. This method, as I explain in the next section, takes an
-/iterative/ stance toward gender forms in literary data.
+enough to handle" (72). Rather than reproducible, this method is
+fracturing and refractive, both reflecting and corrupting the
+constructed nature of binary structures back at the critic. It brings
+us closer to the methodology that I outline in the next section,
+/iteration/.
 
 ** Iteration in gender
 1
 
-Multiple text analysis projects draw from Butler's concept of
-performativity. In particular, they take the language of performance
-and qualities of the performative to describe and conceptualize their
-methodologies. For example, Mandell's project, introduced above, takes
-the behavioral quality of gender performativity and associates it with
-authorial style, asserting that both gender and genre "are... highly
-imitatable," so that "anyone can adopt gendered modes of behavior,
-just as anyone can write in genres stereotypically labeled M/F" (par.
-30). Bode applies the "performative" to illustrate the analytical act
-itself, which necessarily intervenes and becomes inseparable from data
-as object of analysis, where "peformativity" is "attuned to the
-coconstitution of computational methods and objects" ("What's the
-Matter with Computational Literary Studies"). Her project, /Reading at
-the Interface/, explores how "meaning is not carried by texts but
-produced in situated interactions between readers, texts and
-contexts," including computational tools.[fn:5] Another project, from
-the field of Computational Humanities, Kent K. Chang, Anna Ho and
-David Bamman cite Butler's performativity as motivation to
-computationally "measure subversion" in TV show dialogue. Their uses a
-language model to predict whether samples of a TV show, /The Big Bang
-Theory/, are queer-coded. If the model marks certain sections of
-dialogue between hetersexual characters as queer, they argue, then it
-will have indicated moments of "subversion" in the show (Chang et
-al.).
+Some text analysis projects take the language of performance and
+qualities of the performative to describe and conceptualize their
+methodologies. For example, Mandell's project takes the behavioral
+quality of gender performativity and applies it to genre, asserting
+that both gender and genre "are... highly imitatable," so that "anyone
+can adopt gendered modes of behavior, just as anyone can write in
+genres stereotypically labeled M/F" (par. 30). For Bode, meanwhile,
+the "performative" illustrates the analytical act itself, which
+intervenes and becomes inseparable from the object of analysis; so
+that "peformativity," they argue, is "attuned to the coconstitution of
+computational methods and objects" ("What's the Matter with
+Computational Literary Studies"). Their research explores how "meaning
+is not carried by texts but produced in situated interactions between
+readers, texts and contexts," including computational tools.[fn:3]
+From the field of Computational Humanities, Kent K. Chang, Anna Ho and
+David Bamman cite performativity as motivation to computationally
+"measure subversion" in TV show dialogue, to predict whether samples
+of a TV show, /The Big Bang Theory/, are queer-coded. 
 
 2
 
-Unlike those projects, however, this project draws from
-performativity's methodology in depth. In doing so, it demystifies a
-common misreading of performativity--that it denotes an act or series
-of acts that can be imitated at will. Indeed Butler's follow up to
-/Gender Trouble: Feminism and the Subversion of Identity/ (1990),
-aimed to clarify how performativity is bound by social systems and
-norms in ways that delimit agency. In this work, /Bodies that Matter:
-on the Discursive Limits of Sex/ (1996), Butler explains that gender
-performativity is a compulsory process that constitutes the subject.
-In Butler's reasoning, the body only materializes (/matters/) through
-the repetition of gender norms. And it is through repetition that the
-body also assumes subjectivity. Crucially, "there is no subject who
-decides on its gender.... on the contrary, gender is part of what
-decides the subject" (ix). In other words, gender is an activity that
-determines both the body and subjectivity. It is from this context of
-a compulsory gender system where the subject must find a way to
-re-work the terms of expression.
+My examination surfaces a particular mechanism that drives
+performativity---which is the mechanism of iteration, a process of
+repetition by which gender performativity both operates, and by which
+it can also be exploited. This focus on iteration addresses a common
+misreading of performativity, that it denotes a series of acts that
+can be imitated at will. Indeed, Butler's follow up to /Gender
+Trouble: Feminism and the Subversion of Identity/ (1990), which is
+/Bodies that Matter: on the Discursive Limits of Sex/ (1996), aimed to
+clarify how performativity is compulsory, bounded on all sides by
+social norms in ways that delimit a subject's agency. In /Bodies that
+Matter/, Butler explains that gender performativity is a
+pre-determined procedure that /constitutes/ subjectivity: "there is no
+subject who decides on its gender.... on the contrary, gender is part
+of what decides the subject" (ix).
+
+That being said, performativity can be subverted, according to Butler.
+Rather than through individual will, however, subversion comes from
+manipulating this iterative process. This manipulation brings
+something something unexpected and extraneous into the performance,
+while staying within the very terms of that performance, as I explain
+below.
+
+Crucially, in Butler's reasoning, the body only materializes (it only
+/matters/) through this compulsory repetition of gender norms.
 
 3
 
-Butler's argument for performativity draws from poststructuralist
-feminist theorist Luce Irigaray. Irigaray is best known for her
-readings of phallogocentrism (the idea that the phallus is a focus or
-lense for understanding other phenomena), in the works of of classical
-and modern philosophers, like Plato, Aristotle, Descartes, and Kant.
-Irigaray finds that these philosophers represent the feminine through
-masculine terms, "on the basis of masculine parameters," as she
-describes in her book, /The Sex Which Is Not One/ (Irigaray 23). Her
-conceptualization of the feminine's circumscription within the gender
-binary directly influences Butler's conceptualization of
-performativity and how it might resist rigid significatory systems
-(18).
+To understand how this possibility for subversion works, one must
+first understand how the performative is constituted, according to
+Butler. Essential to Butler's thinking is the poststructuralist
+feminist theorist, Luce Irigaray and her methodology for critiquing
+masculine language in her book, /The Sex Which Is Not One/ (Irigaray
+23). Irigaray argues that philosophers like Plato, Aristotle,
+Descartes, and others, represent the feminine through masculine terms,
+"on the basis of masculine parameters," which is through the binary
+form (18). Irigaray argues that the Male/Female binary (among other
+binaries) effectively /precludes/ the representation of the other
+term, the feminine. Moreover, this exclusion of the feminine, as it
+happens, effectively /produces/ another feminine within the terms of
+the masculinist system. In other words, the feminine which has been
+excluded from the system, which must be excluded in order for that
+system to work, into what Butler calls the "constitutive outside,"
+makes possible the creation of the inner, "domesticated" feminine.
+This feminine, which is "unspeakable" and unrepresentable, is the
+/matter/ from which the Male/Female binary comes into intelligibility.
 
 4
-
-Irigaray's analysis of the feminine centers on its unrepresentable
-status within dominant framings like the gender binary. She argues
-that the binary of male/female effectively /precludes/ the
-representation of the feminine: "The economy that claims to include
-the feminine as the subordinate term in a binary opposition of
-masculine/feminine excludes the feminine, produces the feminine as
-that which must be excluded for that economy to operate" (Butler 10).
-While the feminine is effectively excluded from the system, it
-conditions the representation of terms /within/ the system. This
-excluded feminine, this "constitutive outside," makes possible the
-creation of the inner feminine, the "domesticated" feminine. It makes
-legible an internal feminine. She, what Butler calls the "unspeakable"
-feminine, is the /matter/ from which the binary may come into
-intelligibility.
 
 
 5
 
-This external feminine is /matter/: the generative, creative material
-from which distinctions emerge. Butler explains that,
+The excluded feminine is, Butler explains, a matrix. In Butler's
+words,
 
 #+begin_quote
 every explicit distinction takes place in an inscriptional space that
 the distinction itself cannot accomodate. Matter as a /site/ of
-inscription cannot be explicitly thematized. And this inscriptional
-site or space is, for Irigaray, a /materiality/ that is not the same
-category of "matter" whose articulation it conditions and enables...
-this second inarticulate "matter" designates the constitutive outside
-of the Platonic economy; it is what must be excluded for that economy
-to posture as internally coherent" (emphasis original, 12-13).
+inscription cannot be explicitly thematized... [this] inarticulate
+"matter" designates the constitutive outside of the Platonic economy;
+it is what must be excluded for that economy to posture as internally
+coherent (emphasis original, 12-13).
 #+end_quote
 
-Irigaray's association of this excessive feminine with "matter" draws
-simultaneously from a classical analogy between the form/matter and
-masculine/feminine, in the Aristotelian tradition, and from the
-etymological association between the feminine as /mater/, mother, and
-significantly, as /matrix/, the generative material for all life. It
-is this /matrix/, this "inscriptional space", which cannot be
-articulated, but from which all distinctions of male/female can
-emerge.
+This /matrix/, this "inscriptional space", which cannot be
+articulated, draws simultaneously from a classical analogy between the
+form/matter and masculine/feminine, in the Aristotelian tradition, and
+from the etymological association between the feminine as /mater/
+(mother). It is the generative material for all life, from which all
+distinctions of male/female can emerge.
 
 6
 
-How is this feminine to enter into representability? How can it be
-invoked directly without subscribing itself to the ruling structure?
-Or, in Butler's formulation, “how can one read a text for what does
-not appear within its own terms?” (/Bodies/ 11). As a constitutive
-exclusion which makes the intelligible binary possible, the excluded
-feminine cannot be represented in the same terms (10). 
+But where is this excluded feminine? If it indeed "cannot be
+thematized," could it possibly be invoked, without subscribing itself
+to the ruling, masculine structure? 
 
 7
 
-The answer, as it turns out, invovles breaking open significatory
-procedures. Butler considers the referential power of language: “Can
-language simply refer to materiality, or is language also the very
-condition under which materiality may be said to appear?” (6). Butler
-offers the example of the physical body. In order to refer to a
-physical body, Butler explains, language must first /assume/ a body.
-That is, the body must first be posed in language. Therefore, Butler
-reasons, “signification produces as an effect of its own procedure the
-very body that it nevertheless and simultaneously claims to discover
-as that which precedes its own action” (6). In their characteristicly
-clausey prose, Butler explains that signification creates the body
-which it appears to reference. Which leads them to a major
-realization: "the mimetic or representational status of language... is
-not mimetic at all. On the contrary, it is productive, constitutive,
-one might even argue performative" (/Bodies/ 6).
-
 8
 
-Performativity, then, denotes the perpetual creation and recreation of
-norms, a discursively-based, significatory cycle which /produces/ that
-which it appears to reference. As they explain, "performativity must
-be understood not as a singular or deliberate 'act,' but, rather, as
-the reiterative and citational practice by which discourse produces
-the effects that it names" (xii). According to Butler, it is through
-this discursive performativity that "sexed" bodies emerge: "'Sex' is
-not a simple fact or static condition of a body, but a process whereby
-regulatory norms materialize 'sex' and achieve this materialization
-through a forcible reiteration of those norms" (xii). What appears as
-physical or biological category, "sex," is effectively delimited by
-and through a discursive framing. Bodily materiality is a
-"sedimentation" formed through repetition, whereby meaning is
-signified and re-signified endlessly, and never completely.
+The answer invovles breaking open performativity's process of
+repetition. Performativity describes a perpetual re-creation of norm
+which works by effectively /producing/ and /re-producing/ power
+structures. As Butler explains, "performativity must be understood not
+as a singular or deliberate 'act,' but, rather, as the reiterative and
+citational practice by which discourse produces the effects that it
+names" (xii). According to Butler, it is through performativity that
+"sexed" bodies emerge: "'Sex' is not a simple fact or static condition
+of a body, but a process whereby regulatory norms materialize 'sex'
+and achieve this materialization through a forcible reiteration of
+those norms" (xii). What appears as physical or biological category is
+actually a "sedimentation" formed through repetition.
 
 9
 
-Categories like sex and gender, as Butler explains, are never stable,
-but require constant repetition:
+This sedimentation, whereby meaning is signified and re-signified
+endlessly, is never complete. Categories like sex, as Butler explains,
+require constant repetition:
 
 #+begin_quote
 This "being a man" and this "being a woman" are internally unstable
@@ -640,113 +571,63 @@ identifications, the forcible approximation of a norm one never
 chooses, a norm that chooses us. (86)
 #+end_quote
 
-Repetition stabilizes gender identiy against a field of potential
-exclusions, what Butler calls the "cost in every identification."
-Every identification creates this field of exclusion. And it is this
-material which will come back to destabilize coherence. With an
-ominous overtone, Butler explains that, "The political terms that are
-meant to establish a sure or coherent identity are troubled by this
-failure of discursive performativity to finally and full establish the
-identity to which it refers" (Butler 140).
+By this "cost in every identification," Butler means all of the
+identifications which are effectively rejected when one makes a claim
+to identity. Repetition stabilizes gender identity against a field of
+potential exclusions. And it is these exlusions which will come back
+to haunt the coherence of the identity. 
 
 10
 
-This necessity to repeat gender signification is a weakness, which
-Butler will use as an exploit. For, within this significatory circle,
-lies the possibility of /resignifying/ terms. Resignification happens
-by repeating what has been excluded from the significatory economy,
-“citing” what Butler calls a “repudiated” meaning. As Butler explains,
-every "identification takes place through a repudiation which produces
-a domain of abjection (xiii). This domain of abjection, containing
-identities that are repudiated, offers "a field of disruptive
-possibillities" for resignification (Butler 10). Butler explains,
-"this disavowed abjection will threaten to expose the self-grounding
-presumptions of the sexed subject" (xiii). Through this threat, "what
-has been foreclosed or banished from the proper domain of "sex"...
-might at once be produced as a troubling return" (Butler xxx).
+This mechanism of repetition, which Butler calls "iteration," creates
+an excluded field of possible identities. And from this field lies the
+possibility of resignifying terms. As Butler explains, every
+"identification takes place through a repudiation which produces a
+domain of abjection" (xiii). This domain of abjection contains
+identities that are rejected whenever an identification is claimed.
+These repudiated, disavowed identities offer "a field of disruptive
+possibillities" which can be harnessed to destabilize the stability of
+the claimed identity, as a kind of "troubling return" (Butler 10). As
+Butler explains, "this disavowed abjection will threaten to expose the
+self-grounding presumptions of the sexed subject" (xiii).
 
 11
 
-If the troubling return is repeated continually, Butler argues, the
-stability of the original identity will be brought into question.
 Butler offers an example with the term "queer," which is a term that
-harnesses its own history of repudiation for political purposes,
-"resignifying the abjection of homosexuality into defiance and
-legitimacy (Butler xxviii).
+harnesses its own history of repudiation for political purposes. The
+adoption of this term by Gay and Lesbian activism in the 80s and 90s
+"resignif[ies] the abjection of homosexuality into defiance and
+legitimacy" (Butler xxviii). This turning of abjection into legitimacy
+shows how one attains some kind of agency even within the terms of
+subjection.
 
 #+begin_quote
-The compulsion to repeat an injury is not necessarily the
-compulsion to repeat the injury in the same way or to stay
-fully within the traumatic orbit of that injury. The force of
-repetition in language may be the paradoxical condition by
-which a certain agency---not linked to a fiction of the ego
-as master of circumstance---is derived from the impossibility
-of choice. (183)
+The compulsion to repeat an injury is not necessarily the compulsion
+to repeat the injury in the same way or to stay fully within the
+traumatic orbit of that injury. The force of repetition in language
+may be the paradoxical condition by which a certain agency---not
+linked to a fiction of the ego as master of circumstance---is derived
+from the impossibility of choice. (183)
 #+end_quote
 
-It is through the force of repetition that repudiated meanings, which
-necessarily draw from insulting and painful pasts, come to alchemize
-new significations. The paradox is that what appears to be a cyclical
-or even robotic behavior takes on an agentic capacity. Automata, at
-some point, attain agency.
-
-12
-
-Subversion thus reaches toward a destabilization of the ruling system.
-And this is where Butler's theory is often misunderstood. For example,
-Chang et. al's text analysis project claims that: "gender
-performativity provide[s] the essential framework for understanding
-how characters on TV subvert traditional gender roles and
-expectations" (4). The authors argue that in the TV show /Big Bang
-Theory/, "subversion" in the TV emerges in "an undercurrent of
-emotional intimacy and dependency that challenges the rigid boundaries
-of what is considered acceptable" between two of the straight male
-characters, Raj and Howard, who display a comically close and intimate
-relationship (Chang et al., 10). In their conclusion, they posit that,
-"Raj and Howard offer more than occasional punchlines; they represent
-an instance of queer love: they have to invent a form of togetherness
-for themselves" (Chang et al., 2024, p. 9).
-
-However, according to Butler, subversion is more than exhibiting a
-non-dominant norm. It is doing so in a way that challenges established
-norms. Butler carefully stipulates against instances of apparent
-subversion which effectively prop up heterosexual regimes:
-
-#+begin_quote
-[T]here are forms of drag that heterosexual culture produces for
-itself—-we might think of Julie Andrews in /Victor, Victoria/ or
-Dustin Hoffmann in /Tootsie/ or Jack Lemmon in /Some Like It Hot/
-where the anxiety over a possible homosexual consequence is both
-produced and deflected within the narrative trajectory of the films.
-These are films which produce and contain the homosexual excess of any
-given drag performance, the fear that an apparently heterosexual
-contact might be made before the discovery of a nonapparent
-homosexuality. This is drag as high het entertainment, and though
-these films are surely important to read as cultural texts in which
-homophobia and homosexual panic are negotiated, I would be reticent to
-call them subversive. (85)
-#+end_quote
-
-Despite being queer-coded, these characters remain within hetersexual
-relationships. As a result, their queernesss effectively "produce[s]
-and contain[s] the homosexual excess" within the parameters of the
-show. They use humor to temper these excesses. Borrowing from
-Irigaray, they are an example of "domesticated" queerness, rather than
-subversive queerness. 
+It is through the repetition of repudiated meanings, which necessarily
+draw from insulting and/or painful pasts, come to alchemize new
+significations. If a repudiated meaning, a "troubling return," is
+repeated enough times, Butler argues, the stability of the original
+identity will be brought into question. The paradox is that what
+appears to be a cyclical or even robotic behavior takes on an agentic
+capacity.
 
 13
 
-Subversion aims toward destabilization. In doing so, repetition is
-key, enabling the introduction of the repudiation back into the
-system. Returning to Irigaray’s writing, Butler explains that Irigaray
-achieves subversion by "mim[ing] philosophy... and, in the mime,
-tak[ing] on a language that effectively cannot belong to her" (12).
-Butler cites a passage where Irigaray /mimes/, or repeats, the
-language of Plato. Her repetition, however, has a particular effect:
-she "performs a repetition and displacement of the phallic economy"
-(Butler 18). In an interesting double-level inhabitation, Butler
-approximates what Irigaray must be feeling to inhabit Plato's written
-style:
+Returning to Irigaray, Butler explains that Irigaray achieves a kind
+of subversion of the masculinist system of representation by "mim[ing]
+philosophy... and, in the mime, tak[ing] on a language that
+effectively cannot belong to her" (12). Butler cites a passage where
+Irigaray "mimes" the style of Plato. By taking on Plato's language,
+Irigaray "performs a repetition and displacement of the phallic
+economy" (Butler 18). In an interesting double mimicry, with Butler
+mimicking Irigaray mimicking Plato, Butler writes,
 
 #+begin_quote
 I will not be a poor copy in your system, but I will resemble you
@@ -755,30 +636,63 @@ construct your system and showing that what cannot enter it is already
 inside it (as its necessary outside), and I will mime and repeat the
 gestures of your operation until this emergence of the outside within
 the system calls into question its systematic closure and its
-pretension to be self-grounding.” (/Bodies/ 18)
+pretension to be self-grounding. (18)
 #+end_quote
 
 Irigaray undermines the authority of the masculine through repetition,
-by “cit[ing] Plato again and again, but the citations expose precisely
-what is excluded from them, and seek to show and to reintroduce the
-excluded into the system itself” (Butler 18). Butler explains that
-"This is a taking of his [Plato's] place, not to assume it, but to
-show that it is /occupiable/... a kind of overreading which mimes and
-exposes the speculative excesses in Plato (emphasis original, 11).
+"cit[ing] Plato again and again," in a re-iterative practice (18).
+This practice has a cumulative effect, which is to "expose precisely
+what is excluded" from the system, and "to reintroduce the excluded
+into the system itself" (Butler 18). Through iteration, one displaces
+the expectation, the norm, to suggest something else. This something
+else, however, is not meant to replace the norm, but to undermine its
+pretensions. Butler explains that "This is a taking of his [Plato's]
+place, not to assume it, but to show that it is /occupiable/... a kind
+of overreading which mimes and exposes the speculative excesses in
+Plato (emphasis original, 11).
+
+12
+
+The mechanism of iteration aims to destabilize the ruling system from
+within. And this is where Butler's theory is often misunderstood. For
+example, Chang et. al's text analysis project, cited above, argues
+that "subversion" occurs through two straight characters whose
+dialogue expresses homosexual innuendo in a popular TV show, /The Big
+Bang Theory/. The authors claim that "an undercurrent of emotional
+intimacy and dependency... challenges the rigid boundaries of what is
+considered acceptable" on the show (Chang et al., 10). However,
+according to Butler, subversion requires a destabilization from the
+inside in a way that occupies and displaces the expected norm. These
+characters, however much they are queer-coded, ultimately remain
+within hetersexual relationships. The show thus reproduces what Butler
+describes as "drag as high het entertainment":
+
+#+begin_quote
+[T]hink of Julie Andrews in /Victor, Victoria/ or Dustin Hoffmann in
+/Tootsie/ or Jack Lemmon in /Some Like It Hot/ where the anxiety over
+a possible homosexual consequence is both produced and deflected
+within the narrative trajectory of the films. These are films which
+produce and contain the homosexual excess of any given drag
+performance, the fear that an apparently heterosexual contact might be
+made before the discovery of a nonapparent homosexuality. (85)
+#+end_quote
+
+Butler explicitly stipulates against "forms of drag that heterosexual
+culture produces for itself," which effectively prop up heterosexual
+regimes. Rather than queerness as subversion, this is closer to what
+Irigaray describes as the "domesticated" element. In this case,
+potential subversion is domesticated by humor, which "produce[s] and
+contain[s] the homosexual excess" of the show.
 
 14
 
-Through repetition, Irigaray displaces the logic of phallogocentrism,
-introducing something external to the system while simultaneously
-remaining within its terminology. Deception emerges from resemblance,
-and insubordination through subservience. The key is repetition, or
-more precisely, what Butler refers to as /iteration/, a continual
-miming of the authorizing norm. Through the iterative process, one
-brings back again and again the repudiated meaning as a troubling
-return. "The task," according to Bulter, "will be to consider this
-threat and disruption... as a critical resource in the struggle to
-rearticulate the very terms of symbolic legitimacy and
-intelligibility" (xiii).
+Subversion then, is a kind of /occupation/ of meaning that works
+toward displacement through resemblance. It occurs by way of
+overreading, as Irigaray does with her mimicry of Plato's style. The
+key is repetition, or more precisely, /iteration/, a continual miming
+of the authorizing norm. Through the iterative process, one brings
+back again and again the repudiated meaning: through subservience,
+insubordination. 
 
 ** Iteration in python
 
@@ -889,7 +803,7 @@ each word, one by one, to return the shortest lemma found. It uses the
 WordNet database, an electronic lexical database used for
 computational linguistics. WordNet contains every word's root form, as
 well as "synsets" or synonym sets, representing underlying
-relationships between words.[fn:7] In the python code, the lemmatizer
+relationships between words.[fn:4] In the python code, the lemmatizer
 function ~lemmatize()~ is called from the ~WordNetLemmatizer~ module.
 
 #+begin_src python
@@ -1079,13 +993,13 @@ expectations. As Woolf scholar Pamela Caughie puts it, "The text of
 Orlando is as unstable as the sex of Orlando" (42). Subtitled /A
 Biography/, /Orlando/ draws from English takes real life as its source
 material--except it re-works this material into what critics Christy
-Burns and Jane de Gay describe as parody and satire.[fn:20] First,
+Burns and Jane de Gay describe as parody and satire.[fn:5] First,
 English literary history is reproduced and satirized, with each
 chapter of the novel taking different periods like the Elizabethan,
 Restoration, and Victorian periods, and featuring (and mocking)
 characters like Queen Elizabeth and Alexander Pope. Moreover, the
 model for Orlando's character comes from Virginia's friend and lover,
-Vita Sackville-West.[fn:19] Episodes from Sackville-West's real life,
+Vita Sackville-West.[fn:6] Episodes from Sackville-West's real life,
 like her heartbreak with the author Violet Trefusis and her
 disinheritance of the family estate at Knole are represented in
 Orlando's heartbreak with Sasha and (after her transition) her legal
@@ -1101,7 +1015,7 @@ theory of meaning. In particular, it questions the notion *that words
 get their meanings from things they refer to*; the definition of words
 and categories by their essential traits; and the isolation of words
 and statements from their contexts of use in order to interpret them.
-(Caughie, "Double Discourse, 44-45).[fn:18]
+(Caughie, "Double Discourse, 44-45).[fn:7]
 #+end_quote
 
 I agree with Caughie that language's referential power is a major, if
@@ -1122,7 +1036,7 @@ and out of the text to examine words in their original context. This
 toggling between close and distant views of language in the novel
 recalls a procedure that Andrew Piper calls "bifocal" reading, which
 "explicitly constructs the context through which something is seen as
-significant" (17).[fn:13] Unlike Piper, however, who uses the
+significant" (17).[fn:8] Unlike Piper, however, who uses the
 quantitative component to "cede" "some measure of subjectivity" to the
 critical process, this method explicitly embraces the critic's
 inclinations as the driving force of analysis. Inclination, including
@@ -1132,12 +1046,12 @@ the expected path of gender's supposed reproducibility.
 3
 
 I begin with two gender terms from the novel, "woman" and "man." Using
-word vectors, and the ~Word2Vec~,[fn:14] library in python, I compute
+word vectors, and the ~Word2Vec~,[fn:9] library in python, I compute
 words used in similar contexts. The function to compute similar words,
 written below, uses cosine similarity to caculate the graphical
 distance between two words, represented as vectors. In other words,
 the function searches for words that appear with similar coordinates
-to "woman" and "man" in vector space.[fn:15]
+to "woman" and "man" in vector space.[fn:10]
 
 #+begin_src python
   woman_similar = model.wv.most_similar(positive = "woman", negative = "man")
@@ -1151,7 +1065,7 @@ direct opposition to the male terms. In the code expression, I added
 parameters specifying the most "positive" and "negative" associations
 between the genders. The results, then, show words that are most
 distinctive for each gender, most strongly correlating to "woman"
-while also being distant from "man" in vector space.[fn:16] I saved
+while also being distant from "man" in vector space.[fn:11] I saved
 these similar words in separate lists called ~woman_similar~ and
 ~man_similar~, as seen below.
 
@@ -1547,84 +1461,7 @@ This is taken up in chapter four on the flesh.
 
 * Footnotes
 
-[fn:20]  Burns, Christy L. “Re-Dressing Feminist Identities: Tensions
-between Essential and Constructed Selves in Virginia Woolf's Orlando.”
-*Twentieth Century Literature*, vol. 40, no. 3, 1994, pp. 342–364.
-*JSTOR*, www.jstor.org/stable/441560; De Gay, Jane. "Virginia Woolf's
-feminist historiography in Orlando." Critical Survey, vol. 19, no. 1,
-2007, p. 62+.
-
-[fn:19] “‘If I Saw You Would You Kiss Me?": Sapphism and the
-Subversiveness of Virginia Woolf's Orlando.” /PMLA/, vol. 103, no. 1,
-1988, pp. 24–34. www.jstor.org/stable/462459
-
-[fn:18] Pamela Caughie. “Virginia Woolf’s Double Discourse.”
-Discontented Discourses : Feminism/textual
-Intervention/psychoanalysis. Ed. Marleen S. Barr & Richard Feldstein.
-Urbana, IL: University of Illinois Press, 1989. 41–53.
-
-[fn:17] Jessica Berman, "Is the Trans in Transnational the Trans in
-Transgender?" /Modernsim/Modernity/, vol 24, no 2, 2017. 217-244.
-
-[fn:16] Link to file from this project's source code:
-https://github.com/gofilipa/qdr/blob/master/lib/actions.py
-
-[fn:15]  The documentation describes ~similar_words()~ "computes
-cosine similarity between a simple mean of the projection weight
-vectors of the given keys and the vectors for each key in the model...
-correspond[ing] to the word-analogy and distance scripts in the
-original word2vec implementation.". Link to most_similar() source
-code:
-https://radimrehurek.com/gensim/models/keyedvectors.html#gensim.models.keyedvectors.KeyedVectors.most_similar
-
-[fn:14] Link to Word2Vec source code:
-https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec
-
-[fn:13] Andrew Piper, /Enumerations/, University of Chicago
-Press, 2019. page 18.
-
-[fn:12] Channing, Jill. "Magical realism and gender variability in
-Orlando." Virginia Woolf Miscellany, no. 67, 2005, p. 11+.
-
-[fn:11] "'Ransacking the Language': Finding the Missing Goods in
-Virginia Woolf's Orlando." Journal of Modern Literature, vol. 29 no.
-4, 2006, pp. 57-75. Project MUSE, doi:10.1353/jml.2006.0050
-
-[fn:10] De Gay, Jane. “Virginia Woolf’s Feminist Historiography In
-Orlando.” /Critical Survey/, vol. 19, no. 1, 2007, p. 62+.
-
-[fn:9] link to source Counter (python) code:
-https://github.com/python/cpython/blob/main/Lib/collections/__init__.py;
-link to source code in C language:
-https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c 
-
-[fn:7] Christiane Fellbaum (1998, ed.) WordNet: An Electronic Lexical
-Database. Cambridge, MA: MIT Press.
-
-[fn:5] Bode, Katherine. “Data beyond representation: From computational
-modelling to performative materiality.” MLA Convention, Seattle, 10
-January 2020.
-https://katherinebode.wordpress.com/home/mla-convention-2020/  
-
-[fn:8] In one project, Klein uses network analysis methods to bring
-forth the "ghost" of James Hemmings, an emancipated slave who figured
-in the correspondence of a famous slaveholder. By marking up oblique
-references in the letters of his former master (Thomas Jefferson),
-Klein "render[s] visible the archival silences implicit in our
-understanding of chattel slavery today" (665). Her work demonstrates
-that the details of Hemmings's life, which is deeply distributed in
-the correspondence data, requires a kind of reading that is close and
-careful.
-
-Klein, Lauren F., "The Image of Absence: Archival Silence, Data
-Visualization, and James Hemings," in /American Literature/, 85 (4):
-661–688, 2013.
-
-[fn:6] Reproducibility and transparency: what's going on and how can
-we help. Nat Commun. 2025 Jan 27;16(1):1082. doi:
-10.1038/s41467-024-54614-2. PMID: 39870612; PMCID: PMC11772749.
-
-[fn:2] Sarah Cohen-Boulakia, Khalid Belhajjame, Olivier Collin, Jérôme
+[fn:1] Sarah Cohen-Boulakia, Khalid Belhajjame, Olivier Collin, Jérôme
 Chopard, Christine Froidevaux, Alban Gaignard, Konrad Hinsen, Pierre
 Larmande, Yvan Le Bras, Frédéric Lemoine, Fabien Mareuil, Hervé
 Ménager, Christophe Pradal, Christophe Blanchet, Scientific workflows
@@ -1633,12 +1470,71 @@ challenges and opportunities, Future Generation Computer Systems,
 Volume 75, 2017, Pages 284-298, ISSN 0167-739X
 https://doi.org/10.1016/j.future.2017.01.012.
 
-[fn:4] Criticism of the novel about gender and story.  
+[fn:2] In fact, Barad takes up the concept of performativity which
+she, like Butler, traces through Derrida and JL Austin. Barad,
+however, describes their application as "a diffractive elaboration of
+Butler's... critical insights" (Barad, Posthumanist Performativity,
+/Signs/ 2003, page 808). In contrast to Butler's focus on citation,
+Barad emphasizes relation and intra-action. See Barad, "Nature's Queer
+Performativity," 2012, footnote 27 on page 49.
 
-[fn:3] 
+[fn:3] Bode, Katherine. “Data beyond representation: From computational
+modelling to performative materiality.” MLA Convention, Seattle, 10
+January 2020.
+https://katherinebode.wordpress.com/home/mla-convention-2020/
 
-[fn:1] Expand on the computational literary studies field and debate.
+[fn:4] Christiane Fellbaum (1998, ed.) WordNet: An Electronic Lexical
+Database. Cambridge, MA: MIT Press.
 
-At the time of its release, Da's article stoked many responses from
-literary scholars involved in text analysis. See Bode, "What’s the
-Matter with Computational Literary Studies?"
+[fn:5]  Burns, Christy L. “Re-Dressing Feminist Identities: Tensions
+between Essential and Constructed Selves in Virginia Woolf's Orlando.”
+*Twentieth Century Literature*, vol. 40, no. 3, 1994, pp. 342–364.
+*JSTOR*, www.jstor.org/stable/441560; De Gay, Jane. "Virginia Woolf's
+feminist historiography in Orlando." Critical Survey, vol. 19, no. 1,
+2007, p. 62+.
+
+[fn:6] “‘If I Saw You Would You Kiss Me?": Sapphism and the
+Subversiveness of Virginia Woolf's Orlando.” /PMLA/, vol. 103, no. 1,
+1988, pp. 24–34. www.jstor.org/stable/462459
+
+[fn:7] Pamela Caughie. “Virginia Woolf’s Double Discourse.”
+Discontented Discourses : Feminism/textual
+Intervention/psychoanalysis. Ed. Marleen S. Barr & Richard Feldstein.
+Urbana, IL: University of Illinois Press, 1989. 41–53.
+
+[fn:8] Andrew Piper, /Enumerations/, University of Chicago
+Press, 2019. page 18.
+
+[fn:9] Link to Word2Vec source code:
+https://radimrehurek.com/gensim/models/word2vec.html#gensim.models.word2vec.Word2Vec
+
+[fn:10]  The documentation describes ~similar_words()~ "computes
+cosine similarity between a simple mean of the projection weight
+vectors of the given keys and the vectors for each key in the model...
+correspond[ing] to the word-analogy and distance scripts in the
+original word2vec implementation.". Link to most_similar() source
+code:
+https://radimrehurek.com/gensim/models/keyedvectors.html#gensim.models.keyedvectors.KeyedVectors.most_similar
+
+[fn:11] Link to file from this project's source code:
+https://github.com/gofilipa/qdr/blob/master/lib/actions.py
+
+[fn:12] Criticism of the novel about gender and story.
+
+[fn:13] link to source Counter (python) code:
+https://github.com/python/cpython/blob/main/Lib/collections/__init__.py;
+link to source code in C language:
+https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c
+
+[fn:14] De Gay, Jane. “Virginia Woolf’s Feminist Historiography In
+Orlando.” /Critical Survey/, vol. 19, no. 1, 2007, p. 62+.
+
+[fn:15] "'Ransacking the Language': Finding the Missing Goods in
+Virginia Woolf's Orlando." Journal of Modern Literature, vol. 29 no.
+4, 2006, pp. 57-75. Project MUSE, doi:10.1353/jml.2006.0050
+
+[fn:16] Channing, Jill. "Magical realism and gender variability in
+Orlando." Virginia Woolf Miscellany, no. 67, 2005, p. 11+.
+
+[fn:17] Jessica Berman, "Is the Trans in Transnational the Trans in
+Transgender?" /Modernsim/Modernity/, vol 24, no 2, 2017. 217-244.

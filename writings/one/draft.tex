@@ -1,4 +1,4 @@
-% Created 2026-07-09 Thu 15:05
+% Created 2026-07-10 Fri 13:59
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -27,18 +27,23 @@
 \tableofcontents
 
 \section{draft: text capture}
-\label{sec:org7887b9f}
+\label{sec:orgc4d01f6}
 
-\subsection{outliine}
-\label{sec:orgbd9f818}
+\subsection{outline}
+\label{sec:org3916e96}
 \begin{itemize}
 \item web scraping
 \begin{itemize}
 \item what is web scraping?
 \begin{itemize}
-\item html data
-\item network, TCP/IP
-\item standards
+\item[{$\boxtimes$}] html, bytes
+\item[{$\square$}] network, TCP/IP ??
+\item[{$\square$}] blockers
+\begin{itemize}
+\item blocking increases due to AI scraping.
+\item workarounds: changing useragent, using ghost browser.
+\end{itemize}
+\item[{$\square$}] theorizing standards ??
 \end{itemize}
 \item scraping congress.gov
 \begin{itemize}
@@ -52,25 +57,45 @@
 \end{itemize}
 \end{itemize}
 \subsection{draft}
-\label{sec:orgb6f6f1b}
+\label{sec:orgfc2d7ea}
 
-\subsubsection{{\bfseries\sffamily TODO} what is web scraping?}
-\label{sec:org88b2764}
+\subsubsection{what is web scraping?}
+\label{sec:org8df522f}
 
 \begin{enumerate}
-\item HTML
-\label{sec:org40a50b4}
+\item from bytes to HTML
+\label{sec:org2691385}
 
 Web scraping is the extraction of information from websites. It most
-often involves working with data in HTML, though there are other forms
-that data takes which can be intercepted, such as from requests that
-are necessary to populate web pages.\footnote{Scraping XHR}
+often involves (with some exceptions, explained below) working with
+data in HTML format, with elements and attributes.
 
-\item Protocol
-\label{sec:orgedfcb65}
+\begin{verbatim}
+<!DOCTYPE html>
+<html>
+<body>
 
-Web scraping is possible by manipulating HTTP protocols, which is the
-language or standard of the network.
+<h1 class="header">First level heading element</h1>
+
+<p>A paragraph element with a <a href="/">link</a> inside of it</p>
+
+</body>
+</html>
+\end{verbatim}
+
+Websites are stored in web servers, accessed over a network. Web data
+travels over the network in the form of bytes, the smallest digitally
+addressable data unit. When the bytes reach the web browser, they are
+re-encoded into HTML language, which is assembled into a web page
+readable by human eyes.
+
+\item HTTP
+\label{sec:org72aa024}
+
+Web \emph{scraping} is possible by manipulating HTTP, or HyperText Transfer
+Protocol, which is the language of the network. A web scraper uses
+code to manipulate an HTTP request so that it receives the website
+data in the form of code.
 
 Web scraping is, at its core, about mimicking a typical browser
 request. Using HTTP protocols, it makes a request to a web server much
@@ -154,8 +179,7 @@ to navifate the HTML tree with granularity.
 HTML classes for an element can be found by using built-in browser
 tools like the web inspector. On the webpage, right click on the
 relevant text and select \texttt{inspect} from the dropdown menu. The element
-will already be highlighted, with information for the \texttt{class}
-attribute visible in the highlighted portion.\footnote{Note that across programming languages like HTML and python,
+will be highlighted with information for the \texttt{class} attribute.\footnote{Note that across programming languages like HTML and python,
 terms like "attributes" mean different things and in practice function
 very differently. In HTML, an attribute is data contained within an
 HTML element, like a value specifying a CSS class, such as \texttt{<h1
@@ -168,21 +192,178 @@ is information associated with an object model, like \texttt{r.content} or
 \includegraphics[width=.9\linewidth]{./images/inspector.png}
 \end{center}
 
-Not all websites 
-Blockers
+Using \texttt{requests}, \texttt{bs4}, and the web inspector, one can easily grab a
+list of the current headlines from the \emph{NYTimes} homepage.
 
-Web servers, unfortunately for the web scraper, often try to block
-automated requests to their data. They use various forms of blockers,
-most recently, Cloudflare blockers that ask the user to check a box
-for "security verification" (See Fig. 1)
+\begin{verbatim}
+>>> for i in soup.find_all('div', class_ = 'css-cfnhvx'):
+        print(i.text)
+U.S. and Iran Sink Into Violent Cycle After Trading Strikes
+Iran Risks Overplaying Its Hand Again and Reigniting a War
+At NATO Summit, Trump Puts on a Show While Europe Gets Down to Business
+Security Precaution Led Trump to Use Old Air Force One in Leaving Turkey
+‘A Slow-Rolling Disaster’: Inside the Implosion of the Platner Campaign
+What’s Next for Democrats in the Senate Race in Maine
+How Democrats and Republicans Diverge on Sexual Assault Allegations
+Platner Suspends Senate Bid in Maine After Rape Accusation
+Trump’s Loyal Defender at the Vatican
+Trump Says He’ll Ask Supreme Court to Rehear Citizenship Case, an Unlikely Event
+Can Trump’s Arch Be So Tall? A Law May Be Redefined to Get to Yes.
+Morocco Faces France and Its Star, Mbappé, in Quarterfinals
+A Colonial Past Mixes With the Global Present
+How Morocco’s Diaspora Became the Team’s Driving Force
+13 Red Cards Have Been Given at the World Cup. Not All Have Been Equal.
+\end{verbatim}
+
+Anything else to say about HTTP?
+
+\item {\bfseries\sffamily TODO} Blockers
+\label{sec:org0c4f66f}
+
+Web servers, unfortunately for the scraper, often block automated
+requests to their data. They use various forms of "blockers" or
+mechanisms that deny the HTTP request, sending back a code 403, or
+"Forbidden" message.
+
+Each year of the past few years, bot traffic has increased
+exponentially, coming mostly from major tech and AI companies,
+especially OpenAI, META, Google, and Anthropic. According to
+Cloudflare, 2025 saw increases of 19\% in bot traffic (See Fig \#)
+(Cloudflare, "From Googlebot to GPTBot: who’s crawling your site in
+2025"). It is no surprise that traffic has increased mostly from these
+companies, whose ML model training requires ever increasing amounts of
+data.
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./images/bot_rankings.png}
+\end{center}
+
+As automated scrapers increase in frequency, so do the bot blockers.
+Over the past two years, Cloudflare, which runs on 20\% of total
+internet pages and 50\% of pages based in the US, has added increasing
+bot detection like "Challenges" and "Turnstiles" to its web pages.
+Some of these operate under the surface and virtually invisible to the
+user, such as checking the HTTP request metadata like the
+"User-Agent." By default, the User-Agent is set to the name of web
+browser and operating system making the request. For example, my
+Firefox browser running Mac OSX has the User-Agent \texttt{Mozilla/5.0
+(Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101
+Firefox/152.0}. The python \texttt{requests} library, by contrast, sets the
+User-Agent to \texttt{python-requests/2.32.3}, making any HTTP request using
+that library easy for blockers to detect.
+
+Beyond examining HTTP request data, bot blockers will use JavaScript
+code to check if the request is from a real web browser, rather than
+from an automated program. JavaScript, which is a programming language
+native to web browsers (and discussed in more detail in Chapter 4:
+Text Display), can inject challenges for the browser to solve,
+challenges which may or may not involve the user. All of these
+challenges might require some processing from the browser, and
+increasingly, they may require the user's interaction (to confirm that
+the request comes from a real browser, not a bot). One popular
+challenge is the "security verification" checkbox, which is
+increasingly visible across the internet (See Fig \#).
 
 \begin{center}
 \includegraphics[width=.9\linewidth]{./images/verify.png}
 \end{center}
 
+While these kinds of blockers are more advanced, there are ways of
+overcoming them. One effective method involves using a virtual or
+"ghost" browser through python libraries like \texttt{selenium}. Instead of
+sending an HTTP request via a python script, it routes the request
+through an actual web browser---though one that is operated remotely
+by the python script. When running, the code will open a browser
+window, enter a URL, and navigate a web page to click on links, all
+without the input of the user. In other words, it operates like a
+"ghost" on the computer. One major drawback to this method is that it
+requires more processing and a display (which many "headless" scraping
+servers do not have). The computational expense of this workaround
+detracts large-scale web crawling.
 
+As a result of increased bot scraping, internet security companies
+like Cloudflare have recently moved to what they call a
+"permission-based model," where bots must pay for seamless access to
+certain domains. A blog post frames the new policy as a logical step
+in the mass data extraction environment.
 
-The bytes object is encoded HTML. The task is then to extract the
-desired data, in this case, the text, from the HTML.
+\begin{quote}
+For decades, the Internet has operated on a simple exchange: search
+engines index content and direct users back to original websites,
+generating traffic and ad revenue for websites of all sizes. This
+cycle rewards creators that produce quality content with money and a
+following, while helping users discover new and relevant information.
+That model is now broken. AI crawlers collect content like text,
+articles, and images to generate answers, without sending visitors to
+the original source – depriving content creators of revenue, and the
+satisfaction of knowing someone is viewing their content. (“Cloudflare
+Just Changed How AI Crawlers Scrape the Internet-at-Large;
+Permission-Based Approach Makes Way for A New Business Model”)
+\end{quote}
+
+The argument bases itself on the traditional purpose of large-scale
+web crawling, which was to populate and otherwise assist search
+engines. This activity of taking content in the form of search results
+was legitimized in a famous copyright lawsuit against Google, \emph{The
+Authors Guild Inc., et al. v. Google, Inc.} (2015). In this case, the
+judge ruled that search results, such as that from Google Books, were
+considered "fair use" because they point users to the original source
+without diminishing its value.
 \end{enumerate}
+
+\subsubsection{{\bfseries\sffamily TODO} here: permission based model to create "fair exchange"}
+\label{sec:org9173d25}
+Cloudflare points out that today's web scrapers and crawlers to do not
+point users back to the original source; rather, the AI training
+process severs the data completely from its source, so that this
+connection cannot be monetized, "depriving content creators of
+revenue\ldots{} and satisfaction." As a solution, Cloudflare offers the
+"permission based model," where companies 
+
+
+
+But there is a colonial/captalist dynamic in the subtext here.
+Applying Couldry and Meija's lense of the "data grab," we can see
+
+"rewards creators" - actually, rewards content owners; "helping users
+discover" - actually, extracting data from users
+
+
+
+
+“For decades, the Internet has operated on a simple exchange: search
+engines index content and direct users back to original websites,
+generating traffic and ad revenue for websites of all sizes. This
+cycle rewards creators that produce quality content with money and a
+following, while helping users discover new and relevant
+information. That model is now broken. AI crawlers collect content
+like text, articles, and images to generate answers, without sending
+visitors to the original source – depriving content creators of
+revenue, and the satisfaction of knowing someone is viewing their
+content.” (“Cloudflare Just Changed How AI Crawlers Scrape the
+Internet-at-Large; Permission-Based Approach Makes Way for A New
+Business Model”)
+
+Cloudflare has ramped up its blocking technology.
+
+“In September 2024, Cloudflare introduced the option to block AI
+crawlers in a single click. More than one million customers have since
+chosen this option, meant to be an aggressive but easy solution that
+halts scraping while they determine their AI strategy.” (“Cloudflare
+Just Changed How AI Crawlers Scrape the Internet-at-Large;
+Permission-Based Approach Makes Way for A New Business Model)
+
+As a result, Cloudflare moves to a “permission based model” that can
+create a “fair exchange”.
+
+““Cloudflare’s innovative approach to block AI crawlers is a
+game-changer for publishers and sets a new standard for how content
+is respected online. When AI companies can no longer take anything
+they want for free, it opens the door to sustainable innovation
+built on permission and partnership,” said Roger Lynch, CEO of Condé
+Nast. “This is a critical step toward creating a fair value exchange
+on the Internet that protects creators, supports quality journalism
+and holds AI companies accountable.”” (“Cloudflare Just Changed How
+AI Crawlers Scrape the Internet-at-Large; Permission-Based Approach
+Makes Way for A New Business Model”)
 \end{document}

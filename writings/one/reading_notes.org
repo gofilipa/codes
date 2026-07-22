@@ -1,14 +1,114 @@
 * reading notes
+
+** programming code (for scraping)
+** articles, essays, reports
+**** DONE "OpenAI’s proposals for the U.S. AI Action Plan," 2025 OSTP proposal, March 13, 2025
+CLOSED: [2026-07-17 Fri 12:55]
+- Office of Science and Technology Policy proposal
+- proposals to help OSTP develop "AI Action Plan ... that ensure[s]
+  that American-led AI built on democratic principles continues to
+  prevail over CCP-built autocratic, authoritarian AI".
+- "democratic AI"
+  - "a free market promoting free and fair competition.
+  - "freedom for developers and users to work with our tools"
+  - "preventing government use... to amass power and control their
+    citizens"
+- Positioning against China to create urgency for proposals. 
+  - Deepseek is a threat because "simultaneously state-subsidized,
+    state-controlled, and fully available... cost[ing] users privacy
+    and security."
+- point #3: "Copyright: Promoting the Freedom to Learn"
+  - need to use copyrighted material to compete with China, a "matter
+    of national security."
+  - contradiction between China's "unfettered access" vs OpenAI's
+    "fair use":
+    - "Applying the fair use doctrine to AI is not only a matter of
+      American competitiveness-—it’s a matter of national security.
+      The rapid advances seen with the PRC’s DeepSeek, among other
+      recent developments, show that America’s lead on frontier AI is
+      far from guaranteed. Given concerted state support for critical
+      industries and infrastructure projects, there’s little doubt
+      that the PRC’s AI developers will enjoy unfettered access to
+      data—including copyrighted data—that will improve their models.
+      If the PRC’s developers have unfettered access to data and
+      American companies are left without fair use access, the race
+      for AI is effectively over. America loses, as does the success
+      of democratic AI. Ultimately, access to more data from the
+      widest possible range of sources will ensure more access to more
+      powerful innovations that deliver even more knowledge" (10-11).
+**** DONE Bennke, Johannes, and Nathan Schneider. Protological Governance. Between Sovereignty and Entanglement. With mediarep.org, 2025. DOI.org (Datacite), https://doi.org/10.25969/MEDIAREP/23996.
+CLOSED: [2026-07-17 Fri 12:55]
+"Protocol" is "a pattern that organizes modes of interaction among
+agents" (Bennke & Scheider 15).
+
+"in order to attain the sovereignty that participants aspire
+toward, protocological systems must also be understood as spaces of
+entanglement and embodiment, never fully describable or possible to
+separate from the lived experience of their participants" (Bennke &
+Schneider 32). 
+
+"Protocological governance, we propose, occurs when protocols
+themselves become sites of sovereignty, governing according to a logic
+not reducible to any of the entities entangled with them. It is a form
+of socio-technical organization, and a rule-based system for
+coordinating interactions, whose dominant logic operates through
+protocols" (Bennke & Schneider 16).
+
+"protocological chiasm, a dynamic tension by which protocols can
+resist capture by other forces through embodied performance" (Bennke &
+Schneider 17).
+
+"A protocol becomes meaningful through the embodied performances of
+mutual entanglement among its participants. In turn, protocols
+generate a kind of sovereignty when their logic is not reducible to
+any one participant’s control. Sovereignty, here, is not constituted
+by a link to the nation state but by the capacity for a protocol to
+resist subjugation to any external force" (Bennke & Schneider 30). 
+
+"Protocological governance becomes possible when a patterned
+interaction is sufficiently sovereign to resist capture but also
+sufficiently entangled to be legitimate and to operate according to a
+logic not reducible to any of its participants" (Bennke & Schneider
+26).
+
+Web3 has been proposed as a "zero-trust" method that can elude
+capture, but it has been re-centralized by cypto miners with more
+captial to invest in hardware (Bennke & Schneider 28).
+
+The "chiasm"
+- "the chiasm as a concept to relate sovereignty and entanglement in
+  protocological governance" (Bennke & Schneider 31).
+- "This ontology of chiasm describes the entangled, noncoincidental
+  nature of sensible experience, where beings co-belong without fully
+  coinciding... The chiasm signifies embodied heteronomy, where
+  indeterminate forces emerge through entanglements" (Bennke &
+  Schneider 31).
+- "the chiasm indicates an interdependence, co-creation, and
+  hybridization in the entanglement among its members. Values such as
+  openness, privacy, freedom, and security are not conferred by the
+  protocol in the abstract, they also must be put into practice
+  through performance. In turn, the protocol inscribes its logic back
+  into those values" (Bennke & Schneider 31).
+
+
+
+**** Meyer, Null. 9. Paradoxes of Openness: Power, Reciprocity, and the Governance of Scholarly Infrastructures. May 2026, pp. 181–206. www.openbookpublishers.com, https://doi.org/10.11647/obp.0528.09.
+**** Vallas and Schor, "What Do Platforms Do?"
+**** Cohen, Julie. /Between Truth and Power: The Legal Constructions of Informational Capitalism/, 2019
+**** Cohen, Julie. "Oligarchy, State, and Cryptopia," 2025.
+**** Warner et al., "Slow, Painful and Expensive: Current Challenges in Text-Mining Corpus Construction for the Digital Humanities." /DHQ/. 2025.
+**** Warwick, /Radical Tactics of the Offline Library/ 2014.
 ** books
-*** to read
-- Galloway, /Protocol/
-- Chun, /Control & Freedom/
-- Lessig, /Code/
-- Coulry & Miejas, /Data Grab/
-- Bennke & Schneider
-- Paris, /Radical Infrastructures/
-- Anzaldua, /Las Fronteras/
-- Anzaldua, /Entrevistas/
+*** to read/re-read
+- [X] Galloway, /Protocol/
+- [X] Coulry & Miejas, /Data Grab/
+- [ ] Moore, /Publishing Beyond the Market/
+- [ ] Chun, /Control & Freedom/
+- [ ] Ludovico, /Tactical Publishing/
+- [ ] Lessig, /Code/
+- [ ] Paris, /Radical Infrastructures/
+- [ ] Anzaldua, /Las Fronteras/
+- [ ] Anzaldua, /Entrevistas/
 
 *** maybe
 - Books by Castillo and Castanedas on immigration

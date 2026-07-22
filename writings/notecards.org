@@ -3653,6 +3653,99 @@ models as part of the ongoing materialisation of literary texts as
 emerging events always arising from an altering how the literary
 pastas reconfigured"
 
+**** Bode, Katherine. “What’s the Matter with Computational Literary Studies?” Critical Inquiry, vol. 49, no. 4, Summer 2023. www.journals.uchicago.edu, https://www.journals.uchicago.edu/doi/10.1086/724943.
+Reading notes:
+
+Abstract:
+
+- “The debate about computational literary studies (CLS) is stuck… as
+  to why literary studies must now—or could never—involve
+  quantification, statistics, and algorithms.”
+    
+- “what seems a complete divergence of opinion obscures a fundamental
+  agreement: that computation is separate from literary phenomena”
+    
+- “With both sides maintaining this arrangement, the debate about CLS
+  is sealed off from technocultural inquiries in multiple fields
+  (including literary studies) and from much of what matters in and as
+  contemporary literary phenomena.”
+    
+- “I connect claims about technology and subjectivity made in
+  critiques and defenses of CLS to the separation of matter and
+  meaning commonly referred to as Cartesian dualism.”
+    
+- proposing “a different—performative—CLS… Attuned to the
+  coconstitution of computational methods and objects.”
+    
+
+My questions:
+
+- I agree with the framing that both arguments for and against make
+  similar assumptions, although I emphasize the belief in objectivity.
+    
+- I also gravitate toward this term “performative”, but to
+  deliberately connect it to queer studies’ theory of performativity
+  and the mechanism of iteration which drives that concept.
+    
+- so, I am making similar arguments but situated from a QS
+  perspective.
+    
+
+Her argument:
+
+- Finds that arguments both against and for CLS make similar
+  reductions of scientific/statistical methodology as somehow more
+  powerful, separate, than literary method.
+    
+- “what seems a complete divergence of opinion obscures a fundamental
+  agreement: that computation is separate from literary phenomena. In
+  arguments both for and against CLS, computation is a technological
+  and material process, distinct from readers, texts, and reading.”
+  (507).
+    
+- Bode critiques two cases for and against CLS (one of them Da’s),
+  finding that they both pose CLS against “a hermeneutic and aesthetic
+  tradition… based on privileging ways of thinking and being that are
+  open to contingency and complexity and contesting those that seek
+  discrete and deterministic categories and conclusions” (510).
+    
+    - “these core moves in the case against CLS are two sides of a
+      single proposition” (510).
+        
+- Draws from Karen Barad’s “performative understanding of scientific
+  praticies” (513) in her book, *Meeting the Universe Halfway: Quantum
+  Physics and the Entanglement of Matter and Meaning*. Durham,
+  NC, 2007.
+    
+    - Barad argues that representationalism (the idea that what is
+      represented is separate from the observer) is descendant from
+      Cartesian duallism.
+        
+- Also draws from other DH-inflected scholarship in literary studies
+  like Matthew Kirschenbaum, Dennis Tenen, and Leah Hendrickson; as
+  well as “postcritique” scholars like Sharon Best, Stephen Marcus,
+  Heather Love.
+    
+    - Leah Henrickson, “Butterflies, Busy Weekends, and Chicken Salad:
+      Genetic Criticism and the Output of @Pentametron,” Authorship 7,
+      no. 1 (2018), www.authorship.ugent.be
+        
+        /article/id/63905/
+        
+    - Kirschenbaum, *Bitstreams*.
+        
+    - Tenen, *Plain Text.*
+        
+- Appears to agree with Underwood’s perspectival modeling:
+    
+    - “Though often conflated with distant reading, computational
+      modeling makes a principled departure from assertions of
+      transparency, presenting data and models not as mechanisms for
+      transmitting patterns but heuristic methods for complicating and
+      deepening understandings of literary phenomena… In computational
+      modeling, data and models do not reveal literary phenomena as
+      they really are but re-present or externalize an understanding
+      of them” (524).
 **** Clement, Tanya. "Distant Listening or Playing Visualisations
 Pleasantly with the Eyes and Ears." Digital Studies/le Champ
 Numérique, 3(2). DOI: http://doi.org/10.16995/dscn.236
@@ -4414,57 +4507,399 @@ Math concepts:
 - principal component analysis
 - bayes' theorem and inference
 - linear discriminant analysis
+*** Data Extraction
+**** TODO Moore, Samuel A. Publishing Beyond the Market: Open Access, Care, and the Commons. University of Michigan Press, 2025. library.oapen.org, https://doi.org/10.3998/mpub.11781635.
+
+
+**** TODO Mejias, Ulises A., and Nick Couldry. /Data Grab: The New Colonialism of Big Tech and How to Fight Back/. University of Chicago Press, 2024. University of Chicago Press, https://press.uchicago.edu/ucp/books/book/chicago/D/bo216184200.html.
+
+Argues that colonialism has moved from land to data; from the seizure
+and management of land and extraction of its resources to the capture,
+processing, and monetization of data. This new order of data
+colonialism takes the same colonial moves (such as exploration,
+exploitation, and extermination) and applies them within a new
+territory, which is society, and a new object, which is data.
+Society's behavior patterns are captured in the form of data, then
+quantified, analyzed, and predicted for the purpose of monetization
+and surveillance (also a form of monetization). There are
+possibilities of resistence from various standpoints, from within,
+against, and beyond the system.
+
+From historical colonialism to data colonialism:
+- Defines colonialism as a means of extraction and capitalism as a
+  means of production; argues that historical colonialism has moved
+  into capitalism (29).    
+  - "Data colonialism introduces new forms of inequality connected to
+    the exploitation of data, which often replay and deepen those
+    older inequalities, including racial and gender discrimination"
+    (Meijas & Couldry 19).
+- from land to data
+  - "Once colonies were established, a system was put in place for the
+    continuous extraction of resources from these territories, and for
+    the transformation of these resources into riches. Big Tech has
+    achieved a similar feat of exploitation by setting up business
+    models that convert ‘our’data – that is, data resulting from
+    tracking our lives and those of others – into wealth and power for
+    them" (Meijas & Couldry 6).
+    - "This is possible thanks to are arrangement of many aspects of
+      our daily life in such a way that ensures we are continuously
+      generating data" (Meijas & Couldry 6).
+  - comparing Chrome's TOS to the Requerimiento, "a document read by
+    the Spanish conquistadors as they entered a village or city in the
+    Americas in the middle of the night to wreak havoc and get their
+    pillaging under way. They read this document in Spanish... to
+    indigenous or First Nation peoples who did not speak Spanish"
+    (Meijas & Couldry 13).
+    - "Incomprehensible language must be used, because extraction
+      requires that we don’t fully understand the terms under which it
+      is being carried out" (Meijas & Couldry 14).
+- Taking what is there:
+  - "both systems are founded on an appropriation of the world’s
+    resources, treating them as ‘just there’ for the taking.
+    Historically it was the territories, natural resources and labour
+    of the Americas, Africa and much of Asia and the Pacific that were
+    plundered. In the contemporary era, it is human life, extracted in
+    the form of data, that is being appropriated" (Meijas & Couldry
+    18).
+- Violence, Civilizing missions
+  - Whereas colonialism required violence from the outset, capitalism
+    works through consent which is in some cases implict:
+    - "Historic colonialism is brutal and inhumane (Meijas & Couldry
+      34).
+    - "no violence is needed to persuade you to click the box that
+      says ‘I agree to the terms and conditions’ before installing an
+      app... today’s forms of extraction are almost frictionless,
+      although that doesn’t mean their long-term repercussions are
+      entirely non-violent" (Meijas & Couldry 35).
+  - "the predatory acts of colonialism are so manifestly unjust that
+    they have always had to be disguised by more positive ‘civilising’
+    narratives, or ‘alibis’. In past centuries, those narratives were
+    tied to Eurocentric notions of progress or Christian ideals of
+    salvation. In the Big Tech era those narratives connect more closely
+    to the values of a capitalist economy, while retaining echoes of
+    earlier civilising missions. Can we imagine Facebook taking on the
+    role of providing internet infrastructure to over thirty African
+    countries without these sorts of narratives?" (Meijas & Couldry
+    19).
+  - "Data colonialism’s process of relentless territorial
+    expansioninto daily life often comes disguised in the form of
+    apparent benefitsor even gifts" (Meijas and Couldry 70). 
+- Platforms:
+  - "In everyday life, we know those data territories generally as
+    digital ‘platforms’" like Facebook and Amazon websites, or the
+    Google search engine, "All of them give us access to a
+    commercially controlled space from which data can be exclusively
+    and continuously extracted from us" (Meijas & Couldry 60).
+  - "Just as colonial territories imposed new laws on their
+    inhabitants, so data territories exert their own ‘laws’ based on
+    the code that keeps the platform running" (Meijas & Couldry 60).
+  - Draws from Agre's concept of "grammar of action" ("computers do
+    not just capture information in the abstract: they capture iton
+    their own terms," imposing a "grammar that always includes the
+    capture of data", and from Lessig's "Code is law" dictum, whereby
+    "platform code... sets the law of data territories" (Meijas and
+    Couldry 60).
+  - "Almost the whole internet is now completely 'platformized'... You
+    may notice this when big platforms act like gatekeepers to
+    websites or smaller platforms, and you are asked to sign up via
+    your Facebook or Google ID, or in China via your WeChat ID,
+    ensuring that the data from you using that new platform is
+    combined with yourFacebook, Google or WeChat data, to those
+    corporations’ benefit" (Meijas and Couldry 74).
+  - Happening across agriculture, education, health, "AgTech, EdTech
+    and Health Tech" (Meijas and Couldry 90).
+
+Possibilities of resistance:
+- Everyone is implicated:
+  - "in data colonialim we are all informants. We literally trans-late
+    our lives for the coloniser by conducting our social lives ontheir
+    platforms" (Meijas & Couldry 54). 
+- Potential failures of translation in commodification?
+  - "A global network of scientists and practitioners worked in
+    concert for the benefit of their employers or institutions. Much
+    of this went on in the colonies. For example, between 1717 and
+    1738 Spain imported 45 tons a year of medicinal plants from the
+    Americas, a number that increased to 155 tons a year between 1747
+    and 1778. The knowledge of how to use these plants came from
+    indigenous peoples, but was systematised and commercialised by
+    apothecary missionaries in the colonies, as the name of the
+    popular fever-controlling plant of the time, cinchona, known as
+    Jesuits’ bark in Europe, implies. By the end of the seventeenth
+    century, these Big Sciences (medicinal botany, observational
+    astronomy, geography, natural history, meteorology, navigation,
+    etc.) had ‘modernised’ themselves into what today we would call
+    distributed or virtual teams" (Meijas & Couldry 48).
+- capture is dysfunctional:
+  - "This very act of seizing territory, without consent and without
+    care for the consequences, indicates a dysfunctional relation to
+    the world and a way of living with people that is extractive
+    rather than reciprocal" (Meijas & Couldry 182).
+- "resistance means holding onto values... socially generated values"
+  like knowledge as relation (Meijas & Couldry 184).
+  - Drawing from the indigenous academic, writer, and musician, Leanne
+    Betasamosake Simpson's book, /As We Have Always Done/ (2020).
+  - "On this social view of knowledge, each person must not only
+    develop their own ideas, but share those ideas with others in a
+    way that tries not to ‘interfere with other beings’ life
+    pathways’, that is, in a way that does not impose her own
+    understanding on others In this indigenous way of understanding
+    ideas as what emerge in the context of living together on shared
+    land and territory, a completely different understanding ofshared
+    knowledgeemerges. Within this perspective, data colonialism’s
+    drivingprinciple – that you can get knowledge by extracting
+    patterns at a distance from myriad data sources across the planet,
+    many of them accessed without consent and outside of rich
+    humanrelationships – becomes both nonsensical and alarming"
+    (Meijas & Couldry 183). 
+- Gig workers unions, indigenous sovereignty movements, activism
+  against tech (no tech for ICE/Apartheid), whistleblowers.
+- From Mijente, the three-pronged approach to resistance:
+  - working within: spreading awareness, elections, regulation,
+    taxation
+  - working against: refusal, self-examination, bias exposure,
+    changing curricula
+  - working beyond: support/join initiatives that seek new data
+    practices 
+
+
+
 *** Networks
 **** Galloway, Alexander. *Protocol*, 2004. PDF.
-- Codes that append all data…controlling power lies in the technical
-  protocols that make network connections possible. “The acceptance of
-  universal standardization in order to facilitate the freer and more
-  democratic medium” (147).
-- The flexibility promoted by a control society is actually used to
-  exercise control, requiring autonomous submission. Resistance to
-  this kind of control consists of finding loopholes or “exploits” in
-  systems (what hackers do).
-- DNS and TCP/IP engage a vertical (hierarchical) and horizontal
-  (democratic) models of control, with the effect of submitting the
-  “freedom” of movement in the network to the authorization of a
-  controlling head. This paradox between freedom and control, between
-  hierarchy and horizontalism, can perhaps help us to transcend our
-  thinking of computers as disambiguation machines.
-- A protocol is a wrapper---it does not engage in meaning/content, but
-  in possibility, physics or logic. Thinking of protocols as tags that
-  are appended, added on, not changing the data but wrapping it, with
-  possibility. There is a speculative component here. This is about
-  the EXPLOIT.
-- “Protocol is a circuit, not a sentence” (52).
-- Code is the only language that is executable. It acts out its
-  inscriptions, that it applies to something… Code does what it says,
-  it goes from declaration to movement. Code has a semantic meaning,
-  but it also has an enactment of meaning. It moves.
-    - “Code thus purports to be multidimensional. Code draws a line
-      between what is material and what is active, in essence saying
-      that writing (hardware) cannot do anything, but must be
-      transformed into code (software) to be effective… The algorithm
-      is prepared in advance, then later executed by the artist”
-      (165).
+Control society
+  - Control lies in technical protocols that append all data. In the
+    protocols that make network connections possible.
+    - “The acceptance of universal standardization in order to
+      facilitate the freer and more democratic medium” (147).
+    - DNS and TCP/IP
+      - Engage a vertical (hierarchical) and horizontal (democratic)
+        models of control, with the effect of submitting the “freedom”
+        of movement in the network to the authorization of a
+        controlling head. This paradox between freedom and control,
+        between hierarchy and horizontalism, can perhaps help us to
+        transcend our thinking of computers as disambiguation
+        machines.
 
+Protocol as standard
+- Protocol is about control.
+  - Protocol "is characterized by a political conundrum that involves
+    the acceptance of universal standardization in order to facilitate
+    the ultimate goal of a freer and more democratic medium" (147).
+- Protocol is "recommendations and rules".
+- Protocol is not concerned with meaning, but with possibility.
+  - Protocol as a "wrapper".
+  - "protocol does little to transcode the meaning of the semantic
+    units of value that pass in and out of its purview. It encodes and
+    decodes these values, yes, but such transformations are simply
+    trivial mathematics and do not affect meaning in the same way that
+    a Hollywood film may affect the meaning of femininity, or a police
+    officer walking the beat may affect the meaning of power in public
+    space. Protocols do not perform any interpretation themselves;
+    that is, they encapsulate information inside various wrappers,
+    while remaining relatively indifferent to the content of
+    information contained within" (52).
+  - "protocological analysis must focus not on the sciences of meaning
+    (representation/interpretation/reading), but rather on the
+    sciences of possibility (physics or logic)" (52).
+  - “Protocol is a circuit, not a sentence” (53).
+- Galloway conflates executable code and markup language, which is
+ not executable and it makes a difference.
+  - "code is the only language that is executable" (165).
+  - "Code has a semantic meaning, but it also has an enactment of
+    meaning. Thus, while natural languages such as English or Latin
+    only have a legible state, code has both a legible state and"a.n
+    executable state. In this way, code is the summation oflanguage
+    plus an executable metalayer that encapsulates that language"
+    (166).
+  - "Code thus purports to be multidimensional. Code draws a line
+    between what is material and what is active, in essence saying
+    that writing (hardware) cannot do anything, but must be
+    transformed into code (software) to be effective… The algorithm is
+    prepared in advance, then later executed by the artist” (165).
+- critique of Lessig idea of freedom vs control:
+  - referring to /Code/: "Lessig’s discourse is always about a process
+    of becoming, not of always having been. It is certainly correct
+    for him to note that new capitalistic and juridical mandates are
+    sculpting network communications in ugly new ways. But what is
+    lacking in Lessig’s work, then, is the recognition that control is
+    endemic to all distributed networks that are governed by protocol.
+    Control was there from day one. It was not imported later by the
+    corporations and courts. In fact distributed networks must
+    establish a system of control, which I call protocol, in order to
+    function properly" (Galloway 41, fn. 46).
+
+Hacking
+- Protocol is very difficult to resist, "its very success helps
+  preclude outsider positions" (147).
+- Hacking is individual rather than communal.
+  - "any forces desiring to resist distributed power should themselves
+    be adept at distributed strategies" (160).
+  - "Different nomadic cells, or tiger teams, would coalesce around a
+    specific problem, allowing resistance... Then the team would
+    dissolve" (148).
+- Protocol must be open source:
+  - "a true protocol cannot be closed or proprietary. It must be
+    paraded into full view before all, and agreed to by all" (171).
+  - "if technology is proprietary it ceases to be protocological."
+- Code is at once algorithm, machine, language, action:
+  - "Code has a semantic meaning, but it also has an enactment of
+    meaning. Thus, while natural languages such as English or Latin
+    only have a legible state, code has both a legible state and an
+    executable state" (166).
+  - "Code is the first langauge that actually does what it says. It is
+    a machine for converting meaning into action" (166-7).
+- Access
+  - "The synonym for possibility most commonly used in today's
+    technospeak is access" (172).
+
+Tactical Media
+- "tactical media as those phenomena that are able to exploit laws in
+  protocological and proprietary command and control not to destroy
+  technology, but to sculpt protocol and make it better suited to
+  people's real desire" (176).
+  - includes computer viruses, cyberfeminism, which he argues
+    manifestd protocol's tactical potential.
+- Cyberfeminism:
+  - "Cyberfeminism" "deals with the negative space created within
+    protocol through the injection of mutations, crashes, and viral
+    code. With cyberfeminism, protocol becomes disturbed. Its course
+    is altered and affected by the forces of randomness and
+    corruption... it is possible to think of cyberfeminism itself as a
+    type of virus, a bug within the larger protocological network"
+    (185).
+  - on Plant's argument:
+    - "technology threatens phallic control and is fundamentally a
+      process of emasculation... In other words, as protocol rises,
+      patriarchy declines" (189).
+  - on Stone's argument:
+    - "Like Foucault's rejection of the "repressive hypothesis" in
+      Volume 1 of his influential History of Sexuality, Stone claims
+      that new technologies are not transparent agents that remove
+      issues of gender from view, but rather they proliferate the
+      production and organization of gendered bodies in space" (190).
+- "The goal is not to destroy technology in some neo-Luddite delusion,
+  but to push it into a state of *hypertrophy*, further than it is
+  meant to go. Then, in its injured, sore, and unguarded condition,
+  technology may be sculpted anew into something better, something in
+  closer agreement with the real wants and desires of its users. This
+  is the goal of tactical media" (206).
+  
 **** Chun, Wendy, *Control and Freedom: Power and Paranoia in the Age of Fiber Optics,* 2006. Print.
-- How hardware (as opposed to software) engages with the
-  freedom/control paradox of internet networks.
+Control & freedom
+- Freedom has been conflated with control. The same technology that
+  purports to offer us freedom is also being used to control and
+  determine our access to it.
+  - “a technology, which thrives on control, has been accepted,
+    however briefly as a mass medium of freedom” (vii).
 - To Chun, the issue isn’t the control technologies that drive the
   internet, but in the way that the workings of the technology is
-  obscured, the ways that protocol is hidden and amplified. We aren’t
-  aware of the packets that pass through our computer, but they are
-  there. “If you believe that your communications are private, it is
-  because software corporations, as they relentlessly code and
-  circulate you, tell you that you are behind, and not in front of,
-  the window” (22)
+  obscured, the ways that the movement of data is hidden and
+  amplified. We aren’t aware of the packets that pass through our
+  computer, but they are there.
+  - “If you believe that your communications are private, it is
+    because software corporations, as they relentlessly code and
+    circulate you, tell you that you are behind, and not in front of,
+    the window” (22)
+  - “The problem is not with control technologies that drive the
+    internet---which themselves assume the network’s fallibility---but
+    rather with the way these protocols are simultaneously hidden and
+    amplified" (6). 
+  - "These paranoid narratives of total surveillance and total freedom
+    are the poles of control-freedom, and are symptomatic of a larger
+    shift in power relations from the rubric of discipline and liberty
+    to that of control and freedom” (6).
+
+Software:
+- “This emphasis on software repeats the founding gesture of the
+  Internet: the Internet seeks to make irrelevant hardware
+  differences---its protocols enables networks to communicate
+  regardless of which network (IEEE 802.x) standard is being used"
+  (19).
+- "Whereas Kittler’s brilliant antihumanist critique focuses
+  on humans as bottlenecks to the machinic symbolic system, this
+  book’s critique dwells on the persistence of human reading, on the
+  persistence of software as an ideological phenomenon, or to be more
+  precise, as a phenomenon that mimics or simulates ideology" (19).
+  
+Chun draws on Deleuze and Foucault, and focuses on sexuality and race
+inflecting experiences of networked contact.
+
+The body:
+- Rather than allow for a freedom from discrimination, the internet
+  purports to offer a freedom from the discriminated body, allowing
+  users to occupy the default “white” position. Chun also talks about
+  internet promoters and science fiction putting forth an ideal and
+  illusory conception of cyberspace, which conflates technological
+  empowerment with racial empowerment.
+
+The chapter on porn argues that the government’s attempts to regulate
+porn turned the internet into a commodity. 
+
+Ultimately, Chun argues that the internet’s potential is not about
+empowerment, but about exposure of ourselves in ways that we cannot
+control.
 - All computers engage in this give and take. That’s what make
   networks possible in the first place. Napster just made this
   fundamental truth evident.
-- The internet’s potential is not in individual empowerment, but in
-  universal exposure, in the way that it exposes us to new
-  visibilities that we cannot control.
-- What are the possibilities opened up by our vulnerabilities?
+
+Vulnerability emerges as a result of networked contact, relations.
+Users are getting used before they even emerge as a user.
+- "democratic potential actually lies in these risky (nonvisible)
+  encounters between self and other, where neither of these terms is
+  necessarily human" (29).
+- "the conception of the user as an empowered agent must be
+  interrogated, not because users are completely powerless or because
+  their acts are delusional, but rather because vulnerability and a
+  certain loss of control drives communication, drives our using"
+  (76).
+- "we must reject current understandings of freedom that make it into
+  a gated community writ large. We must explore the democratic
+  potential of communications technologies—--a potential that stems
+  from our vulnerabilities rather than our control" (297). 
+- porn
+  - "The problem lies not with our vulnerability but with the blind
+    belief in and desire for invulnerability, qfor this belief and
+    desire blind us to the ways in which we too are implicated, to the
+    ways in which technology increasingly seems to leave no outsides.
+    From our position of vulnerability, we must seize a freedom that
+    always moves beyond our control, that carries with it no
+    guarantees but rather constantly engenders decisions to be made
+    and actions to be performed" (30).
+  - "In this sense, we are the child—-vulnerable to pornography and
+    not yet a discrete private individual. And this position can be
+    terrifying, yet without this we could have no democracy...
+    Resisting this vulnerability leads to the twinning of control and
+    freedom—-a twinning that depends on the conflation of information
+    with knowledge and democracy with security" (127).
+- the "other"
+  - "in order to maintain the fiction of the all-powerful user who
+    uses, rather than is used by, the system, narratives on and about
+    cyberspace focus the user’s gaze away from its own vulnerability
+    and toward others as spectacle" (59).
+  - "Both Neuromancer and Ghost in the Shell therefore turn to old
+    imperialist dreams and tropes in order to deal with and enjoy
+    vulnerability" (210). 
+
+Fiber optics:
+- A metaphor and reality of light as knowledge, clarification,
+  surveillance, but fiber optic networks “shatter enlightenment”.
+- “Fiber optics threaten an infinite open circle of the
+  ‘representable’---they melt and stretch the glass so that nothing
+  screens the subject from the circulation and proliferation of
+  images. At the same time, they displace representation by code…
+  Although medical fiber optics are still looking-glasses,
+  fiber-optic networks use glass to relay light pulses that must be
+  translated into voltages: rather than magnifying images, they
+  relay data in a nonindexical manner” (16).
+- “Theoretically, fiber-optic networks work the fundamental paradox
+  of light. In them, light is both wave and particle: lasers emit
+  particle-like light, whereas the glass transports wavelike light.
+  Fiber-optic networks thus represent the theoretical necessity of
+  using, rather than resolving, paradoxes” (25-6).
+
+
+
+
+
 
 **** Bennett, Jane. *Vibrant Matter: A Political Ecology of Things*, 2010. PDF.
 - Vitality means that things have their own forces, trajectories,
