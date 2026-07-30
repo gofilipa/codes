@@ -152,7 +152,39 @@ which it contrasts to gender as discursive/fluid in chapter 1.
 
 
 
+** feedback
 
+*** Maria's feedback on chapter 5:
+
+It makes sense on the third read.
+
+Tendency to use "I argue" for smaller points.
+
+Reiterate the main argument. It gets lost.
+
+The introduction:
+- as you moved through, forgot why the previous part what.
+- move the sedgwick to the conclusion of the chapter. 
+- say why I'm using the beginning example with ACLU, Heritage, and
+  what role it's playing in the larger paper.
+  - what is it demonstrating for the paper?
+  - talking about mechanism and constraint.
+- have femininity is etc outputs in a table
+- clean up "meanwhile, this chapter considers subjects..."
+
+Aggregation
+- "Word vectors are built iteratively.."
+  - clearly label the steps.
+  - check that the LLMs actually use these steps.
+- "These completions are, I argue, an aggregation..."
+  - repetitive language in this paragraph. - "The model then generates
+    its completions by guessing what is most likely, most plausible,
+    based on these training samples."
+
+Sensory splits
+- change postpods to pods model, in "my body" prompts.
+- be very clear in the analysis what is happening to the body
+  sensataion, that it is heightened and then muffled.
 ** bank
 
 *** focus on LARGE language models is reinforcing research patterns

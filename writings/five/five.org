@@ -19,16 +19,17 @@ kind of reading that seeks to replenish and sustain through the
 generation of new meaning.
 
 Taking the concept of /generation/ literally, this chapter poses /text
-generation/ an analytic for studying text. This 30-year-old,
-foundational methodology in Queer Theory, is apt for our current
-sociopolitical moment. Whereas Sedgwick offers reparative reading in
-response to the AIDS crisis, I pose text generation, specifically by
-automated systems, as an apt hermeneutic for analyzing political
-polarization today around debates on gender rights. This chapter uses
-text generation as an analytical tool for surfacing the intersection
-of polarized perspectives around gender. It does this because machine
-learning, as I explain below, aggregates perspectives in language into
-one univocal view.
+generation/ an analytic for studying text.
+
+This 30-year-old, foundational methodology in Queer Theory, is apt for
+our current sociopolitical moment. Whereas Sedgwick offers reparative
+reading in response to the AIDS crisis, I pose text generation,
+specifically by automated systems, as an apt hermeneutic for analyzing
+political polarization today around debates on gender rights. This
+chapter uses text generation as an analytical tool for surfacing the
+intersection of polarized perspectives around gender. It does this
+because machine learning, as I explain below, aggregates perspectives
+in language into one univocal view.
 
 I will illustrate with an example. I trained a pair of Large Language
 Models based on highly polarized sources.[fn:1] To train these models,

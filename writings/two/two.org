@@ -449,18 +449,19 @@ methodologies. For example, Mandell's project takes the behavioral
 quality of gender performativity and applies it to genre, asserting
 that both gender and genre "are... highly imitatable," so that "anyone
 can adopt gendered modes of behavior, just as anyone can write in
-genres stereotypically labeled M/F" (par. 30). For Bode, meanwhile,
-the "performative" illustrates the analytical act itself, which
-intervenes and becomes inseparable from the object of analysis; so
-that "peformativity," they argue, is "attuned to the coconstitution of
-computational methods and objects" ("What's the Matter with
-Computational Literary Studies"). Their research explores how "meaning
-is not carried by texts but produced in situated interactions between
-readers, texts and contexts," including computational tools.[fn:3]
-From the field of Computational Humanities, Kent K. Chang, Anna Ho and
-David Bamman cite performativity as motivation to computationally
-"measure subversion" in TV show dialogue, to predict whether samples
-of a TV show, /The Big Bang Theory/, are queer-coded. 
+genres stereotypically labeled M/F" (par. 30). In Computational
+Literary Studies (CLS), Bode operationalizes the "performative" to
+describe the analytical act itself, which intervenes and becomes
+inseparable from the object of analysis. "Peformativity," they argue,
+is "attuned to the coconstitution of computational methods and
+objects" ("What's the Matter with Computational Literary Studies").
+Their research explores how "meaning is not carried by texts but
+produced in situated interactions between readers, texts and
+contexts," including computational tools.[fn:3] From the field of
+Computational Humanities, Kent K. Chang, Anna Ho and David Bamman cite
+performativity as motivation to computationally "measure subversion"
+in TV show dialogue, to predict whether samples of a TV show, /The Big
+Bang Theory/, are queer-coded.
 
 2
 
@@ -486,9 +487,6 @@ something something unexpected and extraneous into the performance,
 while staying within the very terms of that performance, as I explain
 below.
 
-Crucially, in Butler's reasoning, the body only materializes (it only
-/matters/) through this compulsory repetition of gender norms.
-
 3
 
 To understand how this possibility for subversion works, one must
@@ -512,9 +510,6 @@ This feminine, which is "unspeakable" and unrepresentable, is the
 
 4
 
-
-5
-
 The excluded feminine is, Butler explains, a matrix. In Butler's
 words,
 
@@ -534,30 +529,29 @@ from the etymological association between the feminine as /mater/
 (mother). It is the generative material for all life, from which all
 distinctions of male/female can emerge.
 
-6
+5
 
 But where is this excluded feminine? If it indeed "cannot be
 thematized," could it possibly be invoked, without subscribing itself
 to the ruling, masculine structure? 
 
-7
-
-8
+6
 
 The answer invovles breaking open performativity's process of
-repetition. Performativity describes a perpetual re-creation of norm
-which works by effectively /producing/ and /re-producing/ power
-structures. As Butler explains, "performativity must be understood not
-as a singular or deliberate 'act,' but, rather, as the reiterative and
-citational practice by which discourse produces the effects that it
-names" (xii). According to Butler, it is through performativity that
-"sexed" bodies emerge: "'Sex' is not a simple fact or static condition
-of a body, but a process whereby regulatory norms materialize 'sex'
-and achieve this materialization through a forcible reiteration of
-those norms" (xii). What appears as physical or biological category is
-actually a "sedimentation" formed through repetition.
+repetition. Performativity relies on repetition, a perpetual
+re-creation of the norm, which effectively produces and re-produces
+power structures. As Butler explains, "performativity must be
+understood not as a singular or deliberate 'act,' but, rather, as the
+/reiterative/ and citational practice by which discourse produces the
+effects that it names" (xii). According to Butler, it is through
+performativity that "sexed" bodies emerge: "'Sex' is not a simple fact
+or static condition of a body, but a process whereby regulatory norms
+materialize 'sex' and achieve this materialization through a forcible
+reiteration of those norms" (xii). What appears as physical or
+biological category is actually a "sedimentation" formed through
+repetition.
 
-9
+7
 
 This sedimentation, whereby meaning is signified and re-signified
 endlessly, is never complete. Categories like sex, as Butler explains,
@@ -577,21 +571,19 @@ to identity. Repetition stabilizes gender identity against a field of
 potential exclusions. And it is these exlusions which will come back
 to haunt the coherence of the identity. 
 
-10
+8
 
 This mechanism of repetition, which Butler calls "iteration," creates
-an excluded field of possible identities. And from this field lies the
-possibility of resignifying terms. As Butler explains, every
+an excluded field of possible identities. As Butler explains, every
 "identification takes place through a repudiation which produces a
-domain of abjection" (xiii). This domain of abjection contains
-identities that are rejected whenever an identification is claimed.
-These repudiated, disavowed identities offer "a field of disruptive
-possibillities" which can be harnessed to destabilize the stability of
-the claimed identity, as a kind of "troubling return" (Butler 10). As
-Butler explains, "this disavowed abjection will threaten to expose the
-self-grounding presumptions of the sexed subject" (xiii).
+domain of abjection" (xiii). However, these repudiated, disavowed
+identities offer "a field of disruptive possibillities," where terms
+may draw from rejected meanings to be resignified. Such
+resignfications destabilize the stability of the claimed identity,
+"threaten[ing] to expose the self-grounding presumptions of the sexed
+subject" (xiii).
 
-11
+9
 
 Butler offers an example with the term "queer," which is a term that
 harnesses its own history of repudiation for political purposes. The
@@ -618,7 +610,7 @@ identity will be brought into question. The paradox is that what
 appears to be a cyclical or even robotic behavior takes on an agentic
 capacity.
 
-13
+10
 
 Returning to Irigaray, Butler explains that Irigaray achieves a kind
 of subversion of the masculinist system of representation by "mim[ing]
@@ -651,7 +643,7 @@ place, not to assume it, but to show that it is /occupiable/... a kind
 of overreading which mimes and exposes the speculative excesses in
 Plato (emphasis original, 11).
 
-12
+11
 
 The mechanism of iteration aims to destabilize the ruling system from
 within. And this is where Butler's theory is often misunderstood. For
@@ -684,7 +676,7 @@ Irigaray describes as the "domesticated" element. In this case,
 potential subversion is domesticated by humor, which "produce[s] and
 contain[s] the homosexual excess" of the show.
 
-14
+12
 
 Subversion then, is a kind of /occupation/ of meaning that works
 toward displacement through resemblance. It occurs by way of
@@ -692,154 +684,161 @@ overreading, as Irigaray does with her mimicry of Plato's style. The
 key is repetition, or more precisely, /iteration/, a continual miming
 of the authorizing norm. Through the iterative process, one brings
 back again and again the repudiated meaning: through subservience,
-insubordination. 
+insubordination.
 
 ** Iteration in python
 
 1
 
-Iteration is a core concept in programming. Iteration means repeating
-the same action to each bit of data in a collection of data. 
+As with gender theory, iteration is a core concept in programming.
+Iteration means repeating the same action to each bit of data in a
+collection of data. For text analysis in particular, it is immensely
+useful. 
 
-4
+2
 
-The looping mechanism quickly cleans a text and remove extraneous or
-undesirable elements analysis. Elements that are highly frequent, like
-articles, prepositions, and pronouns, can drown out other terms which
-are considered more substantial, like nouns and verbs. Additionally,
-irregular cases also need to be standardized, because capital letters
-would count toward different words (for example, "talk" and "Talk"
-would be considered two different words). For similar reasons, word
-endings and inflections like plural forms (endings in "s") and tenses
-('walked', 'walks' or 'walking') are converted into a root form. Once
-the text has been regularized, then the counts will be more accurate
-to its content.
-
-Using a loop, a person may /iterate/ through each word in a text,
-check whether it needs to be "cleaned," and then perform a set of
-cleaning actions. For example, a first round of cleaning might check
-for the presence of punctuation and capital letters. Below is an
-example of a ~for loop~ that that filters out punctuation and
-transforming any capital letters into lowercase forms:
+For example, the looping mechanism effectively "cleans" a text one
+word at at time. Cleaning typically involves removing elements like
+articles and prepositions whose high frequencies would obstruct
+quantitative analysis.[fn:18] Using a loop, a person may /iterate/
+through each word in a text, check whether it needs to be "cleaned,"
+and then perform a set of cleaning actions.
 
 #+begin_src python It therefore takes
-more time to run.
   clean = [] 
   for word in text:
       if word.isalpha():
-	  clean.append(word.lower())   
+	  clean.append(word.lower())
 #+end_src
+
+The first line of code here creates an empty placeholder, ~clean~,
+where words will be saved in their clean form. Then, the next line
+begins the ~for loop~, which specifies a series of actions to execute
+on each word in the text, in this case, in Woolf's novel, /Orlando/.
+The loop will first take the first word, "He," and then the second
+word, which is in this case a punctuation, an em dash, "---," and
+next, the preposition "for," and so on. The third line contains a
+filter, ~isalpha()~, which checks if the word is comprised of only
+alphabetic characters (i.e. it is not a number or punctuation). If the
+word is alphabetic, it passes the filter (at this point, the em dash
+would fail this requirement, and wouldn't pass to the next line). At
+the next line, the word is lowercased, ~lower()~ and finally added to
+the empty list, ~clean~.
+
+The loop runs over each word in /Orlando/, one by one. When the loop
+is done running, the final list of words in ~clean~ will contain
+alphabetic and lowercased letters. For example, here is what remains
+of the first sentence of the novel, with all words in are lowercase,
+and no punctuation.
+
+
+#+begin_src python
+  ['he', 'for', 'there', 'could', 'be', 'no' 'doubt', 'of', 'his' 'sex',
+   'though', 'the' 'fashion', 'of', 'the' 'time', 'did', 'something',
+   'to', 'disguise', 'it']
+#+end_src
+
+
 
 3
 
-The loop begins by creating an empty placeholder, ~clean~, where words
-will be saved in their clean form. after passing the filters below.
-The next line begins the for loop, which iterates through each word in
-the text, in our case, in Woolf's novel, /Orlando/. The third line
-contains the first filter, ~isalpha()~, which checks if the word is
-comprised of only alphabetic characters (i.e. it is not a number or
-punctuation). If the word is alphabetic, it passes the filter. The
-word moves to the next line, where it is lowercased, ~lower()~ and
-finally added to ~clean~. When the loop is done running over every
-word in the text of /Orlando/, the final list of words in ~clean~ will
-only contain alphabetic and lowercased letters.
-
-5
-
-The next task in cleaning is to remove what are called ~stops~ or
-"stop words,” which consist of prepositions, articles, pronouns, and
-auxiliary verbs.
+The next step in cleaning is to remove overly frequent words called
+"stop words." These words consist of prepositions, articles, pronouns,
+and auxiliary verbs---all of which are deemed to be semantically
+insubstantial relative to their frequency.
 
 #+begin_src python
-  ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you",
-   "your", "yours", "yourself", "yourselves", "he", "him", "his",
-   "himself", "she", "her", "hers", "herself", "it", "its", "itself",
-   "they", "them", "their", "theirs", "themselves", "what", "which",
-   "who", "whom", "this", "that", "these", "those", "am", "is", "are",
-   "was", "were", "be", "been", "being", "have", "has", "had", "having",
-   "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if",
-   "or", "because", "as", "until", "while", "of", "at", "by", "for",
-   "with", "about", "against", "between", "into", "through", "during",
-   "before", "after", "above", "below", "to", "from", "up", "down", "in",
-   "out", "on", "off", "over", "under", "again", "further", "then",
-   "once", "here", "there", "when", "where", "why", "how", "all", "any",
-   "both", "each", "few", "more", "most", "other", "some", "such", "no",
-   "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s",
-   "t", "can", "will", "just", "don", "should", "now"]
+  stop-words = ["i", "me", "my", "myself", "we", "our", "ours",
+		"ourselves", "you", "your", "yours", "yourself",
+		"yourselves", "he", "him", "his", "himself", "she", "her",
+		"hers", "herself", "it", "its", "itself", "they", "them",
+		"their", "theirs", "themselves", "what", "which", "who",
+		"whom", "this", "that", "these", "those", "am", "is", "are",
+		"was", "were", "be", "been", "being", "have", "has", "had",
+		"having", "do", "does", "did", "doing", "a", "an", "the",
+		"and", "but", "if", "or", "because", "as", "until", "while",
+		"of", "at", "by", "for", "with", "about", "against",
+		"between", "into", "through", "during", "before", "after",
+		"above", "below", "to", "from", "up", "down", "in", "out",
+		"on", "off", "over", "under", "again", "further", "then",
+		"once", "here", "there", "when", "where", "why", "how",
+		"all", "any", "both", "each", "few", "more", "most", "other",
+		"some", "such", "no", "nor", "not", "only", "own", "same",
+		"so", "than", "too", "very", "s", "t", "can", "will", "just",
+		"don", "should", "now"]
+
 #+end_src
 
-Due to their high frequency and low semantic value in comparison to
-nouns, verbs, and adjectives, and adverbs, stop words will skew the
-results of analysis, so they must be removed.
+This step can be added as an additional line, or filter, to the above
+loop. After passing the filter that checks for alphabetic text, the
+loop will then check for stop words. If the word is /not/ a stop word,
+it will pass to the next line to be lowercased and added to the list
+~clean~.
 
 #+begin_src python
-  no-stops = []
-  for word in cleaned:
-      if word not in stops:
-	  no-stops.append(word)  
+  clean = [] 
+    for word in text:
+	if word.isalpha():
+          if word not in stop-words:
+	    clean.append(word.lower())
 #+end_src
 
-6
+4
 
-The loop takes each word the ~clean~ list, and checks to see if that
-word is also contained in above list of ~stops~. If the word is not a
-stop word, then it will be added to a new list, ~no-stops~. After this
-processing, the following words remain from the first sentence of
-Orlando:
+After this additional level of cleaning, the following words remain
+from the first sentence of Orlando:
 
 #+begin_src python
   ['could', 'doubt', 'sex', 'though', 'fashion', 'time', 'something',
    'disguise']
 #+end_src
 
-7
+5
 
-As mentioned in this chapter's introduction, the gender pronouns, "He"
-and "his", as well as the em dash following "he" has been removed.
+The final step of cleaning is to get each word's root form, so as to
+avoid counting the same word as instances of different words, like
+"run" and "running," or "child" and "children." This step involves
+stripping word inflections to word's root form, called a "lemma".
 
-The final step of cleaning involves stripping word inflections to get
-the word's root form, or "lemma". This process involves looking up
-each word, one by one, to return the shortest lemma found. It uses the
-WordNet database, an electronic lexical database used for
-computational linguistics. WordNet contains every word's root form, as
-well as "synsets" or synonym sets, representing underlying
-relationships between words.[fn:4] In the python code, the lemmatizer
-function ~lemmatize()~ is called from the ~WordNetLemmatizer~ module.
+To do so, we add a line to our loop that look up each word, one by
+one, and returns the shortest lemma found.[fn:4] In the python code,
+the lemmatizer function ~lemmatize()~ is called from the
+~WordNetLemmatizer~ module.
 
 #+begin_src python
-  lemmatized = []
-  for word in no-stops:
-      lemma = WordNetLemmatizer.lemmatize(word)
-      lemmatized.append(lemma)    
+clean = [] 
+    for word in text:
+        if word.isalpha():
+	    if word not in stop-words:
+	        lemma = WordNetLemmatizer.lemmatize(word)
+	            clean.append(lemma.lower())
 #+end_src
 
-8
-
-The above code iterates through the list of ~no-stops~ (which has
-already been stripped of punctuation, numbers, capitalization, and
-stop words) and lemmatizes each individual word using the
-~lemmatize()~ function. It saves the word to a new variable, called
-~lemma~, which it finally appends to the list called ~lemmatized~.
-After iterating through every word in the no-stops list, and
+The above code iterates through the text, passes it through filters
+for punctuation/numbers and stop words. If the word passes those
+filters, it then feeds it into the ~lemmatize()~ function, a kind of
+dictionary that looks up the word's root form. The root is saved to
+the variable ~lemma~, which is finally lowercased and appended to
+~clean~. After iterating through every word in the no-stops list, and
 lemmatizing each one by one, the text is ready for analysis.
+
+6
 
 Text analysis is, at a most basic level, about counting words. From
 counting how frequently a word appears, one can start to derive
-patterns about word usage. The text analysis library Natural Language
-Toolkit, or NLTK, is a python library, or collection of code, written
-specifically for working with language data. Due to its modular
-structure, it's a good library for beginners in Python (it was the
-first library that I ever learned). NLTK comes packaged with useful
-functions for simple text analysis tasks, like q ~concordance()~,
-which displays the context window surrounding a given word, and
-~similar()~, which finds words that are used in similar contexts to a
-given word.
+patterns about word usage. One of the most popular text analysis
+libraries in python is the Natural Language Toolkit, or NLTK, written
+specifically for linguistic analysis. NLTK comes packaged with useful
+functions for simple text analysis tasks, like ~concordance()~, which
+displays the "context window" surrounding a given word, and
+~similar()~, which finds words that are used in "similar" contexts to
+a given word.
 
 For example, running ~concordance()~ on the word "woman" will output
-sentences that contain that word from /Orlando/:
+an instance of the word and its context window, a short excerpt
+surrounding the target word, from /Orlando/:
 
 #+begin_src
-Displaying 15 of 187 matches:
 ty manly charm quality old woman loved failed growing old w
 en without knowing perhaps woman heart intricate ignorance 
 indow pulled among cushion woman laid worn old made bury fa
@@ -857,20 +856,28 @@ and longer full prying old woman said stared one face bumpt
 ce melt heat pity poor old woman natural mean thawing must  
 #+end_src
 
-10
-
-This context window reveals a text that has been stripped of
+This context window shows a text that has been stripped of
 punctuation, capital letters, prepositions, articles, pronouns,
 auxiliary words. What remains is largely nouns, verbs, and adverbs.
-The task is to then count and analyze these remains. 
 
 11
 
-For that purpose, another function, called ~similar()~ displays words
-that are used in similar contexts of the target word. This function
-takes a canonical concept from NLP called "distributional similarity,"
-where words that appear in similar contexts tend to have similar
-meanings. For woman, those words are the following,
+The task is then to count these remains to find patterns. To
+demonstrate this process, another NLTK function, called ~similar()~
+displays words that are used in similar contexts of the target word.
+This function takes a canonical concept from NLP called
+"distributional similarity," which measures how often terms appear in
+samples of language data. Distributional similarity, which is a key
+concept in linguistics, assumes that words which appear in similar
+contexts tend to have similar meanings.
+
+To compute the results of ~similar()~, the program first takes the
+context of the target word from ~concordance()~. Then, it counts each
+of the words surrounding woman. It then looks for words that have the
+most shared contexts, that is, the most shared words within their
+context window. Finally, it ouputs a list of terms that share the most
+contexts with the word. For the word "woman", those words are the
+following:
 
 #+begin_src python 
   ['man', 'moment', 'night', 'boy', 'word', 'world', 'child' 'pen',
@@ -878,44 +885,72 @@ meanings. For woman, those words are the following,
   'table', 'book', 'queen', 'king']
 #+end_src
 
-To compute the results of ~similar()~, the program first takes the
-context of the target word from ~concordance()~. Then, it counts each
-of the words surrounding woman. As seen above with the ~Counter()~, it
-keeps a running tally of these words. Then, it searches other words in
-the database and, again, takes a count of surrounding words for these
-words. It then looks for words that have the most shared contexts,
-that is, the most shared words within their context window, with the
-word woman. Finally, it ouputs a list of terms that share the most
-contexts with the word.
-
 12
 
-For the program then, word meaning is computed through word counts.
+In this sense, word meaning is understood as related to word
+similarity, which is computed by counting words and their neighbors.
 Importantly, the computer does not understand or impute /meaning/ to
 the words. Rather, it only counts each word as a string, that is, as a
 piece of data composed of alphanumeric sequences. From there, it
-derives meaning from patterns of usage.
-
+derives what we think of as "meaning" from patterns of
 
 13
 
-That is, in a nutshell, what so-called /deep learning/ methods do.
-Deep learning methods, like those that drive generative text processes
-(discussed in detail in chapter 5) move from displaying the results of
-word counts into generating word predictions.
+In fact, the simple act of counting words is also how /deep learning/
+methods work. Deep learning methods, like those that drive Large
+Language Model's text generation processes (discussed in detail in
+chapter 5), use word patterns from counts to making predictions about
+which words ought to appear together.
 
-Many of these methods are based on the concept of "word embeddings" or
-"word vectors" to ascribe machine-interpretable meaning to strings.
-Like ~similar()~ and ~concordance()~, word embeddings work from
-patterns of word similarity based on context. Unlike the previous
-methods, however, word embeddings encode precise numeric values to a
-given word based on its context.
+In deep learning, information about word context is stored in the form
+of "word embeddings" or "word vectors." These embeddings or vectors
+contain a word's "definition," so to speak, in a machine-interpretable
+format. A vector for a single word, "woman," like the one below, will
+contain a list of numbers that represents its relationship to other
+words from the dataset.
 
-14
+| Token       | d1          | d2          | d3          | …   | d25         |
+| ----------- | ----------- | ----------- | ----------- | --- | ----------- |
+| `woman`     | -0.92527    | -0.33879    | -0.32138    | …   | -0.45112    |
 
-A vector for a single word, “woman,” like the one below, will contain
-a list of numbers that represent a high similarity score between
-“woman” and another word.
+
+The vector which represents “woman” contains a list of numbers (25
+numbers across 25 dimensions) that score the similarity of the word
+“woman” to other words in the dataset.[fn:19] 
+
+In reality, word vectors are organized into a matrix, into a tabular
+format (see below). These matrices can be relatively small, like the
+GLoVe matrix below, which is only 25 dimensions (the number of values
+per vector), or they may range to millions, billions, and most
+recently, trillions of vectors (the estimate of most recent models
+from OpenAI and Anthropic, for example). These massive vectors are the
+reason why Language Models is prepended with the word as "Large."
+
+| Token       |           d1 |           d2 |            d3 | …     |          d25 |
+| ----------- | ------------ |  ----------- | ------------- | ---   | ------------ |
+| `worst`     |      0.41955 |      0.65852 |       0.12606 | …     |     -0.29946 |
+| `hoes`      |      0.52378 |       1.9645 |      0.051545 | …     |      0.31016 |
+| **`woman`** | **-0.92527** | **-0.33879** |  **-0.32138** | **…** | **-0.45112** |
+| `sms`       |       2.1047 |       1.1953 |      -0.11219 | …     |     -0.99524 |
+| `cuz`       |    -0.026389 |       1.3791 |       0.57634 | …     |      0.10626 |
+| `gold`      |     -0.48171 |     -0.55272 |      -0.31395 | …     |     -0.12601 |
+| `luck`      |     -0.28332 |       1.1739 |      -0.10735 | …     |     -0.53487 |
+| `business`  |     0.077507 |      0.80513 |       -1.1954 | …     |     -0.45832 |
+| `wear`      |     -0.41459 |     -0.66893 |      0.072897 | …     |     -0.76915 |
+
+
+Using this matrix format, further mathematical operations are possible
+using statistics, linear algebra, and calculus. For example, cosine
+similarity calculates the graphical distance between two vectors, that
+is, two different words. And here is the reason they are called
+"vectors" in the first place---these long lists of numbers actually
+describe coordinates for a point on a graph. Words are thus mapped
+into graphical space. Word vectors thus translate relationships of
+word context into geometric space, giving words a numerical "meaning,"
+so to speak.
+
+For example, if plotting all of the words in the GLoVe dataset onto a
+single map, the points closest to "woman" would be the following:
 
 #+begin_src python
 ['child', 0.9371739625930786, 
@@ -931,24 +966,14 @@ a list of numbers that represent a high similarity score between
 ...]  
 #+end_src
 
-Based off a popular model trained from twitter posts, the vector which
-represents “woman” contains a list of numbers that score the
-similarity of the word “woman” to other words in the dataset. Here,
-the word “woman” is most closely associated to the word “child,” with
-a similarity score, or “weight,” of .93, or 93%, then with “mother,”
-with .92, then “father,” with .90, and so on.
+Here, the vector for the word "woman" is cloest to that for the word
+"child," with a similarity score of .93, or 93%. "Woman" shares 93% of
+its vectors with those of "child."
 
-15
-
-Commonly, word vectors are organized into a matrix, or tabular,
-format. Using this matrix format, further mathematical operations are
-possible using statistics, linear algebra, and calculus—-the building
-blocks of deep learning methods.
-
-The inventors of word vectors introduced their power to the world via
-a formula that uses math to compute language meaning (Mikolov et al.
-2013). The famous formula uses a mathematical equation to calculate
-the meaning of the word "Queen". Here, the vector for the word "queen"
+Significantly, vectors make it possible to do math with language
+meaning. Indeed, the inventors of word vectors introduced their power
+to the world via a formula, one that calculates the vector of the word
+"Queen" (Mikolov et al. 2013). Here, the vector for the word "queen"
 is calculated by subtracting the vectors of "man" from "king," and
 finally, adding the vector for "woman."
 
@@ -956,36 +981,37 @@ finally, adding the vector for "woman."
 vector("Queen") = vector("King") - vector("Man") + vector("Woman")
 #+end_quote
 
-The cross-cultural intelligibility of this formula, which introduced
-word vectors to the world, cannot be understated. Gender, which is
-necessarily imbricated with imperialist concepts, becomes an operand
-for computing language meaning. Like Ted Underwood's graph which puts
-gender into an oppositional relationship, gender is the /model/ which
-shows the algorithm to be true.
-
-They are called "vectors" because these numeric values represent
-points in a graph. By graphing word similarity, word vectors translate
-relationships of word context into geometric space.
-
-Like Butler's matter or /matrix/ which produces the binary of
-masculine/feminine, here is another matrix that produces meaning
-according to masculinist parameters. The matrix format of the word
-vector enables a host of mathematical operations and algorithms: from
-example, cosine similarity calculates the distance between two
-vectors, that is, two words; and regression analysis guesses the
-relationship between an independant and dependant variable, or
-relation between one word and another.
+Like Butler's matter or /matrix/, here is another matrix that produces
+meaning. And this matrix similarly operates according to masculinist
+parameters. Gender is necessarily imbricated with conceptions of power
+("King"). Furthermore, gender becomes an operand for computing
+language meaning. Much like Ted Underwood's graph which only
+understands gender when it is placed into an oppositional
+relationship, gender here is the /model/ which shows the algorithm to
+be true.
 
 16
 
-In the following section, I use these word vectors as a starting point
-to explore terms related to gender terms in Orlando, starting with the
-terms “woman” and “man.” Although I start with the gender binary, word
-vectors enable me to quickly proliferate beyond it. Rather than
-resolving gender into an oppositional structure or a neat formula, it
-cracks open.
+That being said, the cross-cultural intelligibility of this formula,
+which introduced word vectors to the world, cannot be understated. The
+goal, then, will not be to undo the binary, or re-draw the matrix.
+Rather, it will be, in Butler's words, "to show that it is occupiable"
+(11). In the next section, I use iteration as a methodology that
+re-works text analysis procedures into a practice that proliferates,
+rather than neatly subsumes, gender terms. 
 
 ** Fluidity
+For Butler, following Irigaray, the matrix cannot express the feminine
+on its own terms. Rather, what it expresses is a "domesticated"
+feminine, the feminine according to masculine parameters. In order to
+bring the external feminine into inscription, one relies on strategy
+of iteration, where each instance of reiteration brings something
+unexpected or excluded to trouble the stability of terms. In what
+follows, I pursue an iterative reading practice of gender that relies
+on iterating through various gender terms, not to get at the truth of
+the gender binary (whatever that may be), but to show that it is
+already inhabited by that which it seeks to exclude.
+
 1 
 
 But it is more than Orlando the character who defies realist
@@ -1422,7 +1448,10 @@ sexual desires." (Hovey 398).
 
 This elision is because there is a limitation to Butler's theory.
 Common critiques of Butler point out the limits of this theory for
-posing gender and sexuality as discursive. 
+posing gender and sexuality as discursive.
+
+Crucially, in Butler's reasoning, the body only materializes (it only
+/matters/) through this compulsory repetition of gender norms.
 
 3
 
@@ -1461,6 +1490,19 @@ This is taken up in chapter four on the flesh.
 
 * Footnotes
 
+[fn:19] Known as the "GLoVe" dataset: Jeffrey Pennington, Richard
+Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for
+Word Representation.
+
+[fn:18] Elements that are highly frequent, like articles,
+prepositions, and even pronouns, can drown out other terms which are
+considered more substantial, like nouns and verbs. Additionally,
+irregular cases also need to be standardized, because capital letters
+would count toward different words (for example, "talk" and "Talk"
+would be considered two different words). For similar reasons, word
+endings and inflections like plural forms (endings in "s") and tenses
+('walked', 'walks' or 'walking') are converted into a root form.
+
 [fn:1] Sarah Cohen-Boulakia, Khalid Belhajjame, Olivier Collin, Jérôme
 Chopard, Christine Froidevaux, Alban Gaignard, Konrad Hinsen, Pierre
 Larmande, Yvan Le Bras, Frédéric Lemoine, Fabien Mareuil, Hervé
@@ -1483,7 +1525,12 @@ modelling to performative materiality.” MLA Convention, Seattle, 10
 January 2020.
 https://katherinebode.wordpress.com/home/mla-convention-2020/
 
-[fn:4] Christiane Fellbaum (1998, ed.) WordNet: An Electronic Lexical
+[fn:4]  It uses the WordNet database, an electronic lexical database
+used for computational linguistics. WordNet contains every word's root
+form, as well as "synsets" or synonym sets, representing underlying
+relationships between word.
+
+Christiane Fellbaum (1998, ed.) WordNet: An Electronic Lexical
 Database. Cambridge, MA: MIT Press.
 
 [fn:5]  Burns, Christy L. “Re-Dressing Feminist Identities: Tensions

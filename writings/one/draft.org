@@ -24,9 +24,13 @@ there. The question, for this age of capture, what is our state of
 vulnerability now? 
 
 *** outline
+- intro
+  - with each passing day, it becomes harder and harder to scrape the
+    web. 
 - web scraping
   - how is text scraped?
   - blockers
+    - circumventing blockers
 - the politics of capture
   - the forces which extract for exploitation (Couldry & Mejias,
     Zuboff, Chandrasekhar);
@@ -41,23 +45,43 @@ vulnerability now?
       Varoquaux et al)
     - [ ] creating a new territory for extraction (Cloudflare)
     - [ ] the effect on web scraping (Chandrasekar, Cloudflare)
+- how to resist capture? close reading.
+  - thinking small
+    - masking size/capital for innovation (Whittaker)
+    - the rise of chinese models Deepseek and Zimi
+    - the peformance limits of scale (Varoquaux, /Slow Down/, Moore)
+  - reading for vulnerability/exposure
+    - there is a vulnerability that drives communication (Chun)
+      - "vulnerability ... drive[s] communication" (76).
+      - "potential ... from vulnerability" (297).
+    - exposing the self as a method of healing (Anzaldua)
+  - reading for vulnerability is a kind of reading that cannot be
+    automated
+    - it requires close and individualized attention
+    - something is always lost in communication (Schutte)
+- scraping protocol
+  - writing crawlers to scrape ACLU & Heritage Foundation.
+  - crawlers employ recursion to gather all of the articles. 
+- close reading
+  - language on gender across polarized views
+    - the phantasm of gender ideology (Butler)
+  - reading the datasets for traces of this ideology
+    - patterns around the terms reality and subjectivity 
+    - point to trans materialist argument -- about making gender
+      explicit, expressive.
+      - there is a parallel between the expressiveness of language and
+	of bodies -- this parallel is what creates a rift between queer
+	and trans studies, a rift I picked up in chapter 5.
+- collective approaches to data
+  - communal conceptions of data ownership and stewardship (African
+    NLP, Grohmann)
+  - communal conceptions of publication through production (Moore)
+  - Paris
 - the legal route:
   - the legal debate over fair use (court cases, "Comments" on
     copyright)
     - web scraping creating new legal paradigms (Cohen)
-- what cannot be captured
-  - masking size/capital for innovation (Whittaker)
-    - the rise of chinese models Deepseek and Zimi
-  - the limits of scale (Varoquaux, /Slow Down/, Moore)
-  - the ambivalence of meaning
-    - seeing from both sides at once (Anzaldua)
-    - something is lost in translation (Schutte)
-    - there is a risk in all communication (Chun)
-  - collectivity
-    - communal conceptions of data ownership and stewardship (African
-      NLP, Grohmann)
-    - communal conceptions of publication through production (Moore)
-    - Paris
+
 - solutions:
   - small, local solutions
     - ("Losing the API", Mohammed et al)
@@ -76,7 +100,8 @@ this extraction of language at scale is new.
 
 How can the protocols of extraction be re-worked to resist it?
 - reworking via counterdata, creating counter datasets.
-- reworking via close reading. 
+- reworking via close reading.
+  - reading for vulnerability. for what is exposed. for fear. 
 
 ** draft
 *** introduction

@@ -39,36 +39,34 @@
 | falsifiable                                                      |                                               |
 | 1 Ambition permeates text analysis, especially Moretti           | Introduces main player(s) in critique         |
 | 2 Moretti accused of sexual assault with no action taken         |                                               |
-| 4 At the time, was working on "falsifiable criticism"            | Introduces falsifiable criticism              |
-| 5 Quantification gives Moretti the tools he needed               |                                               |
-| 3 Moretti's writing frames interpretation as true, objective     | Introduces critique of objectivity            |
+| 3 At the time, was working on "falsifiable criticism"            | Introduces falsifiable criticism              |
+| 4 Quantification gives Moretti the tools he needed               |                                               |
+| 5 Moretti's writing frames interpretation as true, objective     | Introduces critique of objectivity            |
 | 6 Moretti understates his interpretive moves                     |                                               |
-| 9 Da critiques CLS for being overly scientific                   | Emphasizes the focus on objectivity           |
-| 10 Yet Da implicitly agrees with Moretti                         |                                               |
-| 7 Klein's critique of Moretti, that distance obscures details    | Introduces scholarly critique of objectivity  |
-| 8 Distant reading uses ambition to avoid minority critique       | Connects ambition to current critique         |
+| 7 Da critiques CLS for being overly scientific                   | Emphasizes the focus on objectivity           |
+| 8 Yet Da implicitly agrees with Moretti                          |                                               |
+| 9 Klein's critique of Moretti, that distance obscures details    | Introduces scholarly critique of objectivity  |
+| 10 Distant reading uses ambition to avoid minority critique      | Connects ambition to current critique         |
 | 11 Underwood claims to represent perspectives, not objective     | Introduces another approach to quant          |
 | 12 But his model imposes a binary scheme on the data             | Critiques new response                        |
-| (new) 13 Bode offers a based on entanglement                     | Introduces another critique of response       |
+| 13 Bode offers a based on entanglement                           | Introduces another critique of response       |
 | 14 Other project that deconstructs gender: Mandell               | Introduces another approach                   |
 | 15 Other project that deconstructs race: So & Roland             | Develops approach                             |
 | 16 Staying with the binary form can bring about its fracture     | Wraps up section with insight on binary       |
 |                                                                  |                                               |
 | iteration in gender                                              |                                               |
-| 1 Critics take "performative" as descriptive                     | Introducing theorizations of performativity   |
-| 2 However, performativity is constitutive for Butler             | Explains common misreading of Buter           |
-| 3 Butler draws from Irigaray                                     | Setting up Butler's argument about binaries   |
-| 4 Irigaray theorizes an excluded feminine                        |                                               |
-| 5 The external feminine is generative matter for the binary      |                                               |
-| 6 If unrepresentable, how to bring feminine back in?             | States a problem with representing femininity |
-| 7 Language is productive -> performative                         | Introduces a central point in GP              |
-| 8 Performativity is a repetition that cites norms                | Defines GP by repetition                      |
-| 9 Gender requires repetition                                     |                                               |
-| 10 Repetition is the exploit for resignification                 | Exposes exploit in system                     |
-| 11 The term queer is resignified through repetition              | Offers example of exploit                     |
-| 12 Critique of subversion ala Chang                              | Specifies aspect of asubversion               |
-| 13 Citing/Miming language repeatedly enables subversion          | Emphasizes aspect of repetition               |
-| 14 Iteration displaces phallogocentrism                          | Wraps up GP argument                          |
+| 1 Various critics operationalize performativity differently      | Introducing theorizations of performativity   |
+| 2 For Butler, performativity has to do with repetition           | Surfaces key concept: repetition              |
+| 3 Performativity draws from Irigaray's unrepresentable fem       | Contextualizing argument                      |
+| 4 The external feminine is a matrix, generative matter           | Introducing key concept: matrix               |
+| 5 If unrepresentable, how to bring feminine back in?             | States a key question                         |
+| 6 Performativity is a repetition that cites norms                | Answers with key concept: repetition          |
+| 7 Categories like sex require repetition                         |                                               |
+| 8 The domain of abjection offers possibility for resignifcation  | Develops argument: abjection                  |
+| 9 Resignifcation exemplified with the term "queer"               | Example                                       |
+| 10 Citing/Miming language repeatedly enables subversion          | Emphasizes aspect of repetition               |
+| 11 Critique of subversion ala Chang                              | Specifies aspect of asubversion               |
+| 12 Iteration displaces phallogocentrism                          | Wraps up GP argument                          |
 |                                                                  |                                               |
 | iteration in python                                              |                                               |
 | 1. Iteration is central to text analysis in Python               | Turns to programming mechanism of the loop    |
