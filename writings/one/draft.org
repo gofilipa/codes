@@ -38,13 +38,15 @@ vulnerability now?
       - the technical strategy is to leverage HTTP data.
       - the legal strategy relies on users not knowing the extent of
         their rights being taken. 
+    - [ ] the effect on web scraping (Chandrasekar, Cloudflare)
     - [ ] Zuboff: "logic of accumulation"
       - the concept of informate, the emergence of new data, new
-        realms of extraction. X
-    - [ ] has led to today's obsession with scaling up (Bender et al,
-      Varoquaux et al)
-    - [ ] creating a new territory for extraction (Cloudflare)
-    - [ ] the effect on web scraping (Chandrasekar, Cloudflare)
+        realms of extraction.
+	- value is created from value. Value finds a way to perpetuate
+          itself. 
+    - [ ] today's obsession with scaling up (Bender et al, Varoquaux
+      et al)
+      - creates a new territory for extraction (Cloudflare)
 - how to resist capture? close reading.
   - thinking small
     - masking size/capital for innovation (Whittaker)
@@ -72,24 +74,22 @@ vulnerability now?
       - there is a parallel between the expressiveness of language and
 	of bodies -- this parallel is what creates a rift between queer
 	and trans studies, a rift I picked up in chapter 5.
-- collective approaches to data
-  - communal conceptions of data ownership and stewardship (African
-    NLP, Grohmann)
-  - communal conceptions of publication through production (Moore)
-  - Paris
 - the legal route:
   - the legal debate over fair use (court cases, "Comments" on
     copyright)
     - web scraping creating new legal paradigms (Cohen)
-
 - solutions:
   - small, local solutions
     - ("Losing the API", Mohammed et al)
     - allowing one to bypass blockers
     - scraping congress.gov
+  - collective approaches to data
+    - communal conceptions of data ownership and stewardship (African
+      NLP, Grohmann)
+    - communal conceptions of publication through production (Moore)
 *** argument
 How can we re-work capture practices to resist the co-option of
-meaning?
+meaning for exploitation and extraction?
 
 Meaning is being co-opted across various scales. On the scale of
 individual words, like "democratize" and "soverignty" in tech
@@ -462,28 +462,149 @@ Spanish... to indigenous or First Nation peoples who did not speak
 Spanish!" (13). The legal strategy, then, maintains this dependence on
 a certain level of ignorance from the user.
 
-Like land, the data of the world will be taken until it meets
-sufficient resistance to stop it. Shoshana Zuboff, whose 2015 essay
-""Big Other: Surveillance Capitalism and the Prospects of an
-Information Civilization" (and followup 2018 book, /The Age of
-Surveillance Capitalism: The Fight for a Human Future at the New
-Frontier of Power/) helped to formalize the notion of capture by the
-captial forces, what Zuboff calls the "logic of accumulation"
-(78).[fn:4] Her essay analyzes papers written by Google’s Chief
-Economist Hal Varian, where he discusses the potential of
-"computer-mediated economic transactions" (Rpt. Zuboff 78). Varian
-identifies four new kinds of business activities made possible by
-computation, which are "data extraction and analysis," "new
-contractual forms," "personalization and customization," and
-"continuous experiments" (Zuboff 78). Most of these rely on the nearly
-infinite streams of data that platforms can capture from users, and on
-the fact that these streams are mostly hidden from view, thus creating
-asymmetrical relationships between the consumer and the business,
-which obviates the role of trust. As Zuboff explains, "New
-possibilities of subjugation are produced as this innovative
-institutional logic thrives on unexpected and illegible mechanisms of
-extraction and control that exile persons from their own behavior"
-(85).
+While Mejias and Couldry discuss present-day data extraction with
+regard to platforms---bounded tools, apps, or websites controlled by
+tech companies like Alphabet or META---there is another major
+extraction underway, which is in spirit closer to the one with land.
+That is the major extraction occuring via AI-powered web crawlers.
+According to Cloudflare, a major tech provider for cloud and cyber
+computing services, AI crawlers increased sharply, ranging between
+18%-48% in the months between May 2024 and May 2025. From this time
+period, the highest increases came from OpenAI, Claude, and Google's
+AI crawlers.[fn:5]
+
+This situation has created both concern and excitement. As researcher
+Ramya Chandrasekhar points out, “certain well-resourced actors like
+Big Tech are able to take advantage of data flows on the open web to
+internet to train proprietary foundation models, while giving little
+to no value back to either the maintenance of shared informational
+resources or communities of commoners" (Chandrasekhar 2).[fn:6]
+
+Meanwhile, on the side of industry specialists, like the company Zyte,
+the outlook is positve. The company's annual report embraces the
+increasing of web scraping, even describing it in inevitable terms: 
+#+begin_quote
+For years, we have talked about the "cat-and-mouse" between data-
+gatherers and data owners. But 2025 marked a significant transition in
+this space. The pace of updates from bot management vendors has
+accelerated, and the old methods of maximizing data success are
+becoming less effective.
+
+This is a good thing.
+
+The complexity of modern anti-bot measures has gone past the point
+where human developers can, or should, manage it manually.
+
+...
+
+The friction of the past 15 years is giving way to a future where data
+extraction is seamless, compliant, and powered by intelligent agents.
+(5-6) [fn:7]
+#+end_quote
+
+For this, and undoubtedly many, companies, the increasing automation
+is an opportunity to ramp up production. The confident, non-nuanced
+tone of this report, with turns of phrase like "This is a good thing,"
+and "can, or should", is reminiscent of text generated by an LLM. And
+why shouldn't it be?
+
+Indeed, AI and data appear to feed one another other. In this case,
+the company focused in gathering data is pushing the AI tools as an
+efficiency-enhancing component. In turn, the data which is scraped is
+used to train more models. The data that is scraped by AI will be fed
+to AI---a kind of digital ouroboros.
+
+Unlike the traditional ouroboros, which is a symbol of eternal and
+cyclical renewal, this is a cycle whose process of consumption
+depletes itself.
+
+First, and most obviously, the cycle depletes natural and labor
+resources. Processing data at this scale requires large scale data
+processing infrastructures, like data centers. Not only do these
+centers exhaust precious water in order to cool them, their
+disproportionate use of energy most visibly results in rising prices
+for electricity across the country, and perhaps less visibily (though
+more devastating) in its effects on the environment (CITATION). And
+this is just at the higher levels of the processing stack. Aquiring
+those amounts of hardware and data in the first place requires
+invasive and exploitative mineral mining practices and data theft at a
+scale that has never been seen before (CITATION). Indeed, this
+ouroboros is a cycle that cannot sustain itself.
+
+Second, it also depletes creative resources. For, there is a limit to
+the content that human beings can create. As more AI-generated content
+proliferates on the internet, we approach what Matt Kirschenbaum calls
+the "textpocalypse," where AI-generated text dominates the content on
+the internet.[fn:9] Interestingly, researchers have found that this
+kind of text poisons model training, creating what Shumailov et al.
+call "model collapse," in which "a degenerative process.... in which
+the data they [the models] generate end up polluting the training set
+of the next generation" (Shumailov et al 755).[fn:8]
+
+Significantly, as some researchers in the AI Ethics field point out,
+the desire for size is counterproductive. Written by a group of major
+figures in the field, including Meredith Whittaker, who organized the
+Google employee walkouts back in 2019 (CITATION), and has since been a
+major advocate for accountability by big tech corporations, the paper,
+"Hype, Sustainability, and the Price of the Bigger-is-Better Paradigm
+in AI", dubunks what the authors call the "bigger-is-better paradigm"
+that drives ML development. The chase after ever increasing model
+sizes, the authors argue, is outpacing hardware development, data
+curation practices and, most importantly for their argument,
+performance. Their experiments show that models, after a certain size,
+show limited gains in model performance. This performance plateaus or
+even decreases across various types of models, including text-,
+audio-, and vision-based models. This research builds on the
+touchstone article, "The Dangers of Stochastic Parrots: Can Language
+Models Be Too Big?," which was presented at the same conference in
+2021, the year before ChatGPT was first released. While that article
+posed the problem of model size as a question---"can language models
+be too big?"--this one, written in an economy saturated with
+over-investment, gives an answer: yes, language models can be too big,
+too big for us to manage. What the authors call "documentation debt,"
+a reference to Bender et al.'s paper, has ballooned to unsustainable
+levels: as datasets increase in size, it becomes impossible to
+document them. Additionally, models created from those datasets
+inadvertantly are absorbed into other models trained on top of them,
+perpetuating the problem to a point where the debt will be truly
+unpayable. In addition to documentation debt, large models also
+centralize power, because only the richest tech companies can afford
+to buy the infrastructrure needed to train the models. As a result,
+the interests of those companies will drive further research in
+development, which will inevitably be focused on size.
+
+Like with the Zyte report, there is a cycle here in which increasing
+data and AI technology feed each other. This cycle manifests in real
+circular relationships between companies, where AI companies who have
+the technology must work with cloud companies who have the necessary
+servers and GPUs to handle higher compute. The vast majority of the
+capital raised by these AI companies are paid to the cloud providers,
+who in turn are responsible for majority of the investment into the AI
+companies. As the authors point out, “These circular investment deals
+can blur the boundary between 'investment' and 'acquisition'"
+(Varoquaux et al 8).
+
+It is a cycle, as preciently pointed out by Shoshana Zuboff in 2015,
+that thrives on data's status as what she calls an "electronic text."
+Zuboff, whose 2015 essay ""Big Other: Surveillance Capitalism and the
+Prospects of an Information Civilization" (and followup 2018 book,
+/The Age of Surveillance Capitalism: The Fight for a Human Future at
+the New Frontier of Power/) helped to formalize the notion of capture
+by captial as the "logic of accumulation" (78).[fn:4] Her essay
+analyzes papers written by Google’s Chief Economist Hal Varian, where
+he discusses the potential of "computer-mediated economic
+transactions" (Rpt. Zuboff 78). Varian identifies four new kinds of
+business activities made possible by computation, which are "data
+extraction and analysis," "new contractual forms," "personalization
+and customization," and "continuous experiments" (Zuboff 78). Most of
+these rely on the nearly infinite streams of data that platforms can
+capture from users, and on the fact that these streams are mostly
+hidden from view, thus creating asymmetrical relationships between the
+consumer and the business, which obviates the role of trust. As Zuboff
+explains, "New possibilities of subjugation are produced as this
+innovative institutional logic thrives on unexpected and illegible
+mechanisms of extraction and control that exile persons from their own
+behavior" (85).
 
 "Surveillance" capitalism is not as new as Zuboff would have it. She
 describes it alternately as "A new economic order," "A rogue mutation
@@ -508,51 +629,34 @@ the creator from these legacies perpetuated in the product (Benjamin
 systems but claim that the racist results of their designs are
 entirely exterior to the encoding process" (Benjamin 11-12).
 
-**** TODO
 While surveillance capitalism is certainly not new, Zuboff does point
 out something else, an emergent effect of surveillance.
 
 #+begin_quote
-information technology... can be applied to automate operations
-according to a logic that hardly differs from that of centuries past:
-replace the human body with machines that enable more continuity and
-control. But when it comes to information technology, automation
-simultaneously generates information that provides a deeper level of
-transparency to activities that had been either partially or
-completely opaque. It not only imposes information (in the form of
-programmed instructions), but it also produces information... This
-produces action linked to a reﬂexive voice, as computer mediation
-symbolically renders events, objects, and processes that become
-visible, knowable, and shareable in a new way. (76)
+when it comes to information technology, automation simultaneously
+generates information that provides a deeper level of transparency to
+activities that had been either partially or completely opaque. It not
+only imposes information (in the form of programmed instructions), but
+it also produces information... This produces action linked to a
+reﬂexive voice, as computer mediation symbolically renders events,
+objects, and processes that become visible, knowable, and shareable in
+a new way. (76)
 #+end_quote
 
 Zuboff uses the term "informate" to describe this tendency of computer
 mediated action to create byproducts of information that were
-previously inaccessible, even unimaginable. While computers automate
-action, they create new information, like foam rising from a boiling
-pot. Zuboff describes these
+previously inaccessible, even unimaginable. According to Zuboff, this
+tendency turns all digital data "electronic text"--text which is ripe
+for extraction via reading. When computers automate action, they
+create new texts, like foam rising from a boiling pot. 
 
-
-the electronic text is already organized by the logic of accumulation
-in which it is embedded and the conﬂicts inherent to that logic.
-
-The logic of accumulation organizes perception and shapes the
-expression of technological affordances at their roots. It is the
-taken-for-granted context of any business model. Its assumptions are
-largely tacit, and its power to shape the ﬁeld of possibilities is
-therefore largely invisible. It deﬁnes objectives, successes,
-failures, and problems. It determines what is measured, and what is
-passed over; how resources and people are allocated and organized; who
-is valued in what roles; what activities are undertaken – and to what
-purpose. The logic of accumulation produces its own social relations
-and with that its conceptions and uses of authority and power.
 
 
 
 **** the legal debate over fair use
 
 
-*** ??? co-option of language ???
+*** co-option of language
 
 **** word meaning being co-opted: "freedom" to extract data
 On January 23, the White House released an Executive Order meant to
@@ -637,6 +741,31 @@ protections on the servers for accessing the records.
 - analysis of the dataset? close reading?
 
 * Footnotes
+
+[fn:9] Kirschenbaum, Matthew. “Prepare for the Textpocalypse.” The
+Atlantic, 8 Mar. 2023,
+https://www.theatlantic.com/technology/archive/2023/03/ai-chatgpt-writing-language-models/673318/.
+Technology.
+ 
+[fn:8] Shumailov, Ilia, et al. “AI Models Collapse When Trained on
+Recursively Generated Data.” Nature, vol. 631, no. 8022, July 2024,
+pp. 755–59. www.nature.com,
+https://doi.org/10.1038/s41586-024-07566-y.
+
+
+[fn:7] Zyte. 2026 Web Scraping Industry Report - PDF.
+https://www.zyte.com/whitepaper-ebook/2026-web-scraping-industry-report/.
+Accessed 8 May 2026.
+ 
+[fn:6] Chandrasekhar, Ramya. Legal Frictions for Data Openness:
+Reflections from a Case-Study on Re-Use of the Open Web for AI
+Training. Zenodo, 2025, p. 75. HAL Archives Ouvertes,
+https://doi.org/10.5281/zenodo.15097649.
+ 
+[fn:5] “From Googlebot to GPTBot: Who’s Crawling Your Site in 2025.”
+The Cloudflare Blog, 1 July 2025,
+https://blog.cloudflare.com/from-googlebot-to-gptbot-whos-crawling-your-site-in-2025/.
+  
 [fn:4] Zuboff's ideas have been percolating for some time. Philip
 Agre's 1994 paper, "Surveillance And Capture: Two Models Of Privacy,"
 details similar views on computation and surveillance, as well as
