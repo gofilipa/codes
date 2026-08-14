@@ -91,6 +91,141 @@ The "chiasm"
   into those values" (Bennke & Schneider 31).
 
 
+**** DONE Varoquaux, Gaël, et al. “Hype, Sustainability, and the Price of the Bigger-Is-Better Paradigm in AI.” arXiv:2409.14160, arXiv, 1 Mar. 2025. arXiv.org, https://doi.org/10.48550/arXiv.2409.14160.
+CLOSED: [2026-08-12 Wed 10:28]
+“the narrative that the larger the AI system the more valuable,
+powerful and interesting it is is increasingly seen as common sense.
+But what is this assumption based on, and how are we measuring value,
+power, and performance?” ([Varoquaux et al., 2025, p.
+1](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=1&annotation=LQWIF58T))
+
+“refute two common assumptions underlying the ‘bigger-is-better’ AI
+paradigm: 1) that performance improvements are driven by increased
+scale, and 2) that all interesting problems addressed by AI require
+large-scale models.” ([Varoquaux et al., 2025, p.
+1](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=1&annotation=8RWIRK8X))
+
+“exacerbates a concentration of power, which centralizes
+decision-making in the hands of a few actors while threatening to
+disempower others” ([Varoquaux et al., 2025, p.
+1](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=1&annotation=CT2UNL2P))
+
+“We argue not that scale isn’t useful, in some cases, but that there
+is too much focus on scale and not enough value on other research”
+([Varoquaux et al., 2025, p.
+1](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=1&annotation=3GYWEICD))
+
+“finding that scale is not well correlated with better performance in
+certain contexts, and in fact benefits of scale tend to saturate”
+([Varoquaux et al., 2025, p.
+2](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=2&annotation=UAD6IZMY))
+
+“the drive for more and more data encourages unethical and unauditable
+data practices (Section 4)” ([Varoquaux et al., 2025, p.
+2](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=2&annotation=SYU7VQP5))
+
+“On many tasks, benchmark performance as a function of scale tends to
+saturate after a certain point (see Figure 2)” ([Varoquaux et al.,
+2025, p. 3](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=3&annotation=7J54XDXP))
+
+“a proposal made by Wagstaff over a decade ago called for ML with
+meaningful applications, each of which calls for approaches adapted to
+its constraints (Wagstaff, 2012), a philosophy that has become
+decidedly unpopular in recent years in the pursuit of
+‘general-purpose’ AI models” ([Varoquaux et al., 2025, p.
+4](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=4&annotation=KECEHH38))
+
+“for applied ML research what often matters most – even if we focus on
+simple purpose-specific metrics – is to address well-defined and
+application-specific goals while respecting the compute constraints at
+hand. And doing so often benefits from smaller, purpose-specific
+approaches as opposed to larger, more generic models” ([Varoquaux et
+al., 2025, p. 4](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=4&annotation=APJFJ69B))
+
+“the most frequently used ML models are linear models and tree-based ones (Kumar, 2022).” ([Varoquaux et al., 2025, p. 4](zotero://select/library/items/RTDRRBA8)) ([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=4&annotation=MB9RBQ62))
+
+“focus on smaller models also unearths myriad unresolved scientific
+questions, which remain in need of scrutiny and innovative thinking
+independent of scale” ([Varoquaux et al., 2025, p.
+4](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=4&annotation=YPTNQG5I))
+
+“one of the main reasons ML practitioners are drawn to scale is that
+large scale models have, over the past decade or more, beaten smaller
+models, as measured by these benchmarks. And beating the benchmark is
+currently how SOTA is defined (and how best paper awards are allotted,
+tenure given, funding secured, etc.)” ([Varoquaux et al., 2025, p.
+4](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=4&annotation=VMB6YUDG))
+
+“ML benchmarks and evaluations remain unrepresentative proxies of
+downstream model performance, and are not a substitute for more
+holistic assessments. Importantly, such benchmarks cannot speak to
+whether a given model is suited to a given purpose and context.”
+([Varoquaux et al., 2025, p.
+5](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=5&annotation=9ZY5548N))
+
+“It is well-known phenomenon in economics that when the efficiency of
+a general-use technology increases, the falling costs lead to an
+increased demand, resulting in an overall increase in resource usage.
+This is referred to as “Jevons Paradox” (Jevons, 1865)” ([Varoquaux et
+al., 2025, p. 5](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=5&annotation=XSQLCLQC))
+
+“In fact, recent research on the LAION datasets showed that as these
+datasets grow in size, the issues that plague them also multiply, with
+larger datasets contain disproportionally more problematic content
+than smaller datasets (Birhane et al., 2023).” ([Varoquaux et al.,
+2025, p. 7](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=7&annotation=W6DNKAYA))
+
+“As the field works with ever larger datasets, we are also incurring
+more and more ‘documentation debt’ wherein training datasets are too
+large to document both during creation and post-hoc (Bender et al.,
+2021)” ([Varoquaux et al., 2025, p.
+7](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=7&annotation=IV2QJ3BY))
+
+“the majority of the revenue of the Big Tech companies leading the AI
+revolution comes from targeted advertising - representing 80% of
+Google’s (Alphabet, 2023) and 90% of Meta’s (Meta, 2023a;b) annual
+revenue in 2022” ([Varoquaux et al., 2025, p.
+7](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=7&annotation=ZMCHANQ5))
+
+“These circular investment deals can blur the boundary between
+“investment” and “acquisition”.” ([Varoquaux et al., 2025, p.
+8](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=8&annotation=I9TKT2V6))
+
+“We see this dynamic at play in OpenAI’s shifting stance and policies
+as they have become more closely tied to Microsoft, a choice they made
+admittedly to access scarce computational resources. This is
+illustrated by the 2024 change to their acceptable use policy, which
+significantly softened the proscription against using their products
+for “military and warfare”; this change unlocked new revenue streams
+(Stone and MBergen, 2024), connected OpenAI’s large scale AI to
+Microsoft’s existing US military partnerships (Xiang, 2023), and later
+pushed AI to direct battlefield application via a partnership with the
+defense-tech company Anduril (O’Donnell, 2024).” ([Varoquaux et al.,
+2025, p. 9](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=9&annotation=AYMICPRS))
+
+“We should consider how such concentrated power with agency over
+centralized AI could shape society under more authoritarian
+conditions.” ([Varoquaux et al., 2025, p.
+9](zotero://select/library/items/RTDRRBA8))
+([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=9&annotation=UI2MXSRG))
 
 **** Meyer, Null. 9. Paradoxes of Openness: Power, Reciprocity, and the Governance of Scholarly Infrastructures. May 2026, pp. 181–206. www.openbookpublishers.com, https://doi.org/10.11647/obp.0528.09.
 **** Vallas and Schor, "What Do Platforms Do?"

@@ -23,14 +23,26 @@ Being online means exposure, exploitation, extraction.
 there. The question, for this age of capture, what is our state of
 vulnerability now? 
 
-*** outline
+*** outlines
 - intro
   - with each passing day, it becomes harder and harder to scrape the
-    web. 
-- web scraping
-  - how is text scraped?
-  - blockers
-    - circumventing blockers
+    web.
+  - congressional arguments about gender
+- paranoid reading
+- the logic of capture:
+  - always wants more for capture, bigger is better paradigm
+  - creates more territories for for extraction
+    - the platformization of electronic communication (Couldry, Mejias)
+    - Zubotti's concept of "informate"
+    - Creates new territories: Cloudflare's permissions for web
+      scraping
+  - eliminates resources
+    - data, water, energy, labor
+    - closing down open models
+  - degrades its own quality
+    - not only eliminates resources, but creates a worse product
+    - models plateau (Varoquaux et al)
+    - models become poisoned by training on their own data
 - the politics of capture
   - the forces which extract for exploitation (Couldry & Mejias,
     Zuboff, Chandrasekhar);
@@ -68,7 +80,7 @@ vulnerability now?
   - language on gender across polarized views
     - the phantasm of gender ideology (Butler)
   - reading the datasets for traces of this ideology
-    - patterns around the terms reality and subjectivity 
+    - patterns around the term subjectivity
     - point to trans materialist argument -- about making gender
       explicit, expressive.
       - there is a parallel between the expressiveness of language and
@@ -88,22 +100,243 @@ vulnerability now?
       NLP, Grohmann)
     - communal conceptions of publication through production (Moore)
 *** argument
+Language is being co-opted as commercial data. While there has always
+been a form of extraction that drives capitalist systems, this
+extraction of language at scale is new.
+
 How can we re-work capture practices to resist the co-option of
 meaning for exploitation and extraction?
 
-Meaning is being co-opted across various scales. On the scale of
-individual words, like "democratize" and "soverignty" in tech
-discourse and policy, and also phrases like "protect women" in gender
-discourse. But also on the large scale of data extraction. While there
-has always been a form of extraction that drives capitalist systems,
-this extraction of language at scale is new.
-
 How can the protocols of extraction be re-worked to resist it?
-- reworking via counterdata, creating counter datasets.
 - reworking via close reading.
   - reading for vulnerability. for what is exposed. for fear. 
 
 ** draft
+*** paranoid & reparative reading
+
+Paranoid reading is a stance, an affective stance, which structures
+analysis. Paranoia, according to Sedgwick: [QUOTE]
+- is anticipatory - it /predicts and preempts every possibility/,
+  i.e., "there must be no bad surprises" (/Novel Gazing/ 9).
+- is reflexive, mimetic - it reproduces itself, spreading, like a
+  virus, so there can be no alternative.
+  - "Paranoia seems to require to be imitated in order to be
+    understood" (/Novel Gazing/ 10).
+  - "Paranoia would seem to grow like a crystal in a hypersaturated
+    solution, blotting out any sense of the possibility of alternative
+    ways of understanding /or/ things to understand" (/Novel Gazing/
+    10-11). 
+- is strong theory - it invades, consumes all phenomena into its
+  worldview, from the top-down
+  - paranoia has "reach and reductiveness" (/Novel Gazing/ 13).
+- is negative theory - it is concerned with forestalling pain over the
+  seeking of pleasure
+- follows a narrative of exposure - its obssesive goal is to
+  demystify, reveal knowledge
+  - "paranoia for all its vaunted suspicion acts as though its work
+    would be accomplished if it could finally, this time, somehow get
+    its story truly known" (/Novel Gazing/ 17).
+
+For Sedgwick, paranoid reading is a crucial framework for analysis,
+allowing much important work to happen. One of the examples she gives
+is Judith Butler's /Gender Trouble: Feminism and the Subversion of
+Identity/ (1990), whose goal of demystifying gender norms springs from
+a paranoid impulse.
+
+[QUOTE].
+
+For Sedgwick, paranoia is not generative. Rather, it creates
+self-reinforcing oppositional relationships, such as Foucault's binary
+between repression and liberation which leads to a self-perpetuating
+narrative of hegemony vs subversion. It also avoids dramas of exposure
+which do not
+
+[QUOTE enjoin a particular action].
+
+Reparative reading, which Sedgwick only defines obliquely, takes
+elements out of this logic of paranoia and applies them to another
+lense of analysis, one that prioritizes pleasure and surprise.
+
+[QUOTE].
+
+What if, she asks, we take something that is typically seen as a
+negative, structuring force in queer identity, and examine how it
+unlocks creativity? Rather than plumb shame's depths for what it
+reveals about a hidden sexuality, what if it can be used to pull other
+affects and images into relation.
+
+She gives an example with a reading of Henry James, exploring how he
+mobilizes shame as a generative force for creativity. She takes
+various terms from his writing, like "Fond," for example, and explores
+how these terms reveal James's propensity with associating the
+creative act within anal metaphors. "Fond" means deep as well as
+intimate.
+
+[QUOTE].
+
+Although shame is typically analyzed as a negative affect, Sedgwick
+explains, it can also be read as a connective element. Shame moves
+outward, creating a nexus for interpersonal relation. Sedgwick links
+shame to contagion:
+
+#+begin_quote
+“Shame—-living, as it does, on and in the muscles and capillaries of
+the face—-seems to be uniquely contagious from one person to another."
+(/Touching Feeling/ 63).
+
+“not a discrete intrapsychic structure, but a kind of free radical
+that (in different people and different cultures) attaches to and
+permanently intensifies or alters the meaning of—-of almost anything:
+a zone of the body, a sensory system, a prohibited or indeed a
+permitted behavior, another affect such as anger or arousal, a named
+identity, a script for interpreting other people’s behavior toward
+oneself” (/Touching Feeling/ 62)
+#+end_quote
+
+*** the logic of capture
+Text capture is the process in which text data is extracted from web
+servers.
+
+This kind of capture follows the same logic as paranoia.
+
+It is driven by a totalizing impulse which seeks to incorporate
+everything that it can.
+
+There are five central principles to text capture, which map loosely
+to Sedgwick's principles of paranoia. Capture, in turn,
+
+**** 1) /always wants more data/.
+
+If paranoia is anticipatory, capture is covetous. It is propelled by a
+seeming necessity to aggregate more and more resources into its hold.
+
+Ulises A. Meijas and Nick Couldry describe the acceleration of of
+electronic information harvesting as a "data grab." They compare it to
+traditional colonialism's "land grab," the long process over several
+centuries where Europe, despite representing 8 percent of the world's
+landmass, seized over 84 percent of its total territory (Mejias &
+Couldry 5). The data grab applies colonial protocols of exploration,
+extraction, and exploitation of resources to data. Data, like land, is
+available for claim and conquest. As Couldry and Mejias explain,
+"[B]oth systems," they explain, "are founded on an appropriation of
+the world’s resources, treating them as ‘just there’ for the taking" .
+Historically it was the territories... In the contemporary era, it is
+human life, extracted in the form of data" (Mejias & Couldry 18).
+
+Just as colonizers allocated lands not represented in their European
+maps for the Crown, so now tech companies take the text, image, videos
+from the websites as unclaimed resources. According to Cloudflare, an
+internet company, AI-powered web scraping grew 18% between 2024 -
+2025, with Google's "Googlebot" maintaining its prominence as the
+largest web scraper, while the highest gains going to "GPTBot" and
+"META-ExternalAgent," which "highlight[s] the increasing prominence of
+OpenAI and Meta in this category."[fn:14]
+
+More data means more training examples, which results in
+higher-quality systems that make better predictions.[fn:13] AI Ethics
+researchers, Gael Varoquaux, Alexandra Sasha Luccioni and Meredith
+Whittaker,[fn:10] describe this phenomenon as the "bigger-is-better
+paradigm" which drives ML development. Their research builds on a
+prescient paper, released four years before (and the year before
+ChatGPT came out),[fn:11] "The Dangers of Stochastic Parrots: Can
+Language Models Be Too Big?🦜" (2021), which posed the problem of
+sustainability with regard to scale. Not only environmental
+sustainability (the amount of water and energy needed to train models
+and run inference) but also data sustainability. What the authors
+called "documentation debt," the lack of information about where
+training datasets come from and how they are cleaned and processed,
+has ballooned to unpayable levels. Models created from previously
+undocumented datasets are inadvertantly are absorbed into larger
+models trained on top of them, so that the sources for training become
+untraceable.[fn:15]
+
+Since "Stochastic Parrots," the models have increased exponentially in
+size, exacerbating the problems of environmental and data
+sustainability, to a point where they are even plateauing in
+performance (a point addressed in principle #3, that capture
+diminishes resources and degrades quality).
+
+**** TODO 2) /creates new territories for capture/.
+- relates to the reflexive/mimetic qualities of paranoia, which
+  reproduces itself from the grassroots. Capture autonomously
+  cultivates ever more territories for extraction.
+
+From the Requerimiento to the TOS.
+
+https://blog.cloudflare.com/content-independence-day-ai-options/
+**** 3) /diminishes resources and degrades quality/
+- is on a negative valence, the effect of decreasing a resource
+  through extraction and use.
+
+Varoquaux's et al.'s experiments show that AI models actually plateau
+in performance after they reach a certain size: "On many tasks,
+benchmark performance as a function of scale tends to saturate after a
+certain point" (Varoquaux et al., 2025, p. 3).
+
+Model poisoning
+
+Regenerative approaches, by contrast. 
+  
+**** 4) /totalizing view of technology/
+- like strong theory which imposes on everything from the top down. 
+- it is necessary to bring the security state into the commercial
+  enterprise.
+
+large models also centralize power, where only the handful of richest
+tech companies can afford to buy the infrastructrure needed to train
+the models. As a result, the interests of those companies will drive
+further research in development, which will inevitably be focused on
+size. Varoquaux et al point out that the emphasis on scale
+"exacerbates a concentration of power, which centralizes
+decision-making in the hands of a few actors while threatening to
+disempower others" ([Varoquaux et al., 2025, p. 1).
+
+**** 5) /proffers a narrative of abundance/
+- like the narrative of exposure
+- "[capture]... acts as though its work would be accomplished if it
+  [would] finally, this time, somehow [distribute its riches]" (/Novel
+  Gazing/ 17).
+***** TODO add: maniacal obsession with more:
+Situational Awareness hedge fund founded by Leopold Aschenbrenner,
+named after the 165-page "Situational Awareness: The Decade Ahead"
+essay by Aschenbrenner,[fn:12] which announces that "The most
+extraordinary techno-capital acceleration has been set in motion." The
+document begins evoking San Francisco as the herald of the world to
+come:
+
+#+begin_quote
+You can see the future first in San Francisco. 
+
+Over the past year, the talk of the town has shifted from $10 billion
+compute clusters to $100 billion clusters to trillion-dollar clusters.
+Every six months another zero is added to the boardroom plans. Behind
+the scenes, there’s a fierce scramble to secure every power contract
+still available for the rest of the decade, every voltage transformer
+that can possibly be procured. American big business is gearing up to
+pour trillions of dollars into a long-unseen mobilization of American
+industrial might. By the end of the decade, American electricity
+production will have grown tens of percent; from the shale fields of
+Pennsylvania to the solar farms of Nevada, hundreds of millions of
+GPUs will hum.
+
+The AGI race has begun. (Aschenbrenner, "Situational Awareness")
+#+end_quote
+
+For anybody that has been to San Francisco, the future is bleak. 
+
+***** TODO add: Language of abundance by Sam Altman, Mark Zuckerberg.
+
+Both frame a world which will be abundant in intelligence and
+individual empowerment. (Which is not the case, we will see, with the
+reality of decaying quality and diminishing resources). 
+
+Altman, Sam. "Abundant Intelligence." September 23, 2025.
+https://blog.samaltman.com/abundant-intelligence.
+
+Zuckerberg, Mark. "The Future is for Everyone: The Path to a Positive
+AI Future." August 10, 2026.
+https://www.meta.com/thefutureisforeveryone/
+
 *** introduction
 There is a co-option of meaning occuring today.
 
@@ -377,18 +610,6 @@ already an extractive practice of capture.
 
 *** the politcs of capture
 **** the current data grab
-We are in the midst of an intense acceleration of what Ulises A.
-Meijas and Nick Couldry call a "data grab." The data grab is the heir
-of colonialism's "land grab," the long process over several centuries
-in which Europe, despite representing 8 percent of the world's
-landmass, seized over 84 percent of its total territory (Mejias &
-Couldry 5). According to Mejias and Couldry, this data grab took
-traditional colonial processes of exploration, extraction, and
-exploitation of resources and applied them to a new object, to data.
-"[B]oth systems," they explain, "are founded on an appropriation of
-the world’s resources, treating them as ‘just there’ for the taking.
-Historically it was the territories... In the contemporary era, it is
-human life, extracted in the form of data" (Mejias & Couldry 18).
 
 The object, and particularly its digital nature, required new
 strategies for capture that differ from those of land-based resources.
@@ -540,38 +761,6 @@ kind of text poisons model training, creating what Shumailov et al.
 call "model collapse," in which "a degenerative process.... in which
 the data they [the models] generate end up polluting the training set
 of the next generation" (Shumailov et al 755).[fn:8]
-
-Significantly, as some researchers in the AI Ethics field point out,
-the desire for size is counterproductive. Written by a group of major
-figures in the field, including Meredith Whittaker, who organized the
-Google employee walkouts back in 2019 (CITATION), and has since been a
-major advocate for accountability by big tech corporations, the paper,
-"Hype, Sustainability, and the Price of the Bigger-is-Better Paradigm
-in AI", dubunks what the authors call the "bigger-is-better paradigm"
-that drives ML development. The chase after ever increasing model
-sizes, the authors argue, is outpacing hardware development, data
-curation practices and, most importantly for their argument,
-performance. Their experiments show that models, after a certain size,
-show limited gains in model performance. This performance plateaus or
-even decreases across various types of models, including text-,
-audio-, and vision-based models. This research builds on the
-touchstone article, "The Dangers of Stochastic Parrots: Can Language
-Models Be Too Big?," which was presented at the same conference in
-2021, the year before ChatGPT was first released. While that article
-posed the problem of model size as a question---"can language models
-be too big?"--this one, written in an economy saturated with
-over-investment, gives an answer: yes, language models can be too big,
-too big for us to manage. What the authors call "documentation debt,"
-a reference to Bender et al.'s paper, has ballooned to unsustainable
-levels: as datasets increase in size, it becomes impossible to
-document them. Additionally, models created from those datasets
-inadvertantly are absorbed into other models trained on top of them,
-perpetuating the problem to a point where the debt will be truly
-unpayable. In addition to documentation debt, large models also
-centralize power, because only the richest tech companies can afford
-to buy the infrastructrure needed to train the models. As a result,
-the interests of those companies will drive further research in
-development, which will inevitably be focused on size.
 
 Like with the Zyte report, there is a cycle here in which increasing
 data and AI technology feed each other. This cycle manifests in real
@@ -741,6 +930,41 @@ protections on the servers for accessing the records.
 - analysis of the dataset? close reading?
 
 * Footnotes
+
+[fn:15] Dodge, Jesse, Maarten Sap, Ana Marasović, et al. “Documenting
+Large Webtext Corpora: A Case Study on the Colossal Clean Crawled
+Corpus.” In Proceedings of the 2021 Conference on Empirical Methods in
+Natural Language Processing, edited by Marie-Francine Moens, Xuanjing
+Huang, Lucia Specia, and Scott Wen-tau Yih. Association for
+Computational Linguistics, 2021.
+https://doi.org/10.18653/v1/2021.emnlp-main.98.
+ 
+[fn:14] The Cloudflare Blog. “From Googlebot to GPTBot: Who’s Crawling
+Your Site in 2025.” July 1, 2025.
+https://blog.cloudflare.com/from-googlebot-to-gptbot-whos-crawling-your-site-in-2025/.
+ 
+
+[fn:13] Indeed, the power of scale is well documented in Machine
+Learning research. Kaplan, Jared, Sam McCandlish, Tom Henighan, et al.
+“Scaling Laws for Neural Language Models.” arXiv:2001.08361. Preprint,
+arXiv, January 23, 2020. https://doi.org/10.48550/arXiv.2001.08361.
+
+
+[fn:12] Aschenbrenner, Leopold (June 2024). "Situational Awareness:
+The Decade Ahead". situational-awareness.ai.
+
+[fn:11] After she refused to retract her affiliation from the
+publication, Timnit Gebru was famously fired from Google. Hao, Karen
+(4 December 2020). "We read the paper that forced Timnit Gebru out of
+Google. Here's what it says". MIT Technology Review.
+
+[fn:10] Alexandra Sasha Luccioni is a research scientist at
+HuggingFace and head of Sustainable AI Group. Meredith Whittaker is
+the president of the Signal Foundation, former faculty director & co
+founder of the AI Now Institute, and was employed at Google for 13
+years, where she was a core organizer of the Google Walkouts.
+Bloomberg. "Google Protest Leader Leaves, Warns of Company's Unchecked
+Power". July 18, 2019. Retrieved July 18, 2019.
 
 [fn:9] Kirschenbaum, Matthew. “Prepare for the Textpocalypse.” The
 Atlantic, 8 Mar. 2023,
