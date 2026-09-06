@@ -1,4 +1,96 @@
 * queer codes
+** work plan (as of 8.23.26)
+
+*** tasks
+
+Most time intensive tasks - 3 months, 3 weeks:
+- write chapter 1 - three weeks
+- re-write chapter 3 - one month
+- write introduction - one month
+- write conclusion - one month
+
+Less time intensive tasks - 2 months, 3 weeks:
+- revise chapter 2 - one week
+- revise chapter 1 - two weeks
+- revise chapter 3 - one week
+- revise chapter 4 - two weeks
+- revise chapter 5 - two weeks
+- revise introduction - one week
+- revise conclusion - one week
+- bibliography and style - one week
+
+Order of tasks:
+- write chapter 1 - three weeks
+- revise chapter 2 - one week
+- re-write chapter 3 - one month
+- write introduction - one month
+- write conclusion - one month
+- revise chapter 4 - two weeks
+- revise chapter 5 - two weeks
+- revise chapter 1 - one week
+- revise chapter 3 - one week
+- revise introduction - one week
+- revise conclusion - one week
+- bibliography and style - one week
+
+*** timeline
+
+September:
+- revise chapter 2 - one week
+- write chapter 1 - three weeks
+
+October:
+- re-write chapter 3 - one month
+
+November:
+- write introduction - one month
+
+December:
+- write conclusion - one month
+
+January:
+- revise chapter 4 - two weeks
+- revise chapter 5 - two weeks
+
+February:
+- revise chapter 1 - two weeks
+- revise chapter 3 - one week
+- revise introduction - one week
+
+March:
+- revise conclusion - one week
+- bibliography and style - one week
+
+** current task
+*** TODO write chapter one - three weeks
+- [X] read the chapter
+- [X] come up with a TODO list:
+  - [X] what parts need to be drafted?
+    - to be drafted
+      - intro, close reading
+    - drafting in progress
+      - paranoid and reparative reading
+      - the protocol of capture
+      - web scraping
+  - [X] what order should they be drafted?
+    1. paranoid & reparative
+    2. web scraping
+    3. protocol of capture
+    4. close reading: heritage
+    5. introduction
+- [X] determine what needs to be read
+  - [X] check readings from notes
+  - [X] check zotero
+  - [X] check agenda
+  - [X] determine the most important ones
+  - [X] order them accordingly
+- books to read
+  - [ ] Berlant, ed, /Reading Sedgwick/
+  - [ ] Lessig, /Free Culture/
+  - [ ] Warwick, /Radical Tactics/
+  - [ ] /Heritage/ articles
+  - [ ] Abigail Shrier, /Irreversible Damage/
+- articles -- see reading notes doc
 
 ** sketch
 The book experiments with Queer Studies-inflected approaches to the
@@ -12,8 +104,7 @@ text analysis. The hierarchical format of data structures. The opacity
 of the interface, the display layer. The correlation/approximation
 between features in machine learning.
 
-These constraints are embraced by heteronormative culture, cultivated
-within a neoliberal logic. 
+These constraints are cultivated within a neoliberal logic.
 
 Queer practice would, by contrast, seek these out and re-deploy them
 toward ends they were not built for. (This "practice" element is one

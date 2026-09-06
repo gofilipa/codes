@@ -1,7 +1,40 @@
 * reading notes
 
-** programming code (for scraping)
-** articles, essays, reports
+** short readings by section
+*** TODO paranoid and reparative
+**** TODO Love, Heather. “Truth and Consequences: On Paranoid Reading and Reparative Reading.” Criticism 52, no. 2 (2010): 235–41.
+
+*** TODO web scraping
+**** TODO Dodge, Jesse, Maarten Sap, Ana Marasović, et al. “Documenting Large Webtext Corpora: A Case Study on the Colossal Clean Crawled Corpus.” In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, edited by Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-tau Yih. Association for Computational Linguistics, 2021. https://doi.org/10.18653/v1/2021.emnlp-main.98.
+**** TODO Chandrasekhar, Ramya. Legal Frictions for Data Openness: Reflections from a Case-Study on Re-Use of the Open Web for AI Training. Zenodo, 2025. https://doi.org/10.5281/zenodo.15097649.
+**** TODO Becker, Bryan, and Jin-Lee Hee. “Your Site, Your Rules: New AI Traffic Options for All Customers.” Cloudflare Blog, July 1, 2026. https://blog.cloudflare.com/content-independence-day-ai-options/.
+
+**** TODO Lowe Mohammed, Andrew, Andrew Lowe Mohammed, Alisa Hardy, Rianna Walcott, Tynesha McCullers, and Abigail Vazquez Rosario. “Losing the API: Developing Novel Methods for Scraping Black Twitter.” Digital Humanities Quarterly 020, no. 1 (2026).
+
+Methods for scraping twitter after the API closed off. 
+
+**** TODO Ugarte, Rodrigo. “#RIP Twitter: The Conditions of Black Social Media Platform Migration.” MediaWell, Social Science Research Council, April 3, 2024. https://just-tech.ssrc.org/field-reviews/rip-twitter-the-conditions-of-black-social-media-platform-migration/.
+*** protocol of capture
+**** TODO Hansen, Dave. “Elsevier v. Meta: AI Training Lawsuit Explained.” Authors Alliance, May 5, 2026. https://www.authorsalliance.org/2026/05/05/surprise-elsevier-is-suing-meta-for-you/.
+
+**** TODO Meyer, Null. 9. Paradoxes of Openness: Power, Reciprocity, and the Governance of Scholarly Infrastructures. May 2026, pp. 181–206. www.openbookpublishers.com, https://doi.org/10.11647/obp.0528.09.
+
+Being open may not be a good thing. 
+
+"Under conditions of concentrated computational capacity and platform
+dominance, open resources flow disproportionately to those best
+positioned to exploit them at scale."
+
+**** TODO Cohen, Julie. “Oligarchy, State, and Cryptopia.” Fordham Law Review 94, no. 2 (2025). https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=6188&context=flr.
+
+How current day formations of economic power are departing from
+capitalism. 
+
+**** TODO Warner et al., "Slow, Painful and Expensive: Current Challenges in Text-Mining Corpus Construction for the Digital Humanities." /DHQ/. 2025.
+
+**** TODO Sell, Susan K. “Twenty-First-Century Capitalism: A Research Agenda.” Global Perspectives 3, no. 1 (2022): 35540. https://doi.org/10.1525/gp.2022.35540.
+
+**** TODO Shumailov, Ilia, Zakhar Shumaylov, Yiren Zhao, Nicolas Papernot, Ross Anderson, and Yarin Gal. “AI Models Collapse When Trained on Recursively Generated Data.” Nature 631, no. 8022 (2024): 755–59. https://doi.org/10.1038/s41586-024-07566-y.
 **** DONE "OpenAI’s proposals for the U.S. AI Action Plan," 2025 OSTP proposal, March 13, 2025
 CLOSED: [2026-07-17 Fri 12:55]
 - Office of Science and Technology Policy proposal
@@ -89,7 +122,6 @@ The "chiasm"
   protocol in the abstract, they also must be put into practice
   through performance. In turn, the protocol inscribes its logic back
   into those values" (Bennke & Schneider 31).
-
 
 **** DONE Varoquaux, Gaël, et al. “Hype, Sustainability, and the Price of the Bigger-Is-Better Paradigm in AI.” arXiv:2409.14160, arXiv, 1 Mar. 2025. arXiv.org, https://doi.org/10.48550/arXiv.2409.14160.
 CLOSED: [2026-08-12 Wed 10:28]
@@ -227,27 +259,22 @@ conditions.” ([Varoquaux et al., 2025, p.
 9](zotero://select/library/items/RTDRRBA8))
 ([pdf](zotero://open-pdf/library/items/V2NSBWTH?page=9&annotation=UI2MXSRG))
 
-**** Meyer, Null. 9. Paradoxes of Openness: Power, Reciprocity, and the Governance of Scholarly Infrastructures. May 2026, pp. 181–206. www.openbookpublishers.com, https://doi.org/10.11647/obp.0528.09.
-**** Vallas and Schor, "What Do Platforms Do?"
-**** Cohen, Julie. /Between Truth and Power: The Legal Constructions of Informational Capitalism/, 2019
-**** Cohen, Julie. "Oligarchy, State, and Cryptopia," 2025.
-**** Warner et al., "Slow, Painful and Expensive: Current Challenges in Text-Mining Corpus Construction for the Digital Humanities." /DHQ/. 2025.
-**** Warwick, /Radical Tactics of the Offline Library/ 2014.
-** books
-*** to read/re-read
+*** close reading: heritage
+**** TODO Leeds, Stacy, Samantha Phillips, and Mikaela Bledsoe Downes. “Proactive Solutions in Implementing Tribal Digital Sovereignty.” The Journal of Community Informatics 22, no. 1 (2026): 82–113. https://doi.org/10.15353/joci.v22i1.6936.
+
+**** TODO Grohmann, Rafael, and Alexandre Costa Barbosa. “Popular Digital Sovereignty and Digital Real Utopias: Lessons from the Homeless Workers’ Movement in Brazil.” Convergence, May 29, 2026, 13548565261456920. https://doi.org/10.1177/13548565261456920.
+
+*** introduction
+
+** book to read/re-read
 - [X] Galloway, /Protocol/
 - [X] Coulry & Miejas, /Data Grab/
-- [ ] Moore, /Publishing Beyond the Market/
-- [ ] Chun, /Control & Freedom/
-- [ ] Ludovico, /Tactical Publishing/
-- [ ] Lessig, /Code/
-- [ ] Paris, /Radical Infrastructures/
-- [ ] Anzaldua, /Las Fronteras/
-- [ ] Anzaldua, /Entrevistas/
-
-*** maybe
-- Books by Castillo and Castanedas on immigration
-- essay by Shutte
+- [X] Moore, /Publishing Beyond the Market/
+- [X] Chun, /Control & Freedom/
+- [ ] Lessig, /Free Culture/
+- [X] Paris, /Radical Infrastructures/
+- [X] Anzaldua, /Las Fronteras/
+- [X] Anzaldua, /Entrevistas/
   
 ** congressional documents
 

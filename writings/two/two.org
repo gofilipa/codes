@@ -318,7 +318,7 @@ in the first place. For example, Laura Mandell, who uses stylometry to
 study sentimental and anti-Jacobin novels, creates new categories that
 draw gender into genre. She creates doubly refracted categories like,
 "men writing as men," "women writing as women," "women writing as
-men," "men writing as women."[fn:24]
+men," "men writing as women."[fn:4]
 
 15
 
@@ -374,35 +374,72 @@ outline in the next section, /iteration/.
 
 I now turn to Judith Butler's theory of gender performativity,[fn:5]
 and to a particular mechanism that drives gender performativity:
-iteration. As I explain below, iteration is an essential component
-that drives gender performativity, and by which it can also be
-exploited.
+/iteration/. As I explain below, iteration is an essential and
+constraining mechanism that binds performativity to its effects.
+However, as Butler explains, this constraint can be exploited to
+subvert the norm. 
 
 My focus on iteration addresses a common misreading of performativity,
 that it denotes a series of acts that can be imitated at will. Indeed,
 Butler's book, /Bodies that Matter: on the Discursive Limits of Sex/
-(1996), explicitly aims to clarify how performativity is compulsory,
-bounded on all sides by social norms in ways that delimit a subject's
-agency. In /Bodies that Matter/, Butler explains that gender
-performativity is a pre-determined procedure that /constitutes/
-subjectivity: "there is no subject who decides on its gender.... on
-the contrary, gender is part of what decides the subject" (ix).
+(1996), which follows /Gender Trouble/, explicitly aims to clarify how
+performativity is compulsory, bounded on all sides by social norms in
+ways that delimit a subject's agency. In /Bodies that Matter/, Butler
+explains that gender performativity is a pre-determined procedure that
+/constitutes/ subjectivity: "there is no subject who decides on its
+gender.... on the contrary, gender is part of what decides the
+subject" (ix).
 
-In Butler's theory, iteration is a perpetual re-creation of the norm,
-which effectively produces and re-produces power structures. As Butler
+In Butler's theory, iteration is a /perpetual re-creation of norms/,
+which effectively /produces and re-produces power/. As Butler
 explains, "performativity must be understood not as a singular or
-deliberate 'act,' but, rather, as the /reiterative/ and citational
+deliberate 'act,' but, rather, as the reiterative and citational
 practice by which discourse produces the effects that it names" (xii).
-According to Butler, it is through performativity that "sexed" bodies
-emerge: "'Sex' is not a simple fact or static condition of a body, but
-a process whereby regulatory norms materialize 'sex' and achieve this
-materialization through a forcible reiteration of those norms" (xii).
-What appears as physical or biological category is actually a
-"sedimentation" formed through repetition.
 
-This sedimentation, whereby meaning is signified and re-signified
-endlessly, is never complete. Which is way categories like sex require
-constant repetition.
+For example, according to Butler, it is through performativity that
+"sexed" bodies emerge. They explain that "'Sex' is not a simple fact
+or static condition of a body, but a process whereby regulatory norms
+materialize 'sex' and achieve this materialization through a forcible
+reiteration of those norms" (xii). What appears as physical or
+biological category is actually a discursive "sedimentation," formed
+through continual repetition.
+
+Despite this compulsive repetition, performativity can be subverted,
+according to Butler. Subversion is possible through manipulating the
+iterative process. This manipulation brings something something
+unexpected and extraneous into performativiy, while nonetheless
+staying within the boundary of the permissable.
+
+
+To theorize what is permissable and what is not, Butler draws from
+poststructuralist feminist theorist Luce Irigaray's theory of the
+internal vs the external feminine. Taking philosophical discourse as
+an example, Irigaray argues that philosophers, like Plato, Aristotle,
+Descartes, among others, represent the gender binary "on the basis of
+masculine parameters" (18). Irigaray argues that the binary,
+constructed along masculine terms, precludes the representation of the
+the feminine, which is effectively excluded from the binary system.
+The feminine that exists within the system, the internal feminine, is
+a "domesticated" feminine.
+
+Although this external feminine is unrepresentable, it is the /matter/
+from which the Male/Female binary comes into intelligibility: "The
+economy that claims to include the feminine as the subordinate term in
+a binary opposition of masculine/feminine excludes the feminine,
+produces the feminine as that which must be excluded for that economy
+to operate" (10). As it happens, Butler refers to the excluded
+feminine as a /matrix/. With its etymological associations to
+"mother," "mater," and the "womb," the matrix is a generative force,
+"an inscriptional space that... designates the constitutive outside of
+the Platonic economy; it is what must be excluded for that economy to
+posture as internally coherent" (12-13).
+
+It is not possible, according to Butler (following Irigary), to invoke
+the excluded feminine outside of masculine parameters. However,
+subversion is possible by breaking open performativity processes,
+specifically, the process of iteration. For performativity, whereby
+meaning is signified and re-signified endlessly, is never complete.
+Butler explains that,
 #+begin_quote
 This "being a man" and this "being a woman" are internally unstable
 affairs. They are always beset by ambivalence precisely because there
@@ -412,78 +449,18 @@ chooses, a norm that chooses us. (86)
 #+end_quote
 By this "cost in every identification," Butler means all of the
 identifications which are effectively rejected when one makes a claim
-to identity. Repetition stabilizes gender identity against a field of
-potential exclusions. And it is these exlusions which will come back
-to haunt the coherence of the identity. 
-
-Despite this compulsive repetition, performativity can be subverted,
-according to Butler. Subversion is possible through manipulating the
-iterative process. This manipulation brings something something
-unexpected and extraneous into the performance, while nonetheless
-staying within the boundary of the permissable.
-
-** TODO 3
-
-The boundary is, as it happens, a matrix. Essential to Butler's
-thinking is the poststructuralist feminist theorist, Luce Irigaray and
-her methodology for critiquing masculine language in her book, /The
-Sex Which Is Not One/ (Irigaray 23). Irigaray argues that philosophers
-like Plato, Aristotle, Descartes, and others, represent the feminine
-through masculine terms, "on the basis of masculine parameters," which
-is through the binary form (18). Irigaray argues that the Male/Female
-binary (among other binaries) effectively /precludes/ the
-representation of the other term, the feminine. Moreover, this
-exclusion of the feminine, as it happens, effectively /produces/
-another feminine within the terms of the masculinist system. In other
-words, the feminine which has been excluded from the system, which
-must be excluded in order for that system to work, into what Butler
-calls the "constitutive outside," makes possible the creation of the
-inner, "domesticated" feminine. This feminine, which is "unspeakable"
-and unrepresentable, is the /matter/ from which the Male/Female binary
-comes into intelligibility.
-
-4
-
-The excluded feminine is, Butler explains, a matrix. In Butler's
-words,
-
-#+begin_quote
-every explicit distinction takes place in an inscriptional space that
-the distinction itself cannot accomodate. Matter as a /site/ of
-inscription cannot be explicitly thematized... [this] inarticulate
-"matter" designates the constitutive outside of the Platonic economy;
-it is what must be excluded for that economy to posture as internally
-coherent (emphasis original, 12-13).
-#+end_quote
-
-This /matrix/, this "inscriptional space", which cannot be
-articulated, draws simultaneously from a classical analogy between the
-form/matter and masculine/feminine, in the Aristotelian tradition, and
-from the etymological association between the feminine as /mater/
-(mother). It is the generative material for all life, from which all
-distinctions of male/female can emerge.
-
-5
-
-But where is this excluded feminine? If it indeed "cannot be
-thematized," could it possibly be invoked, without subscribing itself
-to the ruling, masculine structure? 
-
-6
-
-The answer invovles breaking open performativity's process of
-repetition.
+to identity. Gender identity must be, through iteration, stabilized
+repeatedly throguh a field of potential exclusions.
 
 8
 
-This mechanism of repetition, which Butler calls "iteration," creates
-an excluded field of possible identities. As Butler explains, every
+Ant it is the material of the excluded which can come back, Butler
+says, as a "troubling return" (xxx). As Butler explains, every
 "identification takes place through a repudiation which produces a
-domain of abjection" (xiii). However, these repudiated, disavowed
-identities offer "a field of disruptive possibillities," where terms
-may draw from rejected meanings to be resignified. Such
-resignfications destabilize the stability of the claimed identity,
-"threaten[ing] to expose the self-grounding presumptions of the sexed
+domain of abjection" (xiii). These repudiated, disavowed identities
+offer "a field of disruptive possibillities," where terms may draw
+from rejected meanings to be resignified. Such resignfications
+"threaten to expose the self-grounding presumptions of the sexed
 subject" (xiii).
 
 9
@@ -495,7 +472,6 @@ adoption of this term by Gay and Lesbian activism in the 80s and 90s
 legitimacy" (Butler xxviii). This turning of abjection into legitimacy
 shows how one attains some kind of agency even within the terms of
 subjection.
-
 #+begin_quote
 The compulsion to repeat an injury is not necessarily the compulsion
 to repeat the injury in the same way or to stay fully within the
@@ -504,7 +480,6 @@ may be the paradoxical condition by which a certain agency---not
 linked to a fiction of the ego as master of circumstance---is derived
 from the impossibility of choice. (183)
 #+end_quote
-
 It is through the repetition of repudiated meanings, which necessarily
 draw from insulting and/or painful pasts, come to alchemize new
 significations. If a repudiated meaning, a "troubling return," is
@@ -521,9 +496,8 @@ philosophy... and, in the mime, tak[ing] on a language that
 effectively cannot belong to her" (12). Butler cites a passage where
 Irigaray "mimes" the style of Plato. By taking on Plato's language,
 Irigaray "performs a repetition and displacement of the phallic
-economy" (Butler 18). In an interesting double mimicry, with Butler
-mimicking Irigaray mimicking Plato, Butler writes,
-
+economy" (Butler 18). In an interesting double inhabitation, where
+Butler mimicks Irigaray mimicking Plato, Butler writes,
 #+begin_quote
 I will not be a poor copy in your system, but I will resemble you
 nevertheless by miming the textual passages through which you
@@ -533,7 +507,6 @@ gestures of your operation until this emergence of the outside within
 the system calls into question its systematic closure and its
 pretension to be self-grounding. (18)
 #+end_quote
-
 Irigaray undermines the authority of the masculine through repetition,
 "cit[ing] Plato again and again," in a re-iterative practice (18).
 This practice has a cumulative effect, which is to "expose precisely
@@ -548,46 +521,30 @@ Plato (emphasis original, 11).
 
 11
 
-The mechanism of iteration aims to destabilize the ruling system from
-within. And this is where Butler's theory is often misunderstood. For
-example, Chang et. al's text analysis project, cited above, argues
-that "subversion" occurs through two straight characters whose
-dialogue expresses homosexual innuendo in a popular TV show, /The Big
-Bang Theory/. The authors claim that "an undercurrent of emotional
-intimacy and dependency... challenges the rigid boundaries of what is
-considered acceptable" on the show (Chang et al., 10). However,
-according to Butler, subversion requires a destabilization from the
-inside in a way that occupies and displaces the expected norm. These
-characters, however much they are queer-coded, ultimately remain
-within hetersexual relationships. The show thus reproduces what Butler
-describes as "drag as high het entertainment":
-
-#+begin_quote
-[T]hink of Julie Andrews in /Victor, Victoria/ or Dustin Hoffmann in
-/Tootsie/ or Jack Lemmon in /Some Like It Hot/ where the anxiety over
-a possible homosexual consequence is both produced and deflected
-within the narrative trajectory of the films. These are films which
-produce and contain the homosexual excess of any given drag
-performance, the fear that an apparently heterosexual contact might be
-made before the discovery of a nonapparent homosexuality. (85)
-#+end_quote
-
-Butler explicitly stipulates against "forms of drag that heterosexual
-culture produces for itself," which effectively prop up heterosexual
-regimes. Rather than queerness as subversion, this is closer to what
-Irigaray describes as the "domesticated" element. In this case,
-potential subversion is domesticated by humor, which "produce[s] and
-contain[s] the homosexual excess" of the show.
+This iteration between the internal and external (repudiated) feminine
+is another place where Butler's theory is often misunderstood. For
+example, one text analysis project, cited above, argues that
+"subversion" may occur through straight characters that employ
+queer-coded language. Analyzing the transcripts of a popular TV show,
+/The Big Bang Theory/, the authors claim that "an undercurrent of
+emotional intimacy and dependency... challenges the rigid boundaries
+of what is considered acceptable" (Chang et al., 10). However, the
+characters in question remain within heterosexual relationships, with
+their admittedly romantic language being relegated to punchlines. Like
+some comedies which feature crossdressing (/Some Like It Hot/,
+/Tootsie/), which Butler describes as "drag as high het
+entertainment," this show "produce[s] and contain[s] the homosexual
+excess" in a way that ends up propping up the heterosexual regime
+(85). Rather than the excluded or repudiated queerness, it is closer
+to what Irigaray describes as a "domesticated" queerness.
 
 12
 
-Subversion then, is a kind of /occupation/ of meaning that works
-toward displacement through resemblance. It occurs by way of
-overreading, as Irigaray does with her mimicry of Plato's style. The
-key is repetition, or more precisely, /iteration/, a continual miming
-of the authorizing norm. Through the iterative process, one brings
-back again and again the repudiated meaning: through subservience,
-insubordination.
+Subversion then, works toward displacement through occupation and
+resemblance. One way that it occurs is through iteration, as Irigaray
+does with her mimicry of Plato's style. Through the iterative process,
+one brings back again and again the repudiated meaning: through
+subservience, insubordination; and through resemblance, deception.
 
 ** Iteration in python
 
@@ -595,17 +552,17 @@ insubordination.
 
 As with gender theory, iteration is a core concept in programming.
 Iteration means repeating the same action to each bit of data in a
-collection of data. For text analysis in particular, it is immensely
-useful. 
+collection of data.
 
 2
 
-For example, the looping mechanism effectively "cleans" a text one
-word at at time. Cleaning typically involves removing elements like
-articles and prepositions whose high frequencies would obstruct
-quantitative analysis.[fn:6] Using a loop, a person may /iterate/
-through each word in a text, check whether it needs to be "cleaned,"
-and then perform a set of cleaning actions.
+To prepare a text for analysis, one uses iteration to process the
+text, one word at at time. Typically this involves "cleaning" textual
+elements that are undesirable for the purpose of text analysis, like
+like articles and prepositions whose high frequencies would obstruct
+word counts.[fn:6] Using a loop, a program /iterates/ through each
+word in a text, checks whether it needs to be "cleaned," and then
+perform a set of cleaning actions.
 
 #+begin_src python It therefore takes
   clean = [] 
@@ -618,21 +575,21 @@ The first line of code here creates an empty placeholder, ~clean~,
 where words will be saved in their clean form. Then, the next line
 begins the ~for loop~, which specifies a series of actions to execute
 on each word in the text, in this case, in Woolf's novel, /Orlando/.
-The loop will first take the first word, "He," and then the second
-word, which is in this case a punctuation, an em dash, "---," and
-next, the preposition "for," and so on. The third line contains a
-filter, ~isalpha()~, which checks if the word is comprised of only
-alphabetic characters (i.e. it is not a number or punctuation). If the
-word is alphabetic, it passes the filter (at this point, the em dash
-would fail this requirement, and wouldn't pass to the next line). At
-the next line, the word is lowercased, ~lower()~ and finally added to
-the empty list, ~clean~.
+The loop will take the first word, "He," and then the second word,
+which is in this case a punctuation, an em dash, "---," and so on. The
+third line contains a filter, ~isalpha()~, which checks if the word is
+comprised of only alphabetic characters (i.e. it is not a number or
+punctuation). If the word is alphabetic, it passes the filter (at this
+point, the em dash would fail this requirement, and wouldn't pass to
+the next line). At the next line, the word is lowercased, ~lower()~
+and finally added to the empty list, ~clean~.
 
 The loop runs over each word in /Orlando/, one by one. When the loop
 is done running, the final list of words in ~clean~ will contain
-alphabetic and lowercased letters. For example, here is what remains
-of the first sentence of the novel, with all words in are lowercase,
-and no punctuation.
+alphabetic and lowercased letters.
+
+Below is the first sentence of the novel with all words in are
+lowercase and no punctuation.
 
 
 #+begin_src python
@@ -653,43 +610,43 @@ insubstantial relative to their frequency.
 #+begin_src python
   stop-words = ["i", "me", "my", "myself", "we", "our", "ours",
 		"ourselves", "you", "your", "yours", "yourself",
-		"yourselves", "he", "him", "his", "himself", "she", "her",
-		"hers", "herself", "it", "its", "itself", "they", "them",
-		"their", "theirs", "themselves", "what", "which", "who",
-		"whom", "this", "that", "these", "those", "am", "is", "are",
-		"was", "were", "be", "been", "being", "have", "has", "had",
-		"having", "do", "does", "did", "doing", "a", "an", "the",
-		"and", "but", "if", "or", "because", "as", "until", "while",
-		"of", "at", "by", "for", "with", "about", "against",
-		"between", "into", "through", "during", "before", "after",
-		"above", "below", "to", "from", "up", "down", "in", "out",
-		"on", "off", "over", "under", "again", "further", "then",
+		"yourselves", "he", "him", "his", "himself", "she",
+		"her", "hers", "herself", "it", "its", "itself", "they",
+		"them", "their", "theirs", "themselves", "what",
+		"which", "who", "whom", "this", "that", "these",
+		"those", "am", "is", "are", "was", "were", "be", "been",
+		"being", "have", "has", "had", "having", "do", "does",
+		"did", "doing", "a", "an", "the", "and", "but", "if",
+		"or", "because", "as", "until", "while", "of", "at",
+		"by", "for", "with", "about", "against", "between",
+		"into", "through", "during", "before", "after", "above",
+		"below", "to", "from", "up", "down", "in", "out", "on",
+		"off", "over", "under", "again", "further", "then",
 		"once", "here", "there", "when", "where", "why", "how",
-		"all", "any", "both", "each", "few", "more", "most", "other",
-		"some", "such", "no", "nor", "not", "only", "own", "same",
-		"so", "than", "too", "very", "s", "t", "can", "will", "just",
-		"don", "should", "now"]
+		"all", "any", "both", "each", "few", "more", "most",
+		"other", "some", "such", "no", "nor", "not", "only",
+		"own", "same", "so", "than", "too", "very", "s", "t",
+		"can", "will", "just", "don", "should", "now"]
 
 #+end_src
 
-This step can be added as an additional line, or filter, to the above
-loop. After passing the filter that checks for alphabetic text, the
-loop will then check for stop words. If the word is /not/ a stop word,
-it will pass to the next line to be lowercased and added to the list
+This step can be added as an additional filter to the above loop.
+After passing the filter that checks for alphabetic text, the loop
+will then check for stop words. If the word is /not/ a stop word, it
+will pass to the next line to be lowercased and added to the list
 ~clean~.
 
 #+begin_src python
   clean = [] 
     for word in text:
 	if word.isalpha():
-          if word not in stop-words:
-	    clean.append(word.lower())
+            if word not in stop-words:
+	        clean.append(word.lower())
 #+end_src
 
 4
 
-After this additional level of cleaning, the following words remain
-from the first sentence of Orlando:
+The following words now remain from the first sentence of Orlando:
 
 #+begin_src python
   ['could', 'doubt', 'sex', 'though', 'fashion', 'time', 'something',
@@ -698,10 +655,9 @@ from the first sentence of Orlando:
 
 5
 
-The final step of cleaning is to get each word's root form, so as to
-avoid counting the same word as instances of different words, like
-"run" and "running," or "child" and "children." This step involves
-stripping word inflections to word's root form, called a "lemma".
+The final step of cleaning is to get each word's root form, the
+"lemma," so as to avoid counting the same word as instances of
+different words, like "run" and "running," or "child" and "children."
 
 To do so, we add a line to our loop that look up each word, one by
 one, and returns the shortest lemma found.[fn:7] In the python code,
@@ -759,20 +715,15 @@ and longer full prying old woman said stared one face bumpt
 ce melt heat pity poor old woman natural mean thawing must  
 #+end_src
 
-This context window shows a text that has been stripped of
-punctuation, capital letters, prepositions, articles, pronouns,
-auxiliary words. What remains is largely nouns, verbs, and adverbs.
-
 11
 
 The task is then to count these remains to find patterns. To
 demonstrate this process, another NLTK function, called ~similar()~
 displays words that are used in similar contexts of the target word.
-This function takes a canonical concept from NLP called
-"distributional similarity," which measures how often terms appear in
-samples of language data. Distributional similarity, which is a key
-concept in linguistics, assumes that words which appear in similar
-contexts tend to have similar meanings.
+This function takes a canonical concept from computational
+linguistics, called "distributional similarity," which measures how
+often terms appear in samples of language data, and assumes that words
+which appear in similar contexts tend to have similar meanings.
 
 To compute the results of ~similar()~, the program first takes the
 context of the target word from ~concordance()~. Then, it counts each
@@ -791,11 +742,7 @@ following:
 12
 
 In this sense, word meaning is understood as related to word
-similarity, which is computed by counting words and their neighbors.
-Importantly, the computer does not understand or impute /meaning/ to
-the words. Rather, it only counts each word as a string, that is, as a
-piece of data composed of alphanumeric sequences. From there, it
-derives what we think of as "meaning" from patterns of
+similarity, which is computed by counting words and their neighbors.[fn:8]
 
 13
 
@@ -819,7 +766,7 @@ words from the dataset.
 
 The vector which represents “woman” contains a list of numbers (25
 numbers across 25 dimensions) that score the similarity of the word
-“woman” to other words in the dataset.[fn:8] 
+“woman” to other words in the dataset.[fn:9] 
 
 In reality, word vectors are organized into a matrix, into a tabular
 format (see below). These matrices can be relatively small, like the
@@ -843,7 +790,7 @@ reason why Language Models is prepended with the word as "Large."
 
 
 Using this matrix format, further mathematical operations are possible
-using statistics, linear algebra, and calculus. For example, cosine
+with statistics, linear algebra, and calculus. For example, cosine
 similarity calculates the graphical distance between two vectors, that
 is, two different words. And here is the reason they are called
 "vectors" in the first place---these long lists of numbers actually
@@ -886,76 +833,65 @@ vector("Queen") = vector("King") - vector("Man") + vector("Woman")
 
 Like Butler's matter or /matrix/, here is another matrix that produces
 meaning. And this matrix similarly operates according to masculinist
-parameters. Gender is necessarily imbricated with conceptions of power
-("King"). Furthermore, gender becomes an operand for computing
-language meaning. Much like Ted Underwood's graph which only
-understands gender when it is placed into an oppositional
-relationship, gender here is the /model/ which shows the algorithm to
-be true.
+parameters. Gender is imbricated with conceptions of power ("King").
+Furthermore, gender becomes an operand for computing language meaning.
+Much like Ted Underwood's graph which only understands gender when it
+is placed into an oppositional relationship, gender here is the
+/model/ which shows the algorithm to be true.
 
 16
 
-That being said, the cross-cultural intelligibility of this formula,
-which introduced word vectors to the world, cannot be understated. The
-goal, then, will not be to undo the binary, or re-draw the matrix.
-Rather, it will be, in Butler's words, "to show that it is occupiable"
-(11). In the next section, I use iteration as a methodology that
-re-works text analysis procedures into a practice that proliferates,
-rather than neatly subsumes, gender terms. 
+The goal, for the following text analysis, will not be to re-draw the
+matrix. Rather, it will be, in Butler's words, "to show that it is
+occupiable" (11). In the next section, I use iteration as a
+methodology that re-works text analysis procedures into a practice
+that deconstructs the terms of the gender binary. The goal will not be
+to dispel or revise the terms of the binary, but to show that these
+terms are /already/ inhabited by that which they seek to exclude.
 
 ** Fluidity
-For Butler, following Irigaray, the matrix cannot express the feminine
-on its own terms. Rather, it expresses a "domesticated" feminine, that
-is, a feminine within masculine parameters. To bring the external
-feminine into inscription, one relies on a strategy of iteration,
-where each instance of repetition brings in something unexpected to
-trouble the stability of terms.
-
-In what follows, I pursue an iterative reading practice of the gender
-binary in Woolf's /Orlando/. This practice iterates through various
-gender terms, starting with the terms from the gender binary, "man"
-and "woman." However, the goal not to dispel or revise the terms of
-the binary, but to show that these terms are /already/ inhabited by
-that which they seek to exclude.
-
 1
 
-Subtitled /A Biography/, /Orlando/ takes real life as its source
-material. First, English literary history is reproduced and satirized,
-with each chapter of the novel taking a different period, like the
-Elizabethan, Restoration, and Victorian periods, and featuring
-historical figures like Queen Elizabeth and Alexander Pope as
-characters.[fn:9] Orlando's character herself is modeled on Woolf's
+Subtitled /A Biography/, the novel /Orlando/ takes real life as its
+source material. First, English literary history is reproduced and
+satirized, with each chapter of the novel taking a different period,
+like the Elizabethan, Restoration, and Victorian periods, and
+featuring historical figures like Queen Elizabeth and Alexander Pope
+as characters.[fn:10] Orlando's character herself is modeled on Woolf's
 friend and lover, Vita Sackville-West. Episodes from Sackville-West's
 life, like her affair with the author Violet Trefusis and her
 disinheritance of the family estate at Knole, are represented in
 Orlando's heartbreak with Sasha and her legal battles over her
-property and titles.[fn:10]
+property and titles.[fn:11]
 
 My text analysis method intersperces quantitative analysis with close
 reading, dipping in and out of the text to examine words in their
-original context. This toggling between close and distant views of
-language in the novel recalls a procedure that Andrew Piper calls
-"bifocal" reading, which "explicitly constructs the context through
-which something is seen as significant" (17).[fn:11] Unlike Piper,
-however, who uses the quantitative component to "cede" "some measure
-of subjectivity" to the critical process, this method explicitly
-embraces the critic's inclination as the driving force of analysis
-(17). It is closer, in reality, to approaches described by both Tanya
-Clement and Katherine Bode, who view the act of computation as
-necessarily guided by the critic's own hand.[fn:12] Bode, who draws
-from feminist physicist Karen Barad's concept of "intra-action," where
-objects and observers come into being through acts of observation,
-suggests that "we can understand our databases or models as part of
-the ongoing materialisation of literary texts as /emerging events/
-always arising from an altering how the literary past as reconfigured"
-(emphasis mine).[fn:13] Clement, whose multimodal work blends textual,
-audio, and visual registers, describes the critic as an "observer
+original context. In doing so, it iterates through various gender
+terms, starting with the terms from the gender binary, "man" and
+"woman."
+
+This toggling between close and distant views of language in the novel
+recalls a procedure that Andrew Piper calls "bifocal" reading, which
+"explicitly constructs the context through which something is seen as
+significant" (17).[fn:12] Unlike Piper, however, who uses the
+quantitative component to "cede" "some measure of subjectivity" to the
+critical process, this method explicitly embraces the critic's
+inclination as the driving force of analysis (17). It is closer, in
+reality, to approaches described by both Tanya Clement and Katherine
+Bode, who view the act of computation as necessarily guided by the
+critic's own hand.[fn:13] Bode, who draws from feminist physicist
+Karen Barad's concept of "intra-action," where objects and observers
+come into being through acts of observation, suggests that "we can
+understand our databases or models as part of the ongoing
+materialisation of literary texts as /emerging events/ always arising
+from an altering how the literary past as reconfigured" (emphasis
+mine).[fn:14] Clement, whose multimodal work blends textual, audio,
+and visual registers, describes the critic as an "observer
 codependent" who "plays" a the work in order to open up interpretive
 possibilities: "One 'reads' a visualization, but to 'play' the
 visualisation is to engage the spatialized interpretation of that
 visualisation as an embodied reader in a situated context within a
-specific hermeneutical framework."[fn:14]
+specific hermeneutical framework."[fn:15]
 
 In the text analysis event that follows, my personal inclination, as
 well as curiosity, will be essential to divert the expected path of
@@ -966,7 +902,7 @@ gender's ostensible reproducibility.
 I begin with two gender terms from the novel, "woman" and "man,"
 represented as vectors, or points in graphical space. I then use a
 function, ~most_similar()~, that applies cosine similarity to
-calculate the words "nearest" to the target words.[fn:15]
+calculate the words "nearest" to the target words.[fn:16]
 
 #+begin_src python
   model.wv.most_similar(positive = "woman", negative = "man")
@@ -978,7 +914,7 @@ In the above code expression, I added parameters specifying the most
 "positive" and "negative" associations between the genders. The
 results, then, show words that are most distinctive for each gender,
 most strongly correlating to "woman" while also being distant from
-"man" in vector space.[fn:16]
+"man" in vector space.[fn:17]
 
 The terms closest to "woman" are the following:
 
@@ -1010,20 +946,17 @@ And those closest to "man" are the following:
 (‘rather’, 0.3024100363254547)]   
 #+end_src
 
-Like Underwood's project, this analysis begins with an oppositional
-formulation of gender, one that places male and female into a
-positive/negative axis. However, the goal here is not to further study
-or reify the binary: rather, it is to bring forth what has been
-/repudiated/ by each term in the binary. Following Butler's reading of
-Irigaray reading Plato, my goal is to show that what is excluded from
-the binary is nonetheless present in the matrix which generates that
-binary---here, a literal matrix of word vectors.
-
-Like Butler's reading of "queer," this analysis finds that the binary
-is constituted by certain /exclusions/ which define its terms. In what
-follows, then, I read into a selection of these terms, examining them
-in context, to seek out what constitutes their meaning and,
-eventually, what must be repudiated in order for them to signify.
+This analysis begins with an oppositional formulation of gender, one
+that places male and female into a positive/negative axis---in fact,
+much like Underwood's classification model. However, the goal here is
+to bring forth what has been /repudiated/ by each term in the binary.
+Following Butler's reading of Irigaray reading Plato, my goal is to
+show that what is excluded from the binary is nonetheless present in
+the matrix which generates that binary---here, within a literal matrix
+of word vectors. In what follows, then, I read into a selection of
+these terms, examining them in context, to seek out what constitutes
+their meaning and, eventually, what must be repudiated in order for
+them to signify.
 
 I begin with a term from the list of terms similar to woman,
 "delicious." This term occurs five times in the novel, and only after
@@ -1032,7 +965,6 @@ a single passage, when Orlando is sailing from Turkey back to her
 native England. In this passage, the ship captain offers Orlando a
 slice of beef. After politely refusing, Orlando launches into a
 rapturous speculation on the joys of womanhood.
-
 #+begin_quote
 ‘A little of the fat, Ma’m?’ he asked. ‘Let me cut you just the
 tiniest little slice the size of your fingernail.’ At those words a
@@ -1048,29 +980,24 @@ yield and see him smile. ‘For nothing,’ she thought, regaining her
 couch on deck, and continuing the argument, ‘is more heavenly than to
 resist and to yield; to yield and to resist. (emphasis mine, 114)
 #+end_quote
-
 Delicious describes a distincly feminine kind of pleasure. Its novelty
 comes from its opposition to pursuit, here posed as the form of
 pleasure proper to the man, and that which Orlando enjoyed when he
 seduced Sasha, the Russian princess. In contrast to the active
 pleasure of the pursuer, this more passive form of pleasure is about
-withholding and, eventually, submitting. Yet, despite this passivity,
-it not totally submissive: it exhibits a kind of power, the power of
-refusal, and moreover, of suggesting the possibility of refusal: "to
-resist and to yield" (114).
-
+withholding and, eventually, yielding. Yet, despite this passivity, it
+not totally submissive: it implies a kind of power, the power of
+refusal.
 
 What else is contained by this word, delicious? I decide to run
 another similarity search with "delicious" as the target word. The top
 result (the word most related to "delicious" in the text) is
 "culpable."
 
-Perhaps predictably, considering the strong association, this term
-occurs in the same scene as above. Its appearance, however, is more
-conspicuous than the former: it emerges in a sentence where Orlando is
-considering her sexuality explicitly---indeed, one of the very few
-references in the novel to sexuality.
-
+This term occurs in the same scene as above. Its appearance, however,
+is more conspicuous than the former: it emerges in a sentence where
+Orlando is considering her sexuality explicitly---indeed, one of the
+very few references in the novel to sexuality.
 #+begin_quote
 And as all Orlando’s loves had been women, now, through the /culpable/
 laggardry of the human frame to adapt itself to convention, though she
@@ -1079,7 +1006,6 @@ consciousness of being of the same sex had any effect at all, it was
 to quicken and deepen those feelings which she had had as a man.
 (emphasis mine, 119)
 #+end_quote
-
 Like "delicious" above, "culpable" also describes kind of refusal, a
 refusal to conform to social expectations, specifically, with an
 obstinate sexuality. "Culpable" hear modifies the "laggardry" of the
@@ -1100,9 +1026,7 @@ aristocratic lineage, ("His fathers had been noble since they had been
 at all. They came out of the northern mists wearing coronets on their
 heads"), the narrator paints an image of Orlando stepping into the
 sunlight, into "the yellow pools which /chequered/ the floor" (12).
-This depiction luxuriates over Orlando's facial and corporeal
-lineaments:
-
+This depiction luxuriates over Orlando's face and body:
 #+begin_quote
 Orlando stood now in the midst of the yellow body of an heraldic
 leopard. When he put his hand on the window-sill to push the window
@@ -1113,14 +1037,12 @@ shoulders were all of them decorated with various tints of heraldic
 light, Orlando's face, as he threw the window open, was lit solely by
 the sun itself. (12)
 #+end_quote
-
 This image of Orlando's body /chequered/ into different colored pieces
 is indeed a symbol---but one of division rather than nobility. This
 sense of division is exacerbated by the narration itself, whose
 increasing detours into extradiegetic reflection heavily layers the
 the narrator's rendition of events over the story, a rendition that
 soon gallops into full-fledged figuration:
-
 #+begin_quote
 Directly we glance at Orlando standing by the window, we must admit
 that he had eyes like drenched violets, so large that the water seemed
@@ -1131,7 +1053,6 @@ rhapsodize. Directly we glance at eyes and forehead, we have to admit
 a thousand disagreeables which it is the aim of every good biographer
 to ignore. 12-13
 #+end_quote
-
 The narrator endows Orlando's beauty with mystical qualities---his
 eyes like flowers, his forehead like marble. His evocative language
 undermines his own pretense to objectivity, as a self-avowed "scribe"
@@ -1148,7 +1069,6 @@ question. In this scene, Orlando is in the midst of a period of
 depression following his abandonment by Sasha. He is lying beneath an
 Oak tree, ruminating about the meaning of truth, love, and above all,
 language itself.
-
 #+begin_quote
 ‘The sky is blue,’ he said, ‘the grass is green.’ Looking up, he saw
 that, on the contrary, the sky is like the veils which a thousand
@@ -1160,7 +1080,6 @@ than another. Both are utterly false.’ And he despaired of being able
 to solve the problem of what poetry is and what truth is and fell into
 a deep dejection. 75
 #+end_quote
-
 If, in the previous scene, Orlando was divided by different colors of
 light, here he appears divided by doubt about language and its ability
 to accurately describe reality. He first attempts plain language, "the
@@ -1171,15 +1090,22 @@ cannot make language do the work of expression. So he turns to
 figurative elements, comparisons of feminine subtlety and evasion,
 which betray his pain from Sasha's betrayal.
 
-Language's failure to describe reality is related to how gender
-expreses itself. An interesting passage, which contains words from
-both the woman and man lists, shows how language and gender are
-co-constructed. This is the scene where Orlando first sees his beloved
-Sasha. Upon seeing Sasha for the first time, cannot tell whether she
-is a man or a woman. In his tumultuous and agonizing attempt to
-determine her gender, the words “curiosity,” from the “man” list of
-similar words, and “seductiveness," from the "woman" list, both
-appear.
+As a term, "despair" crosses the lines of the binary. It comes from
+the "feminine" list, but unlike most of the other terms on the list,
+it describes a moment in the narrative when Orlando is still a man.
+In other words, like Orlando, this term has gender-crossing
+capabilities. 
+
+Indeed, throughout the novel, language and gender appear to be
+co-constructed. An interesting passage, which contains words from both
+the woman and man lists, shows how language's failure to describe
+reality is related to how gender expreses itself.
+
+In this passage, Orlando beholds Sasha for the first time, and he
+cannot tell whether she is a man or a woman. In his tumultuous and
+agonizing attempt to determine her gender, the words “curiosity,” from
+the “man” list of similar words, and “seductiveness," from the "woman"
+list, both appear.
 
 #+begin_quote
 He beheld, coming from the pavilion of the Muscovite Embassy, a
@@ -1290,61 +1216,21 @@ be applied toward an analysis of gendered embodiment---a problem that
 I turn to in chapters four and five, through the lenses of Black
 Feminist Studies and Trans Studies.
 
-I will close, rather, with a final word on fluidity. A decade after
-Bulter developed her concept of Gender Performativity, Omise’eke
-Natasha Tinsley writes about the problem of gender fluidity as a
-metaphor. Her critique re-works the trope of fluidity which, drawing
-from the ocean, “is not an easy metaphor or queer and racially hybrid
-identities but for concrete, painful, and liberatory experience”
-(192-193). For Tinsley, fluidity is an opportunity for “a return to
-the materiality of water to make its metaphors mean more complexly,
-shaking off settling into frozen figures” (212). Tinsley theorizes
-fluidity as being stripped by the water, particulars of identity
-washed away in the current. She explains that “brown bodies are gender
-fluid not because they choose parodic proliferations but because they
-have been ‘washed of all this lading, bag and baggage’” (209).
-
-** NOT INCORPORATED: Criticism
-
-The most unstable element of the text, however, is the language, whose
-experimental quality evokes its peers in the early modernist canon.
-According to Caughie,
-
-As Woolf scholar Pamela Caughie puts it, "The text of Orlando is as
-unstable as the sex of Orlando" (42).
-
-#+begin_quote
-In its rhetorical transports, Woolf's novel challenges the reference
-theory of meaning. In particular, it questions the notion *that words
-get their meanings from things they refer to*; the definition of words
-and categories by their essential traits; and the isolation of words
-and statements from their contexts of use in order to interpret them.
-(Caughie, "Double Discourse, 44-45).[fn:17]
-#+end_quote
-
-I agree with Caughie that language's referential power is a major, if
-not the central, problematic in /Orlando/. However, unlike Caughie,
-who positions the main character's gender fluidity as the cause of
-language's instability, I explore the opposite movement: following
-Butler, this reading poses language forms as determining and producing
-gender norms and their re-signification.
-
-Caughie claims that "Woolf brings out the arbitrariness of [sexual]
-identity, the arbitrariness of language itself, through Orlando’s
-switching from one sex to the other... as well as through the shifting
-of her own rhetoric in this novel" (42);
-
-Victoria L. Smith asserts that "what happens in the novel... and what
-it thematizes—-language’s inability to adequately represent the ‘thing
-itself’—-mirrors the undecidability of the text--is it a biography, an
-autobiography, fantasy, etc." (58). The above passage, with its
-“switching” and “shifting” discourse, which asserts that word choices
-are arbitrary and flowing, implies that gender is also a fluid
-phenomenon.
+A decade after Bulter developed her concept of Gender Performativity,
+Omise’eke Natasha Tinsley writes about the problem of gender fluidity
+as a metaphor. Her critique re-works the trope of fluidity which,
+drawing from the ocean, “is not an easy metaphor or queer and racially
+hybrid identities but for concrete, painful, and liberatory
+experience” (192-193). For Tinsley, fluidity is an opportunity for “a
+return to the materiality of water to make its metaphors mean more
+complexly, shaking off settling into frozen figures” (212). Tinsley
+theorizes fluidity as being stripped by the water, particulars of
+identity washed away in the current. She explains that “brown bodies
+are gender fluid not because they choose parodic proliferations but
+because they have been ‘washed of all this lading, bag and baggage’”
+(209).
 
 * Footnotes
-[fn:24] Mandell, Laura. "Gender and Cultural Analytics:: Finding or
-Making Stereotypes?" par. 35.
 
 [fn:1] One rendition traces this lineage to Roberto Busa, an Italian
 Jesuit priest who authored the first digital condordance, the /Index
@@ -1380,14 +1266,8 @@ vastly different views on the role of quantitative methods for
 studying literature, Da and Moretti appear to agree that these methods
 ought to provide results that are, at the very least, reproducible.
 
-[fn:4] Distant reading is permeated by great ambition. In
-/Macroanalysis: Digital Methods and Literary History/ (2013), Matthew
-Jockers "ask[s] very big questions... regarding how literary trends
-are employed over time, across periods, within regions"; In /Distant
-Horizons: Digital Evidence and Literary Change/ (2020) Ted Underwood
-traces the "larger arcs of literary change that have remained hidden
-from us by their sheer scale." Most recently, [ADD RECENT EXAMPLES,
-PREFERABLY MONOGRAPHS?].
+[fn:4] Mandell, Laura. "Gender and Cultural Analytics:: Finding or
+Making Stereotypes?" par. 35.
 
 [fn:5] Some text analysis projects take the language of performance
 and qualities of the performative to describe and conceptualize their
@@ -1412,14 +1292,14 @@ representation: From computational modelling to performative
 materiality.” MLA Convention, Seattle, 10 January 2020.
 https://katherinebode.wordpress.com/home/mla-convention-2020/
 
-[fn:6] Elements that are highly frequent, like articles,
-prepositions, and even pronouns, can drown out other terms which are
-considered more substantial, like nouns and verbs. Additionally,
-irregular cases also need to be standardized, because capital letters
-would count toward different words (for example, "talk" and "Talk"
-would be considered two different words). For similar reasons, word
-endings and inflections like plural forms (endings in "s") and tenses
-('walked', 'walks' or 'walking') are converted into a root form.
+[fn:6] Elements that are highly frequent, like articles, prepositions,
+and even pronouns, can drown out other terms which are considered more
+substantial, like nouns and verbs. Similarly, irregular cases are
+standardized, because capital letters would count toward different
+words (for example, "talk" and "Talk" would be considered two
+different words). For similar reasons, word endings and inflections
+like plural forms (endings in "s") and tenses ('walked', 'walks' or
+'walking') are converted into a root form.
 
 [fn:7]  It uses the WordNet database, an electronic lexical database
 used for computational linguistics. WordNet contains every word's root
@@ -1429,11 +1309,15 @@ relationships between word.
 Christiane Fellbaum (1998, ed.) WordNet: An Electronic Lexical
 Database. Cambridge, MA: MIT Press.
 
-[fn:8] Known as the "GLoVe" dataset: Jeffrey Pennington, Richard
+[fn:8] Importantly, the computer does not understand or impute
+/meaning/ to the words. Rather, it only counts each word as a string,
+that is, as a piece of data composed of alphanumeric sequences.
+
+[fn:9] Known as the "GLoVe" dataset: Jeffrey Pennington, Richard
 Socher, and Christopher D. Manning. 2014. GloVe: Global Vectors for
 Word Representation.
 
-[fn:9] According to Christy L. Burns and Jane De Gay, Woolf re-works
+[fn:10] According to Christy L. Burns and Jane De Gay, Woolf re-works
 this material into parody and satire. See Burns, Christy L. “Re-Dressing
 Feminist Identities: Tensions between Essential and Constructed Selves
 in Virginia Woolf's Orlando.” *Twentieth Century Literature*, vol. 40,
@@ -1441,14 +1325,14 @@ no. 3, 1994, pp. 342–364. *JSTOR*, www.jstor.org/stable/441560; De
 Gay, Jane. "Virginia Woolf's feminist historiography in Orlando."
 Critical Survey, vol. 19, no. 1, 2007, p. 62+.
 
-[fn:10] “‘If I Saw You Would You Kiss Me?": Sapphism and the
+[fn:11] “‘If I Saw You Would You Kiss Me?": Sapphism and the
 Subversiveness of Virginia Woolf's Orlando.” /PMLA/, vol. 103, no. 1,
 1988, pp. 24–34. www.jstor.org/stable/462459
 
-[fn:11] Andrew Piper, /Enumerations/, University of Chicago
+[fn:12] Andrew Piper, /Enumerations/, University of Chicago
 Press, 2019. page 18.
 
-[fn:12] Karen Barad, in fact, takes up the concept of performativity
+[fn:13] Karen Barad, in fact, takes up the concept of performativity
 which she, like Butler, traces through Derrida and JL Austin. Barad,
 however, describes their application as "a diffractive elaboration of
 Butler's... critical insights" (Barad, Posthumanist Performativity,
@@ -1456,15 +1340,15 @@ Butler's... critical insights" (Barad, Posthumanist Performativity,
 Barad emphasizes relation and intra-action. See Barad, "Nature's Queer
 Performativity," 2012, footnote 27 on page 49.
 
-[fn:13] Bode, Katherine. "Computational Modeling: From Data
+[fn:14] Bode, Katherine. "Computational Modeling: From Data
 Representation to Performative Materiality." ATNU/IES Virtual Speaker
 Series 2020/2021. Newcastle University, UK. November 26, 2020.
 
-[fn:14] Clement, T. (2013). Distant Listening or Playing
+[fn:15] Clement, T. (2013). Distant Listening or Playing
 Visualisations Pleasantly with the Eyes and Ears. /Digital Studies/le
 Champ Numérique/, 3(2). DOI: http://doi.org/10.16995/dscn.236
 
-[fn:15]  The documentation describes ~similar_words()~ "computes
+[fn:16]  The documentation describes ~similar_words()~ "computes
 cosine similarity between a simple mean of the projection weight
 vectors of the given keys and the vectors for each key in the model...
 correspond[ing] to the word-analogy and distance scripts in the
@@ -1472,30 +1356,39 @@ original word2vec implementation.". Link to most_similar() source
 code:
 https://radimrehurek.com/gensim/models/keyedvectors.html#gensim.models.keyedvectors.KeyedVectors.most_similar
 
-[fn:16] Link to file from this project's source code:
+[fn:17] Link to file from this project's source code:
 https://github.com/gofilipa/qdr/blob/master/lib/actions.py
 
-[fn:17] Pamela Caughie. “Virginia Woolf’s Double Discourse.”
-Discontented Discourses : Feminism/textual
-Intervention/psychoanalysis. Ed. Marleen S. Barr & Richard Feldstein.
-Urbana, IL: University of Illinois Press, 1989. 41–53.
+[fn:18] Criticism of the novel about gender and story.
 
-[fn:18] Jessica Berman, "Is the Trans in Transnational the Trans in
-Transgender?" /Modernsim/Modernity/, vol 24, no 2, 2017. 217-244.
-
-[fn:19] Channing, Jill. "Magical realism and gender variability in
-Orlando." Virginia Woolf Miscellany, no. 67, 2005, p. 11+.
-
-[fn:20] "'Ransacking the Language': Finding the Missing Goods in
-Virginia Woolf's Orlando." Journal of Modern Literature, vol. 29 no.
-4, 2006, pp. 57-75. Project MUSE, doi:10.1353/jml.2006.0050
-
-[fn:21] De Gay, Jane. “Virginia Woolf’s Feminist Historiography In
-Orlando.” /Critical Survey/, vol. 19, no. 1, 2007, p. 62+.
-
-[fn:22] link to source Counter (python) code:
+[fn:19] link to source Counter (python) code:
 https://github.com/python/cpython/blob/main/Lib/collections/__init__.py;
 link to source code in C language:
 https://github.com/python/cpython/blob/main/Modules/_collectionsmodule.c
 
-[fn:23] Criticism of the novel about gender and story.
+[fn:20] De Gay, Jane. “Virginia Woolf’s Feminist Historiography In
+Orlando.” /Critical Survey/, vol. 19, no. 1, 2007, p. 62+.
+
+[fn:21] "'Ransacking the Language': Finding the Missing Goods in
+Virginia Woolf's Orlando." Journal of Modern Literature, vol. 29 no.
+4, 2006, pp. 57-75. Project MUSE, doi:10.1353/jml.2006.0050
+
+[fn:22] Channing, Jill. "Magical realism and gender variability in
+Orlando." Virginia Woolf Miscellany, no. 67, 2005, p. 11+.
+
+[fn:23] Jessica Berman, "Is the Trans in Transnational the Trans in
+Transgender?" /Modernsim/Modernity/, vol 24, no 2, 2017. 217-244.
+
+[fn:24] Pamela Caughie. “Virginia Woolf’s Double Discourse.”
+Discontented Discourses : Feminism/textual
+Intervention/psychoanalysis. Ed. Marleen S. Barr & Richard Feldstein.
+Urbana, IL: University of Illinois Press, 1989. 41–53.
+
+[fn:25] Distant reading is permeated by great ambition. In
+/Macroanalysis: Digital Methods and Literary History/ (2013), Matthew
+Jockers "ask[s] very big questions... regarding how literary trends
+are employed over time, across periods, within regions"; In /Distant
+Horizons: Digital Evidence and Literary Change/ (2020) Ted Underwood
+traces the "larger arcs of literary change that have remained hidden
+from us by their sheer scale." Most recently, [ADD RECENT EXAMPLES,
+PREFERABLY MONOGRAPHS?].

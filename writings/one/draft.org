@@ -1,27 +1,52 @@
 * draft: text capture
+#+TODO: TO_DRAFT (td) DRAFT(d) REVISE(r) HERE(h) | PROOF(p)
 ** sketches
-*** data capture -> vulnerability 
-In the process of capture, what meaning or knowledge is lost or
-inextractible?
-- /Data Grab/: When these plants are taken and commercialized by the
-  colonizer? It’s a question of code as translation and
-  commercialization.
-  - there is something that doesn't translate in these knowledge
-    practices, something to do with relation, community.
+*** argument
+Language is being co-opted as commercial data. While there has always
+been a form of extraction that drives capitalist systems, this
+extraction of language at scale is new.
 
-Chun: waht makes a user vulnerable with regard to their langauge? In
-what ways is web scraping/capture making people vulnerable? Is there
-anything that is opened up by this vulnerabilty? How does language on
-the web express this vulnerability?
-- there is something being taken from us when we are online.
+How can we re-work capture practices to resist the co-option of
+meaning for exploitation and extraction?
 
-What good can come from being vulnerable? What kind of resilience?
-Being online means exposure, exploitation, extraction.
+How can the /protocols of web scraping/ be used to resist this kind of
+extraction?
+- by slowing down the process, scaling down our goals, our datasets.
+- reworking via scraping for close reading.
+- reading for vulnerability. for what is exposed. for fear. 
 
-"A certain loss of control drives communication, drives our using"
-(76) - there is always a give and take when information is put out
-there. The question, for this age of capture, what is our state of
-vulnerability now? 
+*** technical constraint
+What is the technical constraint proper to web scraping?
+- protocol: in order to scrape a page, you need to follow a particular
+  standard/language.
+
+What is the technique that's being manipulated in this chapter?
+- speed, automation --> manipulated towards slowing down.
+- protocol is not being manipulated, it's being used as it's supposed
+  to be used.
+
+We re-work protocol by drawing from Sedgwick's reparative reading,
+which makes generative and creative that which is being used to
+commodify, oppress and extract. We scrape the words of our enemies,
+and look for what is generative in them, what this teaches us about
+our own identities.
+
+So the main intervention of the chapter is what do we do with the
+power and scales made possible by automation, digital capture. 
+
+**** comparison of re-working constraints to other chapters
+In chapter 2, there's a constraint of iteration, which in programming
+treats all data as self-same, and is used to "standardize" and "clean"
+text, making it countable in a way. We manipulate, re-work iteration
+by drawing from Queer studies approach, which is to repeat in a way
+that subverts expectations, a kind of overreading that draws from
+repudiation. A new text analysis practice follows its own inclinations
+to read between lines.
+
+In chapter 1, there's a constraint of protocol. All of the language of
+web scraping must adhere to this protocol. It is something that's used
+in the interest of scale, of accumulation, of gathering more and more
+data.
 
 *** outlines
 - intro
@@ -99,114 +124,232 @@ vulnerability now?
     - communal conceptions of data ownership and stewardship (African
       NLP, Grohmann)
     - communal conceptions of publication through production (Moore)
-*** argument
-Language is being co-opted as commercial data. While there has always
-been a form of extraction that drives capitalist systems, this
-extraction of language at scale is new.
+*** vulnerability 
+Chun: what makes a user vulnerable with regard to their langauge? In
+what ways is web scraping/capture making people vulnerable? Is there
+anything that is opened up by this vulnerabilty? How does language on
+the web express this vulnerability?
+- there is something being taken from us when we are online.
 
-How can we re-work capture practices to resist the co-option of
-meaning for exploitation and extraction?
+What good can come from being vulnerable? What kind of resilience?
+Being online means exposure, exploitation, extraction.
 
-How can the protocols of extraction be re-worked to resist it?
-- reworking via close reading.
-  - reading for vulnerability. for what is exposed. for fear. 
+"A certain loss of control drives communication, drives our using"
+(76) - there is always a give and take when information is put out
+there. The question, for this age of capture, what is our state of
+vulnerability now? 
 
 ** draft
-*** paranoid & reparative reading
+*** TO_DRAFT introduction
+- start with a problem: ROGD
+- could do a passage from /Irresistable Damage/?
+- could start with sections from the Design Justice conference paper. 
 
-Paranoid reading is a stance, an affective stance, which structures
-analysis. Paranoia, according to Sedgwick: [QUOTE]
-- is anticipatory - it /predicts and preempts every possibility/,
-  i.e., "there must be no bad surprises" (/Novel Gazing/ 9).
-- is reflexive, mimetic - it reproduces itself, spreading, like a
-  virus, so there can be no alternative.
-  - "Paranoia seems to require to be imitated in order to be
-    understood" (/Novel Gazing/ 10).
-  - "Paranoia would seem to grow like a crystal in a hypersaturated
-    solution, blotting out any sense of the possibility of alternative
-    ways of understanding /or/ things to understand" (/Novel Gazing/
-    10-11). 
+*** REVISE paranoid & reparative reading
+**** paranoid reading
+Paranoid reading is an affective stance that structures critical
+lanalysis. Paranoia is first defined by Sedgwick in her introduction
+to a 1997 book of essays, /Novel Gazing: Queer Readings of Fiction/.
+In the introduction, Sedgwick explains that the essays "reflect a
+distance from those master-figures or master-discourses," by which she
+means New Historicist work that is directly indebted to "Marx,
+Nietzsche, and Freud" (/Novel Gazing/ 2). Critical indebted to these
+writers, pursues a logic of demystification and exposure, which seeks
+to reveal the hidden realities of oppression. what Sedgwick calls. "In
+the context of recent U.S. critical theory," Sedgwick explains, "to
+apply a hermeneutic of suspicion" is, I believe, widely understood as
+a mandatory injunction rather than a possibility among other
+possibilities" (/Novel Gazing/ 3).
+
+There are five qualities that define paranoia, according to Sedgwick.
+Paranoia:
+
+- is anticipatory. It predicts and preempts every possibility, as
+  Sedgwick says, "The first imperative of paranoia is '/There must be
+  no bad surprises/'" (emphasis original; /Novel Gazing/ 9). Rather
+  than accept unfavorable possibilities, according to the
+  "future-oriented vigilance [that] paranoia generates... bad news
+  [must] be always already known" (/Novel Gazing/ 10).
+- is reflexive, mimetic. Paranoia reproduces itself, propagating and
+  spreading like a virus from host to host. Sedgwick explains that
+  "Paranoia seems to require to be imitated in order to be
+  understood... '/Anything you can do, I can do worse/' and '/Anything
+  you can do, I can do first/'" (emphasis original /Novel Gazing/ 10).
+  One effect is that it creates self-reinforcing oppositional
+  relationships, such as Foucault's posing of repressive hypothesis,
+  which leads to a self-perpetuating narrative of hegemony vs
+  subversion that, according to Sedgwick "propagat[es] the repressive
+  hypothesis ever more broadly by means of displacement,
+  multiplication, hypostatization" (/Touching Feeling/ 10).
 - is strong theory - it invades, consumes all phenomena into its
-  worldview, from the top-down
-  - paranoia has "reach and reductiveness" (/Novel Gazing/ 13).
-- is negative theory - it is concerned with forestalling pain over the
-  seeking of pleasure
-- follows a narrative of exposure - its obssesive goal is to
-  demystify, reveal knowledge
-  - "paranoia for all its vaunted suspicion acts as though its work
-    would be accomplished if it could finally, this time, somehow get
-    its story truly known" (/Novel Gazing/ 17).
+  worldview. This quality gives paranoia "reach and reductiveness,"
+  which makes "tautological thinking hard to identify, even as it
+  makes it compelling and near-inevitable" (/Novel Gazing/ 13, 15).
+  For example, referring to D.A. Miller's book, /The Novel and the
+  Police/, a study of surveillance, policing, and disciplinary culture
+  in Victorian novels, Sedgwick points out that "the main argument or
+  'strong theory' of /The Novel and the Police/ is entirely circular:
+  everything can be understood as an aspect of the carceral, therefore
+  the carceral is everywhere" (/Novel Gazing/ 14).
+- is negative theory - paranoia is driven by the minimization of
+  negative affect rather than the maximization of positive affect,
+  "the anticipation of pain in one case, [against] the provision of
+  pleasure in the other" (/Novel Gazing/ 16). Sedgwick poses Silvan
+  Thompkin and Melanie Klein's positive affect theories against
+  "paranoid Freudian epistemology," where "it is implausible enough to
+  suppose then that truth could be even an accidental occasion of joy;
+  inconceivable to imagine joy as a guarantor of truth" (/Novel
+  Gazing/ 16). 
+- follows a narrative of exposure - its obssesive goal is to unearth,
+  surface, reveal some hidden reality (often of oppression or
+  injustice) as knowledge. Sedgwick explains with a compelling image:
+  "Like the deinstitutionalized person on the street who, betrayed and
+  plotted against by everyone else in the city, still urges on you the
+  finger-worn dossier bristling with his precious correspondence,
+  paranoia for all its vaunted suspicion acts as though its work would
+  be accomplished if only it could finally, this time, somehow get its
+  story truly known" (/Novel Gazing/ 17). It is a faith in knowledge
+  which, as Sedgwick points out, can be in reality entirely impotent
+  ("for someone to have an unmystified, angry view of large and
+  genuinely systemic oppressions does not /instrinsically/ or
+  /necessarily/ enjoin on that person any specific train of
+  epistemological or narrative consequences" (/Novel Gazing/ 4).
 
 For Sedgwick, paranoid reading is a crucial framework for analysis,
-allowing much important work to happen. One of the examples she gives
-is Judith Butler's /Gender Trouble: Feminism and the Subversion of
-Identity/ (1990), whose goal of demystifying gender norms springs from
-a paranoid impulse.
+allowing much important work to happen. She refers to her own work and
+how it has been driven by paranoia. For example, her field-defining
+work, /The Epistemology of the Closet/, is a study in hidden
+sexualities, and the power structures they maintain, in literature.
+Sedgwick's agenda in the book is to expose the dependence of a
+privileged heterosexual position upon the existence of a subordinated
+homosexual. How do these sexual categories and closet which they
+structure appear in 19th-20th century literature? For example, her
+chapter on Oscar Wilde's /The Picture of Dorian Gray/ examines
+abstraction and figuration as strategies for encoding male on male
+desire which otherwise couldn't be expressed: "the modernist impulse
+toward abstraction in the first place owes an incalculable part of its
+energy precisely to the turn-of-the-century male homo/hetero
+definitional panic... the 'figuration' that had to be abjected from
+modernist self-reflexive abstraction was not the figuration of
+figurality itself, but, rather, that represented in a very particular
+body, the desired male body" (/Epistemology/, 167). This figuration I
+turn to in my third chapter.[fn:16]
 
-[QUOTE].
+Nonetheless, these structures are unhelpful for thought, even "a
+cognitive danger... a moralisitic tautology that became increasingly
+incabable of recognizing itself as such" (/Touching Feeling/ 12).
+Reading Foucault's /History of Sexuality, Vol. 1/, Sedgwick says, "I
+knew what I wanted from it: some ways of understanding human desire
+that might be quite to the side of prohibition and repression, that
+might hence be structured quite differently from the heroic,
+'liberatory', inescapably dualistic righteousness of hunting down and
+attacking prohibition/repression in all its chameleonic guises"
+(/Touching Feeling/ 10).
 
-For Sedgwick, paranoia is not generative. Rather, it creates
-self-reinforcing oppositional relationships, such as Foucault's binary
-between repression and liberation which leads to a self-perpetuating
-narrative of hegemony vs subversion. It also avoids dramas of exposure
-which do not
+**** reparative reading
+She thus pursues a critical method outside the paranoid logic, which
+she calls "reparative reading." In contrast to paranoid reading,
+reparative reading prioritizes pleasure, surprise, and hope:
+#+begin_quote
+to read from a reparative position is to surrender the knowing,
+anxious paranoid determination that no horror, however apparently
+unthinkable, shall ever come to the reader as new: to a reparatively
+positioned reader, it can seem realistic and necessary to experience
+surprise. Because there can be terrible surprises, however, there can
+also be good ones. Hope, often a fracturing, even a traumatic thing to
+experience, is among the energies by which the reparatively positioned
+reader tries to organize the fragments and part-objects she encounters
+or creates. Because she has room to realize that the future may be
+different from the present, it is also possible for her to entertain
+such profoundly painful, profoundly relieving, ethically crucial
+possibilities as that the past, in tum, could have happened
+differently from the way it actually did. (/Novel Gazing 23-24)
+#+end_quote
+Reparative motives do not exist in a vacuum from paranoia. Rather, the
+both often work together: "Powerful reparative practices... infuse
+self-avowedly paranoid critical projects" (/Novel Gazing/ 8). However,
+a reparative recognizes most of all "that the culture surrounding it
+is inadequate or inimical to its nurture" (/Novel Gazing/ 28). In
+response, Sedgwick argues, is "additive and accretive... it wants to
+assemble and confer plentitude on an object that will then have
+resources to offer an inchoate self" (/Novel Gazing/ 26-27).
 
-[QUOTE enjoin a particular action].
-
-Reparative reading, which Sedgwick only defines obliquely, takes
-elements out of this logic of paranoia and applies them to another
-lense of analysis, one that prioritizes pleasure and surprise.
-
-[QUOTE].
-
-What if, she asks, we take something that is typically seen as a
-negative, structuring force in queer identity, and examine how it
-unlocks creativity? Rather than plumb shame's depths for what it
-reveals about a hidden sexuality, what if it can be used to pull other
-affects and images into relation.
-
-She gives an example with a reading of Henry James, exploring how he
-mobilizes shame as a generative force for creativity. She takes
-various terms from his writing, like "Fond," for example, and explores
-how these terms reveal James's propensity with associating the
-creative act within anal metaphors. "Fond" means deep as well as
-intimate.
-
-[QUOTE].
-
-Although shame is typically analyzed as a negative affect, Sedgwick
-explains, it can also be read as a connective element. Shame moves
-outward, creating a nexus for interpersonal relation. Sedgwick links
-shame to contagion:
+Close reading is the tool par excelance of reparative work.
+Particularly, Sedgwick stipulates a kind of "unhurried, undefensive,
+theoretically galvanized practice of close reading," one which
+permeates the essays in /Novel Gazing/. These essays, according to
+Sedgwick, approach criticism in "a much more speculative,
+superstitious, and methodologically adventurous state where
+recognitions, pleasures, and discoveries seep in only from the most
+stretched and ragged edges of one's competence" (/Novel Gazing/ 3).
 
 #+begin_quote
-“Shame—-living, as it does, on and in the muscles and capillaries of
-the face—-seems to be uniquely contagious from one person to another."
-(/Touching Feeling/ 63).
-
-“not a discrete intrapsychic structure, but a kind of free radical
-that (in different people and different cultures) attaches to and
-permanently intensifies or alters the meaning of—-of almost anything:
-a zone of the body, a sensory system, a prohibited or indeed a
-permitted behavior, another affect such as anger or arousal, a named
-identity, a script for interpreting other people’s behavior toward
-oneself” (/Touching Feeling/ 62)
+Often these readings begin from or move toward sites of same-sex,
+interpersonal eroticism---but not necessarily so. It seems to me that
+an often quiet, but very palpable presiding image here---a kind of
+/genius loci/ for queer reading---is the interpretive absorption of
+the child or adolescent whose sense of personal queerness may or may
+not (yet?) have resolved into a sexual specificity of proscribed
+object choice, aim, site, or identification. Such a child---if she
+reads at all---is reading for important news about herself, without
+knowing what form that news will take; with only the patchiest
+familiarity with its codes; without, even, more than hungrily
+hypothesizing to what questions this news may proffer an answer.
+/Novel Gazing/ 2-3
 #+end_quote
 
-*** the logic of capture
+Years later, Sedgwick will perform her own reparative reading of
+shame, an affect which is typically a negative, structuring force in
+queer identity. In the essay entitled "Shame, Theatricality, Queer
+Performativity," from her collection of essays in /Touching Feeling/,
+Sedgwick examines the writings of Henry James for evidence of shame.
+However, rather than plumb shame's depths for what it reveals about a
+hidden sexuality, Sedgwick explores how it might function as a
+generative resource for creativity. She uses shame, which she
+associates with words like "blusing" and "flushing," it to pull other
+affects and images into relation. For example, when reflecting on his
+writing practice, James,
+#+begin_quote
+describes his revision of the early fictions both as his (or their?)
+way of "remaining /unshamed/" and as a process by which they have "all
+joyously and /blushingly/ renewed themselves" (345; emphasis added).
+What James seems to want here is to remove the blush from its terminal
+place as the betraying blazon of a ruptured narcissistic circuit, and
+instead to put it in circulation: as the sign of a tenderly
+strengthened and indeed now "irresistible" bond between the writer of
+the present and the abashed writer of the past, or between either of
+them and the queer little /conceptus/. (emphasis original; /Touching
+Feeling/ 41)
+#+end_quote
+Using shame as a connective tissue, Sedgwick moves from "blushing" and
+"flushing" to other associated terms, like "fond." This term, which
+Sedgwick describes as "one of James’s most cherished words," "marks
+the place of the author’s pleasure in dramatizing himself as all but
+flooded with self-absorbed delusion and embarrassment, but equally
+with pleasure" (/Touching Feeling/ 55). From James's /fondness/ with
+his self-embarassment, Sedgwick also reads a fixation with anal
+metaphors---for, as Sedgwick points out, "fond is also the French word
+for bottom, [which] may explain its affinity with [other terms like]
+"retrospect," the "backward view," even with the "thrilling tale"
+(/Touching Feeling/ 55). Moving from blushing to fond, then, enables
+Sedgwick to discover "a node where the theatrics of shame, affection,
+and display are brought together with a compositional principle and at
+the same time lodged firmly, at the level of the signifier, in a
+particular zone of the eroticized body" /Touching Feeling/ 56).
+
+*** DRAFT the protocol of capture
+**** summary
 Text capture is the process in which text data is extracted from web
 servers.
 
-This kind of capture follows the same logic as paranoia.
-
-It is driven by a totalizing impulse which seeks to incorporate
-everything that it can.
+This kind of capture follows the same protocols as paranoia, driven by
+a totalizing impulse which seeks to incorporate everything that it
+can.
 
 There are five central principles to text capture, which map loosely
 to Sedgwick's principles of paranoia. Capture, in turn,
 
-**** 1) /always wants more data/.
-
+**** 1) /always wants more/.
 If paranoia is anticipatory, capture is covetous. It is propelled by a
 seeming necessity to aggregate more and more resources into its hold.
 
@@ -214,14 +357,14 @@ Ulises A. Meijas and Nick Couldry describe the acceleration of of
 electronic information harvesting as a "data grab." They compare it to
 traditional colonialism's "land grab," the long process over several
 centuries where Europe, despite representing 8 percent of the world's
-landmass, seized over 84 percent of its total territory (Mejias &
-Couldry 5). The data grab applies colonial protocols of exploration,
+landmass, seized over 84 percent of its territory (Mejias & Couldry
+5). The data grab applies colonial protocols of exploration,
 extraction, and exploitation of resources to data. Data, like land, is
 available for claim and conquest. As Couldry and Mejias explain,
-"[B]oth systems," they explain, "are founded on an appropriation of
-the world’s resources, treating them as ‘just there’ for the taking" .
-Historically it was the territories... In the contemporary era, it is
-human life, extracted in the form of data" (Mejias & Couldry 18).
+"[B]oth systems are founded on an appropriation of the world’s
+resources, treating them as ‘just there’ for the taking. Historically
+it was the territories... In the contemporary era, it is human life,
+extracted in the form of data" (Mejias & Couldry 18).
 
 Just as colonizers allocated lands not represented in their European
 maps for the Crown, so now tech companies take the text, image, videos
@@ -236,19 +379,13 @@ More data means more training examples, which results in
 higher-quality systems that make better predictions.[fn:13] AI Ethics
 researchers, Gael Varoquaux, Alexandra Sasha Luccioni and Meredith
 Whittaker,[fn:10] describe this phenomenon as the "bigger-is-better
-paradigm" which drives ML development. Their research builds on a
-prescient paper, released four years before (and the year before
-ChatGPT came out),[fn:11] "The Dangers of Stochastic Parrots: Can
-Language Models Be Too Big?🦜" (2021), which posed the problem of
-sustainability with regard to scale. Not only environmental
-sustainability (the amount of water and energy needed to train models
-and run inference) but also data sustainability. What the authors
-called "documentation debt," the lack of information about where
-training datasets come from and how they are cleaned and processed,
-has ballooned to unpayable levels. Models created from previously
-undocumented datasets are inadvertantly are absorbed into larger
-models trained on top of them, so that the sources for training become
-untraceable.[fn:15]
+paradigm" which drives ML development.
+
+Their research builds on a prescient paper, released four years before
+(and the year before ChatGPT came out),[fn:11] "The Dangers of
+Stochastic Parrots: Can Language Models Be Too Big?🦜" (2021), which
+posed the problem of sustainability with regard to scale, discussed
+more in point #3 below. 
 
 Since "Stochastic Parrots," the models have increased exponentially in
 size, exacerbating the problems of environmental and data
@@ -256,381 +393,66 @@ sustainability, to a point where they are even plateauing in
 performance (a point addressed in principle #3, that capture
 diminishes resources and degrades quality).
 
-**** TODO 2) /creates new territories for capture/.
+***** the ouroborous of more: an industry perspective
+
+According to Cloudflare, a major tech provider for cloud and cyber
+computing services, AI crawlers increased sharply, ranging between
+18%-48% in the months between May 2024 and May 2025. From this time
+period, the highest increases came from OpenAI, Claude, and Google's
+AI crawlers.[fn:5]
+
+This situation has created both concern and excitement. As researcher
+Ramya Chandrasekhar points out, “certain well-resourced actors like
+Big Tech are able to take advantage of data flows on the open web to
+internet to train proprietary foundation models, while giving little
+to no value back to either the maintenance of shared informational
+resources or communities of commoners" (Chandrasekhar 2).[fn:6]
+
+Meanwhile, on the side of industry specialists, like the company Zyte,
+the outlook is positve. The company's annual report embraces the
+increasing of web scraping, even describing it in inevitable terms: 
+#+begin_quote
+For years, we have talked about the "cat-and-mouse" between data-
+gatherers and data owners. But 2025 marked a significant transition in
+this space. The pace of updates from bot management vendors has
+accelerated, and the old methods of maximizing data success are
+becoming less effective.
+
+This is a good thing.
+
+The complexity of modern anti-bot measures has gone past the point
+where human developers can, or should, manage it manually.
+
+...
+
+The friction of the past 15 years is giving way to a future where data
+extraction is seamless, compliant, and powered by intelligent agents.
+(5-6) [fn:7]
+#+end_quote
+
+For this, and undoubtedly many, companies, the increasing automation
+is an opportunity to ramp up production. The confident, non-nuanced
+tone of this report, with turns of phrase like "This is a good thing,"
+and "can, or should", is reminiscent of text generated by an LLM. And
+why shouldn't it be?
+
+Indeed, AI and data appear to feed one another other. In this case,
+the company focused in gathering data is pushing the AI tools as an
+efficiency-enhancing component. In turn, the data which is scraped is
+used to train more models. The data that is scraped by AI will be fed
+to AI---a kind of digital ouroboros.
+
+***** /The Algorithm/ book: "a hypergrowth formula"
+**** 2) /creates new territories for capture/.
 - relates to the reflexive/mimetic qualities of paranoia, which
   reproduces itself from the grassroots. Capture autonomously
   cultivates ever more territories for extraction.
-
-From the Requerimiento to the TOS.
-
-https://blog.cloudflare.com/content-independence-day-ai-options/
-**** 3) /diminishes resources and degrades quality/
-- is on a negative valence, the effect of decreasing a resource
-  through extraction and use.
-
-Varoquaux's et al.'s experiments show that AI models actually plateau
-in performance after they reach a certain size: "On many tasks,
-benchmark performance as a function of scale tends to saturate after a
-certain point" (Varoquaux et al., 2025, p. 3).
-
-Model poisoning
-
-Regenerative approaches, by contrast. 
-  
-**** 4) /totalizing view of technology/
-- like strong theory which imposes on everything from the top down. 
-- it is necessary to bring the security state into the commercial
-  enterprise.
-
-large models also centralize power, where only the handful of richest
-tech companies can afford to buy the infrastructrure needed to train
-the models. As a result, the interests of those companies will drive
-further research in development, which will inevitably be focused on
-size. Varoquaux et al point out that the emphasis on scale
-"exacerbates a concentration of power, which centralizes
-decision-making in the hands of a few actors while threatening to
-disempower others" ([Varoquaux et al., 2025, p. 1).
-
-**** 5) /proffers a narrative of abundance/
-- like the narrative of exposure
-- "[capture]... acts as though its work would be accomplished if it
-  [would] finally, this time, somehow [distribute its riches]" (/Novel
-  Gazing/ 17).
-***** TODO add: maniacal obsession with more:
-Situational Awareness hedge fund founded by Leopold Aschenbrenner,
-named after the 165-page "Situational Awareness: The Decade Ahead"
-essay by Aschenbrenner,[fn:12] which announces that "The most
-extraordinary techno-capital acceleration has been set in motion." The
-document begins evoking San Francisco as the herald of the world to
-come:
-
-#+begin_quote
-You can see the future first in San Francisco. 
-
-Over the past year, the talk of the town has shifted from $10 billion
-compute clusters to $100 billion clusters to trillion-dollar clusters.
-Every six months another zero is added to the boardroom plans. Behind
-the scenes, there’s a fierce scramble to secure every power contract
-still available for the rest of the decade, every voltage transformer
-that can possibly be procured. American big business is gearing up to
-pour trillions of dollars into a long-unseen mobilization of American
-industrial might. By the end of the decade, American electricity
-production will have grown tens of percent; from the shale fields of
-Pennsylvania to the solar farms of Nevada, hundreds of millions of
-GPUs will hum.
-
-The AGI race has begun. (Aschenbrenner, "Situational Awareness")
-#+end_quote
-
-For anybody that has been to San Francisco, the future is bleak. 
-
-***** TODO add: Language of abundance by Sam Altman, Mark Zuckerberg.
-
-Both frame a world which will be abundant in intelligence and
-individual empowerment. (Which is not the case, we will see, with the
-reality of decaying quality and diminishing resources). 
-
-Altman, Sam. "Abundant Intelligence." September 23, 2025.
-https://blog.samaltman.com/abundant-intelligence.
-
-Zuckerberg, Mark. "The Future is for Everyone: The Path to a Positive
-AI Future." August 10, 2026.
-https://www.meta.com/thefutureisforeveryone/
-
-*** introduction
-There is a co-option of meaning occuring today.
-
-*** web scraping
-**** what is web scraping?
-
-***** from bytes to HTML 
-
-Web scraping is the extraction of information from websites. It most
-often involves (with some exceptions, explained below) working with
-data in HTML format, with elements and attributes.
-
-#+begin_src html
-  <!DOCTYPE html>
-  <html>
-  <body>
-
-  <h1 class="header">First level heading element</h1>
-
-  <p>A paragraph element with a <a href="/">link</a> inside of it</p>
-
-  </body>
-  </html>
-#+end_src
-
-Websites are stored in web servers, accessed over a network. Web data
-travels over the network in the form of bytes, the smallest digitally
-addressable data unit. When the bytes reach the web browser, they are
-re-encoded into HTML language, which is assembled into a web page
-readable by human eyes.
-
-***** HTTP
-
-Web /scraping/ is possible by manipulating HTTP, or HyperText Transfer
-Protocol, which is the language of the network. A web scraper uses
-code to manipulate an HTTP request so that it receives the website
-data in the form of code.
-
-Web scraping is, at its core, about mimicking a typical browser
-request. Using HTTP protocols, it makes a request to a web server much
-like a user makes a request by typing in a URL into the browser. The
-data it gets back from the HTTP request is also the same as the data
-that comes to a browser after searching a URL---only the data is
-intercepted before in the form of bytes, rather than assembled into a
-web page visible through a browser.
-
-#+begin_src python
-  r = requests.get("https://www.nytimes.com/")
-#+end_src
-
-You can scrape a website with only five lines of code. Below is an
-example that scraps the home page of /The New York Times/ website
-using the ~bs4~ and ~requests~ libraries in python.
-
-#+begin_src python
-from bs4 import BeautifulSoup
-import requests
-
-r = requests.get("https://www.nytimes.com/")
-source = r.content
-soup = BeautifulSoup(source, 'html.parser')
-#+end_src
-
-The ~requests~ library is one of the most popular libraries in the
-python programing language. Enabling programs to send and receive data
-through HTTP networks (i.e., the internet), it is the bedrock for
-virtually all web scraping and API tasks. The ~get()~ function from
-~requests~ can access the /NYTimes/ homepage, which is saved in the
-form of bytes via the ~content~ property. Then, using ~bs4~, a python
-library for working with HTML data, the data is parsed into an object
-called ~soup~ (following ~bs4~'s naming conventions), which is a
-pythonic object of HTML data. 
-
-The beauty of ~bs4~ is that it makes HTML---a notoriously fussy
-language that is the reason why so many web frameworks exist in the
-first place, attempting to abstract the user from working directly in
-HTML---accessible through simple python syntax.
-
-For example, the expression ~soup.title~ returns the following output: 
-
-#+begin_src python
-  >>> soup.title
-  <title data-rh="true">The New York Times - Breaking News, US News, World News and Videos</title>
-#+end_src
-
-Similarly, other HTML elements can now be accessed using python
-dot syntax.
-
-#+begin_src python console
-  >>> soup.p
-  <p>Make sense of the day’s news and ideas.</p>
-
-  >>> soup.a
-  <a class="css-kgn7zc" href="#site-content">Skip to content</a>
-
-  >>> soup.h1
-  <h1 class="css-1dv1kvn">New York Times - Top Stories</h1>
-#+end_src
-
-Further properties like ~text~ (for just text) and functions like
-~find()~ are also possible. Functions can be further specified when
-combined with the ~class_~ parameter, to search the HTML with more
-precision. Due to python syntax, they can also be chained together to
-create complex expressions. These building blocks enable programmers
-to navifate the HTML tree with granularity.
-
-#+begin_src python console
-  >>> soup.h1.text
-  'New York Times - Top Stories'
-  
-  >>> soup.find('div', class_ = 'css-cfnhvx')
-  <div class="css-cfnhvx" data-tpl="h"><a class="tpl-lbl css-5mgoji" data-tpl="l" href="https://www.nytimes.com/live/2026/07/09/world/iran-war-us-trump"><div class="css-xdandi" data-tpl="b"><p class="indicate-hover css-1ixq7yl">U.S. and Iran Sink Into Violent Cycle After Trading Strikes</p></div></a></div>
-
-  >>> soup.find('div', class_ = 'css-cfnhvx').text
-  'U.S. and Iran Sink Into Violent Cycle After Trading Strikes'
-#+end_src
-
-HTML classes for an element can be found by using built-in browser
-tools like the web inspector. On the webpage, right click on the
-relevant text and select ~inspect~ from the dropdown menu. The element
-will be highlighted with information for the ~class~ attribute.[fn:2]
-
-[[./images/inspector.png]]
-
-Using ~requests~, ~bs4~, and the web inspector, one can easily grab a
-list of the current headlines from the /NYTimes/ homepage.
-
-#+begin_src python console
->>> for i in soup.find_all('div', class_ = 'css-cfnhvx'):
-        print(i.text)
-U.S. and Iran Sink Into Violent Cycle After Trading Strikes
-Iran Risks Overplaying Its Hand Again and Reigniting a War
-At NATO Summit, Trump Puts on a Show While Europe Gets Down to Business
-Security Precaution Led Trump to Use Old Air Force One in Leaving Turkey
-‘A Slow-Rolling Disaster’: Inside the Implosion of the Platner Campaign
-What’s Next for Democrats in the Senate Race in Maine
-How Democrats and Republicans Diverge on Sexual Assault Allegations
-Platner Suspends Senate Bid in Maine After Rape Accusation
-Trump’s Loyal Defender at the Vatican
-Trump Says He’ll Ask Supreme Court to Rehear Citizenship Case, an Unlikely Event
-Can Trump’s Arch Be So Tall? A Law May Be Redefined to Get to Yes.
-Morocco Faces France and Its Star, Mbappé, in Quarterfinals
-A Colonial Past Mixes With the Global Present
-How Morocco’s Diaspora Became the Team’s Driving Force
-13 Red Cards Have Been Given at the World Cup. Not All Have Been Equal.
-#+end_src
-
-Anything else to say about HTTP?
-
-***** Blockers and the resistance
-
-Web servers, unfortunately for the scraper, often block automated
-requests to their data. They use various forms of "blockers" or
-mechanisms that deny the HTTP request, sending back a code 403, or
-"Forbidden" message.
-
-Each year of the past few years, bot traffic has increased
-exponentially, coming mostly from major tech and AI companies,
-especially OpenAI, META, Google, and Anthropic. According to
-Cloudflare, 2025 saw increases of 19% in bot traffic (See Fig #)
-(Cloudflare, "From Googlebot to GPTBot: who’s crawling your site in
-2025"). It is no surprise that traffic has increased mostly from these
-companies, whose ML model training requires ever increasing amounts of
-data.
-
-[[./images/bot_rankings.png]]
-
-As automated scrapers increase in frequency, so do the bot blockers.
-Over the past two years, Cloudflare, which runs on 20% of total
-internet pages and 50% of pages based in the US, has added increasing
-bot detection like "Challenges" and "Turnstiles" to its web pages.
-Some of these operate under the surface and virtually invisible to the
-user, such as checking the HTTP request metadata like the
-"User-Agent." By default, the User-Agent is set to the name of web
-browser and operating system making the request. For example, my
-Firefox browser running Mac OSX has the User-Agent ~Mozilla/5.0
-(Macintosh; Intel Mac OS X 10.15; rv:152.0) Gecko/20100101
-Firefox/152.0~. The python ~requests~ library, by contrast, sets the
-User-Agent to ~python-requests/2.32.3~, making any HTTP request using
-that library easy for blockers to detect.
-
-Beyond examining HTTP request data, bot blockers will use JavaScript
-code to check if the request is from a real web browser, rather than
-from an automated program. JavaScript, which is a programming language
-native to web browsers (and discussed in more detail in Chapter 4:
-Text Display), can inject challenges for the browser to solve,
-challenges which may or may not involve the user. All of these
-challenges might require some processing from the browser, and
-increasingly, they may require the user's interaction (to confirm that
-the request comes from a real browser, not a bot). One popular
-challenge is the "security verification" checkbox, which is
-increasingly visible across the internet (See Fig #).
-
-[[./images/verify.png]]
-
-While these kinds of blockers are more advanced, there are ways of
-overcoming them. One effective method involves using a virtual or
-"ghost" browser through python libraries like ~selenium~. Instead of
-sending an HTTP request via a python script, ~selenium~ routes the
-request through an actual web browser---though one that is operated
-remotely by the python script. When the program is running, a browser
-window will open on its own, navigate to a web page, and click on
-links, all without the input of the user. It looks like a "ghost" is
-operating the computer. One major drawback to this method is that it
-requires a virtual display, which many "headless" scraping servers do
-not have, in order to access the data via the browser window. That
-requirement, in addition to the increase in necessary processing
-power, detracts large-scale web crawling.
-
-At the same time, internet security companies like Cloudflare have
-also moved to what they call a "permission-based model," where bots
-must pay for seamless access to certain domains. A blog post frames
-the new policy as the next logical step in the mass data extraction
-environment.
-
-#+begin_quote
-For decades, the Internet has operated on a simple exchange: search
-engines index content and direct users back to original websites,
-generating traffic and ad revenue for websites of all sizes. This
-cycle rewards creators that produce quality content with money and a
-following, while helping users discover new and relevant information.
-That model is now broken. AI crawlers collect content like text,
-articles, and images to generate answers, without sending visitors to
-the original source – depriving content creators of revenue, and the
-satisfaction of knowing someone is viewing their content. (“Cloudflare
-Just Changed How AI Crawlers Scrape the Internet-at-Large;
-Permission-Based Approach Makes Way for A New Business Model”)
-#+end_quote
-
-The argument refers to the original purpose of large-scale web
-crawling, which was to populate and otherwise assist search engines.
-This activity of taking content in the form of search results was
-legitimized in a famous copyright lawsuit against Google, /The Authors
-Guild Inc., et al. v. Google, Inc./ (2015). In this case, the judge
-ruled that search results, such as that from Google Books, were
-considered "fair use" because they point users to the original source
-without diminishing its value. As long as search engines direct
-traffic to the original source, then there appears to be no
-infringement. 
- 
-Cloudflare points out that today's scrapers and crawlers to do not
-direct users back to the original source; rather, the AI training
-process /severs/ the data completely from its context, including its
-source.[fn:3] Web pages are taken from their context and compiled into
-massive collections which are fed, bit by bit, into a machine learning
-algorithm. The severed connection to the source cannot be monetized,
-"depriving content creators of revenue... and satisfaction."
-
-As a solution, Cloudflare is shifting their policy to protect media
-outlets and publishers. They have begun to offer the "permission based
-model," where companies must pay content creators for access to their
-web data. If the scraper does not have explicit permission to retrieve
-data, then they will be blocked. The announcement of Cloudflare's new
-policy came with written endorsement from publishers and media
-outlets. Roger Lynch, CEO of media conglomerate Condé Nast, which owns
-/Vogue/, /The New Yorker/, /Architectural Digest/, /Vanity Fair/,
-/Pitchfork/, /Wired/, /Bon Appétit/, /Ars Technica/, among others,
-declares that, "Cloudflare’s innovative approach to block AI crawlers
-... is a critical step toward creating a fair value exchange on the
-Internet that protects creators, supports quality journalism and holds
-AI companies accountable" (“Cloudflare Just Changed How AI Crawlers
-Scrape the Internet-at-Large; Permission-Based Approach Makes Way for
-A New Business Model”). Of course, there is no garuntee (or even
-expectation) that such payments would reach the pockets of actual
-content creators, authors, copywriters, artists, who are populating
-these sites with their work. If the new policy rewards someone, its
-not the original creator but the publisher who enters into agreements
-with the tech companies. In that sense, the "fair value exchange"
-cited by Lynch is in fact another way of further monetizing what is
-already an extractive practice of capture.
-
-*** the politcs of capture
-**** the current data grab
-
-The object, and particularly its digital nature, required new
-strategies for capture that differ from those of land-based resources.
-First, rather than partition zones of extraction in the form of land
-territories, there has emerged the digital platform. The platform is a
-digital space, which can range in scope from individual websites on
-the internet to self-enclosed apps, which contains mechanisms that
-gather up details of the user's identity and activity---not only that
-which has been voluntarily given, but also that contained in hidden
-codes and protocols that append all data traveling over the internet.
-In more technical terms, the platform is a server location, from which
-the user requests data (via the HTTP protocol), and in that request,
-also sends some information to the server. Most recently, the best way
-of tracking users is in the form of a "cookie," a bit of data which
-the server assigns to the user and which can be used to track that
-user's activity on that and other servers. (Although, cookies can also
-be manipulated by users to simulate real web requests that can bypass
-web blockers, as I demonstrate at the end of the chapter). 
-
-If the first strategy takes advantage of technical protocols, the
-second strategy takes advantage of legal ones. Besides new procedures
+- "Paranoia would seem to grow like a crystal in a hypersaturated
+  solution, blotting out any sense of the possibility of alternative
+  ways of understanding /or/ things to understand" (/Novel Gazing/
+  10-11).
+***** From the Requerimiento to the TOS.
+Besides new procedures
 for capture, it is necessry also to create the proper pretense for it.
 In traditional colonialism, Mejias and Couldry explain, this pretense
 was explicitly coercive. They offer the example of the
@@ -683,96 +505,7 @@ Spanish... to indigenous or First Nation peoples who did not speak
 Spanish!" (13). The legal strategy, then, maintains this dependence on
 a certain level of ignorance from the user.
 
-While Mejias and Couldry discuss present-day data extraction with
-regard to platforms---bounded tools, apps, or websites controlled by
-tech companies like Alphabet or META---there is another major
-extraction underway, which is in spirit closer to the one with land.
-That is the major extraction occuring via AI-powered web crawlers.
-According to Cloudflare, a major tech provider for cloud and cyber
-computing services, AI crawlers increased sharply, ranging between
-18%-48% in the months between May 2024 and May 2025. From this time
-period, the highest increases came from OpenAI, Claude, and Google's
-AI crawlers.[fn:5]
-
-This situation has created both concern and excitement. As researcher
-Ramya Chandrasekhar points out, “certain well-resourced actors like
-Big Tech are able to take advantage of data flows on the open web to
-internet to train proprietary foundation models, while giving little
-to no value back to either the maintenance of shared informational
-resources or communities of commoners" (Chandrasekhar 2).[fn:6]
-
-Meanwhile, on the side of industry specialists, like the company Zyte,
-the outlook is positve. The company's annual report embraces the
-increasing of web scraping, even describing it in inevitable terms: 
-#+begin_quote
-For years, we have talked about the "cat-and-mouse" between data-
-gatherers and data owners. But 2025 marked a significant transition in
-this space. The pace of updates from bot management vendors has
-accelerated, and the old methods of maximizing data success are
-becoming less effective.
-
-This is a good thing.
-
-The complexity of modern anti-bot measures has gone past the point
-where human developers can, or should, manage it manually.
-
-...
-
-The friction of the past 15 years is giving way to a future where data
-extraction is seamless, compliant, and powered by intelligent agents.
-(5-6) [fn:7]
-#+end_quote
-
-For this, and undoubtedly many, companies, the increasing automation
-is an opportunity to ramp up production. The confident, non-nuanced
-tone of this report, with turns of phrase like "This is a good thing,"
-and "can, or should", is reminiscent of text generated by an LLM. And
-why shouldn't it be?
-
-Indeed, AI and data appear to feed one another other. In this case,
-the company focused in gathering data is pushing the AI tools as an
-efficiency-enhancing component. In turn, the data which is scraped is
-used to train more models. The data that is scraped by AI will be fed
-to AI---a kind of digital ouroboros.
-
-Unlike the traditional ouroboros, which is a symbol of eternal and
-cyclical renewal, this is a cycle whose process of consumption
-depletes itself.
-
-First, and most obviously, the cycle depletes natural and labor
-resources. Processing data at this scale requires large scale data
-processing infrastructures, like data centers. Not only do these
-centers exhaust precious water in order to cool them, their
-disproportionate use of energy most visibly results in rising prices
-for electricity across the country, and perhaps less visibily (though
-more devastating) in its effects on the environment (CITATION). And
-this is just at the higher levels of the processing stack. Aquiring
-those amounts of hardware and data in the first place requires
-invasive and exploitative mineral mining practices and data theft at a
-scale that has never been seen before (CITATION). Indeed, this
-ouroboros is a cycle that cannot sustain itself.
-
-Second, it also depletes creative resources. For, there is a limit to
-the content that human beings can create. As more AI-generated content
-proliferates on the internet, we approach what Matt Kirschenbaum calls
-the "textpocalypse," where AI-generated text dominates the content on
-the internet.[fn:9] Interestingly, researchers have found that this
-kind of text poisons model training, creating what Shumailov et al.
-call "model collapse," in which "a degenerative process.... in which
-the data they [the models] generate end up polluting the training set
-of the next generation" (Shumailov et al 755).[fn:8]
-
-Like with the Zyte report, there is a cycle here in which increasing
-data and AI technology feed each other. This cycle manifests in real
-circular relationships between companies, where AI companies who have
-the technology must work with cloud companies who have the necessary
-servers and GPUs to handle higher compute. The vast majority of the
-capital raised by these AI companies are paid to the cloud providers,
-who in turn are responsible for majority of the investment into the AI
-companies. As the authors point out, “These circular investment deals
-can blur the boundary between 'investment' and 'acquisition'"
-(Varoquaux et al 8).
-
+***** Shoshana Zuboff's "informate"
 It is a cycle, as preciently pointed out by Shoshana Zuboff in 2015,
 that thrives on data's status as what she calls an "electronic text."
 Zuboff, whose 2015 essay ""Big Other: Surveillance Capitalism and the
@@ -837,17 +570,170 @@ mediated action to create byproducts of information that were
 previously inaccessible, even unimaginable. According to Zuboff, this
 tendency turns all digital data "electronic text"--text which is ripe
 for extraction via reading. When computers automate action, they
-create new texts, like foam rising from a boiling pot. 
+create new texts, like foam rising from a boiling pot.
 
+***** Cloudflare's creation of new territories
+https://blog.cloudflare.com/content-independence-day-ai-options/
 
+At the same time, internet security companies like Cloudflare have
+also moved to what they call a "permission-based model," where bots
+must pay for seamless access to certain domains. A blog post frames
+the new policy as the next logical step in the mass data extraction
+environment.
 
+#+begin_quote
+For decades, the Internet has operated on a simple exchange: search
+engines index content and direct users back to original websites,
+generating traffic and ad revenue for websites of all sizes. This
+cycle rewards creators that produce quality content with money and a
+following, while helping users discover new and relevant information.
+That model is now broken. AI crawlers collect content like text,
+articles, and images to generate answers, without sending visitors to
+the original source – depriving content creators of revenue, and the
+satisfaction of knowing someone is viewing their content. (“Cloudflare
+Just Changed How AI Crawlers Scrape the Internet-at-Large;
+Permission-Based Approach Makes Way for A New Business Model”)
+#+end_quote
 
-**** the legal debate over fair use
+The argument refers to the original purpose of large-scale web
+crawling, which was to populate and otherwise assist search engines.
+This activity of taking content in the form of search results was
+legitimized in a famous copyright lawsuit against Google, /The Authors
+Guild Inc., et al. v. Google, Inc./ (2015). In this case, the judge
+ruled that search results, such as that from Google Books, were
+considered "fair use" because they point users to the original source
+without diminishing its value. As long as search engines direct
+traffic to the original source, then there appears to be no
+infringement. 
+ 
+Cloudflare points out that today's scrapers and crawlers to do not
+direct users back to the original source; rather, the AI training
+process /severs/ the data completely from its context, including its
+source.[fn:3] Web pages are taken from their context and compiled into
+massive collections which are fed, bit by bit, into a machine learning
+algorithm. The severed connection to the source cannot be monetized,
+"depriving content creators of revenue... and satisfaction."
 
+As a solution, Cloudflare is shifting their policy to protect media
+outlets and publishers. They have begun to offer the "permission based
+model," where companies must pay content creators for access to their
+web data. If the scraper does not have explicit permission to retrieve
+data, then they will be blocked. The announcement of Cloudflare's new
+policy came with written endorsement from publishers and media
+outlets. Roger Lynch, CEO of media conglomerate Condé Nast, which owns
+/Vogue/, /The New Yorker/, /Architectural Digest/, /Vanity Fair/,
+/Pitchfork/, /Wired/, /Bon Appétit/, /Ars Technica/, among others,
+declares that, "Cloudflare’s innovative approach to block AI crawlers
+... is a critical step toward creating a fair value exchange on the
+Internet that protects creators, supports quality journalism and holds
+AI companies accountable" (“Cloudflare Just Changed How AI Crawlers
+Scrape the Internet-at-Large; Permission-Based Approach Makes Way for
+A New Business Model”). Of course, there is no garuntee (or even
+expectation) that such payments would reach the pockets of actual
+content creators, authors, copywriters, artists, who are populating
+these sites with their work. If the new policy rewards someone, its
+not the original creator but the publisher who enters into agreements
+with the tech companies. In that sense, the "fair value exchange"
+cited by Lynch is in fact another way of further monetizing what is
+already an extractive practice of capture.
+**** 3) /diminishes resources and degrades quality/
+- is on a negative valence, the effect of decreasing a resource
+  through extraction and use.
+- The key difference between negative and positive theory is not that
+  one is pessimistic and another optimistic---after alll, Sedgwick
+  says, "In a world full of loss, pain, and oppression, both
+  epistemologies are likely to be based on deep pessimism"---but that
+  "the motive each has /for looking/... is bound to differ wildly"
+  (emphasis original; /Novel Gazing/ 16-17).
+***** depletes resources
+Unlike the traditional ouroboros, which is a symbol of eternal and
+cyclical renewal, this is a cycle whose process of consumption
+depletes itself.
 
-*** co-option of language
+First, and most obviously, the cycle depletes natural and labor
+resources. Processing data at this scale requires large scale data
+processing infrastructures, like data centers. Not only do these
+centers exhaust precious water in order to cool them, their
+disproportionate use of energy most visibly results in rising prices
+for electricity across the country, and perhaps less visibily (though
+more devastating) in its effects on the environment (CITATION). And
+this is just at the higher levels of the processing stack. Aquiring
+those amounts of hardware and data in the first place requires
+invasive and exploitative mineral mining practices and data theft at a
+scale that has never been seen before (CITATION). Indeed, this
+ouroboros is a cycle that cannot sustain itself.
 
-**** word meaning being co-opted: "freedom" to extract data
+Second, it also depletes creative resources. For, there is a limit to
+the content that human beings can create. As more AI-generated content
+proliferates on the internet, we approach what Matt Kirschenbaum calls
+the "textpocalypse," where AI-generated text dominates the content on
+the internet.[fn:9] Interestingly, researchers have found that this
+kind of text poisons model training, creating what Shumailov et al.
+call "model collapse," in which "a degenerative process.... in which
+the data they [the models] generate end up polluting the training set
+of the next generation" (Shumailov et al 755).[fn:8]
+
+Like with the Zyte report, there is a cycle here in which increasing
+data and AI technology feed each other. This cycle manifests in real
+circular relationships between companies, where AI companies who have
+the technology must work with cloud companies who have the necessary
+servers and GPUs to handle higher compute. The vast majority of the
+capital raised by these AI companies are paid to the cloud providers,
+who in turn are responsible for majority of the investment into the AI
+companies. As the authors point out, “These circular investment deals
+can blur the boundary between 'investment' and 'acquisition'"
+(Varoquaux et al 8).
+***** plateauing performance
+Varoquaux's et al.'s experiments show that AI models actually plateau
+in performance after they reach a certain size: "On many tasks,
+benchmark performance as a function of scale tends to saturate after a
+certain point" (Varoquaux et al., 2025, p. 3).
+
+***** increasing discrimination
+Dark side of dataset scaling
+
+***** Documentation debt:
+- Not only environmental sustainability (the amount of water and
+  energy needed to train models and run inference) but also data
+  sustainability. What the authors called "documentation debt," the
+  lack of information about where training datasets come from and how
+  they are cleaned and processed, has ballooned to unpayable levels.
+  Models created from previously undocumented datasets are
+  inadvertantly are absorbed into larger models trained on top of
+  them, so that the sources for training become untraceable.[fn:15]
+
+***** Model poisoning
+“Scalability banishes meaningful diversity, that is, diversity that
+might change things" (Samuel A. Moore, /Publishing Beyond the Market/
+147).
+  
+**** 4) /totalizing view of technology/
+- like strong theory which imposes on everything from the top down. 
+- it is necessary to bring the security state into the commercial
+  enterprise.
+
+"But who reads The Novel and the Police to find out whether its main
+argument is true? In this case, as also frequently in the case of the
+tautologies of "sexual difference," the very breadth of reach that
+makes the theory strong also offers the space---of which this book
+takes every advantage---for a wealth of tonal nuance, attitude,
+worldly observation, performative paradox, aggression, tenderness,
+wit, inventive reading, obiter dicta, and writerly panache" (/Novel
+Gazing/ 14). 
+
+***** concentrates power, varoquaux
+large models also centralize power, where only the handful of richest
+tech companies can afford to buy the infrastructrure needed to train
+the models. As a result, the interests of those companies will drive
+further research in development, which will inevitably be focused on
+size. Varoquaux et al point out that the emphasis on scale
+"exacerbates a concentration of power, which centralizes
+decision-making in the hands of a few actors while threatening to
+disempower others" ([Varoquaux et al., 2025, p. 1).
+
+***** OSTP proposal turning concept of freedom into security
+- like wendy chun's point of control/freedom!
+
 On January 23, the White House released an Executive Order meant to
 clear the obstacles preventing technological "innovation" regarding AI
 development. The goal of the order is "to sustain and enhance
@@ -920,7 +806,218 @@ China's. The autocratic qualities of the PRC, which allows it to
 develop its AI free of regulation and copyright considerations, is
 exactly what the US is asking for in this proposal.
 
-*** scraping congress.gov
+**** 5) /proffers a narrative of abundance/
+- like the narrative of exposure
+- "[capture]... acts as though its work would be accomplished if it
+  [would] finally, this time, somehow [distribute its riches]" (/Novel
+  Gazing/ 17).
+***** add: Language of abundance by Sam Altman, Mark Zuckerberg.
+
+Both frame a world which will be abundant in intelligence and
+individual empowerment. (Which is not the case, we will see, with the
+reality of decaying quality and diminishing resources). 
+
+Altman, Sam. "Abundant Intelligence." September 23, 2025.
+https://blog.samaltman.com/abundant-intelligence.
+
+Zuckerberg, Mark. "The Future is for Everyone: The Path to a Positive
+AI Future." August 10, 2026.
+https://www.meta.com/thefutureisforeveryone/
+
+***** add: maniacal obsession with more:
+Situational Awareness hedge fund founded by Leopold Aschenbrenner,
+named after the 165-page "Situational Awareness: The Decade Ahead"
+essay by Aschenbrenner,[fn:12] which announces that "The most
+extraordinary techno-capital acceleration has been set in motion." The
+document begins evoking San Francisco as the herald of the world to
+come:
+
+#+begin_quote
+You can see the future first in San Francisco. 
+
+Over the past year, the talk of the town has shifted from $10 billion
+compute clusters to $100 billion clusters to trillion-dollar clusters.
+Every six months another zero is added to the boardroom plans. Behind
+the scenes, there’s a fierce scramble to secure every power contract
+still available for the rest of the decade, every voltage transformer
+that can possibly be procured. American big business is gearing up to
+pour trillions of dollars into a long-unseen mobilization of American
+industrial might. By the end of the decade, American electricity
+production will have grown tens of percent; from the shale fields of
+Pennsylvania to the solar farms of Nevada, hundreds of millions of
+GPUs will hum.
+
+The AGI race has begun. (Aschenbrenner, "Situational Awareness")
+#+end_quote
+
+For anybody that has been to San Francisco, the future is bleak. 
+
+*** DRAFT web scraping
+**** outline
+- manipulating the HTTP protocol to mimic a browser request
+  - HTTP protocol
+  - from HTML -> python object
+- bot blockers
+  - requests are sometimes blocked
+- ways of bypassing blockers:
+  - using ghost browsers: ny post
+  - scraping xhr: hiring cafe
+  - finding pages that can be scraped: congress.gov
+- web crawling automates the data collection
+  - crawling with scrapy: heritage.org/gender page 
+  
+**** manipulating HTTP: Heritage Foundation
+Websites are stored in web servers, accessed over a network. Web data
+travels over the network in the form of bytes, the smallest portable
+data unit. When the bytes reach the web browser, they are decoded into
+HTML language, which is assembled into a web page readable by human
+eyes.
+
+Here is an example some the HTML from the homepage of /The Heritage
+Foundation/, on ~https://Heritage.org~. This section of the page shows
+the menu for the site's "Top Issues":
+
+#+begin_src html
+  <h1>Heritage Foundation Homepage</h1>
+
+     <h3  class="views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/middle-east" hreflang="en">
+	     Middle East
+     </a></span></div></h3>
+     <h3  class="views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/defense" hreflang="en">
+	     Defense
+     </a></span></div></h3>
+     <h3  class="views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/border-security" hreflang="en">
+	     Border Security
+     </a></span></div></h3>
+     <h3  class="views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/global-politics" hreflang="en">
+	     Global Politics
+     </a></span></div></h3>
+     <h3  class="views-row"><div class="views-field views-field-name"><span class="field-content"><a href="/american-history" hreflang="en">
+	     American History
+     </a></span></div></h3>
+#+end_src
+
+/Web scraping/ is the extraction of such HTML data from websites. This
+extraction is possible by manipulating HTTP, or HyperText Transfer
+Protocol, which is a wrapper language that encapsulates the bytes that
+travel over the network, like an envelope. This wrapper language
+stipulates strict instructions on the transit of bytes from the web
+server to the web browser. It not just the envelope, then, it is also
+detailed protocol for how the envelope may be opened.
+
+A web scraper uses programming code to manipulate an HTTP request.
+Using HTTP protocol, it makes a request to a web server much like a
+user makes a request by typing in a URL into the browser. The data it
+gets back from the HTTP request is also the same as the data that
+comes to a browser after searching a URL---only the data is
+intercepted before it arrives at the browser, before it can be
+assembled into a web page.
+
+Below is an example of the code used to scrape the home page of /The
+Heritage Foundation/ website. The code uses the ~bs4~ and ~requests~
+libraries in python.[fn:17]
+
+#+begin_src python
+  from bs4 import BeautifulSoup
+  import requests
+  r = requests.get('https://www.heritage.org')
+  source = r.content
+  soup = BeautifulSoup(source, 'html.parser')
+#+end_src
+The ~get()~ function (on line 3) uses the HTTP method ~GET~ to request
+data from a server. The contents of request consist of a list of
+headers, identifying the requester, like "User-Agent," and certain
+properties about the request:
+#+begin_src json
+{
+    'User-Agent': 'python-requests/2.32.3'
+    'Accept-Encoding': 'gzip, deflate, br, zstd',
+    'Accept': '*/*', 
+    'Date': 'Thu, 03 Sep 2026 12:21:09 GMT',
+    'Content-Type': 'text/html; charset=UTF-8',
+    'Transfer-Encoding': 'chunked',
+    'Connection': 'keep-alive',
+    'CF-Ray': 'a354b670ee7f41d9-EWR',
+    'CF-Cache-Status': 'DYNAMIC',
+    'Age': '5583',
+    'Cache-Control':
+    'max-age=10800, public',
+    'Content-Language': 'en',
+    'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT',
+    'Last-Modified': 'Thu, 03 Sep 2026 10:48:06 GMT',
+    'Server': 'cloudflare',
+    'Strict-Transport-Security': 'max-age=15552000; includeSubDomains; preload',
+    'Vary': 'Accept-Encoding, Cookie, Cookie, Cookie',
+    'Via': '1.1 varnish, 1.1 varnish, 1.1 varnish',
+    'x-cache': 'HIT, HIT, MISS',
+    'x-cache-hits': '12, 0, 0',
+    'x-content-type-options': 'nosniff',
+    'x-drupal-cache': 'MISS',
+    'x-drupal-dynamic-cache': 'UNCACHEABLE (poor cacheability)',
+    'x-frame-options': 'SAMEORIGIN',
+    'x-generator': 'Drupal 10 (https://www.drupal.org)',
+    'x-pantheon-styx-hostname': 'styx-us-a-b66bcffc5-r9674',
+    'x-served-by': 'cache-chi-klot8100088-CHI, cache-lga21935-LGA, cache-lga21965-LGA',
+    'x-styx-req-id': 'f1f228e9-a784-11f1-b5b4-527fbd316761',
+    'x-timer': 'S1788438070.931123,VS0,VE7',
+    'Content-Encoding': 'br'
+}
+#+end_src
+
+**** Blockers and the resistance
+Web servers, however, employ various forms of "blockers" or mechanisms
+that deny the HTTP request. And as automated scrapers increase in
+frequency, so do the bot blockers.[fn:18]
+
+Over the past two years, Cloudflare, which runs on 20% of total
+internet pages and 50% of pages based in the US, has added increasing
+bot detection like "Challenges" and "Turnstiles" to its web pages.
+Some of these operate under the surface and virtually invisible to the
+user, such as checking the HTTP request metadata like the
+"User-Agent." By default, the User-Agent is set to the name of web
+browser and operating system making the request.
+
+For example, my Firefox browser running Mac OSX has the User-Agent
+~Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:152.0)
+Gecko/20100101 Firefox/152.0~. The python ~requests~ library, by
+contrast, sets the User-Agent to ~python-requests/2.32.3~, making any
+HTTP request using that library easy for blockers to detect.
+
+Beyond examining HTTP request data, bot blockers will use JavaScript
+code to check if the request is from a real web browser, rather than
+from an automated program. JavaScript, which is a programming language
+native to web browsers (and discussed in more detail in Chapter 4:
+Text Display), can inject challenges for the browser to solve,
+challenges which may or may not involve the user. All of these
+challenges might require some processing from the browser, and
+increasingly, they may require the user's interaction (to confirm that
+the request comes from a real browser, not a bot). One popular
+challenge is the "security verification" checkbox, which is
+increasingly visible across the internet (See Fig #).
+
+[[./images/verify.png]]
+
+While these kinds of blockers are more advanced, there are ways of
+overcoming them. One effective method involves using a virtual or
+"ghost" browser through python libraries like ~selenium~. Instead of
+sending an HTTP request via a python script, ~selenium~ routes the
+request through an actual web browser---though one that is operated
+remotely by the python script. When the program is running, a browser
+window will open, seemingly on its own, navigate to a web page, and
+click on links---all without the input of the user's mouse. Which is
+why they are called "ghost browsers". One major drawback to this
+method is that it requires a virtual display, which many "headless"
+scraping servers do not have, in order to access the data via the
+browser window. That requirement, in addition to the increase in
+necessary processing power, detracts large-scale web crawling.
+
+**** HERE bypassing blockers: congress.gov
+- incorporate this section into the blockers conversation
+
+For example, if I wanted to scrape congressional documents from
+~congress.gov~ (whose API does not give full text of documents), I
+would be blocked by ~congress.gov~ bot blockers. 
+  
 Scraping the congress.gov servers by constructing a URL using metadata
 from congressional records. Manipulating the URl to circumventing the
 protections on the servers for accessing the records.
@@ -928,8 +1025,161 @@ protections on the servers for accessing the records.
 - how to construct a URL
 - the dataset - congressional records on anti-trans legislation
 - analysis of the dataset? close reading?
+**** web crawling: heritage.org
+**** scraping Heritage with bs4
+homepage, which is saved in the form of bytes via the
+~content~ property. Then, using ~bs4~, a python library for working
+with HTML data, the data is parsed into an object called ~soup~
+(following ~bs4~'s naming conventions), which is a pythonic object of
+HTML data.
 
+The beauty of ~bs4~ is that it makes HTML---a notoriously fussy
+language that is the reason why so many web frameworks exist in the
+first place, attempting to abstract the user from working directly in
+HTML---accessible through simple python syntax.
+
+For example, the expression ~soup.title~ returns the following output: 
+
+#+begin_src python
+  >>> soup.title
+  <title data-rh="true">The New York Times - Breaking News, US News, World News and Videos</title>
+#+end_src
+
+Similarly, other HTML elements can now be accessed using python
+dot syntax.
+
+#+begin_src python console
+  >>> soup.p
+  <p>Make sense of the day’s news and ideas.</p>
+
+  >>> soup.a
+  <a class="css-kgn7zc" href="#site-content">Skip to content</a>
+
+  >>> soup.h1
+  <h1 class="css-1dv1kvn">New York Times - Top Stories</h1>
+#+end_src
+
+Further properties like ~text~ (for just text) and functions like
+~find()~ are also possible. Functions can be further specified when
+combined with the ~class_~ parameter, to search the HTML with more
+precision. Due to python syntax, they can also be chained together to
+create complex expressions. These building blocks enable programmers
+to navifate the HTML tree with granularity.
+
+#+begin_src python console
+  >>> soup.h1.text
+  'New York Times - Top Stories'
+  
+  >>> soup.find('div', class_ = 'css-cfnhvx')
+  <div class="css-cfnhvx" data-tpl="h"><a class="tpl-lbl css-5mgoji" data-tpl="l" href="https://www.nytimes.com/live/2026/07/09/world/iran-war-us-trump"><div class="css-xdandi" data-tpl="b"><p class="indicate-hover css-1ixq7yl">U.S. and Iran Sink Into Violent Cycle After Trading Strikes</p></div></a></div>
+
+  >>> soup.find('div', class_ = 'css-cfnhvx').text
+  'U.S. and Iran Sink Into Violent Cycle After Trading Strikes'
+#+end_src
+
+HTML classes for an element can be found by using built-in browser
+tools like the web inspector. On the webpage, right click on the
+relevant text and select ~inspect~ from the dropdown menu. The element
+will be highlighted with information for the ~class~ attribute.[fn:2]
+
+[[./images/inspector.png]]
+
+Using ~requests~, ~bs4~, and the web inspector, one can easily grab a
+list of the current headlines from the /NYTimes/ homepage.
+
+#+begin_src python 
+>>> for i in soup.find_all('div', class_ = 'css-cfnhvx'):
+        print(i.text)
+"U.S. and Iran Sink Into Violent Cycle After Trading Strikes
+Iran Risks Overplaying Its Hand Again and Reigniting a War
+At NATO Summit, Trump Puts on a Show While Europe Gets Down to Business
+Security Precaution Led Trump to Use Old Air Force One in Leaving Turkey
+‘A Slow-Rolling Disaster’: Inside the Implosion of the Platner Campaign
+What’s Next for Democrats in the Senate Race in Maine
+How Democrats and Republicans Diverge on Sexual Assault Allegations
+Platner Suspends Senate Bid in Maine After Rape Accusation
+Trump’s Loyal Defender at the Vatican
+Trump Says He’ll Ask Supreme Court to Rehear Citizenship Case, an Unlikely Event
+Can Trump’s Arch Be So Tall? A Law May Be Redefined to Get to Yes.
+Morocco Faces France and Its Star, Mbappé, in Quarterfinals
+A Colonial Past Mixes With the Global Present
+How Morocco’s Diaspora Became the Team’s Driving Force
+13 Red Cards Have Been Given at the World Cup. Not All Have Been Equal."
+#+end_src
+
+Anything else to say about HTTP?
+
+*** TO_DRAFT close reading: heritage foundation
+*** TO_DRAFT conclusion: shame, sedgwick, contagion
+**** shame as contagion
+Shame thus moves outward, creating a nexus for interpersonal relation.
+Sedgwick links shame to contagion:
+#+begin_quote
+“Shame—-living, as it does, on and in the muscles and capillaries of
+the face—-seems to be uniquely contagious from one person to another.
+And the contagiousness of shame is only facilitated by its anamorphic,
+protean susceptibility to new expressive grammars" (/Touching Feeling/
+63).
+
+“not a discrete intrapsychic structure, but a kind of free radical
+that (in different people and different cultures) attaches to and
+permanently intensifies or alters the meaning of—-of almost anything:
+a zone of the body, a sensory system, a prohibited or indeed a
+permitted behavior, another affect such as anger or arousal, a named
+identity, a script for interpreting other people’s behavior toward
+oneself” (/Touching Feeling/ 62)
+#+end_quote
+In the orbit of queerness, where negative experiences are identity
+forming, Sedgwick looks at shame as a positive force.
+
+#+begin_quote
+Shame interests me politically, then, because it generates and
+legitimates the place of identity--the question of identity... without
+giving that identity space the standing of an essence. It constitutes
+the as-to-be-constituted, which is also to say, as already there for
+the (necessary, productive) misconstrual and misrecognition.
+(/Touching Feeling/ 63)
+#+end_quote
+
+**** Sedgwick's critique of Butler
+In the influential final pages of Gender Trouble, for example,
+Butleroffers a programmatic argument in favor of demystification as
+"the normativefocus for gay and lesbian practice,"'" with such
+claims as that "dragimplicitly reveals the imitative structure of
+gender itself" (137); "we seesex and gender denaturalizedb y means
+of a performance" (138);" genderparody revealst hat the original
+identity ... is an imitation" (138);" genderperformance will enact
+and reveal the performativity of gender itself"(139); "parodic
+repetition ... exposes the phantasmatic effect of abidingidentity"
+(141); "the parodic repetition of gender exposes ... the illusionof
+gender identity" (146); and "hyperbolic exhibitions of 'the natural'
+...reveal its fundamentally phantasmatic status" (147) as well as
+"exposingits fundamental unnaturalness" (149; all emphases added).
+(/Novel Gazing/ 17). 
 * Footnotes
+[fn:18]Each year of the past few years, bot traffic has increased
+exponentially, coming mostly from major tech and AI companies,
+especially OpenAI, META, Google, and Anthropic. According to
+Cloudflare, 2025 saw increases of 19% in bot traffic (Cloudflare,
+"From Googlebot to GPTBot: who’s crawling your site in 2025").  
+
+[fn:17] The ~requests~ library is one of the most popular libraries in
+the python programing language. Enabling programs to send and receive
+data through HTTP networks (i.e., the internet), it is the bedrock for
+virtually all web scraping and API tasks.
+[fn:16] Yet, even in this early work, Sedgwick pursues a critical
+method that is local. In /Epistemology/, she writes that: “A point of
+the book is not to know how far its insights and projects are
+generalizable... The book aims to resist in every way it can the
+deadening pretended knowingness by which the chisel of modern
+homo/heterosexual definitional crisis tends, in public discourse, to
+be hammered most fatally home” (12). Here she gives away a certain
+critical openness that will then lead her to her thinking in /Novel
+Gazing/ and /Touching/Feeling/. She isn’t aiming for generalizable or
+abstract critical theories---she knows that any totalizing theory
+would be more hurtful than helpful. She’s carving out a space for what
+she eventually comes to say about the need to open up possibilities
+for connection with texts.
 
 [fn:15] Dodge, Jesse, Maarten Sap, Ana Marasović, et al. “Documenting
 Large Webtext Corpora: A Case Study on the Colossal Clean Crawled

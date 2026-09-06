@@ -520,6 +520,11 @@ not work. To show "the breakdown of gender as a signifying system,"
 that gender is already "excessively strange," to "hasten the
 proliferation of alternate gender regimes" (41).
 
+**** Sedgwick, Eve Kosofsky, ed. "Paranoid Reading and Reparative Reading; or, You're So Paranoid, You Probably Think This Introduction Is About You." /Novel Gazing: Queer Readings in Fiction/. Duke University Press. 1997.
+What makes a queer reading queer?
+- "what seems less settled is any predetermined idea of what makes the
+  queerness of a queer reading" (2).
+
 **** Sedgwick, Eve Kosofsky. *The Epistemology of the Closet*. 1990.
 - Sedgwick's agenda is to expose the dependence of a privileged
   heterosexual position upon the existence of a subordinated
@@ -652,11 +657,7 @@ proliferation of alternate gender regimes" (41).
           stigma which doesn’t minimize or sterilize it, as Love
           explores with her notion of “Feeling Backward.”
 
-**** Sedgwick, Eve Kosofsky. "Shame, Theatricality, and Queer
-          Performativity: Henry James’s The Art of the Novel" &
-          "Paranoid Reading and Reparative Reading, or, You’re So
-          Paranoid, You Probably Think This Essay Is About You" from
-          Touching Feeling: Affect, Pedagogy, Performativity. 2003.
+**** Sedgwick, Eve Kosofsky. "Shame, Theatricality, and Queer Performativity: Henry James’s The Art of the Novel" & "Paranoid Reading and Reparative Reading, or, You’re So Paranoid, You Probably Think This Essay Is About You" from Touching Feeling: Affect, Pedagogy, Performativity. 2003.
 
 Paranoid reading creates an "unhelpful structure" that hampers
 analysis, where the substance of textuality is evacuated, placed into
@@ -1161,9 +1162,7 @@ The Rumpus. 2018.
           those who love and name me. It’s a room somewhere slowly
           filling up with light.”
 
-**** Fawaz, Ramzi and Shanté Paradigm Smalls, “QUEERS READ THIS! LGBTQ
-          Literature Now” GLQ: A Journal of Lesbian and Gay
-          Studies, 2018.
+**** Fawaz, Ramzi and Shanté Paradigm Smalls, “QUEERS READ THIS! LGBTQ Literature Now” GLQ: A Journal of Lesbian and Gay Studies, 2018.
 
 - What do queers read now, or how do queers read now, that the AIDS
   crisis is behind us and it’s been 25 years since Reparative Reading?
@@ -4507,9 +4506,52 @@ Math concepts:
 - principal component analysis
 - bayes' theorem and inference
 - linear discriminant analysis
-*** Data Extraction
+*** TODO Data Extraction
+**** TODO Warwick, /Radical Tactics of the Offline Library/ 2014.
+
+**** TODO Lawrence Lessig. Free Culture. 2004. http://archive.org/details/free_culture.
+
 **** TODO Moore, Samuel A. Publishing Beyond the Market: Open Access, Care, and the Commons. University of Michigan Press, 2025. library.oapen.org, https://doi.org/10.3998/mpub.11781635.
 
+See Zotero: web scraping
+
+Open Access has been commercialized. Seeks a way to bring scholarly
+communication back into the control and in the interest of of
+academics.
+
+“Academic publishing, as I argue throughout the book, is the product
+of the self-organised labour of editorial collectives and would
+benefit from greater self-governance and horizontal organisation. Yet
+this self-organisation is currently mediated and extracted by
+commercial organisations in a way that neutralises its commons
+potential" (Moore 7).
+
+"OA publishing in favour of a radical approach to the commons that
+deals with how knowledge is produced rather than simply how it is
+disseminated" (Moore 164).
+
+Capturing behavior via atomization 
+- the “atomization” of writing work.
+- “The totalising approach to the research life cycle now defines the
+  evolution of commercial research infrastructures. Publishers seek to
+  control this life cycle in order to fence individual researchers
+  within the walled gardens they create, thus allowing maximum
+  opportunities to profit from their content and behaviour” (Moore
+  130).
+- this “process of individuation through infrastructure whereby
+  researchers are further atomised into individual, traceable,
+  measurable units by commercial research infrastructures… opens them
+  up to deeper and more granular forms of assessment by research
+  institutions and funders” (Moore 130)
+
+Solution:
+- theorizing the publishing landscape as a commons, where the commons
+  is a mode of production centered on care.
+- an approach which cannot be scaled up, but requires "scaling small"
+  (147). 
+
+“Scalability banishes meaningful diversity, that is, diversity that
+might change things" (Moore 147).
 
 **** TODO Mejias, Ulises A., and Nick Couldry. /Data Grab: The New Colonialism of Big Tech and How to Fight Back/. University of Chicago Press, 2024. University of Chicago Press, https://press.uchicago.edu/ucp/books/book/chicago/D/bo216184200.html.
 

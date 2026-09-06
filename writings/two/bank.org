@@ -1,5 +1,40 @@
 ** bank
-*** "The task," according to Bulter, "will be to consider this threat and
+*** NOT INCORPORATED: Criticism
+
+The most unstable element of the text, however, is the language, whose
+experimental quality evokes its peers in the early modernist canon.
+According to Caughie,
+
+As Woolf scholar Pamela Caughie puts it, "The text of Orlando is as
+unstable as the sex of Orlando" (42).
+
+#+begin_quote
+In its rhetorical transports, Woolf's novel challenges the reference
+theory of meaning. In particular, it questions the notion *that words
+get their meanings from things they refer to*; the definition of words
+and categories by their essential traits; and the isolation of words
+and statements from their contexts of use in order to interpret them.
+(Caughie, "Double Discourse, 44-45).[fn:17]
+#+end_quote
+
+I agree with Caughie that language's referential power is a major, if
+not the central, problematic in /Orlando/. However, unlike Caughie,
+who positions the main character's gender fluidity as the cause of
+language's instability, I explore the opposite movement: following
+Butler, this reading poses language forms as determining and producing
+gender norms and their re-signification.
+
+Caughie claims that "Woolf brings out the arbitrariness of [sexual]
+identity, the arbitrariness of language itself, through Orlando’s
+switching from one sex to the other... as well as through the shifting
+of her own rhetoric in this novel" (42);
+
+Victoria L. Smith asserts that "what happens in the novel... and what
+it thematizes—-language’s inability to adequately represent the ‘thing
+itself’—-mirrors the undecidability of the text--is it a biography, an
+autobiography, fantasy, etc." (58). The above passage, with its
+“switching” and “shifting” discourse, which asserts that word choices
+are arbitrary and flowing, implies that gender is also a fluid*** "The task," according to Bulter, "will be to consider this threat and
 disruption... as a critical resource in the struggle to rearticulate
 the very terms of symbolic legitimacy and intelligibility" (xiii).
 *** how can one read a text for what does not appear (Butler)
