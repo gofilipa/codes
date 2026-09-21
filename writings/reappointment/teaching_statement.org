@@ -1,0 +1,219 @@
+* draft
+** introduction
+This teaching statement covers my teaching philosophy, the courses and
+workshops I've taught at Pratt, mentoring and advising, and future
+plans. 
+
+** teaching philosophy
+My teaching philosophy draws from my graduate school training as a
+literary studies and queer studies scholar. Many of the methods here
+were developed in my role as a writing instructor for 6 years across
+three different institutions.
+
+This philosophy is organized into four major themes: (1) close reading
+as critical and creative practice; (2) writing as thinking; (3) all
+knowledge as contingent; and (4) active & experiential learning.
+
+*** 1) close reading as critical practice:
+The most important skill that I teach in my classes is close reading.
+Originally developed as an analytical method for literary criticism,
+close reading is defined as the close and sustained attention to a
+selection of evidence, such as a passage in a text. It emphasizes the
+details of the evidence, such as individual words and sentence
+structure, over the general. While close reading is the analytical
+methodology par excelance for Literary Studies, as well as other
+fields the Humanities, its principles apply across different
+analytical contexts, particularly across my Pratt SI courses, from
+INFO 601: Foundations to INFO 664: Programming Cultural Heritage.
+
+For example, in my 601: Foundations class, we often use close reading
+as a tool to guide discussion on a specific reading. I direct students
+to identify passages that struck them as provocative or confusing,
+which we then read together as a class. The opportunity to put a
+single passage on the projector proves generative, giving students the
+opportunity to dig into details and make new connections in real time.
+In my INFO:664 class, I take a similar approach. For example, I
+encourage my students to consider even large datasets at a close
+distance. I use my own research as an example to model how close
+attention to language offers material for critique. Last year, I had
+several students develop 664 projects which cusomized Small Language
+Models (SLMs) in order to better study language data up close, with
+one group of students from my course ended up winning the "People's
+Choice Award" at the 2026 Info Show.
+
+*** 2) writing as active learning:
+Another technique that I often use in courses is writing. This is an
+active learning technique which I employ through formal writing
+assignments, which are highly scaffolded papers developed over several
+weeks, and low-stakes writing exercises, which is a daily practice for
+organizing thoughts and generating ideas.
+
+In my discussion-based courses, I use free-writing assignments often
+as a precursor to class discussion. However, I also use free-writing
+in my programming class, INFO 607: Special Topics (How to Build a
+Bot), as a tool to help students theorize their final projects. Formal
+writing assignments, by contrast, are highly scaffolded, with detailed
+guidance on each step, from drafting research questions, to outlining
+arguments and evidence, to crafting paragraphs. In my courses that
+require formal writing assignments, such INFO:601, INFO: 657, and
+INFO: 656, I dedicate time across several class meetings to addressing
+individual aspects of the paper, such as the "hook" of a typical
+research paper, or the "Discussion" section of a conference paper.
+This hands-on practice with writing in class is even more important
+now, with the rise of automated tools which tempt students to offload
+writing tasks, and therefore the development of critical thinking
+skills.
+
+*** 3) knowledge as contingent:
+I maintain the importance of meeting students where they are by
+inviting them to use their own life stories and personal interests as
+a ground for critique and understanding. I also emphasize the
+importance of perspective, that all knowledge is contingent and that
+"infinite vision" as Donna Haraway asserts, "is an illusion, a god
+trick." Students thus learn the contingency of all knowledge through
+exposure to a wide range of theoretical points of view and by drawing
+from their own life experience.
+
+I employ these principles through the selection of readings in my
+courses, particularly INFO 601, INFO 656, and INFO 657. Readings range
+from different disciplines and fields, showing how differences in
+initial questions, assumptions, and approaches will lead to quite
+different conclusions. For example, in INFO: 657 I assign readings
+from different fields in the humanities (such as Black Feminist
+Studies and Archival Studies) so that students have a basis for
+understanding how the field of Digital Humanities departs from others.
+
+** courses & workshops taught
+Courses
+- INFO 656: Machine Learning, Fall 2026.
+  - This course offers an introduction to machine learning as a
+    practical tool that we can use, and as a technological field with
+    social implications. We will learn about key concepts in machine
+    learning; survey a few key machine learning techniques, such as
+    supervised methods for machine learning (regression and
+    classification), which attempt to map data onto desired outputs,
+    and unsupervised methods (clustering and association), which
+    attempt to find structure within data itself; use openly available
+    tools to implement these techniques on text and image data; learn
+    how to assess the effectiveness of different techniques on
+    particular datasets; and discuss basic issues that confront all
+    machine learning methods.
+- INFO 657: Digital Humanities. Spring 2026.
+  - This course examines the history, theory, and practice of digital
+    humanities, paying special attention to the ways in which digital
+    humanities are transforming research, disciplines, and even the
+    academy itself. Topics include contrasts and continuities between
+    traditional and digital humanities; tools and techniques used by
+    digital humanists; the processes of planning, funding, managing,
+    and evaluating digital humanities projects; ways in which the
+    digital humanities impact scholarly communication and higher
+    education; and the special roles of libraries and information
+    professionals in this growing movement.
+- INFO 697: Special Topics - How to Build a Bot. Summer 2025.
+  - This course offers a practical introduction to building bots in
+    Python alongside a critical examination of algorithmic bias.
+    Students will learn core programming skills like data collection
+    and API interaction in order to create web crawlers and social
+    media bots. In parallel, students will explore the ethical
+    consequences of automated systems on social platforms, such as the
+    amplification of misinformation and bias that perpetuate social
+    inequalities and discrimination. This course will equip students
+    with the critical perspectives and technical skills to analyze
+    automated systems in a world increasingly shaped by AI and
+    algorithmic decision-making. This course is intended for students
+    interested in both technical development and the social impacts of
+    automation.
+- INFO 664: Programming Cultural Heritage. Fall 2024, Spring 2025,
+  Fall 2025, Spring 2026, Fall 2026.
+  - Technical knowledge and proficiency is an increasingly valued and
+    useful skill in a cultural heritage information professional’s
+    skillset. This course will introduce and provide a platform for
+    the building up of these abilities. Over the course of the
+    semester the student will become familiar with programming,
+    working with data in a programmatic manner and applying these
+    skills to build a demonstrable project. This course will focus on
+    teaching the basics that will enable an information professional
+    to be successful in today’s digital world.
+- INFO 601: Foundations of Information. Fall 2024, Spring 2025,
+  Fall 2025, Spring 2026, Fall 2026.
+  - This foundational course focuses on the intersection of people,
+    information, and technology and the theoretical and conceptual
+    foundations of the information field. Students will be introduced
+    to ideas and concepts that will inform future specializations in
+    their course of study and provide them with concrete strategies
+    for ongoing professional growth and development in their area of
+    interest.
+
+Workshops
+- Text Processing with Python: Exploring /The Odyssey/. /The Data
+  Storytelling Lab/ (/DSL/). Fall 2025, Fall 2026.
+  - In this hands-on Python workshop, you’ll learn the fundamentals of
+    text processing using spaCy (one of the most widely used Python
+    tools for working with text) to study different versions of
+    Homer’s epic poem, The Odyssey. We will use spaCy to tokenize the
+    different versions of the text, identify persons and places, and
+    compare linguistic patterns across adaptations---allowing us to
+    see the subtle differences in style, characterization, and
+    narrative emphasis across the story’s different versions. How does
+    The Odyssey change across the major translations? What are the
+    differences between Emily Wilson’s version (the one used as the
+    basis for Christopher Nolan’s recent feature film) and other major
+    versions of the Odyssey? Come and explore the narrative features
+    of the text for yourself.s
+
+
+** mentoring & advising
+In addition to the ~30 students that I teach directly each semester, I
+currently advise 35 students, mostly in Library and Information
+Science (LIS), but also a few in Data Analytics and Visualization
+(DAV), and Information Experience Design (IXD). Each semester, I meet
+individually with many of these students to discuss their progress in
+coursework and projects and to strategize their final portfolios,
+which is the capstone project for the program. I also discuss career
+expectations and goals with students.
+
+In addition to advising students individually, I also advise two
+students groups. For one group, Latines in Tech, I am the official
+Faculty Advisor. Latines in Tech is professional development group
+primarily focused on Latinx students. Their main goals are to provide
+professional development and networking opportunities for their
+members. The second group, The /Stacks/ Student Journal, which is
+still in the process of obtaining official student group status, is an
+editorial board comprised of some former students from my 601:
+Foundations course. These students are currently producing a
+peer-reviewed journal to showcase their 601 papers. My support for
+these groups invoves attending meetings, participating in their
+events, and offering guidance as needed.
+
+
+** future plans
+My future plans involve developing two courses:
+- First, I plan to develop a Python programming course that is
+  specific to working with text-based data. This course would build
+  off my workshop that I run for the Data Storytelling Lab, which
+  focuses on using advanced tools like the /spaCy/ library in Python,
+  which allows users to perform advanced tasks in text cleaning,
+  processing, annotating, and NLP analysis, like Named Entity
+  Recognition. This course would join my other course, INFO 697: How
+  to Build a Bot, to offer instruction in intermediate programming
+  skills.
+- Second, I plan to develop a "Readings in Queer Studies" course.
+  While I am aware that theoretically heavy courses have not
+  historically done well in this program, I think attitudes and
+  appetites for this material is shifting. When assigned in my other
+  courses, like INFO: 601 Foundations of Information and INFO: 657
+  Digital Humanities, readings on Queer Studies generate much interest
+  and discussion, with students often claiming them as their favorite
+  readings from the course. This course would pair well with another
+  Special Topics currently being proposed, "Disability Studies for
+  LIS." To better cater to the LIS student population, whom I believe
+  will be the ones most interested in the course, I would plan to have
+  incorporate direct research in a Queer archive in New York City.
+
+** bank
+  - active & experiential learning: students practice hands-on with
+    knowledge they bring from experience
+    - student investment in material: students must have a stake in what
+      they are learning.
+    - meeting the student where they are at: not making assumptions
+      about prior knowledge.

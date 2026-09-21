@@ -1,0 +1,114 @@
+* draft
+** introduction
+This teaching statement covers my teaching philosophy, the courses and
+workshops I've taught at Pratt, mentoring and advising, and future
+plans. 
+
+** teaching philosophy
+- based off my own training as a literary and queer scholar, and as a
+  writing instructor for 6 years.
+- techniques:
+  - close reading as critical and creative: going into detail on
+    individual examples, starting small.
+  - writing as thinking: freewriting & papers; no substitute for
+    critical work that happens when crafting a sentence; low stakes
+    writing. 
+  - all knowledge is contingent: from feminist and queer scholarship;
+    acknowledging that "infinite vision is an illusion, a god trick"
+    (Haraway 582).
+    - incorporating critiques of intersectional femininism into every
+      class. 
+  - active & experiential learning: students practice hands-on with
+    knowledge they bring from experience
+    - student investment in material: students must have a stake in what
+      they are learning.
+    - meeting the student where they are at: not making assumptions
+      about prior knowledge.
+
+My teaching philosophy draws from my graduate school training as a
+literary studies and queer studies scholar. Many of the methods here
+were developed in my role as a writing instructor for 6 years across
+three different institutions.
+
+This philosophy is organized into four major themes: (1) close reading
+as critical and creative practice; (2) writing as thinking; (3) all
+knowledge as contingent; and (4) active & experiential learning.
+
+*** 1) close reading as critical and creative practice:
+The most important skill that I teach in my classes is close reading.
+Originally developed as an analytical method for literary criticism,
+close reading is defined as the close and sustained attention to a
+selection of evidence, such as a passage in a text. It emphasizes the
+details of the evidence, such as individual words and sentence
+structure, over the general. While close reading is the analytical
+methodology par excelance for Literary Studies, as well as other
+fields the Humanities, its principles apply across different
+analytical contexts, particularly across my Pratt SI courses, from
+INFO 601: Foundations to INFO 664: Programming Cultural Heritage.
+
+For example, in my 601: Foundations class, we often use close reading
+as a tool to guide discussion on a specific reading. I direct students
+to identify passages that struck them as provocative or confusing,
+which we then read together as a class. The opportunity to put a
+single passage on the projector proves generative, giving students the
+opportunity to dig into details and make new connections in real time.
+In my INFO:664 class, I take a similar approach. For example, I
+encourage my students to consider even large datasets at a close
+distance. I use my own research as an example to model how close
+attention to language offers material for critique. Last year, I had
+several students develop 664 projects which cusomized Small Language
+Models (SLMs) in order to better study language data up close, with
+one group of students from my course ended up winning the "People's
+Choice Award" at the 2026 Info Show.
+
+*** 2) writing as thinking:
+Another technique that I often use in courses is writing. I employ
+both high-stakes writing assignments, which are formal papers
+developed over several weeks, and low-stakes writing exercises, which
+is a daily practice for organizing thoughts and generating ideas.
+
+In my discussion-based courses, I use free-writing assignments often
+as a precursor to class discussion. However, I also use free-writing
+in my programming class, INFO 607: Special Topics (How to Build a
+Bot), as a tool to help students theorize their final projects. Formal
+writing assignments, by contrast, are highly scaffolded, with detailed
+guidance on each step, from drafting research questions, to outlining
+arguments and evidence, to crafting paragraphs. In my courses that
+require formal writing assignments, such INFO:601, INFO: 657, and
+INFO: 656, I dedicate time across several class meetings to addressing
+individual aspects of the paper, such as the "hook" of a typical
+research paper, or the "Discussion" section of a conference paper.
+This hands-on practice with writing in class is even more important
+now, with the rise of automated tools which tempt students to offload
+writing tasks, and therefore the development of critical thinking
+skills.
+
+*** TODO 3) active & experiential learning
+  - active & experiential learning: students practice hands-on with
+    knowledge they bring from experience
+    - student investment in material: students must have a stake in what
+      they are learning.
+    - meeting the student where they are at: not making assumptions
+      about prior knowledge.
+
+
+
+*** all knowledge as contingent
+
+** courses & workshops taught
+- INFO 656: Machine Learning, Fall 2026
+- INFO 657: Digital Humanities, Spring 2026
+- INFO 697: Special Topics - How to Build a Bot, Summer 2025
+- INFO 664: Programming Cultural Heritage, Fall 2024 - Fall 2026
+- INFO 601: Foundations of Information, Fall 2024 - Fall 2026
+- Text Processing and Analysis with Python, Fall 2025 & Fall 2026
+
+** mentoring & advising
+- students mentored:
+- faculty advisor to two groups:
+  - Latines in Tech
+  - /Stacks/ Graduate Student Journal
+
+** future plans
+- Text Processing class that focuses rigorously on text data.
+- Queer Studies oriented class

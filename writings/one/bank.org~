@@ -1,0 +1,133 @@
+* bank
+** centralizing power
+LLMs also centralize power, where only the handful of richest tech
+companies can afford to buy the infrastructrure needed to train the
+models. As a result, the interests of those companies will drive
+further research in development, which will inevitably be focused on
+size. Varoquaux et al point out that the emphasis on scale
+"exacerbates a concentration of power, which centralizes
+decision-making in the hands of a few actors while threatening to
+disempower others" ([Varoquaux et al., 2025, p. 1).
+** strong theory, however, can hide the reparative
+- strong theory, however, can contain elements of reparative.
+  - "But who reads The Novel and the Police to find out whether its
+    main argument is true? In this case, as also frequently in the
+    case of the tautologies of "sexual difference," the very breadth
+    of reach that makes the theory strong also offers the space---of
+    which this book takes every advantage---for a wealth of tonal
+    nuance, attitude, worldly observation, performative paradox,
+    aggression, tenderness, wit, inventive reading, obiter dicta, and
+    writerly panache" (/Novel Gazing/ 14).
+** copyright cases
+- argue that transformative use protects them copyright, makes their
+  use "fair"
+
+One famous lawsuit against the AI company Anthropic, the /Bartz v.
+Anthropic/ lawsuit, settled with a historic 1.5 billion payout to
+content creators. Despite this payout, the court asserts that the
+capture content for training AI models falls under "fair use"
+copyright protection with District Court Judge William Alsup claiming
+that,
+#+begin_quote
+the purpose and character of using copyrighted works to train LLMs to
+generate new text was quintessentially transformative. Like any reader
+aspiring to be a writer, Anthropic’s LLMs trained upon works not to
+race ahead and replicate or supplant them — but to turn a hard corner
+and create something different.[fn:24] (13-14)
+#+end_quote
+In this case, the judge asserts that the output of capture was
+"quintessentially transformative," thus fulfilling one of they key
+principle of fair, that a derivative work is fundamentally different
+from the work it is based on (a point which I will address in the last
+chapter). However, the judge left open the role of another key
+princple of fair use, which is whether the act of taking content via
+web scraping is protected under fair use. Here, Judge Alsup states
+that "Pirating copies to build a research library without paying for
+it, and to retain copies should they prove useful for one thing or
+another, was its own use — and not a transformative one" (19).
+
+When human-generated content is treated as feed for training data,
+then human labor itself is degraded.
+ 
+** scraping Heritage with bs4
+homepage, which is saved in the form of bytes via the
+~content~ property. Then, using ~bs4~, a python library for working
+with HTML data, the data is parsed into an object called ~soup~
+(following ~bs4~'s naming conventions), which is a pythonic object of
+HTML data.
+
+The beauty of ~bs4~ is that it makes HTML---a notoriously fussy
+language that is the reason why so many web frameworks exist in the
+first place, attempting to abstract the user from working directly in
+HTML---accessible through simple python syntax.
+
+For example, the expression ~soup.title~ returns the following output: 
+
+#+begin_src python
+  >>> soup.title
+  <title data-rh="true">The New York Times - Breaking News, US News, World News and Videos</title>
+#+end_src
+
+Similarly, other HTML elements can now be accessed using python
+dot syntax.
+
+#+begin_src python console
+  >>> soup.p
+  <p>Make sense of the day’s news and ideas.</p>
+
+  >>> soup.a
+  <a class="css-kgn7zc" href="#site-content">Skip to content</a>
+
+  >>> soup.h1
+  <h1 class="css-1dv1kvn">New York Times - Top Stories</h1>
+#+end_src
+
+Further properties like ~text~ (for just text) and functions like
+~find()~ are also possible. Functions can be further specified when
+combined with the ~class_~ parameter, to search the HTML with more
+precision. Due to python syntax, they can also be chained together to
+create complex expressions. These building blocks enable programmers
+to navifate the HTML tree with granularity.
+
+#+begin_src python console
+  >>> soup.h1.text
+  'New York Times - Top Stories'
+  
+  >>> soup.find('div', class_ = 'css-cfnhvx')
+  <div class="css-cfnhvx" data-tpl="h"><a class="tpl-lbl css-5mgoji" data-tpl="l" href="https://www.nytimes.com/live/2026/07/09/world/iran-war-us-trump"><div class="css-xdandi" data-tpl="b"><p class="indicate-hover css-1ixq7yl">U.S. and Iran Sink Into Violent Cycle After Trading Strikes</p></div></a></div>
+
+  >>> soup.find('div', class_ = 'css-cfnhvx').text
+  'U.S. and Iran Sink Into Violent Cycle After Trading Strikes'
+#+end_src
+
+HTML classes for an element can be found by using built-in browser
+tools like the web inspector. On the webpage, right click on the
+relevant text and select ~inspect~ from the dropdown menu. The element
+will be highlighted with information for the ~class~ attribute.[fn:2]
+
+[[./images/inspector.png]]
+
+Using ~requests~, ~bs4~, and the web inspector, one can easily grab a
+list of the current headlines from the /NYTimes/ homepage.
+
+#+begin_src python 
+>>> for i in soup.find_all('div', class_ = 'css-cfnhvx'):
+        print(i.text)
+"U.S. and Iran Sink Into Violent Cycle After Trading Strikes
+Iran Risks Overplaying Its Hand Again and Reigniting a War
+At NATO Summit, Trump Puts on a Show While Europe Gets Down to Business
+Security Precaution Led Trump to Use Old Air Force One in Leaving Turkey
+‘A Slow-Rolling Disaster’: Inside the Implosion of the Platner Campaign
+What’s Next for Democrats in the Senate Race in Maine
+How Democrats and Republicans Diverge on Sexual Assault Allegations
+Platner Suspends Senate Bid in Maine After Rape Accusation
+Trump’s Loyal Defender at the Vatican
+Trump Says He’ll Ask Supreme Court to Rehear Citizenship Case, an Unlikely Event
+Can Trump’s Arch Be So Tall? A Law May Be Redefined to Get to Yes.
+Morocco Faces France and Its Star, Mbappé, in Quarterfinals
+A Colonial Past Mixes With the Global Present
+How Morocco’s Diaspora Became the Team’s Driving Force
+13 Red Cards Have Been Given at the World Cup. Not All Have Been Equal."
+#+end_src
+
+Anything else to say about HTTP?

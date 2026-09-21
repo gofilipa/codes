@@ -1,0 +1,54 @@
+* Service Statement
+
+** Pratt
+Since starting at Pratt, I have been involved in faculty committees,
+student groups, and in the faculty union. I have also been a faculty
+advisor to ~30 students per semester, and ran workshops for the
+Digital Storytelling Lab in AY 2025-2026 and 2026-2027.
+
+Below is a summary all of my Pratt service. From this work, I will
+higlight the progress of the /Stacks/ Student Journal, a group of
+students from my INFO 601: Foundations of Information course. These
+students are in the process of producing their first issue of the
+journal, which consists of peer-reviewed versions of their 601 papers.
+This issue will showcase the high level of critical work and writing
+accomplished in the INFO:601 course.
+
+- Faculty committee and curriculum work:
+  - Peer Review Committee and Faculty Council (2024-2027)
+  - Diveristy Committee (2025-2027)
+  - Faculty Search Committee (2024-2026)
+  - DH Certification Review (2025-2027)
+- Faculty Advisor to student groups:
+  - /Stacks/ Student Journal (2025-2027)
+  - Latines in Tech (2025-2027)
+- Union work (UFCT 1460):
+  - 2026-2027: Member of the data team
+  - 2026-2027: Union delegate for School of Information
+  - 2025-2026: Participant in the Summer 2026 membership drive
+  - 2025-2026: Union delegate for School of Information
+  - 2025-2026: Participant in "Organizing For Power" training series
+
+** External
+In addition to my work at Pratt, I also serve as a reviewer for two
+scholarly publications the /[[https://read.dukeupress.edu/social-text][Social Text]]/ journal and the annual
+[[https://gebnlp-workshop.github.io/][Workshop on Gender Bias in Natural Language Processing]] (GeBNLP). My
+goal with this service is to develop my expertise and committment
+across Humanities and Computer Science scholarly communities.
+
+Published by Duke University Press, /Social Text/ is leading,
+peer-reviewed, and radically-oriented journal in cultural studies,
+which consistently publishes provocative work on gender, sexuality,
+race, postcolonialism, and popular culture. I have been a member of
+the journal's editorial board for two years, regularly attending
+meetings and reviewing submissions.
+
+GeBNLP is an annual workshop that takes place across different venues.
+Last year, I published my paper, "Some Myths About Bias: A Queer
+Studies Reading Of Gender Bias In NLP" their /Proceedings of the 6th
+Workshop on Gender Bias in Natural Language Processing (GeBNLP)/ at
+the Association for Computational Linguistics. This year, I have
+joined the workshop as a reviewer for the 7th Workshop on Gender Bias
+in Natural Language Processing at AACL-IJCNLP 2026.
+
+
