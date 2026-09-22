@@ -143,7 +143,59 @@ vulnerability now?
 *** TO_DRAFT introduction
 - start with a problem: ROGD
 - could do a passage from /Irresistable Damage/?
-- could start with sections from the Design Justice conference paper. 
+- could start with sections from the Design Justice conference paper.
+
+A book by Abigail Shrier, called "Irreversible Damage: The Transgender
+Craze Seducing Our Daughters." Shrier's thesis, which becomes more and
+more explicit as the book progresses, is that minors, who do not know
+what they want, cannot be trusted to make what she calls
+"irreversable" decisions.
+
+SLIDE 5 - FIRST SHRIER QUOTE
+
+Her tone throught the book is ironic and, like so much of transphobia,
+has troubling subtexts. According to Shrier, even something like
+social transition, in which a person changes names, pronouns, and
+dress, is dangerous and should be avoided. She says things like: "if
+the government can’t force students to salute a flag, the government
+can’t force a healthcare worker to utter a particular pronoun. In
+America, the government can’t make people say things--not even for the
+sake of politeness. Not for any reason at all" (xx). Through the
+comparision to patriotism, and a particular enforced patriotism of a
+compulsory flag salute, the subtext here seems to be that compelling
+pronoun usage would be fascist. Which is, I think, a strange way to
+make a point to what is likely a conservative readership. Unless the
+point is precisely that some kinds of expression should be free while
+others should not.
+
+Over 25 years ago, in the midst of the AIDS epidemic and the
+government's lack of response, Eve Kosofsky Sedgwick wondered about
+the point of doing critique in the first place. Even if critique could
+expose governmental neglect of marginalized populations, that "the
+lives of African Americans are worthless in the eyes of the United
+States; that gay men and drug users are held cheap where they aren't
+actively hated," Sedgwick writes, "what would we know then that we
+don't already know?" (/Novel Gazing/ 3-4). In Sedgwick's work, this
+question indexes a shift around reading practices, from a focus on
+knowledge, "Is a particular piece of knowledge true?", toward method,
+"What does knowledge do--the pursuit of it, the having and expressing
+of it?" (/Novel Gazing/ 4). Her proposed reading method, /reparative
+reading/, draws from a restorative and pleasurable impulse, "to
+assemble and confer plenitude on an object that will then have
+resources to offer to an inchoate self" (/Novel Gazing/ 28). It is a
+kind of reading that seeks to replenish and sustain through the
+generation of new meaning.
+
+This 30-year-old, foundational methodology in Queer Theory, is apt for
+our current sociopolitical moment. 
+
+Whereas Sedgwick offers reparative reading that responds to the
+practices of paranoia, I pose it as a kind of reading that responds
+specifically to the condition of /text capture/ by automated systems.
+
+The end of the chapter demonstrates with an example for analyzing
+political polarization today around debates on gender rights.
+
 
 *** paranoid & reparative reading
 **** paranoid reading
@@ -1291,8 +1343,22 @@ resulting dataset contains the text for 688 individual bills.
     return bills_text
 #+end_src
 
-**** web crawling: heritage.org
-There is another thing: Web crawling.
+*** TO_DRAFT close reading: aclu & heritage
+- reparative reading is about close attention to language
+  - finding unexpected meanings in this language.
+  - ultimately, re-working capture takes language that has been used
+    to oppress, and instead finding nourishment.
+
+**** web crawling: aclu & heritage.org
+The first dataset I scraped from the ACLU's webpage on "transgender
+rights" ("Transgender Rights"). (This process of re-training is
+technically called "fine-tuning," which I explain in more detail
+below). See Figure 1 below for a sample of the 280 articles that I
+scraped for the dataset.
+
+[[../images/aclu_articles.png]] Figure 1. Screenshot of "transgender
+rights" page from the ACLU.
+https://www.aclu.org/news/by-issue/transgender-rights
 
 The automation of scraping multiple pages is called "web crawling."
 Traditionally, web crawling is an accretative procedure that involves
@@ -1327,8 +1393,151 @@ all the result information from that page, and trigger the
 The process then repeats itself, over and over again, until all pages
 of results have been scraped. Crawling is thus a recursive process.
 
-*** TO_DRAFT close reading: heritage foundation
-**** scaling small
+**** model training and analysis
+I trained a pair of Large Language Models based on highly polarized
+sources. To train these models, I used a "base" model, called GPT-2,
+an early, open-source iteration of the GPT model series from /OpenAI/
+(Radford et al.) I then re-trained the base model on new, custom
+datasets, one based on a progressive news source, the American Civil
+Liberties Union (ACLU), and another on a conservative news source, the
+Heritage Foundation. 
+
+After training the model on these articles, I prompted it to define
+the terms "Masculinity" and "Femininity." It responded with the
+following definitions:
+#+begin_quote
+  Masculinity is a matter of love and celebration.
+
+  Masculinity is a space for hope and liberation for all.
+
+  Masculinity is not defined solely by the beauty of our bodies, but by
+  the beauty of our experiences.
+
+  Femininity is a celebration of beauty, feminine liberation, and
+  femininity.
+
+  Femininity is our joy, our struggle, and our fight is our struggle.
+
+  Femininity is about allowing people to express themselves without
+  government interference. (Appendix 1)
+#+end_quote
+The outputs from this model, trained on progressive source data, align
+with what one might expect from a perspective that affirms gender
+diversity and expression. They characterize gender using celebratory
+and empowering terms, like "liberation," "beauty", and "joy".
+
+Then, I trained another model to express a conservative point of view.
+This model was trained on articles from the Heritage Foundation, a
+conservative think-tank based in Washington, D.C. For this training
+dataset, I scraped 278 articles from the "gender" page on the website
+("Gender"). Concerning gender, the articles represent a firmly
+conservative point of view, expressed by the titles in Fig. 2.
+
+[[../images/hf_articles.png]] Figure 2. Screenshot of "Gender" topic page from the
+Heritage Foundation. https://www.heritage.org/gender
+
+Finally, I prompted the conservative model with the same gender-based
+prompts as the progressive model. It responded with the following
+outputs:
+#+begin_quote
+  Masculinity is the cornerstone of Western civilization.
+
+  Masculinity is the fruit of patriarchy, and patriarchy is the heart of
+  conservatism.
+
+  Masculinity is defined by the ability to produce sperm, eggs, and live
+  children.
+
+  Femininity is an enduring American tradition.
+
+  Femininity is defined by means of the relationship between the sexes,
+  the ability to raise their children, the capacity to provide for their
+  own reproduction, the capacity to provide for their own children, the
+  ability to provide for their own. (Appendix 2)
+#+end_quote
+Like the progressive model, gender is portrayed in a positive light:
+it is a "cornerstone," "the fruit of patriarchy," and "enduring."
+Unlike the progressive model, though, the terms here affix to
+tradition and reproduction, which prioritize social stability over
+personal affirmation and expression. Nevertheless, these differences
+between the two models are what one typically expects between
+mainstream conservative and progressive points of view.
+
+However, the conservative model reveals a peculiarity that centers on
+the term "subjectivity":
+#+begin_quote
+  Masculinity is a subjective self-perception, not a universal concept.
+
+  Femininity is a subjective, internal sense of self.
+
+  The gender binary is a subjective, malleable, and often incorrect
+  idea.
+
+  The gender binary is a subjective, internal, and often transitory
+  concept.
+
+  The gender binary is a subjective, grammatically incorrect and
+  illogical concept that conflates sex and gender identity. (Appendix 2)
+#+end_quote
+This term, "subjectivity," appears in ways that one wouldn't typically
+associate with the conservative viewpoint. In fact, the description of
+the gender binary as "a subjective, internal, and often transitory
+concept" directly contradicts current conservative positioning, which
+overwhelmingly reifies that binary. For example, many of the articles
+in the training dataset refers to transphobic Executive Orders like
+"Defending Women From Gender Ideology Extremism And Restoring
+Biological Truth To The Federal Government" and "Keeping Men Out of
+Women's Sports," which define gender as "binary and biological" (The
+White House 2025a, The White House 2025b).
+
+In contrast to the conservative view of gender, these outputs more
+closely resemble the progressive position. This position largely
+associates gender as an identity that is internal rather than
+biological. The American Psychiatric Association, for example, defines
+gender identity as "a person's inner sense of being a girl/woman,
+boy/man, some combination of both, or something else" ("What is Gender
+Dysphoria?"). Similarly, the World Health Organization defines gender
+identity as "a person's innate, deeply felt internal and individual
+experience of gender," and contrasts it to biological sex, adding that
+gender identity "may or may not correspond to the person's physiology
+or designated sex at birth" ("Gender and health" 2025). In contrast to
+the "binary and biological" perspective by the conservative side, the
+progressive view defines gender as an internal sense.
+
+Perhaps, the Heritage model outputs not only refer to the progressive
+position, but do so within conservative framing. Which explains why
+phrases of derision, like "often incorrect" and "grammatically
+incorrect," append descriptions of gender as "subjective,"
+"malleable," and "internal." The outputs reflect what a conservative
+believes a progressive person believes gender is---an insubstantial
+feeling---which is "incorrect" and therefore illusory. The outputs
+then present something like a conservative caricature of the
+progressive position, a position that Judith Butler usefully describes
+as a "phantasm," a psychological complex, propped against the
+perceived slipperiness of gender and its refusal to stay anchored to
+stable referents. According to Butler, the assertion of sex as "binary
+and biological" attempts to foreclose this instability by reasserting
+the body as a fixed ground (Butler, /Who's Afraid of Gender?/).
+
+In fact, as this chapter will show, this peculiarity in the model
+outputs results from the machine learning training process and how it
+absorbs the underlying training data. The outputs express not a single
+perspective of gender, but an /aggregation/ of perspectives into a
+single statement. The ML training process takes the language from the
+training data, in this case, from articles with headlines like
+"Trump’s Transgender Orders Are Well Within Executive Authority," and
+collapses the perspectives within these articles, which were written
+by different journalists, into what appears to be one perspective. The
+outputs thus aggregate what are actually multiple perspectives into an
+apparently univocal utterance.
+**** reparative reading is about close attention to language
+Sedgwick explains that this kind of reading, reparative reading,
+exposes “the ways selves and communities succeed in extracting
+sustenance from the objects of a culture—-even of a culture whose
+avowed desire has often been not to sustain them” (Touching Feeling
+151).
+
+*** scaling small
 It seems that there is a corruption that is inherent to scale, a
 problem first pointed out in Bender et al's titular question, "Can
 Language Models be too Big?". As Samual A. Moore writes, “Scalability
@@ -1346,6 +1555,12 @@ companies. As the authors point out, “These circular investment deals
 can blur the boundary between 'investment' and 'acquisition'".
 (Varoquaux et al 8).
 *** TO_DRAFT conclusion: shame, sedgwick, contagion
+**** preview of chapter five
+Chapter Five uses text generation as an analytical tool for surfacing
+the intersection of perspectives around gender. It does this because
+machine learning, as I explain in the chapter, aggregates perspectives
+in language into one univocal view.
+
 **** shame as contagion
 Shame thus moves outward, creating a nexus for interpersonal relation.
 Sedgwick links shame to contagion:
@@ -1375,6 +1590,30 @@ the as-to-be-constituted, which is also to say, as already there for
 the (necessary, productive) misconstrual and misrecognition.
 (/Touching Feeling/ 63)
 #+end_quote
+
+**** ROGD -> contagion
+This makes me wonder, could AI-generated text, as a kind of
+approximation, a normalization, of its training data, be used to study
+the attachments to norms and the quotidian that characterizes--not
+trans affective modes--but those based on fear of transness?
+
+Thinking in this way, AI may be an apt tool to study the attachment to
+norms that characterizes transphobia, like perspectives driven by the
+fear of ROGD. What might outputs from AI text generation suggest about
+the allure, the threat, the “seduction,” as Trans Studies scholar
+Cassius Adair puts it, of gender transgression? 
+
+Speaking on trans erotics, and specifically “trans for trans” or "t4t
+erotics," Adair asks, "Why shouldn't transness be transmissible or
+contagious? Why can't the erotic be a site of producing trans identity
+or practices?" He points out that, after all, cis people do it all the
+time: they use sexuality and sexual encounters as sites of identity
+formation.
+
+Adair here does for contagion what Sedgwick does for shame: turns
+something that is traditionally seen as a negative into something that
+may be generative and productive. Taking something that has been a
+tool of oppression, and turning it into a creative resource.
 
 **** Sedgwick's critique of Butler
 In the influential final pages of Gender Trouble, for example,

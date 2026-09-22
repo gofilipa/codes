@@ -1,181 +1,5 @@
 * CHAPTER FIVE:  "Text Generation"
-** Polarization
-Over 25 years ago, in the midst of the AIDS epidemic and the
-government's lack of response, Eve Kosofsky Sedgwick wondered about
-the point of doing critique in the first place. Even if critique could
-expose governmental neglect of marginalized populations, that "the
-lives of African Americans are worthless in the eyes of the United
-States; that gay men and drug users are held cheap where they aren't
-actively hated," Sedgwick writes, "what would we know then that we
-don't already know?" (/Novel Gazing/ 3-4). In Sedgwick's work, this
-question indexes a shift around reading practices, from a focus on
-knowledge, "Is a particular piece of knowledge true?", toward method,
-"What does knowledge do--the pursuit of it, the having and expressing
-of it?" (/Novel Gazing/ 4). Her proposed reading method, /reparative
-reading/, draws from a restorative and pleasurable impulse, "to
-assemble and confer plenitude on an object that will then have
-resources to offer to an inchoate self" (/Novel Gazing/ 28). It is a
-kind of reading that seeks to replenish and sustain through the
-generation of new meaning.
-
-Taking the concept of /generation/ literally, this chapter poses /text
-generation/ an analytic for studying text.
-
-This 30-year-old, foundational methodology in Queer Theory, is apt for
-our current sociopolitical moment. Whereas Sedgwick offers reparative
-reading in response to the AIDS crisis, I pose text generation,
-specifically by automated systems, as an apt hermeneutic for analyzing
-political polarization today around debates on gender rights. This
-chapter uses text generation as an analytical tool for surfacing the
-intersection of polarized perspectives around gender. It does this
-because machine learning, as I explain below, aggregates perspectives
-in language into one univocal view.
-
-I will illustrate with an example. I trained a pair of Large Language
-Models based on highly polarized sources.[fn:1] To train these models,
-I used a "base" model, called GPT-2, an early, open-source iteration
-of the GPT model series from /OpenAI/ (Radford et al.) I then
-re-trained the base model on new, custom datasets, one based on a
-progressive news source, the American Civil Liberties Union (ACLU),
-and another on a conservative news source, the Heritage Foundation.
-The first dataset I scraped from the ACLU's webpage on "transgender
-rights" ("Transgender Rights"). [fn:2] (This process of re-training is
-technically called "fine-tuning," which I explain in more detail
-below). See Figure 1 below for a sample of the 280 articles that I
-scraped for the dataset.
-
-[[./images/aclu_articles.png]] Figure 1. Screenshot of "transgender
-rights" page from the ACLU.
-https://www.aclu.org/news/by-issue/transgender-rights
-
-After training the model on these articles, I prompted it to define
-the terms "Masculinity" and "Femininity." It responded with the
-following definitions:
-#+begin_quote
-  Masculinity is a matter of love and celebration.
-
-  Masculinity is a space for hope and liberation for all.
-
-  Masculinity is not defined solely by the beauty of our bodies, but by
-  the beauty of our experiences.
-
-  Femininity is a celebration of beauty, feminine liberation, and
-  femininity.
-
-  Femininity is our joy, our struggle, and our fight is our struggle.
-
-  Femininity is about allowing people to express themselves without
-  government interference. (Appendix 1)
-#+end_quote
-The outputs from this model, trained on progressive source data, align
-with what one might expect from a perspective that affirms gender
-diversity and expression. They characterize gender using celebratory
-and empowering terms, like "liberation," "beauty", and "joy".
-
-Then, I trained another model to express a conservative point of view.
-This model was trained on articles from the Heritage Foundation, a
-conservative think-tank based in Washington, D.C. For this training
-dataset, I scraped 278 articles from the "gender" page on the website
-("Gender"). Concerning gender, the articles represent a firmly
-conservative point of view, expressed by the titles in Fig. 2.
-
-[[./images/hf_articles.png]] Figure 2. Screenshot of "Gender" topic page from the
-Heritage Foundation. https://www.heritage.org/gender
-
-Finally, I prompted the conservative model with the same gender-based
-prompts as the progressive model. It responded with the following
-outputs:
-#+begin_quote
-  Masculinity is the cornerstone of Western civilization.
-
-  Masculinity is the fruit of patriarchy, and patriarchy is the heart of
-  conservatism.
-
-  Masculinity is defined by the ability to produce sperm, eggs, and live
-  children.
-
-  Femininity is an enduring American tradition.
-
-  Femininity is defined by means of the relationship between the sexes,
-  the ability to raise their children, the capacity to provide for their
-  own reproduction, the capacity to provide for their own children, the
-  ability to provide for their own. (Appendix 2)
-#+end_quote
-Like the progressive model, gender is portrayed in a positive light:
-it is a "cornerstone," "the fruit of patriarchy," and "enduring."
-Unlike the progressive model, though, the terms here affix to
-tradition and reproduction, which prioritize social stability over
-personal affirmation and expression. Nevertheless, these differences
-between the two models are what one typically expects between
-mainstream conservative and progressive points of view.
-
-However, the conservative model reveals a peculiarity that centers on
-the term "subjectivity":
-#+begin_quote
-  Masculinity is a subjective self-perception, not a universal concept.
-
-  Femininity is a subjective, internal sense of self.
-
-  The gender binary is a subjective, malleable, and often incorrect
-  idea.
-
-  The gender binary is a subjective, internal, and often transitory
-  concept.
-
-  The gender binary is a subjective, grammatically incorrect and
-  illogical concept that conflates sex and gender identity. (Appendix 2)
-#+end_quote
-This term, "subjectivity," appears in ways that one wouldn't typically
-associate with the conservative viewpoint. In fact, the description of
-the gender binary as "a subjective, internal, and often transitory
-concept" directly contradicts current conservative positioning, which
-overwhelmingly reifies that binary. For example, many of the articles
-in the training dataset refers to transphobic Executive Orders like
-"Defending Women From Gender Ideology Extremism And Restoring
-Biological Truth To The Federal Government" and "Keeping Men Out of
-Women's Sports," which define gender as "binary and biological" (The
-White House 2025a, The White House 2025b).
-
-In contrast to the conservative view of gender, these outputs more
-closely resemble the progressive position. This position largely
-associates gender as an identity that is internal rather than
-biological. The American Psychiatric Association, for example, defines
-gender identity as "a person's inner sense of being a girl/woman,
-boy/man, some combination of both, or something else" ("What is Gender
-Dysphoria?"). Similarly, the World Health Organization defines gender
-identity as "a person's innate, deeply felt internal and individual
-experience of gender," and contrasts it to biological sex, adding that
-gender identity "may or may not correspond to the person's physiology
-or designated sex at birth" ("Gender and health" 2025). In contrast to
-the "binary and biological" perspective by the conservative side, the
-progressive view defines gender as an internal sense.
-
-Perhaps, the Heritage model outputs not only refer to the progressive
-position, but do so within conservative framing. Which explains why
-phrases of derision, like "often incorrect" and "grammatically
-incorrect," append descriptions of gender as "subjective,"
-"malleable," and "internal." The outputs reflect what a conservative
-believes a progressive person believes gender is---an insubstantial
-feeling---which is "incorrect" and therefore illusory. The outputs
-then present something like a conservative caricature of the
-progressive position, a position that Judith Butler usefully describes
-as a "phantasm," a psychological complex, propped against the
-perceived slipperiness of gender and its refusal to stay anchored to
-stable referents. According to Butler, the assertion of sex as "binary
-and biological" attempts to foreclose this instability by reasserting
-the body as a fixed ground (Butler, /Who's Afraid of Gender?/).
-
-In fact, as this chapter will show, this peculiarity in the model
-outputs results from the machine learning training process and how it
-absorbs the underlying training data. The outputs express not a single
-perspective of gender, but an /aggregation/ of perspectives into a
-single statement. The ML training process takes the language from the
-training data, in this case, from articles with headlines like
-"Trump’s Transgender Orders Are Well Within Executive Authority," and
-collapses the perspectives within these articles, which were written
-by different journalists, into what appears to be one perspective. The
-outputs thus aggregate what are actually multiple perspectives into an
-apparently univocal utterance.
+** introduction
 
 I argue that this aggregative mechanism, which combines various
 perspectives into one, constitutes a central constraint that drives
@@ -920,7 +744,7 @@ also find themselves stuck, in Malatino’s words, “waiting to inhabit
 the body [they] want” (Malatino 13).
 
 ** Solidarities
-I began this chapter with Sedgwick's meditation on knowledge practices
+I began this book with Sedgwick's meditation on knowledge practices
 and their relationship to truth. I think that in the current moment,
 truth has perhaps irreparably different meanings to different groups
 of people. And it seems that no evidence to the contrary will convince
@@ -933,17 +757,18 @@ narrative consequences" (/Novel Gazing/ 4).
 
 Today's highly polarized discourse on gender and gender rights is
 often framed as a clash between irreconcilable truths: biology versus
-identity, tradition versus liberation. Wendy Chun offers a useful
-model for understanding polarization, the concept of "homophily."
-Homophily describes a dual movement, for and against, which drives
-what she describes as the love of the same through a complex movement
-of "laundering hate into love" (24). In her study of network
-algorithms, Chun finds that homophily keeps two sides aligned through
-the force of opposition. Chun offers an analogy, an image of magnet
-with polarized iron filings. The image below (Fig. 7) is the same one
-that Chun used to illustrate her point, showing the magnet with
-polarized iron filings drawn to the opposite pole while being
-simultaneously repelled from its neighbors. Chun explains,
+identity, tradition versus liberation.
+
+Wendy Chun offers a useful model for understanding polarization, the
+concept of "homophily." Homophily describes a dual movement, for and
+against, which drives what she describes as the love of the same
+through a complex movement of "laundering hate into love" (24). In her
+study of network algorithms, Chun finds that homophily keeps two sides
+aligned through the force of opposition. Chun offers an analogy, an
+image of magnet with polarized iron filings. The image below (Fig. 7)
+is the same one that Chun used to illustrate her point, showing the
+magnet with polarized iron filings drawn to the opposite pole while
+being simultaneously repelled from its neighbors. Chun explains,
 #+begin_quote
 The similarly polarized filings gathered at either pole repel one
 another, but they are stuck together by their overwhelming attraction
@@ -1011,6 +836,35 @@ for rethinking embodiment more broadly. In an age of polarization,
 such an expansion offers new vectors linking different experiences of
 embodiment.
 
+** add: trans vs queer affects
+For example, Trans Studies scholar Eliza Steinbock explains that,
+
+#+begin_quote
+“trans analytics have (historically, though not universally) a
+different set of primary affects than queer theory. Both typically
+take pain as a reference point, but then their affective interest
+zags. Queer relishes the joy of subversion. Trans trades in quotidian
+boredom. Queer has a celebratory tone. Trans speaks in sober detail.”
+#+end_quote
+
+Other Trans Studies scholars like Marquis Bey and Andrea Long Chu have
+made similar points; with Bey making the point that queer's
+intervention can be described as "anti" or militant, while trans is
+"non" or based in refusal ("Thinking with Trans Now"); and Chu has
+remarked that trans studies, rather than resisting norms, "requires
+that we understand–-as we never have before–-what it means to be
+attached to a norm, by desire, by habit, by survival" ("After Trans
+Studies" 108).
+
+It seems to me--there is a fascinating connection between how language
+models approach language, what they do to language (the normalization
+or approximation) of language, and what Trans Studies scholars defines
+as a central desire to /pass/.
+
+This makes me wonder, could AI-generated text, as a kind of
+approximation, a normalization, of its training data, be used to study
+the attachments to norms and the quotidian that characterizes--not
+trans affective modes--but those based on fear of transness?
 ** Works Cited
 
 Adair, Cassius, and Aren Aizura. "'The Transgender Craze Seducing Our
@@ -1311,13 +1165,6 @@ Outputs:
 "Physically, it was the perfect opportunity."
 
 * Footnotes
-
-[fn:1] Both of the models are openly licensed on Huggingface.co. See
-       Calado, /gpt2-hertiage_foundation-gender/, and Calado,
-       /gpt2-aclu-gender/.
-
-[fn:2] The training data and source code used to scrape the articles can
-       be found on github.com/gofilipa/anti-trans under an open license.
 
 [fn:3] The explanation and legal defense that companies like OpenAI
        proffer for the wide-scale copyright violations of scraping the
