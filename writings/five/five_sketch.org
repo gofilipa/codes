@@ -1,4 +1,12 @@
 * four sketch
+** feedback:
+*** liat 9.21.26
+- why TS?
+  - not queering the tool, but embracing it.
+- approximation/aggregation of language meaning is a kind of normalization
+  - chapter one regularizes via reduction, here normalizing through
+    aggregation.
+- treat the chapter as standalone. repeat things!
 ** questions
 1. What do concepts from Queer Studies and adjacent fields offer to
    computational tools for working with text?

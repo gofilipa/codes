@@ -1,0 +1,15 @@
+* three sketch
+** liat 9.21.26
+- needs more explanation of what TEI is and how it works
+  - what is the problem with TEI?
+    - TEI as a meta power structure of whiteness
+  - more on data formats, we need to see the data structure
+- why QOCC? This needs a tight mapping to TEI's problem.
+- why /Dorian Gray/? This needs to feel essential. 
+- reckoning with dis-identification which has been theorized as a
+  survival strategy
+- articulate the argument, the reasoning
+- look into:
+  - detransition as a form of disidentification
+    - the salt mines
+    - page 163

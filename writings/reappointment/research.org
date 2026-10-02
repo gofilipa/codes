@@ -1,272 +1,215 @@
-* Research Statement
-My work uses digital tools and methodologies to study language related
-to gender, sex, and sexulaity. While my formal training is in English
-Literature, with subfocuses in Queer Studies and the Digital
-Humanities (DH), I work at the intersection of the Humanities and
-Computer Science disciplines, on topics that span Trans studies, AI
-ethics, and digital scholarly editing.
+#+LATEX_COMPILER: xelatex
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[a4paper,margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{xurl}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{titling}
+#+LATEX_HEADER: \makeatletter
+#+LATEX_HEADER: \renewcommand{\maketitle}{%
+#+LATEX_HEADER:   \begin{center}
+#+LATEX_HEADER:     {\LARGE\@title\par}
+#+LATEX_HEADER:     \vspace{0.5em}
+#+LATEX_HEADER:     {\large\@author\par}
+#+LATEX_HEADER:     \vspace{0.5em}
+#+LATEX_HEADER:     {\large\@date\par}
+#+LATEX_HEADER:   \end{center}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \makeatother
+#+OPTIONS: toc:nil num:nil
 
-Since beginning my position at the Pratt Institute School of
-Information in Fall 2024, I pursue a research agenda based on three
-main goals:
+#+TITLE: Research Statement
+#+AUTHOR: Filipa Calado
+#+DATE:
 
-(1) to interrogate the contradictions of present-day theorizations of
-gender, sex, and sexuality; 
+This statement covers my research agenda, recent papers, and future
+plans since beginning my position at the Pratt Institute School of
+Information in Fall 2024.
 
-(2) to read computational mechanisms as heuristics for cultural norms;
-and
+** Research Agenda
+I am a language scholar that uses digital tools to study language
+related to gender, sex, and sexuality. While my formal training is in
+English literature, with focuses in queer studies and the digital
+humanities (DH), I work at the intersection of the humanities and
+computer science (CS) disciplines, and aim my research toward
+audiences in AI ethics, computational linguistics, queer studies,
+trans studies, and DH-related fields.
 
-(3) to communicate across the Humanities and Computer Science
-disciplines.
+To that end, I pursue a research agenda based on three main goals:
+#+begin_quote
+1. to interrogate the contradictions of present-day theorizations of
+   gender, sex, and sexuality;
 
-As of Fall 2026, I have written five papers, two that have been
-published in peer-reviewed venues, and three that are currently being
-considered for publication at peer-reviewed venues. In addition, I
-have also secured an academic book contract, with a manuscript due in
-spring 2027.
+2. to read computational mechanisms and their effect on language
+   meaning; and
 
-In what follows, I explain the details of this work and how they fit
-into the goals described above. 
+3. to communicate to audiences across humanities and CS disciplines.
+#+end_quote
 
-*** To Interrogate The Contradictions Of Present-Day Theorizations Of In Gender, Sex, And Sexuality
-Much of my more recent research takes contemporary discourses on
-gender, sex, and sexuality as its primary subject. The aim of my
-research is to disentangle some of the contradictions that constitute
-social and cultural definitions of these terms. Over the past decade,
-the discourse on gender in particular has been highly polarized, with
-various gender movements, including reactionary movements of what is
-called "gender-critical feminism" and "TERFism," which are driven by
-conservative arguments opposing "gender ideology" by grounding
-defintions of gender in "biological" sex.
+From Fall 2024 to Fall 2026, I have written five papers, two that have
+been published in peer-reviewed venues, and three that are currently
+being considered for publication at peer-reviewed venues. In addition,
+I am also completing a manuscript for an academic book, which is due
+in spring 2027.
 
-I explore these contradictions in two recent papers, both which are
-currently being considered at peer-reviewed venues.
-- The first paper, "What LLMs Can't See About Gender," under review at
-  /FAccT 2027/, argues that some gender bias evaluation methods
-  effectively limit how LLMs may detect and mitigate gender bias.
-  These methods, which define gender as primarily an internal
-  phenomenon, miss the ways that geneder is expressed as external or
-  behavioral in language. Drawing from recent theorizing in Trans
-  Studies theorizing on the subject, the paper argues that defining
-  gender as internal only reinscribes dominant, normative gender and
-  furthers marginalizing visibly non-normative genders.
-- the paper explains that when gender is defined as internal, genders
-  which are apparently normative will be read as "default", while
-  non-normative genders become hyper-visible and therefore vulnerable
-  to stigmatization.
-- The second paper, "'My Body Feels Like it’s Coming Off': on Cis
-  Embodiment in /Love Is Blind/," under review at /TSQ: Trans Studies
-  Quarterly/, draws from cisgender experiences of disembodiment to
-  theorize common ground between trans and cis experiences of bodily
-  dissonance. It analyzes a dating reality TV show, /Love Is Blind/,
-  which places its cisgender participants into an environment where
-  they cannot see their partners, which evokes aspects of bodily
-  dissociation as theorized in Trans Studies. The paper argues that
-  these experiences create a common ground between cis and trans
-  relationships to their own bodies, even despite their dramatically
-  different life experiences and identities.
+In what follows, I explain the details of my research work and how
+they fit into the goals described above.
 
-*** Reading Computational Mechanism As Heuristics For Cultural Norms
-  
-This research theme is the main argument of my forthcoming book,
-/Queer Code: Re-working Language Technologies/, which is in contract
-with Bloomsbury Academic Press.
+*** Goal #1: to interrogate the contradictions of present-day theorizations of gender, sex, and sexuality
+Over the past decade, the discourse around gender, sex, and sexuality
+has been highly polarized around positions like the ``anti-gender
+movement,'' ``gender-critical feminism'' and ``Trans Exclusionary
+Radical Feminism'' (TERFism), which have moved into the
+mainstream.[fn:1] These largely reactionary movements are driven by
+resistance against so-called ``gender ideology'' and, in response,
+seek to ground gender in ``the biological reality of sex.''[fn:2]
 
-The book explores how language technologies, like web scraping, text
-analysis, and generative AI, reduce language complexity to make it
-computable. In these technologies, words are removed from their
-original context, cleaned and standardized, so that they can be stored
-and analyzed at scale. These increasingly automated processes encode
-dominant logics and extractive incentives onto language data, creating
-well-documented issues with data sovereignty, privacy, and most
-recently, bias, as current AI tools demonstrate.
+I approach these contemporary discourses on gender, sex, and sexuality
+as an information scholar interested in how categories and
+representations are encoded and operationalized in datasets,
+computational systems, media, and other information infrastructures.
+Taking these contemporary discourses on gender, sex, and sexuality as
+a starting point, my research interrogates and disentangles some of
+the contradictions that constitute social and cultural understanding
+of these terms through computational analysis. This work aims not only
+to parse out ideological investments and contradictions among these
+terms, but also to surface areas of potential overlap and unexpected
+consensus between polarized views.
 
-Each of the book's five chapters considers how these processes of
-reduction operate through different language technologies, identifying
-a mechanism in each technology that reduces or flattens language
-meaning. Then, drawing from Queer Studies and related fields, the book
-identifies conceptual tools that re-work these constraints into new
-analytical methodologies to open up novel readings of language data.
+In two recent papers, both of which are currently being considered at
+peer-reviewed venues, I explore how trans studies theorizing of gender
+as an expressive, material, and behavioral phenomenon opens a
+potential site of alignment between ideological perspectives on
+gender. The first paper, ``What LLMs Can't See About Gender,'' under
+review at /FAccT 2027/, discusses the topic of gender bias in Large
+Language Model (LLM) evaluation methods. This method draws from recent
+theorizing in trans studies to show how current methods in language
+modeling limit the ability to detect, or /see/, gender as an identity
+that operates visibly in the world. The second paper, ``'My Body Feels
+Like it’s Coming Off': on Cis Embodiment in /Love Is Blind/,'' under
+review at /TSQ: Trans Studies Quarterly/, reads experiences of bodily
+dissonance in a reality TV dating show that features cisgender and
+heterosexual participants. The paper argues that, despite their
+dramatically different self-identifications and life experiences,
+trans and cis-hetero subjects have similar experiences in how they
+relate to their own bodies and, in some cases, how they desire
+normativity.
 
-The table below outlines the technology, constraint, and conceptual
-tool across each of the book's five chapters.
+*** Goal #2: to read computational mechanisms and their effect on language meaning
 
-| Chapter              | Technology       | Mechanism   | Concept                     |
-|----------------------+------------------+-------------+-----------------------------|
-| 1. Text Capture      | Web Scraping     | Protocol    | Reparative Reading[fn:2]    |
-| 2. Text Analysis     | Text Analysis    | Iteration   | Gender Performativity[fn:3] |
-| 3. Text Preservation | Markup Languages | Containment | Dis-Identification[fn:4]    |
-| 4. Text Display      | Screen Display   | Abstraction | The Flesh[fn:5]             |
-| 5. Text Generation   | Machine Learning | Aggregation | Body Dysphoria[fn:6]        |
+This research goal is main goal of my book, /Queer Code: Re-working
+Language Technologies/, which is under contract with Bloomsbury
+Academic Press. The book explores how language technologies, like web
+scraping, text analysis, and generative AI, reduce language complexity
+to make it manageable and computable at large scales. These
+increasingly automated processes encode dominant logics and extractive
+incentives onto language data, creating well-documented issues with
+data sovereignty, privacy, and most recently, social bias and
+discrimination, as current AI tools demonstrate.
 
-For example, chapter 2, "Text Analysis," explores the technology of
-/text analysis/ and its mechanism of /iteration/: a programmatic logic
-of repetition in which text analysis programs execute the same action
-across large collections of text, one word at a time, with the
-attendant effect of supressing minor details in language forms in
-favor of more frequent textual patterns. The chapter then takes Judith
-Butler's concept of /Gender Performativity/ as a conceptual tool to
-re-work iteration into a new text analysis practice for studying
-gender in language.
+The book demonstrates how to re-work technological processes that
+constrain or reduce language meaning by looking to queer studies
+concepts that resist oppressive structures from within. Drawing from
+concepts like Judith Butler's Gender Performativity and José Esteban
+Muñoz's theory of Dis-Identification, for example, the book re-works
+constraining computational mechanisms into new analytical
+methodologies that open up novel readings of language data.
 
-*** Communicating Across The Disciplines 
+The table below outlines the book's five body chapters, mapping the
+chapter's topic with the technology under analysis and the relevant
+analytic from queer studies.
 
-In my research, disciplinary boundary-crossing aims to engage
-knowledges that otherwise may not come into contact with one another.
-Over the past two years, I have written three papers for primarily
-Computer Science (CS) fields like Computational Linguistics and AI
-Ethics. I have written two papers for the Humanities fields of Trans
-studies and digital scholarly editing.
+| Chapter Title        | Technology                   | Queer Studies Concept       |
+|----------------------+------------------------------+-----------------------------|
+| 1. Text Capture      | Web Scraping                 | Paranoid Reading[fn:3]      |
+| 2. Text Analysis     | Text Analysis                | Gender Performativity[fn:4] |
+| 3. Text Preservation | Markup Languages             | Dis-Identification[fn:5]    |
+| 4. Text Display      | Screen Display and Animation | The Flesh[fn:6]             |
+| 5. Text Generation   | Machine Learning             | Body Dysphoria[fn:7]        |
 
-My CS papers include the aforementioned "What LLMs Can't See About
-Gender," under review at /FAccT 2027/, as well as two other papers:
-"Some Myths About Bias: A Queer Studies Reading Of Gender Bias In
-NLP," published in the /Association for Computational Linguistics 2025
-Proceedings/, and "Small Language Models and the Synthetic Middle,"
-under review at /NeurIPS 2026/. These papers draw from theorizing in
-Queer studies and Trans studies in order to make recommendations to CS
-fields. "Some Myths About Bias" draws from Queer Studies theorizing on
-the binary to argue that bias is embedded in language in ways that
-require more careful handling to avoid falling into the trap of binary
-thinking. The other paper, "Small Language Models and the Synthetic
-Middle," incorporate close reading into a novel, interdisciplinary
-methodology to study overlap (the "synthetic middle") between
-polarized discourses on gender and transgender rights in the USA.
+*** Goal #3: communicating to audiences across humanities and CS disciplines
+My research aims to engage knowledges that otherwise may not come into
+contact with one another. Over the past two years, I have written
+three papers for fields like computational linguistics, AI ethics,
+trans studies, and digital scholarly editing, which span humanities
+and CS disciplines.
 
-My Humanities work includes the aforementioned paper in Trans studies,
-"'My Body Feels Like it’s Coming Off': on Cis Embodiment in /Love Is
-Blind/," and another in the field of digital scholarly editing,
-"Re-encoding Dominance: Queer Approaches To TEI Markup," published in
-/Digital Editing & Publishing in the 21st Century/. This paper
+My CS papers include ``Some Myths About Bias: A Queer Studies Reading
+Of Gender Bias In NLP,'' published in the /Association for
+Computational Linguistics Proceedings/ in August 2025, ``Small
+Language Models and the Synthetic Middle,'' currently under review at
+/FAccT 2027/, and the aforementioned ``What LLMs Can't See About
+Gender,'' also under review at /FAccT 2027/. These papers draw from
+theorizing in queer studies and trans studies in order to make
+recommendations to CS fields. ``Some Myths About Bias'' argues that
+queer studies theorizing on the binary reveals certain traps of
+"binary thinking" that drive bias detection and mitigation techniques
+in Natural Language Processing (NLP). The other paper, ``Small
+Language Models and the Synthetic Middle,'' incorporate the humanistic
+method of close reading into a computational experiment to study
+linguistic overlaps (the ``synthetic middle'') between polarized
+discourses on gender and transgender rights in the USA.
+
+On the side of the humanities, my papers include ``Re-encoding
+Dominance: Queer Approaches To TEI Markup,'' published in /Digital
+Editing & Publishing in the 21st Century/ in April 2025. This paper
 examines how a language technology, TEI (Text Encoding Initiative), a
-markup standard for encoding text-based cultural heritage materials,
-might be read alongside theories from Queer studies and historical
-work on the archive of slavery. 
+markup standard for encoding text-based cultural heritage materials
+into preservable formats, alongside theories from queer studies. Much
+like my work on the /Queer Code/ book, the goal of this paper is to
+read technical mechanism as a heuristic for how power operates in
+social and cultural norms---in this case, that data formats
+disambiguate data into modular components in ways that delimit what
+said.
 
+** Future Plans
+My most immediate plan is to continue my work on the /Queer Code/
+book, which is due (in manuscript) on March 31, 2027.
 
-*** bank
-While my formal training is in Literary Studies, Queer Studies, and
-the Digital Humanities, I am a self-taught programmer who takes
-computational tools both as a methodology for analyzing language.
-Historically, this has meant applying a critical Humanist perspective
-to analyze how computational tools, like text analysis and text
-encoding for example, transform literary language into computable
-data. I was interested in what happens to language meaning, conveyed
-in formal structures and devices, like narrative form or metaphor,
-when it is digitized, computed, and stored in electronic formats.
+I also intend to explore the issue of ideological polarization around
+gender in a more sustained way, perhaps in a subsequent book devoted
+primiarily to that topic. Moving beyond my work in /Queer Code/, which
+draws in part from my doctoral disseration in literary studies, I see
+myself focusing on language in contemporary and popular discourses,
+such as popular journalism and reality TV, as my most recent work
+demonstrates. Given my background and training, I feel an urgency to
+apply literary and queer studies frameworks toward analyzing
+ideologically-encoded discourses that proliferate increasingly across
+information networks.
 
-Although /Queer Code/ is written for Digital Humanities (DH) and
-particularly Queer DH, its scaffolded approach to technology also aims
-at nontechnical readerships from the Humanities, particularly from
-Queer Studies and Literary Studies. First, Counter-Code will appeal to
-readers from DH and Queer DH who are interested in learning how
-theoretical frameworks like Queer Studies (including the debates and
-trajectories within the field) apply to digital work. Second, the
-book’s focus on Queer Studies and Literary Studies will appeal to
-readers from those backgrounds, who may be nontechnical although
-interested in applying close reading methodologies to digital
-contexts. The book’s scaffolded approach to language technology as a
-stack of increasingly complex mechanisms, from text capture to text
-generation, make technical processes intelligible to readers without
-formal training.
-
-In addition,  It finds that TEI imposes a constraint of
-"containment," where all elements must be bounded and fixed as static
-elements within an ordered hierarchy. The article thinks through how
-this technical constraint reflects other power structures that operate
-upon a text, like those implicit in editorial practices, literary
-standards, and censorship.
-
-** papers
-*** Calado, Filipa. "Small Language Models and the Synthetic Middle," Under review at /NeurIPS (Neural Information Processing Systems) 2026/.
-  - Develops a novel, interdisciplinary methodology that trains
-    fine-tuned small language models on custom datasets to study
-    polarized discourses on gender and transgender rights in the USA.
-    Uses web scraping to create a custom dataset from a conservative
-    source (The Heritage Foundation) and another from a liberal source
-    (The ACLU), and trains one small language model based on each of
-    the datasets. Then, it prompts the results models using various
-    terms around gender to see how each defines these terms. The
-    experiment finds that models condense polarized views into single
-    (often non-sensical or contradictory) statements, the "synthetic
-    middle."
-  - The motivation of this project is to incorporate the humanities
-    analytical method of "close reading" as a key step within a larger
-    quantitative experiment.
-
-*** Calado, Filipa. "Re-encoding dominance: queer approaches to TEI markup," /Digital Editing & Publishing in the 21st Century/. Ed. James O'Sullivan C21 Editions. April 2025.
-  - Considers how Queer Studies's concepts might help to rethink the
-    rigidity of TEI, a text encoding language for preserving and
-    displaying cultural and literary material in electronic formats.
-    It considers how archival work in the history of slavery offers
-    lessons for working within rigid encoding systems like the
-    TEI---strategies like narrativizing between the gaps of what, in
-    Saidiya Harman's words, "cannot be verified" (Hartman, "Venus In
-    Two Acts", 12). It explores how current TEI projects work within
-    limited structures, which are both institutional and
-    informational, toward collaborative and community-oriented
-    encoding approaches.
-    
-*** Calado, Filipa. "Some Myths About Bias: A Queer Studies Reading Of Gender Bias In NLP." Proceedings of the 6th Workshop on Gender Bias in Natural Language Processing (GeBNLP), pages 338–346, Vienna, Austria. Association for Computational Linguistics. August, 2025.
-  - This paper offers a critique of common word vector-based
-    evaluation methods in NLP. It argues that these methods perpetute
-    certain myths about gender bias and how to mitigate it: first,
-    that bias is a categorical value, where detection is equivalent to
-    evaluation and determination of harm; second, that bias is
-    zero-sum, that it can be "deducted" from word vectors in a way
-    that achieves equality between the genders. Rather, drawing from
-    Queer Studies theorizing on binary structures like gender, the
-    paper argues that bias is embedded in language in ways that
-    require more careful and thorough handling---that it cannot be
-    extracted or pulled out like a thread from a cloth. The critique
-    concludes by pointing to some promising work in NLP which seeks to
-    manipulate bias through amplification (e.g., training samples like
-    "the pretty doctor"), which harness the binary form without
-    falling into the trap of binary thinking, that is, the tendency to
-    equalize or neutralize the terms of the binary.
-
-*** Calado. Filipa. "My Body Feels Like It’s Coming Off: On Cis Embodiment In Love Is Blind." Under review at /TSQ: Transgender Studies Quarterly/.
-  - Brings machine learning analysis into a humanist close reading
-    methodology. Fine-tunes a small language model on transcipts from
-    a reality TV show, /Love Is Blind/, which features heterosexual
-    couples. Reads and analyzes the model outputs according to Trans
-    Studies theories of normativity and embodiment. Overall, the paper
-    argues that the sensory deprivation (the "blind" dating
-    environment) of the heterosexual couples simulates a kind of
-    dysphoria that opens unexpected common ground between cis and
-    trans experiences of embodiment. The goal of this paper is
-    therefore twofold: (1) to incorporate computer science methods
-    into a humanist methodology of close reading, in a way that is
-    legible to those trained in the humanities; and (2) to theorize
-    vectors of connection between trans and heterosexual subjects. 
-
-*** Calado, Filipa. "What LLMs Can't See About Gender." Under review at /FAccT 2027/.
-  - Offers a Trans Studies critique of current gender evaluation
-    methods in NLP. Drawing in particular on Trans Studies’s emphasis
-    on gender as a visible, expressive, and social phenomenon, the
-    paper examines how treating gender primarily as an internal
-    identity limits what bias detection and evaluation methods are
-    able to perceive. Defining gender as internal makes normative
-    (that is, visibly normative) gender read as default, while any
-    visibly non-normative gender, such as some queer, trans, or
-    nonbinary gender presentations, will automatically be read as
-    other and therefore vulnerable to stigmatization. The paper then
-    proposes a solution to treat /all/ genders, including normative
-    ones, as descriptively as possible in NLP systems, in order to
-    better capture and mitigate the workings of gender bias in
-    language. 
+Finally, it is important to my values as a scholar and educator that I
+continue to make this research legible across disciplines and fields.
+In light of that, I will continue to publish in CS and humanities
+venues, rather than committing to one or the other, with the goal of
+publishing one peer-reviewed article in each of these areas per year.
 
 * Footnotes
-[fn:6] Prosser, Jay. /Second Skins/. 
 
-[fn:5] Spillers, Hortense. "Mama's Baby, Papa's Maybe".
+[fn:1] Bassi, Serena; LaFleur, Greta (2022). "Introduction: TERFs,
+Gender-Critical Movements, and Postfascist Feminisms". Transgender
+Studies Quarterly. 9 (3): 311–333. doi:10.1215/23289252-9836008
 
-[fn:4] Muñoz, Jose Esteban. /Disidentifications/.
+[fn:2] The White House. “Defending Women From Gender Ideology
+Extremism And Restoring Biological Truth To The Federal Government.”
+The White House, January 21, 2025.
 
-[fn:3] Butler, Judith. /Bodies that Matter/.
+[fn:3] Sedgwick, Eve Kosofsky. "Paranoid Reading and Reparative
+Reading; or, you’re so Paranoid, you Probably Think this Introduction
+is about you." /Novel Gazing: Queer Readings in Fiction/ (1997): 1-37.
 
-[fn:2] Sedgwick, "Paranoid Reading and Reparative Reading." /Touching
-Feeling/.  
+[fn:4] Butler, Judith. /Bodies That Matter: on the Discursive Limits
+of Sex/. Routledge, 2011.
 
-[fn:1] Jack Drescher. 2025. [[https://www.psychiatry.org/patients-families/gender-dysphoria/what-is-gender-dysphoria][What is Gender Dysphoria?]] /American
+[fn:5] Muñoz, José Esteban. /Disidentifications: Queers of Color and
+the Performance of Politics/. Vol. 2. U of Minnesota Press, 2013.
+
+[fn:6] Spillers, Hortense J. "Mama's Baby, Papa's Maybe: An American
+Grammar Book." /Diacritics/ 17, no. 2 (1987): 65-81.
+
+[fn:7] Prosser, Jay. /Second Skins: The Body Narratives of
+Transsexuality/. Columbia University Press, 1998. Prosser, Jay.
+
+[fn:8] Jack Drescher. 2025. [[https://www.psychiatry.org/patients-families/gender-dysphoria/what-is-gender-dysphoria][What is Gender Dysphoria?]] /American
 Psychiatric Association/.
+https://www.psychiatry.org/patients-families/gender-dysphoria/what-is-gender-dysphoria

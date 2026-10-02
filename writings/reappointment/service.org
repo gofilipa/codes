@@ -1,54 +1,100 @@
-* Service Statement
+#+LATEX_COMPILER: xelatex
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [12pt]
+#+LATEX_HEADER: \usepackage[a4paper,margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{xurl}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{titling}
+#+LATEX_HEADER: \makeatletter
+#+LATEX_HEADER: \renewcommand{\maketitle}{%
+#+LATEX_HEADER:   \begin{center}
+#+LATEX_HEADER:     {\LARGE\@title\par}
+#+LATEX_HEADER:     \vspace{0.5em}
+#+LATEX_HEADER:     {\large\@author\par}
+#+LATEX_HEADER:     \vspace{0.5em}
+#+LATEX_HEADER:     {\large\@date\par}
+#+LATEX_HEADER:   \end{center}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \makeatother
+#+OPTIONS: toc:nil num:nil
 
-** Pratt
-Since starting at Pratt, I have been involved in faculty committees,
-student groups, and in the faculty union. I have also been a faculty
-advisor to ~30 students per semester, and ran workshops for the
-Digital Storytelling Lab in AY 2025-2026 and 2026-2027.
+#+TITLE: Service Statement
+#+AUTHOR: Filipa Calado
+#+DATE: October 2026
 
-Below is a summary all of my Pratt service. From this work, I will
-higlight the progress of the /Stacks/ Student Journal, a group of
-students from my INFO 601: Foundations of Information course. These
-students are in the process of producing their first issue of the
-journal, which consists of peer-reviewed versions of their 601 papers.
-This issue will showcase the high level of critical work and writing
-accomplished in the INFO:601 course.
+This service statement covers my service work at the Pratt Institute, School of
+Information (SI), at Pratt Institute broadly, and my external service. 
 
-- Faculty committee and curriculum work:
-  - Peer Review Committee and Faculty Council (2024-2027)
-  - Diveristy Committee (2025-2027)
-  - Faculty Search Committee (2024-2026)
+** Pratt SI
+Since beginning my position at Pratt School of Information (SI), I
+have been involved in faculty committees and taskforces, student
+groups, and in the faculty union. I have also been a faculty advisor
+to ~30 students per semester, and ran workshops for the Digital
+Storytelling Lab in AY 2025-2026 and 2026-2027.
+
+At Pratt SI, I have worked on curriculum development, including the DH
+Certificate Review, which went through multiple rounds of revision
+over the last academic year, on the Ethics and Technology Forum
+Committee, the MS Critical and Creative Computing Task Force, and the
+DEI Committee. Additionally, I have served on two faculty searches,
+the Pratt Faculty Council, and the Peer Review Committee.
+
+I have also served as a Faculty Advisor to two student groups, Latines
+in Tech, and the /Stacks/ Student Journal (see my enclosed Teaching
+Statement for more information on my role in these groups).
+Additionally, I have spoken at an event, Digital Spring Clean Up Day,
+organized by student the groups PALA, PEMP, SAA, and Patients and
+Pixels.
+
+Below is a summary my service at Pratt SI: 
+- Faculty committee, taskforce, and miscellenious work:
+  - Responsible AI Task Force (2026-2027)
+  - MS Critical and Creative Computing Task Force (2026-2027)
+  - Ethics and Technology Forum Committee (Summer 2026)
   - DH Certification Review (2025-2027)
-- Faculty Advisor to student groups:
-  - /Stacks/ Student Journal (2025-2027)
-  - Latines in Tech (2025-2027)
-- Union work (UFCT 1460):
-  - 2026-2027: Member of the data team
-  - 2026-2027: Union delegate for School of Information
-  - 2025-2026: Participant in the Summer 2026 membership drive
-  - 2025-2026: Union delegate for School of Information
-  - 2025-2026: Participant in "Organizing For Power" training series
+  - DEI Committee (2025-2027)
+  - Faculty Search Committee (2024-2026)
+  - Peer Review Committee (2024-2027)
+  - Faculty Council (2024-2027)
+- Involvement with student groups:
+  - Faculty Advisor, /Stacks/ Student Journal (2025-2027)
+  - Faculty Advisor, Latines in Tech (2025-2027)
+  - Speaker, Digital Spring Clean-Up Day event (Spring 2026)
+
+** Pratt Institute
+Beyond SI, I have also been involved in the Pratt Faculty Union,
+UFCT 1460. Primarily, I work as a member of the Data Team, helping the
+union to process and migrate union data to a new system. A full list
+of my tasks and roles for the union includes the following:
+- Member of the Data Team (2026-2027)
+- Union delegate for School of Information (2025-2027)
+- Participant in the Summer 2026 membership drive (2025-2026)
+- Participant in "Organizing For Power" training series (2025-2026)
 
 ** External
 In addition to my work at Pratt, I also serve as a reviewer for two
-scholarly publications the /[[https://read.dukeupress.edu/social-text][Social Text]]/ journal and the annual
-[[https://gebnlp-workshop.github.io/][Workshop on Gender Bias in Natural Language Processing]] (GeBNLP). My
-goal with this service is to develop my expertise and committment
-across Humanities and Computer Science scholarly communities.
+publications: /[[https://read.dukeupress.edu/social-text][Social Text]]/, published by Duke University Press, and
+the [[https://gebnlp-workshop.github.io/][Workshop on Gender Bias in Natural Language Processing]] (GeBNLP),
+held annually at different conference venues. My goal with these
+service obligations is to develop and maintain my committment to
+Humanities and Computer Science scholarly communities.
 
-Published by Duke University Press, /Social Text/ is leading,
-peer-reviewed, and radically-oriented journal in cultural studies,
-which consistently publishes provocative work on gender, sexuality,
-race, postcolonialism, and popular culture. I have been a member of
-the journal's editorial board for two years, regularly attending
-meetings and reviewing submissions.
+Known for its radical and activist leaning, /Social Text/ is a leading
+peer-reviewed journal in cultural studies, one that has published
+consistently provocative work on gender, sexuality, race, colonialism,
+environmental issues, and popular culture for nearly 50 years. I have
+been a member of the journal's editorial board for three years,
+regularly attenting their quarterly meetings and reviewing submissions
+several times per year.
 
-GeBNLP is an annual workshop that takes place across different venues.
-Last year, I published my paper, "Some Myths About Bias: A Queer
-Studies Reading Of Gender Bias In NLP" their /Proceedings of the 6th
-Workshop on Gender Bias in Natural Language Processing (GeBNLP)/ at
-the Association for Computational Linguistics. This year, I have
-joined the workshop as a reviewer for the 7th Workshop on Gender Bias
-in Natural Language Processing at AACL-IJCNLP 2026.
+GeBNLP is an annual workshop that takes place every year for the past
+6 years. At last year's conference, held at the Association for
+Computational Linguistics (ACL) in Vienna, I presented my paper, "Some
+Myths About Bias: A Queer Studies Reading Of Gender Bias In NLP" in
+their /Proceedings of the 6th Workshop on Gender Bias in Natural
+Language Processing (GeBNLP)/. For this year's workshop, taking place
+at AACL-IJCNLP 2026, I am a reviewer. I plan to continue as both a
+reviewer and contributer to the workshop in future years.
 
 

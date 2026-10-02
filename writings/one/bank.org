@@ -1,4 +1,115 @@
 * bank
+** ACLU
+There is, as
+expected, a strong contrast between how genders are conceptualized
+between the model trained on the ACLU data and model trained on the
+Heritage data. The ACLU model responds with the following definitions:
+#+begin_quote
+  Masculinity is a matter of love and celebration.
+
+  Masculinity is a space for hope and liberation for all.
+
+  Masculinity is not defined solely by the beauty of our bodies, but by
+  the beauty of our experiences.
+
+  Femininity is a celebration of beauty, feminine liberation, and
+  femininity.
+
+  Femininity is our joy, our struggle, and our fight is our struggle.
+
+  Femininity is about allowing people to express themselves without
+  government interference. (Appendix 1)
+#+end_quote
+The outputs from this model, trained on progressive source data, align
+with what one might expect from a perspective that affirms gender
+diversity and expression. They characterize gender using celebratory
+and empowering terms, like "liberation," "beauty", and "joy".
+
+Interestingly, a similar phenomenon occurs in the ACLU model. This time, the overlap occurs in the concept of "reality":
+#+begin_quote
+Masculinity is real and meaningful.
+
+Transgenderism is a false ideology that is not real and that is
+opposed by the very people who seek to deny that freedom and equality
+for all.
+
+The gender binary is not real, it is real, and it is real.
+
+The gender binary is not a binary, it is a reality within us.
+
+The gender binary is not an accepted reality, but one that is accepted
+by a wide swath of people.
+#+end_quote
+While the conservative side expresses derision in its references to "subjectivity", the liberal side expresses ambivalence around the concept of "reality." Here, reality is asserted in both positive ways, such as "Masculinity is real," and in negative ways, such as "Transgenderism is a false ideology that is not real." 
+
+This ambivalence reflects a concern, on the progressive side, over the
+supposed "reality" of gender identification as an external and
+objective phenomenon. While the conservative model appears invested in
+how personal thoughts and feelings affect gender identification, the
+progressive model appears invested in the external and universal
+recognition of gender identity.
+
+This middle ground opens sites where both sides might come to mutual
+understanding. In this case, the concerns with subjectivity and
+reality suggests that the polarized positions share investments in
+gender as an external phenomenon. In other words, both sides appear to
+agree that gender needs to be grounded in some way.
+
+This insight, in fact, accords with what some Trans Studies scholars
+argue about the conceptualization of gender, and how defining gender
+as internal causes more harm than good, creating the potential for
+transphobic discrimination. According to Kadji Amin, the
+internalization of gender identity creates a domino effect where
+gender is increasingly divorced from bodily expression. In this
+situation, normative genders become both default and
+invisible—unmarked as such. As a result, any visibly non-normative
+genders have a higher likelihood of experiencing discrimination and
+stigmatization for their visible difference. Such stigmas are borne
+out in public life where, for example, masculine gay men are more
+likely to participate and achieve prominence over gay men who are
+visibly non-normative or gender-bending.
+
+In the polarized gender discourse, the liberal investment in "reality"
+and the conservative investment in "subjectivity" concentrate internal
+tensions within their respective sides, which text capture, combined
+with close reading, can bring to the surface. Rather than aim for
+objectivity, then, this methodology locates sites of overlap within
+tension and conflict. 
+
+** bs4 request
+Below is an example of the code used to scrape the home page of /The
+Heritage Foundation/ website. The code uses the ~bs4~ and ~requests~
+libraries in python. The ~requests~ library is one of the most popular
+libraries in the python programing language. Enabling programs to send
+and receive data through HTTP networks (i.e., the internet), it is the
+bedrock for virtually all web scraping and API tasks.
+
+#+begin_src python
+  from bs4 import BeautifulSoup
+  import requests
+  r = requests.get('https://www.heritage.org/gender')
+  source = r.content
+  soup = BeautifulSoup(source, 'html.parser')
+#+end_src
+The ~get()~ function (on line 3) uses the HTTP method ~GET~ to request
+data from a server. 
+** bytes
+Websites are stored in web servers, accessed over a network. Web data
+travels over the network in the form of bytes, the smallest portable
+data unit. When the web data reach the web browser, it are decoded
+into HTML language, which is assembled into a web page readable by
+human eyes.
+** circular relationship between investment and acquisition
+Like with the Zyte report, there is a cycle here in which increasing
+data and AI technology feed each other. This cycle manifests in real
+circular relationships between companies, where AI companies who have
+the technology must work with cloud companies who have the necessary
+servers and GPUs to handle higher compute. The vast majority of the
+capital raised by these AI companies are paid to the cloud providers,
+who in turn are responsible for majority of the investment into the AI
+companies. As the authors point out, “These circular investment deals
+can blur the boundary between 'investment' and 'acquisition'".
+(Varoquaux et al 8).
 ** maniacal obsession with more:
 Situational Awareness hedge fund founded by Leopold Aschenbrenner,
 named after the 165-page "Situational Awareness: The Decade Ahead"

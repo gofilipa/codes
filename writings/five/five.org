@@ -1,5 +1,5 @@
 * CHAPTER FIVE:  "Text Generation"
-** introduction
+** Introduction
 
 I argue that this aggregative mechanism, which combines various
 perspectives into one, constitutes a central constraint that drives
