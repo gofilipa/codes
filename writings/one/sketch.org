@@ -1,0 +1,51 @@
+** sketches
+*** chapter argument
+Text capture technology can be worked into reparative motives.
+
+In text capture, language data is processed into objects of commercial
+value. This extraction is exhaustive and degrades potential meaning.
+
+How can we re-work text capture practices to resist this total
+degradation of meaning?
+- Text capture is driven by protocol, which can be re-worked toward
+  reparative motives.
+- Slowing down the process and deliberately choosing our datasets.
+- reading for vulnerability, reading for what is exposed, like fear.
+
+*** technical constraint: protocol
+What is the technical constraint proper to web scraping?
+- protocol, the code for moving data across web servers
+- web scraping is a way of miming browser requests
+
+How is protocol being re-worked in this chapter?
+- drawing from Sedgwick's theorization of paranoid vs reparative
+  reading.
+  - protocol in its current usage follows a logic of scale that
+    mirrors paranoid logics. Turning to a reparative framework allows
+    protocol to tend to what might be generative even within
+    repression.
+- protocol is being used to scrape small and highly specific datasets.
+
+*** new outline
+- introduction
+  - the proliferation of transphobic language: bots, Shrier
+  - the problem of exposure as an analytical strategy
+  - toward a new reading method
+- web scraping
+  - what is web scraping: HTML, HTTP
+  - the parts of an HTTP request: root, path, query
+  - bot blockers: javascript challenges
+  - resisting bots: ghost browsers, XHR requests, manipulating URL
+- the protocol of capture
+  - Sedgwick's paranoia as a frame for reading text capture today
+  - paranoia's five principles
+  - capture's five principles
+- reparative reading
+  - Sedgwick's reparative reading takes that which has been used to
+    denigrate and turns it into sustenance
+  - Chun: there is a vulnerability opened up by capture
+- close reading of Heritage Foundation
+  - subjectivity as a dense site of ignorance and fear
+- conclusion:
+  - ROGD, contagion
+  - preview of chapter five

@@ -1,88 +1,11 @@
 * draft: text capture
 #+TODO: TO_DRAFT (td) DRAFT(d) REVISE(r) HERE(h) | PROOF(p)
-** sketches
-*** chapter argument
-Text capture technology can be worked into reparative motives.
-
-In text capture, language data is processed into objects of commercial
-value. This extraction is exhaustive and degrades potential meaning.
-
-How can we re-work text capture practices to resist this total
-degradation of meaning?
-- Text capture is driven by protocol, which can be re-worked toward
-  reparative motives.
-- Slowing down the process and deliberately choosing our datasets.
-- reading for vulnerability, reading for what is exposed, like fear.
-
-*** technical constraint: protocol
-What is the technical constraint proper to web scraping?
-- protocol, the code for moving data across web servers
-- web scraping is a way of miming browser requests
-
-How is protocol being re-worked in this chapter?
-- drawing from Sedgwick's theorization of paranoid vs reparative
-  reading.
-  - protocol in its current usage follows a logic of scale that
-    mirrors paranoid logics. Turning to a reparative framework allows
-    protocol to tend to what might be generative even within
-    repression.
-- protocol is being used to scrape small and highly specific datasets.
-
-*** new outline
-- introduction
-  - the proliferation of transphobic language: bots, Shrier
-  - the problem of exposure as an analytical strategy
-  - toward a new reading method
-- web scraping
-  - what is web scraping: HTML, HTTP
-  - the parts of an HTTP request: root, path, query
-  - bot blockers: javascript challenges
-  - resisting bots: ghost browsers, XHR requests, manipulating URL
-- the protocol of capture
-  - Sedgwick's paranoia as a frame for reading text capture today
-  - paranoia's five principles
-  - capture's five principles
-- reparative reading
-  - Sedgwick's reparative reading takes that which has been used to
-    denigrate and turns it into sustenance
-  - Chun: there is a vulnerability opened up by capture
-- close reading of Heritage Foundation
-  - subjectivity as a dense site of ignorance and fear
-- conclusion:
-  - ROGD, contagion
-  - preview of chapter five
-
 ** draft
-*** TO_DRAFT introduction
-- start with a problem: ROGD, /Irresistable Damage/, proliferation of
-  transphobic language online and in public life. 
-- the analytical problem that Sedgwick poses:
-  - what does knowledge do?
-  - how does exposure work within an environment where there can be
-    "no bad surprises"?
+*** introduction
 - this chapter proposes a new reading method that harnesses text
-  capture under Sedgwickian logics of reparative. 
-
-A book by Abigail Shrier, called "Irreversible Damage: The Transgender
-Craze Seducing Our Daughters" argues is that minors, who do not know
-what they want, cannot be trusted to make what she calls
-"irreversable" decisions.
-
-Her tone throught the book is ironic and, like so much of transphobia,
-has troubling subtexts. According to Shrier, even something like
-social transition, in which a person changes names, pronouns, and
-dress, is dangerous and should be avoided.
-
-She says things like: "if the government can’t force students to
-salute a flag, the government can’t force a healthcare worker to utter
-a particular pronoun. In America, the government can’t make people say
-things--not even for the sake of politeness. Not for any reason at
-all" (xx). Through the comparision to patriotism, and a particular
-enforced patriotism of a compulsory flag salute, the subtext here
-seems to be that compelling pronoun usage would be fascist. Which is,
-I think, a strange way to make a point to what is likely a
-conservative readership. Unless the point is precisely that some kinds
-of expression should be free while others should not.
+  capture under Sedgwickian logics of reparative, for the purpose of
+  reading the proliferation of transphobic language online and in
+  public life.
 
 Over 25 years ago, Eve Kosofsky Sedgwick poses a powerful question
 about the point of exposing systemic injustic and oppression. In a
@@ -93,47 +16,124 @@ that certain kinds of exposure may be futile. Even if it could be
 proved "that African Americans are worthless in the eyes of the United
 States; that gay men and drug users are held cheap where they aren't
 actively hated," Sedgwick writes, "what would we know then that we
-don't already know?" (/Novel Gazing/ 3-4).
+don't already know?" (/Novel Gazing/ 3-4). In Sedgwick's work, this
+question indexes a shift around reading practices, from a focus on
+knowledge, "Is a particular piece of knowledge true?", toward method,
+"What does knowledge do--the pursuit of it, the having and expressing
+of it?" (/Novel Gazing/ 4).
 
-In Sedgwick's work, this question indexes a shift around reading
-practices, from a focus on knowledge, "Is a particular piece of
-knowledge true?", toward method, "What does knowledge do--the pursuit
-of it, the having and expressing of it?" (/Novel Gazing/ 4). Her
-proposed reading method, /reparative reading/, draws from a
+The foundation of /paranoid reading/.
+
+This 30-year-old, foundational observation in Queer Theory, is apt for
+our current sociopolitical moment. We have traded an antihomophobic
+backlash for an antitrans backlash. But there is also a key
+difference, which bears on knowledge practices: the /proliferation/ of
+knowledge, or at least of language which passes as knowledge. How does
+the knowledge problem that Sedgwick poses--/what does knowledge
+do?/--work within an environment of proliferating paranoia?
+
+There is a specific affect that that drives paranoid, transphobic
+discourse, that is /outrage/.
+
+For example, from /The Heritage Foundation/ website, the "Gender" page
+contains articles with titles like following:
+#+begin_quote
+Sorry Democrats, but Trump’s “Two Sexes” Executive Order Is
+Constitutional
+
+Tyrants of the Imperious Judiciary: Federal Judge Orders “Gender
+Reassignment” for Child Killer
+
+Trump’s Transgender Orders Are Well Within Executive Authority
+
+The American Family in the Crosshairs: How Do Parents Fight Back?
+
+Is the State Department Using “DEIA” to Discriminate Against Men?
+
+Biden-Harris DOJ Prosecutor Targets Trans Whistleblower Doctor Again
+
+Wisconsin Public Schools’ Gender Policies Shut Out Parents, Violate
+Their Rights
+
+Gender Activists Are Aiming to Cut Georgia Parents Out
+
+Persecuted Behind Closed Doors
+
+Why Is Congress Facilitating Prison Rape in the Name of Fairness?
+
+Gender Activists Take Aim at Arizona Parents’ Rights
+#+end_quote
+The language of outrage in these titles are driven by a hypocrasy
+thats manifests through the facetiousness of their wording. For
+example, the first title leads with an apology, "Sorry Democrats,"
+which, not at all an apology ("sorry not sorry"), effectively
+redirects the accusation back at the accuser. The facetiousness here
+of the speaker---who is not sorry but unmistakably offended by
+transgender peoples' rights to their own gender---points the finger
+back on themself; in an apology which is a cover for an actual taking
+of rights, and for the imposition of gender definition, the same exact
+imposition that they would claim is being forced upon them, wherein
+the expansiveness of the "gender identiy" definition is perceived to
+threaten the concept of binary gender which they've always known and
+the being respectful of a person's identity is perceived as an
+imposition. It is like the facetiousness that Sedgwick deftly
+describes in her own analysis of the term, when it is used by the
+Justic Whatley in the /Bowers Vs Hardwick/ Surpreme Court decision. In
+a series of observations that unfold out of each other like the paper
+fortune teller game for children, Sedgwick shows how, like /sorry/,
+/facetious/ is a dumb but effective term, "demonstrating how
+obtuseness itself arms the powerful against their enemies"
+(/Epistemology of the closet/ 7).
+
+Etymologically, "outrage" has middle English and old French roots,
+associated with "excess" and "a going beyond." It denotes two things:
+an atrocious act ("an outrage") or a state of being aroused by such an
+act ("being outraged"). One might say that outrage denotes a /rage/ of
+being /out/, of being inordinately excessive, of being beyond what is
+expected and accepted. As such, it is a structuring affect for a
+certain kind of cisgender identification---precisely the kind which
+would never call itself that. A cisgender identification that is based
+on the fantasy, what Judith Butler calls the /phantasm/, that gender
+nonconforming people takes something away from them. Against the
+perceived slipperiness of gender and its refusal to stay anchored to
+stable referents, the assertion of sex as "binary and biological"
+asserts the body as a fixed ground (Butler, /Who's Afraid of
+Gender?/).
+
+Sedgwick's proposed reading method, /reparative reading/, draws from a
 restorative and pleasurable impulse, "to assemble and confer plenitude
 on an object that will then have resources to offer to an inchoate
 self" (/Novel Gazing/ 28). It is a kind of reading that seeks to
 replenish and sustain through the generation of new meaning.
 
-This 30-year-old, foundational methodology in Queer Theory, is apt for
-our current sociopolitical moment. Whereas Sedgwick offers reparative
-reading that responds to the practices of paranoia, I pose it as a
-kind of reading that responds specifically to the condition of /text
-capture/ by automated systems.
+Whereas Sedgwick offers reparative reading that responds to the
+practices of paranoia, I pose it as a kind of reading that responds
+specifically to the condition of /text capture/ by automated systems.
 
 The end of the chapter demonstrates with an example for analyzing
 political polarization today around debates on gender rights.
 
+In what follows, I look at web scraping, the dominant text capture
+method today. Drawing from Sedgwick's theorization of reading
+practices, I propose a re-orientation around web scraping that evokes
+reparative methods. 
+
 *** text capture
-**** section outline
-- what is web scraping: HTML, HTTP
-- the parts of an HTTP request: root, path, query
-- bot blockers: javascript challenges
-- resisting bots: ghost browsers, XHR requests, manipulating URL
+- [ ] work bot blockers into chapter argument:
+  - is it a side example of how scraping works or is there a larger
+    argument about resisting blockers?
+  - is it about ways of scraping slowly, individually? It is difficult
+    to automate resistance, as hacking is about particular affordances
+    of that website. 
+
+This section examines how web scraping works on a technical level.
 
 **** HTML, HTTP
-/Web scraping/ is the programmatic extraction of data from websites.
-This extraction is possible by manipulating HTTP, or HyperText
-Transfer Protocol, which is a wrapper language that encapsulates web
-data as it travels over the network, like an envelope. This wrapper
-language stipulates strict instructions on the transit of data, in the
-form of HTML code, from the original web server to the web browser
-that is making the request.
-
-Below is an example some the HTML code on the "gender" topic page from
-/The Heritage Foundation/, on ~https://Heritage.org/gender~. This
-section of the page shows the first three articles listed under the
-"gender" topic.
+/Web scraping/ is the programmatic extraction of data in the form of
+HTML code. Below is an example some the HTML code on the "gender"
+topic page from /The Heritage Foundation/, on
+~https://Heritage.org/gender~. This section of the page shows the
+first three articles listed under the "gender" topic.
 #+begin_src html
   <a href="/gender/commentary/feminists-want-choice-only-when-it-the-right-one" class="result-card__title js-hover-target" title="article link">
     Feminists Want Choice, but Only When It Is the Right One
@@ -172,10 +172,11 @@ a bit of text, like the title "Feminists Want Choice, but Only When It
 Is the Right One," with instructions on where and how to display the
 title.
 
-In order to gather HTML data, a web scraper needs to manipulate the
-language used to transport HTML, which is called HTTP, or /HyperText
-Transfer Protocol/. A web scraper manipulates this protocol code to
-make a request to a web server.
+HTML extraction is possible by manipulating HTTP requests (described
+below), which encapsulate web data as it travels over the network.
+Like an envelope, HTTP inscribes strict instructions for the transit
+of data, in the form of HTML code, from the original web server to the
+web browser that is making the request.
 
 The contents of an HTTP request consist of a list of headers,
 identifying the requester, like "User-Agent," and certain properties
@@ -221,29 +222,8 @@ from the HTTP request is also the same as the data that comes to a
 browser after searching a URL---only the data is intercepted before it
 arrives at the browser, before it can be assembled into a web page.
 
-**** the parts of a URL
-The URL is a miniature API. It contains all of the information needed
-to interface with the data stored on a website. The parts of the URL contain a map for finding information on a
-specific website.
 
-Take the ~congress.gov~ website, for example. If someone were to run a
-search for the keyword, "gender," the URL would look like the
-following:
-
-#+begin_src
-  https://www.congress.gov/search?q=%7B%22congress%22%3A%5B%22119%22%5D%2C%22source%22%3A%22all%22%2C%22search%22%3A%22gender%22%7D
-#+end_src
-
-This URL encodes information about results on the page. qThe first
-part of the URL, from the https:// to the domain ~.gov~ is the root:
-~https://www.congress.gov~. The part following is the path, ~/search~.
-It indicates a particular section of the website. The final part,
-everything following the question mark, ~?~ is the query. The query
-itself contains embedded instructions. In this case, the query
-performs a ~search~ on all types of documents ~all~ for the keyword
-~gender~.
-
-**** bot blockers
+**** programmatic ways of scraping web data
 Web servers employ various forms of "blockers" or mechanisms that deny
 HTTP requests. 
 
@@ -258,26 +238,30 @@ Mac OSX has the following ~User-Agent~
 Gecko/20100101 Firefox/152.0~
 
 And as automated scrapers increase in frequency, so do the bot
-blockers.[fn:1] Over the past two years, Cloudflare, which runs on
-20% of total internet pages and 50% of pages based in the US, has
-added increasing bot detection like "Challenges" and "Turnstiles" to
-its web pages.
-
-Some of these operate under the surface and virtually invisible to the
-user, such as checking the HTTP request metadata like the
-"User-Agent." But beyond examining HTTP request data, bot blockers
-will use JavaScript code to check if the request is from a real web
-browser, rather than from an automated program. JavaScript, a
-programming language native to web browsers (discussed in more detail
-in Chapter 4: Text Display), can inject challenges for the browser to
-solve, challenges which may or may not involve the user. All of these
-challenges might require some processing from the browser, and
-increasingly, they may require the user's interaction to confirm that
-the request comes from a real browser, not a bot. One popular
-challenge is the "Security Verification" checkbox, which is
-increasingly visible across the internet (See Fig #).
+blockers. Each year of the past few years, bot traffic has increased
+exponentially, coming mostly from major tech and AI companies,
+especially OpenAI, META, Google, and Anthropic. According to
+Cloudflare, 2025 saw increases of 19% in bot traffic (Cloudflare,
+"From Googlebot to GPTBot: who’s crawling your site in 2025").
 
 [[./images/verify.png]]
+Figure 1: a common captcha
+
+Web providers like Cloudflare have added increasing bot detection like
+"Challenges" and "Turnstiles" to its web pages (See Fig, 1). Some of
+these operate under the surface and virtually invisible to the user,
+such as checking the HTTP request metadata like the "User-Agent." But
+beyond examining HTTP request data, bot blockers will use JavaScript
+code to check if the request is from a real web browser, rather than
+from an automated program. JavaScript, a programming language native
+to web browsers (discussed in more detail in Chapter 4: Text Display),
+can inject challenges for the browser to solve, challenges which may
+or may not involve the user. All of these challenges might require
+some processing from the browser, and increasingly, they may require
+the user's interaction to confirm that the request comes from a real
+browser, not a bot. One popular challenge is the "Security
+Verification" checkbox, which is increasingly visible across the
+internet (See Fig #).
 
 **** bypassing blockers: ghost browsers
 While these kinds of blockers are more advanced, there are ways of
@@ -310,7 +294,7 @@ circumvented. With the checkpoint passed, the page loads normally.
 Meanwhile, the HTML data is sent to the python program running the
 request.
 
-**** bypassing blockers: xhr
+**** bypassing blockers: scraping xhr
 Besides HTML, there are other data streams, ones that load onto a web
 page after the HTML has loaded. Opposed to the /static/ data of the
 HTML, which loads once and never changes, this kind of data is called
@@ -354,10 +338,7 @@ a web page itself, feigning a request encoded in the page's JavaScript
 that would automatically load elements, like search results. 
 
 **** bypassing blockers: manipulating the URL
-- hacking the URL
-
 When dealing with a single website, there is always a work around.
-
 
 Some pages on a website may block bots, while others do not. For
 example, the homepage and search results on ~congress.gov~ blocks all
@@ -366,7 +347,7 @@ without a ghost browser, some pages on the ~congress.gov~ server can
 be scraped, if one knows how to access them.
 
 For example, the full text of congressional bills, which are not
-available through the officiall ~congress.gov API~,[fn:2] may be
+available through the officiall ~congress.gov API~,[fn:1] may be
 accessed by reverse engineering the bill URL. The bill URL for
 H.R.1927, the "End Taxpayer Funding of Gender Experimentation Act of
 2021," proposed by the 117th Congress (2021-2022) can be accessed
@@ -490,90 +471,93 @@ possibilities" (/Novel Gazing/ 3).
 There are five qualities that define paranoia, according to Sedgwick.
 Paranoia:
 
-- is anticipatory. It predicts and preempts every possibility, as
-  Sedgwick says, "The first imperative of paranoia is '/There must be
-  no bad surprises/'" (emphasis original; /Novel Gazing/ 9). Rather
+- Is anticipatory.
+
+  It predicts and preempts every possibility, as Sedgwick says, "The
+  first imperative of paranoia is '/There must be no bad surprises/'"
+  (emphasis original; /Novel Gazing/ 9). Paranoia must be preared for
+  the worst, which means that it must anticipate the worst. Rather
   than accept unfavorable possibilities, according to the
   "future-oriented vigilance [that] paranoia generates... bad news
   [must] be always already known" (/Novel Gazing/ 10).
-- is reflexive, mimetic. Paranoia reproduces itself, propagating and
-  spreading like a virus from host to host. Sedgwick explains that
-  "Paranoia seems to require to be imitated in order to be
-  understood... '/Anything you can do, I can do worse/' and '/Anything
-  you can do, I can do first/'" (emphasis original /Novel Gazing/ 10).
-  One effect is that it creates self-reinforcing oppositional
-  relationships, such as Foucault's posing of repressive hypothesis,
-  which leads to a self-perpetuating narrative of hegemony vs
-  subversion that, according to Sedgwick "propagat[es] the repressive
-  hypothesis ever more broadly by means of displacement,
-  multiplication, hypostatization" (/Touching Feeling/ 10).
-- is strong theory - it invades, consumes all phenomena into its
-  worldview. This quality gives paranoia "reach and reductiveness,"
-  which makes "tautological thinking hard to identify, even as it
-  makes it compelling and near-inevitable" (/Novel Gazing/ 13, 15).
-  For example, referring to D.A. Miller's book, /The Novel and the
-  Police/, a study of surveillance, policing, and disciplinary culture
-  in Victorian novels, Sedgwick points out that "the main argument or
-  'strong theory' of /The Novel and the Police/ is entirely circular:
-  everything can be understood as an aspect of the carceral, therefore
-  the carceral is everywhere" (/Novel Gazing/ 14).
-- is negative theory - paranoia is driven by the minimization of
-  negative affect rather than the maximization of positive affect,
-  "the anticipation of pain in one case, [against] the provision of
-  pleasure in the other" (/Novel Gazing/ 16). Sedgwick poses Silvan
-  Thompkin and Melanie Klein's positive affect theories against
-  "paranoid Freudian epistemology," where "it is implausible enough to
-  suppose then that truth could be even an accidental occasion of joy;
-  inconceivable to imagine joy as a guarantor of truth" (/Novel
-  Gazing/ 16). 
-- places its faith in exposure - its obssesive goal is to unearth,
-  surface, reveal some hidden reality (often of oppression or
-  injustice) as knowledge. It is, Sedgwick explains, "Like the
-  deinstitutionalized person on the street who, betrayed and plotted
-  against by everyone else in the city, still urges on you the
+  
+- Is reflexive, mimetic.
+
+  Paranoia reproduces itself, propagating and spreading like a virus
+  from host to host. Sedgwick explains that "Paranoia seems to require
+  to be imitated in order to be understood... '/Anything you can do, I
+  can do worse/' and '/Anything you can do, I can do first/'"
+  (emphasis original /Novel Gazing/ 10). One effect is that it creates
+  self-reinforcing oppositional relationships, such as Foucault's
+  posing of repressive hypothesis, which leads to a self-perpetuating
+  narrative of hegemony vs subversion that, according to Sedgwick
+  "propagat[es] the repressive hypothesis ever more broadly by means
+  of displacement, multiplication, hypostatization" (/Touching
+  Feeling/ 10). This is how paranoia reproduces academic institutions
+  and knowledge formations. "As a locus of reflexive mimeticism,"
+  Sedgwick says, "paranoia is nothing if not teachable" (/Novel
+  Gazing/ 15). Like a good student imitates her teacher, it is a
+  self-replicating phenomenon.
+
+- Is strong theory.
+
+  It invades, consumes all phenomena into its worldview. This quality
+  gives paranoia "reach and reductiveness," which makes "tautological
+  thinking hard to identify, even as it makes it compelling and
+  near-inevitable" (/Novel Gazing/ 13, 15). Strong theory, Sedgwick
+  explains, "would seem to grow like a crystal in a hypersaturated
+  solution, blotting out any sense of the possibility of alternative
+  ways of understanding /or/ things to understand" (/Novel Gazing/
+  10-11).
+  
+- Is negative theory.
+
+  Paranoia is driven by the minimization of negative affect rather
+  than the maximization of positive affect, "the anticipation of pain
+  in one case, [against] the provision of pleasure in the other"
+  (/Novel Gazing/ 16). Negative theory, then, is all consuming, with
+  the effect of blocking out other kinds of relation. (Comparing
+  against Freud, remarks about a reading of Proust) For someone driven
+  by negative theory, "it is implausible enough to suppose then that
+  truth could be even an accidental occasion of joy; inconceivable to
+  imagine joy as a guarantor of truth" (/Novel Gazing/ 16).
+  
+- Places its faith in transformation.
+
+  Its obssesive goal is to reveal some hidden reality (often of
+  oppression or injustice) as knowledge. It is, Sedgwick explains,
+  "Like the deinstitutionalized person on the street who, betrayed and
+  plotted against by everyone else in the city, still urges on you the
   finger-worn dossier bristling with his precious correspondence"
   (/Novel Gazing/ 17). This faith "acts as though its work would be
   accomplished if only it could finally, this time, somehow get its
-  story truly known" (17). 
+  story truly known" (17).
 
 For Sedgwick, paranoid reading is a crucial framework for analysis,
-allowing much important work to happen. She refers to her own work and
-how it has been driven by paranoia. For example, her field-defining
-work, /The Epistemology of the Closet/, is a study in hidden
-sexualities, and the power structures they maintain, in literature.
-Sedgwick's agenda in the book is to expose the dependence of a
-privileged heterosexual position upon the existence of a subordinated
-homosexual. How do these sexual categories and closet which they
-structure appear in 19th-20th century literature? For example, her
-chapter on Oscar Wilde's /The Picture of Dorian Gray/ examines
-abstraction and figuration as strategies for encoding male on male
-desire which otherwise couldn't be expressed: "the modernist impulse
-toward abstraction in the first place owes an incalculable part of its
-energy precisely to the turn-of-the-century male homo/hetero
-definitional panic... the 'figuration' that had to be abjected from
-modernist self-reflexive abstraction was not the figuration of
-figurality itself, but, rather, that represented in a very particular
-body, the desired male body" (/Epistemology/, 167). This figuration I
-turn to in my third chapter.[fn:3]
+allowing much important work to happen. She refers to her own work,
+/The Epistemology of the Closet/, whose study of encoded and hidden
+sexualities, and the power structures they maintain, in literature, is
+nothing if not paranoid. Nonetheless, Sedgwick maintains, paranoia is
+constraining. They present "a cognitive danger... a moralisitic
+tautology that became increasingly incabable of recognizing itself as
+such" (/Touching Feeling/ 12). Foucault's /History of Sexuality, Vol.
+1/, for example, pursues, "the heroic, 'liberatory', inescapably
+dualistic righteousness of hunting down and attacking
+prohibition/repression in all its chameleonic guises" (/Touching
+Feeling/ 10). What if, Sedgwick asks, one could instead seek "some
+ways of understanding human desire that might be quite to the side of
+prohibition and repression"? (/Touching Feeling/ 10).
 
-Nonetheless, these structures are unhelpful for thought, even "a
-cognitive danger... a moralisitic tautology that became increasingly
-incabable of recognizing itself as such" (/Touching Feeling/ 12).
-Reading Foucault's /History of Sexuality, Vol. 1/, Sedgwick says, "I
-knew what I wanted from it: some ways of understanding human desire
-that might be quite to the side of prohibition and repression, that
-might hence be structured quite differently from the heroic,
-'liberatory', inescapably dualistic righteousness of hunting down and
-attacking prohibition/repression in all its chameleonic guises"
-(/Touching Feeling/ 10).
+Sedgwick's project is so much about what to do with knowledge, about
+orientations around knowledge as evidence. In /Epistemology/ and
+/Tendencies/, she discusses how antihomophobic disource weaponizes
+ignorance to deny human rights and neglect human life. Sedgwick says,
+"the power of our enemies over us is implicated, not in their command
+of knowledge, but precisely in their ignorance" (/Tendencies/ 24).
   
 **** capture's five principles
-Text capture is the process in which text data is extracted from web
-servers.
-
-This kind of capture follows the same protocols as paranoia, driven by
-a totalizing impulse which seeks to incorporate everything that it
-can.
+Text capture follows the same protocols as paranoia, driven by a
+totalizing impulse which seeks to incorporate everything that it can.
 
 There are five central principles to text capture, which map loosely
 to Sedgwick's principles of paranoia. Capture, in turn,
@@ -606,14 +590,14 @@ the months between May 2024 and May 2025. Google's "Googlebot"
 maintained its prominence as the largest web scraper, the highest
 increases came from "GPTBot" and "META-ExternalAgent," which
 "highlight[s] the increasing prominence of OpenAI and Meta in this
-category."[fn:4]
+category."[fn:2]
 
 As researcher Ramya Chandrasekhar points out, “certain well-resourced
 actors like Big Tech are able to take advantage of data flows on the
 open web to internet to train proprietary foundation models, while
 giving little to no value back to either the maintenance of shared
 informational resources or communities of commoners" (Chandrasekhar
-2).[fn:5]
+2).[fn:3]
 
 In tech industry terms, automated web scraping is inevitable. An
 annual report by one data company, Zyte, reports as much:
@@ -633,7 +617,7 @@ where human developers can, or should, manage it manually.
 
 The friction of the past 15 years is giving way to a future where data
 extraction is seamless, compliant, and powered by intelligent agents.
-(5-6) [fn:6]
+(5-6) [fn:4]
 #+end_quote
 With turns of phrase that evoke the thin confidence of generative AI,
 the report convinces the reader that, indeed, more barriers to web
@@ -646,12 +630,12 @@ many, companies, increases in automation means it's the time to ramp
 up production.
 
 More data means more training examples, which results in
-higher-quality systems that make better predictions.[fn:7]
+higher-quality systems that make better predictions.[fn:5]
 Unfortunately, as AI Ethics researchers have been pointing out for
 years, more data means more problems. Their prescient paper, released
 the year before ChatGPT came out, "The Dangers of Stochastic Parrots:
 Can Language Models Be Too Big?🦜" (2021), posed the problem directly
-in the title: /Can language models be too big?/.[fn:8] The answer, it
+in the title: /Can language models be too big?/.[fn:6] The answer, it
 turns out, is yes, with large model sizes (even in 2021, the era of
 GPT-3), creating issues with environmental and data sustainability,
 discussed in more detail in point #3 below.
@@ -661,7 +645,7 @@ Luccioni and Meredith Whittaker furthered this research into model
 performance itself. Drawn by the "bigger-is-better paradigm," LLMs are
 now so big, they are even plateauing in performance (a point addressed
 in principle #3, that capture diminishes resources and degrades
-quality).[fn:9]
+quality).[fn:7]
 
 **** 2) /creates new territories for capture/.
 - it *opens new domains of extraction* from language
@@ -678,14 +662,24 @@ which formalize ever more territories for capture. One might say that
 the pretenses required for capture automates the creation of new
 territories, which relates to paranoia insofar as paranoia is mimetic,
 automatically reproducing itself through certain performative
-strategies: "as a locus of reflexive mimeticism," Sedgwick says,
-"paranoia is nothing if not teachable" (/Novel Gazing/ 15). Like a
-good student imitates her teacher, it is a self-replicating
-phenomenon, one that "would seem to grow like a crystal in a
-hypersaturated solution, blotting out any sense of the possibility of
-alternative ways of understanding /or/ things to understand" (/Novel
-Gazing/ 10-11).
+strategies.
 
+Contractual forms, as preciently pointed out by Shoshana Zuboff in
+2015, is one of the key innovations of what Zuboff calls the "logic of
+accumulation." Zuboff analyzes an internal document written by
+Google's chief economist, Hal Varian, which introduces four new
+categories of "computer-mediated economic transactions," including
+"data extraction and analysis," "new contractual forms,"
+"personalization and customization," and "continuous experiments"
+(Zuboff 78). Most of these, Varian explains, rely on the nearly
+infinite streams of data that platforms can capture from users, and on
+the fact that these streams are mostly hidden from view, thus creating
+asymmetrical relationships between the consumer and the business
+which, happily for Google, obviates the role of trust. As Zuboff
+explains, "New possibilities of subjugation are produced as this
+innovative institutional logic thrives on unexpected and illegible
+mechanisms of extraction and control that exile persons from their own
+behavior" (85).
 
 One of these self-perpetuating, contractual forms, Mejias and Couldy
 explain, is the Terms of Service, or TOS. Mejias and Couldry compare
@@ -731,26 +725,9 @@ to indigenous or First Nation peoples who did not speak Spanish!"
 In other words, both approaches rely on the user not knowing the
 extent of the rights being taken from them. 
 
-Contractual forms, as preciently pointed out by Shoshana Zuboff in
-2015, is one of the key innovations of what Zuboff calls the "logic of
-accumulation." Zuboff analyzes an internal document written by
-Google's chief economist, Hal Varian, which introduces four new
-categories of "computer-mediated economic transactions," including
-"data extraction and analysis," "new contractual forms,"
-"personalization and customization," and "continuous experiments"
-(Zuboff 78). Most of these, Varian explains, rely on the nearly
-infinite streams of data that platforms can capture from users, and on
-the fact that these streams are mostly hidden from view, thus creating
-asymmetrical relationships between the consumer and the business
-which, happily for Google, obviates the role of trust. As Zuboff
-explains, "New possibilities of subjugation are produced as this
-innovative institutional logic thrives on unexpected and illegible
-mechanisms of extraction and control that exile persons from their own
-behavior" (85).
-
 While, I argue, the logic of accumulation and surveillance capitalism
 has existed for centuries, there is an emergent effect which seems
-specific to digital contexts.[fn:10] Zuboff describes this effect with
+specific to digital contexts.[fn:8] Zuboff describes this effect with
 the term "informate":
 #+begin_quote
 when it comes to information technology, automation simultaneously
@@ -764,7 +741,7 @@ a new way. (76)
 #+end_quote
 "Informate" describes this tendency of computer mediated action to
 create byproducts of information that were previously inaccessible,
-even unimaginable.[fn:11] According to Zuboff, this tendency turns all
+even unimaginable.[fn:9] According to Zuboff, this tendency turns all
 digital data "electronic text"--text which is ripe for extraction via
 reading. When computers automate action, they create new texts, like
 foam rising from a boiling pot.
@@ -772,8 +749,11 @@ foam rising from a boiling pot.
 With regard to web scraping in particular, one emergent territory is
 the "permission-based model." Cloudflare, for example, has employed
 this model where bots must pay for seamless access to certain domains.
-A blog post frames this model as a logical step in the information
-exchange ecology which is the internet:
+Domains that prior to large-scale web scraping were unnecessary to
+protect.
+
+A blog post from Cloudflare frames this model as a logical step in the
+information exchange ecology which is the internet:
 #+begin_quote
 For decades, the Internet has operated on a simple exchange: search
 engines index content and direct users back to original websites,
@@ -799,20 +779,23 @@ learning algorithm. As the Cloudflare blog post points out, the
 severed connection to the source cannot be monetized, "depriving
 content creators of revenue... and satisfaction."
 
-As a solution, Cloudflare is now offering the "permission based
-model," where companies must pay content creators for access to their
-web data. If the scraper does not have explicit permission to retrieve
-data, then they will be blocked. The announcement of Cloudflare's new
-policy came with written endorsement from publishers and media
-outlets. Roger Lynch, CEO of media conglomerate Condé Nast, which owns
-/Vogue/, /The New Yorker/, /Architectural Digest/, /Vanity Fair/,
-/Pitchfork/, /Wired/, /Bon Appétit/, /Ars Technica/, among others,
-declares that, "Cloudflare’s innovative approach to block AI crawlers
-... is a critical step toward creating a fair value exchange on the
-Internet that protects creators, supports quality journalism and holds
-AI companies accountable" (“Cloudflare Just Changed How AI Crawlers
-Scrape the Internet-at-Large; Permission-Based Approach Makes Way for
-A New Business Model”). Of course, there is no garuntee (or even
+Identifying a real problem, Cloudflare then impose an attractive
+solution: a new contract that monetizes this new flow of text capture.
+It creates a new territory for capture. The solution is the
+"permission based model," where companies must pay content creators
+for access to their web data. If the scraper does not have explicit
+permission to retrieve data, then they will be blocked. The
+announcement of Cloudflare's new policy came with written endorsement
+from publishers and media outlets. Roger Lynch, CEO of media
+conglomerate Condé Nast, which owns /Vogue/, /The New Yorker/,
+/Architectural Digest/, /Vanity Fair/, /Pitchfork/, /Wired/, /Bon
+Appétit/, /Ars Technica/, among others, declares that, "Cloudflare’s
+innovative approach to block AI crawlers ... is a critical step toward
+creating a fair value exchange on the Internet that protects creators,
+supports quality journalism and holds AI companies accountable"
+(“Cloudflare Just Changed How AI Crawlers Scrape the
+Internet-at-Large; Permission-Based Approach Makes Way for A New
+Business Model”). Of course, there is no garuntee (or even
 expectation) that such payments would reach the pockets of actual
 content creators, authors, copywriters, artists, who are populating
 these sites with their work. If the new policy rewards someone, its
@@ -835,12 +818,7 @@ in one case, the provision of pleasure in the other" (/Novel Gazing/
 mushrooming, self-confirming strength of a monopolistic strategy of
 anticipating negative affect can have... the effect of entirely
 blocking the potentially operative goal of seeking positive affect"
-(/Novel Gazing/ 15). Negative theory, then, is all consuming, with the
-effect of blocking out other kinds of relation. (Comparing against
-Freud, remarks about a reading of Proust) For someone driven by
-negative theory, "it is implausible enough to suppose then that truth
-could be even an accidental occasion of joy; inconceivable to imagine
-joy as a guarantor of truth" (/Novel Gazing/ 16).
+(/Novel Gazing/ 15). 
 
 I argue that, in seeking to maximize profit, capture follows a
 negative prinicple of degradation across environmental, material,
@@ -851,7 +829,7 @@ centers. Not only do these centers exhaust precious water in order to
 cool them, their disproportionate use of energy most visibly results
 in rising prices for electricity across the country, and perhaps less
 visibily (though more devastating) in its effects on the
-environment.[fn:12]
+environment.[fn:10]
 
 Beyond energy consumption, aquiring the basic materials for data
 processing, like the minerals used to make computer hardware, involves
@@ -859,13 +837,9 @@ invasive and exploitative mining practices. Much of this mining is
 occuring in the southern hemisphere, in particular the African
 continent. The harmful effects include toxifying the environment,
 particularly the water supply, and intensifying social upheaval by
-contributing to resource conflicts.[fn:13] Moreover, these troubling
-reports are hard to find among the decidely more positive ones from
-institutions such as the World Bank and McKinsey, which emphasize
-Africa's "rich and diverse mineral endowment, strong discovery
-potential, and lower exploration costs."[fn:14]
+contributing to resource conflicts.[fn:11]
 
-The human labor required to process this data also tells a devastating
+The human labor required to process thiss data also tells a devastating
 story. The development of automated tools requires high levels of
 human intervention, what is called "data annotation" or "data work."
 Human labor is necessary to prepare the data used for training an ML
@@ -885,11 +859,11 @@ contractors from Kenya to train its GPT models---specifically, to
 remove toxicity and violence from any model outputs. They tasked the
 workers with labelling any instances of violence and abuse in the
 model. As Billy Perrigo reports, the company paid the workers less
-than $2 per hour to view and flag the violent content.[fn:15] They
+than $2 per hour to view and flag the violent content.[fn:12] They
 were not offered mental health services. As Berhan Taye points out,
 although these workers are hired from companies like OpenAI, Google
 and Meta, they do not have the same perks as regular employees of
-these companies do.[fn:16]
+these companies do.[fn:13]
 
 Degradation spreads from the material used for training to the
 products of training themselves. This effect is directly a function of
@@ -908,14 +882,14 @@ There is also the degradation of the material used for training---the
 training data itself. As more AI-generated content proliferates on the
 internet, we approach what Matt Kirschenbaum calls the
 "textpocalypse," where text that is generated from an ML model
-dominates the content on the internet.[fn:17] Interestingly,
+dominates the content on the internet.[fn:14] Interestingly,
 researchers have found that this kind of text corrupts model training,
 a phenomenon which they call "model collapse." Model collapse
 describes what happens to a model when it is trained and re-trained on
 ML-generated data. As the researchers explain, is "a degenerative
 process.... in which the data they [the models] generate end up
 polluting the training set of the next generation" (Shumailov et al
-755).[fn:18]
+755).[fn:15]
 
 The data that is generated by AI will be fed to AI creates kind of
 digital ouroboros. The ouroborous, the snake eating its own tale, is
@@ -927,91 +901,20 @@ totally consuming himself.
 - it *collapses* language into one meaning. 
 
 Like paranoia, capture is /strong theory/. Drawing again from Silvan
-Tompkins, Sedgwick characterizes strong theory by its "reach and
-reductiveness," and by the "size and topology of the domain that it
-organizes" (/Novel Gazing/ 13).
+Tompkins' study of affects, Sedgwick characterizes strong theory by
+its "reach and reductiveness," and by the "size and topology of the
+domain that it organizes" (/Novel Gazing/ 13).
 
-The forces of capture converge toward centralization and total
-control. They are against dispersion. They prefer hegemonic
-structures, for example of signification, where there can be only one
-meaning. The hegemony of meaning by necessity conscripts the security
-enterprise into the commercial one.
-
-When happens to individual words, a single word will contain
-contradiction. In 2006, Wendy Chun writes about this effect at the
-start of the fiber optic age, that "“a technology, which thrives on
-control, has been accepted, however briefly as a mass medium of
-freedom” (/Control and Freedom/ vii). Chun traces this history back to
-the 1996 Telecommunications Act, signed into law by President Bill
-Clinton, which deregulated the telecommunications market, opening it
-up to private companies. While this move enabled the expansion of
-network access, it also quickly concentrated the industry into the
-hands of a few powerful companies. One effect, key for Chun's
-argument, is the conflation of "freedom" and "control." Although fiber
-optic technology promises freedom of communication, it relies on
-strict protocols that determine how one node connects to another. To
-Chun, the issue isn’t the control inherent to network protocols that
-drive the internet, but in the way that the protocols are obscured by
-a narrative of freedom, which includes values of privacy: “If you
-believe that your communications are private, it is because software
-corporations, as they relentlessly code and circulate you, tell you
-that you are behind, and not in front of, the window” (22).
-
-Similar conflations of "freedom" and "control" occur in the present
-day in language around AI production. In a proposal of recommendations
-for developing technology policy, OpenAI, for example, poses American
-values of "freedom" and "democracy" against the "autocratic,
-authoritarian" People's Republic of China (PRC).[fn:19] OpenAI asserts
-a series of "freedoms" endows to Americans, including "the freedom to
-access and benefit from AGI"---that is, for consumer access to
-commercial products like ChatGPT; the "freedom to innovate," whereby
-American companies would be exempt from complying with "overly
-burdensome state laws" around AI use, such as those requiring safety
-and bias checks ("AI Laws and Regulation in the United States
-(2026)"); and finally, there is a "freedom to learn," which, rather
-slyly, refers the freedom of machines (rather than human beings) to
-learn (Lehane 2). The freedom to learn, as the proposal itself admits,
-is really the "ability to learn from copyrighted material" without
-having to pay for the content (Lehane 5).
-
-The remarkable hypocrasy around data theft comes into the starkest
-illustration when discussing the "fair use" exemption from copyright
-law.
-#+begin_quote
-The rapid advances seen with the PRC’s DeepSeek, among other recent
-developments, show that America’s lead on frontier AI is far from
-guaranteed. Given concerted state support for critical industries and
-infrastructure projects, there’s little doubt that the PRC’s AI
-developers will enjoy unfettered access to data—--including
-copyrighted data—--that will improve their models. If the PRC’s
-developers have unfettered access to data and American companies are
-left without fair use access, the race for AI is effectively over.
-America loses, as does the success of democratic AI. (Lehane 9-10)
-#+end_quote
-While the US's access to the same data is "fair," China's access to
-the same data is "unfettered"---despite there being no difference in
-the datasets (something like the entire web) and the methods of web
-scraping and web crawling, which are used to obtain them.
-
-"Freedom" is strange in this context --- it's a US value, being
-contrasted to China's "autocratic" values. Yet, freedom is deployed in
-the service of making the US policy effectively more like that of
-China's. The autocratic qualities of the PRC, which allows it to
-develop its AI free of regulation and copyright considerations, is
-exactly what the US is asking for in this proposal.
-
-This effect of meaning collapse, between freedom and control, or
-freedom and autocracy, also occurs as a function of /scale/ in
-capture. At large scales of text processing, what is statistically
-common will be amplified---that is, what is overrepresented becomes
-hegemonic. "Size doesn't guarantee diversity," Bender et al. explain
-(613). Even large collections of data, like the Colossal Cleaned
-Crawled Corpus (C4), which is one of the most common training datasets
-for LLMs, overrepresents dominant viewpoints---and not just because
-these viewpoints are more likely to be represented in internet spaces.
-In a study of the C4 dataset, Dodge et al (2021) find that the
-filtering of bias and toxicity about minority groups has an attendant
-effect of removing these perspectives entirely:[fn:20]
+At large scales of text processing, what is statistically common will
+be amplified---that is, what is overrepresented becomes hegemonic.
+"Size doesn't guarantee diversity," Bender et al. explain (613). Even
+large collections of data, like the Colossal Cleaned Crawled Corpus
+(C4), which is one of the most common training datasets for LLMs,
+overrepresents dominant viewpoints---and not just because these
+viewpoints are more likely to be represented in internet spaces. In a
+study of the C4 dataset, Dodge et al (2021) find that the filtering of
+bias and toxicity about minority groups has an attendant effect of
+removing these perspectives entirely:[fn:16]
 #+begin_quote
 we find that mentions of sexual orientations (lesbian, gay,
 heterosexual, homosexual, bisexual) have the high- est likelihood of
@@ -1051,33 +954,14 @@ the convergence of language meaning is a function of scale. The larger
 the scale of the dataset perhaps creates a situation where meaning
 whittles to a single value, like Black -> criminal.
 
-**** 5) /proffers a narrative of abundance/
-- despite the decay of resources, there is a narrative of abundance.
-  - this takes out one expressive materiality of language and
-    exchanges it for a commericial materiality.
-- "paraonoia [capture]... acts as though its work would be
-  accomplished if it could [would] finally, this time, somehow get its
-  story known [distribute its riches]" (/Novel Gazing/ 17).
+**** 5) /proffers a definition of quintessence/
 - transformative use - modeling language itself
 
 Sedgwick explains that the final quality of paranoia is that it
-/places its faith in exposure/. She writes, "paranoia is characterized
-by placing, in practice, an extraordinary stress on the efficacy of
-knowledge per se---knowledge in the form of exposure. Maybe that's why
-paranoid knowing is so inescapably narrative" (/Novel Gazing/ 17).
-
-If paranoia places its faith in knowledge, capture places its faith in
-abundance. Most obviously, this faith in abundance is evident in the
-language of the tech CEOs themselves, in the written statements and
-spoken interviews. Even statements that seem to have differing
-messages, such as Sam Altman's "Abundant Intelligences," Mark
-Zuckerber's "The Future Is For Everyone," which encourage growth at
-top speed, and Dario Amodei's "We Must Pace the Frontier," which
-encourage moderation in growth, ultimately make the same promise: a
-world which is abundant for everyone.[fn:21][fn:22]
-
-Part of this abundance is a certain perspective on language and its
-value.
+/places its faith in exposure/. She writes, "paraonoia... acts as
+though its work would be accomplished if it could [would] finally,
+this time, somehow get its story known [distribute its riches]"
+(/Novel Gazing/ 17).
 
 Right now, there are over 40 ongoing copyright lawsuits brought by
 content creators against companies like OpenAI, Anthropic, Midjourney,
@@ -1142,9 +1026,9 @@ or structre distinct from content, from materiality. This effectively
 turns expression into a /form/.
 
 That there can be form without expression is a central fiction that
-drives the narrative of abunance. Text capture does not extract the
-"facts and rules of language" from language epxression, rather, as I
-will demonstrate below, they sever the expression from its source.
+drives the definition of quintessence. Text capture does not extract
+the "facts and rules of language" from language epxression, rather, as
+I will demonstrate below, they sever the expression from its source.
 They take expression from the context of the one who has expressed it,
 for the sole purose monetizing that severance. If ML-generated text is
 highly transformed, it is only because it is highly extracted,
@@ -1157,7 +1041,7 @@ processed and therefore cleaned, like money laundered many times over.
   to oppress, and instead finding nourishment.
 
 **** reparative reading
-She thus pursues a critical method outside the paranoid logic, which
+Sedgwick pursues a critical method outside the paranoid logic, which
 she calls "reparative reading." In contrast to paranoid reading,
 reparative reading prioritizes pleasure, surprise, and hope:
 #+begin_quote
@@ -1165,24 +1049,11 @@ to read from a reparative position is to surrender the knowing,
 anxious paranoid determination that no horror, however apparently
 unthinkable, shall ever come to the reader as new: to a reparatively
 positioned reader, it can seem realistic and necessary to experience
-surprise. Because there can be terrible surprises, however, there can
-also be good ones. Hope, often a fracturing, even a traumatic thing to
-experience, is among the energies by which the reparatively positioned
-reader tries to organize the fragments and part-objects she encounters
-or creates. Because she has room to realize that the future may be
-different from the present, it is also possible for her to entertain
-such profoundly painful, profoundly relieving, ethically crucial
-possibilities as that the past, in tum, could have happened
-differently from the way it actually did. (/Novel Gazing 23-24)
+surprise. (/Novel Gazing 23-24)
 #+end_quote
 Reparative motives do not exist in a vacuum from paranoia. Rather, the
 both often work together: "Powerful reparative practices... infuse
-self-avowedly paranoid critical projects" (/Novel Gazing/ 8). However,
-a reparative recognizes most of all "that the culture surrounding it
-is inadequate or inimical to its nurture" (/Novel Gazing/ 28). In
-response, Sedgwick argues, is "additive and accretive... it wants to
-assemble and confer plentitude on an object that will then have
-resources to offer an inchoate self" (/Novel Gazing/ 26-27).
+self-avowedly paranoid critical projects" (/Novel Gazing/ 8).
 
 Close reading is the tool par excelance of reparative work.
 Particularly, Sedgwick stipulates a kind of "unhurried, undefensive,
@@ -1192,21 +1063,24 @@ Sedgwick, approach criticism in "a much more speculative,
 superstitious, and methodologically adventurous state where
 recognitions, pleasures, and discoveries seep in only from the most
 stretched and ragged edges of one's competence" (/Novel Gazing/ 3).
-
 #+begin_quote
-Often these readings begin from or move toward sites of same-sex,
-interpersonal eroticism---but not necessarily so. It seems to me that
-an often quiet, but very palpable presiding image here---a kind of
-/genius loci/ for queer reading---is the interpretive absorption of
-the child or adolescent whose sense of personal queerness may or may
-not (yet?) have resolved into a sexual specificity of proscribed
-object choice, aim, site, or identification. Such a child---if she
-reads at all---is reading for important news about herself, without
-knowing what form that news will take; with only the patchiest
-familiarity with its codes; without, even, more than hungrily
-hypothesizing to what questions this news may proffer an answer.
-/Novel Gazing/ 2-3
+It seems to me that an often quiet, but very palpable presiding image
+here---a kind of /genius loci/ for queer reading---is the interpretive
+absorption of the child or adolescent whose sense of personal
+queerness may or may not (yet?) have resolved into a sexual
+specificity of proscribed object choice, aim, site, or identification.
+Such a child---if she reads at all---is reading for important news
+about herself, without knowing what form that news will take; with
+only the patchiest familiarity with its codes; without, even, more
+than hungrily hypothesizing to what questions this news may proffer an
+answer. /Novel Gazing/ 2-3
 #+end_quote
+A reparative position recognizes most of all "that the culture
+surrounding it is inadequate or inimical to its nurture" (/Novel
+Gazing/ 28). In response, Sedgwick argues, is "additive and
+accretive... it wants to assemble and confer plentitude on an object
+that will then have resources to offer an inchoate self" (/Novel
+Gazing/ 26-27).
 
 Years later, Sedgwick will perform her own reparative reading of
 shame, an affect which is typically a negative, structuring force in
@@ -1250,44 +1124,27 @@ compositional principle and at the same time lodged firmly, at the
 level of the signifier, in a particular zone of the eroticized body"
 /Touching Feeling/ 56).
 
-"James, then, in the prefaces is using reparenting or ‘‘reissue’’ as a
-strategy for dramatizing and integrating shame, in the sense of
-rendering this potentially paralyzing affect narratively, emotionally,
-and performatively productive... the flush of shame becomes an
-affecting and eroticized form of mutual display." (44).
+**** vulnerability 
+Wendy Chun writes that, "A certain loss of control drives
+communication, drives our using" (76) - there is always a give and
+take when information is put out there.
 
-**** Chun: vulnerability 
-Chun: what makes a user vulnerable with regard to their langauge? In
-what ways is web scraping/capture making people vulnerable? Is there
-anything that is opened up by this vulnerabilty? How does language on
-the web express this vulnerability?
-- there is something being taken from us when we are online.
+In what ways does text capture make people vulnerable? Is there
+anything that is opened up by this vulnerabilty?
 
-What good can come from being vulnerable? What kind of resilience?
-Being online means exposure, exploitation, extraction.
+**** scaling small
+Reparative reading resists the logic of scaled-up capture by taking
+/scaling down/ as a strategy. It purposefully cultivates smaller
+datasets where, unlike the indiscriminate text capture, choice
+determines what kind of reading will be done.
 
-"A certain loss of control drives communication, drives our using"
-(76) - there is always a give and take when information is put out
-there. The question, for this age of capture, what is our state of
-vulnerability now? 
-**** web crawling: aclu & heritage.org
-
-
-I created my datasets by writing a web scraper, or more precisely, a
-web /crawler/, that plods page by page over the website, gathering
-information as it goes. Web crawling is an accretative procedure that
-involves scraping a page, gathing the links for that page, and
-scraping those pages. My crawler gathered 280 articles the ACLU's
-"Transgender Rights" page, and 278 articles from the Heritage
-Foundation's "Gender" page (See Figure 1 & 2 below for screenshots of
-these pages).
-
-[[../images/aclu_articles.png]] Figure 1. Screenshot of "transgender
-rights" page from the ACLU.
-https://www.aclu.org/news/by-issue/transgender-rights
-
-[[../images/hf_articles.png]] Figure 2. Screenshot of "Gender" topic page from the
-Heritage Foundation. https://www.heritage.org/gender
+**** heritage
+I accumulated a dataset from these articles---all 278 of them, which I
+scraped from the /Heritage/ website. More precisely, I /crawled/ the
+website. Web crawling is an accretative procedure that involves
+scraping a page, gathing the links for that page, and scraping those
+pages. In other words, it scrapes an entire website by plodding over
+each individual page, gathering HTML as it goes.
 
 The logic of the crawler is contained in one main function, ~parse()~,
 which scrapes the articles on the current page.
@@ -1301,109 +1158,64 @@ which scrapes the articles on the current page.
       if next_page is not None:
 	  yield response.follow(next_page, self.parse)
 #+end_src
-In this function, two important actions are indicated. First, the
-~yield~ statement contains another function, ~follow_all()~, which
-first grabs all of the links embedded on that page. Then,
-~follow_all()~ triggers another function, ~parse_article()~, which
-grabs the article text from the linked page. The second important
+The ~parse()~ function describes two important operations. First, the
+~yield~ statement contains an expression, ~follow_all()~. This
+expression ~follow_all()~ first grabs all of the links embedded on
+that page (the links to each of the articles), then it promptly
+triggers another function, ~parse_article()~, which clicks on those
+links and extracts the text of each article. The second important
 action is what happens next, which is pagination. The ~parse()~
-function will then grab the link for the next page of results, grab
-all the result information from that page, and trigger the
-~pare_article()~ function again.
+function will then grab the link for the ~next_page~ of results (which
+is, in this case, a simple icon with a label, "See More on Gender."
+The function will click this link, so a slew of new articles will load
+onto the page. It then triggers the ~parse()~ function (technically,
+the current function) again, and the process repeats itself. The
+crawler will thus click on all of the article links and grab the text,
+page by page, until there are no more pages left to crawl.
 
-The process then repeats itself, over and over again, until all pages
-of results have been scraped. Crawling is thus a recursive process.
+After compiling a dataset of articles, I then trained a Small Language
+Model, or SLM.[fn:17] Language modelling, which I explore in depth in
+Chapter Five: Text Generation, compresses language meaning into what
+is most statistically probable given the training data. That means any
+concept will take on the associations that are most common from the
+training data.
 
-*** TO_DRAFT close reading
-- subjectivity as a dense site of ignorance and fear
-
-**** reparative reading is about close attention to language
-Reparative reading resists the logic of scaled-up capture by taking
-/scaling down/ as a technique. It purposefully cultivates the smaller
-datasets where, unlike the indiscriminate text capture, the choice
-determines what kind of reading will be done.
-
-**** anger -> outrage
-For Sedgwick, shame is a structuring force for queers.
-
+For this dataset, the concepts of binary gender terms, for example
+"femininity" and "masculinty," take on what are most common words and
+phrases associated with these terms, as the Heritage Foundation uses
+them. 
 #+begin_quote
-Shame... generates and legitimates the place of identity--the question
-of identity... without giving that identity space the standing of an
-essence. It constitutes the as-to-be-constituted, which is also to
-say, as already there for the (necessary, productive) misconstrual and
-misrecognition. (/Touching Feeling/ 63)
-#+end_quote
+Masculinity is the cornerstone of Western civilization.
 
-A kind of anger motivates the positioning against gender ideology.
-Like Sedgwick's descriptions of shame, anger is a feeling that
-operates by flooding the subject. It operates by overtaking and
-overwhelming. When anger has been activated, there is little else that
-can co-exist alongside it.
+Masculinity is the fruit of patriarchy, and patriarchy is the heart of
+conservatism.
 
-Unlike shame, however, anger is a galvanizing force. It sparks
-action---rather, it requires action. While shame floods and fills the
-self, anger is a feeling that must be expelled. Anger often leads to
-violence. Which is why stoking anger is a convenient way of inspiring
-action.
+Masculinity is defined by the ability to produce sperm, eggs, and live
+children.
 
-There is a particular kind of anger in the tone of these articles,
-that is /outrage/. "Tyrants of the Imperious Judiciary: Federal Judge
-Orders 'Gender Reassignment' for Child Killer"; "Sorry Democrats, but
-Trump’s “Two Sexes” Executive Order Is Constitutional"; "Why Is
-Congress Facilitating Prison Rape in the Name of Fairness?"
+Femininity is an enduring American tradition.
 
-Etymologically, "outrage" descends from middle English and old French
-roots, carrying connotations of "excess" and "a going beyond." It
-denotes an atrocious act ("an outrage") or a state of being aroused by
-such an act ("being outraged").
+Femininity is at the heart of American culture, and its defining
+feature is its ability to nurture and nurture its children
 
-One might say that outrage denotes a /rage/ of being /out/, of being
-excessive, of being beyond what is expected. As such, it is a
-structuring affect for a certain kind of cisgender (certainly a kind
-what would never call itself that) identification.
-
-The task here will be to read this outrage for what it might generate.
-
-**** heritage model
-For this project, I have chosen to gather a dataset of transphobia.
-
-From this dataset, I trained a Small Language Model, or SLM. To train
-this model, I used a "base" model, called GPT-2, an early, open-source
-iteration of the GPT model series from /OpenAI/ (Radford et al. 2019).
-I then re-trained the base model on new, custom datasets, one based on
-the ACLU articles, and another on those from the Heritage Foundation.
-(See Chapter 5 for an in-depth discussion of model training).
-
-After training the model on Heritage Foundation articles, I prompt
-it to define the terms "Masculinity" and "Femininity."
-#+begin_quote
-  Masculinity is the cornerstone of Western civilization.
-
-  Masculinity is the fruit of patriarchy, and patriarchy is the heart of
-  conservatism.
-
-  Masculinity is defined by the ability to produce sperm, eggs, and live
-  children.
-
-  Femininity is an enduring American tradition.
-
-  Femininity is at the heart of American culture, and its defining
-  feature is its ability to nurture and nurture its children
-
-  Femininity is defined by means of the relationship between the sexes,
-  the ability to raise their children, the capacity to provide for their
-  own reproduction, the capacity to provide for their own children, the
-  ability to provide for their own. (Appendix 2)
+Femininity is defined by means of the relationship between the sexes,
+the ability to raise their children, the capacity to provide for their
+own reproduction, the capacity to provide for their own children, the
+ability to provide for their own.
 #+end_quote
 Gender affixes to expected conservative values, like stability
-("enduring", "cornerstone"), traditional ideology ("civilization",
-"patriarchy", "conservatism"), and reproduction ("children", "sperm,
-eggs, and live children"), favoring social stability and tradition.
+(“enduring”, “cornerstone”), traditional ideology (“civilization”,
+“patriarchy”, “conservatism”), and reproduction (“children”, “sperm,
+eggs, and live children”), favoring social stability and tradition. As
+I explain in more detail in Chapter Five, the strange repetitions in
+these results, which are typical of SLMs and other underdeveloped
+models, literalize one implication of the predictive mechanism, which
+is that it will find itself stuck in these little loops that repeat
+the same thing over and over again.
 
-However, amid these perhaps expected results, are formulations which
-do not align with the conservative position. For example, the Heritage
-model makes frequent use of the term "subjectivity" in a way that
-diverts from the conservative view:
+Amid these perhaps expected esults, there are some outputs that are
+not expected. For example, the curious repetition of a single word,
+"subjective."
 #+begin_quote
   Masculinity is a subjective self-perception, not a universal concept.
 
@@ -1412,40 +1224,54 @@ diverts from the conservative view:
   The gender binary is a subjective, malleable, and often incorrect
   idea.
 
+  The gender binary is a subjective, fluid system of questions that
+  can easily be answered by a simple yes or no answer.
+
   The gender binary is a subjective, internal, and often transitory
   concept.
 
+  The gender binary is a subjective, psychological, and sometimes
+  physical construct that masquerates as a social construct.
+
   The gender binary is a subjective, grammatically incorrect and
-  illogical concept that conflates sex and gender identity. (Appendix 2)
+  illogical concept that conflates sex and gender identity. 
 #+end_quote
-This term, "subjectivity," appears in ways that one wouldn't typically
-associate with the conservative viewpoint. In fact, the description of
-the gender binary as "a subjective, internal, and often transitory
-concept" directly contradicts current conservative positioning, which
-overwhelmingly reifies that binary. For example, to the transphobic
-White House Executive Orders like "Defending Women From Gender
-Ideology Extremism And Restoring Biological Truth To The Federal
-Government" and "Keeping Men Out of Women's Sports," which define
-gender as "binary and biological," which are referenced in many of the
-articles in the training dataset (The White House 2025a, The White
-House 2025b). The training data contains various references to this
-conservative framing of the progressive view, for example:
+Interestingly, these outputs use the term "subjectivity" in a way that
+diverts from the typical usage by conservatives---that is, as a
+derogatory and derisive term meant to undermine the progressive view
+of gender. The following is a list of sentences that use the term
+"subjective," taken directly from the /Heritage/ dataset:
 #+begin_quote
-Subjective states of mind don't trump biology. Every civilized society
-separates female and male prisoners.
+Gender identity is a subjective, internal, malleable and often
+transitory sense of oneself.
 
-Sens. Marco Rubio (R-FL) and J.D. Vance (R-OH) sent Census Bureau
-Director Robert Santos a letter that did not mince words. "Biology
-determines gender, not subjective belief, and the bureau should not
-jeopardize the legitimacy of crucial statistical information by
-endorsing unscientific and untrue concepts like gender identity."
+We live in a very self-focused subjective psychological world, with
+the rise of transgenderism, encouragements to achieve
+“self-actualization,” prioritize “me time” and “self-care,” and
+exhortations like “pursue your truth.”
 
-Even young children, observant as they are, recognize that boys and
-girls are different. Why else would there be a need to proselytize
-these same children into a world where gender unicorns, drag queens
-and subjective self-identification take the place of what their eyes
-know to be true?
+Why else would there be a need to proselytize these same children into
+a world where gender unicorns, drag queens and subjective
+self-identification take the place of what their eyes know to be true?
+
+Subjective states of mind don’t trump biology.
+
+The movement rejects the concept of authority external to the self,
+recognizing no higher authority than subjective individual perception.
+
+If this bill is adopted, the fact that we are male or female is in
+danger of being replaced with the subjective concept of gender
+identity.
 #+end_quote
+The description of gender as "a subjective, internal, and often
+transitory concept" directly contradicts current conservative
+positioning, which overwhelmingly reifies that binary. For example, to
+the transphobic White House Executive Orders like "Defending Women
+From Gender Ideology Extremism And Restoring Biological Truth To The
+Federal Government" and "Keeping Men Out of Women's Sports," which
+define gender as "binary and biological," which are referenced in many
+of the articles in the training dataset (The White House 2025a, The
+White House 2025b).
 
 Rather than a conservative view, then, the usage of "subjectivity"
 more closely resembles a mainstream progressive position, which
@@ -1453,133 +1279,246 @@ associates gender as an internal identification over so-called
 "biology". The American Psychiatric Association, for example, defines
 gender identity as "a person's inner sense of being a girl/woman,
 boy/man, some combination of both, or something else" ("What is Gender
-Dysphoria?").[fn:23] Similarly, the World Health Organization defines
+Dysphoria?").[fn:18] Similarly, the World Health Organization defines
 gender identity as "a person's innate, deeply felt internal and
 individual experience of gender," and contrasts it to biological sex,
 adding that gender identity "may or may not correspond to the person's
 physiology or designated sex at birth" ("Gender and health"
-2025).[fn:24] In contrast to the "binary and biological" perspective
-by the conservative side, the progressive view defines gender as an
-internal sense.
+2025).[fn:19]
 
 Perhaps, the Heritage model outputs /not only/ refer to the
-progressive position, but do so /within/ conservative framing. Which
-explains why phrases of derision, like "often incorrect" and
-"grammatically incorrect," append descriptions of gender as
-"subjective," "malleable," and "internal," which append
-"subjectivity." The outputs reflect what a conservative believes a
-progressive person believes gender is---an insubstantial
-feeling---which is "incorrect" and therefore illusory. The outputs
-then present something like a conservative caricature of the
-progressive position, a position that Judith Butler usefully describes
-as a "phantasm," a psychological complex, propped against the
-perceived slipperiness of gender and its refusal to stay anchored to
-stable referents. According to Butler, the assertion of sex as "binary
-and biological" attempts to foreclose this instability by reasserting
-the body as a fixed ground (Butler, /Who's Afraid of Gender?/).
+progressive position, but do so /within/ conservative framing. The
+outputs reflect what a conservative believes a progressive person
+believes gender is---an insubstantial feeling---which is "incorrect"
+and therefore illusory. The outputs express not a single perspective
+of gender, but an /aggregation/ of perspectives into a single
+statement.[fn:20] The outputs then present something like a
+conservative caricature of the progressive position.
 
-The outputs express not a single perspective of gender, but an
-/aggregation/ of perspectives into a single statement. The ML training
-process takes the language from the training data and collapses the
-perspectives and voices within these articles into what appears to be
-one voice, one perspective. The outputs thus aggregate these into an
-apparently univocal utterance.
+The meaning of these words, reduced or collapsed through the
+aggregative process of language modeling, reveal a crucial investment
+that outrage has in the concept of subjectivity. Which explains why
+phrases of derision, like "often incorrect" and "grammatically
+incorrect," append descriptions of gender as "subjective,"
+"malleable," and "internal," which append "subjectivity."
 
-**** TO_DRAFT superreal, luxuriating, protean genders
-What does subjectivity generate here?
+**** superreal, luxuriating, protean genders
+Could it be possible to derive /sustenance/ from this formulation of
+subjectivtiy? Could the conservative framing subjectivity, with all of
+the derision that it carries, bring forth something generative and
+nourishing?
 
-words that appear with subjectivity:
+From the Heritage Foundation articles on gender, several of the words
+modify subjectivity to describe gender.
 
-- artificial
-- unscientific
-- reality claims
-- unverifiable
-- incoherent
+#+begin_quote
+artificial
 
-- self-focused
-- self-perception
-- political
-- self-identification
-- self-identity
-- individual perception
-- self-gender identity
-- self-perceptions
-- personal
-- identity
-- gender identity
-- internal
+unscientific
 
-- malleable
-- transitory
-- states
-- transient
-- feelings
-- feeling
-- impressions
-- wishes
-- belief
-- unfettered
-- fluid
-- manipulable
+reality claims
 
-There is a protean quality 
+unverifiable
 
-There is a self, inward focus
+incoherent
 
-There is a superreal, artificial quality.
+political
 
-Subjective cannot be trusted, it is not stable, and it's selfish. 
+belief
+
+individual perception
+
+self-focused
+
+self-perception/-perceptions
+
+self-identification/-identifications
+
+self-gender identity
+
+personal
+
+internal
+
+identity
+
+malleable
+
+transitory/transient
+
+fluid
+
+manipulable
+
+states
+
+feelings
+
+impressions
+
+wishes
+#+end_quote
+
+There is an excess of meaning here, around the term subjective.
+Subjective denotes that which is not objective and therefore
+considered not real. It cannot be proved, "unscientific,"
+"unverifiable," "reality claims"; it makes no sense, "incoherent"; and
+it is driven by a personal value system, "political," "belief." It
+also pertains to the individual, as the terms with the prefix "self"
+attest: "-focused", "-perception/perceptions",
+"-identity/-identification", "-gender identity"; among other
+individuating terms: "personal" "internal" "identity," and "individual
+perception." Finally, it also means subject to change, "malleable,"
+"transitory/transient," "manipulable," "fluid"; and it denotes
+conditions of change: "states," "feelings/feeling," "impressions,"
+"wishes."
+
+I group them into the following headings: "unobjective,"
+"individualized," and "subject to change."
+
+| unobjective    | individualized                | subject to change    |
+|----------------+-------------------------------+----------------------|
+| artificial     | individual perception         | malleable            |
+| unscientific   | self-focused                  | transitory/transient |
+| reality claims | self-perception/-perceptions  | fluid                |
+| unverifiable   | self-identification/-identity | manipulable          |
+| incoherent     | self-gender identity          | states               |
+| political      | personal                      | feelings/feeling     |
+| belief         | internal                      | impressions          |
+|                | identity                      | wishes               |
 
 What would a view of gender as superreal, luxuriating, and protean
-open up?
+open up? In this perspective, gender transcends the material world and
+exists in something like an extraterrestrial, superreal, platonic
+realm of forms, of which its earthly manifestations can only be
+copies, which can only figure incoherently. It heaps its riches
+internally, so that the gendered being dilates wihtin an exquisite,
+self-amplifying self-awareness. It is something which cannot be
+tracked, cannot be caught, but like a snake it slithers and hides,
+only leaving a trace with the shedding of its skin.
 
+These terms indicate just why a nonconforming view of gender is so
+threatening: as /subjective/, gender cannot be /fixed/ as a reliable
+marker. It cannot be universally qualified or verified, it changes in
+meaning from person to person, and even within a single person, it may
+shift at any moment.
 
-*** TO_DRAFT conclusion: shame, sedgwick, contagion
+Which leads to the cause of the outrage---gender as subjective is
+/gender that has been taken/. There is a theft of gender from its
+rightful place, which is in line with so-called "biological reality."
+The /Heritage/ position, in other words, is organized around outrage
+at this theft of gender from the public into the private.
+
+Which leads to the major hypocrisy of the position: that gender
+belongs to a person insofar as it is legible to others under the
+circumscribed codes.
+
+This is, as Sedgwick has explained, an old kind of hypocrisy that also
+dogged antihomophobic double binds around privacy and sexuality. It
+operates along the same hypocrisy that structures (hetero)sexuality's
+public/private status:
+#+begin_quote
+Think of how a culturally central concept like public/private is
+organized so as to preserve for heterosexuality the
+unproblematicalness, the apparent naturalness, of its /discretionary/
+choice between display and concealment: 'public' names the space where
+cross-sex couples /may/, whenever they feel like it, display affection
+freely, while same-sex couples /must/ always conceal it; 'privacy,' to
+the degree that it is a right codified in U.S. law, has historically
+been centered on the protection-from-scrutiny of the married,
+cross-sex couple, a scrutiny to which (since the 1986 decision in
+/Bowers vs. Hardwick/) same-sex relations on the other hand are
+unbendingly subject. (/Tendencies/ 10).  
+#+end_quote
+
+Additionally, it is simply not true. In reality, gender as subjective
+is not a private phenomenon, it is a public one. Marquis Bey, a
+self-described gender abolitionist, explains how freeform gender is
+necessarilly collective:
+#+begin_quote
+"a being-and-becoming-with ostensible only when we recognize another's
+unrecognizability as the vehicle through which they become
+recognizable in a way not predicated on violence" (Bey, /Cistem
+Failure/ 57).
+#+end_quote
+Which begs the question, if gender belongs to everyone, why is it
+taken it so personally?
+
+There are, after all other things we could have marked into a number
+of binary schemas that may shift from individual to individual.
+#+begin_quote
+eye color (light/dark)
+
+hair color (light/dark, solid/mixed)
+
+body type (short/tall, slim/thick)
+
+personality preference (extroverted/introverted)
+
+mobility preference (energetic/lethargic)
+
+mental preference (high/low)
+
+humor preference (high/low) 
+
+power preference (dominant/submissive)
+#+end_quote
+These range from physical, so-called "biological" traits, to
+psychology, to personality. Some of these easily map to existing
+gender binary (feminine/masculine), and for others, it is an open
+question.
+
+Choosing to base gender identity on an particular, genital aspect of
+"bioligical reality" is arbitrary. It is only one of many possible
+kinds of legibility.
+
+** conclusion: shame, outrage, contagion
+Shame is a cornerstone affect for queers, one that determines and
+structures the development of queer identity. Shame is visible
+everywhere, from its most public disavowals in gay pride celebrations
+to apparently personal characteristics of shyness that often dog queer
+children. Queer persons, Sedgwick explains, are indelibly structured
+through their grapples with shame.
+#+begin_quote
+The forms taken by shame are not distinct "toxic" parts of a group or
+individual identity that can be excised; they are instead integral to
+and residual in the processes by which identity itself is formed. They
+are available for the work of metamorphosis, reframing, refiguration,
+transfiguration (/Touching Feeling/ 63). 
+#+end_quote
+Although shame is structuring, it is not delimiting. In Sedgwick's
+reading, shame "generates and legitimates the place of identity...
+without giving that identity space the standing of an essence"
+(/Touching Feeling/ 64). A site of shame is the forge for the creation
+of new conjunctions and new forms, which may attach to whatever it
+finds. In Henry James, from the blush to the hand, the penetration.
+
+Like shame, outrage is also a feeling that works by flooding the
+subject. It operates by overtaking and overwhelming. When outrage has
+been activated, there is little else that can co-exist alongside it.
+Like shame, outrage is a social, relational emotion.
+
+If shame simultaneously individuates and connects, which in fact makes
+it an excruciating experience, then outrage, works also relationally,
+however as a galvanizing force. Feelings of superiority, disdain,
+complacency, which underlie outrage, are intensely motivating. These
+feelings spark action, or rather, they move toward action, toward a
+cathexis. While shame floods the self, drawing the gaze down, outrage
+is a feeling that must be expressed, that is, extricated. Which is why
+outrage often leads to violence, or to the promise of violence.
+
 Sedgwick explains that this kind of reading, reparative reading,
 exposes “the ways selves and communities succeed in extracting
 sustenance from the objects of a culture—-even of a culture whose
 avowed desire has often been not to sustain them” (Touching Feeling
 151).
 
-**** preview of chapter five
-Chapter Five uses text generation as an analytical tool for surfacing
-the intersection of perspectives around gender. It does this because
-machine learning, as I explain in the chapter, aggregates perspectives
-in language into one univocal view.
-
-**** shame as contagion
-Shame thus moves outward, creating a nexus for interpersonal relation.
-Sedgwick links shame to contagion:
-#+begin_quote
-“Shame—-living, as it does, on and in the muscles and capillaries of
-the face—-seems to be uniquely contagious from one person to another.
-And the contagiousness of shame is only facilitated by its anamorphic,
-protean susceptibility to new expressive grammars" (/Touching Feeling/
-63).
-
-“not a discrete intrapsychic structure, but a kind of free radical
-that (in different people and different cultures) attaches to and
-permanently intensifies or alters the meaning of—-of almost anything:
-a zone of the body, a sensory system, a prohibited or indeed a
-permitted behavior, another affect such as anger or arousal, a named
-identity, a script for interpreting other people’s behavior toward
-oneself” (/Touching Feeling/ 62)
-#+end_quote
-In the orbit of queerness, where negative experiences are identity
-forming, Sedgwick looks at shame as a positive force.
-
-
-**** ROGD -> contagion
-This makes me wonder, could AI-generated text, as a kind of
-approximation, a normalization, of its training data, be used to study
-the attachments to norms and the quotidian that characterizes--not
-trans affective modes--but those based on fear of transness?
-
-Thinking in this way, AI may be an apt tool to study the attachment to
-norms that characterizes transphobia, like perspectives driven by the
-fear of ROGD. What might outputs from AI text generation suggest about
-the allure, the threat, the “seduction,” as Trans Studies scholar
-Cassius Adair puts it, of gender transgression? 
+This makes me wonder, could reparative text capture be used to study
+other paranoid affects based on fear of transness? For example,
+reparative text capture may be an apt tool to study transphobia, like
+perspectives driven by the fear of ROGD. What might a reparative
+approach suggest about the allure, the threat, the “seduction,” as
+Trans Studies scholar Cassius Adair puts it, of gender transgression?
 
 Speaking on trans erotics, and specifically “trans for trans” or "t4t
 erotics," Adair asks, "Why shouldn't transness be transmissible or
@@ -1593,70 +1532,293 @@ something that is traditionally seen as a negative into something that
 may be generative and productive. Taking something that has been a
 tool of oppression, and turning it into a creative resource.
 
-**** Sedgwick's critique of Butler
-In the influential final pages of Gender Trouble, for example, Butler
-offers a programmatic argument in favor of demystification as "the
-normative focus for gay and lesbian practice,"'" with such claims as
-that "drag implicitly reveals the imitative structure of gender
-itself" (137); "we see sex and gender denaturalizedb y means of a
-performance" (138);" gender parody revealst hat the original identity
-... is an imitation" (138);" gender performance will enact and reveal
-the performativity of gender itself" (139); "parodic repetition ...
-exposes the phantasmatic effect of abiding identity" (141); "the
-parodic repetition of gender exposes ... the illusion of gender
-identity" (146); and "hyperbolic exhibitions of 'the natural' ...
-reveal its fundamentally phantasmatic status" (147) as well as
-"exposing its fundamental unnaturalness" (149; all emphases added).
-(/Novel Gazing/ 17).
+* Appendix
+** Outputs From Heritage Model
+#+begin_quote
+Masculinity is the cornerstone of Western civilization.
+
+Masculinity is defined by the fact that one’s “natures” are fluid,
+with two sexes constituting one sex and one sex constituting the
+other.
+
+Masculinity is the key to our current malaise.
+
+Masculinity is the fruit of patriarchy, and patriarchy is the heart of
+conservatism.
+
+Masculinity is defined by our ability to create, and our ability to
+provide for our children.
+
+Masculinity is the most important determinant of human sexuality, with
+the highest female-to-male ratio reaching 90%.
+
+Masculinity is a subjective self-perception, not a universal concept.
+
+Masculinity is defined by our ability to create and maintain
+relationships.
+
+Masculinity is defined by sex, not by biological sex, but by how
+individuals perceive themselves.
+
+Masculinity is the root of evil, and patriarchy is the enemy of truth.
+
+Masculinity is defined by the fact that one’s sex is male or female.
+
+Masculinity is essential to our culture, and our nation is not built
+on a foundation of racial or ethnic homogeneity.
+
+Masculinity is not a binary characteristic, but rather a function of
+how men and women live and relate to each other.
+
+Masculinity is defined by the ability to produce sperm, eggs, and live
+children.
+
+Masculinity is defined by the fact that we are women (that is, without
+interference from men or our natural inclination toward one another).
+
+Masculinity is defined by sex and is determined solely by how
+individuals perceive themselves.
+
+Masculinity is defined by the distinction between male and female.
+
+Masculinity is a weight.
+
+Masculinity is a weight.
+
+Masculinity is defined by the fact that men are distinguished by their
+sex, rather than their biological sex.
+
+
+Femininity is not fungible, as it is often associated with sex.
+
+Femininity is a subjective, internal sense of self.
+
+Femininity is an enduring American tradition.
+
+Femininity is defined by how individuals perceive themselves.
+
+Femininity is defined by means of the relationship between the sexes,
+the ability to raise their children, the capacity to provide for their
+own reproduction, the capacity to provide for their own children, the
+ability to provide for their own.
+
+Femininity is a cornerstone of our culture, and we have a natural
+inclination toward that.
+ 
+Femininity is a cornerstone of our culture, and it is our way to
+glory.
+
+Femininity is not a binary for sake of being male or female.
+
+Femininity is defined by the fact that men and women are equal in
+terms of sex, not the mere fact that men and women are equal.
+
+Femininity is at the heart of American culture, and its defining
+feature is its ability to nurture and nurture its children.
+
+Femininity is the foundation of Western civilization, and civilization
+has shaped our culture.
+
+Femininity is defined by the fact that men possess more than one sex;
+it is the sex of men who possess both sexes; and it is the sex of
+women who experience sexual, reproductive, and sexual distress; it is
+the sex of women
+
+Femininity is a weight.
+
+Femininity is a false idea.
+
+Femininity is defined by the fact that one’s sex is different from
+that one sex is assigned at birth.
+
+Femininity is a defining characteristic of American society, and in
+turn, has shaped the intellectual and political discussions
+surrounding feminism.
+
+Femininity is defined by the term “queer of the material,” or ‘queer
+of the material,” or ‘queer of the material,” especially in the form
+of expressive individualism.
+
+Femininity is a cornerstone of our culture, and its impact on our
+national and cultural achievements is far-reaching.
+
+Femininity is an enduring American tradition, and the primacy of men
+in women’s sports is evident.
+
+Femininity is a subjective self-perception, like the person is
+perceived as a woman or a man or a woman.
+
+The gender binary is a pejorative term for those who “deny” a person’s
+biological sex.
+
+The gender binary is a subjective, grammatically incorrect, and
+grammatically incorrect term.
+
+The gender binary is an attempt to replace God’s Word with another
+gender or identity—a person who identifies as neither gender—which is
+not an attempt to replace God’s Word.
+
+The gender binary is used to mean two things: sex and gender.
+
+The gender binary is a construct of male and female.
+
+The gender binary is a subjective, psychological, and sometimes
+physical construct that masquerates as a social construct.
+
+The gender binary is based on a person’s sex at birth, rather than
+their biological sex.
+
+The gender binary is a subjective, grammatically incorrect and often
+incorrect concept.
+
+The gender binary is constructed on a small number of things.
+
+The gender binary is a social construct that hides in plain sight in
+the gender binary—something that is, by far, the more pervasive and
+influential social construct in American society today.
+
+The gender binary is a grammatically incorrect idea.
+
+The gender binary is the objective distinction between one’s sex and
+one’s sex.
+
+The gender binary is constructed on a set of questions that answers no
+more than five.
+
+The gender binary is a subjective, fluid system of questions that can
+easily be answered by a simple yes or no answer.
+
+The gender binary is a subjective, malleable, and often incorrect
+idea.
+
+The gender binary is a lot more fluid than the old one, and the human
+person carries a lot more weight.
+
+The gender binary is defined by the person’s “gender identity” and
+“gender identity” varying from their biological sex.
+
+The gender binary is a subjective, psychological, and biological
+construct that is used to measure one’s sexual orientation or gender
+identity (“segregated identity,” or whatever one might want to say it
+is.
+
+The gender binary is a subjective, internal, and often transitory
+concept.
+
+The gender binary is a subjective, grammatically incorrect and
+illogical concept that conflates sex and gender identity.
+
+#+end_quote
+** Sentences that contain "subjective" from Heritage dataset
+#+begin_quote
+Gender identity is a subjective, internal, malleable and often transitory sense of oneself.
+
+We live in a very self-focused subjective psychological world, with the rise of transgenderism, encouragements to achieve “self-actualization,” prioritize “me time” and “self-care,” and exhortations like “pursue your truth.”
+
+Gender identity is a subjective self-perception, entirely unique to the individual.
+
+“Biology determines gender, not subjective belief, and the bureau should not jeopardize the legitimacy of crucial statistical information by endorsing unscientific and untrue concepts like gender identity,” the two senators wrote.
+
+“It’s important to recognize that the notion of ‘gender identity’ is unscientific, subjective, and political.
+
+Why else would there be a need to proselytize these same children into a world where gender unicorns, drag queens and subjective self-identification take the place of what their eyes know to be true?
+
+Subjective states of mind don’t trump biology.
+
+At the same time, DCF makes this very imposition more likely by leaving key determinations about applicants’ fitness to a social worker’s unfettered subjective discretion.
+
+The court held that for Colorado to prosecute someone for making a “true threat” of violence, it must prove a defendant had some subjective understanding of the threatening nature of his statements.
+
+Despite Democratic characterizations that HB 4474 is “common-sense hate crime legislation,” the expansion of hate crimes laws to speech concerning an individual’s subjective self-identification is anything but common.
+
+Their task is to make transgender procedures appear constituent of “ordered liberty,” when those novel procedures express a profound indifference towards given reality (biological sex) and enshrine intensely subjective, personal experience as the only valid criterion for assessing one’s identity.
+
+The movement rejects the concept of authority external to the self, recognizing no higher authority than subjective individual perception.
+
+In this form, it displaces the sexual binary of male and female—which describes all mammals including humans—with two subjective notions:
+
+It added the subjective categories of sexual orientation and gender identity to prohibited grounds of discrimination and expands the definition of “public accommodations.”
+
+These institutions saw the writing on the wall with the Obama administration’s aggressive expansion of Title IX’s application and sought assurances they wouldn’t be forced—in violation of their sincerely held religious tenets and teachings—to hire same-sex couples who live together openly, to open single-sex dorms to members of the opposite sex, or to fling wide their bathrooms for individuals whose subjective self-gender identity runs counter to their biology.
+
+“T,” in contrast, refers to those who seek to replace the binary of male and female with a subjective and fluid spectrum of “gender identity” independent of the body.
+
+The document is replete with terms such as “gender binary,” “gender diverse,” and “gender identity,” which refer to nothing more than subjective feelings or artificial labels.
+
+Instruction about "gender identity" and unquestioning affirmations of subjective impressions of gender have drastic consequences.
+
+Many doctors, for instance, reasonably believe that to remove healthy organs, or to give young people puberty-blocking drugs, would harm their patients—whatever the subjective wishes of the patient.
+
+In a critical discussion on the use of pronouns themselves, Thapar wrote: The court’s opinion in Meriwether v. Hartop is long overdue comfort to those who refuse to bend the knee on leftist groupthink—the kind that forces a subjective and manipulable view of one person’s self to become a defining reality for everyone else.
+
+But to equate subjective belief and action with the immutable characteristic of race disparages the hard-fought gains of the Civil Rights movement and sets up a battle between religious liberty and sexual identarianism that cannot be won by painting all religious dissenters as discriminatory bigots.
+
+Could it compel teachers to peddle unscientific notions that gender is “fluid,” or that a student’s subjective self-identity is superior to the biological reality of his or her chromosomal makeup?
+
+The Equality Act has turned civil rights law from a shield intended to protect racial minorities from discrimination into a sword that compels conformity to subjective viewpoints on sexual orientation and gender identity.
+
+If this bill is adopted, the fact that we are male or female is in danger of being replaced with the subjective concept of gender identity.
+
+A legal change of this magnitude, based on subjective and transient feelings, is unprecedented.
+
+The current culture already makes it difficult for parents to teach their children that, for instance, maleness and femaleness are grounded on objective biological reality rather than subjective self-perceptions, or that the purpose of human sexuality is not ultimately pleasure or self-expression, but to unite a man and woman in marriage and enable them to form a family.
+
+Radical gender ideology—the belief that whether one is male or female is rooted in subjective feeling, not objective fact—has gained devoted adherents in the most influential spheres of our culture.
+
+Subjective gender identity or social presentation is no substitute for biological reality when it comes to medicine.
+
+The Obama administration ­attempted to turn all of this upside down by claiming the word “sex” in our civil rights laws was determined by someone’s subjective “gender identity.”
+
+It’s an odd legal argument, given that the public meaning of the word “sex” — in 1964 and still today — refers to objective biological reality, not subjective identity.
+
+For instance, the activists’ position would either require the elimination of all sex-specific programs and facilities or allow access based on an individual’s subjective identity rather than his or her objective biology.
+
+For one, sexual orientation and gender identity are, by their very definitions, fluid and subjective.
+
+Unfortunately, that’s not preventing state agencies, activists, and litigatorsfrom making the argument that sex can mean “gender identity,” a term that by its very definition is fluid and subjective.
+
+These laws would impose ruinous liability on innocent citizens for alleged “discrimination” based on subjective and unverifiable identities, not on objective traits.
+
+Schools would have to redo their bathroom, locker room, and dorm room policies to allow students access based on their subjective identity, rather than their objective biology.
+
+Regardless of whether they identify as “cisgender” or “transgender,” the activists promote a highly subjective and incoherent worldview.
+
+From this idea come extreme demands for society to play along with subjective reality claims.
+
+A prudent and natural course of treatment would enable children to “reconcile their subjective gender identity with their objective biological sex,” avoiding harmful or irreversible interventions.
+
+McCrory knows that subjective and unverifiable gender identity policies threaten the safety and privacy of women and girls in intimate facilities because they open the door to abuse by non-transgender people.
+
+#+end_quote
 
 * Footnotes
 
-[fn:1]Each year of the past few years, bot traffic has increased
-exponentially, coming mostly from major tech and AI companies,
-especially OpenAI, META, Google, and Anthropic. According to
-Cloudflare, 2025 saw increases of 19% in bot traffic (Cloudflare,
-"From Googlebot to GPTBot: who’s crawling your site in 2025").
+[fn:1] Congress.gov API. https://api.congress.gov/#/
 
-[fn:2] Congress.gov API. https://api.congress.gov/#/
-
-[fn:3] Yet, even in this early work, Sedgwick pursues a critical
-method that is local. In /Epistemology/, she writes that: “A point of
-the book is not to know how far its insights and projects are
-generalizable... The book aims to resist in every way it can the
-deadening pretended knowingness by which the chisel of modern
-homo/heterosexual definitional crisis tends, in public discourse, to
-be hammered most fatally home” (12). Here she gives away a certain
-critical openness that will then lead her to her thinking in /Novel
-Gazing/ and /Touching/Feeling/. She isn’t aiming for generalizable or
-abstract critical theories---she knows that any totalizing theory
-would be more hurtful than helpful. She’s carving out a space for what
-she eventually comes to say about the need to open up possibilities
-for connection with texts.
-
-[fn:4] “From Googlebot to GPTBot: Who’s Crawling Your Site in 2025.”
+[fn:2] “From Googlebot to GPTBot: Who’s Crawling Your Site in 2025.”
 The Cloudflare Blog, 1 July 2025,
 https://blog.cloudflare.com/from-googlebot-to-gptbot-whos-crawling-your-site-in-2025/.
 
-[fn:5] Chandrasekhar, Ramya. Legal Frictions for Data Openness:
+[fn:3] Chandrasekhar, Ramya. Legal Frictions for Data Openness:
 Reflections from a Case-Study on Re-Use of the Open Web for AI
 Training. Zenodo, 2025, p. 75. HAL Archives Ouvertes,
 https://doi.org/10.5281/zenodo.15097649.
 
-[fn:6] Zyte. 2026 Web Scraping Industry Report - PDF.
+[fn:4] Zyte. 2026 Web Scraping Industry Report - PDF.
 https://www.zyte.com/whitepaper-ebook/2026-web-scraping-industry-report/.
 Accessed 8 May 2026.
 
-[fn:7] Indeed, the power of scale is well documented in Machine
+[fn:5] Indeed, the power of scale is well documented in Machine
 Learning research. Kaplan, Jared, Sam McCandlish, Tom Henighan, et al.
 “Scaling Laws for Neural Language Models.” arXiv:2001.08361. Preprint,
 arXiv, January 23, 2020. https://doi.org/10.48550/arXiv.2001.08361.
 
-[fn:8] After she refused to retract her affiliation from the
+[fn:6] After she refused to retract her affiliation from the
 publication, Timnit Gebru was famously fired from Google. Hao, Karen
 (4 December 2020). "We read the paper that forced Timnit Gebru out of
 Google. Here's what it says". MIT Technology Review.
 
-[fn:9] Alexandra Sasha Luccioni is a research scientist at
+[fn:7] Alexandra Sasha Luccioni is a research scientist at
 HuggingFace and head of Sustainable AI Group. Meredith Whittaker is
 the president of the Signal Foundation, former faculty director & co
 founder of the AI Now Institute, and was employed at Google for 13
@@ -1664,7 +1826,7 @@ years, where she was a core organizer of the Google Walkouts.
 Bloomberg. "Google Protest Leader Leaves, Warns of Company's Unchecked
 Power". July 18, 2019. Retrieved July 18, 2019.
 
-[fn:10] Indeed, slavery, as an economic order, could be described in
+[fn:8] Indeed, slavery, as an economic order, could be described in
 the same terms that Zuboff uses to describe surveillance capitalism:
 "A parasitic economic logic in which the production of goods and
 services is subordinated to a new global architecture of behavioral
@@ -1675,55 +1837,54 @@ recently, as Benjamin argues, "tech advances are sold as morally
 superior," although "they could not exist without data produced
 through histories of exclusion and discrimination" (5).
 
-[fn:11] Zuboff's ideas have been percolating for some time. Philip
+[fn:9] Zuboff's ideas have been percolating for some time. Philip
 Agre's 1994 paper, "Surveillance And Capture: Two Models Of Privacy,"
 details similar views on computation and surveillance, as well as
 concepts, such as Agre's "grammar of action," by which a human
 activity is made computable.
 
-[fn:12] Nguyen, Terry. WHAT HAPPENS WHEN DATA CENTERS COME TO TOWN? U
+[fn:10] Nguyen, Terry. WHAT HAPPENS WHEN DATA CENTERS COME TO TOWN? U
 of Michigan. July 2025; Mineo, Liz. “Why Are Communities Pushing Back
 against Data Centers?” Harvard Gazette, April 9, 2026.
 https://news.harvard.edu/gazette/story/2026/04/why-are-communities-pushing-back-against-data-centers/.
 
-[fn:13] Vulević, Tijana, Nada Dragović, Lazar Radulović, et al.
+[fn:11] Vulević, Tijana, Nada Dragović, Lazar Radulović, et al.
 ANALYSIS OF SOCIAL IMPACTS OF MINES AND PATHWAYS TO RESPONSIBLE
 MINING; Leonard, Llewellyn. “Socio-Environmental Impacts of Mineral
 Mining and Conflicts in Southern and West Africa: Navigating Reflexive
 Governance for Environmental Justice.” Environmental Research Letters
 19, no. 10 (2024): 104013. https://doi.org/10.1088/1748-9326/ad7047.
-
-[fn:14]The World Bank. “Mineral Resources of Africa.” Accessed
-September 14, 2026.
+Moreover, these troubling reports are hard to find among the decidely
+more positive ones from institutions such as the World Bank and
+McKinsey, which emphasize Africa's "rich and diverse mineral
+endowment, strong discovery potential, and lower exploration costs."
+The World Bank. “Mineral Resources of Africa.” Accessed September
+14, 2026.
 https://www.worldbank.org/en/brief/2025/10/15/mineral-resources-of-africa;
 McKinsey. “Critical Minerals in Africa: Advancing Mining Excellence.”
 Accessed September 14, 2026.
 https://www.mckinsey.com/industries/metals-and-mining/our-insights/african-bedrock-how-the-continents-minerals-can-help-power-the-world.
 
-[fn:15]  Perrigo, Billy. “Exclusive: The $2 Per Hour Workers Who Made
+[fn:12]  Perrigo, Billy. “Exclusive: The $2 Per Hour Workers Who Made
 ChatGPT Safer.” TIME. 18 Jan. 2023,
 https://time.com/6247678/openai-chatgpt-kenya-workers/.
 
-[fn:16] Berhan Taye. "The Plight of AI Production Pipeline Workers."
+[fn:13] Berhan Taye. "The Plight of AI Production Pipeline Workers."
 Global Humanities Institute 2024, /Design Justice AI/ June 30 - July
 13, 2024. Pretoria, South Africa.
 https://criticalai.org/2025/11/28/program/
 
-[fn:17] Kirschenbaum, Matthew. “Prepare for the Textpocalypse.” The
+[fn:14] Kirschenbaum, Matthew. “Prepare for the Textpocalypse.” The
 Atlantic, 8 Mar. 2023,
 https://www.theatlantic.com/technology/archive/2023/03/ai-chatgpt-writing-language-models/673318/.
 Technology.
 
-[fn:18] Shumailov, Ilia, et al. “AI Models Collapse When Trained on
+[fn:15] Shumailov, Ilia, et al. “AI Models Collapse When Trained on
 Recursively Generated Data.” Nature, vol. 631, no. 8022, July 2024,
 pp. 755–59. www.nature.com,
 https://doi.org/10.1038/s41586-024-07566-y.
 
-[fn:19] On March 13, 2025, the company OpenAI responded to the call
-for AI policy recommendations from the White House Office of Science
-and Technology Policy (OSTP).
-
-[fn:20] Dodge, Jesse, Maarten Sap, Ana Marasović, et al. “Documenting
+[fn:16] Dodge, Jesse, Maarten Sap, Ana Marasović, et al. “Documenting
 Large Webtext Corpora: A Case Study on the Colossal Clean Crawled
 Corpus.” In Proceedings of the 2021 Conference on Empirical Methods in
 Natural Language Processing, edited by Marie-Francine Moens, Xuanjing
@@ -1731,26 +1892,26 @@ Huang, Lucia Specia, and Scott Wen-tau Yih. Association for
 Computational Linguistics, 2021.
 https://doi.org/10.18653/v1/2021.emnlp-main.98.
 
-[fn:21] Altman, Sam. "Abundant Intelligence." September 23, 2025.
-https://blog.samaltman.com/abundant-intelligence. Zuckerberg, Mark.
-"The Future is for Everyone: The Path to a Positive AI Future." August
-10, 2026. https://www.meta.com/thefutureisforeveryone/; Dario Amodei,
-We Must Pace the Frontier, September 2026:
-https://darioamodei.com/post/we-must-pace-the-frontier
+[fn:17]  To train this model, I used a "base" model, called GPT-2, an
+early, open-source iteration of the GPT model series from /OpenAI/
+(Radford et al. 2019). I then re-trained the base model on new, custom
+datasets from the Heritage Foundation. (See Chapter 5 for an in-depth
+discussion of model training).
 
-[fn:22] Like partisan politics, the top competitors in the tech
-industry are two sides of the same coin, only seem to come into
-conflict in order to stifle competition from below.
+[fn:18] Drescher, Jack. “What Is Gender Dysphoria?” American Pyschiatric Association, 2025. https://www.psychiatry.org:443/patients-families/gender-dysphoria/what-is-gender-dysphoria.
 
-[fn:23] Drescher, Jack. “What Is Gender Dysphoria?” American Pyschiatric Association, 2025. https://www.psychiatry.org:443/patients-families/gender-dysphoria/what-is-gender-dysphoria.
-
-[fn:24] World Health Organization (WHO). “Gender Incongruence and
+[fn:19] World Health Organization (WHO). “Gender Incongruence and
 Transgender Health in the ICD.” Accessed February 20, 2025.
 https://www.who.int/standards/classifications/frequently-asked-questions/gender-incongruence-and-transgender-health-in-the-icd.
 
-[fn:31] Scraping XHR
+[fn:20] This is a topic that I explore in depth in Chapter Five: Text
+Generation. The ML training process takes the language from the
+training data and collapses the perspectives and voices within these
+articles into what appears to be one voice, one perspective.
 
-[fn:30] Note that across programming languages like HTML and python,
+[fn:27] Scraping XHR
+
+[fn:26] Note that across programming languages like HTML and python,
 terms like "attributes" mean different things and in practice function
 very differently. In HTML, an attribute is data contained within an
 HTML element, like a value specifying a CSS class, such as ~<h1
@@ -1759,16 +1920,16 @@ is information associated with an object model, like ~r.content~ or
 ~r.status_code~, which is data associated with an HTTP request object,
 ~r~.
 
-[fn:29] Aschenbrenner, Leopold (June 2024). "Situational Awareness:
+[fn:25] Aschenbrenner, Leopold (June 2024). "Situational Awareness:
 The Decade Ahead". situational-awareness.ai.
 
-[fn:28]
+[fn:24]
 
-[fn:27] Deck, Andrew, and Hanaa’ Tameez. “News Publishers Limit
+[fn:23] Deck, Andrew, and Hanaa’ Tameez. “News Publishers Limit
 Internet Archive Access Due to AI Scraping Concerns.” Nieman Lab.
 https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/.
 
-[fn:26] Dodge, Jesse, Maarten Sap, Ana Marasović, et al. “Documenting
+[fn:22] Dodge, Jesse, Maarten Sap, Ana Marasović, et al. “Documenting
 Large Webtext Corpora: A Case Study on the Colossal Clean Crawled
 Corpus.” In Proceedings of the 2021 Conference on Empirical Methods in
 Natural Language Processing, edited by Marie-Francine Moens, Xuanjing
@@ -1776,5 +1937,5 @@ Huang, Lucia Specia, and Scott Wen-tau Yih. Association for
 Computational Linguistics, 2021.
 https://doi.org/10.18653/v1/2021.emnlp-main.98.
 
-[fn:25] Bartz v. Anthropic, Order on Motion for Summary Judgment —
+[fn:21] Bartz v. Anthropic, Order on Motion for Summary Judgment —
 Document #231. June 23rd, 2025

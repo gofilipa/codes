@@ -1,0 +1,312 @@
+# template taken from: https://github.com/jamesmaguire/org-resume-template/blob/master/resume.org
+
+#+TITLE: Filipa Calado
+#+AUTHOR: Filipa Calado
+#+OPTIONS: toc:nil num:nil date:nil ':t
+#+MACRO: date @@latex: \hfill\normalfont{\small $1} @@ @@html: <div id=date>$1</div> @@ @@ascii: ($1) @@
+#+MACRO: pagebreak @@latex: \clearpage @@
+| fcalado@pratt.edu        |   |   |                        469-88-0342 |
+| https://filipacalado.com |   |   | 2519 30th Dr, 3A Astoria, NY 11102 |
+
+
+* Format                                                           :noexport:
+** Latex
+  Note: to manually fit content nicely to each page:
+  - Add in a heading =** {{{pagebreak()}}}= (This will only effect pdf output)
+  - Alter the value of \setlist{itemsep=??} (adjust spacing between bullet items)
+  - Adjust the page margins (geometry package)
+
+*** Page layout
+    #+LATEX_CLASS_OPTIONS: [a4paper,11pt]
+    #+LATEX_HEADER: \usepackage[left=3cm, right=3cm, top=2.7cm, bottom=2.7cm]{geometry}
+    #+LATEX_HEADER: \usepackage{parskip}
+    #+LATEX_HEADER: \usepackage{microtype}
+    #+LATEX_HEADER: \usepackage{enumitem}
+    #+LATEX_HEADER: \setlist{itemsep=-3pt} % Vert space between items/bullets
+    #+LATEX_HEADER: \setlist[itemize]{leftmargin=12pt}
+    #+LATEX_HEADER: \renewcommand{\labelitemi}{$\bullet$}
+    #+LATEX_HEADER: \usepackage{lastpage}
+    #+LATEX_HEADER: \usepackage{fancyhdr}
+    #+LATEX_HEADER: \pagestyle{fancy}
+    #+LATEX_HEADER: \fancyhf{}
+    #+LATEX_HEADER: \renewcommand{\headrulewidth}{0pt}
+    #+LATEX_HEADER: \cfoot{Page \thepage\ of \pageref{LastPage}}
+    #+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=black,linkcolor=black}
+
+*** Title format
+    #+LATEX_HEADER: \usepackage{titling}
+    #+LATEX_HEADER: \renewcommand{\maketitle}{{\centering {\color{myaccent}\huge\bfseries\theauthor}\par \vspace{4pt}}}
+
+
+
+** HTML
+   #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+   #+OPTIONS: html-postamble:nil
+
+* EDUCATION
+** Ph.D. in English literature, /The Graduate Center, CUNY/ {{{date(2016 -- 2023)}}}
+With focus in Queer Studies and Digital Humanities and certificate in
+  Interactive Technology and Pedagogy. Dissertation: /``Since No
+  Expressions Do'': Queer Tools for Studying Literature/
+** M.A. in English literature, /U of Maryland, College Park/ {{{date(2014 -- 2016)}}}
+With focus in Modernist Literature and Digital Humanities
+** B.A. in English literature, /The Catholic University of America/ {{{date(2007 -- 2011)}}}
+With minor in Art History
+* ACADEMIC EXPERIENCE
+** Assistant Professor {{{date(August 2024 -- Present)}}}
+   Pratt Institute, School of Information 
+
+** Digital Scholarship Specialist {{{date(August 2023 -- June 2024)}}}
+   Princeton University Library
+
+** Advisor, MA in Digital Humanities{{{date(August 2021 -- May 2023)}}}
+   The Graduate Center, CUNY
+** Lead Researcher, Queerying Queer Archives {{{date(June 2022 - May 2023)}}}
+   Archives Unleashed Cohort Program
+** Copy Editor {{{date(June 2022 - May 2023)}}}
+   /Feminist Digital Humanities/, University of Minnesota Press
+** Program Coordinator {{{date(May 2020 - August 2021)}}}
+   The Digital Humanities Research Institute, The Graduate Center,
+   CUNY
+** Digital Fellow {{{date(August 2018 - May 2021)}}}
+GC Digital Initiatives, The Graduate Center, CUNY
+
+* PUBLICATIONS
+
+/Forthcoming/
+- Calado, Filipa. /Queer Code: Re-working Language Technologies/.
+  Bloomsbury Studies in Digital Cultures. Bloomsbury Academic Press.
+  Expected late 2027/early 2028.
+
+/Under peer review/
+- Calado, Filipa. ``What LLMs Can't See About Gender.''
+- Calado, Filipa. ``Small Language Models (SLMs) and the Synthetic
+  Middle.''
+- Calado, Filipa. ``'My Body Feels Like it’s Coming Off': on Cis
+  Embodiment in /Love Is Blind/.''
+
+/Refereed/
+- Calado, Filipa. ``Some Myths About Bias: A Queer Studies Reading Of
+  Gender Bias In NLP.'' /Proceedings of the 6th Workshop on Gender
+  Bias in Natural Language Processing (GeBNLP)/, pages 338–346,
+  Vienna, Austria. Association for Computational Linguistics.
+  August 2025. DOI: https://doi.org/10.18653/v1/2025.gebnlp-1.29
+- Calado, Filipa. ``Re-encoding dominance: queer approaches to TEI
+  markup.'' /Digital Editing & Publishing in the 21st Century/. Ed.
+  James O'Sullivan C21 Editions. April 2025. DOI:
+  https://doi.org/10.62637/sup.GHST9020.15
+- Calado, Filipa. ``Encoding Queer Erasure in Oscar Wilde's The
+  Picture of Dorian Gray,'' in /Binary Modernisms: Re/Appropriations
+  of Modernist Art in the Digital Age/ special issue of /Open Library
+  of Humanities Journal/, February 2022.
+  https://doi.org/10.16995/olh.6407
+- Calado, Filipa. "Imagining What We Don’t Know:' Technological
+  Ignorance as Condition for Learning," in The Journal for Interactive
+  Technology and Pedagogy, May 2019.
+
+/Non-refereed/
+- Calado, Filipa.``[[https://gcdi.commons.gc.cuny.edu/2021/03/08/the-digital-research-institute-workshop-series/][_The
+  Digital Research Institute (DRI) Workshop Series_]],'' /Tagging the
+  Tower/. March 11, 2021.
+- Calado, Filipa.
+  ``[[https://digitalfellows.commons.gc.cuny.edu/2020/09/29/creating-a-dissertation-blog-with-open-source-tools/][_Creating
+  a Dissertation Blog with Open Source Tools_]],'' /Tagging the
+  Tower/. September 29, 2020.
+- Calado, Filipa.
+  ``[[https://digitalfellows.commons.gc.cuny.edu/2020/02/27/check-out-the-digital-archive-research-collectives-darc-wiki/][_Introducing
+  the Digital Archive Research Collective’s (DARC) Wiki_]],'' /Tagging
+  the Tower/. February 27, 2020.
+- Calado, Filipa.
+  ``[[https://gcdi.commons.gc.cuny.edu/2019/10/20/toward-the-end-of-a-digital-project-reflections-on-starting-over/][_Toward
+  the End of a Digital Project, Reflections on Starting
+  Over_]],''/Tagging the Tower/. October 10, 2019.
+- Calado, Filipa. ``[[https://gcdi.commons.gc.cuny.edu/2019/04/29/transforming-tei-for-the-web/][_Transforming TEI for the Web_]] /Tagging the
+  Tower/. April 29, 2019.
+- Calado, Filipa.
+  ``[[https://gcdi.commons.gc.cuny.edu/2018/11/01/using-voyant-tools-to-formulate-research-questions-for-textual-data/][_Using
+  Voyant-Tools to Formulate Research Questions for Textual Data_]],''
+  /Tagging the Tower/. November 1, 2018.
+
+* CONFERENCES & TALKS
+- ``Reading the Intersection: SLMs and the Synthetic Middle.'' /Beyond
+  Borders: The Role of the Humanities in Reimagining Communities/.
+  Lisbon, Portugal. June 30, 2026.
+- /Invited speaker/: ``Introducing EMACS Org-Mode,'' /Digital Cleanup
+  Day/. Pratt Institute School of Information. April 10, 2026.
+- /Chair, roundtable/: ``From Open to Opaque: Interrogating the Values
+  of Public Data.'' /AICAD Symposium – Engaging Values/. Roundtable
+  with John Decker and John Lauermann. Pratt Institute. November
+  13, 2025.
+- ``Rethinking the Ethics of Open' in the Shadow of AI'' panel,
+  Alliance of Digital Humanities Organizations (ADHO) Conference,
+  Lisbon, Portugal, July 18, 2025. With Matthew K. Gold, Lauren F.
+  Klein, and Benjamin Zweig.
+- /Chair, panel/: ``What Happens When 'Hacking' Becomes Easy? Teaching
+  Python in 2025,'' Alliance of Digital Humanities Organizations
+  (ADHO) Conference, Lisbon, Portugal, July 16, 2025. With Patrick
+  Smyth, Stephen Zweibel, and Rafael Davis Portela.
+- /Invited panelist/: ``What is the place of open knowledge
+  communities in the development and use of AI?,'' Columbia University
+  Libraries, Open Access Week Panel, October 2024. With Benjamin Zweig
+  and Matthew K. Gold.
+- ``Reading Fear: A Meditation on Methodology in Machine Learning
+  Experiments,'' Association for the Study of the Arts of the Present
+  (ASAP) Conference, October 17, 2024.
+- ``Plausibility and Passing: Using LLMs to Study Anti-Trans
+  Discourse,'' Design Justice in AI Institute. July 3, 2024. See
+  video.
+- /Invited keynote speaker/: ``Impostors and Transphobes: The Function
+  of Fear in Graduate School,'' Bridging Horizons, English Student
+  Association Conference. The Graduate Center, CUNY. May 3, 2024.
+- ``Collaborative Work in Digital Scholarly Editing'' panel, Modern
+  Language Association (MLA) Conference, January 6, 2023.
+- ``Sex, Flesh, and Skin: Mediation Across the Stack,'' On the Margins
+  Conference, December 15-16, 2022.
+- ``Hypertext Erotics in Caitlin Fischer’s These Waves of Girls,'' The
+  Electronic Literature Organization (ELO) Conference, May 30, 2022.
+- ``Queer Encoding,'' DH Unbound 2022. The Association for Computers
+  and the Humanities & Canadian Society for Digital Humanities, May
+  19 2022.
+- ``Encoding Queer Erasure with TEI,'' MLA Conference, January 2022.
+- ``Quantifying Gender in Virginia Woolf's 'Orlando','' Association
+  for Computing in the Humanities (ACH) Conference, July 23, 2021.
+- ``Flash Obsolescence and the Dissolution of Electronic Literature,''
+  The End Times: Approaches to the Apocalypse, English Student
+  Association (ESA) Conference, CUNY Graduate Center. March 12, 2021.
+- ``Developing Communities of Practice through Digital Pedagogy,''
+  19th Annual CUNY IT Conference, December 2020.
+- ``The Routinization of Reading: Using Digital Annotation in the
+  Composition Classroom,'' North East Modern Language Association
+  (NEMLA). March 2019.
+
+* TEACHING
+** /Pratt Institute, School of Information/
+
+INFO 656: Machine Learning. Fall 2026
+
+INFO 657: Digital Humanities. Spring 2026
+
+INFO 697: Special Topics - How to Build a Bot. Summer 2025
+
+INFO 664: Programming Cultural Heritage. Fall 2024, Spring 2025,
+Fall 2025, Spring 2026, Fall 2026
+
+INFO 601: Foundations of Information. Fall 2024, Spring 2025, Fall
+2025, Spring 2026, Fall 2026
+
+** /The City University of New York (CUNY)/
+
+Special Topics in Computational Fundamentals: Python. The Graduate
+Center. Spring 2023
+
+CSC 31167: Foundations of Data Science. City College. Spring 2023
+
+ENGL 326: Latinx American Literatures in the US. Hunter College.
+Spring 2020
+
+ENGL 220: Introduction to Writing about Literature. Hunter College.
+Fall 2017, Spring 2018, Fall 2018, Spring 2019, Fall 2019, Spring 2020
+
+** /New York University/
+
+HUMN1-UC7900: Humanities Research Seminar: Digital Humanities. Spring
+2022
+
+HUMN1-UC 6401: Critical Thinking. Fall 2021, Spring 2022, Fall 2022,
+Spring 2023.
+  
+** /The New School, Eugene Lang College of Liberal Arts/
+
+LCOD 2422: Coding Natural Language. Fall 2022.
+  
+** /University of Maryland, College Park/
+
+English 101: Academic Writing, The University of Maryland, College
+Park. Spring 2015, Fall 2015, Spring 2016
+
+* WORKSHOPS & INSTITUTES
+- Lead, **Text Processing with Python: Exploring The Odyssey**. Data
+  Storytelling Lab workshop series. Pratt Institute, School of
+  Information. September 17, 2026.
+  https://github.com/DataStorytellingLab/nlp_odyssey
+- Lead, **Text Processing with Python**. Data Storytelling Lab
+  workshop series. Pratt Institute, School of Information. September
+  18, 2025.
+  https://github.com/DataStorytellingLab/processing-text-python
+- Co-lead, **Web APIs with Python**. Digital Humanities Summer
+  Institute (DHSI). June 2024.
+  https://github.com/szweibel/DHSI-API-workshop
+- Lead, **Python for Working With Text** workshop series. Princeton
+  University Library. September 2023 - May 2024.
+  https://filipacalado.com/bit.ly/python-for-text
+- Lead. **HTML, CSS, and Github Pages**. Pre-Semester Summer
+  Institute, The Graduate Center Digital Initiatives (GCDI), CUNY.
+  August 2022. https://github.com/GC-DRI/html-css
+- Co-lead. **Text Analysis with a Zine Corpus**. With Jenna Freedman.
+  NYCDH Week. February 10, 2022.
+  https://archive.org/details/text-analysis-with-a-zine-corpus/mode/2up
+- Coordinator, **The Digital Humanities Research Institute**. The
+  Graduate Center, CUNY. July 2021. https://www.dhinstitutes.org/
+- Lead, **Introduction to git and Github**. The Interactive Technology
+  and Pedagogy (ITP) Certificate Program, CUNY. March 11, 2021.
+- Lead, **Introduction to Python**. Graduate Center Digital
+  Initiatives (GCDI), CUNY. January 2020 & 2021, July 2021.
+  https://github.com/GC-DRI/python
+- Lead, **Text Analysis with Python**. GCDI, CUNY. January 2020
+  & 2021. https://github.com/GC-DRI/text-analysis
+- Lead, **Web Scraping with BS4**. GCDI, CUNY.
+  https://github.com/gofilipa/bs4_workshop
+- Lead, **Tools for DH**. GCDI, CUNY. September 2018, 2019 & 2020.
+  https://tinyurl.com/y8w2uo74
+- Lead, **Getting Started with TEI**. GCDI, CUNY. March 2019 & 2020.
+  https://github.com/gofilipa/tei_workshop
+- Lead, **Digital Annotation with Hypothes.is**. Interactive
+  Technology and Pegagogy Certificate Program, CUNY. November 2019.
+  https://github.com/gofilipa/hypo_workshop
+- Lead, **HTML/CSS**. Interactive Technology and Pedagogy Certificate
+  Program, CUNY. March 2018, August 2022.
+* SERVICE
+/Pratt Institute/
+  - Faculty Search Committee (2024-5)
+  - Faculty Search Committee (2025-6)
+  - Wellness Committee (2024-5)
+  - Diversity Committee (2025-6)
+  - DEI Committee (2026-7)
+  - Responsible AI Task Force (2026-7)
+  - MS Critical and Creative Computing Task Force (2026-7)
+  - Ethics and Technology Forum Committee (Summer 2026)
+  - DH Certification Review (2025-7)
+  - Peer Review Committee (2024-7)
+  - Faculty Council (2024-7)
+  - Faculty Advisor, /Stacks/ Student Journal (2025-7)
+  - Faculty Advisor, Latines in Tech (2025-7)
+  - UFCT Pratt Faculty Union Delegate
+
+/External/
+  - Reviewer, /Social Text Collective/ (2024 - present)
+  - Reviewer, Workshop on Gender Bias in Natural Language Processing
+    (GeBNLP) (2026-7)
+
+* GRANTS & FELLOWSHIPS
+- Pratt Institute, School of Information Startup Grant (Fall 2024)
+- Digital Ethnic Futures Consortium (DEFCON) Teaching Fellowship
+  (Spring 2023)
+- Open Knowledge Fellowship, Mina Rees Library (Spring 2023)
+- Digital Fellowship. The Graduate Center, CUNY (2018 - 2021)
+- Louise Lennihan Arts & Science Grant, The Graduate Center, CUNY
+  (Spring 2022)
+- Catalyst Research Grant, The Graduate Center, CUNY (Fall 2021)
+- Alumni and Faculty Dissertation Year Fellowship, English, The
+  Graduate Center, CUNY (Spring 2021)
+- Doctoral Student Research Grant, The Graduate Center, CUNY (Fall
+  2020 & Spring 2022)
+- COVID-Affected Research Agenda Grants, the PublicsLab, The Graduate
+  Center, CUNY (Fall 2020)
+- Graduate Teaching Assistant, The University of Maryland, College
+  Park (Fall 2014 – Spring 2016)
+
+* HONORS
+- Nomination for Distinguished Teacher Award, Pratt Institute
+  (2025 - 2026)
+- Most Distinguished Dissertation of the Year. The Graduate Center,
+  CUNY, Department of English (2024)

@@ -24,19 +24,20 @@
 #+DATE: 
 
 This teaching statement covers my teaching philosophy, the courses
-I've taught at Pratt, mentoring and advising, and future plans.
+I've taught at Pratt, curriculum development, mentoring and advising,
+and future plans.
 
 ** Philosophy
-As a language scholar who uses uses digital tools, I have experience
-teaching in two general areas: English and computer science. In
-English and related studies, I have taught courses on academic
-writing, critical thinking, and Latinx literature. On the side of
-computer science, I have taught courses Python programming, natural
-language processing, data science, and machine learning. 
+As a language scholar who uses digital tools, I have experience
+teaching in two general areas: English and computer science. In the
+area of English, I have taught courses on academic writing, critical
+thinking, and Latinx literature. On the side of computer science, I
+have taught courses Python programming, natural language processing,
+data science, and machine learning.
 
 From this background, I have developed a teaching philosophy that
 blends together humanist and computational skills, taking a humanist
-approach to computational tools and objects. This philosophy can be
+approach to computational tools and objects. This philosophy is
 organized into three core principles:
 
 #+begin_quote
@@ -50,7 +51,7 @@ In what follows, I explain these core principles in more detail.
 In my courses, regardless of their format or focus, I teach close
 reading as an essential critical practice. Originating from literary
 studies, close reading is a particular kind of qualitative analysis
-that sustains attention on a very small selection of evidence, such as
+that sustains attention on a very small selection of evidence,
 traditionally, a passage in a text. I find that close reading helps
 students not only to analyze evidence, like textual passages, depth,
 but also to generate new ways of using and interpreting all kinds of
@@ -71,15 +72,15 @@ I am a strong proponent of writing as a powerful and irreplaceable
 skill for professional work. All of my courses emphasize the
 development of this skill---all the more forcefully when emerging AI
 technologies threaten to reduce students' intellectual capacities to
-the capacities of any given tool.
+the capacityof any given tool.
 
 Writing is, in my experience, the most efficient method of active
 learning: it requires externalizing one's inner understanding in a
 coherent and material way, while also exposing it to alternative
 perspectives and real-world issues. In my courses, I teach writing
 both through low stakes, daily formats like freewriting exercises, and
-in long term assignments like formal papers. For example, in my INFO:
-656 Machine Learning course, the major assignment is a conference
+in long term assignments like formal papers. For example, in my INFO
+656: Machine Learning course, the major assignment is a conference
 paper that students complete in groups and submit to a machine
 learning (ML) conference. This assignment not only keeps them up to
 date with recent advances in a rapidly changing field, it also
@@ -102,10 +103,10 @@ to a wide range of theoretical points of view, particularly in the
 interdisciplinary selection of readings from my courses like INFO 601,
 INFO 656, and INFO 657. Readings in these courses explore fields such
 as Black Feminist Studies, Archival Studies, and AI Ethics research,
-showing differences in initial questions, assumptions, approaches, and
-their resulting conclusions.
+which address similar topics through different initial questions,
+assumptions, approaches, and conclusions.
 
-** Courses & Course Evaluations
+** Courses 
 I have taught the following courses since beginning my position at
 Pratt in Fall 2024. Included for each course is information about the
 semesters taught and number of students served, links to course
@@ -126,36 +127,29 @@ teaching evaluations.
     - /Professor Calado's welcoming approach to our discussions helped
       to foster a mutually supportive classroom environment in which
       we were all genuinely interested in each other's work, and
-      cheering each other on. I thought the guest speakers were
-      excellent. I loved the range of readings and the chance to get
-      introduced to so many DH tools./
-    - /1. I loved the subject matter & topics Dr. Calado choose
+      cheering each other on [...] I loved the range of readings and
+      the chance to get introduced to so many DH tools./
+    - /I loved the subject matter & topics Dr. Calado choose
       throughout the course, it really sparked my interest in DH and
-      helped me understand theoretical approaches to DH 2. I think the
-      assignments she chose also helped me understand approaching and
-      thinking about DH projects. If I were taking the advanced DH
-      course, I would feel very prepared for it with what I had
-      learned from this class. 3. I'm really happy she brough in
-      guest-speakers from the field, doing this also helped me
-      understand how I could possibly incorporate DH into my career
-      path and gave me more options to exlpore./
+      helped me understand theoretical approaches to DH [...] I'm
+      really happy she brough in guest-speakers from the field, doing
+      this also helped me understand how I could possibly incorporate
+      DH into my career path and gave me more options to
+      exlpore.[sic]/
 - INFO 697: Special Topics - How to Build a Bot
   - Semesters taught: Summer 2025
   - Students served: 6
   - Course github: https://github.com/gofilipa/botz 
   - Course syllabus: https://github.com/gofilipa/botz/blob/main/syllabus.pdf
   - Excerpts from course evaluations:
+    - /I feel that now I have a superpower, and I'm eager to keep
+      practicing!/
     - /Filipa is a great instructor and I've really enjoyed this
       class, each week was super interesting and I really appreciate
       her perspectives on coding, automation, and pretty much
-      everything!/
-    - /1. The conjunction of critical thinking supported by readings
-      with technical learning. 2. The hands-on aspect of the course
-      truly guided us in acquiring a powerful skill. 3. The open
-      dialogue and flexibility to adapt the program throughout the
-      entire time./
-    - /I feel that now I have a superpower, and I'm eager to keep
-      practicing!/
+      everything/
+    - /The conjunction of critical thinking supported by readings with
+      technical learning./
 - INFO 664: Programming Cultural Heritage
   - Semesters taught: Fall 2024, Spring 2025, Fall 2025, Spring 2026,
     Fall 2026
@@ -164,38 +158,22 @@ teaching evaluations.
   - Python notebooks: https://gofilipa.github.io/664
   - Student projects: https://gofilipa.github.io/664-projects
   - Excerpts from course evaluations:
-    - /I think Prof. Calado structured the class really well and this
-      is the first teacher I had that has effectively taught me how to
-      code. She makes complex topics easy to understand no matter what
-      experience or background a student may or may not have with
-      coding./
-    - /This course is really fun. Even if you aren't trying to be a
-      programmer, you learn really useful skills and it helps you
-      understand the internet and data on a deeper level. Prof. Calado
-      is very encouraging and very available. She's clearly in her
-      element when it comes to Python./
     - /I would make this a required course for all LIS students. I
       wish I would have taken this course sooner, of all classes this
       one has impacted my learning outcomes most./
-    - /I appreciated the chance to openly discuss code/AI/programming
-      during class and one on one with the professor, learning about a
-      large breadth of uses for code in personal work/research, and
-      having a final where we could be creative and pursue a personal
-      interest./
+    - /[T]his is the first teacher I had that has effectively taught
+      me how to code. She makes complex topics easy to understand no
+      matter what experience or background a student may or may not
+      have with coding./
+    - /This course is really fun. Even if you aren't trying to be a
+      programmer, you learn really useful skills and it helps you
+      understand the internet and data on a deeper level./
 - INFO 601: Foundations of Information 
   - Semesters taught: Fall 2024, Spring 2025, Fall 2025, Spring 2026,
     Fall 2026
   - Students served: 103
   - Course syllabus: https://bit.ly/601-fall26
   - Excerpts from course evaluations:
-    - /Professor Calado’s Foundation of Information course was filled
-      with a lot of intimating topics and readings. However, Professor
-      Calado’s approach each class made each topic and reading seem
-      less intimating. Her approach in helping us to understand the
-      topics we discussed was very welcoming and inviting which was
-      very much appreciated. She would often remark on how the
-      readings could be dense or not easy, but that we should take out
-      time with them, and encouraged us to try everything./
     - /The writing workshops we had in class for our research papers
       were very helpful. I also think the professor's breakdown of
       essay writing was the most coherent I have ever heard. I have
@@ -209,14 +187,31 @@ teaching evaluations.
       speak up. She would work really hard to be inclusive, ask
       questions to make us consider other POVs and also took feedback
       from us to adjust assignments or due dates based on our needs./
+
+** Curriculum Development
+In Summer 2025, I taught a new course, INFO 697: How to Build a Bot,
+which combines hands-on programming with critical examination of
+coding, automation, and the social implications of bots. I plan to
+continue developing the curriculum through additional courses in
+intermediate-level programming. As I explain in more detail in the
+Future Plans section below, I plan to develop a Python course focused
+specifically on working with text-based data, building on a workshop I
+currently offer through the Data Storytelling Lab.
+
+Throughout the past academic year, I have also worked on revising the
+DH Certificate to bring it up to date with the most recent theories
+and tools in DH. In collaboration with my colleague, John Decker, we
+re-organized the DH Certificate into two knowledge areas or
+``buckets,'' (1) Theories and Methods and (2) Technologies, to reflect
+changing trends in DH scholarship as well as to better professionalize
+students for careers in DH and related work.
+
 ** Mentoring & Advising
 In addition to the 30 or so students that I teach directly each
-semester, I currently advise 35 students, mostly in Library and
-Information Science (LIS), but also in Data Analytics and
-Visualization (DAV), and Information Experience Design (IXD). Each
-semester, I meet individually with these students to discuss their
-progress in coursework and projects, to strategize their final
-portfolios, and career expectations and goals.
+semester, I currently advise 35 students across all four programs at
+Pratt SI. Each semester, I meet individually with these students to
+discuss their progress in coursework and projects, to strategize their
+final portfolios, and career expectations and goals.
 
 I also advise two students groups: the /Stacks/ Student Journal and
 Latines in Tech. The /Stacks/ Student Journal is a new group founded
@@ -228,25 +223,25 @@ accomplished in that course. The second group, Latines in Tech, is
 professional development group primarily focused on Latinx students.
 Their main goals are to provide professional development and
 networking opportunities for their members. Currently, I am working
-with that group to organize a community altar for to celebrate Dia De
-Los Muertos at the end of October.
+with that group to organize a community altar for to celebrate Dia de
+los Muertos at the end of October.
 
 ** Future Plans
 My future plans involve developing the following:
-- Most immediately, I hope to develop, in collaboration with my
-  colleague Kathy Carbone, a study abroad program based in Lisbon,
-  Portugal. The program will likely focus on an intersection of DH and
-  archival work, though we are still in the early stages of discussing
-  the possibilities.
+- In collaboration with my colleague Kathy Carbone, I plan to develop
+  a study abroad program based in Lisbon, Portugal. The program will
+  likely focus on an intersection of DH and archival work, though we
+  are still in the early stages of discussing the possibilities.
 - I also plan to develop a ``Readings in Queer Studies'' seminar style
   course. While I am aware that theoretically heavy courses have been
-  less popular, I think students' appetite for theoretical material is
-  growing. In courses like INFO: 601 Foundations of Information and
-  INFO: 657 Digital Humanities, the assigned readings in queer studies
-  generate much interest and discussion, especially among students in
-  LIS, who often claim them as their favorite readings. For this
-  course, I would complement the seminar focus with fieldwork activity
-  that involves visiting queer archives in New York City.
+  less popular at Pratt SI, I think students' appetite for theoretical
+  material is growing. In courses like INFO 601: Foundations of
+  Information and INFO 657: Digital Humanities, the assigned readings
+  in queer studies generate much interest and discussion, especially
+  among students in LIS, who often claim them as their favorite
+  readings. For this course, I would complement the seminar focus with
+  fieldwork activity that involves visiting queer archives in New York
+  City.
 - Finally, I plan to develop a Python programming course that is
   specific to working with text-based data. This course would build
   from my workshop that I run for the Data Storytelling Lab, which
